@@ -6,19 +6,6 @@
           "**/*.md",
           "**/*.yml"
         ],
-<<<<<<< HEAD
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices.md"
-=======
         "src": ".",
         "dest": "api",
         "exclude": [
@@ -28,7 +15,6 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
->>>>>>> local-source-repo/main
         ]
       }
     ],
@@ -40,33 +26,13 @@
         ],
         "exclude": [
           "**/obj/**",
-<<<<<<< HEAD
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "_repo.en-us/**"
-=======
           "**/includes/**"
->>>>>>> local-source-repo/main
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-<<<<<<< HEAD
-      "breadcrumb_path": "/qsharp/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "quantum-api",
-    "markdownEngineName": "markdig"
-  }
-}
-=======
       "show_latex": true,
       "ms.prod": "quantum",
       "ms.topic": "managed-reference",
@@ -107,4 +73,3 @@
     "dest": "quantum-api"
   }
 }
->>>>>>> local-source-repo/main
