@@ -63,7 +63,7 @@
   "JoinTOCPlugin": [
     {
       "ReferenceTOC": "api/TOC.yml",
-      "ConceptualTOCUrl": "/quantum/toc.json"
+      "ConceptualTOCUrl": "azure/quantum/toc.json"
     }
   ],
   "dependent_packages": [
