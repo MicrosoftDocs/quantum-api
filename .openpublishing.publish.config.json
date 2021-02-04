@@ -63,8 +63,6 @@
   "JoinTOCPlugin": [
     {
       "ReferenceTOC": "api/TOC.yml",
-      "ConceptualTOC": "articles/TOC.yml",
-      "ReferenceTOCUrl": "/qsharp/api/toc.json",
       "ConceptualTOCUrl": "/quantum/toc.json"
     }
   ],
