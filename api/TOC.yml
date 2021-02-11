@@ -3,7 +3,7 @@
   - name: API reference
     href: index.md   
   - name: Q# libraries
-    topicHref: qsharp/index.md
+    topicHref: qsharp-libraries.md
     href: qsharp/toc.yml
   - name: .NET libraries
     items:
