@@ -11,10 +11,14 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices.md"
         ]
       }
     ],
@@ -26,7 +30,11 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
         ]
       }
     ],
@@ -43,6 +51,9 @@
       "feedback_product_url": "https://github.com/microsoft/QuantumLibraries/issues",
       "titleSuffix": "Q# reference - Microsoft Quantum"
     },
+    "breadcrumb_path": "/qsharp/breadcrumb/toc.json",
+    "extendBreadcrumb": true,
+    "feedback_system": "None",
     "fileMetadata": {
       "latex_macros": {
         "**/**.yml": {
@@ -73,3 +84,4 @@
     "dest": "quantum-api"
   }
 }
+
