@@ -6,6 +6,8 @@
           "**/*.md",
           "**/*.yml"
         ],
+        "src": ".",
+        "dest": "api",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -39,13 +41,47 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/qsharp/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "show_latex": true,
+      "ms.prod": "quantum",
+      "ms.topic": "managed-reference",
+      "ms.devlang":"qsharp",
+      "searchScope": ["quantum", "q#", "qsharp"],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "Microsoft/QuantumLibraries",
+      "feedback_product_url": "https://github.com/microsoft/QuantumLibraries/issues",
+      "titleSuffix": "Q# reference - Microsoft Quantum"
     },
-    "fileMetadata": {},
+    "breadcrumb_path": "/qsharp/breadcrumb/toc.json",
+    "extendBreadcrumb": true,
+    "feedback_system": "None",
+    "fileMetadata": {
+      "latex_macros": {
+        "**/**.yml": {
+          "ket": ["\\left| #1\\right\\rangle", 1],
+          "bra": ["\\left\\langle #1\\right|", 1],
+          "braket": [ "\\left\\langle #1 \\right\\rangle", 1 ],
+          "id": "\\mathbb{1}",
+          "boldone": "\\mathbf{1}",
+          "expect": "\\mathbb{E}",
+          "variance": "\\operatorname{Var}",
+          "defeq": "\\mathrel{:=}",
+          "dd": "\\mathrm{d}"
+        },
+        "**/**.md": {
+          "ket": ["\\left| #1\\right\\rangle", 1],
+          "bra": ["\\left\\langle #1\\right|", 1],
+          "braket": [ "\\left\\langle #1 \\right\\rangle", 1 ],
+          "id": "\\mathbb{1}",
+          "boldone": "\\mathbf{1}",
+          "expect": "\\mathbb{E}",
+          "variance": "\\operatorname{Var}",
+          "defeq": "\\mathrel{:=}",
+          "dd": "\\mathrm{d}"
+        }
+      }
+    },
     "template": [],
-    "dest": "quantum-api",
-    "markdownEngineName": "markdig"
+    "dest": "quantum-api"
   }
 }
+
