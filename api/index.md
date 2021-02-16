@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Welcome to quantum-api!
-=======
 ---
 uid: microsoft.quantum.apiref-intro
 title: Q# libraries for Microsoft Quantum
@@ -20,4 +17,3 @@ This API reference includes the Q# standard library and the three libraries buil
 - [Python libraries](https://docs.microsoft.com/python/qsharp-core/qsharp)
 
 For more information about the Q# libraries, see <xref:microsoft.quantum.libraries>.
->>>>>>> local-source-repo/main
