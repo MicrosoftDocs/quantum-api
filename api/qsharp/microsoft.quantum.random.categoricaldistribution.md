@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.Random.CategoricalDistribution
 title: CategoricalDistribution function
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/18/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: CategoricalDistribution
@@ -15,7 +15,7 @@ qsharp.summary: >-
 
 Namespace: [Microsoft.Quantum.Random](xref:Microsoft.Quantum.Random)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Microsoft.Quantum.QSharp.Foundation)
 
 
 Returns a discrete categorical distribution, in which the probabilityfor each of a finite list of given outcomes is explicitly specified.
@@ -36,3 +36,7 @@ The probabilities for each outcome from the categorical distribution.These prob
 ## Output : [DiscreteDistribution](xref:Microsoft.Quantum.Random.DiscreteDistribution)
 
 The index `i` with probability `probs[i] / sum`, where `sum` is the sumof `probs` given by `Fold(PlusD, 0.0, probs)`.
+
+## Example
+
+The following Q# code will display 0 with probability 30% and 1 withprobability 70%:```qsharplet dist = CategoricalDistribution([0.3, 0.7]);Message($"Got sample: {dist::Sample()}");```

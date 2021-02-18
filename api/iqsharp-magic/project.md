@@ -1,11 +1,11 @@
 ---
 title: '%project (magic command)'
 description: Provides the ability to view or add Q# project references.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.project
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/18/2021
+ms.topic: managed-reference
 ---
 
 <!--

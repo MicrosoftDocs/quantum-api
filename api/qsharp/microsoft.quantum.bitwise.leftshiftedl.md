@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.Bitwise.LeftShiftedL
 title: LeftShiftedL function
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/18/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
 qsharp.name: LeftShiftedL
@@ -44,4 +44,4 @@ The value of `value`, shifted left by `amount` bits.
 
 ## Remarks
 
-The following are equivalent:```Q#let c = a <<< b;let c = LeftShiftedL(a, b);```
+The following are equivalent:```qsharplet c = a <<< b;let c = LeftShiftedL(a, b);```

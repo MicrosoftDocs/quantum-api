@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.Bitwise.RightShiftedI
 title: RightShiftedI function
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/18/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
 qsharp.name: RightShiftedI
@@ -44,4 +44,4 @@ The value of `value`, shifted right by `amount` bits.
 
 ## Remarks
 
-The following are equivalent:```Q#let c = a >>> b;let c = RightShiftedI(a, b);```
+The following are equivalent:```qsharplet c = a >>> b;let c = RightShiftedI(a, b);```

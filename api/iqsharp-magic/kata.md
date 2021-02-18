@@ -1,11 +1,11 @@
 ---
 title: '%kata (magic command)'
 description: Executes a single test.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.kata
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/18/2021
+ms.topic: managed-reference
 ---
 
 <!--

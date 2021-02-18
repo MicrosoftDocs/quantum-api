@@ -2,11 +2,11 @@
 title: '%chemistry.broombridge (magic command)'
 description: Loads and returns Broombridge electronic structure problem representation
   from a given .yaml file.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.chemistry.broombridge
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/18/2021
+ms.topic: managed-reference
 ---
 
 <!--

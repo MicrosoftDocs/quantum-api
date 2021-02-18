@@ -1,5 +1,5 @@
 - href: index.md
-  name: 'IQ# magic commands'
+  name: IQ# magic commands
 - href: azure.connect.md
   name: '%azure.connect magic command'
 - href: azure.execute.md
@@ -8,6 +8,8 @@
   name: '%azure.jobs magic command'
 - href: azure.output.md
   name: '%azure.output magic command'
+- href: azure.quotas.md
+  name: '%azure.quotas magic command'
 - href: azure.status.md
   name: '%azure.status magic command'
 - href: azure.submit.md

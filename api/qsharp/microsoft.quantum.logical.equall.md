@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.Logical.EqualL
 title: EqualL function
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/18/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
 qsharp.name: EqualL
@@ -42,4 +42,4 @@ The second value to be compared.
 
 ## Remarks
 
-The following are equivalent:```Q#let cond = a == b;let cond = EqualL(a, b);```
+The following are equivalent:```qsharplet cond = a == b;let cond = EqualL(a, b);```

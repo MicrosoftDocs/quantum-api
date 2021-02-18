@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.Canon.CurriedOp
 title: CurriedOp function
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/18/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: CurriedOp
@@ -52,3 +52,9 @@ The type of the second component of a function defined on pairs.
 ## Remarks
 
 The following are equivalent:```qsharpop(x, y);let curried = CurriedOp(op);let partial = curried(x);partial(y);```
+
+## See Also
+
+- [Microsoft.Quantum.Canon.CurriedOpC](xref:Microsoft.Quantum.Canon.CurriedOpC)
+- [Microsoft.Quantum.Canon.CurriedOpA](xref:Microsoft.Quantum.Canon.CurriedOpA)
+- [Microsoft.Quantum.Canon.CurriedOpCA](xref:Microsoft.Quantum.Canon.CurriedOpCA)

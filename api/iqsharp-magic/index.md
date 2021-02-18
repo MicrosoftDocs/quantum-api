@@ -4,7 +4,7 @@ description: Lists the magic commands available in the IQ# Jupyter kernel.
 author: rmshaffer
 uid: microsoft.quantum.iqsharp.magic-ref.index
 ms.author: ryansha
-ms.date: 11/25/2020
+ms.date: 02/18/2021
 ms.topic: article
 ---
 # IQ# Magic Commands
@@ -14,6 +14,7 @@ ms.topic: article
 | [`%azure.execute`](xref:microsoft.quantum.iqsharp.magic-ref.azure.execute) | Submits a job to an Azure Quantum workspace and waits for completion. |
 | [`%azure.jobs`](xref:microsoft.quantum.iqsharp.magic-ref.azure.jobs) | Displays a list of jobs in the current Azure Quantum workspace. |
 | [`%azure.output`](xref:microsoft.quantum.iqsharp.magic-ref.azure.output) | Displays results for a job in the current Azure Quantum workspace. |
+| [`%azure.quotas`](xref:microsoft.quantum.iqsharp.magic-ref.azure.quotas) | Displays a list of quotas for the current Azure Quantum workspace. |
 | [`%azure.status`](xref:microsoft.quantum.iqsharp.magic-ref.azure.status) | Displays status for a job in the current Azure Quantum workspace. |
 | [`%azure.submit`](xref:microsoft.quantum.iqsharp.magic-ref.azure.submit) | Submits a job to an Azure Quantum workspace. |
 | [`%azure.target`](xref:microsoft.quantum.iqsharp.magic-ref.azure.target) | Sets or displays the active execution target for Q# job submission in an Azure Quantum workspace. |

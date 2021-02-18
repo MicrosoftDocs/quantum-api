@@ -2,11 +2,11 @@
 title: '%chemistry.fh.load (magic command)'
 description: Loads the fermion Hamiltonian for an electronic structure problem. The
   problem is loaded from a file or passed as an argument.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.chemistry.fh.load
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/18/2021
+ms.topic: managed-reference
 ---
 
 <!--

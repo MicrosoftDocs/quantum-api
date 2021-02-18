@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.Fact
 title: Fact function
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/18/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: Fact
@@ -13,7 +13,7 @@ qsharp.summary: Declares that a classical condition is true.
 
 Namespace: [Microsoft.Quantum.Diagnostics](xref:Microsoft.Quantum.Diagnostics)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Microsoft.Quantum.QSharp.Foundation)
 
 
 Declares that a classical condition is true.
@@ -39,6 +39,10 @@ Failure message string to be printed in the case that the classicalcondition is
 ## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
 
 
+
+## Example
+
+The following Q# snippet will fail:```qsharpFact(false, "Expected true.");```
 
 ## See Also
 

@@ -2,11 +2,11 @@
 title: '%chemistry.inputstate.load (magic command)'
 description: Loads Broombridge electronic structure problem and returns selected input
   state.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.chemistry.inputstate.load
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/18/2021
+ms.topic: managed-reference
 ---
 
 <!--

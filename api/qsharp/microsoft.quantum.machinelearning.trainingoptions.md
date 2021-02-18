@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.TrainingOptions
 title: TrainingOptions user defined type
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/18/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: TrainingOptions
@@ -57,7 +57,7 @@ A function that can be used to provide verbose feedback.
 
 ## Remarks
 
-This UDT should not be created directly, but rather should be specifiedby calling @"microsoft.quantum.machinelearning.defaulttrainingoptions"and then using the `w/` operator to override different defaults.For example, to use 100,000 measurements and at most 8 trainingepochs:```Q#let options = DefaultTrainingOptions()              w/ NMeasurements <- 100000              w/ MaxEpochs <- 8;```
+This UDT should not be created directly, but rather should be specifiedby calling @"microsoft.quantum.machinelearning.defaulttrainingoptions"and then using the `w/` operator to override different defaults.For example, to use 100,000 measurements and at most 8 trainingepochs:```qsharplet options = DefaultTrainingOptions()              w/ NMeasurements <- 100000              w/ MaxEpochs <- 8;```
 
 ## References
 
