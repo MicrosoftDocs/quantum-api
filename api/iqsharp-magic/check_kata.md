@@ -1,11 +1,11 @@
 ---
 title: '%check_kata (magic command)'
 description: Checks the reference implementation for a single kata's test.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.check_kata
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/23/2021
+ms.topic: managed-reference
 ---
 
 <!--

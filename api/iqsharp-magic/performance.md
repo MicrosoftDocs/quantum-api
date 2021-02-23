@@ -1,11 +1,11 @@
 ---
 title: '%performance (magic command)'
 description: Reports current performance metrics for this kernel.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.performance
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/23/2021
+ms.topic: managed-reference
 ---
 
 <!--
