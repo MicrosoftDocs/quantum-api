@@ -19,6 +19,8 @@ newtypes:
   uid: Microsoft.Quantum.Core.Deprecated}
 - {summary: Compiler-recognized attribute used to mark the entry point of an executable.,
   uid: Microsoft.Quantum.Core.EntryPoint}
+- {summary: 'Compiler-recognized attribute used during QIR emission to determine when
+    callables should be inlined, if possible.', uid: Microsoft.Quantum.Core.Inline}
 operations: []
 summary: This namespace includes Q# core functions and operations.
 uid: Microsoft.Quantum.Core

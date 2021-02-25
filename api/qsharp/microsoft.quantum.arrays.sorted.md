@@ -1,8 +1,8 @@
 ---
 uid: Microsoft.Quantum.Arrays.Sorted
 title: Sorted function
-ms.date: 11/25/2020 12:00:00 AM
-ms.topic: article
+ms.date: 2/23/2021 12:00:00 AM
+ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Sorted
@@ -48,6 +48,10 @@ The array to be sorted.
 
 The type of each element of `array`.
 
+## Example
+
+The following snippet sorts an array of integers to occur in ascendingorder:```qsharplet sortedArray = Sorted(LessThanOrEqualI, [3, 17, 11, -201, -11]);```
+
 ## Remarks
 
-The function `comparison` is assumed to be transitive, such thatif `comparison(a, b)` and `comparison(b, c)`, then `comparison(a, c)`is assumed. If this property does not hold, then the output of thisfunction may be incorrect.As this is a function, the results are completely determinstic, evenwhen two elements are considered equal under `comparison`;that is, when `comparison(a, b)` and `comparison(b, a)` are both `true`.In particular, the sort performed by this function is guaranteed to bestable, so that if two elements `a` and `b` occur in that order within`array` and are considered equal under `comparison`, then `a` will alsoappear before `b` in the output.For example:```Q#function LastDigitLessThanOrEqual(left : Int, right : Int) : Bool {    return LessThanOrEqualI(        left % 10, right % 10    );}function SortedByLastDigit() : Int[] {    return Sorted(LastDigitLessThanOrEqual, [3, 37, 11, 17]);}// returns [11, 3, 37, 17].```
+The function `comparison` is assumed to be transitive, such thatif `comparison(a, b)` and `comparison(b, c)`, then `comparison(a, c)`is assumed. If this property does not hold, then the output of thisfunction may be incorrect.As this is a function, the results are completely determinstic, evenwhen two elements are considered equal under `comparison`;that is, when `comparison(a, b)` and `comparison(b, a)` are both `true`.In particular, the sort performed by this function is guaranteed to bestable, so that if two elements `a` and `b` occur in that order within`array` and are considered equal under `comparison`, then `a` will alsoappear before `b` in the output.For example:```qsharpfunction LastDigitLessThanOrEqual(left : Int, right : Int) : Bool {    return LessThanOrEqualI(        left % 10, right % 10    );}function SortedByLastDigit() : Int[] {    return Sorted(LastDigitLessThanOrEqual, [3, 37, 11, 17]);}// returns [11, 3, 37, 17].```

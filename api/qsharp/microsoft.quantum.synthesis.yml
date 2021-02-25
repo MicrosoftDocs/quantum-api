@@ -3,39 +3,27 @@
 # Please do not modify this file manually, or your changes may be lost when
 # documentation is rebuilt.
 functions:
-- {summary: Decomposes a permutation on a variable, uid: Microsoft.Quantum.Synthesis.DecomposedOn}
-- {summary: 'Encode truth table in {1,-1} coding', uid: Microsoft.Quantum.Synthesis.Encoded}
-- {summary: Extends a spectrum by inverted coefficients, uid: Microsoft.Quantum.Synthesis.Extended}
-- {summary: "Computes Hadamard transform of a Boolean function in {-1,1} encoding\
-    \ using Yates's method", uid: Microsoft.Quantum.Synthesis.FastHadamardTransformed}
-- {summary: 'Constructs a MCMTMask type as a singleton array if targets is not 0,
-    otherwise returns an empty array.', uid: Microsoft.Quantum.Synthesis.GateMask}
-- {summary: Computes up to two MCMT masks to transform y to x., uid: Microsoft.Quantum.Synthesis.GateMasksForAssignment}
-- {summary: Returns all positions in which bits of an integer are set., uid: Microsoft.Quantum.Synthesis.IntegerBits}
-- {summary: Transform mask of control and target bits to a pair of control qubits
-    and target qubits, uid: Microsoft.Quantum.Synthesis.MaskToQubitsPair}
-- {summary: '{-1,1} coding of a Boolean truth value', uid: Microsoft.Quantum.Synthesis.RMEncoding}
-- {summary: "Adjusts truth table from array of Booleans according to number of variables\n\
-    A new array is returned of length `2^numVars`, possibly requiring to extend `table`'s\
-    \ size with `false` entries or truncating it to `2^numVars` elements.", uid: Microsoft.Quantum.Synthesis.SizeAdjustedTruthTable}
-- {summary: Compute gate masks to synthesize permutation., uid: Microsoft.Quantum.Synthesis.TBSMain}
-- {summary: 'Computes gate masks to transform perm[x] to x and updates the current
-    permutation.', uid: Microsoft.Quantum.Synthesis.TBSStep}
-- {summary: Collect all functions for controlled gates by folding through all variable
-    indexes, uid: Microsoft.Quantum.Synthesis.TruthTablesFromPermutation}
-- {summary: Decomposition logic for a single variable index, uid: Microsoft.Quantum.Synthesis.TruthTablesFromPermutationFolder}
-- {summary: Update an output pattern according to gate mask., uid: Microsoft.Quantum.Synthesis.UpdatedOutputPattern}
-- {summary: Update permutation based according to gate mask., uid: Microsoft.Quantum.Synthesis.UpdatedPermutation}
-- {summary: Insert a 0-bit into an integer, uid: Microsoft.Quantum.Synthesis.WithZeroInsertedAt}
+- {summary: Returns the action by conjugation of a single-qubit Clifford operator
+    on a single-qubit Pauli operator., uid: Microsoft.Quantum.Synthesis.Action1C}
+- {summary: Requires that a single-qubit Clifford operator has the expected value.,
+  uid: Microsoft.Quantum.Synthesis.EqualityFact1C}
+- {summary: Returns a representation of the identity as a single-qubit Clifford operator.,
+  uid: Microsoft.Quantum.Synthesis.Identity1C}
+- {summary: Requires that a single-qubit Clifford operator is equal to the identity.,
+  uid: Microsoft.Quantum.Synthesis.IdentityFact1C}
+- {summary: Returns the inverse of a single-qubit Clifford operators., uid: Microsoft.Quantum.Synthesis.Inverse1C}
+- {summary: Returns a representation of a single-qubit Pauli operator as a single-qubit
+    Clifford operator that acts by conjugation., uid: Microsoft.Quantum.Synthesis.PauliAsSingleQubitClifford}
+- {summary: Returns a representation of a single-qubit Clifford operator as an operation
+    acting on a single qubit., uid: Microsoft.Quantum.Synthesis.SingleQubitCliffordAsOperation}
+- {summary: Returns the product of two single-qubit Clifford operators., uid: Microsoft.Quantum.Synthesis.Times1C}
+- {summary: '', uid: Microsoft.Quantum.Synthesis._TwoLevelDecomposition}
 name: Microsoft.Quantum.Synthesis
 newtypes:
-- {summary: State during decomposition based on variable indexes, uid: Microsoft.Quantum.Synthesis.DecompositionState}
-- {summary: "A type to represent a multiple-controlled multiple-target Toffoli gate.\n\
-    The first integer is a bit mask for control lines.  Bit indexes which are set\
-    \ correspond to control line indexes.\nThe second integer is a bit mask for target\
-    \ lines.  Bit indexes which are set correspond to target line indexes.\nThe bit\
-    \ indexes of both integers must be disjoint.", uid: Microsoft.Quantum.Synthesis.MCMTMask}
+- {summary: An element of the single-qubit Clifford group., uid: Microsoft.Quantum.Synthesis.SingleQubitClifford}
 operations:
+- {summary: 'Given a single-qubit Clifford operator, applies the corresponding operation
+    to a single qubit.', uid: Microsoft.Quantum.Synthesis.Apply1C}
 - {summary: Permutes the amplitudes in a quantum state given a permutation using decomposition-based
     synthesis., uid: Microsoft.Quantum.Synthesis.ApplyPermutationUsingDecomposition}
 - {summary: Permutes the amplitudes in a quantum state given a permutation using decomposition-based
@@ -43,6 +31,8 @@ operations:
 - {summary: Permutes the amplitudes in a quantum state given a permutation using transformation-based
     synthesis., uid: Microsoft.Quantum.Synthesis.ApplyPermutationUsingTransformation}
 - {summary: '', uid: Microsoft.Quantum.Synthesis.ApplyTransposition}
+- {summary: "Applies gate defined by 2^n x 2^n unitary matrix.\nFails if matrix is\
+    \ not unitary, or has wrong size.", uid: Microsoft.Quantum.Synthesis.ApplyUnitary}
 - {summary: 'Applies the @"microsoft.quantum.intrinsic.x" operation on `target`, if
     the Boolean function `func` evaluates to true for the classical assignment in
     `controlRegister`.', uid: Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTable}

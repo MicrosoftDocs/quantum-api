@@ -1,11 +1,11 @@
 ---
 title: '%lsopen (magic command)'
 description: Lists currently opened namespaces and their aliases.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.lsopen
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/23/2021
+ms.topic: managed-reference
 ---
 
 <!--
