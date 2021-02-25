@@ -1,11 +1,11 @@
 ---
 title: '%azure.execute (magic command)'
 description: Submits a job to an Azure Quantum workspace and waits for completion.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.execute
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/23/2021
+ms.topic: managed-reference
 ---
 
 <!--

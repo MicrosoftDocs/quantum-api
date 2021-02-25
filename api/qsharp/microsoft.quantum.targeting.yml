@@ -7,6 +7,8 @@ name: Microsoft.Quantum.Targeting
 newtypes:
 - {summary: Compiler-recognized attribute used to mark a callable with the runtime
     capabilities it requires., uid: Microsoft.Quantum.Targeting.RequiresCapability}
+- {summary: Compiler-recognized attribute for usage within target-specific packages
+    to specify the name of the instruction on the target machine., uid: Microsoft.Quantum.Targeting.TargetInstruction}
 operations: []
 summary: This namespace provides functionality for targeting specific quantum processors.
 uid: Microsoft.Quantum.Targeting

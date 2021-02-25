@@ -1,11 +1,11 @@
 ---
 title: '%config (magic command)'
 description: Allows setting or querying configuration options.
-author: rmshaffer
+author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.config
-ms.author: ryansha
-ms.date: 11/25/2020
-ms.topic: article
+ms.author: anburton
+ms.date: 02/23/2021
+ms.topic: managed-reference
 ---
 
 <!--
