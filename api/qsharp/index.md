@@ -3,7 +3,7 @@ uid: microsoft.quantum.qsharplibintro
 title: Q# standard library for Microsoft Quantum
 description: Reference documentation for the Q# standard library for Microsoft Quantum
 author: bradben
-ms.author: bradben
+ms.author: v-benbra
 ms.date: 03/04/2020
 ms.topic: landing-page
 ---
