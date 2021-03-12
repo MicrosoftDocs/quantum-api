@@ -40,7 +40,7 @@
     },
     {
       "path_to_root": "articles/quantum-docs",
-      "url": "https://github.com/microsoft/quantum-docs",
+      "url": "https://github.com/microsoftdocs/quantum-docs",
       "branch": "main",
       "branch_mapping": {}
     },
