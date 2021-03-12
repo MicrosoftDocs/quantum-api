@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.GeneratorIndex
 title: GeneratorIndex user defined type
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation

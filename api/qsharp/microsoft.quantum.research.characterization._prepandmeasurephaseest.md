@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Characterization._PrepAndMeasurePhaseEst
 title: _PrepAndMeasurePhaseEst operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Characterization

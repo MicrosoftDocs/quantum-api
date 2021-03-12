@@ -4,7 +4,7 @@ description: Runs a given function or operation on the ToffoliSimulator target m
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.toffoli
 ms.author: anburton
-ms.date: 02/23/2021
+ms.date: 03/12/2021
 ms.topic: managed-reference
 ---
 

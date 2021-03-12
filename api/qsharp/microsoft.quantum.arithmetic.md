@@ -1,14 +1,16 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
-qsharp.summary: ''
+qsharp.summary: >-
+  This namespace contains functions and operations used for coherently
+  computing arithmetic.
 ---
 
 # Microsoft.Quantum.Arithmetic namespace
 
-
+This namespace contains functions and operations used for coherentlycomputing arithmetic.
 
