@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyXorInPlace
 title: ApplyXorInPlace operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -27,7 +27,7 @@ operation ApplyXorInPlace (value : Int, target : Microsoft.Quantum.Arithmetic.Li
 
 ## Description
 
-Applies `X` operations to qubits in a little-endian register based on1 bits in an integer.Let us denote `value` by a and let y be an unsigned integer encoded in `target`,then `InPlaceXorLE` performs an operation given by the following map:$\ket{y}\rightarrow \ket{y\oplus a}$ , where $\oplus$ is the bitwise exclusive OR operator.
+Applies `X` operations to qubits in a little-endian register based on1 bits in an integer.Let us denote `value` by a and let y be an unsigned integer encoded in `target`,then `ApplyXorInPlace` performs an operation given by the following map:$\ket{y}\rightarrow \ket{y\oplus a}$ , where $\oplus$ is the bitwise exclusive OR operator.
 
 ## Input
 
