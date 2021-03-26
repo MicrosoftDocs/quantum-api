@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AllowAtMostNCallsCA
 title: AllowAtMostNCallsCA operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/26/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -21,7 +21,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 Between a call to this operation and its adjoint, asserts thata given operation is called at most a certain number of times.
 
 ```qsharp
-operation AllowAtMostNCallsCA<'TInput, 'TOutput> (nTimes : Int, op : ('TInput => 'TOutput is Adj + Ctl), message : String) : Unit is Adj
+operation AllowAtMostNCallsCA<'TInput, 'TOutput> (nTimes : Int, op : ('TInput => 'TOutput), message : String) : Unit is Adj
 ```
 
 
@@ -32,7 +32,7 @@ operation AllowAtMostNCallsCA<'TInput, 'TOutput> (nTimes : Int, op : ('TInput =>
 The maximum number of times that `op` may be called.
 
 
-### op : 'TInput => 'TOutput  is Adj + Ctl
+### op : 'TInput => 'TOutput 
 
 An operation whose calls are to be restricted.
 

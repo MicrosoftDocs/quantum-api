@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubitWithinTolerance
 title: AssertQubitWithinTolerance operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/26/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -21,7 +21,7 @@ Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Micros
 Asserts that the qubit `q` is in the expected eigenstate of the Pauli Z operator up toa given tolerance.
 
 ```qsharp
-operation AssertQubitWithinTolerance (expected : Result, q : Qubit, tolerance : Double) : Unit
+operation AssertQubitWithinTolerance (expected : Result, q : Qubit, tolerance : Double) : Unit is Adj + Ctl
 ```
 
 
@@ -49,7 +49,7 @@ Tolerance on the probability of a measurement of the qubit returning the expecte
 
 ## Remarks
 
-<xref:microsoft.quantum.diagnostics.assertqubitisinstatewithintolerance> allows for assertingarbitrary qubit states rather than only $Z$ eigenstates.
+<xref:microsoft.quantum.diagnostics.assertqubitisinstatewithintolerance> allows for assertingarbitrary qubit states rather than only $Z$ eigenstates.Note that the Adjoint and Controlled versions of this operation will notcheck the condition.
 
 ## See Also
 
