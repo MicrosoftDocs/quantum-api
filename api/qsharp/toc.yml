@@ -581,6 +581,7 @@
   - {name: EqualityFactR, uid: Microsoft.Quantum.Diagnostics.EqualityFactR}
   - {name: EqualityWithinToleranceFact, uid: Microsoft.Quantum.Diagnostics.EqualityWithinToleranceFact}
   - {name: Fact, uid: Microsoft.Quantum.Diagnostics.Fact}
+  - {name: FiniteFact, uid: Microsoft.Quantum.Diagnostics.FiniteFact}
   - {name: NearEqualityFactC, uid: Microsoft.Quantum.Diagnostics.NearEqualityFactC}
   - {name: NearEqualityFactCP, uid: Microsoft.Quantum.Diagnostics.NearEqualityFactCP}
   - {name: NearEqualityFactD, uid: Microsoft.Quantum.Diagnostics.NearEqualityFactD}
@@ -866,6 +867,9 @@
   - {name: InverseModL, uid: Microsoft.Quantum.Math.InverseModL}
   - {name: IsCoprimeI, uid: Microsoft.Quantum.Math.IsCoprimeI}
   - {name: IsCoprimeL, uid: Microsoft.Quantum.Math.IsCoprimeL}
+  - {name: IsFinite, uid: Microsoft.Quantum.Math.IsFinite}
+  - {name: IsInfinite, uid: Microsoft.Quantum.Math.IsInfinite}
+  - {name: IsNaN, uid: Microsoft.Quantum.Math.IsNaN}
   - {name: Lg, uid: Microsoft.Quantum.Math.Lg}
   - {name: Log, uid: Microsoft.Quantum.Math.Log}
   - {name: Log10, uid: Microsoft.Quantum.Math.Log10}
@@ -888,6 +892,7 @@
   - {name: ModPowL, uid: Microsoft.Quantum.Math.ModPowL}
   - {name: ModulusI, uid: Microsoft.Quantum.Math.ModulusI}
   - {name: ModulusL, uid: Microsoft.Quantum.Math.ModulusL}
+  - {name: NaN, uid: Microsoft.Quantum.Math.NaN}
   - {name: NegationC, uid: Microsoft.Quantum.Math.NegationC}
   - {name: NegationCP, uid: Microsoft.Quantum.Math.NegationCP}
   - {name: NegationD, uid: Microsoft.Quantum.Math.NegationD}
@@ -1120,11 +1125,6 @@
   - {name: ApplyIfZeroA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfZeroA}
   - {name: ApplyIfZeroC, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfZeroC}
   - {name: ApplyIfZeroCA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfZeroCA}
-  - {name: Delay, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.Delay}
-  - {name: DelayA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.DelayA}
-  - {name: DelayC, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.DelayC}
-  - {name: DelayCA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.DelayCA}
-  - {name: NoOp, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.NoOp}
   name: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
   uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
 - items:

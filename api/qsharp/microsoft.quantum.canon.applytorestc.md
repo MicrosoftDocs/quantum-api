@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToRestC
 title: ApplyToRestC operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/26/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
