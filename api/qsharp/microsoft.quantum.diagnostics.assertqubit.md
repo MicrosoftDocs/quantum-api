@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubit
 title: AssertQubit operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/26/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -19,7 +19,7 @@ Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Micros
 Asserts that the qubit `q` is in the expected eigenstate of the Pauli Z operator.
 
 ```qsharp
-operation AssertQubit (expected : Result, q : Qubit) : Unit
+operation AssertQubit (expected : Result, q : Qubit) : Unit is Adj + Ctl
 ```
 
 
@@ -42,7 +42,7 @@ The qubit whose state is asserted.
 
 ## Remarks
 
-<xref:microsoft.quantum.diagnostics.assertqubitisinstatewithintolerance> allows for assertingarbitrary qubit states rather than only $Z$ eigenstates.
+<xref:microsoft.quantum.diagnostics.assertqubitisinstatewithintolerance> allows for assertingarbitrary qubit states rather than only $Z$ eigenstates.Note that the Adjoint and Controlled versions of this operation will notcheck the condition.
 
 ## See Also
 

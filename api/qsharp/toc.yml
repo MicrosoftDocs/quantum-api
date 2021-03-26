@@ -3,6 +3,53 @@
 # Please do not modify this file manually, or your changes may be lost when
 # documentation is rebuilt.
 - items:
+  - {name: Bar, uid: Bug1514.Bar}
+  - {name: Bug1514, uid: Bug1514.Bug1514}
+  - {name: Foo, uid: Bug1514.Foo}
+  name: Bug1514
+  uid: Bug1514
+- items:
+  - {name: TestDumpMachineDoesntChangeState, uid: Bug2248.TestDumpMachineDoesntChangeState}
+  name: Bug2248
+  uid: Bug2248
+- items:
+  - {name: CheckPair, uid: Bug3059.CheckPair}
+  - {name: WithDiscardedSymbols, uid: Bug3059.WithDiscardedSymbols}
+  name: Bug3059
+  uid: Bug3059
+- items:
+  - {name: ApplyWithInputTransformation, uid: Bug3758.ApplyWithInputTransformation}
+  - {name: Reverse, uid: Bug3758.Reverse}
+  - {name: TransformationReferenceForward, uid: Bug3758.TransformationReferenceForward}
+  - {name: TransformationReferenceReverse, uid: Bug3758.TransformationReferenceReverse}
+  - {name: TransformedOperation, uid: Bug3758.TransformedOperation}
+  name: Bug3758
+  uid: Bug3758
+- items:
+  - {name: Baz, uid: Foo.Bar.Baz}
+  name: Foo.Bar
+  uid: Foo.Bar
+- items:
+  - {name: Baz, uid: FooBar.Baz}
+  name: FooBar
+  uid: FooBar
+- items:
+  - {name: ReturnZero, uid: Issue46.ReturnZero}
+  name: Issue46
+  uid: Issue46
+- items:
+  - {name: AssertBuggyReturn, uid: Issue76.AssertBuggyReturn}
+  - {name: BuggyReturn, uid: Issue76.BuggyReturn}
+  name: Issue76
+  uid: Issue76
+- items:
+  - {name: AndTestHelper, uid: Microsoft.Quantum.ANDTests.AndTestHelper}
+  - {name: ApplyAndTest, uid: Microsoft.Quantum.ANDTests.ApplyAndTest}
+  - {name: ControlledAndTestHelper, uid: Microsoft.Quantum.ANDTests.ControlledAndTestHelper}
+  - {name: ControlledApplyAndTest, uid: Microsoft.Quantum.ANDTests.ControlledApplyAndTest}
+  name: Microsoft.Quantum.ANDTests
+  uid: Microsoft.Quantum.ANDTests
+- items:
   - {name: AmpAmpByOracle, uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpByOracle}
   - {name: AmpAmpByOraclePhases, uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpByOraclePhases}
   - {name: AmpAmpByReflectionPhases, uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpByReflectionPhases}
@@ -71,6 +118,7 @@
   - {name: EvaluatePolynomialFxP, uid: Microsoft.Quantum.Arithmetic.EvaluatePolynomialFxP}
   - {name: FixedPoint, uid: Microsoft.Quantum.Arithmetic.FixedPoint}
   - {name: GreaterThan, uid: Microsoft.Quantum.Arithmetic.GreaterThan}
+  - {name: GreaterThanExhaustiveTestReversible, uid: Microsoft.Quantum.Arithmetic.GreaterThanExhaustiveTestReversible}
   - {name: IdenticalFormatFactFxP, uid: Microsoft.Quantum.Arithmetic.IdenticalFormatFactFxP}
   - {name: IdenticalPointPosFactFxP, uid: Microsoft.Quantum.Arithmetic.IdenticalPointPosFactFxP}
   - {name: IncrementByInteger, uid: Microsoft.Quantum.Arithmetic.IncrementByInteger}
@@ -101,9 +149,19 @@
   - {name: ReversedOpLEC, uid: Microsoft.Quantum.Arithmetic.ReversedOpLEC}
   - {name: ReversedOpLECA, uid: Microsoft.Quantum.Arithmetic.ReversedOpLECA}
   - {name: RippleCarryAdderCDKM, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderCDKM}
+  - {name: RippleCarryAdderCDKMExhaustiveTestReversible, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderCDKMExhaustiveTestReversible}
+  - {name: RippleCarryAdderCDKMTestReversible, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderCDKMTestReversible}
   - {name: RippleCarryAdderD, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderD}
+  - {name: RippleCarryAdderDExhaustiveTestReversible, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderDExhaustiveTestReversible}
+  - {name: RippleCarryAdderDTest, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderDTest}
+  - {name: RippleCarryAdderDTestReversible, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderDTestReversible}
   - {name: RippleCarryAdderNoCarryTTK, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderNoCarryTTK}
+  - {name: RippleCarryAdderNoCarryTTKExhaustiveTest, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderNoCarryTTKExhaustiveTest}
+  - {name: RippleCarryAdderNoCarryTTKExhaustiveTestReversible, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderNoCarryTTKExhaustiveTestReversible}
+  - {name: RippleCarryAdderNoCarryTTKTestReversible, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderNoCarryTTKTestReversible}
   - {name: RippleCarryAdderTTK, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderTTK}
+  - {name: RippleCarryAdderTTKExhaustiveTest, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderTTKExhaustiveTest}
+  - {name: RippleCarryAdderTTKExhaustiveTestReversible, uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderTTKExhaustiveTestReversible}
   - {name: SignedLittleEndian, uid: Microsoft.Quantum.Arithmetic.SignedLittleEndian}
   - {name: SquareFxP, uid: Microsoft.Quantum.Arithmetic.SquareFxP}
   - {name: SquareI, uid: Microsoft.Quantum.Arithmetic.SquareI}
@@ -112,18 +170,35 @@
   name: Microsoft.Quantum.Arithmetic
   uid: Microsoft.Quantum.Arithmetic
 - items:
+  - {name: CheckApplyXorInPlace, uid: Microsoft.Quantum.ArithmeticTests.CheckApplyXorInPlace}
+  - {name: CheckIncrementByInteger, uid: Microsoft.Quantum.ArithmeticTests.CheckIncrementByInteger}
+  - {name: CheckIncrementByModularInteger, uid: Microsoft.Quantum.ArithmeticTests.CheckIncrementByModularInteger}
+  - {name: CheckMultiplyAndAddByModularInteger, uid: Microsoft.Quantum.ArithmeticTests.CheckMultiplyAndAddByModularInteger}
+  - {name: CheckMultiplyByModularInteger, uid: Microsoft.Quantum.ArithmeticTests.CheckMultiplyByModularInteger}
+  - {name: InPlaceXorTestHelper, uid: Microsoft.Quantum.ArithmeticTests.InPlaceXorTestHelper}
+  - {name: IncrementByIntegerTestHelper, uid: Microsoft.Quantum.ArithmeticTests.IncrementByIntegerTestHelper}
+  - {name: IncrementByModularIntegerHelper, uid: Microsoft.Quantum.ArithmeticTests.IncrementByModularIntegerHelper}
+  - {name: MultiplyAndAddByModularIntegerTestHelper, uid: Microsoft.Quantum.ArithmeticTests.MultiplyAndAddByModularIntegerTestHelper}
+  - {name: MultiplyByModularIntegerTestHelper, uid: Microsoft.Quantum.ArithmeticTests.MultiplyByModularIntegerTestHelper}
+  name: Microsoft.Quantum.ArithmeticTests
+  uid: Microsoft.Quantum.ArithmeticTests
+- items:
   - {name: All, uid: Microsoft.Quantum.Arrays.All}
   - {name: Any, uid: Microsoft.Quantum.Arrays.Any}
+  - {name: CheckDrawMany, uid: Microsoft.Quantum.Arrays.CheckDrawMany}
+  - {name: CheckRandomArraysAreSortedWhenSorted, uid: Microsoft.Quantum.Arrays.CheckRandomArraysAreSortedWhenSorted}
   - {name: Chunks, uid: Microsoft.Quantum.Arrays.Chunks}
   - {name: ColumnAt, uid: Microsoft.Quantum.Arrays.ColumnAt}
   - {name: ConstantArray, uid: Microsoft.Quantum.Arrays.ConstantArray}
   - {name: Count, uid: Microsoft.Quantum.Arrays.Count}
   - {name: CumulativeFolded, uid: Microsoft.Quantum.Arrays.CumulativeFolded}
   - {name: Diagonal, uid: Microsoft.Quantum.Arrays.Diagonal}
+  - {name: DoublesAreSorted, uid: Microsoft.Quantum.Arrays.DoublesAreSorted}
   - {name: DrawMany, uid: Microsoft.Quantum.Arrays.DrawMany}
   - {name: ElementAt, uid: Microsoft.Quantum.Arrays.ElementAt}
   - {name: ElementsAt, uid: Microsoft.Quantum.Arrays.ElementsAt}
   - {name: EmptyArray, uid: Microsoft.Quantum.Arrays.EmptyArray}
+  - {name: EmptyArraysAreEmpty, uid: Microsoft.Quantum.Arrays.EmptyArraysAreEmpty}
   - {name: Enumerated, uid: Microsoft.Quantum.Arrays.Enumerated}
   - {name: EqualA, uid: Microsoft.Quantum.Arrays.EqualA}
   - {name: Exclude, uid: Microsoft.Quantum.Arrays.Exclude}
@@ -138,9 +213,12 @@
   - {name: IndexOf, uid: Microsoft.Quantum.Arrays.IndexOf}
   - {name: IndexRange, uid: Microsoft.Quantum.Arrays.IndexRange}
   - {name: Interleaved, uid: Microsoft.Quantum.Arrays.Interleaved}
+  - {name: IntsAreNotSorted, uid: Microsoft.Quantum.Arrays.IntsAreNotSorted}
+  - {name: IntsAreSorted, uid: Microsoft.Quantum.Arrays.IntsAreSorted}
   - {name: IsEmpty, uid: Microsoft.Quantum.Arrays.IsEmpty}
   - {name: IsPermutation, uid: Microsoft.Quantum.Arrays.IsPermutation}
   - {name: IsSorted, uid: Microsoft.Quantum.Arrays.IsSorted}
+  - {name: LexographicSortIsCorrect, uid: Microsoft.Quantum.Arrays.LexographicSortIsCorrect}
   - {name: LookupFunction, uid: Microsoft.Quantum.Arrays.LookupFunction}
   - {name: Mapped, uid: Microsoft.Quantum.Arrays.Mapped}
   - {name: MappedByIndex, uid: Microsoft.Quantum.Arrays.MappedByIndex}
@@ -156,6 +234,8 @@
   - {name: SequenceI, uid: Microsoft.Quantum.Arrays.SequenceI}
   - {name: SequenceL, uid: Microsoft.Quantum.Arrays.SequenceL}
   - {name: Sorted, uid: Microsoft.Quantum.Arrays.Sorted}
+  - {name: SortedDoublesAreSorted, uid: Microsoft.Quantum.Arrays.SortedDoublesAreSorted}
+  - {name: SortedIntsAreSorted, uid: Microsoft.Quantum.Arrays.SortedIntsAreSorted}
   - {name: SquareArrayFact, uid: Microsoft.Quantum.Arrays.SquareArrayFact}
   - {name: Subarray, uid: Microsoft.Quantum.Arrays.Subarray}
   - {name: Swapped, uid: Microsoft.Quantum.Arrays.Swapped}
@@ -163,6 +243,8 @@
   - {name: Transposed, uid: Microsoft.Quantum.Arrays.Transposed}
   - {name: TupleArrayAsNestedArray, uid: Microsoft.Quantum.Arrays.TupleArrayAsNestedArray}
   - {name: Unique, uid: Microsoft.Quantum.Arrays.Unique}
+  - {name: UniqueDoubles, uid: Microsoft.Quantum.Arrays.UniqueDoubles}
+  - {name: UniqueInts, uid: Microsoft.Quantum.Arrays.UniqueInts}
   - {name: Unzipped, uid: Microsoft.Quantum.Arrays.Unzipped}
   - {name: Where, uid: Microsoft.Quantum.Arrays.Where}
   - {name: Windows, uid: Microsoft.Quantum.Arrays.Windows}
@@ -301,10 +383,12 @@
   - {name: ApproximatelyApplyDiagonalUnitary, uid: Microsoft.Quantum.Canon.ApproximatelyApplyDiagonalUnitary}
   - {name: ApproximatelyMultiplexPauli, uid: Microsoft.Quantum.Canon.ApproximatelyMultiplexPauli}
   - {name: ApproximatelyMultiplexZ, uid: Microsoft.Quantum.Canon.ApproximatelyMultiplexZ}
+  - {name: ArcHyperbolicFnsAreCorrect, uid: Microsoft.Quantum.Canon.ArcHyperbolicFnsAreCorrect}
   - {name: AssertHighestBit, uid: Microsoft.Quantum.Canon.AssertHighestBit}
   - {name: AssertLessThanPhaseLE, uid: Microsoft.Quantum.Canon.AssertLessThanPhaseLE}
   - {name: AssertPhase, uid: Microsoft.Quantum.Canon.AssertPhase}
   - {name: BigEndianToLittleEndian, uid: Microsoft.Quantum.Canon.BigEndianToLittleEndian}
+  - {name: BitSizeIsCorrect, uid: Microsoft.Quantum.Canon.BitSizeIsCorrect}
   - {name: Bound, uid: Microsoft.Quantum.Canon.Bound}
   - {name: BoundA, uid: Microsoft.Quantum.Canon.BoundA}
   - {name: BoundC, uid: Microsoft.Quantum.Canon.BoundC}
@@ -319,13 +403,19 @@
   - {name: CX, uid: Microsoft.Quantum.Canon.CX}
   - {name: CY, uid: Microsoft.Quantum.Canon.CY}
   - {name: CZ, uid: Microsoft.Quantum.Canon.CZ}
+  - {name: CanComputeBitSizeFromLargeNumbers, uid: Microsoft.Quantum.Canon.CanComputeBitSizeFromLargeNumbers}
   - {name: CascadeCCNOT, uid: Microsoft.Quantum.Canon.CascadeCCNOT}
   - {name: CascadeCNOT, uid: Microsoft.Quantum.Canon.CascadeCNOT}
+  - {name: CheckRepeatHIsNoOp, uid: Microsoft.Quantum.Canon.CheckRepeatHIsNoOp}
+  - {name: ComplexMathIsCorrect, uid: Microsoft.Quantum.Canon.ComplexMathIsCorrect}
   - {name: Compose, uid: Microsoft.Quantum.Canon.Compose}
   - {name: ConjugatedBy, uid: Microsoft.Quantum.Canon.ConjugatedBy}
   - {name: ConjugatedByA, uid: Microsoft.Quantum.Canon.ConjugatedByA}
   - {name: ConjugatedByC, uid: Microsoft.Quantum.Canon.ConjugatedByC}
   - {name: ConjugatedByCA, uid: Microsoft.Quantum.Canon.ConjugatedByCA}
+  - {name: ContinuedFractionConvergentEdgeCaseTestHelper, uid: Microsoft.Quantum.Canon.ContinuedFractionConvergentEdgeCaseTestHelper}
+  - {name: ContinuedFractionConvergentIsCorrect, uid: Microsoft.Quantum.Canon.ContinuedFractionConvergentIsCorrect}
+  - {name: ContinuedFractionConvergentTestHelper, uid: Microsoft.Quantum.Canon.ContinuedFractionConvergentTestHelper}
   - {name: ControlledOnBitString, uid: Microsoft.Quantum.Canon.ControlledOnBitString}
   - {name: ControlledOnInt, uid: Microsoft.Quantum.Canon.ControlledOnInt}
   - {name: CurriedOp, uid: Microsoft.Quantum.Canon.CurriedOp}
@@ -343,7 +433,11 @@
   - {name: DelayedC, uid: Microsoft.Quantum.Canon.DelayedC}
   - {name: DelayedCA, uid: Microsoft.Quantum.Canon.DelayedCA}
   - {name: EmbedPauli, uid: Microsoft.Quantum.Canon.EmbedPauli}
+  - {name: ExpModIsCorrect, uid: Microsoft.Quantum.Canon.ExpModIsCorrect}
+  - {name: ExtendedGreatestCommonDivisorIIsCorrect, uid: Microsoft.Quantum.Canon.ExtendedGreatestCommonDivisorIIsCorrect}
+  - {name: ExtendedGreatestCommonDivisorITestHelper, uid: Microsoft.Quantum.Canon.ExtendedGreatestCommonDivisorITestHelper}
   - {name: Fst, uid: Microsoft.Quantum.Canon.Fst}
+  - {name: GreatestCommonDivisorLIsCorrect, uid: Microsoft.Quantum.Canon.GreatestCommonDivisorLIsCorrect}
   - {name: HY, uid: Microsoft.Quantum.Canon.HY}
   - {name: Ignore, uid: Microsoft.Quantum.Canon.Ignore}
   - {name: InPlaceMajority, uid: Microsoft.Quantum.Canon.InPlaceMajority}
@@ -369,16 +463,19 @@
   - {name: MultiplexZ, uid: Microsoft.Quantum.Canon.MultiplexZ}
   - {name: MultiplexerBruteForceFromGenerator, uid: Microsoft.Quantum.Canon.MultiplexerBruteForceFromGenerator}
   - {name: MultiplexerFromGenerator, uid: Microsoft.Quantum.Canon.MultiplexerFromGenerator}
+  - {name: NativeFnsAreCallable, uid: Microsoft.Quantum.Canon.NativeFnsAreCallable}
   - {name: NoOp, uid: Microsoft.Quantum.Canon.NoOp}
   - {name: OperationPow, uid: Microsoft.Quantum.Canon.OperationPow}
   - {name: OperationPowA, uid: Microsoft.Quantum.Canon.OperationPowA}
   - {name: OperationPowC, uid: Microsoft.Quantum.Canon.OperationPowC}
   - {name: OperationPowCA, uid: Microsoft.Quantum.Canon.OperationPowCA}
+  - {name: PNormIsCorrect, uid: Microsoft.Quantum.Canon.PNormIsCorrect}
   - {name: PermuteQubits, uid: Microsoft.Quantum.Canon.PermuteQubits}
   - {name: QFT, uid: Microsoft.Quantum.Canon.QFT}
   - {name: QFTLE, uid: Microsoft.Quantum.Canon.QFTLE}
   - {name: RAll0, uid: Microsoft.Quantum.Canon.RAll0}
   - {name: RAll1, uid: Microsoft.Quantum.Canon.RAll1}
+  - {name: RealModIsCorrect, uid: Microsoft.Quantum.Canon.RealModIsCorrect}
   - {name: Repeat, uid: Microsoft.Quantum.Canon.Repeat}
   - {name: RepeatA, uid: Microsoft.Quantum.Canon.RepeatA}
   - {name: RepeatC, uid: Microsoft.Quantum.Canon.RepeatC}
@@ -389,6 +486,7 @@
   - {name: RestrictedToSubregisterCA, uid: Microsoft.Quantum.Canon.RestrictedToSubregisterCA}
   - {name: ResultStack, uid: Microsoft.Quantum.Canon.ResultStack}
   - {name: Snd, uid: Microsoft.Quantum.Canon.Snd}
+  - {name: SquaredNormIsCorrect, uid: Microsoft.Quantum.Canon.SquaredNormIsCorrect}
   - {name: StackCapacity, uid: Microsoft.Quantum.Canon.StackCapacity}
   - {name: StackLength, uid: Microsoft.Quantum.Canon.StackLength}
   - {name: StackNew, uid: Microsoft.Quantum.Canon.StackNew}
@@ -514,6 +612,32 @@
   name: Microsoft.Quantum.Chemistry.JordanWigner.VQE
   uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE
 - items:
+  - {name: ControlledOptimizedBEOperatorPlusTest, uid: Microsoft.Quantum.Chemistry.Tests.ControlledOptimizedBEOperatorPlusTest}
+  - {name: ControlledOptimizedBEOperatorTestHelper, uid: Microsoft.Quantum.Chemistry.Tests.ControlledOptimizedBEOperatorTestHelper}
+  - {name: JordanWignerUCCDTermPQRSTest, uid: Microsoft.Quantum.Chemistry.Tests.JordanWignerUCCDTermPQRSTest}
+  - {name: JordanWignerUCCDTermPRQSTest, uid: Microsoft.Quantum.Chemistry.Tests.JordanWignerUCCDTermPRQSTest}
+  - {name: JordanWignerUCCDTermPRSQTest, uid: Microsoft.Quantum.Chemistry.Tests.JordanWignerUCCDTermPRSQTest}
+  - {name: JordanWignerUCCSTermTest, uid: Microsoft.Quantum.Chemistry.Tests.JordanWignerUCCSTermTest}
+  - {name: OptimizedBEOperatorPlusTest, uid: Microsoft.Quantum.Chemistry.Tests.OptimizedBEOperatorPlusTest}
+  - {name: OptimizedBEOperatorPlusTestHelper, uid: Microsoft.Quantum.Chemistry.Tests.OptimizedBEOperatorPlusTestHelper}
+  - {name: OptimizedBEOperatorZeroTest, uid: Microsoft.Quantum.Chemistry.Tests.OptimizedBEOperatorZeroTest}
+  - {name: OptimizedBEOperatorZeroTestHelper, uid: Microsoft.Quantum.Chemistry.Tests.OptimizedBEOperatorZeroTestHelper}
+  - {name: PrepareSparseMultiConfigurationalState0Test, uid: Microsoft.Quantum.Chemistry.Tests.PrepareSparseMultiConfigurationalState0Test}
+  - {name: PrepareSparseMultiConfigurationalState1Test, uid: Microsoft.Quantum.Chemistry.Tests.PrepareSparseMultiConfigurationalState1Test}
+  - {name: PrepareSparseMultiConfigurationalState2Test, uid: Microsoft.Quantum.Chemistry.Tests.PrepareSparseMultiConfigurationalState2Test}
+  - {name: PrepareSparseMultiConfigurationalState3Test, uid: Microsoft.Quantum.Chemistry.Tests.PrepareSparseMultiConfigurationalState3Test}
+  - {name: PrepareSparseMultiConfigurationalState4Test, uid: Microsoft.Quantum.Chemistry.Tests.PrepareSparseMultiConfigurationalState4Test}
+  - {name: SelectZTest, uid: Microsoft.Quantum.Chemistry.Tests.SelectZTest}
+  - {name: _ComputeJordanWignerBitString_0Test, uid: Microsoft.Quantum.Chemistry.Tests._ComputeJordanWignerBitString_0Test}
+  - {name: _ComputeJordanWignerBitString_1Test, uid: Microsoft.Quantum.Chemistry.Tests._ComputeJordanWignerBitString_1Test}
+  - {name: _ComputeJordanWignerPauliZString_0Test, uid: Microsoft.Quantum.Chemistry.Tests._ComputeJordanWignerPauliZString_0Test}
+  - {name: _DoublesToComplexPolar, uid: Microsoft.Quantum.Chemistry.Tests._DoublesToComplexPolar}
+  - {name: _JordanWignerClusterOperatorPQRSTermSignsTest, uid: Microsoft.Quantum.Chemistry.Tests._JordanWignerClusterOperatorPQRSTermSignsTest}
+  - {name: _JordanWignerClusterOperatorPQRSTermSignsTestHelper, uid: Microsoft.Quantum.Chemistry.Tests._JordanWignerClusterOperatorPQRSTermSignsTestHelper}
+  - {name: _JordanWignerUCCTermTestHelper, uid: Microsoft.Quantum.Chemistry.Tests._JordanWignerUCCTermTestHelper}
+  name: Microsoft.Quantum.Chemistry.Tests
+  uid: Microsoft.Quantum.Chemistry.Tests
+- items:
   - {name: BigIntAsBoolArray, uid: Microsoft.Quantum.Convert.BigIntAsBoolArray}
   - {name: BoolArrayAsBigInt, uid: Microsoft.Quantum.Convert.BoolArrayAsBigInt}
   - {name: BoolArrayAsInt, uid: Microsoft.Quantum.Convert.BoolArrayAsInt}
@@ -547,9 +671,13 @@
   - {name: Inline, uid: Microsoft.Quantum.Core.Inline}
   - {name: Length, uid: Microsoft.Quantum.Core.Length}
   - {name: RangeEnd, uid: Microsoft.Quantum.Core.RangeEnd}
+  - {name: RangeEnd__Body, uid: Microsoft.Quantum.Core.RangeEnd__Body}
   - {name: RangeReverse, uid: Microsoft.Quantum.Core.RangeReverse}
+  - {name: RangeReverse__Body, uid: Microsoft.Quantum.Core.RangeReverse__Body}
   - {name: RangeStart, uid: Microsoft.Quantum.Core.RangeStart}
+  - {name: RangeStart__Body, uid: Microsoft.Quantum.Core.RangeStart__Body}
   - {name: RangeStep, uid: Microsoft.Quantum.Core.RangeStep}
+  - {name: RangeStep__Body, uid: Microsoft.Quantum.Core.RangeStep__Body}
   name: Microsoft.Quantum.Core
   uid: Microsoft.Quantum.Core
 - items:
@@ -581,6 +709,7 @@
   - {name: EqualityFactR, uid: Microsoft.Quantum.Diagnostics.EqualityFactR}
   - {name: EqualityWithinToleranceFact, uid: Microsoft.Quantum.Diagnostics.EqualityWithinToleranceFact}
   - {name: Fact, uid: Microsoft.Quantum.Diagnostics.Fact}
+  - {name: FiniteFact, uid: Microsoft.Quantum.Diagnostics.FiniteFact}
   - {name: NearEqualityFactC, uid: Microsoft.Quantum.Diagnostics.NearEqualityFactC}
   - {name: NearEqualityFactCP, uid: Microsoft.Quantum.Diagnostics.NearEqualityFactCP}
   - {name: NearEqualityFactD, uid: Microsoft.Quantum.Diagnostics.NearEqualityFactD}
@@ -690,6 +819,28 @@
   name: Microsoft.Quantum.Extensions.Math
   uid: Microsoft.Quantum.Extensions.Math
 - items:
+  - {name: Mx, uid: Microsoft.Quantum.Instructions.Mx}
+  - {name: Mxx, uid: Microsoft.Quantum.Instructions.Mxx}
+  - {name: Mxz, uid: Microsoft.Quantum.Instructions.Mxz}
+  - {name: Mz, uid: Microsoft.Quantum.Instructions.Mz}
+  - {name: Mzx, uid: Microsoft.Quantum.Instructions.Mzx}
+  - {name: Mzz, uid: Microsoft.Quantum.Instructions.Mzz}
+  - {name: Sx, uid: Microsoft.Quantum.Instructions.Sx}
+  - {name: Sz, uid: Microsoft.Quantum.Instructions.Sz}
+  - {name: Tx, uid: Microsoft.Quantum.Instructions.Tx}
+  - {name: Tz, uid: Microsoft.Quantum.Instructions.Tz}
+  - {name: apply_conditionally, uid: Microsoft.Quantum.Instructions.apply_conditionally}
+  - {name: joint_measure, uid: Microsoft.Quantum.Instructions.joint_measure}
+  - {name: multi_qubit_op, uid: Microsoft.Quantum.Instructions.multi_qubit_op}
+  - {name: multi_qubit_op_ctl, uid: Microsoft.Quantum.Instructions.multi_qubit_op_ctl}
+  - {name: single_qubit_measure, uid: Microsoft.Quantum.Instructions.single_qubit_measure}
+  - {name: single_qubit_op, uid: Microsoft.Quantum.Instructions.single_qubit_op}
+  - {name: single_qubit_op_ctl, uid: Microsoft.Quantum.Instructions.single_qubit_op_ctl}
+  name: Microsoft.Quantum.Instructions
+  uid: Microsoft.Quantum.Instructions
+- items:
+  - {name: ApplyConditionallyIntrinsic, uid: Microsoft.Quantum.Intrinsic.ApplyConditionallyIntrinsic}
+  - {name: ApplyIfElseIntrinsic, uid: Microsoft.Quantum.Intrinsic.ApplyIfElseIntrinsic}
   - {name: ApplyUncontrolledSWAP, uid: Microsoft.Quantum.Intrinsic.ApplyUncontrolledSWAP}
   - {name: Assert, uid: Microsoft.Quantum.Intrinsic.Assert}
   - {name: AssertProb, uid: Microsoft.Quantum.Intrinsic.AssertProb}
@@ -699,9 +850,22 @@
   - {name: ExpFrac, uid: Microsoft.Quantum.Intrinsic.ExpFrac}
   - {name: H, uid: Microsoft.Quantum.Intrinsic.H}
   - {name: I, uid: Microsoft.Quantum.Intrinsic.I}
+  - {name: INFINITY, uid: Microsoft.Quantum.Intrinsic.INFINITY}
+  - {name: INFINITY__Body, uid: Microsoft.Quantum.Intrinsic.INFINITY__Body}
+  - {name: IsInf, uid: Microsoft.Quantum.Intrinsic.IsInf}
+  - {name: IsInf__Body, uid: Microsoft.Quantum.Intrinsic.IsInf__Body}
+  - {name: IsNan, uid: Microsoft.Quantum.Intrinsic.IsNan}
+  - {name: IsNan__Body, uid: Microsoft.Quantum.Intrinsic.IsNan__Body}
+  - {name: IsNegativeInfinity, uid: Microsoft.Quantum.Intrinsic.IsNegativeInfinity}
+  - {name: IsNegativeInfinity__Body, uid: Microsoft.Quantum.Intrinsic.IsNegativeInfinity__Body}
+  - {name: K, uid: Microsoft.Quantum.Intrinsic.K}
+  - {name: K__Body, uid: Microsoft.Quantum.Intrinsic.K__Body}
+  - {name: K__Ctl, uid: Microsoft.Quantum.Intrinsic.K__Ctl}
   - {name: M, uid: Microsoft.Quantum.Intrinsic.M}
   - {name: Measure, uid: Microsoft.Quantum.Intrinsic.Measure}
   - {name: Message, uid: Microsoft.Quantum.Intrinsic.Message}
+  - {name: NAN, uid: Microsoft.Quantum.Intrinsic.NAN}
+  - {name: NAN__Body, uid: Microsoft.Quantum.Intrinsic.NAN__Body}
   - {name: R, uid: Microsoft.Quantum.Intrinsic.R}
   - {name: R1, uid: Microsoft.Quantum.Intrinsic.R1}
   - {name: R1Frac, uid: Microsoft.Quantum.Intrinsic.R1Frac}
@@ -720,6 +884,15 @@
   - {name: Z, uid: Microsoft.Quantum.Intrinsic.Z}
   name: Microsoft.Quantum.Intrinsic
   uid: Microsoft.Quantum.Intrinsic
+- items:
+  - {name: DllName, uid: Microsoft.Quantum.Library.DllName}
+  - {name: Hello, uid: Microsoft.Quantum.Library.Hello}
+  - {name: LibraryId, uid: Microsoft.Quantum.Library.LibraryId}
+  - {name: MyInt, uid: Microsoft.Quantum.Library.MyInt}
+  - {name: MyString, uid: Microsoft.Quantum.Library.MyString}
+  - {name: Token, uid: Microsoft.Quantum.Library.Token}
+  name: Microsoft.Quantum.Library
+  uid: Microsoft.Quantum.Library
 - items:
   - {name: And, uid: Microsoft.Quantum.Logical.And}
   - {name: Conditioned, uid: Microsoft.Quantum.Logical.Conditioned}
@@ -817,6 +990,26 @@
   name: Microsoft.Quantum.MachineLearning.Datasets
   uid: Microsoft.Quantum.MachineLearning.Datasets
 - items:
+  - {name: ApplyExampleModelManually, uid: Microsoft.Quantum.MachineLearning.Tests.ApplyExampleModelManually}
+  - {name: CheckInputEncoderWithPositiveInputs, uid: Microsoft.Quantum.MachineLearning.Tests.CheckInputEncoderWithPositiveInputs}
+  - {name: CombinedStructureFact, uid: Microsoft.Quantum.MachineLearning.Tests.CombinedStructureFact}
+  - {name: CyclicEntanglingLayerFact, uid: Microsoft.Quantum.MachineLearning.Tests.CyclicEntanglingLayerFact}
+  - {name: EqualCR, uid: Microsoft.Quantum.MachineLearning.Tests.EqualCR}
+  - {name: ExampleModel, uid: Microsoft.Quantum.MachineLearning.Tests.ExampleModel}
+  - {name: InferredLabelFact, uid: Microsoft.Quantum.MachineLearning.Tests.InferredLabelFact}
+  - {name: InferredLabelsFact, uid: Microsoft.Quantum.MachineLearning.Tests.InferredLabelsFact}
+  - {name: LocalRotationsLayerFact, uid: Microsoft.Quantum.MachineLearning.Tests.LocalRotationsLayerFact}
+  - {name: MisclassificationsFact, uid: Microsoft.Quantum.MachineLearning.Tests.MisclassificationsFact}
+  - {name: NMisclassificationsFact, uid: Microsoft.Quantum.MachineLearning.Tests.NMisclassificationsFact}
+  - {name: NQubitsRequiredFact, uid: Microsoft.Quantum.MachineLearning.Tests.NQubitsRequiredFact}
+  - {name: PartialRotationsLayerFact, uid: Microsoft.Quantum.MachineLearning.Tests.PartialRotationsLayerFact}
+  - {name: SampledFact, uid: Microsoft.Quantum.MachineLearning.Tests.SampledFact}
+  - {name: ScheduleLengthFact, uid: Microsoft.Quantum.MachineLearning.Tests.ScheduleLengthFact}
+  - {name: TestApplySequentialClassifier, uid: Microsoft.Quantum.MachineLearning.Tests.TestApplySequentialClassifier}
+  - {name: _ApplyToBareRegister, uid: Microsoft.Quantum.MachineLearning.Tests._ApplyToBareRegister}
+  name: Microsoft.Quantum.MachineLearning.Tests
+  uid: Microsoft.Quantum.MachineLearning.Tests
+- items:
   - {name: AbsComplex, uid: Microsoft.Quantum.Math.AbsComplex}
   - {name: AbsComplexPolar, uid: Microsoft.Quantum.Math.AbsComplexPolar}
   - {name: AbsD, uid: Microsoft.Quantum.Math.AbsD}
@@ -866,6 +1059,9 @@
   - {name: InverseModL, uid: Microsoft.Quantum.Math.InverseModL}
   - {name: IsCoprimeI, uid: Microsoft.Quantum.Math.IsCoprimeI}
   - {name: IsCoprimeL, uid: Microsoft.Quantum.Math.IsCoprimeL}
+  - {name: IsFinite, uid: Microsoft.Quantum.Math.IsFinite}
+  - {name: IsInfinite, uid: Microsoft.Quantum.Math.IsInfinite}
+  - {name: IsNaN, uid: Microsoft.Quantum.Math.IsNaN}
   - {name: Lg, uid: Microsoft.Quantum.Math.Lg}
   - {name: Log, uid: Microsoft.Quantum.Math.Log}
   - {name: Log10, uid: Microsoft.Quantum.Math.Log10}
@@ -888,6 +1084,7 @@
   - {name: ModPowL, uid: Microsoft.Quantum.Math.ModPowL}
   - {name: ModulusI, uid: Microsoft.Quantum.Math.ModulusI}
   - {name: ModulusL, uid: Microsoft.Quantum.Math.ModulusL}
+  - {name: NaN, uid: Microsoft.Quantum.Math.NaN}
   - {name: NegationC, uid: Microsoft.Quantum.Math.NegationC}
   - {name: NegationCP, uid: Microsoft.Quantum.Math.NegationCP}
   - {name: NegationD, uid: Microsoft.Quantum.Math.NegationD}
@@ -945,6 +1142,37 @@
   - {name: SetToBasisState, uid: Microsoft.Quantum.Measurement.SetToBasisState}
   name: Microsoft.Quantum.Measurement
   uid: Microsoft.Quantum.Measurement
+- items:
+  - {name: AddConstantFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.AddConstantFxPTest}
+  - {name: AddFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.AddFxPTest}
+  - {name: CompareGTSIExhaustiveTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.CompareGTSIExhaustiveTest}
+  - {name: CompareGreaterThanFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.CompareGreaterThanFxPTest}
+  - {name: ComputeReciprocalFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.ComputeReciprocalFxPTest}
+  - {name: ComputeReciprocalIExhaustiveTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.ComputeReciprocalIExhaustiveTest}
+  - {name: DivideIExhaustiveTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.DivideIExhaustiveTest}
+  - {name: EvaluateOddPolynomialFxPCtrlTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.EvaluateOddPolynomialFxPCtrlTest}
+  - {name: EvaluateOddPolynomialFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.EvaluateOddPolynomialFxPTest}
+  - {name: EvaluatePolynomialFxPCtrlTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.EvaluatePolynomialFxPCtrlTest}
+  - {name: EvaluatePolynomialFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.EvaluatePolynomialFxPTest}
+  - {name: ExhaustiveTestHelper1Arg, uid: Microsoft.Quantum.Numerics.ToffoliTests.ExhaustiveTestHelper1Arg}
+  - {name: ExhaustiveTestHelper2Args, uid: Microsoft.Quantum.Numerics.ToffoliTests.ExhaustiveTestHelper2Args}
+  - {name: IntegerDivisionRun, uid: Microsoft.Quantum.Numerics.ToffoliTests.IntegerDivisionRun}
+  - {name: IntegerGreaterThanRun, uid: Microsoft.Quantum.Numerics.ToffoliTests.IntegerGreaterThanRun}
+  - {name: IntegerMultiplicationRun, uid: Microsoft.Quantum.Numerics.ToffoliTests.IntegerMultiplicationRun}
+  - {name: IntegerReciprocalRun, uid: Microsoft.Quantum.Numerics.ToffoliTests.IntegerReciprocalRun}
+  - {name: IntegerSquareRun, uid: Microsoft.Quantum.Numerics.ToffoliTests.IntegerSquareRun}
+  - {name: MultiplyFxPCtrlTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.MultiplyFxPCtrlTest}
+  - {name: MultiplyFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.MultiplyFxPTest}
+  - {name: MultiplyIExhaustiveTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.MultiplyIExhaustiveTest}
+  - {name: MultiplySIExhaustiveTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.MultiplySIExhaustiveTest}
+  - {name: PrepareFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.PrepareFxPTest}
+  - {name: SquareFxPCtrlTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.SquareFxPCtrlTest}
+  - {name: SquareFxPTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.SquareFxPTest}
+  - {name: SquareIExhaustiveTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.SquareIExhaustiveTest}
+  - {name: SquareSIExhaustiveTest, uid: Microsoft.Quantum.Numerics.ToffoliTests.SquareSIExhaustiveTest}
+  - {name: _computeReciprocal, uid: Microsoft.Quantum.Numerics.ToffoliTests._computeReciprocal}
+  name: Microsoft.Quantum.Numerics.ToffoliTests
+  uid: Microsoft.Quantum.Numerics.ToffoliTests
 - items:
   - {name: LocalUnivariateMinimum, uid: Microsoft.Quantum.Optimization.LocalUnivariateMinimum}
   - {name: UnivariateOptimizationResult, uid: Microsoft.Quantum.Optimization.UnivariateOptimizationResult}
@@ -1043,6 +1271,19 @@
   name: Microsoft.Quantum.Research.Chemistry
   uid: Microsoft.Quantum.Research.Chemistry
 - items:
+  - {name: ApplyBlockEncodedHamiltonian, uid: Microsoft.Quantum.Research.Samples.ApplyBlockEncodedHamiltonian}
+  - {name: EvolveByTrotter, uid: Microsoft.Quantum.Research.Samples.EvolveByTrotter}
+  - {name: ExpOracle, uid: Microsoft.Quantum.Research.Samples.ExpOracle}
+  - {name: PhaseEstimationSample, uid: Microsoft.Quantum.Research.Samples.PhaseEstimationSample}
+  - {name: QuantumSignalProcessOnEquator, uid: Microsoft.Quantum.Research.Samples.QuantumSignalProcessOnEquator}
+  - {name: SampleHamiltonianEvolutionByQSP, uid: Microsoft.Quantum.Research.Samples.SampleHamiltonianEvolutionByQSP}
+  name: Microsoft.Quantum.Research.Samples
+  uid: Microsoft.Quantum.Research.Samples
+- items:
+  - {name: CheckBayesianPERandomWalk, uid: Microsoft.Quantum.Research.Tests.CheckBayesianPERandomWalk}
+  name: Microsoft.Quantum.Research.Tests
+  uid: Microsoft.Quantum.Research.Tests
+- items:
   - {name: AddGeneratorSystems, uid: Microsoft.Quantum.Simulation.AddGeneratorSystems}
   - {name: AdiabaticStateEnergyUnitary, uid: Microsoft.Quantum.Simulation.AdiabaticStateEnergyUnitary}
   - {name: BlockEncoding, uid: Microsoft.Quantum.Simulation.BlockEncoding}
@@ -1096,6 +1337,45 @@
   name: Microsoft.Quantum.Simulation
   uid: Microsoft.Quantum.Simulation
 - items:
+  - {name: ExpTester, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests.ExpTester}
+  - {name: Interface_Clifford, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests.Interface_Clifford}
+  - {name: SingleQubitOperationsWithControlsTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests.SingleQubitOperationsWithControlsTest}
+  - {name: SingleQubitRotationsWithOneControlTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests.SingleQubitRotationsWithOneControlTest}
+  - {name: ThreeQubitPlusOperationsWithControllsTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests.ThreeQubitPlusOperationsWithControllsTest}
+  - {name: TwoQubitOperationsWithControllsTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests.TwoQubitOperationsWithControllsTest}
+  name: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests
+  uid: Microsoft.Quantum.Simulation.QCTraceSimulatorPrimitivesTests
+- items:
+  - {name: AllocatedConstraintTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.AllocatedConstraintTest}
+  - {name: ApplyOp, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.ApplyOp}
+  - {name: BunchOfCNOTs, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.BunchOfCNOTs}
+  - {name: CCNOTDriver, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.CCNOTDriver}
+  - {name: CatState, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.CatState}
+  - {name: CatStateCore, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.CatStateCore}
+  - {name: CheckRandomInCorrectRange, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.CheckRandomInCorrectRange}
+  - {name: DisctinctQubitCaptured2Test, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.DisctinctQubitCaptured2Test}
+  - {name: DisctinctQubitCaptured3Test, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.DisctinctQubitCaptured3Test}
+  - {name: DisctinctQubitCaptured4Test, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.DisctinctQubitCaptured4Test}
+  - {name: DisctinctQubitCapturedTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.DisctinctQubitCapturedTest}
+  - {name: DisctinctQubitTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.DisctinctQubitTest}
+  - {name: DoBoth, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.DoBoth}
+  - {name: ForcedMeasurementTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.ForcedMeasurementTest}
+  - {name: MeausermentPreverseConstraintTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.MeausermentPreverseConstraintTest}
+  - {name: MultiControlledXDriver, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.MultiControlledXDriver}
+  - {name: Power, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.Power}
+  - {name: SimpleMeasurementTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.SimpleMeasurementTest}
+  - {name: SwappedMeasurementTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.SwappedMeasurementTest}
+  - {name: TCountOneGatesTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.TCountOneGatesTest}
+  - {name: TCountZeroGatesTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.TCountZeroGatesTest}
+  - {name: TDepthOne, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.TDepthOne}
+  - {name: ThreeCNOTsTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.ThreeCNOTsTest}
+  - {name: TwoCNOTsTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.TwoCNOTsTest}
+  - {name: UnconstrainedMeasurement1Test, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.UnconstrainedMeasurement1Test}
+  - {name: UnconstrainedMeasurement2Test, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.UnconstrainedMeasurement2Test}
+  - {name: UseReleasedQubitTest, uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.UseReleasedQubitTest}
+  name: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests
+  uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests
+- items:
   - {name: ApplyConditionally, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyConditionally}
   - {name: ApplyConditionallyA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyConditionallyA}
   - {name: ApplyConditionallyC, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyConditionallyC}
@@ -1120,13 +1400,855 @@
   - {name: ApplyIfZeroA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfZeroA}
   - {name: ApplyIfZeroC, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfZeroC}
   - {name: ApplyIfZeroCA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfZeroCA}
-  - {name: Delay, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.Delay}
-  - {name: DelayA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.DelayA}
-  - {name: DelayC, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.DelayC}
-  - {name: DelayCA, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.DelayCA}
-  - {name: NoOp, uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.NoOp}
   name: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
   uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
+- items:
+  - {name: AndLadder, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.AndLadder}
+  - {name: ApplyByIndexAdjointableControllable, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ApplyByIndexAdjointableControllable}
+  - {name: CCNOT, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCNOT}
+  - {name: CCX, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCX}
+  - {name: CCZ, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCZ}
+  - {name: CCminusIX, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCminusIX}
+  - {name: CCminusIZ, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCminusIZ}
+  - {name: CNOT, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CNOT}
+  - {name: CZ, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CZ}
+  - {name: ControlledH, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledH}
+  - {name: ControlledR, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledR}
+  - {name: ControlledR1, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledR1}
+  - {name: ControlledR1Frac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledR1Frac}
+  - {name: ControlledRFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledRFrac}
+  - {name: ControlledRZ, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledRZ}
+  - {name: ControlledRZFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledRZFrac}
+  - {name: ControlledSWAP, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledSWAP}
+  - {name: ControlledT, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledT}
+  - {name: ControlledTPower, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledTPower}
+  - {name: ControlledTS, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledTS}
+  - {name: Enum_H, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Enum_H}
+  - {name: Enum_HSH, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Enum_HSH}
+  - {name: Enum_HthenS, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Enum_HthenS}
+  - {name: Enum_Identity, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Enum_Identity}
+  - {name: Enum_S, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Enum_S}
+  - {name: Enum_SthenH, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Enum_SthenH}
+  - {name: Exp, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Exp}
+  - {name: ExpFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ExpFrac}
+  - {name: ExpFracZZ, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ExpFracZZ}
+  - {name: ExpFracZZZ, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ExpFracZZZ}
+  - {name: ExpNoId, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ExpNoId}
+  - {name: ExpNoIdFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ExpNoIdFrac}
+  - {name: ExpZZ, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ExpZZ}
+  - {name: FailOn, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.FailOn}
+  - {name: H, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.H}
+  - {name: HY, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.HY}
+  - {name: IndicesOfNonIdentity, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.IndicesOfNonIdentity}
+  - {name: InternalCX, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalCX}
+  - {name: InternalH, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalH}
+  - {name: InternalHY, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalHY}
+  - {name: InternalPauli, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalPauli}
+  - {name: InternalR, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalR}
+  - {name: InternalRFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalRFrac}
+  - {name: InternalRz, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalRz}
+  - {name: InternalRzFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalRzFrac}
+  - {name: InternalS, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalS}
+  - {name: InternalSWAP, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalSWAP}
+  - {name: InternalT, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.InternalT}
+  - {name: Mod, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Mod}
+  - {name: MultiCX, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiCX}
+  - {name: MultiControlledFromOpAndSinglyCtrldOp, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiControlledFromOpAndSinglyCtrldOp}
+  - {name: MultiControlledFromOpAndSinglyCtrldOp2, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiControlledFromOpAndSinglyCtrldOp2}
+  - {name: MultiControlledMultiNot, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiControlledMultiNot}
+  - {name: MultiControlledU, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiControlledU}
+  - {name: MultiControlledUTwoTargets, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiControlledUTwoTargets}
+  - {name: MultiPauliFlip, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiPauliFlip}
+  - {name: MultiX, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiX}
+  - {name: PauliArrayByIndex, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.PauliArrayByIndex}
+  - {name: PauliXFlip, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.PauliXFlip}
+  - {name: PauliZFlip, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.PauliZFlip}
+  - {name: R, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.R}
+  - {name: R1, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.R1}
+  - {name: R1Frac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.R1Frac}
+  - {name: RFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.RFrac}
+  - {name: ReducedForm, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ReducedForm}
+  - {name: Rx, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Rx}
+  - {name: Ry, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Ry}
+  - {name: Rz, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Rz}
+  - {name: S, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.S}
+  - {name: SWAP, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.SWAP}
+  - {name: T, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.T}
+  - {name: Ty, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Ty}
+  - {name: X, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.X}
+  - {name: Y, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Y}
+  - {name: Z, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Z}
+  - {name: _reducedFormRec, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits._reducedFormRec}
+  name: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
+  uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
+- items:
+  - {name: ForceMeasure, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.ForceMeasure}
+  - {name: Interface_CX, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.Interface_CX}
+  - {name: Interface_Clifford, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.Interface_Clifford}
+  - {name: Interface_R, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.Interface_R}
+  - {name: Interface_RFrac, uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.Interface_RFrac}
+  name: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation
+  uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation
+- items:
+  - {name: DepthDifferentQubits, uid: Microsoft.Quantum.Simulation.Simulators.Tests.DepthDifferentQubits}
+  - {name: DepthVersusWidth, uid: Microsoft.Quantum.Simulation.Simulators.Tests.DepthVersusWidth}
+  - {name: DumpToFile, uid: Microsoft.Quantum.Simulation.Simulators.Tests.DumpToFile}
+  - {name: Operation_1_of_2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Operation_1_of_2}
+  - {name: Operation_2_of_2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Operation_2_of_2}
+  - {name: QubitReuseWithOptimizedDepth, uid: Microsoft.Quantum.Simulation.Simulators.Tests.QubitReuseWithOptimizedDepth}
+  - {name: SequentialUse, uid: Microsoft.Quantum.Simulation.Simulators.Tests.SequentialUse}
+  - {name: SimultaneousUse, uid: Microsoft.Quantum.Simulation.Simulators.Tests.SimultaneousUse}
+  - {name: SomeOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.SomeOp}
+  - {name: VerySimpleEstimate, uid: Microsoft.Quantum.Simulation.Simulators.Tests.VerySimpleEstimate}
+  name: Microsoft.Quantum.Simulation.Simulators.Tests
+  uid: Microsoft.Quantum.Simulation.Simulators.Tests
+- items:
+  - {name: Add, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Add}
+  - {name: AllGood, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AllGood}
+  - {name: AllGood1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AllGood1}
+  - {name: AllocateQubit2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AllocateQubit2}
+  - {name: AlwaysFail, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AlwaysFail}
+  - {name: AlwaysFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AlwaysFail1}
+  - {name: AlwaysFail2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AlwaysFail2}
+  - {name: AlwaysFail3, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AlwaysFail3}
+  - {name: AlwaysFail4, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AlwaysFail4}
+  - {name: ApplyTwice, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ApplyTwice}
+  - {name: ArbitraryUnitTestTarget, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ArbitraryUnitTestTarget}
+  - {name: ArraySlicingTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ArraySlicingTest}
+  - {name: AssertEqual, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.AssertEqual}
+  - {name: Bar, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Bar}
+  - {name: BigIntTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.BigIntTest}
+  - {name: BitOperationsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.BitOperationsTest}
+  - {name: BoolArrayOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.BoolArrayOp}
+  - {name: BorrowSubTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.BorrowSubTest}
+  - {name: BorrowingQubitCheck, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.BorrowingQubitCheck}
+  - {name: Bug1514Test, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Bug1514Test}
+  - {name: Bug2186Test, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Bug2186Test}
+  - {name: Bug2248Test, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Bug2248Test}
+  - {name: BuggyReturnTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.BuggyReturnTest}
+  - {name: CCNOTEquivalenceTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CCNOTEquivalenceTest}
+  - {name: CCNOTEquivalent, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CCNOTEquivalent}
+  - {name: CCNOTPrimitive, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CCNOTPrimitive}
+  - {name: CNOTEquivalenceTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CNOTEquivalenceTest}
+  - {name: CNOTEquivalent, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CNOTEquivalent}
+  - {name: CNOTPrimitive, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CNOTPrimitive}
+  - {name: CallReturnedUdtConstructorTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CallReturnedUdtConstructorTest}
+  - {name: CallableInterfacesTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CallableInterfacesTest}
+  - {name: CheckAdjoint, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CheckAdjoint}
+  - {name: CheckControlled, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CheckControlled}
+  - {name: CheckPlain, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CheckPlain}
+  - {name: CheckUnitary, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.CheckUnitary}
+  - {name: ConditionalExpressionTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ConditionalExpressionTest}
+  - {name: ConstantArray, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ConstantArray}
+  - {name: ConvertTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ConvertTest}
+  - {name: DiscardedSymbolsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.DiscardedSymbolsTest}
+  - {name: DivideBy0, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.DivideBy0}
+  - {name: DivideTwo, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.DivideTwo}
+  - {name: DumpPhaseTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.DumpPhaseTest}
+  - {name: Empty, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Empty}
+  - {name: ExpCrashTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ExpCrashTest}
+  - {name: ExtendedForTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ExtendedForTest}
+  - {name: F1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.F1}
+  - {name: F2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.F2}
+  - {name: Factorial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Factorial}
+  - {name: Fail, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Fail}
+  - {name: Foo, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Foo}
+  - {name: FooUDT, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.FooUDT}
+  - {name: FooUDTOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.FooUDTOp}
+  - {name: GenRecursion, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.GenRecursion}
+  - {name: GenRecursionPartial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.GenRecursionPartial}
+  - {name: GenericAdjFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.GenericAdjFail1}
+  - {name: GenericCtlFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.GenericCtlFail1}
+  - {name: GenericFail, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.GenericFail}
+  - {name: GenericFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.GenericFail1}
+  - {name: GetAvailableTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.GetAvailableTest}
+  - {name: HOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.HOp}
+  - {name: IncrementWithRotationsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.IncrementWithRotationsTest}
+  - {name: IndirectPartialUDTTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.IndirectPartialUDTTest}
+  - {name: InnerNamedTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.InnerNamedTuple}
+  - {name: InternalCallablesTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.InternalCallablesTest}
+  - {name: InterpolatedStringTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.InterpolatedStringTest}
+  - {name: IsEven, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.IsEven}
+  - {name: JointMeasureTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.JointMeasureTest}
+  - {name: LengthTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.LengthTest}
+  - {name: MapF, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MapF}
+  - {name: MutuallyRecursiveOperationTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MutuallyRecursiveOperationTest}
+  - {name: NamedItemAccessTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NamedItemAccessTest}
+  - {name: NamedItemUpdateTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NamedItemUpdateTest}
+  - {name: NamedTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NamedTuple}
+  - {name: NestedOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NestedOp}
+  - {name: NestedPair, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NestedPair}
+  - {name: NoOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOp}
+  - {name: NoOpAdjoint, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOpAdjoint}
+  - {name: NoOpAdjointTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOpAdjointTuple}
+  - {name: NoOpControlled, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOpControlled}
+  - {name: NoOpControlledTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOpControlledTuple}
+  - {name: NoOpTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOpTuple}
+  - {name: NoOpUnitary, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOpUnitary}
+  - {name: NoOpUnitaryTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.NoOpUnitaryTuple}
+  - {name: OneBitPrecisionEigenvalue, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.OneBitPrecisionEigenvalue}
+  - {name: OneRound, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.OneRound}
+  - {name: OpFactorial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.OpFactorial}
+  - {name: P1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.P1}
+  - {name: P2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.P2}
+  - {name: PartialAdjFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PartialAdjFail1}
+  - {name: PartialCtlFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PartialCtlFail1}
+  - {name: PartialFail, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PartialFail}
+  - {name: PartialFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PartialFail1}
+  - {name: PartialFunctionsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PartialFunctionsTest}
+  - {name: PartialNestedUDTTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PartialNestedUDTTest}
+  - {name: PartialUDTTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PartialUDTTest}
+  - {name: PassingUDTConstructorTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PassingUDTConstructorTest}
+  - {name: PiTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PiTest}
+  - {name: PrepareCatState, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.PrepareCatState}
+  - {name: QSharpUnitTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.QSharpUnitTest}
+  - {name: QubitAllocationTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.QubitAllocationTest}
+  - {name: QubitBorrower, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.QubitBorrower}
+  - {name: R1Equivalent, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.R1Equivalent}
+  - {name: R1EquivalentTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.R1EquivalentTest}
+  - {name: R1Primitive, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.R1Primitive}
+  - {name: RandomOperationTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.RandomOperationTest}
+  - {name: RangePropsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.RangePropsTest}
+  - {name: RecursionFail, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.RecursionFail}
+  - {name: RecursionFail1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.RecursionFail1}
+  - {name: ReleaseMeasureMultipleQubitCheck, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ReleaseMeasureMultipleQubitCheck}
+  - {name: ReleaseMeasuredQubitCheck, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ReleaseMeasuredQubitCheck}
+  - {name: RepeatUntilSuccessTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.RepeatUntilSuccessTest}
+  - {name: ReturnFromWithinBorrowing, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ReturnFromWithinBorrowing}
+  - {name: ReturnFromWithinUsing, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ReturnFromWithinUsing}
+  - {name: ReturnTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ReturnTest}
+  - {name: SetQubit, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.SetQubit}
+  - {name: SliceGenerationTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.SliceGenerationTest}
+  - {name: Solve, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Solve}
+  - {name: SwapTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.SwapTest}
+  - {name: TakesUdtPartial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.TakesUdtPartial}
+  - {name: TeleportTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.TeleportTest}
+  - {name: TestSafeToRunCliffords, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.TestSafeToRunCliffords}
+  - {name: TimesTwo, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.TimesTwo}
+  - {name: TransformedOperationTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.TransformedOperationTest}
+  - {name: TwoQubitOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.TwoQubitOp}
+  - {name: UdtConstructorArrayTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.UdtConstructorArrayTest}
+  - {name: UdtInnerNamedTupleFieldTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.UdtInnerNamedTupleFieldTest}
+  - {name: UdtNamedTupleFieldTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.UdtNamedTupleFieldTest}
+  - {name: UsingQubitCheck, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.UsingQubitCheck}
+  - {name: VariablesScopeTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.VariablesScopeTest}
+  - {name: VerifyUnitary, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.VerifyUnitary}
+  - {name: WhileLoopTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.WhileLoopTest}
+  - {name: WrappedInt, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.WrappedInt}
+  - {name: WrapperOp, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.WrapperOp}
+  - {name: returnPartialUdtConstructor, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.returnPartialUdtConstructor}
+  - {name: returnUdtConstructor, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.returnUdtConstructor}
+  name: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits
+  uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits
+- items:
+  - {name: AsString, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.AsString}
+  - {name: ClosedType2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.ClosedType2}
+  - {name: ClosedType3, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.ClosedType3}
+  - {name: ClosedType4, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.ClosedType4}
+  - {name: ClosedType5, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.ClosedType5}
+  - {name: Iter, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.Iter}
+  - {name: Map, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.Map}
+  - {name: Qs, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.Qs}
+  - {name: Repeat, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.Repeat}
+  - {name: TestIter, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.TestIter}
+  - {name: TestRepeatPartial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.TestRepeatPartial}
+  - {name: TestUDTsUnwrapping, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.TestUDTsUnwrapping}
+  - {name: Trace, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.Trace}
+  - {name: TraceGate, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.TraceGate}
+  - {name: UDT_C2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.UDT_C2}
+  - {name: UDT_C3, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType.UDT_C3}
+  name: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType
+  uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.ClosedType
+- items:
+  - {name: BoolInt, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.BoolInt}
+  - {name: DefaultArray, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultArray}
+  - {name: DefaultBigInt, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultBigInt}
+  - {name: DefaultBool, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultBool}
+  - {name: DefaultCallable, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultCallable}
+  - {name: DefaultDouble, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultDouble}
+  - {name: DefaultInt, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultInt}
+  - {name: DefaultPauli, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultPauli}
+  - {name: DefaultQubit, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultQubit}
+  - {name: DefaultRange, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultRange}
+  - {name: DefaultResult, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultResult}
+  - {name: DefaultString, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultString}
+  - {name: DefaultTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultTuple}
+  - {name: DefaultUnit, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultUnit}
+  - {name: DefaultUserDefinedType, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.DefaultUserDefinedType}
+  - {name: IntResultString, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default.IntResultString}
+  name: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default
+  uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Default
+- items:
+  - {name: AddControlled, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.AddControlled}
+  - {name: ApplyPauliFromBitString, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ApplyPauliFromBitString}
+  - {name: ApplyToEach, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ApplyToEach}
+  - {name: ApplyToEachA, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ApplyToEachA}
+  - {name: ApplyToEachCA, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ApplyToEachCA}
+  - {name: AsInt, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.AsInt}
+  - {name: AsStr, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.AsStr}
+  - {name: AsString, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.AsString}
+  - {name: AssertOperationsEqualReferenced, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.AssertOperationsEqualReferenced}
+  - {name: AssignmentsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.AssignmentsTest}
+  - {name: AssignmentsWithPartialsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.AssignmentsWithPartialsTest}
+  - {name: Bind, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Bind}
+  - {name: BindImpl, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.BindImpl}
+  - {name: BindTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.BindTest}
+  - {name: CCNOT2OuterCircuit, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.CCNOT2OuterCircuit}
+  - {name: CCNOTCiruitsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.CCNOTCiruitsTest}
+  - {name: ChooseFirst, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ChooseFirst}
+  - {name: Compose, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Compose}
+  - {name: ComposeImpl, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ComposeImpl}
+  - {name: ControlledOnBitString, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ControlledOnBitString}
+  - {name: ControlledOnBitStringImpl, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ControlledOnBitStringImpl}
+  - {name: CountQs, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.CountQs}
+  - {name: CountQsNonGeneric, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.CountQsNonGeneric}
+  - {name: CreateLookup, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.CreateLookup}
+  - {name: DoAll, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.DoAll}
+  - {name: Gen0, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen0}
+  - {name: Gen1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen1}
+  - {name: Gen2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen2}
+  - {name: Gen3, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen3}
+  - {name: Gen4, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen4}
+  - {name: Gen5, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen5}
+  - {name: Gen6, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen6}
+  - {name: Gen7, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Gen7}
+  - {name: GenWrapper, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.GenWrapper}
+  - {name: Indirection, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Indirection}
+  - {name: ItemAt, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ItemAt}
+  - {name: Iter, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Iter}
+  - {name: LittleEndian, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.LittleEndian}
+  - {name: Map, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Map}
+  - {name: MapDefaults, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.MapDefaults}
+  - {name: Mapper, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Mapper}
+  - {name: MixedComponentsTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.MixedComponentsTest}
+  - {name: MultiControlledTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.MultiControlledTest}
+  - {name: NestedArgTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.NestedArgTuple}
+  - {name: NestedArgTupleGeneric, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.NestedArgTupleGeneric}
+  - {name: NestedArgTupleParameter, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.NestedArgTupleParameter}
+  - {name: Repeat, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Repeat}
+  - {name: RepeatWrapper, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.RepeatWrapper}
+  - {name: ReturnId, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.ReturnId}
+  - {name: TestApplyToEachUdt, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestApplyToEachUdt}
+  - {name: TestCompose, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestCompose}
+  - {name: TestComposeWithNonGeneric, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestComposeWithNonGeneric}
+  - {name: TestControlledBitString, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestControlledBitString}
+  - {name: TestCreateRepeatWrapperPartial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestCreateRepeatWrapperPartial}
+  - {name: TestDestructingArgTuple, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestDestructingArgTuple}
+  - {name: TestGenericPartial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestGenericPartial}
+  - {name: TestIter, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestIter}
+  - {name: TestLookupUnitaries, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestLookupUnitaries}
+  - {name: TestMapDefaults, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestMapDefaults}
+  - {name: TestMultipleTypeParamters, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestMultipleTypeParamters}
+  - {name: TestNonGenericPartial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestNonGenericPartial}
+  - {name: TestRepeatPartial, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestRepeatPartial}
+  - {name: TestUDTsPolyMorphism, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TestUDTsPolyMorphism}
+  - {name: Trace, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.Trace}
+  - {name: TraceGate, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TraceGate}
+  - {name: TraceNonGeneric, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TraceNonGeneric}
+  - {name: TypeParameters, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.TypeParameters}
+  - {name: UDT_G1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UDT_G1}
+  - {name: UDT_G2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UDT_G2}
+  - {name: UDT_G3, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UDT_G3}
+  - {name: UDT_G4, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UDT_G4}
+  - {name: UDT_G5, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UDT_G5}
+  - {name: UDT_G6, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UDT_G6}
+  - {name: UDT_G7, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UDT_G7}
+  - {name: UnboxG1Array, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UnboxG1Array}
+  - {name: UnboxG6, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UnboxG6}
+  - {name: UpToPhaseCCNOT2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.UpToPhaseCCNOT2}
+  - {name: WithA, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.WithA}
+  - {name: WithCA, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.WithCA}
+  - {name: WrapperWithDifferentReturnValuesTest, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics.WrapperWithDifferentReturnValuesTest}
+  name: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics
+  uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.Generics
+- items:
+  - {name: AdjointBody, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.AdjointBody}
+  - {name: AvoidsOperationPropertyShadowing1, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.AvoidsOperationPropertyShadowing1}
+  - {name: Bar, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.Bar}
+  - {name: Body, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.Body}
+  - {name: ControlledAdjointBody, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.ControlledAdjointBody}
+  - {name: ControlledBody, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.ControlledBody}
+  - {name: Foo, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.Foo}
+  - {name: Info, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.Info}
+  - {name: Init, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.Init}
+  - {name: Items, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.Items}
+  - {name: Run, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.Run}
+  - {name: SupportsConfusingQualifiedNames, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.SupportsConfusingQualifiedNames}
+  - {name: SupportsReservedNamedItems, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.SupportsReservedNamedItems}
+  - {name: SupportsReservedOperationNames, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames.SupportsReservedOperationNames}
+  name: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames
+  uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames
+- items:
+  - {name: AvoidsOperationPropertyShadowing2, uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames2.AvoidsOperationPropertyShadowing2}
+  name: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames2
+  uid: Microsoft.Quantum.Simulation.Simulators.Tests.Circuits.MemberNames2
+- items:
+  - {name: Accuracy, uid: Microsoft.Quantum.Simulation.TestSuite.Accuracy}
+  - {name: ApplyNonCommutingPauli, uid: Microsoft.Quantum.Simulation.TestSuite.ApplyNonCommutingPauli}
+  - {name: AssertProbAndCliffordOneQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbAndCliffordOneQubitTest}
+  - {name: AssertProbAndH, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbAndH}
+  - {name: AssertProbAndMeasureOneQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbAndMeasureOneQubitTest}
+  - {name: AssertProbAndPaulies, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbAndPaulies}
+  - {name: AssertProbAndS, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbAndS}
+  - {name: AssertProbForStateAndObservable, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbForStateAndObservable}
+  - {name: AssertProbMultiQubit1Test, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbMultiQubit1Test}
+  - {name: AssertProbMultiQubit2Test, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbMultiQubit2Test}
+  - {name: AssertProbMultiQubitCheck, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbMultiQubitCheck}
+  - {name: AssertProbMultiQubitCheckPerObservable, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbMultiQubitCheckPerObservable}
+  - {name: AssertProbMultiQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbMultiQubitTest}
+  - {name: AssertProbOneQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.AssertProbOneQubitTest}
+  - {name: AssertQubitUnitary, uid: Microsoft.Quantum.Simulation.TestSuite.AssertQubitUnitary}
+  - {name: AssertQubitUnitaryWithAdjoint, uid: Microsoft.Quantum.Simulation.TestSuite.AssertQubitUnitaryWithAdjoint}
+  - {name: AssertState, uid: Microsoft.Quantum.Simulation.TestSuite.AssertState}
+  - {name: AssertStateHelper, uid: Microsoft.Quantum.Simulation.TestSuite.AssertStateHelper}
+  - {name: AssertUnitary, uid: Microsoft.Quantum.Simulation.TestSuite.AssertUnitary}
+  - {name: AssertUnitaryHelper, uid: Microsoft.Quantum.Simulation.TestSuite.AssertUnitaryHelper}
+  - {name: AssertUnitaryWithAdjoint, uid: Microsoft.Quantum.Simulation.TestSuite.AssertUnitaryWithAdjoint}
+  - {name: CNOTTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.CNOTTestHelper}
+  - {name: CNOTTwoQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.CNOTTwoQubitTest}
+  - {name: CheckAllocatedQubitsAreInZeroState, uid: Microsoft.Quantum.Simulation.TestSuite.CheckAllocatedQubitsAreInZeroState}
+  - {name: CheckJointState, uid: Microsoft.Quantum.Simulation.TestSuite.CheckJointState}
+  - {name: CheckZeroStateObservablesValues, uid: Microsoft.Quantum.Simulation.TestSuite.CheckZeroStateObservablesValues}
+  - {name: ContinuousParameterTestList, uid: Microsoft.Quantum.Simulation.TestSuite.ContinuousParameterTestList}
+  - {name: ControlledExpWithIPauliTest, uid: Microsoft.Quantum.Simulation.TestSuite.ControlledExpWithIPauliTest}
+  - {name: ControlledOneQubitOperationsTwoQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.ControlledOneQubitOperationsTwoQubitTest}
+  - {name: ControlledOperationTester, uid: Microsoft.Quantum.Simulation.TestSuite.ControlledOperationTester}
+  - {name: ControlledQubitOperationTester, uid: Microsoft.Quantum.Simulation.TestSuite.ControlledQubitOperationTester}
+  - {name: ControlledTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.ControlledTestHelper}
+  - {name: ExpTwoQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.ExpTwoQubitTest}
+  - {name: ExpTwoQubitTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.ExpTwoQubitTestHelper}
+  - {name: FixesComputationalBasis, uid: Microsoft.Quantum.Simulation.TestSuite.FixesComputationalBasis}
+  - {name: FracEdgeCasesQSimFail, uid: Microsoft.Quantum.Simulation.TestSuite.FracEdgeCasesQSimFail}
+  - {name: FracParametersTestList, uid: Microsoft.Quantum.Simulation.TestSuite.FracParametersTestList}
+  - {name: IdentityTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.IdentityTestHelper}
+  - {name: IsFullSimulator, uid: Microsoft.Quantum.Simulation.TestSuite.IsFullSimulator}
+  - {name: IsReversibleSimulator, uid: Microsoft.Quantum.Simulation.TestSuite.IsReversibleSimulator}
+  - {name: IsStabilizerSimulator, uid: Microsoft.Quantum.Simulation.TestSuite.IsStabilizerSimulator}
+  - {name: IterateThroughCartesianPower, uid: Microsoft.Quantum.Simulation.TestSuite.IterateThroughCartesianPower}
+  - {name: IterateThroughCartesianProduct, uid: Microsoft.Quantum.Simulation.TestSuite.IterateThroughCartesianProduct}
+  - {name: JointOneQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.JointOneQubitTest}
+  - {name: JointOneQubitTester, uid: Microsoft.Quantum.Simulation.TestSuite.JointOneQubitTester}
+  - {name: LevelOfCliffordHierarchy, uid: Microsoft.Quantum.Simulation.TestSuite.LevelOfCliffordHierarchy}
+  - {name: MakeConstArray, uid: Microsoft.Quantum.Simulation.TestSuite.MakeConstArray}
+  - {name: ManyControlQubitsTest, uid: Microsoft.Quantum.Simulation.TestSuite.ManyControlQubitsTest}
+  - {name: MaxDenomiantorPowerToTest, uid: Microsoft.Quantum.Simulation.TestSuite.MaxDenomiantorPowerToTest}
+  - {name: MaxQubitsToAllocateForOneQubitTests, uid: Microsoft.Quantum.Simulation.TestSuite.MaxQubitsToAllocateForOneQubitTests}
+  - {name: MaxQubitsToAllocateForTwoQubitTests, uid: Microsoft.Quantum.Simulation.TestSuite.MaxQubitsToAllocateForTwoQubitTests}
+  - {name: MeasureAndCorrect, uid: Microsoft.Quantum.Simulation.TestSuite.MeasureAndCorrect}
+  - {name: MultiControlledQubitOperationsTester, uid: Microsoft.Quantum.Simulation.TestSuite.MultiControlledQubitOperationsTester}
+  - {name: MultiControlledQubitTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.MultiControlledQubitTestHelper}
+  - {name: MultiControlledTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.MultiControlledTestHelper}
+  - {name: OnFirstQubit, uid: Microsoft.Quantum.Simulation.TestSuite.OnFirstQubit}
+  - {name: OnFirstQubitA, uid: Microsoft.Quantum.Simulation.TestSuite.OnFirstQubitA}
+  - {name: OnFirstQubitAC, uid: Microsoft.Quantum.Simulation.TestSuite.OnFirstQubitAC}
+  - {name: OnFirstThreeQubitsAC, uid: Microsoft.Quantum.Simulation.TestSuite.OnFirstThreeQubitsAC}
+  - {name: OnFirstTwoQubitsAC, uid: Microsoft.Quantum.Simulation.TestSuite.OnFirstTwoQubitsAC}
+  - {name: OnOneQubit, uid: Microsoft.Quantum.Simulation.TestSuite.OnOneQubit}
+  - {name: OnOneQubitA, uid: Microsoft.Quantum.Simulation.TestSuite.OnOneQubitA}
+  - {name: OnOneQubitAC, uid: Microsoft.Quantum.Simulation.TestSuite.OnOneQubitAC}
+  - {name: OnSecondQubitAC, uid: Microsoft.Quantum.Simulation.TestSuite.OnSecondQubitAC}
+  - {name: OneQubitOperationsTest, uid: Microsoft.Quantum.Simulation.TestSuite.OneQubitOperationsTest}
+  - {name: OneQubitTestList, uid: Microsoft.Quantum.Simulation.TestSuite.OneQubitTestList}
+  - {name: OperationMap, uid: Microsoft.Quantum.Simulation.TestSuite.OperationMap}
+  - {name: OperationMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.OperationMatrix}
+  - {name: OutsideOfClifforfdHirerarchy, uid: Microsoft.Quantum.Simulation.TestSuite.OutsideOfClifforfdHirerarchy}
+  - {name: PruneObservable, uid: Microsoft.Quantum.Simulation.TestSuite.PruneObservable}
+  - {name: QubitOperationMatrixPair, uid: Microsoft.Quantum.Simulation.TestSuite.QubitOperationMatrixPair}
+  - {name: R1FracCliffordHierarchyLevel, uid: Microsoft.Quantum.Simulation.TestSuite.R1FracCliffordHierarchyLevel}
+  - {name: RotationsWithDoubleParameterTestList, uid: Microsoft.Quantum.Simulation.TestSuite.RotationsWithDoubleParameterTestList}
+  - {name: RotationsWithFracParameterTestList, uid: Microsoft.Quantum.Simulation.TestSuite.RotationsWithFracParameterTestList}
+  - {name: SWAPTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.SWAPTestHelper}
+  - {name: SWAPTwoQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.SWAPTwoQubitTest}
+  - {name: SingleQubitOperationDescription, uid: Microsoft.Quantum.Simulation.TestSuite.SingleQubitOperationDescription}
+  - {name: TwoQubitUnitaryTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.TwoQubitUnitaryTestHelper}
+  name: Microsoft.Quantum.Simulation.TestSuite
+  uid: Microsoft.Quantum.Simulation.TestSuite
+- items:
+  - {name: AbsC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.AbsC}
+  - {name: AbsSquaredC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.AbsSquaredC}
+  - {name: ApplyMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ApplyMatrix}
+  - {name: AssertUnitaryMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.AssertUnitaryMatrix}
+  - {name: CNOTMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.CNOTMatrix}
+  - {name: Complex, uid: Microsoft.Quantum.Simulation.TestSuite.Math.Complex}
+  - {name: ComplexI, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ComplexI}
+  - {name: ComplexIPower, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ComplexIPower}
+  - {name: ConjugateC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ConjugateC}
+  - {name: ControlledMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ControlledMatrix}
+  - {name: DirectSum, uid: Microsoft.Quantum.Simulation.TestSuite.Math.DirectSum}
+  - {name: DivCC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.DivCC}
+  - {name: DivCD, uid: Microsoft.Quantum.Simulation.TestSuite.Math.DivCD}
+  - {name: DotProduct, uid: Microsoft.Quantum.Simulation.TestSuite.Math.DotProduct}
+  - {name: ExpIC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIC}
+  - {name: ExpICFrac, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpICFrac}
+  - {name: ExpIIIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIIIMatrix}
+  - {name: ExpIIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIIMatrix}
+  - {name: ExpIIXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIIXMatrix}
+  - {name: ExpIIYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIIYMatrix}
+  - {name: ExpIIZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIIZMatrix}
+  - {name: ExpIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIMatrix}
+  - {name: ExpIXIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIXIMatrix}
+  - {name: ExpIXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIXMatrix}
+  - {name: ExpIXXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIXXMatrix}
+  - {name: ExpIXYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIXYMatrix}
+  - {name: ExpIXZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIXZMatrix}
+  - {name: ExpIYIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIYIMatrix}
+  - {name: ExpIYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIYMatrix}
+  - {name: ExpIYXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIYXMatrix}
+  - {name: ExpIYYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIYYMatrix}
+  - {name: ExpIYZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIYZMatrix}
+  - {name: ExpIZIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIZIMatrix}
+  - {name: ExpIZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIZMatrix}
+  - {name: ExpIZXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIZXMatrix}
+  - {name: ExpIZYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIZYMatrix}
+  - {name: ExpIZZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpIZZMatrix}
+  - {name: ExpMultiPauliMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpMultiPauliMatrix}
+  - {name: ExpPauliMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpPauliMatrix}
+  - {name: ExpXIIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXIIMatrix}
+  - {name: ExpXIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXIMatrix}
+  - {name: ExpXIXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXIXMatrix}
+  - {name: ExpXIYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXIYMatrix}
+  - {name: ExpXIZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXIZMatrix}
+  - {name: ExpXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXMatrix}
+  - {name: ExpXXIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXXIMatrix}
+  - {name: ExpXXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXXMatrix}
+  - {name: ExpXXXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXXXMatrix}
+  - {name: ExpXXYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXXYMatrix}
+  - {name: ExpXXZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXXZMatrix}
+  - {name: ExpXYIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXYIMatrix}
+  - {name: ExpXYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXYMatrix}
+  - {name: ExpXYXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXYXMatrix}
+  - {name: ExpXYYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXYYMatrix}
+  - {name: ExpXYZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXYZMatrix}
+  - {name: ExpXZIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXZIMatrix}
+  - {name: ExpXZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXZMatrix}
+  - {name: ExpXZXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXZXMatrix}
+  - {name: ExpXZYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXZYMatrix}
+  - {name: ExpXZZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpXZZMatrix}
+  - {name: ExpYIIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYIIMatrix}
+  - {name: ExpYIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYIMatrix}
+  - {name: ExpYIXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYIXMatrix}
+  - {name: ExpYIYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYIYMatrix}
+  - {name: ExpYIZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYIZMatrix}
+  - {name: ExpYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYMatrix}
+  - {name: ExpYXIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYXIMatrix}
+  - {name: ExpYXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYXMatrix}
+  - {name: ExpYXXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYXXMatrix}
+  - {name: ExpYXYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYXYMatrix}
+  - {name: ExpYXZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYXZMatrix}
+  - {name: ExpYYIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYYIMatrix}
+  - {name: ExpYYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYYMatrix}
+  - {name: ExpYYXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYYXMatrix}
+  - {name: ExpYYYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYYYMatrix}
+  - {name: ExpYYZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYYZMatrix}
+  - {name: ExpYZIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYZIMatrix}
+  - {name: ExpYZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYZMatrix}
+  - {name: ExpYZXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYZXMatrix}
+  - {name: ExpYZYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYZYMatrix}
+  - {name: ExpYZZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpYZZMatrix}
+  - {name: ExpZIIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZIIMatrix}
+  - {name: ExpZIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZIMatrix}
+  - {name: ExpZIXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZIXMatrix}
+  - {name: ExpZIYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZIYMatrix}
+  - {name: ExpZIZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZIZMatrix}
+  - {name: ExpZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZMatrix}
+  - {name: ExpZXIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZXIMatrix}
+  - {name: ExpZXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZXMatrix}
+  - {name: ExpZXXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZXXMatrix}
+  - {name: ExpZXYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZXYMatrix}
+  - {name: ExpZXZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZXZMatrix}
+  - {name: ExpZYIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZYIMatrix}
+  - {name: ExpZYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZYMatrix}
+  - {name: ExpZYXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZYXMatrix}
+  - {name: ExpZYYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZYYMatrix}
+  - {name: ExpZYZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZYZMatrix}
+  - {name: ExpZZIMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZZIMatrix}
+  - {name: ExpZZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZZMatrix}
+  - {name: ExpZZXMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZZXMatrix}
+  - {name: ExpZZYMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZZYMatrix}
+  - {name: ExpZZZMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpZZZMatrix}
+  - {name: ExpectedValueForMultiPauliByStateId, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpectedValueForMultiPauliByStateId}
+  - {name: ExpectedValueForPauli, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ExpectedValueForPauli}
+  - {name: HMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.HMatrix}
+  - {name: HermitianProduct, uid: Microsoft.Quantum.Simulation.TestSuite.Math.HermitianProduct}
+  - {name: IState, uid: Microsoft.Quantum.Simulation.TestSuite.Math.IState}
+  - {name: IdentityMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.IdentityMatrix}
+  - {name: MinusC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.MinusC}
+  - {name: NumberOfComputationalBasisTestStates, uid: Microsoft.Quantum.Simulation.TestSuite.Math.NumberOfComputationalBasisTestStates}
+  - {name: NumberOfPaulies, uid: Microsoft.Quantum.Simulation.TestSuite.Math.NumberOfPaulies}
+  - {name: NumberOfTestStates, uid: Microsoft.Quantum.Simulation.TestSuite.Math.NumberOfTestStates}
+  - {name: OneC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.OneC}
+  - {name: OneState, uid: Microsoft.Quantum.Simulation.TestSuite.Math.OneState}
+  - {name: PAdicValuation, uid: Microsoft.Quantum.Simulation.TestSuite.Math.PAdicValuation}
+  - {name: PauliById, uid: Microsoft.Quantum.Simulation.TestSuite.Math.PauliById}
+  - {name: PauliExpectation, uid: Microsoft.Quantum.Simulation.TestSuite.Math.PauliExpectation}
+  - {name: PauliMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.PauliMatrix}
+  - {name: PlusC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.PlusC}
+  - {name: PlusState, uid: Microsoft.Quantum.Simulation.TestSuite.Math.PlusState}
+  - {name: R1Matrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.R1Matrix}
+  - {name: RowMajorMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.RowMajorMatrix}
+  - {name: RowVector, uid: Microsoft.Quantum.Simulation.TestSuite.Math.RowVector}
+  - {name: SMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.SMatrix}
+  - {name: SWAPMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.SWAPMatrix}
+  - {name: StateById, uid: Microsoft.Quantum.Simulation.TestSuite.Math.StateById}
+  - {name: StateIdToVector, uid: Microsoft.Quantum.Simulation.TestSuite.Math.StateIdToVector}
+  - {name: TMatrix, uid: Microsoft.Quantum.Simulation.TestSuite.Math.TMatrix}
+  - {name: TensorProduct, uid: Microsoft.Quantum.Simulation.TestSuite.Math.TensorProduct}
+  - {name: TensorProductOfArray, uid: Microsoft.Quantum.Simulation.TestSuite.Math.TensorProductOfArray}
+  - {name: TimesC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.TimesC}
+  - {name: Vector, uid: Microsoft.Quantum.Simulation.TestSuite.Math.Vector}
+  - {name: YCount, uid: Microsoft.Quantum.Simulation.TestSuite.Math.YCount}
+  - {name: ZeroC, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ZeroC}
+  - {name: ZeroState, uid: Microsoft.Quantum.Simulation.TestSuite.Math.ZeroState}
+  - {name: _pavRecursion, uid: Microsoft.Quantum.Simulation.TestSuite.Math._pavRecursion}
+  name: Microsoft.Quantum.Simulation.TestSuite.Math
+  uid: Microsoft.Quantum.Simulation.TestSuite.Math
+- items:
+  - {name: PauliExpectationTest, uid: Microsoft.Quantum.Simulation.TestSuite.SelfTests.PauliExpectationTest}
+  - {name: PauliExpectationTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.SelfTests.PauliExpectationTestHelper}
+  name: Microsoft.Quantum.Simulation.TestSuite.SelfTests
+  uid: Microsoft.Quantum.Simulation.TestSuite.SelfTests
+- items:
+  - {name: ExpTestHelper, uid: Microsoft.Quantum.Simulation.TestSuite.VeryLong.ExpTestHelper}
+  - {name: ExpThreeQubitTest, uid: Microsoft.Quantum.Simulation.TestSuite.VeryLong.ExpThreeQubitTest}
+  - {name: OneQubitUnitariesWithTwoControlsTest, uid: Microsoft.Quantum.Simulation.TestSuite.VeryLong.OneQubitUnitariesWithTwoControlsTest}
+  name: Microsoft.Quantum.Simulation.TestSuite.VeryLong
+  uid: Microsoft.Quantum.Simulation.TestSuite.VeryLong
+- items:
+  - {name: AdjointSupportInvertTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.AdjointSupportInvertTest}
+  - {name: AdjointSupportProvidedTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.AdjointSupportProvidedTest}
+  - {name: AdjointSupportSelfTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.AdjointSupportSelfTest}
+  - {name: AndConditionTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.AndConditionTest}
+  - {name: ApplyConditionallyTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ApplyConditionallyTest}
+  - {name: ApplyConditionallyWithNoOpTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ApplyConditionallyWithNoOpTest}
+  - {name: ApplyIfOneElseZeroTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ApplyIfOneElseZeroTest}
+  - {name: ApplyIfOneTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ApplyIfOneTest}
+  - {name: ApplyIfZeroElseOneTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ApplyIfZeroElseOneTest}
+  - {name: ApplyIfZeroTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ApplyIfZeroTest}
+  - {name: ArgumentsPartiallyResolveTypeParametersTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ArgumentsPartiallyResolveTypeParametersTest}
+  - {name: BasicLiftTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.BasicLiftTest}
+  - {name: BranchOnMeasurementTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.BranchOnMeasurementTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeAdjointTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportDistribute_DistributeAdjointTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeAllTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportDistribute_DistributeAllTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeBodyTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportDistribute_DistributeBodyTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeControlledTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportDistribute_DistributeControlledTest}
+  - {name: ControlledAdjointSupportInvert_InvertAdjointTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportInvert_InvertAdjointTest}
+  - {name: ControlledAdjointSupportInvert_InvertAllTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportInvert_InvertAllTest}
+  - {name: ControlledAdjointSupportInvert_InvertBodyTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportInvert_InvertBodyTest}
+  - {name: ControlledAdjointSupportInvert_InvertControlledTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportInvert_InvertControlledTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedAdjointTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportProvided_ProvidedAdjointTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedAllTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportProvided_ProvidedAllTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedBodyTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportProvided_ProvidedBodyTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedControlledTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportProvided_ProvidedControlledTest}
+  - {name: ControlledAdjointSupportSelf_SelfBodyTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportSelf_SelfBodyTest}
+  - {name: ControlledAdjointSupportSelf_SelfControlledTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledAdjointSupportSelf_SelfControlledTest}
+  - {name: ControlledSupportDistributeTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledSupportDistributeTest}
+  - {name: ControlledSupportProvidedTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ControlledSupportProvidedTest}
+  - {name: GenericsSupportTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.GenericsSupportTest}
+  - {name: IfElifTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.IfElifTest}
+  - {name: InequalityWithApplyConditionallyTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.InequalityWithApplyConditionallyTest}
+  - {name: InequalityWithApplyIfOneElseZeroTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.InequalityWithApplyIfOneElseZeroTest}
+  - {name: InequalityWithApplyIfOneTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.InequalityWithApplyIfOneTest}
+  - {name: InequalityWithApplyIfZeroElseOneTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.InequalityWithApplyIfZeroElseOneTest}
+  - {name: InequalityWithApplyIfZeroTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.InequalityWithApplyIfZeroTest}
+  - {name: LiftArrayItemCallTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiftArrayItemCallTest}
+  - {name: LiftFunctorApplicationTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiftFunctorApplicationTest}
+  - {name: LiftLoopsTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiftLoopsTest}
+  - {name: LiftOneNotBothTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiftOneNotBothTest}
+  - {name: LiftPartialApplicationTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiftPartialApplicationTest}
+  - {name: LiftSelfContainedMutableTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiftSelfContainedMutableTest}
+  - {name: LiftSingleNonCallTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiftSingleNonCallTest}
+  - {name: LiteralOnTheLeftTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.LiteralOnTheLeftTest}
+  - {name: MeasureInMiddleTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.MeasureInMiddleTest}
+  - {name: OrConditionTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.OrConditionTest}
+  - {name: QubitAfterMeasurementTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.QubitAfterMeasurementTest}
+  - {name: WithinBlockSupportTest, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.WithinBlockSupportTest}
+  name: Microsoft.Quantum.Simulation.Testing.Honeywell
+  uid: Microsoft.Quantum.Simulation.Testing.Honeywell
+- items:
+  - {name: AdjointSupportInvert, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.AdjointSupportInvert}
+  - {name: AdjointSupportProvided, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.AdjointSupportProvided}
+  - {name: AdjointSupportSelf, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.AdjointSupportSelf}
+  - {name: AndCondition, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.AndCondition}
+  - {name: ApplyConditionally, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ApplyConditionally}
+  - {name: ApplyConditionallyWithNoOp, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ApplyConditionallyWithNoOp}
+  - {name: ApplyIfOneElseZero, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ApplyIfOneElseZero}
+  - {name: ApplyIfOne_Test, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ApplyIfOne_Test}
+  - {name: ApplyIfZeroElseOne, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ApplyIfZeroElseOne}
+  - {name: ApplyIfZero_Test, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ApplyIfZero_Test}
+  - {name: ArgumentsPartiallyResolveTypeParameters, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ArgumentsPartiallyResolveTypeParameters}
+  - {name: BasicLift, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.BasicLift}
+  - {name: BranchOnMeasurement, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.BranchOnMeasurement}
+  - {name: ControlledAdjointSupportDistribute_DistributeAdjoint, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeAdjoint}
+  - {name: ControlledAdjointSupportDistribute_DistributeAll, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeAll}
+  - {name: ControlledAdjointSupportDistribute_DistributeBody, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeBody}
+  - {name: ControlledAdjointSupportDistribute_DistributeControlled, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeControlled}
+  - {name: ControlledAdjointSupportInvert_InvertAdjoint, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertAdjoint}
+  - {name: ControlledAdjointSupportInvert_InvertAll, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertAll}
+  - {name: ControlledAdjointSupportInvert_InvertBody, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertBody}
+  - {name: ControlledAdjointSupportInvert_InvertControlled, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertControlled}
+  - {name: ControlledAdjointSupportProvided_ProvidedAdjoint, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedAdjoint}
+  - {name: ControlledAdjointSupportProvided_ProvidedAll, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedAll}
+  - {name: ControlledAdjointSupportProvided_ProvidedBody, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedBody}
+  - {name: ControlledAdjointSupportProvided_ProvidedControlled, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedControlled}
+  - {name: ControlledAdjointSupportSelf_SelfBody, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportSelf_SelfBody}
+  - {name: ControlledAdjointSupportSelf_SelfControlled, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledAdjointSupportSelf_SelfControlled}
+  - {name: ControlledSupportDistribute, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledSupportDistribute}
+  - {name: ControlledSupportProvided, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.ControlledSupportProvided}
+  - {name: GenericsSupport, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.GenericsSupport}
+  - {name: IfElif, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.IfElif}
+  - {name: InequalityWithApplyConditionally, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.InequalityWithApplyConditionally}
+  - {name: InequalityWithApplyIfOne, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.InequalityWithApplyIfOne}
+  - {name: InequalityWithApplyIfOneElseZero, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.InequalityWithApplyIfOneElseZero}
+  - {name: InequalityWithApplyIfZero, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.InequalityWithApplyIfZero}
+  - {name: InequalityWithApplyIfZeroElseOne, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.InequalityWithApplyIfZeroElseOne}
+  - {name: LiftArrayItemCall, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiftArrayItemCall}
+  - {name: LiftFunctorApplication, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiftFunctorApplication}
+  - {name: LiftLoops, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiftLoops}
+  - {name: LiftOneNotBoth, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiftOneNotBoth}
+  - {name: LiftPartialApplication, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiftPartialApplication}
+  - {name: LiftSelfContainedMutable, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiftSelfContainedMutable}
+  - {name: LiftSingleNonCall, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiftSingleNonCall}
+  - {name: LiteralOnTheLeft, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.LiteralOnTheLeft}
+  - {name: OrCondition, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.OrCondition}
+  - {name: PartialApplication, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.PartialApplication}
+  - {name: PartiallyResolved, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.PartiallyResolved}
+  - {name: SubOp1, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.SubOp1}
+  - {name: SubOp2, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.SubOp2}
+  - {name: SubOp3, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.SubOp3}
+  - {name: SubOpCA1, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.SubOpCA1}
+  - {name: SubOpCA2, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.SubOpCA2}
+  - {name: SubOpCA3, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.SubOpCA3}
+  - {name: WithinBlockSupport, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests.WithinBlockSupport}
+  name: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests
+  uid: Microsoft.Quantum.Simulation.Testing.Honeywell.ClassicallyControlledSupportTests
+- items:
+  - {name: MeasureInMiddle, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.MeasurementSupportTests.MeasureInMiddle}
+  - {name: QubitAfterMeasurement, uid: Microsoft.Quantum.Simulation.Testing.Honeywell.MeasurementSupportTests.QubitAfterMeasurement}
+  name: Microsoft.Quantum.Simulation.Testing.Honeywell.MeasurementSupportTests
+  uid: Microsoft.Quantum.Simulation.Testing.Honeywell.MeasurementSupportTests
+- items:
+  - {name: MeasureInMiddleTest, uid: Microsoft.Quantum.Simulation.Testing.IonQ.MeasureInMiddleTest}
+  - {name: QubitAfterMeasurementTest, uid: Microsoft.Quantum.Simulation.Testing.IonQ.QubitAfterMeasurementTest}
+  name: Microsoft.Quantum.Simulation.Testing.IonQ
+  uid: Microsoft.Quantum.Simulation.Testing.IonQ
+- items:
+  - {name: MeasureInMiddle, uid: Microsoft.Quantum.Simulation.Testing.IonQ.MeasurementSupportTests.MeasureInMiddle}
+  - {name: QubitAfterMeasurement, uid: Microsoft.Quantum.Simulation.Testing.IonQ.MeasurementSupportTests.QubitAfterMeasurement}
+  name: Microsoft.Quantum.Simulation.Testing.IonQ.MeasurementSupportTests
+  uid: Microsoft.Quantum.Simulation.Testing.IonQ.MeasurementSupportTests
+- items:
+  - {name: AdjointSupportInvertTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.AdjointSupportInvertTest}
+  - {name: AdjointSupportProvidedTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.AdjointSupportProvidedTest}
+  - {name: AdjointSupportSelfTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.AdjointSupportSelfTest}
+  - {name: AndConditionTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.AndConditionTest}
+  - {name: ApplyConditionallyTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ApplyConditionallyTest}
+  - {name: ApplyConditionallyWithNoOpTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ApplyConditionallyWithNoOpTest}
+  - {name: ApplyIfOneElseZeroTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ApplyIfOneElseZeroTest}
+  - {name: ApplyIfOneTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ApplyIfOneTest}
+  - {name: ApplyIfZeroElseOneTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ApplyIfZeroElseOneTest}
+  - {name: ApplyIfZeroTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ApplyIfZeroTest}
+  - {name: ArgumentsPartiallyResolveTypeParametersTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ArgumentsPartiallyResolveTypeParametersTest}
+  - {name: BasicLiftTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.BasicLiftTest}
+  - {name: BranchOnMeasurementTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.BranchOnMeasurementTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeAdjointTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportDistribute_DistributeAdjointTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeAllTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportDistribute_DistributeAllTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeBodyTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportDistribute_DistributeBodyTest}
+  - {name: ControlledAdjointSupportDistribute_DistributeControlledTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportDistribute_DistributeControlledTest}
+  - {name: ControlledAdjointSupportInvert_InvertAdjointTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportInvert_InvertAdjointTest}
+  - {name: ControlledAdjointSupportInvert_InvertAllTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportInvert_InvertAllTest}
+  - {name: ControlledAdjointSupportInvert_InvertBodyTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportInvert_InvertBodyTest}
+  - {name: ControlledAdjointSupportInvert_InvertControlledTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportInvert_InvertControlledTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedAdjointTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportProvided_ProvidedAdjointTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedAllTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportProvided_ProvidedAllTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedBodyTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportProvided_ProvidedBodyTest}
+  - {name: ControlledAdjointSupportProvided_ProvidedControlledTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportProvided_ProvidedControlledTest}
+  - {name: ControlledAdjointSupportSelf_SelfBodyTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportSelf_SelfBodyTest}
+  - {name: ControlledAdjointSupportSelf_SelfControlledTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledAdjointSupportSelf_SelfControlledTest}
+  - {name: ControlledSupportDistributeTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledSupportDistributeTest}
+  - {name: ControlledSupportProvidedTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.ControlledSupportProvidedTest}
+  - {name: GenericsSupportTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.GenericsSupportTest}
+  - {name: IfElifTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.IfElifTest}
+  - {name: InequalityWithApplyConditionallyTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.InequalityWithApplyConditionallyTest}
+  - {name: InequalityWithApplyIfOneElseZeroTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.InequalityWithApplyIfOneElseZeroTest}
+  - {name: InequalityWithApplyIfOneTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.InequalityWithApplyIfOneTest}
+  - {name: InequalityWithApplyIfZeroElseOneTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.InequalityWithApplyIfZeroElseOneTest}
+  - {name: InequalityWithApplyIfZeroTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.InequalityWithApplyIfZeroTest}
+  - {name: LiftArrayItemCallTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiftArrayItemCallTest}
+  - {name: LiftFunctorApplicationTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiftFunctorApplicationTest}
+  - {name: LiftLoopsTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiftLoopsTest}
+  - {name: LiftOneNotBothTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiftOneNotBothTest}
+  - {name: LiftPartialApplicationTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiftPartialApplicationTest}
+  - {name: LiftSelfContainedMutableTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiftSelfContainedMutableTest}
+  - {name: LiftSingleNonCallTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiftSingleNonCallTest}
+  - {name: LiteralOnTheLeftTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.LiteralOnTheLeftTest}
+  - {name: MeasureInMiddleTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.MeasureInMiddleTest}
+  - {name: OrConditionTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.OrConditionTest}
+  - {name: QubitAfterMeasurementTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.QubitAfterMeasurementTest}
+  - {name: WithinBlockSupportTest, uid: Microsoft.Quantum.Simulation.Testing.QCI.WithinBlockSupportTest}
+  name: Microsoft.Quantum.Simulation.Testing.QCI
+  uid: Microsoft.Quantum.Simulation.Testing.QCI
+- items:
+  - {name: AdjointSupportInvert, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.AdjointSupportInvert}
+  - {name: AdjointSupportProvided, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.AdjointSupportProvided}
+  - {name: AdjointSupportSelf, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.AdjointSupportSelf}
+  - {name: AndCondition, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.AndCondition}
+  - {name: ApplyConditionally, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ApplyConditionally}
+  - {name: ApplyConditionallyWithNoOp, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ApplyConditionallyWithNoOp}
+  - {name: ApplyIfOneElseZero, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ApplyIfOneElseZero}
+  - {name: ApplyIfOne_Test, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ApplyIfOne_Test}
+  - {name: ApplyIfZeroElseOne, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ApplyIfZeroElseOne}
+  - {name: ApplyIfZero_Test, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ApplyIfZero_Test}
+  - {name: ArgumentsPartiallyResolveTypeParameters, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ArgumentsPartiallyResolveTypeParameters}
+  - {name: BasicLift, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.BasicLift}
+  - {name: BranchOnMeasurement, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.BranchOnMeasurement}
+  - {name: ControlledAdjointSupportDistribute_DistributeAdjoint, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeAdjoint}
+  - {name: ControlledAdjointSupportDistribute_DistributeAll, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeAll}
+  - {name: ControlledAdjointSupportDistribute_DistributeBody, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeBody}
+  - {name: ControlledAdjointSupportDistribute_DistributeControlled, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeControlled}
+  - {name: ControlledAdjointSupportInvert_InvertAdjoint, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertAdjoint}
+  - {name: ControlledAdjointSupportInvert_InvertAll, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertAll}
+  - {name: ControlledAdjointSupportInvert_InvertBody, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertBody}
+  - {name: ControlledAdjointSupportInvert_InvertControlled, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportInvert_InvertControlled}
+  - {name: ControlledAdjointSupportProvided_ProvidedAdjoint, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedAdjoint}
+  - {name: ControlledAdjointSupportProvided_ProvidedAll, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedAll}
+  - {name: ControlledAdjointSupportProvided_ProvidedBody, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedBody}
+  - {name: ControlledAdjointSupportProvided_ProvidedControlled, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportProvided_ProvidedControlled}
+  - {name: ControlledAdjointSupportSelf_SelfBody, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportSelf_SelfBody}
+  - {name: ControlledAdjointSupportSelf_SelfControlled, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportSelf_SelfControlled}
+  - {name: ControlledSupportDistribute, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledSupportDistribute}
+  - {name: ControlledSupportProvided, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledSupportProvided}
+  - {name: GenericsSupport, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.GenericsSupport}
+  - {name: IfElif, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.IfElif}
+  - {name: InequalityWithApplyConditionally, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.InequalityWithApplyConditionally}
+  - {name: InequalityWithApplyIfOne, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.InequalityWithApplyIfOne}
+  - {name: InequalityWithApplyIfOneElseZero, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.InequalityWithApplyIfOneElseZero}
+  - {name: InequalityWithApplyIfZero, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.InequalityWithApplyIfZero}
+  - {name: InequalityWithApplyIfZeroElseOne, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.InequalityWithApplyIfZeroElseOne}
+  - {name: LiftArrayItemCall, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiftArrayItemCall}
+  - {name: LiftFunctorApplication, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiftFunctorApplication}
+  - {name: LiftLoops, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiftLoops}
+  - {name: LiftOneNotBoth, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiftOneNotBoth}
+  - {name: LiftPartialApplication, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiftPartialApplication}
+  - {name: LiftSelfContainedMutable, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiftSelfContainedMutable}
+  - {name: LiftSingleNonCall, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiftSingleNonCall}
+  - {name: LiteralOnTheLeft, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.LiteralOnTheLeft}
+  - {name: OrCondition, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.OrCondition}
+  - {name: PartialApplication, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.PartialApplication}
+  - {name: PartiallyResolved, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.PartiallyResolved}
+  - {name: SubOp1, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.SubOp1}
+  - {name: SubOp2, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.SubOp2}
+  - {name: SubOp3, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.SubOp3}
+  - {name: SubOpCA1, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.SubOpCA1}
+  - {name: SubOpCA2, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.SubOpCA2}
+  - {name: SubOpCA3, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.SubOpCA3}
+  - {name: WithinBlockSupport, uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.WithinBlockSupport}
+  name: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests
+  uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests
+- items:
+  - {name: MeasureInMiddle, uid: Microsoft.Quantum.Simulation.Testing.QCI.MeasurementSupportTests.MeasureInMiddle}
+  - {name: QubitAfterMeasurement, uid: Microsoft.Quantum.Simulation.Testing.QCI.MeasurementSupportTests.QubitAfterMeasurement}
+  name: Microsoft.Quantum.Simulation.Testing.QCI.MeasurementSupportTests
+  uid: Microsoft.Quantum.Simulation.Testing.QCI.MeasurementSupportTests
 - items:
   - {name: Action1C, uid: Microsoft.Quantum.Synthesis.Action1C}
   - {name: Apply1C, uid: Microsoft.Quantum.Synthesis.Apply1C}
@@ -1153,3 +2275,545 @@
   - {name: TargetInstruction, uid: Microsoft.Quantum.Targeting.TargetInstruction}
   name: Microsoft.Quantum.Targeting
   uid: Microsoft.Quantum.Targeting
+- items:
+  - {name: CallGenerics, uid: Microsoft.Quantum.Testing.Honeywell.Monomorphization.CallGenerics}
+  name: Microsoft.Quantum.Testing.Honeywell.Monomorphization
+  uid: Microsoft.Quantum.Testing.Honeywell.Monomorphization
+- items:
+  - {name: BothCallables, uid: Microsoft.Quantum.Testing.LoadViaTestName.BothCallables}
+  - {name: BothTypes, uid: Microsoft.Quantum.Testing.LoadViaTestName.BothTypes}
+  - {name: ConflictingWithSource, uid: Microsoft.Quantum.Testing.LoadViaTestName.ConflictingWithSource}
+  - {name: OneCallable, uid: Microsoft.Quantum.Testing.LoadViaTestName.OneCallable}
+  - {name: OneType, uid: Microsoft.Quantum.Testing.LoadViaTestName.OneType}
+  name: Microsoft.Quantum.Testing.LoadViaTestName
+  uid: Microsoft.Quantum.Testing.LoadViaTestName
+- items:
+  - {name: InvokeAllVariants, uid: Microsoft.Quantum.Testing.QIR.InvokeAllVariants}
+  - {name: NoArgs, uid: Microsoft.Quantum.Testing.QIR.NoArgs}
+  - {name: Qop, uid: Microsoft.Quantum.Testing.QIR.Qop}
+  - {name: QuantumRandomNumberGenerator, uid: Microsoft.Quantum.Testing.QIR.QuantumRandomNumberGenerator}
+  - {name: Subtract, uid: Microsoft.Quantum.Testing.QIR.Subtract}
+  - {name: TestApplyConditionally, uid: Microsoft.Quantum.Testing.QIR.TestApplyConditionally}
+  - {name: TestApplyIf, uid: Microsoft.Quantum.Testing.QIR.TestApplyIf}
+  - {name: TestApplyIfWithFunctors, uid: Microsoft.Quantum.Testing.QIR.TestApplyIfWithFunctors}
+  - {name: TestFunctors, uid: Microsoft.Quantum.Testing.QIR.TestFunctors}
+  - {name: TestFunctorsNoArgs, uid: Microsoft.Quantum.Testing.QIR.TestFunctorsNoArgs}
+  - {name: TestPartials, uid: Microsoft.Quantum.Testing.QIR.TestPartials}
+  - {name: TestQubitResultManagement, uid: Microsoft.Quantum.Testing.QIR.TestQubitResultManagement}
+  - {name: Test_Arrays, uid: Microsoft.Quantum.Testing.QIR.Test_Arrays}
+  - {name: Test_Simulator_QIS, uid: Microsoft.Quantum.Testing.QIR.Test_Simulator_QIS}
+  name: Microsoft.Quantum.Testing.QIR
+  uid: Microsoft.Quantum.Testing.QIR
+- items:
+  - {name: ArcCosTest, uid: Microsoft.Quantum.Testing.QIR.Math.ArcCosTest}
+  - {name: ArcSinTest, uid: Microsoft.Quantum.Testing.QIR.Math.ArcSinTest}
+  - {name: ArcTan2Test, uid: Microsoft.Quantum.Testing.QIR.Math.ArcTan2Test}
+  - {name: ArcTanTest, uid: Microsoft.Quantum.Testing.QIR.Math.ArcTanTest}
+  - {name: Close, uid: Microsoft.Quantum.Testing.QIR.Math.Close}
+  - {name: CosTest, uid: Microsoft.Quantum.Testing.QIR.Math.CosTest}
+  - {name: CoshTest, uid: Microsoft.Quantum.Testing.QIR.Math.CoshTest}
+  - {name: IeeeRemainderTest, uid: Microsoft.Quantum.Testing.QIR.Math.IeeeRemainderTest}
+  - {name: LogTest, uid: Microsoft.Quantum.Testing.QIR.Math.LogTest}
+  - {name: SinTest, uid: Microsoft.Quantum.Testing.QIR.Math.SinTest}
+  - {name: SinhTest, uid: Microsoft.Quantum.Testing.QIR.Math.SinhTest}
+  - {name: SqrtTest, uid: Microsoft.Quantum.Testing.QIR.Math.SqrtTest}
+  - {name: TanTest, uid: Microsoft.Quantum.Testing.QIR.Math.TanTest}
+  - {name: TanhTest, uid: Microsoft.Quantum.Testing.QIR.Math.TanhTest}
+  - {name: TestDrawRandomDouble, uid: Microsoft.Quantum.Testing.QIR.Math.TestDrawRandomDouble}
+  - {name: TestDrawRandomInt, uid: Microsoft.Quantum.Testing.QIR.Math.TestDrawRandomInt}
+  name: Microsoft.Quantum.Testing.QIR.Math
+  uid: Microsoft.Quantum.Testing.QIR.Math
+- items:
+  - {name: ParityTest, uid: Microsoft.Quantum.Testing.QIR.Other.ParityTest}
+  - {name: PauliArrayAsIntFailTest, uid: Microsoft.Quantum.Testing.QIR.Other.PauliArrayAsIntFailTest}
+  - {name: PauliArrayAsIntTest, uid: Microsoft.Quantum.Testing.QIR.Other.PauliArrayAsIntTest}
+  name: Microsoft.Quantum.Testing.QIR.Other
+  uid: Microsoft.Quantum.Testing.QIR.Other
+- items:
+  - {name: MessageTest, uid: Microsoft.Quantum.Testing.QIR.Out.MessageTest}
+  name: Microsoft.Quantum.Testing.QIR.Out
+  uid: Microsoft.Quantum.Testing.QIR.Out
+- items:
+  - {name: PauliToStringTest, uid: Microsoft.Quantum.Testing.QIR.Str.PauliToStringTest}
+  name: Microsoft.Quantum.Testing.QIR.Str
+  uid: Microsoft.Quantum.Testing.QIR.Str
+- items:
+  - {name: LibraryWithSpacesTest, uid: Microsoft.Quantum.Testing.SpacesInFileName.LibraryWithSpacesTest}
+  name: Microsoft.Quantum.Testing.SpacesInFileName
+  uid: Microsoft.Quantum.Testing.SpacesInFileName
+- items:
+  - {name: Delay, uid: Microsoft.Quantum.Testing.Tracer.Delay}
+  - {name: TestCoreIntrinsics, uid: Microsoft.Quantum.Testing.Tracer.TestCoreIntrinsics}
+  - {name: TestMeasurements, uid: Microsoft.Quantum.Testing.Tracer.TestMeasurements}
+  name: Microsoft.Quantum.Testing.Tracer
+  uid: Microsoft.Quantum.Testing.Tracer
+- items:
+  - {name: AbsDIsCorrect, uid: Microsoft.Quantum.Tests.AbsDIsCorrect}
+  - {name: AbsDistance, uid: Microsoft.Quantum.Tests.AbsDistance}
+  - {name: AbsIIsCorrect, uid: Microsoft.Quantum.Tests.AbsIIsCorrect}
+  - {name: AbsLIsCorrect, uid: Microsoft.Quantum.Tests.AbsLIsCorrect}
+  - {name: Add, uid: Microsoft.Quantum.Tests.Add}
+  - {name: AllAction1CAreCorrect, uid: Microsoft.Quantum.Tests.AllAction1CAreCorrect}
+  - {name: AndIsCorrect, uid: Microsoft.Quantum.Tests.AndIsCorrect}
+  - {name: ApplyBEToRegisterA, uid: Microsoft.Quantum.Tests.ApplyBEToRegisterA}
+  - {name: ApplyCShorthandToRegister, uid: Microsoft.Quantum.Tests.ApplyCShorthandToRegister}
+  - {name: ApplyControlledOpToRegister, uid: Microsoft.Quantum.Tests.ApplyControlledOpToRegister}
+  - {name: ApplyDiagonalUnitaryTestHelper, uid: Microsoft.Quantum.Tests.ApplyDiagonalUnitaryTestHelper}
+  - {name: ApplyIfElseBACase, uid: Microsoft.Quantum.Tests.ApplyIfElseBACase}
+  - {name: ApplyIfElseBCACase, uid: Microsoft.Quantum.Tests.ApplyIfElseBCACase}
+  - {name: ApplyIfElseBCCase, uid: Microsoft.Quantum.Tests.ApplyIfElseBCCase}
+  - {name: ApplyIfElseBCase, uid: Microsoft.Quantum.Tests.ApplyIfElseBCase}
+  - {name: ApplyIfElseRACase, uid: Microsoft.Quantum.Tests.ApplyIfElseRACase}
+  - {name: ApplyIfElseRCACase, uid: Microsoft.Quantum.Tests.ApplyIfElseRCACase}
+  - {name: ApplyIfElseRCCase, uid: Microsoft.Quantum.Tests.ApplyIfElseRCCase}
+  - {name: ApplyIfElseRCase, uid: Microsoft.Quantum.Tests.ApplyIfElseRCase}
+  - {name: ApplyOp, uid: Microsoft.Quantum.Tests.ApplyOp}
+  - {name: ApplyXToSecondQubit, uid: Microsoft.Quantum.Tests.ApplyXToSecondQubit}
+  - {name: AssertAllInversesAreCorrect, uid: Microsoft.Quantum.Tests.AssertAllInversesAreCorrect}
+  - {name: AssertAllOpsTimesInverseAreIdentity, uid: Microsoft.Quantum.Tests.AssertAllOpsTimesInverseAreIdentity}
+  - {name: AssertAllPaulisAreCorrectAsCliffords, uid: Microsoft.Quantum.Tests.AssertAllPaulisAreCorrectAsCliffords}
+  - {name: AssertAllProductsWithoutPhasesAreCorrect, uid: Microsoft.Quantum.Tests.AssertAllProductsWithoutPhasesAreCorrect}
+  - {name: AssertBoolArrayEqualTestShouldFail, uid: Microsoft.Quantum.Tests.AssertBoolArrayEqualTestShouldFail}
+  - {name: AssertBoolEqualTestShouldFail, uid: Microsoft.Quantum.Tests.AssertBoolEqualTestShouldFail}
+  - {name: AssertCSSCodeCorrectsError, uid: Microsoft.Quantum.Tests.AssertCSSCodeCorrectsError}
+  - {name: AssertCSSCodeCorrectsErrorImpl, uid: Microsoft.Quantum.Tests.AssertCSSCodeCorrectsErrorImpl}
+  - {name: AssertCodeCorrectsError, uid: Microsoft.Quantum.Tests.AssertCodeCorrectsError}
+  - {name: AssertCodeCorrectsErrorImpl, uid: Microsoft.Quantum.Tests.AssertCodeCorrectsErrorImpl}
+  - {name: AssertEqualTestShouldFail, uid: Microsoft.Quantum.Tests.AssertEqualTestShouldFail}
+  - {name: BindCTestHelper0, uid: Microsoft.Quantum.Tests.BindCTestHelper0}
+  - {name: BindCTestHelper1, uid: Microsoft.Quantum.Tests.BindCTestHelper1}
+  - {name: BindSelfAdjointOperationsTestExFail, uid: Microsoft.Quantum.Tests.BindSelfAdjointOperationsTestExFail}
+  - {name: BoolArrFromPositiveIntIsCorrect, uid: Microsoft.Quantum.Tests.BoolArrFromPositiveIntIsCorrect}
+  - {name: CControlledActual, uid: Microsoft.Quantum.Tests.CControlledActual}
+  - {name: CControlledActualA, uid: Microsoft.Quantum.Tests.CControlledActualA}
+  - {name: CControlledActualC, uid: Microsoft.Quantum.Tests.CControlledActualC}
+  - {name: CControlledActualCA, uid: Microsoft.Quantum.Tests.CControlledActualCA}
+  - {name: CControlledExpected, uid: Microsoft.Quantum.Tests.CControlledExpected}
+  - {name: CControlledTestA, uid: Microsoft.Quantum.Tests.CControlledTestA}
+  - {name: CControlledTestC, uid: Microsoft.Quantum.Tests.CControlledTestC}
+  - {name: CControlledTestCA, uid: Microsoft.Quantum.Tests.CControlledTestCA}
+  - {name: CSSTestCase, uid: Microsoft.Quantum.Tests.CSSTestCase}
+  - {name: CSSTestCaseImpl, uid: Microsoft.Quantum.Tests.CSSTestCaseImpl}
+  - {name: CeilingIsCorrect, uid: Microsoft.Quantum.Tests.CeilingIsCorrect}
+  - {name: CheckAllowNCalls, uid: Microsoft.Quantum.Tests.CheckAllowNCalls}
+  - {name: CheckAllowNCallsMeasurements, uid: Microsoft.Quantum.Tests.CheckAllowNCallsMeasurements}
+  - {name: CheckAllowNCallsMeasurementsTestShouldFail, uid: Microsoft.Quantum.Tests.CheckAllowNCallsMeasurementsTestShouldFail}
+  - {name: CheckAllowNCallsTestShouldFail, uid: Microsoft.Quantum.Tests.CheckAllowNCallsTestShouldFail}
+  - {name: CheckAllowNQubits, uid: Microsoft.Quantum.Tests.CheckAllowNQubits}
+  - {name: CheckAllowNQubitsTestShouldFail, uid: Microsoft.Quantum.Tests.CheckAllowNQubitsTestShouldFail}
+  - {name: CheckAllowNQubitsWithNestedCalls, uid: Microsoft.Quantum.Tests.CheckAllowNQubitsWithNestedCalls}
+  - {name: CheckAmpAmpByOracle, uid: Microsoft.Quantum.Tests.CheckAmpAmpByOracle}
+  - {name: CheckAmpAmpObliviousByOraclePhases, uid: Microsoft.Quantum.Tests.CheckAmpAmpObliviousByOraclePhases}
+  - {name: CheckAmpAmpTargetStateReflectionOracle, uid: Microsoft.Quantum.Tests.CheckAmpAmpTargetStateReflectionOracle}
+  - {name: CheckApplyFermionicSWAPPhase, uid: Microsoft.Quantum.Tests.CheckApplyFermionicSWAPPhase}
+  - {name: CheckApplyFermionicSWAPValue, uid: Microsoft.Quantum.Tests.CheckApplyFermionicSWAPValue}
+  - {name: CheckApplyMultiControlled, uid: Microsoft.Quantum.Tests.CheckApplyMultiControlled}
+  - {name: CheckApplyRepeatedOp, uid: Microsoft.Quantum.Tests.CheckApplyRepeatedOp}
+  - {name: CheckApplySeriesOfOps, uid: Microsoft.Quantum.Tests.CheckApplySeriesOfOps}
+  - {name: CheckApplyTransposition, uid: Microsoft.Quantum.Tests.CheckApplyTransposition}
+  - {name: CheckApplyUnitaryAppliesCcnot, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesCcnot}
+  - {name: CheckApplyUnitaryAppliesCnot, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesCnot}
+  - {name: CheckApplyUnitaryAppliesFourControlledGates, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesFourControlledGates}
+  - {name: CheckApplyUnitaryAppliesHadamard, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesHadamard}
+  - {name: CheckApplyUnitaryAppliesHadamardY, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesHadamardY}
+  - {name: CheckApplyUnitaryAppliesIdentity, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesIdentity}
+  - {name: CheckApplyUnitaryAppliesPauliX, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesPauliX}
+  - {name: CheckApplyUnitaryAppliesPauliY, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesPauliY}
+  - {name: CheckApplyUnitaryAppliesPauliZ, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesPauliZ}
+  - {name: CheckApplyUnitaryAppliesQft, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesQft}
+  - {name: CheckApplyUnitaryAppliesRx, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesRx}
+  - {name: CheckApplyUnitaryAppliesRy, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesRy}
+  - {name: CheckApplyUnitaryAppliesSwap, uid: Microsoft.Quantum.Tests.CheckApplyUnitaryAppliesSwap}
+  - {name: CheckApplyXControlledOnTruthTable, uid: Microsoft.Quantum.Tests.CheckApplyXControlledOnTruthTable}
+  - {name: CheckApplyXControlledOnTruthTableWithCleanTarget, uid: Microsoft.Quantum.Tests.CheckApplyXControlledOnTruthTableWithCleanTarget}
+  - {name: CheckCategoricalHistogramIsCorrect, uid: Microsoft.Quantum.Tests.CheckCategoricalHistogramIsCorrect}
+  - {name: CheckCategoricalMomentsAreCorrect, uid: Microsoft.Quantum.Tests.CheckCategoricalMomentsAreCorrect}
+  - {name: CheckContinuousUniformDistributionHasRightMoments, uid: Microsoft.Quantum.Tests.CheckContinuousUniformDistributionHasRightMoments}
+  - {name: CheckControlledApplyXControlledOnTruthTable, uid: Microsoft.Quantum.Tests.CheckControlledApplyXControlledOnTruthTable}
+  - {name: CheckControlledOnBitString, uid: Microsoft.Quantum.Tests.CheckControlledOnBitString}
+  - {name: CheckDecompositionBasedSynthesis, uid: Microsoft.Quantum.Tests.CheckDecompositionBasedSynthesis}
+  - {name: CheckDiscreteUniformMomentsAreCorrect, uid: Microsoft.Quantum.Tests.CheckDiscreteUniformMomentsAreCorrect}
+  - {name: CheckDrawRandomBoolHasRightExpectation, uid: Microsoft.Quantum.Tests.CheckDrawRandomBoolHasRightExpectation}
+  - {name: CheckDrawRandomDoubleObeysRanges, uid: Microsoft.Quantum.Tests.CheckDrawRandomDoubleObeysRanges}
+  - {name: CheckDrawRandomIntObeysRanges, uid: Microsoft.Quantum.Tests.CheckDrawRandomIntObeysRanges}
+  - {name: CheckImpossibleEventsAreNotDrawn, uid: Microsoft.Quantum.Tests.CheckImpossibleEventsAreNotDrawn}
+  - {name: CheckNormalDistributionHasRightMoments, uid: Microsoft.Quantum.Tests.CheckNormalDistributionHasRightMoments}
+  - {name: CheckOverlapBetweenPlusAndOne, uid: Microsoft.Quantum.Tests.CheckOverlapBetweenPlusAndOne}
+  - {name: CheckOverlapWithCommonPreparation, uid: Microsoft.Quantum.Tests.CheckOverlapWithCommonPreparation}
+  - {name: CheckPermuteQubits, uid: Microsoft.Quantum.Tests.CheckPermuteQubits}
+  - {name: CheckReflectAboutInteger, uid: Microsoft.Quantum.Tests.CheckReflectAboutInteger}
+  - {name: CheckRescaledCategoricalMomentsAreCorrect, uid: Microsoft.Quantum.Tests.CheckRescaledCategoricalMomentsAreCorrect}
+  - {name: CheckSetToBasisState, uid: Microsoft.Quantum.Tests.CheckSetToBasisState}
+  - {name: CheckSetToBasisStateHelper, uid: Microsoft.Quantum.Tests.CheckSetToBasisStateHelper}
+  - {name: CheckStandardNormalDistributionHasRightMoments, uid: Microsoft.Quantum.Tests.CheckStandardNormalDistributionHasRightMoments}
+  - {name: CheckTransformationBasedSynthesis, uid: Microsoft.Quantum.Tests.CheckTransformationBasedSynthesis}
+  - {name: ComposeIsCorrect, uid: Microsoft.Quantum.Tests.ComposeIsCorrect}
+  - {name: ConditionedIsCorrect, uid: Microsoft.Quantum.Tests.ConditionedIsCorrect}
+  - {name: ConstantArrayOfDoublesIsCorrect, uid: Microsoft.Quantum.Tests.ConstantArrayOfDoublesIsCorrect}
+  - {name: ConstantArrayOfFunctionsIsCorrect, uid: Microsoft.Quantum.Tests.ConstantArrayOfFunctionsIsCorrect}
+  - {name: CountOfIsEvenIsCorrect, uid: Microsoft.Quantum.Tests.CountOfIsEvenIsCorrect}
+  - {name: DividedByIsCorrect, uid: Microsoft.Quantum.Tests.DividedByIsCorrect}
+  - {name: DoubleAsStringIsCorrect, uid: Microsoft.Quantum.Tests.DoubleAsStringIsCorrect}
+  - {name: DumpCnot, uid: Microsoft.Quantum.Tests.DumpCnot}
+  - {name: DumpS, uid: Microsoft.Quantum.Tests.DumpS}
+  - {name: EmptyTest, uid: Microsoft.Quantum.Tests.EmptyTest}
+  - {name: EnumeratedIsCorrect, uid: Microsoft.Quantum.Tests.EnumeratedIsCorrect}
+  - {name: EqualAIsCorrect, uid: Microsoft.Quantum.Tests.EqualAIsCorrect}
+  - {name: EqualIsCorrect, uid: Microsoft.Quantum.Tests.EqualIsCorrect}
+  - {name: EqualityFactITestShouldFail, uid: Microsoft.Quantum.Tests.EqualityFactITestShouldFail}
+  - {name: EqualityFactRTestShouldFail, uid: Microsoft.Quantum.Tests.EqualityFactRTestShouldFail}
+  - {name: EstimateFrequencyBinomialCase, uid: Microsoft.Quantum.Tests.EstimateFrequencyBinomialCase}
+  - {name: EstimateFrequencyEmulationTest, uid: Microsoft.Quantum.Tests.EstimateFrequencyEmulationTest}
+  - {name: ExampleStatePrep, uid: Microsoft.Quantum.Tests.ExampleStatePrep}
+  - {name: ExampleStatePrepImpl, uid: Microsoft.Quantum.Tests.ExampleStatePrepImpl}
+  - {name: ExcludingIsCorrect, uid: Microsoft.Quantum.Tests.ExcludingIsCorrect}
+  - {name: ExtremaIsCorrect, uid: Microsoft.Quantum.Tests.ExtremaIsCorrect}
+  - {name: FilteredIsEvenHasNoOdds, uid: Microsoft.Quantum.Tests.FilteredIsEvenHasNoOdds}
+  - {name: FiniteFactIsCorrect, uid: Microsoft.Quantum.Tests.FiniteFactIsCorrect}
+  - {name: FiniteNumbersAreFinite, uid: Microsoft.Quantum.Tests.FiniteNumbersAreFinite}
+  - {name: FloorIsCorrect, uid: Microsoft.Quantum.Tests.FloorIsCorrect}
+  - {name: FoldIsCorrect, uid: Microsoft.Quantum.Tests.FoldIsCorrect}
+  - {name: ForAllIsCorrect, uid: Microsoft.Quantum.Tests.ForAllIsCorrect}
+  - {name: ForAnyIsCorrect, uid: Microsoft.Quantum.Tests.ForAnyIsCorrect}
+  - {name: FourControlledGates, uid: Microsoft.Quantum.Tests.FourControlledGates}
+  - {name: FunctionTestShouldFail, uid: Microsoft.Quantum.Tests.FunctionTestShouldFail}
+  - {name: GreaterThanIsCorrect, uid: Microsoft.Quantum.Tests.GreaterThanIsCorrect}
+  - {name: GreaterThanOrEqualIsCorrect, uid: Microsoft.Quantum.Tests.GreaterThanOrEqualIsCorrect}
+  - {name: IndexOfIsCorrect, uid: Microsoft.Quantum.Tests.IndexOfIsCorrect}
+  - {name: InfinityIsInfinite, uid: Microsoft.Quantum.Tests.InfinityIsInfinite}
+  - {name: IntAsStringIsCorrect, uid: Microsoft.Quantum.Tests.IntAsStringIsCorrect}
+  - {name: IsEmptyIsCorrect, uid: Microsoft.Quantum.Tests.IsEmptyIsCorrect}
+  - {name: IsEven, uid: Microsoft.Quantum.Tests.IsEven}
+  - {name: IsSingleDigit, uid: Microsoft.Quantum.Tests.IsSingleDigit}
+  - {name: LCUTestHelper, uid: Microsoft.Quantum.Tests.LCUTestHelper}
+  - {name: LessThanIsCorrect, uid: Microsoft.Quantum.Tests.LessThanIsCorrect}
+  - {name: LessThanOrEqualIsCorrect, uid: Microsoft.Quantum.Tests.LessThanOrEqualIsCorrect}
+  - {name: LexographicComparisonIsCorrect, uid: Microsoft.Quantum.Tests.LexographicComparisonIsCorrect}
+  - {name: Log10IsCorrect, uid: Microsoft.Quantum.Tests.Log10IsCorrect}
+  - {name: ManuallyReflectAboutFive, uid: Microsoft.Quantum.Tests.ManuallyReflectAboutFive}
+  - {name: MapIsCorrect, uid: Microsoft.Quantum.Tests.MapIsCorrect}
+  - {name: MaxDIsCorrect, uid: Microsoft.Quantum.Tests.MaxDIsCorrect}
+  - {name: MaxIIsCorrect, uid: Microsoft.Quantum.Tests.MaxIIsCorrect}
+  - {name: MinimizedParabolaIsCorrect, uid: Microsoft.Quantum.Tests.MinimizedParabolaIsCorrect}
+  - {name: MinimumConvergesToEdge, uid: Microsoft.Quantum.Tests.MinimumConvergesToEdge}
+  - {name: MinusIsCorrect, uid: Microsoft.Quantum.Tests.MinusIsCorrect}
+  - {name: ModIsCorrect, uid: Microsoft.Quantum.Tests.ModIsCorrect}
+  - {name: ModPowLIsCorrect, uid: Microsoft.Quantum.Tests.ModPowLIsCorrect}
+  - {name: MultiplexOperationsFromGeneratorTestHelper, uid: Microsoft.Quantum.Tests.MultiplexOperationsFromGeneratorTestHelper}
+  - {name: MultiplexOperationsFromGeneratorTestUnitary, uid: Microsoft.Quantum.Tests.MultiplexOperationsFromGeneratorTestUnitary}
+  - {name: MultiplexOperationsFromGeneratorTestUnitary_, uid: Microsoft.Quantum.Tests.MultiplexOperationsFromGeneratorTestUnitary_}
+  - {name: MultiplexOperationsTestHelper, uid: Microsoft.Quantum.Tests.MultiplexOperationsTestHelper}
+  - {name: MultiplexOperationsTestMissingUnitary, uid: Microsoft.Quantum.Tests.MultiplexOperationsTestMissingUnitary}
+  - {name: MultiplexOperationsTestMissingUnitaryHelper, uid: Microsoft.Quantum.Tests.MultiplexOperationsTestMissingUnitaryHelper}
+  - {name: MultiplexOperationsTestUnitary, uid: Microsoft.Quantum.Tests.MultiplexOperationsTestUnitary}
+  - {name: MultiplexZTestHelper, uid: Microsoft.Quantum.Tests.MultiplexZTestHelper}
+  - {name: NaNIsNaN, uid: Microsoft.Quantum.Tests.NaNIsNaN}
+  - {name: NaNIsNotEqualToAnything, uid: Microsoft.Quantum.Tests.NaNIsNotEqualToAnything}
+  - {name: NearlyEqualDIsCorrect, uid: Microsoft.Quantum.Tests.NearlyEqualDIsCorrect}
+  - {name: NegationIsCorrect, uid: Microsoft.Quantum.Tests.NegationIsCorrect}
+  - {name: NotEqualIsCorrect, uid: Microsoft.Quantum.Tests.NotEqualIsCorrect}
+  - {name: NotIsCorrect, uid: Microsoft.Quantum.Tests.NotIsCorrect}
+  - {name: ONE_C, uid: Microsoft.Quantum.Tests.ONE_C}
+  - {name: ONE_CP, uid: Microsoft.Quantum.Tests.ONE_CP}
+  - {name: OperationTestShouldFail, uid: Microsoft.Quantum.Tests.OperationTestShouldFail}
+  - {name: OrIsCorrect, uid: Microsoft.Quantum.Tests.OrIsCorrect}
+  - {name: PI_2_C, uid: Microsoft.Quantum.Tests.PI_2_C}
+  - {name: PI_2_CP, uid: Microsoft.Quantum.Tests.PI_2_CP}
+  - {name: PI_4_C, uid: Microsoft.Quantum.Tests.PI_4_C}
+  - {name: PI_4_CP, uid: Microsoft.Quantum.Tests.PI_4_CP}
+  - {name: PaddedIsCorrect, uid: Microsoft.Quantum.Tests.PaddedIsCorrect}
+  - {name: PairIsCorrect, uid: Microsoft.Quantum.Tests.PairIsCorrect}
+  - {name: ParabolaCase, uid: Microsoft.Quantum.Tests.ParabolaCase}
+  - {name: PlusIsCorrect, uid: Microsoft.Quantum.Tests.PlusIsCorrect}
+  - {name: PowDIsCorrect, uid: Microsoft.Quantum.Tests.PowDIsCorrect}
+  - {name: PowIsCorrect, uid: Microsoft.Quantum.Tests.PowIsCorrect}
+  - {name: PreTestCurried, uid: Microsoft.Quantum.Tests.PreTestCurried}
+  - {name: PrepareBiasedCoin, uid: Microsoft.Quantum.Tests.PrepareBiasedCoin}
+  - {name: QFT1, uid: Microsoft.Quantum.Tests.QFT1}
+  - {name: QFT2, uid: Microsoft.Quantum.Tests.QFT2}
+  - {name: QFT3, uid: Microsoft.Quantum.Tests.QFT3}
+  - {name: QFT4, uid: Microsoft.Quantum.Tests.QFT4}
+  - {name: QeccTestCase, uid: Microsoft.Quantum.Tests.QeccTestCase}
+  - {name: QeccTestCaseImpl, uid: Microsoft.Quantum.Tests.QeccTestCaseImpl}
+  - {name: RectangularFactTestShouldFail, uid: Microsoft.Quantum.Tests.RectangularFactTestShouldFail}
+  - {name: ReflectAboutFiveUsingLibrary, uid: Microsoft.Quantum.Tests.ReflectAboutFiveUsingLibrary}
+  - {name: ResultArrayAsIntIsCorrect, uid: Microsoft.Quantum.Tests.ResultArrayAsIntIsCorrect}
+  - {name: ReversedIsCorrect, uid: Microsoft.Quantum.Tests.ReversedIsCorrect}
+  - {name: RobustPhaseEstimationDemoImpl, uid: Microsoft.Quantum.Tests.RobustPhaseEstimationDemoImpl}
+  - {name: RoundIsCorrect, uid: Microsoft.Quantum.Tests.RoundIsCorrect}
+  - {name: SequenceForNumbersIsCorrect, uid: Microsoft.Quantum.Tests.SequenceForNumbersIsCorrect}
+  - {name: SequenceIIsCorrect, uid: Microsoft.Quantum.Tests.SequenceIIsCorrect}
+  - {name: SequenceLIsCorrect, uid: Microsoft.Quantum.Tests.SequenceLIsCorrect}
+  - {name: ShiftIsCorrect, uid: Microsoft.Quantum.Tests.ShiftIsCorrect}
+  - {name: Square, uid: Microsoft.Quantum.Tests.Square}
+  - {name: SquareFact1TestShouldFail, uid: Microsoft.Quantum.Tests.SquareFact1TestShouldFail}
+  - {name: SquareFact2TestShouldFail, uid: Microsoft.Quantum.Tests.SquareFact2TestShouldFail}
+  - {name: Squarer, uid: Microsoft.Quantum.Tests.Squarer}
+  - {name: StatePreparationTestCase, uid: Microsoft.Quantum.Tests.StatePreparationTestCase}
+  - {name: StripAdjoint, uid: Microsoft.Quantum.Tests.StripAdjoint}
+  - {name: StripControlled, uid: Microsoft.Quantum.Tests.StripControlled}
+  - {name: SubarrayIsCorrect, uid: Microsoft.Quantum.Tests.SubarrayIsCorrect}
+  - {name: SwapOrderToPermuteArrayIsCorrect, uid: Microsoft.Quantum.Tests.SwapOrderToPermuteArrayIsCorrect}
+  - {name: SwappedIsCorrect, uid: Microsoft.Quantum.Tests.SwappedIsCorrect}
+  - {name: TWO_C, uid: Microsoft.Quantum.Tests.TWO_C}
+  - {name: TWO_CP, uid: Microsoft.Quantum.Tests.TWO_CP}
+  - {name: TWO_PI_4_C, uid: Microsoft.Quantum.Tests.TWO_PI_4_C}
+  - {name: TWO_PI_4_CP, uid: Microsoft.Quantum.Tests.TWO_PI_4_CP}
+  - {name: TestApplyDiagonalUnitary, uid: Microsoft.Quantum.Tests.TestApplyDiagonalUnitary}
+  - {name: TestApplyIfElseB, uid: Microsoft.Quantum.Tests.TestApplyIfElseB}
+  - {name: TestApplyIfElseBA, uid: Microsoft.Quantum.Tests.TestApplyIfElseBA}
+  - {name: TestApplyIfElseBC, uid: Microsoft.Quantum.Tests.TestApplyIfElseBC}
+  - {name: TestApplyIfElseBCA, uid: Microsoft.Quantum.Tests.TestApplyIfElseBCA}
+  - {name: TestApplyIfElseR, uid: Microsoft.Quantum.Tests.TestApplyIfElseR}
+  - {name: TestApplyIfElseRA, uid: Microsoft.Quantum.Tests.TestApplyIfElseRA}
+  - {name: TestApplyIfElseRC, uid: Microsoft.Quantum.Tests.TestApplyIfElseRC}
+  - {name: TestApplyIfElseRCA, uid: Microsoft.Quantum.Tests.TestApplyIfElseRCA}
+  - {name: TestApplyIfOne, uid: Microsoft.Quantum.Tests.TestApplyIfOne}
+  - {name: TestApplyIfOneA, uid: Microsoft.Quantum.Tests.TestApplyIfOneA}
+  - {name: TestApplyIfOneC, uid: Microsoft.Quantum.Tests.TestApplyIfOneC}
+  - {name: TestApplyIfOneCA, uid: Microsoft.Quantum.Tests.TestApplyIfOneCA}
+  - {name: TestApplyIfZero, uid: Microsoft.Quantum.Tests.TestApplyIfZero}
+  - {name: TestApplyIfZeroA, uid: Microsoft.Quantum.Tests.TestApplyIfZeroA}
+  - {name: TestApplyIfZeroC, uid: Microsoft.Quantum.Tests.TestApplyIfZeroC}
+  - {name: TestApplyIfZeroCA, uid: Microsoft.Quantum.Tests.TestApplyIfZeroCA}
+  - {name: TestApplyRippleCarryComparator, uid: Microsoft.Quantum.Tests.TestApplyRippleCarryComparator}
+  - {name: TestApplyToElement, uid: Microsoft.Quantum.Tests.TestApplyToElement}
+  - {name: TestApplyToSubregister, uid: Microsoft.Quantum.Tests.TestApplyToSubregister}
+  - {name: TestAssertPhase, uid: Microsoft.Quantum.Tests.TestAssertPhase}
+  - {name: TestAssertProbInt, uid: Microsoft.Quantum.Tests.TestAssertProbInt}
+  - {name: TestBind, uid: Microsoft.Quantum.Tests.TestBind}
+  - {name: TestBindA, uid: Microsoft.Quantum.Tests.TestBindA}
+  - {name: TestBindC, uid: Microsoft.Quantum.Tests.TestBindC}
+  - {name: TestBindCA, uid: Microsoft.Quantum.Tests.TestBindCA}
+  - {name: TestBitFlip, uid: Microsoft.Quantum.Tests.TestBitFlip}
+  - {name: TestBlockEncodingByLCU, uid: Microsoft.Quantum.Tests.TestBlockEncodingByLCU}
+  - {name: TestBlockEncodingReflectionByLCU, uid: Microsoft.Quantum.Tests.TestBlockEncodingReflectionByLCU}
+  - {name: TestCControlled, uid: Microsoft.Quantum.Tests.TestCControlled}
+  - {name: TestCX, uid: Microsoft.Quantum.Tests.TestCX}
+  - {name: TestCY, uid: Microsoft.Quantum.Tests.TestCY}
+  - {name: TestCZ, uid: Microsoft.Quantum.Tests.TestCZ}
+  - {name: TestCall, uid: Microsoft.Quantum.Tests.TestCall}
+  - {name: TestChoiState, uid: Microsoft.Quantum.Tests.TestChoiState}
+  - {name: TestChunks, uid: Microsoft.Quantum.Tests.TestChunks}
+  - {name: TestColumnAt, uid: Microsoft.Quantum.Tests.TestColumnAt}
+  - {name: TestCumulativeFolded, uid: Microsoft.Quantum.Tests.TestCumulativeFolded}
+  - {name: TestCurried, uid: Microsoft.Quantum.Tests.TestCurried}
+  - {name: TestCurriedA, uid: Microsoft.Quantum.Tests.TestCurriedA}
+  - {name: TestCurriedC, uid: Microsoft.Quantum.Tests.TestCurriedC}
+  - {name: TestCurriedCA, uid: Microsoft.Quantum.Tests.TestCurriedCA}
+  - {name: TestDiagonal, uid: Microsoft.Quantum.Tests.TestDiagonal}
+  - {name: TestElementAt, uid: Microsoft.Quantum.Tests.TestElementAt}
+  - {name: TestElementsAt, uid: Microsoft.Quantum.Tests.TestElementsAt}
+  - {name: TestEstimateFrequency, uid: Microsoft.Quantum.Tests.TestEstimateFrequency}
+  - {name: TestEstimateFrequencyBinomial, uid: Microsoft.Quantum.Tests.TestEstimateFrequencyBinomial}
+  - {name: TestFiveQubit, uid: Microsoft.Quantum.Tests.TestFiveQubit}
+  - {name: TestFiveQubitCode, uid: Microsoft.Quantum.Tests.TestFiveQubitCode}
+  - {name: TestFiveQubitTedious, uid: Microsoft.Quantum.Tests.TestFiveQubitTedious}
+  - {name: TestFlatMapped, uid: Microsoft.Quantum.Tests.TestFlatMapped}
+  - {name: TestFlattened, uid: Microsoft.Quantum.Tests.TestFlattened}
+  - {name: TestInPlaceMajority, uid: Microsoft.Quantum.Tests.TestInPlaceMajority}
+  - {name: TestInterleaved, uid: Microsoft.Quantum.Tests.TestInterleaved}
+  - {name: TestKD, uid: Microsoft.Quantum.Tests.TestKD}
+  - {name: TestKDLogicalOperator, uid: Microsoft.Quantum.Tests.TestKDLogicalOperator}
+  - {name: TestKDSyndrome, uid: Microsoft.Quantum.Tests.TestKDSyndrome}
+  - {name: TestKnillDistillationNoError, uid: Microsoft.Quantum.Tests.TestKnillDistillationNoError}
+  - {name: TestLookup, uid: Microsoft.Quantum.Tests.TestLookup}
+  - {name: TestMappedOverEmpty, uid: Microsoft.Quantum.Tests.TestMappedOverEmpty}
+  - {name: TestMappedOverNonEmptyRange, uid: Microsoft.Quantum.Tests.TestMappedOverNonEmptyRange}
+  - {name: TestMappedOverReversedRange, uid: Microsoft.Quantum.Tests.TestMappedOverReversedRange}
+  - {name: TestMeasureWithScratch, uid: Microsoft.Quantum.Tests.TestMeasureWithScratch}
+  - {name: TestMultiplexOperations, uid: Microsoft.Quantum.Tests.TestMultiplexOperations}
+  - {name: TestMultiplexOperationsFromGenerator, uid: Microsoft.Quantum.Tests.TestMultiplexOperationsFromGenerator}
+  - {name: TestMultiplexZ, uid: Microsoft.Quantum.Tests.TestMultiplexZ}
+  - {name: TestOperationPow, uid: Microsoft.Quantum.Tests.TestOperationPow}
+  - {name: TestPauliBlockEncodingLCU, uid: Microsoft.Quantum.Tests.TestPauliBlockEncodingLCU}
+  - {name: TestPi4YInjection, uid: Microsoft.Quantum.Tests.TestPi4YInjection}
+  - {name: TestPi4YInjectionAdjoint, uid: Microsoft.Quantum.Tests.TestPi4YInjectionAdjoint}
+  - {name: TestPrefixes, uid: Microsoft.Quantum.Tests.TestPrefixes}
+  - {name: TestPreparation, uid: Microsoft.Quantum.Tests.TestPreparation}
+  - {name: TestPrepareQubit, uid: Microsoft.Quantum.Tests.TestPrepareQubit}
+  - {name: TestPrepareUniformSuperposition, uid: Microsoft.Quantum.Tests.TestPrepareUniformSuperposition}
+  - {name: TestPurifiedMixedState, uid: Microsoft.Quantum.Tests.TestPurifiedMixedState}
+  - {name: TestPurifiedMixedStateDiscretization, uid: Microsoft.Quantum.Tests.TestPurifiedMixedStateDiscretization}
+  - {name: TestPurifiedMixedStateWithData, uid: Microsoft.Quantum.Tests.TestPurifiedMixedStateWithData}
+  - {name: TestQFT, uid: Microsoft.Quantum.Tests.TestQFT}
+  - {name: TestQuantumPhaseEstimation, uid: Microsoft.Quantum.Tests.TestQuantumPhaseEstimation}
+  - {name: TestQuantumWalkByQubitization, uid: Microsoft.Quantum.Tests.TestQuantumWalkByQubitization}
+  - {name: TestRangeAsIntArray, uid: Microsoft.Quantum.Tests.TestRangeAsIntArray}
+  - {name: TestRobustPhaseEstimation, uid: Microsoft.Quantum.Tests.TestRobustPhaseEstimation}
+  - {name: TestSelfAdjointOperations, uid: Microsoft.Quantum.Tests.TestSelfAdjointOperations}
+  - {name: TestSingleQubitProcessTomographyMeasurement, uid: Microsoft.Quantum.Tests.TestSingleQubitProcessTomographyMeasurement}
+  - {name: TestStatePreparationComplexCoefficientsArbitraryMultiQubitPhase, uid: Microsoft.Quantum.Tests.TestStatePreparationComplexCoefficientsArbitraryMultiQubitPhase}
+  - {name: TestStatePreparationComplexCoefficientsMultiQubitPhase, uid: Microsoft.Quantum.Tests.TestStatePreparationComplexCoefficientsMultiQubitPhase}
+  - {name: TestStatePreparationComplexCoefficientsQubitPhase, uid: Microsoft.Quantum.Tests.TestStatePreparationComplexCoefficientsQubitPhase}
+  - {name: TestStatePreparationPositiveCoefficients, uid: Microsoft.Quantum.Tests.TestStatePreparationPositiveCoefficients}
+  - {name: TestSteaneCode, uid: Microsoft.Quantum.Tests.TestSteaneCode}
+  - {name: TestSteaneCodeEncoder, uid: Microsoft.Quantum.Tests.TestSteaneCodeEncoder}
+  - {name: TestSuccessfulRectangularFact, uid: Microsoft.Quantum.Tests.TestSuccessfulRectangularFact}
+  - {name: TestSuccessfulSquareFact, uid: Microsoft.Quantum.Tests.TestSuccessfulSquareFact}
+  - {name: TestToOperation, uid: Microsoft.Quantum.Tests.TestToOperation}
+  - {name: TestTransposed, uid: Microsoft.Quantum.Tests.TestTransposed}
+  - {name: TestWindows, uid: Microsoft.Quantum.Tests.TestWindows}
+  - {name: TestWith, uid: Microsoft.Quantum.Tests.TestWith}
+  - {name: TestZipped, uid: Microsoft.Quantum.Tests.TestZipped}
+  - {name: TimesInverseIsIdentity, uid: Microsoft.Quantum.Tests.TimesInverseIsIdentity}
+  - {name: TimesIsCorrect, uid: Microsoft.Quantum.Tests.TimesIsCorrect}
+  - {name: TupleArrayAsNestedArrayIsCorrect, uid: Microsoft.Quantum.Tests.TupleArrayAsNestedArrayIsCorrect}
+  - {name: UnzippedTest, uid: Microsoft.Quantum.Tests.UnzippedTest}
+  - {name: VerifyFermionicSWAPPhaseHelper, uid: Microsoft.Quantum.Tests.VerifyFermionicSWAPPhaseHelper}
+  - {name: XBitsIsCorrect, uid: Microsoft.Quantum.Tests.XBitsIsCorrect}
+  - {name: XorIsCorrect, uid: Microsoft.Quantum.Tests.XorIsCorrect}
+  - {name: ZBitsIsCorrect, uid: Microsoft.Quantum.Tests.ZBitsIsCorrect}
+  name: Microsoft.Quantum.Tests
+  uid: Microsoft.Quantum.Tests
+- items:
+  - {name: Action, uid: Microsoft.Quantum.Tests.CoreOperations.Action}
+  - {name: ActionGen, uid: Microsoft.Quantum.Tests.CoreOperations.ActionGen}
+  - {name: Adj1, uid: Microsoft.Quantum.Tests.CoreOperations.Adj1}
+  - {name: Adj2, uid: Microsoft.Quantum.Tests.CoreOperations.Adj2}
+  - {name: BAdj1, uid: Microsoft.Quantum.Tests.CoreOperations.BAdj1}
+  - {name: BAdj2, uid: Microsoft.Quantum.Tests.CoreOperations.BAdj2}
+  - {name: BCtrl1, uid: Microsoft.Quantum.Tests.CoreOperations.BCtrl1}
+  - {name: BCtrl2, uid: Microsoft.Quantum.Tests.CoreOperations.BCtrl2}
+  - {name: BGen, uid: Microsoft.Quantum.Tests.CoreOperations.BGen}
+  - {name: BPlain1, uid: Microsoft.Quantum.Tests.CoreOperations.BPlain1}
+  - {name: BPlain2, uid: Microsoft.Quantum.Tests.CoreOperations.BPlain2}
+  - {name: BU1, uid: Microsoft.Quantum.Tests.CoreOperations.BU1}
+  - {name: BorrowingTest, uid: Microsoft.Quantum.Tests.CoreOperations.BorrowingTest}
+  - {name: Ctrl1, uid: Microsoft.Quantum.Tests.CoreOperations.Ctrl1}
+  - {name: LockedFileDumpTest, uid: Microsoft.Quantum.Tests.CoreOperations.LockedFileDumpTest}
+  - {name: Plain1, uid: Microsoft.Quantum.Tests.CoreOperations.Plain1}
+  - {name: Q, uid: Microsoft.Quantum.Tests.CoreOperations.Q}
+  - {name: Qs, uid: Microsoft.Quantum.Tests.CoreOperations.Qs}
+  - {name: SimpleDumpTest, uid: Microsoft.Quantum.Tests.CoreOperations.SimpleDumpTest}
+  - {name: SimpleRangeTest, uid: Microsoft.Quantum.Tests.CoreOperations.SimpleRangeTest}
+  - {name: T1, uid: Microsoft.Quantum.Tests.CoreOperations.T1}
+  - {name: T2, uid: Microsoft.Quantum.Tests.CoreOperations.T2}
+  - {name: T3, uid: Microsoft.Quantum.Tests.CoreOperations.T3}
+  - {name: T4, uid: Microsoft.Quantum.Tests.CoreOperations.T4}
+  - {name: T5, uid: Microsoft.Quantum.Tests.CoreOperations.T5}
+  - {name: TestAllVariants, uid: Microsoft.Quantum.Tests.CoreOperations.TestAllVariants}
+  - {name: U1, uid: Microsoft.Quantum.Tests.CoreOperations.U1}
+  - {name: U2, uid: Microsoft.Quantum.Tests.CoreOperations.U2}
+  - {name: U3, uid: Microsoft.Quantum.Tests.CoreOperations.U3}
+  - {name: ZeroQubitsTest, uid: Microsoft.Quantum.Tests.CoreOperations.ZeroQubitsTest}
+  name: Microsoft.Quantum.Tests.CoreOperations
+  uid: Microsoft.Quantum.Tests.CoreOperations
+- items:
+  - {name: TestOp, uid: Microsoft.Quantum.Tests.Namespaces.Issue46.TestOp}
+  name: Microsoft.Quantum.Tests.Namespaces.Issue46
+  uid: Microsoft.Quantum.Tests.Namespaces.Issue46
+- items:
+  - {name: DataIn, uid: Microsoft.Quantum.Tests.OperationNames.DataIn}
+  - {name: DataOut, uid: Microsoft.Quantum.Tests.OperationNames.DataOut}
+  - {name: Name, uid: Microsoft.Quantum.Tests.OperationNames.Name}
+  - {name: Variant, uid: Microsoft.Quantum.Tests.OperationNames.Variant}
+  name: Microsoft.Quantum.Tests.OperationNames
+  uid: Microsoft.Quantum.Tests.OperationNames
+- items:
+  - {name: AllVariants, uid: Microsoft.Quantum.Tests.StartOperation.AllVariants}
+  - {name: B3, uid: Microsoft.Quantum.Tests.StartOperation.B3}
+  - {name: Basic, uid: Microsoft.Quantum.Tests.StartOperation.Basic}
+  - {name: Qubits, uid: Microsoft.Quantum.Tests.StartOperation.Qubits}
+  - {name: StartOperationTest, uid: Microsoft.Quantum.Tests.StartOperation.StartOperationTest}
+  - {name: StartOperationUDTTest, uid: Microsoft.Quantum.Tests.StartOperation.StartOperationUDTTest}
+  - {name: UDT1, uid: Microsoft.Quantum.Tests.StartOperation.UDT1}
+  - {name: UDT1asUnitary, uid: Microsoft.Quantum.Tests.StartOperation.UDT1asUnitary}
+  - {name: UDT2, uid: Microsoft.Quantum.Tests.StartOperation.UDT2}
+  - {name: UDT3, uid: Microsoft.Quantum.Tests.StartOperation.UDT3}
+  name: Microsoft.Quantum.Tests.StartOperation
+  uid: Microsoft.Quantum.Tests.StartOperation
+- items:
+  - {name: DataIn, uid: Microsoft.Quantum.Tests.Tuples.DataIn}
+  - {name: DataOut, uid: Microsoft.Quantum.Tests.Tuples.DataOut}
+  - {name: F1, uid: Microsoft.Quantum.Tests.Tuples.F1}
+  - {name: I, uid: Microsoft.Quantum.Tests.Tuples.I}
+  - {name: Name, uid: Microsoft.Quantum.Tests.Tuples.Name}
+  - {name: Op1, uid: Microsoft.Quantum.Tests.Tuples.Op1}
+  - {name: Q, uid: Microsoft.Quantum.Tests.Tuples.Q}
+  - {name: TupleA, uid: Microsoft.Quantum.Tests.Tuples.TupleA}
+  - {name: TupleB, uid: Microsoft.Quantum.Tests.Tuples.TupleB}
+  - {name: TupleC, uid: Microsoft.Quantum.Tests.Tuples.TupleC}
+  - {name: TupleD, uid: Microsoft.Quantum.Tests.Tuples.TupleD}
+  - {name: TupleE, uid: Microsoft.Quantum.Tests.Tuples.TupleE}
+  - {name: TupleF, uid: Microsoft.Quantum.Tests.Tuples.TupleF}
+  - {name: TupleG, uid: Microsoft.Quantum.Tests.Tuples.TupleG}
+  - {name: TupleH, uid: Microsoft.Quantum.Tests.Tuples.TupleH}
+  - {name: TupleI, uid: Microsoft.Quantum.Tests.Tuples.TupleI}
+  - {name: TupleJ, uid: Microsoft.Quantum.Tests.Tuples.TupleJ}
+  - {name: Variant, uid: Microsoft.Quantum.Tests.Tuples.Variant}
+  name: Microsoft.Quantum.Tests.Tuples
+  uid: Microsoft.Quantum.Tests.Tuples
+- items:
+  - {name: Barrier, uid: Microsoft.Quantum.Tracer.Barrier}
+  name: Microsoft.Quantum.Tracer
+  uid: Microsoft.Quantum.Tracer
+- items:
+  - {name: DefaultBody, uid: NativeOperations.DefaultBody}
+  - {name: DefaultBodyGeneric, uid: NativeOperations.DefaultBodyGeneric}
+  - {name: IntrinsicBody, uid: NativeOperations.IntrinsicBody}
+  - {name: IntrinsicBodyGeneric, uid: NativeOperations.IntrinsicBodyGeneric}
+  name: NativeOperations
+  uid: NativeOperations
+- items:
+  - {name: Main, uid: QSharpExe.Main}
+  name: QSharpExe
+  uid: QSharpExe
+- items:
+  - {name: ExerciseInputs, uid: Quantum.StandaloneSupportedInputs.ExerciseInputs}
+  - {name: _12cc00706d7244bc9713521e822a59e2_ArrayToString, uid: Quantum.StandaloneSupportedInputs._12cc00706d7244bc9713521e822a59e2_ArrayToString}
+  - {name: _18bfe1cdddf24fddbb02b4a8d393bdc8_ArrayToString, uid: Quantum.StandaloneSupportedInputs._18bfe1cdddf24fddbb02b4a8d393bdc8_ArrayToString}
+  - {name: _32c80511e14f47c8ae8e9abbaca5d80f_ArrayToString, uid: Quantum.StandaloneSupportedInputs._32c80511e14f47c8ae8e9abbaca5d80f_ArrayToString}
+  - {name: _44c863f8d0dd47759def887fa485be9f_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._44c863f8d0dd47759def887fa485be9f_TautologyPredicate}
+  - {name: _4b1a555fff6e4f3fbecbe411eb0d6b88_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._4b1a555fff6e4f3fbecbe411eb0d6b88_TautologyPredicate}
+  - {name: _6c98cc6894e247bf8a8b5b0231161ae0_ArrayToString, uid: Quantum.StandaloneSupportedInputs._6c98cc6894e247bf8a8b5b0231161ae0_ArrayToString}
+  - {name: _6e30f0f3962f40a6bdaa139b4f9e2013_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._6e30f0f3962f40a6bdaa139b4f9e2013_TautologyPredicate}
+  - {name: _b5d033ef02bb442d8628a168119c4bce_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._b5d033ef02bb442d8628a168119c4bce_TautologyPredicate}
+  - {name: _c875f67f0eb14bc0bfeaf4615472bf9c_ArrayToString, uid: Quantum.StandaloneSupportedInputs._c875f67f0eb14bc0bfeaf4615472bf9c_ArrayToString}
+  - {name: _c9bf87920ed8465daa975fa237475ef3_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._c9bf87920ed8465daa975fa237475ef3_TautologyPredicate}
+  name: Quantum.StandaloneSupportedInputs
+  uid: Quantum.StandaloneSupportedInputs
+- items:
+  - {name: JWOptimizedApplyTrotterStep, uid: SystemTestJWOptimizedES.JWOptimizedApplyTrotterStep}
+  - {name: PPTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PPTermFromGeneralHamiltonianTestOp}
+  - {name: PPTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PPTermFromLiquidOrbitalTestOp}
+  - {name: PQQPTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQQPTermFromGeneralHamiltonianTestOp}
+  - {name: PQQPTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQQPTermFromLiquidOrbitalTestOp}
+  - {name: PQQRTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQQRTermFromGeneralHamiltonianTestOp}
+  - {name: PQQRTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQQRTermFromLiquidOrbitalTestOp}
+  - {name: PQRSTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQRSTermFromGeneralHamiltonianTestOp}
+  - {name: PQRSTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQRSTermFromLiquidOrbitalTestOp}
+  - {name: PQTermABFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQTermABFromGeneralHamiltonianTestOp}
+  - {name: PQTermABFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQTermABFromLiquidOrbitalTestOp}
+  - {name: PQTermACFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQTermACFromGeneralHamiltonianTestOp}
+  - {name: PQTermACFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQTermACFromLiquidOrbitalTestOp}
+  name: SystemTestJWOptimizedES
+  uid: SystemTestJWOptimizedES
+- items:
+  - {name: JordanWignerApplyTrotterStep, uid: SystemTests.JordanWignerApplyTrotterStep}
+  - {name: PPTermFromGeneralHamiltonianTestOp, uid: SystemTests.PPTermFromGeneralHamiltonianTestOp}
+  - {name: PPTermFromLiquidOrbitalTestOp, uid: SystemTests.PPTermFromLiquidOrbitalTestOp}
+  - {name: PQQPTermFromGeneralHamiltonianTestOp, uid: SystemTests.PQQPTermFromGeneralHamiltonianTestOp}
+  - {name: PQQPTermFromLiquidOrbitalTestOp, uid: SystemTests.PQQPTermFromLiquidOrbitalTestOp}
+  - {name: PQQRTermFromGeneralHamiltonianTestOp, uid: SystemTests.PQQRTermFromGeneralHamiltonianTestOp}
+  - {name: PQQRTermFromLiquidOrbitalTestOp, uid: SystemTests.PQQRTermFromLiquidOrbitalTestOp}
+  - {name: PQRSTermFromGeneralHamiltonianTestOp, uid: SystemTests.PQRSTermFromGeneralHamiltonianTestOp}
+  - {name: PQRSTermFromLiquidOrbitalTestOp, uid: SystemTests.PQRSTermFromLiquidOrbitalTestOp}
+  - {name: PQTermABFromGeneralHamiltonianTestOp, uid: SystemTests.PQTermABFromGeneralHamiltonianTestOp}
+  - {name: PQTermABFromLiquidOrbitalTestOp, uid: SystemTests.PQTermABFromLiquidOrbitalTestOp}
+  - {name: PQTermACFromGeneralHamiltonianTestOp, uid: SystemTests.PQTermACFromGeneralHamiltonianTestOp}
+  - {name: PQTermACFromLiquidOrbitalTestOp, uid: SystemTests.PQTermACFromLiquidOrbitalTestOp}
+  name: SystemTests
+  uid: SystemTests
+- items:
+  - {name: GetEnergyByTrotterization, uid: SystemTests.Molecules.GetEnergyByTrotterization}
+  name: SystemTests.Molecules
+  uid: SystemTests.Molecules
+- items:
+  - {name: BlockEncodingStep, uid: SystemTestsBlockEncoding.BlockEncodingStep}
+  name: SystemTestsBlockEncoding
+  uid: SystemTestsBlockEncoding
+- items:
+  - {name: RunOptimizedBlockEncoding, uid: SystemTestsOptimizedBlockEncoding.RunOptimizedBlockEncoding}
+  name: SystemTestsOptimizedBlockEncoding
+  uid: SystemTestsOptimizedBlockEncoding

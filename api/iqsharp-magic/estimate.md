@@ -4,7 +4,7 @@ description: Runs a given function or operation on the ResourcesEstimator target
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.estimate
 ms.author: anburton
-ms.date: 02/23/2021
+ms.date: 03/26/2021
 ms.topic: managed-reference
 ---
 
@@ -13,7 +13,7 @@ ms.topic: managed-reference
         please do not manually edit it.
 
     [DEBUG] JSON source:
-        {"Name": "%estimate", "Documentation": {"Summary": "Runs a given function or operation on the ResourcesEstimator target machine.", "Full": null, "Description": "\r\nThe ResourcesEstimator estimates statistics about how many resources the given\r\noperation needs for execution. The resources it calculates include:\r\n\r\n- Counts for each primitive operation\r\n- Depth (lower bound for the T-gate depth of the quantum circuit)\r\n- Width (lower bound for the maximum number of qubits used for the computation)\r\n\r\nSee the [ResourcesEstimator user guide](https://docs.microsoft.com/quantum/user-guide/machines/resources-estimator) to learn more.\r\n\r\n#### Required parameters\r\n\r\n- Q# operation or function name. This must be the first parameter, and must be a valid Q# operation\r\nor function name that has been defined either in the notebook or in a Q# file in the same folder.\r\n- Arguments for the Q# operation or function must also be specified as `key=value` pairs.\r\n                ", "Remarks": null, "Examples": ["\r\nEstimate resources for a Q# operation defined as `operation MyOperation() : Result`:\r\n```\r\nIn []: %estimate MyOperation\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    ", "\r\nEstimate resources for a Q# operation defined as `operation MyOperation(a : Int, b : Int) : Result`:\r\n```\r\nIn []: %estimate MyOperation a=5 b=10\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.Kernel"}
+        {"Name": "%estimate", "Documentation": {"Summary": "Runs a given function or operation on the ResourcesEstimator target machine.", "Full": null, "Description": "\r\nThe ResourcesEstimator estimates statistics about how many resources the given\r\noperation needs for execution. The resources it calculates include:\r\n\r\n- Counts for each primitive operation\r\n- Depth (lower bound for the T-gate depth of the quantum circuit)\r\n- Width (lower bound for the maximum number of qubits used for the computation)\r\n\r\nSee the [ResourcesEstimator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/resources-estimator) to learn more.\r\n\r\n#### Required parameters\r\n\r\n- Q# operation or function name. This must be the first parameter, and must be a valid Q# operation\r\nor function name that has been defined either in the notebook or in a Q# file in the same folder.\r\n- Arguments for the Q# operation or function must also be specified as `key=value` pairs.\r\n                ", "Remarks": null, "Examples": ["\r\nEstimate resources for a Q# operation defined as `operation MyOperation() : Result`:\r\n```\r\nIn []: %estimate MyOperation\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    ", "\r\nEstimate resources for a Q# operation defined as `operation MyOperation(a : Int, b : Int) : Result`:\r\n```\r\nIn []: %estimate MyOperation a=5 b=10\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.Kernel"}
 -->
 
 # `%estimate`
@@ -31,7 +31,7 @@ operation needs for execution. The resources it calculates include:
 - Depth (lower bound for the T-gate depth of the quantum circuit)
 - Width (lower bound for the maximum number of qubits used for the computation)
 
-See the [ResourcesEstimator user guide](https://docs.microsoft.com/quantum/user-guide/machines/resources-estimator) to learn more.
+See the [ResourcesEstimator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/resources-estimator) to learn more.
 
 #### Required parameters
 

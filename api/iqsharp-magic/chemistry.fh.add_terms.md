@@ -4,7 +4,7 @@ description: Adds terms to a fermion Hamiltonian.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.chemistry.fh.add_terms
 ms.author: anburton
-ms.date: 02/23/2021
+ms.date: 03/26/2021
 ms.topic: managed-reference
 ---
 
