@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertAllZero
 title: AssertAllZero operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/30/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -34,6 +34,10 @@ Qubits that are asserted to be in $\ket{0}$ state.
 ## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
 
 
+
+## Remarks
+
+Note that the Adjoint and Controlled versions of this operation will notcheck the condition.
 
 ## See Also
 

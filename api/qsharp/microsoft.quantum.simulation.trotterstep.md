@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.TrotterStep
 title: TrotterStep function
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/30/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -50,4 +50,4 @@ Unitary operation that approximates a single step of time-evolutionfor duration
 
 ## Remarks
 
-For more on the Trotter–Suzuki decomposition, see[Time-Ordered Composition](/quantum/libraries/control-flow#time-ordered-composition).
+For more on the Trotter–Suzuki decomposition, see[Time-Ordered Composition](xref:microsoft.quantum.libraries.overview-standard.control-flow#time-ordered-composition).

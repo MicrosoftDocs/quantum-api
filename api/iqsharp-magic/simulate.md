@@ -4,7 +4,7 @@ description: Runs a given function or operation on the QuantumSimulator target m
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.simulate
 ms.author: anburton
-ms.date: 02/23/2021
+ms.date: 03/30/2021
 ms.topic: managed-reference
 ---
 
@@ -13,7 +13,7 @@ ms.topic: managed-reference
         please do not manually edit it.
 
     [DEBUG] JSON source:
-        {"Name": "%simulate", "Documentation": {"Summary": "Runs a given function or operation on the QuantumSimulator target machine.", "Full": null, "Description": "\r\nThis magic command allows executing a given function or operation on the QuantumSimulator, \r\nwhich performs a full-state simulation of the given function or operation\r\nand prints the resulting return value.\r\n\r\nSee the [QuantumSimulator user guide](https://docs.microsoft.com/quantum/user-guide/machines/full-state-simulator) to learn more.\r\n\r\n#### Required parameters\r\n\r\n- Q# operation or function name. This must be the first parameter, and must be a valid Q# operation\r\nor function name that has been defined either in the notebook or in a Q# file in the same folder.\r\n- Arguments for the Q# operation or function must also be specified as `key=value` pairs.\r\n                ", "Remarks": null, "Examples": ["\r\nSimulate a Q# operation defined as `operation MyOperation() : Result`:\r\n```\r\nIn []: %simulate MyOperation\r\nOut[]: <return value of the operation>\r\n```\r\n                    ", "\r\nSimulate a Q# operation defined as `operation MyOperation(a : Int, b : Int) : Result`:\r\n```\r\nIn []: %simulate MyOperation a=5 b=10\r\nOut[]: <return value of the operation>\r\n```\r\n                    "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.Kernel"}
+        {"Name": "%simulate", "Documentation": {"Summary": "Runs a given function or operation on the QuantumSimulator target machine.", "Full": null, "Description": "\r\nThis magic command allows executing a given function or operation on the QuantumSimulator, \r\nwhich performs a full-state simulation of the given function or operation\r\nand prints the resulting return value.\r\n\r\nSee the [QuantumSimulator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/full-state-simulator) to learn more.\r\n\r\n#### Required parameters\r\n\r\n- Q# operation or function name. This must be the first parameter, and must be a valid Q# operation\r\nor function name that has been defined either in the notebook or in a Q# file in the same folder.\r\n- Arguments for the Q# operation or function must also be specified as `key=value` pairs.\r\n                ", "Remarks": null, "Examples": ["\r\nSimulate a Q# operation defined as `operation MyOperation() : Result`:\r\n```\r\nIn []: %simulate MyOperation\r\nOut[]: <return value of the operation>\r\n```\r\n                    ", "\r\nSimulate a Q# operation defined as `operation MyOperation(a : Int, b : Int) : Result`:\r\n```\r\nIn []: %simulate MyOperation a=5 b=10\r\nOut[]: <return value of the operation>\r\n```\r\n                    "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.Kernel"}
 -->
 
 # `%simulate`
@@ -28,7 +28,7 @@ This magic command allows executing a given function or operation on the Quantum
 which performs a full-state simulation of the given function or operation
 and prints the resulting return value.
 
-See the [QuantumSimulator user guide](https://docs.microsoft.com/quantum/user-guide/machines/full-state-simulator) to learn more.
+See the [QuantumSimulator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/full-state-simulator) to learn more.
 
 #### Required parameters
 
