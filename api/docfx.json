@@ -42,7 +42,7 @@
     "externalReference": [],
     "globalMetadata": {
       "show_latex": true,
-      "ms.prod": "quantum",
+      "ms.prod": "qsharp",
       "ms.topic": "managed-reference",
       "ms.devlang":"qsharp",
       "searchScope": ["quantum", "q#", "qsharp"],
