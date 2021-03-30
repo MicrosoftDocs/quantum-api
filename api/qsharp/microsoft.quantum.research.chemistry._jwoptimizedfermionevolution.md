@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedFermionEvolution
 title: _JWOptimizedFermionEvolution operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/30/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -10,7 +10,7 @@ qsharp.summary: >-
   Represents a dynamical generator as a set of simulatable gates and an
   expansion in the JWOptimized basis.
 
-  See [Dynamical Generator Modeling](../libraries/data-structures#dynamical-generator-modeling)
+  See [Dynamical Generator Modeling](xref:microsoft.quantum.libraries.overview.data-structures#dynamical-generator-modeling)
   for more details.
 ---
 
@@ -21,7 +21,7 @@ Namespace: [Microsoft.Quantum.Research.Chemistry](xref:Microsoft.Quantum.Researc
 Package: [Microsoft.Quantum.Research.Chemistry](https://nuget.org/packages/Microsoft.Quantum.Research.Chemistry)
 
 
-Represents a dynamical generator as a set of simulatable gates and anexpansion in the JWOptimized basis.See [Dynamical Generator Modeling](../libraries/data-structures#dynamical-generator-modeling)for more details.
+Represents a dynamical generator as a set of simulatable gates and anexpansion in the JWOptimized basis.See [Dynamical Generator Modeling](xref:microsoft.quantum.libraries.overview.data-structures#dynamical-generator-modeling)for more details.
 
 ```qsharp
 operation _JWOptimizedFermionEvolution (generatorIndex : Microsoft.Quantum.Simulation.GeneratorIndex, stepSize : Double, parityQubit : Qubit, qubits : Qubit[]) : Unit is Adj + Ctl

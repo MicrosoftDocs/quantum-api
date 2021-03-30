@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation._IdentityTimeDependentGeneratorSystem
 title: _IdentityTimeDependentGeneratorSystem function
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/30/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
