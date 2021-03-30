@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareArbitraryStateD
 title: PrepareArbitraryStateD operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/30/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -27,7 +27,7 @@ operation PrepareArbitraryStateD (coefficients : Double[], qubits : Microsoft.Qu
 
 ## Description
 
-This operation prepares an arbitrary quantumstate $\ket{\psi}$ with complex coefficients $r_j e^{i t_j}$ fromthe $n$-qubit computational basis state $\ket{0 \cdots 0}$.In particular, the action of this operation can be simulated by thea unitary transformation $U$ that acts on the all-zeros state as$$\begin{align}U\ket{0...0}& = \ket{\psi} \\\\& = \frac{\sum_{j=0}^{2^n-1} r_j e^{i t_j} \ket{j}}{\sqrt{\sum_{j=0}^{2^n-1} |r_j|^2}}.\end{align}$$
+This operation prepares an arbitrary quantumstate $\ket{\psi}$ with positive coefficients $\alpha_j\ge 0$ fromthe $n$-qubit computational basis state $\ket{0...0}$.The action of U on the all-zeros state is given by$$\begin{align}U \ket{0\cdots 0} = \ket{\psi} = \frac{\sum_{j=0}^{2^n-1}\alpha_j \ket{j}}{\sqrt{\sum_{j=0}^{2^n-1}|\alpha_j|^2}}.\end{align}$$
 
 ## Input
 
@@ -46,9 +46,13 @@ Qubit register encoding number states in little-endian format. This isexpected 
 
 
 
+## Example
+
+The following snippet prepares the quantum state $\ket{\psi}=\sqrt{1/8}\ket{0}+\sqrt{7/8}\ket{2}$in the qubit register `qubitsLE`.```qsharplet amplitudes = [Sqrt(0.125), 0.0, Sqrt(0.875), 0.0];let op = StatePreparationPositiveCoefficients(amplitudes);use qubits = Qubit[2];let qubitsLE = LittleEndian(qubits);PrepareArbitraryStateD(amplitudes, qubitsLE);```
+
 ## Remarks
 
-Negative input coefficients $r_j < 0$ will be treated as thoughpositive with value $|r_j|$. `coefficients` will be padded withelements $(r_j, t_j) = (0.0, 0.0)$ if fewer than $2^n$ arespecified.
+Negative input coefficients $\alpha_j < 0$ will be treated as thoughpositive with value $|\alpha_j|$. `coefficients` will be padded withelements $\alpha_j = 0.0$ if fewer than $2^n$ are specified.
 
 ## References
 

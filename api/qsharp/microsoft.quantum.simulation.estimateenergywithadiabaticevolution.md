@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.EstimateEnergyWithAdiabaticEvolution
 title: EstimateEnergyWithAdiabaticEvolution operation
-ms.date: 2/23/2021 12:00:00 AM
+ms.date: 3/30/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -52,7 +52,7 @@ An oracle representing a unitary operator $U$ representing evolutionfor time $\
 
 ### phaseEstAlgorithm : ([DiscreteOracle](xref:Microsoft.Quantum.Oracles.DiscreteOracle),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[]) => [Double](xref:microsoft.quantum.lang-ref.double) 
 
-An operation that performs phase estimation on a given unitary operation.See [iterative phase estimation](/quantum/libraries/characterization#iterative-phase-estimation)for more details.
+An operation that performs phase estimation on a given unitary operation.See [iterative phase estimation](xref:microsoft.quantum.libraries.overview.characterization#iterative-phase-estimation)for more details.
 
 
 
