@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.NearEqualityFactD
 title: NearEqualityFactD function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -44,4 +44,4 @@ The expected value.
 
 ## Remarks
 
-This is equivalent to <xref:microsoft.quantum.diagnostics.equalitywithintolerancefact> withhardcoded tolerance of $10^{-10}$.
+This is equivalent to <xref:Microsoft.Quantum.Diagnostics.EqualityWithinToleranceFact> withhardcoded tolerance of $10^{-10}$.

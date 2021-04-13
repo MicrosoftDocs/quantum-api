@@ -1,15 +1,15 @@
 ---
-uid: Quantum.StandaloneSupportedInputs._5dcf36115ed7411ea93552b6827078f5_TautologyPredicate
-title: _5dcf36115ed7411ea93552b6827078f5_TautologyPredicate function
-ms.date: 3/30/2021 12:00:00 AM
+uid: Quantum.StandaloneSupportedInputs._9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate
+title: _9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate function
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Quantum.StandaloneSupportedInputs
-qsharp.name: _5dcf36115ed7411ea93552b6827078f5_TautologyPredicate
+qsharp.name: _9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate
 qsharp.summary: ''
 ---
 
-# _5dcf36115ed7411ea93552b6827078f5_TautologyPredicate function
+# _9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate function
 
 Namespace: [Quantum.StandaloneSupportedInputs](xref:Quantum.StandaloneSupportedInputs)
 
@@ -19,7 +19,7 @@ Package: [qir-standalone-input-reference](https://nuget.org/packages/qir-standal
 
 
 ```qsharp
-function _5dcf36115ed7411ea93552b6827078f5_TautologyPredicate (input : Pauli) : Bool
+function _9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate (input : Pauli) : Bool
 ```
 
 

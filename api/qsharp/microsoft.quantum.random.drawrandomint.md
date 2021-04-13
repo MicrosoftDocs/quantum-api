@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.DrawRandomInt
 title: DrawRandomInt operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -46,7 +46,7 @@ The following Q# snippet randomly rolls a six-sided die:```qsharplet roll = D
 
 ## Remarks
 
-Fails if `max <= min`.
+Fails if `max < min`.
 
 ## See Also
 

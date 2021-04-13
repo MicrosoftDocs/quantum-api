@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.Enum_HthenS
 title: Enum_HthenS function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits

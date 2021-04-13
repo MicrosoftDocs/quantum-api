@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.AndLadder
 title: AndLadder operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -51,7 +51,7 @@ The length of `targets` must be at least 1 and equal to the lengthof `controls`
 
 ## Remarks
 
-- Used as a part of <xref:microsoft.quantum.canon.applymulticontrolledc>  and <xref:microsoft.quantum.canon.applymulticontrolledca>.- For the explanation and circuit diagram see Figure 4.10, Section 4.3 in Nielsen & Chuang.
+- Used as a part of <xref:Microsoft.Quantum.Canon.ApplyMultiControlledC>  and <xref:Microsoft.Quantum.Canon.ApplyMultiControlledCA>.- For the explanation and circuit diagram see Figure 4.10, Section 4.3 in Nielsen & Chuang.
 
 ## References
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Instructions.joint_measure
 title: joint_measure operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Instructions

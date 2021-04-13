@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Instructions.multi_qubit_op_ctl
 title: multi_qubit_op_ctl operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Instructions

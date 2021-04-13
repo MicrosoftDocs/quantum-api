@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.PauliBlockEncoding
 title: PauliBlockEncoding function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -41,4 +41,4 @@ A `GeneratorSystem` that describes $H$ as a sum of Pauli terms
 
 ## Remarks
 
-This is obtained by preparing and unpreparing the state $\sum_{j}\sqrt{\alpha_j/\alpha}\ket{j}$,and constructing a multiply-controlled unitary<xref:microsoft.quantum.preparation.statepreparationpositivecoefficients> and<xref:microsoft.quantum.canon.multiplexoperationsfromgenerator>.
+This is obtained by preparing and unpreparing the state $\sum_{j}\sqrt{\alpha_j/\alpha}\ket{j}$,and constructing a multiply-controlled unitary<xref:Microsoft.Quantum.Preparation.PrepareArbitraryStateD> and<xref:Microsoft.Quantum.Canon.MultiplexOperationsFromGenerator>.

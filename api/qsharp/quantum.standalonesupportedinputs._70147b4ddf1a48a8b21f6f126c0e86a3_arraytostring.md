@@ -1,15 +1,15 @@
 ---
-uid: Quantum.StandaloneSupportedInputs._14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString
-title: _14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString function
-ms.date: 3/30/2021 12:00:00 AM
+uid: Quantum.StandaloneSupportedInputs._70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString
+title: _70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString function
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Quantum.StandaloneSupportedInputs
-qsharp.name: _14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString
+qsharp.name: _70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString
 qsharp.summary: ''
 ---
 
-# _14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString function
+# _70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString function
 
 Namespace: [Quantum.StandaloneSupportedInputs](xref:Quantum.StandaloneSupportedInputs)
 
@@ -19,7 +19,7 @@ Package: [qir-standalone-input-reference](https://nuget.org/packages/qir-standal
 
 
 ```qsharp
-function _14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString (array : Pauli[]) : String
+function _70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString (array : Pauli[]) : String
 ```
 
 

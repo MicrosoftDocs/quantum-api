@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.IncrementByModularInteger
 title: IncrementByModularInteger operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -51,7 +51,7 @@ Integer $y$ in `LittleEndian` format that `increment` $a$ is added to.
 
 ## Remarks
 
-Assumes that the initial value of target is less than $N$and that the increment $a$ is less than $N$.Note that<xref:microsoft.quantum.arithmetic.incrementphasebymodularinteger> implementsthe same operation in the `PhaseLittleEndian` basis.
+Assumes that the initial value of target is less than $N$and that the increment $a$ is less than $N$.Note that<xref:Microsoft.Quantum.Arithmetic.IncrementPhaseByModularInteger> implementsthe same operation in the `PhaseLittleEndian` basis.
 
 ## See Also
 

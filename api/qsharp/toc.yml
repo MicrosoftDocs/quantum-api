@@ -1132,7 +1132,6 @@
   - {name: IdentityTimeDependentGeneratorSystem, uid: Microsoft.Quantum.Simulation.IdentityTimeDependentGeneratorSystem}
   - {name: IntToPauli, uid: Microsoft.Quantum.Simulation.IntToPauli}
   - {name: InterpolateGeneratorSystems, uid: Microsoft.Quantum.Simulation.InterpolateGeneratorSystems}
-  - {name: InterpolateGeneratorSystemsImpl, uid: Microsoft.Quantum.Simulation.InterpolateGeneratorSystemsImpl}
   - {name: InterpolatedEvolution, uid: Microsoft.Quantum.Simulation.InterpolatedEvolution}
   - {name: IntsToPaulis, uid: Microsoft.Quantum.Simulation.IntsToPaulis}
   - {name: MultiplyGeneratorIndex, uid: Microsoft.Quantum.Simulation.MultiplyGeneratorIndex}
@@ -1140,7 +1139,6 @@
   - {name: PauliBlockEncoding, uid: Microsoft.Quantum.Simulation.PauliBlockEncoding}
   - {name: PauliCoefficientFromGenIdx, uid: Microsoft.Quantum.Simulation.PauliCoefficientFromGenIdx}
   - {name: PauliEvolutionFunction, uid: Microsoft.Quantum.Simulation.PauliEvolutionFunction}
-  - {name: PauliEvolutionImpl, uid: Microsoft.Quantum.Simulation.PauliEvolutionImpl}
   - {name: PauliEvolutionSet, uid: Microsoft.Quantum.Simulation.PauliEvolutionSet}
   - {name: PauliStringFromGenIdx, uid: Microsoft.Quantum.Simulation.PauliStringFromGenIdx}
   - {name: QuantumWalkByQubitization, uid: Microsoft.Quantum.Simulation.QuantumWalkByQubitization}
@@ -1156,10 +1154,6 @@
   - {name: TrotterStep, uid: Microsoft.Quantum.Simulation.TrotterStep}
   - {name: TrotterStepImpl, uid: Microsoft.Quantum.Simulation.TrotterStepImpl}
   - {name: Unitary, uid: Microsoft.Quantum.Simulation.Unitary}
-  - {name: _AddGeneratorSystems, uid: Microsoft.Quantum.Simulation._AddGeneratorSystems}
-  - {name: _IdentityTimeDependentGeneratorSystem, uid: Microsoft.Quantum.Simulation._IdentityTimeDependentGeneratorSystem}
-  - {name: _MultiplyGeneratorSystem, uid: Microsoft.Quantum.Simulation._MultiplyGeneratorSystem}
-  - {name: _PauliBlockEncoding, uid: Microsoft.Quantum.Simulation._PauliBlockEncoding}
   name: Microsoft.Quantum.Simulation
   uid: Microsoft.Quantum.Simulation
 - items:
@@ -1688,16 +1682,16 @@
   uid: QSharpExe
 - items:
   - {name: ExerciseInputs, uid: Quantum.StandaloneSupportedInputs.ExerciseInputs}
-  - {name: _08bb759388a04aefaf4845200e639b84_ArrayToString, uid: Quantum.StandaloneSupportedInputs._08bb759388a04aefaf4845200e639b84_ArrayToString}
-  - {name: _14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString, uid: Quantum.StandaloneSupportedInputs._14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString}
-  - {name: _386cf3bb16a34c10ad6fbb23f878e840_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._386cf3bb16a34c10ad6fbb23f878e840_TautologyPredicate}
-  - {name: _524d37ebcfc24dc197adde850df8cfd4_ArrayToString, uid: Quantum.StandaloneSupportedInputs._524d37ebcfc24dc197adde850df8cfd4_ArrayToString}
-  - {name: _5dcf36115ed7411ea93552b6827078f5_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._5dcf36115ed7411ea93552b6827078f5_TautologyPredicate}
-  - {name: _6ac6e13f088b4ef7929f41bf92729b22_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._6ac6e13f088b4ef7929f41bf92729b22_TautologyPredicate}
-  - {name: _7075f36c4cd44d82aa58c1639bd1a086_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._7075f36c4cd44d82aa58c1639bd1a086_TautologyPredicate}
-  - {name: _7c0082817bb34484bcd81ef6dd50e441_ArrayToString, uid: Quantum.StandaloneSupportedInputs._7c0082817bb34484bcd81ef6dd50e441_ArrayToString}
-  - {name: _7f8c0c7b20b3424598f021a26c3a4a4e_ArrayToString, uid: Quantum.StandaloneSupportedInputs._7f8c0c7b20b3424598f021a26c3a4a4e_ArrayToString}
-  - {name: _ddbead3a3f5f4ab5aae003e0762301c3_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._ddbead3a3f5f4ab5aae003e0762301c3_TautologyPredicate}
+  - {name: _41aba0567c0c43668c2a9d3cc4111659_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._41aba0567c0c43668c2a9d3cc4111659_TautologyPredicate}
+  - {name: _42d6f5927cce4316ba49cc899574aec2_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._42d6f5927cce4316ba49cc899574aec2_TautologyPredicate}
+  - {name: _69d35cc84499456bba7222bc84c07689_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._69d35cc84499456bba7222bc84c07689_TautologyPredicate}
+  - {name: _70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString, uid: Quantum.StandaloneSupportedInputs._70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString}
+  - {name: _705c399d320a43f9a0d4c552816b564f_ArrayToString, uid: Quantum.StandaloneSupportedInputs._705c399d320a43f9a0d4c552816b564f_ArrayToString}
+  - {name: _78c436bff7124aa8bfb042536e879899_ArrayToString, uid: Quantum.StandaloneSupportedInputs._78c436bff7124aa8bfb042536e879899_ArrayToString}
+  - {name: _897e27947d2b411797e4f36d2d31b443_ArrayToString, uid: Quantum.StandaloneSupportedInputs._897e27947d2b411797e4f36d2d31b443_ArrayToString}
+  - {name: _9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate}
+  - {name: _a9c821cb85144caab0d340ff31277923_ArrayToString, uid: Quantum.StandaloneSupportedInputs._a9c821cb85144caab0d340ff31277923_ArrayToString}
+  - {name: _f1bca442f7fc4acba231f7c058d78615_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._f1bca442f7fc4acba231f7c058d78615_TautologyPredicate}
   name: Quantum.StandaloneSupportedInputs
   uid: Quantum.StandaloneSupportedInputs
 - items:

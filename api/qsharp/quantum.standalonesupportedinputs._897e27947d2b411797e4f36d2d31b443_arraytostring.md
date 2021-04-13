@@ -1,15 +1,15 @@
 ---
-uid: Quantum.StandaloneSupportedInputs._524d37ebcfc24dc197adde850df8cfd4_ArrayToString
-title: _524d37ebcfc24dc197adde850df8cfd4_ArrayToString function
-ms.date: 3/30/2021 12:00:00 AM
+uid: Quantum.StandaloneSupportedInputs._897e27947d2b411797e4f36d2d31b443_ArrayToString
+title: _897e27947d2b411797e4f36d2d31b443_ArrayToString function
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Quantum.StandaloneSupportedInputs
-qsharp.name: _524d37ebcfc24dc197adde850df8cfd4_ArrayToString
+qsharp.name: _897e27947d2b411797e4f36d2d31b443_ArrayToString
 qsharp.summary: ''
 ---
 
-# _524d37ebcfc24dc197adde850df8cfd4_ArrayToString function
+# _897e27947d2b411797e4f36d2d31b443_ArrayToString function
 
 Namespace: [Quantum.StandaloneSupportedInputs](xref:Quantum.StandaloneSupportedInputs)
 
@@ -19,7 +19,7 @@ Package: [qir-standalone-input-reference](https://nuget.org/packages/qir-standal
 
 
 ```qsharp
-function _524d37ebcfc24dc197adde850df8cfd4_ArrayToString (array : Double[]) : String
+function _897e27947d2b411797e4f36d2d31b443_ArrayToString (array : Double[]) : String
 ```
 
 

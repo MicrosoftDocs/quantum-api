@@ -1,7 +1,7 @@
 ---
 uid: Quantum.StandaloneSupportedInputs
 title: Quantum.StandaloneSupportedInputs namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Quantum.StandaloneSupportedInputs
@@ -25,15 +25,15 @@ qsharp.summary: ''
 
 | Name | Summary |
 |------|---------|
-|[_08bb759388a04aefaf4845200e639b84_ArrayToString](xref:Quantum.StandaloneSupportedInputs._08bb759388a04aefaf4845200e639b84_ArrayToString) | |
-|[_14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString](xref:Quantum.StandaloneSupportedInputs._14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString) | |
-|[_386cf3bb16a34c10ad6fbb23f878e840_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._386cf3bb16a34c10ad6fbb23f878e840_TautologyPredicate) | |
-|[_524d37ebcfc24dc197adde850df8cfd4_ArrayToString](xref:Quantum.StandaloneSupportedInputs._524d37ebcfc24dc197adde850df8cfd4_ArrayToString) | |
-|[_5dcf36115ed7411ea93552b6827078f5_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._5dcf36115ed7411ea93552b6827078f5_TautologyPredicate) | |
-|[_6ac6e13f088b4ef7929f41bf92729b22_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._6ac6e13f088b4ef7929f41bf92729b22_TautologyPredicate) | |
-|[_7075f36c4cd44d82aa58c1639bd1a086_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._7075f36c4cd44d82aa58c1639bd1a086_TautologyPredicate) | |
-|[_7c0082817bb34484bcd81ef6dd50e441_ArrayToString](xref:Quantum.StandaloneSupportedInputs._7c0082817bb34484bcd81ef6dd50e441_ArrayToString) | |
-|[_7f8c0c7b20b3424598f021a26c3a4a4e_ArrayToString](xref:Quantum.StandaloneSupportedInputs._7f8c0c7b20b3424598f021a26c3a4a4e_ArrayToString) | |
-|[_ddbead3a3f5f4ab5aae003e0762301c3_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._ddbead3a3f5f4ab5aae003e0762301c3_TautologyPredicate) | |
+|[_41aba0567c0c43668c2a9d3cc4111659_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._41aba0567c0c43668c2a9d3cc4111659_TautologyPredicate) | |
+|[_42d6f5927cce4316ba49cc899574aec2_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._42d6f5927cce4316ba49cc899574aec2_TautologyPredicate) | |
+|[_69d35cc84499456bba7222bc84c07689_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._69d35cc84499456bba7222bc84c07689_TautologyPredicate) | |
+|[_70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString](xref:Quantum.StandaloneSupportedInputs._70147b4ddf1a48a8b21f6f126c0e86a3_ArrayToString) | |
+|[_705c399d320a43f9a0d4c552816b564f_ArrayToString](xref:Quantum.StandaloneSupportedInputs._705c399d320a43f9a0d4c552816b564f_ArrayToString) | |
+|[_78c436bff7124aa8bfb042536e879899_ArrayToString](xref:Quantum.StandaloneSupportedInputs._78c436bff7124aa8bfb042536e879899_ArrayToString) | |
+|[_897e27947d2b411797e4f36d2d31b443_ArrayToString](xref:Quantum.StandaloneSupportedInputs._897e27947d2b411797e4f36d2d31b443_ArrayToString) | |
+|[_9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._9e4a52d38cdf4fb09af97619c9615919_TautologyPredicate) | |
+|[_a9c821cb85144caab0d340ff31277923_ArrayToString](xref:Quantum.StandaloneSupportedInputs._a9c821cb85144caab0d340ff31277923_ArrayToString) | |
+|[_f1bca442f7fc4acba231f7c058d78615_TautologyPredicate](xref:Quantum.StandaloneSupportedInputs._f1bca442f7fc4acba231f7c058d78615_TautologyPredicate) | |
 
 <!-- /summaries -->
