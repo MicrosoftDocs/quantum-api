@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Instructions.multi_qubit_op
 title: multi_qubit_op operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Instructions
@@ -25,21 +25,21 @@ operation multi_qubit_op (op_id : Int, duration : Int, qbs : Qubit[]) : Unit
 
 ## Input
 
-### op_id : [Int](xref:microsoft.quantum.lang-ref.int)
+### op_id : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### duration : [Int](xref:microsoft.quantum.lang-ref.int)
+### duration : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### qbs : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qbs : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

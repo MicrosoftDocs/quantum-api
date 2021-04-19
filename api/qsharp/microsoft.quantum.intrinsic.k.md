@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.K
 title: K operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -25,11 +25,11 @@ operation K (q : Qubit) : Unit is Adj + Ctl
 
 ## Input
 
-### q : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### q : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.Out.MessageTest
 title: MessageTest function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Testing.QIR.Out
@@ -25,11 +25,11 @@ function MessageTest (msg : String) : Unit
 
 ## Input
 
-### msg : [String](xref:microsoft.quantum.lang-ref.string)
+### msg : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

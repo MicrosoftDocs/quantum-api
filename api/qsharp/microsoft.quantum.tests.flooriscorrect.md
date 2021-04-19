@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Tests.FloorIsCorrect
 title: FloorIsCorrect function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Tests
@@ -23,5 +23,5 @@ function FloorIsCorrect () : Unit
 ```
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

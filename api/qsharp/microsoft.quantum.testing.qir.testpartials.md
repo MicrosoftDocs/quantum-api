@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.TestPartials
 title: TestPartials function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Testing.QIR
@@ -25,16 +25,16 @@ function TestPartials (x : Int, y : Int) : Int
 
 ## Input
 
-### x : [Int](xref:microsoft.quantum.lang-ref.int)
+### x : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### y : [Int](xref:microsoft.quantum.lang-ref.int)
+### y : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

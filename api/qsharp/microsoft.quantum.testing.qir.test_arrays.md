@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.Test_Arrays
 title: Test_Arrays operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Testing.QIR
@@ -25,26 +25,26 @@ operation Test_Arrays (array : Int[], index : Int, val : Int, compilerDecoy : Bo
 
 ## Input
 
-### array : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### array : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
-### index : [Int](xref:microsoft.quantum.lang-ref.int)
+### index : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### val : [Int](xref:microsoft.quantum.lang-ref.int)
+### val : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### compilerDecoy : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### compilerDecoy : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

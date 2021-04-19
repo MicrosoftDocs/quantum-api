@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Instructions.Mz
 title: Mz operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Instructions
@@ -25,11 +25,11 @@ operation Mz (qb : Qubit) : Result
 
 ## Input
 
-### qb : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### qb : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 

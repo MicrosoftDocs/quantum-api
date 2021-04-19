@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.Math.TestDrawRandomDouble
 title: TestDrawRandomDouble operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Testing.QIR.Math
@@ -25,16 +25,16 @@ operation TestDrawRandomDouble (min : Double, max : Double) : Double
 
 ## Input
 
-### min : [Double](xref:microsoft.quantum.lang-ref.double)
+### min : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### max : [Double](xref:microsoft.quantum.lang-ref.double)
+### max : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.Tracer.Delay
 title: Delay operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Testing.Tracer
@@ -25,21 +25,21 @@ operation Delay (op : (Qubit => Unit), arg : Qubit, aux : Unit) : Unit
 
 ## Input
 
-### op : [Qubit](xref:microsoft.quantum.lang-ref.qubit) => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 
 
 
-### arg : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### arg : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### aux : [Unit](xref:microsoft.quantum.lang-ref.unit)
+### aux : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

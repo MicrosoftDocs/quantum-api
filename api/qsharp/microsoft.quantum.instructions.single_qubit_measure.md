@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Instructions.single_qubit_measure
 title: single_qubit_measure operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Instructions
@@ -25,21 +25,21 @@ operation single_qubit_measure (op_id : Int, duration : Int, qb : Qubit) : Resul
 
 ## Input
 
-### op_id : [Int](xref:microsoft.quantum.lang-ref.int)
+### op_id : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### duration : [Int](xref:microsoft.quantum.lang-ref.int)
+### duration : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### qb : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### qb : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.Other.PauliArrayAsIntTest
 title: PauliArrayAsIntTest function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Testing.QIR.Other
@@ -23,5 +23,5 @@ function PauliArrayAsIntTest () : Int
 ```
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

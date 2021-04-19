@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.Qop
 title: Qop operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Testing.QIR
@@ -25,16 +25,16 @@ operation Qop (q : Qubit, n : Int) : Unit is Adj + Ctl
 
 ## Input
 
-### q : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### q : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### n : [Int](xref:microsoft.quantum.lang-ref.int)
+### n : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.Math.TestDrawRandomInt
 title: TestDrawRandomInt operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/19/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Testing.QIR.Math
@@ -25,16 +25,16 @@ operation TestDrawRandomInt (min : Int, max : Int) : Int
 
 ## Input
 
-### min : [Int](xref:microsoft.quantum.lang-ref.int)
+### min : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### max : [Int](xref:microsoft.quantum.lang-ref.int)
+### max : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
