@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyPermutationUsingDecompositionWithVariableOrder
 title: ApplyPermutationUsingDecompositionWithVariableOrder operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -31,12 +31,12 @@ This operation is a more general version of @"microsoft.quantum.synthesis.applyp
 
 ## Input
 
-### perm : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### perm : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 A permutation of $2^n$ elements starting from 0.
 
 
-### variableOrder : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### variableOrder : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 A permutation of $n$ elements starting from 0.
 
@@ -47,7 +47,7 @@ A list of $n$ qubits to which the permutation is applied to.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

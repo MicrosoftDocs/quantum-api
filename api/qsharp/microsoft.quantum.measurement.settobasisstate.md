@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.SetToBasisState
 title: SetToBasisState operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -27,18 +27,18 @@ operation SetToBasisState (desired : Result, target : Qubit) : Unit
 
 ## Input
 
-### desired : __invalid<Result>__
+### desired : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The basis state that the qubit should be set to.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 The qubit whose state is to be set.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

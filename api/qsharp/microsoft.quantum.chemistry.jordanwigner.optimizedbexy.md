@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.OptimizedBEXY
 title: OptimizedBEXY operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -32,7 +32,7 @@ operation OptimizedBEXY (pauliBasis : Qubit, indexRegister : Microsoft.Quantum.A
 
 ## Input
 
-### pauliBasis : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### pauliBasis : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 When this qubit is in state $\ket{0}$, $X$ is applied. When it is in state $\ket{1}$, $Y$ is applied.
 
@@ -42,13 +42,13 @@ When this qubit is in state $\ket{0}$, $X$ is applied. When it is in state $\ket
 The state $\ket{p}$ of this register determines the qubit on which $X$ or $Y$ is applied.
 
 
-### targetRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register of qubits on which the Pauli operators are applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

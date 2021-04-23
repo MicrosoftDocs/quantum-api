@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Logical.Conditioned
 title: Conditioned function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
@@ -25,7 +25,7 @@ function Conditioned<'T> (condition : Bool, ifTrue : 'T, ifFalse : 'T) : 'T
 
 ## Input
 
-### condition : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### condition : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A condition used to control which input is returned.
 

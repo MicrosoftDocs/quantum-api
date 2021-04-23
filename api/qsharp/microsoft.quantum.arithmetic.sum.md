@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.Sum
 title: Sum operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,23 +29,23 @@ operation Sum (carryIn : Qubit, summand1 : Qubit, summand2 : Qubit) : Unit is Ad
 
 ## Input
 
-### carryIn : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### carryIn : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Carry-in qubit.
 
 
-### summand1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### summand1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 First summand qubit.
 
 
-### summand2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### summand2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Second summand qubit, is replaced with the lower bit of the sum of`summand1` and `summand2`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Samples.ApplyBlockEncodedHamiltonian
 title: ApplyBlockEncodedHamiltonian operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Samples
@@ -29,11 +29,11 @@ The unitary is $U = -i G S$ that encodes a Hamiltonian $H$ where $G = 2\ket{G}\b
 
 ## Input
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

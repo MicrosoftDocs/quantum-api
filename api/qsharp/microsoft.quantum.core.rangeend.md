@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Core.RangeEnd
 title: RangeEnd function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Core
@@ -27,13 +27,13 @@ function RangeEnd (range : Range) : Int
 
 ## Input
 
-### range : [Range](xref:microsoft.quantum.lang-ref.range)
+### range : [Range](xref:microsoft.quantum.qsharp.valueliterals#range-literals)
 
 Input range.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The defined end value of the given range.
 

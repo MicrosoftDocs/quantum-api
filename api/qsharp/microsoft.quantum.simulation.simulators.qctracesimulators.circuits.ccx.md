@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCX
 title: CCX operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -27,21 +27,21 @@ operation CCX (control1 : Qubit, control2 : Qubit, target : Qubit) : Unit is Adj
 
 ## Input
 
-### control1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 qubit corresponding to 'a' above
 
 
-### control2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 qubit corresponding to 'b' above
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 qubit corresponding to 'c' above
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Samples.QuantumSignalProcessOnEquator
 title: QuantumSignalProcessOnEquator operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Samples
@@ -28,23 +28,23 @@ operation QuantumSignalProcessOnEquator (angles : Double[], walkOperation : (Qub
 
 ## Input
 
-### angles : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### angles : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 Angles measured in radians from x-axis of the Bloch sphere. These angles are computed by quantum signal preprocessing.There must be an odd number of angles.
 
 
-### walkOperation : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### walkOperation : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A unitary operator, which can be anything but depends on the purpose.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A set of qubits on which walkOperation acts.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

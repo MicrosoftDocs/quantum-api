@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization.DiscretePhaseEstimationIteration
 title: DiscretePhaseEstimationIteration operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
@@ -32,26 +32,26 @@ operation DiscretePhaseEstimationIteration (oracle : Microsoft.Quantum.Oracles.D
 Operation acting on an integer and a register,such that $U^m$ is applied to the given register, where $U$ is the unitarywhose phase is to be estimated, and where $m$ is the integer powergiven to the oracle
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Number of times to apply the given unitary oracle.
 
 
-### theta : [Double](xref:microsoft.quantum.lang-ref.double)
+### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Angle by which to invert the phase on the control qubit beforeacting on the target state.
 
 
-### targetState : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetState : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register of state acted upon by the given unitary oracle.
 
 
-### controlQubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### controlQubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 An auxiliary qubit used to control the application of the given oracle.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

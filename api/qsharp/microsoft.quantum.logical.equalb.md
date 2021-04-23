@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Logical.EqualB
 title: EqualB function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
@@ -25,18 +25,18 @@ function EqualB (a : Bool, b : Bool) : Bool
 
 ## Input
 
-### a : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### a : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 The first value to be compared.
 
 
-### b : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### b : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 The second value to be compared.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `true` if and only if `a` is equal to `b`.
 

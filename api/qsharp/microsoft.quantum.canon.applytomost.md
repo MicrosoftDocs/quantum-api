@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToMost
 title: ApplyToMost operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,7 +29,7 @@ Given an operation `op` and an array of targets `targets`,applies `op(Most(targ
 
 ## Input
 
-### op : 'T[] => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : 'T[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 An operation to be applied.
 
@@ -40,7 +40,7 @@ An array of targets, of which all but the last will be applied to `op`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

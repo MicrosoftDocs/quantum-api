@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.PrepareSingleConfigurationalStateSingleSiteOccupation
 title: PrepareSingleConfigurationalStateSingleSiteOccupation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -27,16 +27,16 @@ operation PrepareSingleConfigurationalStateSingleSiteOccupation (qubitIndices : 
 
 ## Input
 
-### qubitIndices : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### qubitIndices : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Indices of qubits to be occupied by electrons.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubits of Hamiltonian.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

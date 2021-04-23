@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyIfC
 title: ApplyIfC operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,12 +29,12 @@ Given an operation `op` and a bit value `bit`, applies `op` to the `target`if `
 
 ## Input
 
-### op : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### op : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 An operation to be conditionally applied.
 
 
-### bit : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### bit : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 a boolean that controls whether op is applied or not.
 
@@ -45,7 +45,7 @@ The input to which the operation is applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

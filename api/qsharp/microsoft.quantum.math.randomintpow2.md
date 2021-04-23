@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.RandomIntPow2
 title: RandomIntPow2 operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
@@ -32,11 +32,11 @@ operation RandomIntPow2 (maxBits : Int) : Int
 
 ## Input
 
-### maxBits : [Int](xref:microsoft.quantum.lang-ref.int)
+### maxBits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.SingleQubitClifford
 title: SingleQubitClifford user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -27,16 +27,16 @@ newtype SingleQubitClifford = (E : Int, S : Int, X : Int, Omega : Int);
 
 ## Named Items
 
-### E : [Int](xref:microsoft.quantum.lang-ref.int)
+### E : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The power to which $E$ should be raised to generate this element.
-### S : [Int](xref:microsoft.quantum.lang-ref.int)
+### S : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The power to which $S$ should be raised to generate this element.
-### X : [Int](xref:microsoft.quantum.lang-ref.int)
+### X : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The power to which $X$ should be raised to generate this element.
-### Omega : [Int](xref:microsoft.quantum.lang-ref.int)
+### Omega : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The power to which $\omega$ should be raised to generate this element.
 

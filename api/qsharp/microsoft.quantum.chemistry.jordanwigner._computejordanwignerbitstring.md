@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._ComputeJordanWignerBitString
 title: _ComputeJordanWignerBitString function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -28,18 +28,18 @@ function _ComputeJordanWignerBitString (nFermions : Int, idxFermions : Int[]) : 
 
 ## Input
 
-### nFermions : [Int](xref:microsoft.quantum.lang-ref.int)
+### nFermions : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The Number of fermions in the system.
 
 
-### idxFermions : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### idxFermions : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 fermionic operator indices.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 Bitstring `Bool[]` that is `true` where a `PauliZ` should be applied.
 

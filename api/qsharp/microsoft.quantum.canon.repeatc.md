@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.RepeatC
 title: RepeatC operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -25,12 +25,12 @@ operation RepeatC<'TInput> (op : ('TInput => Unit is Ctl), nTimes : Int, input :
 
 ## Input
 
-### op : 'TInput => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### op : 'TInput => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 The operation to be called repeatedly.
 
 
-### nTimes : [Int](xref:microsoft.quantum.lang-ref.int)
+### nTimes : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of times to call `op`.
 
@@ -41,7 +41,7 @@ The input to be passed to `op`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

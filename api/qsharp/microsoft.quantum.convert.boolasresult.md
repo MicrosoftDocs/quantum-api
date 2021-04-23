@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.BoolAsResult
 title: BoolAsResult function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -27,12 +27,12 @@ function BoolAsResult (input : Bool) : Result
 
 ## Input
 
-### input : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### input : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `Bool` to be converted.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 A `Result` representing the `input`.

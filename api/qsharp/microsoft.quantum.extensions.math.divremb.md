@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.DivRemB
 title: DivRemB function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
@@ -38,16 +38,16 @@ function DivRemB (dividend : BigInt, divisor : BigInt) : (BigInt, BigInt)
 
 ## Input
 
-### dividend : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### dividend : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 
 
-### divisor : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### divisor : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 
 
 
-## Output : ([BigInt](xref:microsoft.quantum.lang-ref.bigint),[BigInt](xref:microsoft.quantum.lang-ref.bigint))
+## Output : ([BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals),[BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals))
 

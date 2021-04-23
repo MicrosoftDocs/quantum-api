@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.DumpOperation
 title: DumpOperation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -22,24 +22,24 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 Given an operation, displays diagnostics aboutthe operation that are made available by the currentexecution target.
 
 ```qsharp
-operation DumpOperation (nQubits : Int, op : (Qubit[] => Unit is Adj)) : Unit
+operation DumpOperation (nQubits : Int, op : (Qubit[] => Unit is Adj)) : Unit is Adj + Ctl
 ```
 
 
 ## Input
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of qubits on which the given operation acts.
 
 
-### op : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### op : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 The operation that is to be diagnosed.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

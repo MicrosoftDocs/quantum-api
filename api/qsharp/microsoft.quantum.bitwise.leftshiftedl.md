@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Bitwise.LeftShiftedL
 title: LeftShiftedL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
@@ -27,18 +27,18 @@ function LeftShiftedL (value : BigInt, amount : Int) : BigInt
 
 ## Input
 
-### value : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### value : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The number whose bitwise representation is to be shifted to the left(more significant).
 
 
-### amount : [Int](xref:microsoft.quantum.lang-ref.int)
+### amount : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of bits by which `value` is to be shifted to the left.
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The value of `value`, shifted left by `amount` bits.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyLowDepthAnd
 title: ApplyLowDepthAnd operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -32,23 +32,23 @@ Inverts `target` if and only if both controls are 1, but assumes that`target` i
 
 ## Input
 
-### control1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 First control qubit
 
 
-### control2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Second control qubit
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Target auxiliary qubit; must be in state 0
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

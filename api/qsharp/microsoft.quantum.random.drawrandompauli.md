@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.DrawRandomPauli
 title: DrawRandomPauli operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -23,6 +23,6 @@ operation DrawRandomPauli () : Pauli
 ```
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 Either `PauliI`, `PauliX`, `PauliY`, or `PauliZ` with equalprobability.

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.RandomReal
 title: RandomReal operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
@@ -32,11 +32,11 @@ operation RandomReal (bitsRandom : Int) : Double
 
 ## Input
 
-### bitsRandom : [Int](xref:microsoft.quantum.lang-ref.int)
+### bitsRandom : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

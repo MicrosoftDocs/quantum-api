@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.RandomSingleQubitPauli
 title: RandomSingleQubitPauli operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
@@ -30,5 +30,5 @@ operation RandomSingleQubitPauli () : Pauli
 ```
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 

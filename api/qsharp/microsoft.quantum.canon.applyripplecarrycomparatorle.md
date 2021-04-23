@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyRippleCarryComparatorLE
 title: ApplyRippleCarryComparatorLE operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -48,11 +48,11 @@ operation ApplyRippleCarryComparatorLE (x : Microsoft.Quantum.Arithmetic.LittleE
 
 
 
-### output : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### output : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

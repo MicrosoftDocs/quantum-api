@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.ModPowB
 title: ModPowB function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
@@ -38,21 +38,21 @@ function ModPowB (value : BigInt, exponent : BigInt, modulus : BigInt) : BigInt
 
 ## Input
 
-### value : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### value : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 
 
-### exponent : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### exponent : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 
 
-### modulus : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### modulus : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 

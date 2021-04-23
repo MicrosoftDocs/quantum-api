@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._TailMeasurement
 title: _TailMeasurement function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,11 +25,11 @@ function _TailMeasurement (nQubits : Int) : (Qubit[] => Result)
 
 ## Input
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => __invalid<Result>__ 
+## Output : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal) 
 

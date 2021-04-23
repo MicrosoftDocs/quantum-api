@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.EqualityWithinToleranceFact
 title: EqualityWithinToleranceFact function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -28,21 +28,21 @@ function EqualityWithinToleranceFact (actual : Double, expected : Double, tolera
 
 ## Input
 
-### actual : [Double](xref:microsoft.quantum.lang-ref.double)
+### actual : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The number to be checked.
 
 
-### expected : [Double](xref:microsoft.quantum.lang-ref.double)
+### expected : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The expected value.
 
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Absolute tolerance on the difference between actual and expected.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

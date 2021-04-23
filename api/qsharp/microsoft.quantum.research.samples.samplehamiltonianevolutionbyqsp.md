@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Samples.SampleHamiltonianEvolutionByQSP
 title: SampleHamiltonianEvolutionByQSP operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Samples
@@ -31,16 +31,16 @@ operation SampleHamiltonianEvolutionByQSP (tau : Double, angles : Double[]) : Un
 
 ## Input
 
-### tau : [Double](xref:microsoft.quantum.lang-ref.double)
+### tau : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### angles : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### angles : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

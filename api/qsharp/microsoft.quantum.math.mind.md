@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.MinD
 title: MinD function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,18 +25,18 @@ function MinD (a : Double, b : Double) : Double
 
 ## Input
 
-### a : [Double](xref:microsoft.quantum.lang-ref.double)
+### a : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The first number to be compared.
 
 
-### b : [Double](xref:microsoft.quantum.lang-ref.double)
+### b : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The second number to be compared.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The smaller of `a` and `b`.
 

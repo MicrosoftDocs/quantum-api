@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Message
 title: Message function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -25,13 +25,13 @@ function Message (msg : String) : Unit
 
 ## Input
 
-### msg : [String](xref:microsoft.quantum.lang-ref.string)
+### msg : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 The message to be reported.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

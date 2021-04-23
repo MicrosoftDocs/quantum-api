@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MAJ
 title: MAJ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,21 +29,21 @@ If we denote the state of the target qubit as $\ket{z}$, and input states ofthe
 
 ## Input
 
-### input0 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### input0 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 The first input qubit.
 
 
-### input1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### input1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 The second input qubit.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 A qubit onto which the majority function will be applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

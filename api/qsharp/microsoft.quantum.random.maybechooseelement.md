@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.MaybeChooseElement
 title: MaybeChooseElement operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -38,7 +38,7 @@ A distribution over the indices of `data`.
 
 
 
-## Output : ([Bool](xref:microsoft.quantum.lang-ref.bool),'T)
+## Output : ([Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals),'T)
 
 
 

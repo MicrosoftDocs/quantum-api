@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis._TwoLevelDecomposition
 title: _TwoLevelDecomposition function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -31,5 +31,5 @@ function _TwoLevelDecomposition (unitary : Microsoft.Quantum.Math.Complex[][]) :
 
 
 
-## Output : ([Complex](xref:Microsoft.Quantum.Math.Complex)[][],[Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int))[]
+## Output : ([Complex](xref:Microsoft.Quantum.Math.Complex)[][],[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))[]
 

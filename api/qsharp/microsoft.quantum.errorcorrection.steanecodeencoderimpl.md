@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.SteaneCodeEncoderImpl
 title: SteaneCodeEncoderImpl operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -25,16 +25,16 @@ operation SteaneCodeEncoderImpl (data : Qubit[], scratch : Qubit[]) : Unit is Ad
 
 ## Input
 
-### data : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### data : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 an array holding 1 qubit which is the input qubit.
 
 
-### scratch : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### scratch : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 an array holding 6 qubits which add redundancy.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

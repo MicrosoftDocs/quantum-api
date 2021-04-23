@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.EvolutionSet
 title: EvolutionSet user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -11,9 +11,9 @@ qsharp.summary: >-
   to implement simulation algorithms.
 
   Elements in the set are indexed
-  by a  <xref:microsoft.quantum.simulation.generatorindex>,
+  by a <xref:Microsoft.Quantum.Simulation.GeneratorIndex>,
   and each set is described by a function
-  from `GeneratorIndex` to  <xref:microsoft.quantum.simulation.evolutionunitary>,
+  from `GeneratorIndex` to <xref:Microsoft.Quantum.Simulation.EvolutionUnitary>,
   which are operations
   parameterized by a real number representing time
 ---
@@ -25,7 +25,7 @@ Namespace: [Microsoft.Quantum.Simulation](xref:Microsoft.Quantum.Simulation)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Represents a set of gates that can be readily implemented and usedto implement simulation algorithms.Elements in the set are indexedby a  <xref:microsoft.quantum.simulation.generatorindex>,and each set is described by a functionfrom `GeneratorIndex` to  <xref:microsoft.quantum.simulation.evolutionunitary>,which are operationsparameterized by a real number representing time
+Represents a set of gates that can be readily implemented and usedto implement simulation algorithms.Elements in the set are indexedby a <xref:Microsoft.Quantum.Simulation.GeneratorIndex>,and each set is described by a functionfrom `GeneratorIndex` to <xref:Microsoft.Quantum.Simulation.EvolutionUnitary>,which are operationsparameterized by a real number representing time
 
 ```qsharp
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis
 title: Microsoft.Quantum.Synthesis namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Synthesis
@@ -29,7 +29,7 @@ and Boolean functions.
 |[ApplyPermutationUsingDecompositionWithVariableOrder](xref:Microsoft.Quantum.Synthesis.ApplyPermutationUsingDecompositionWithVariableOrder) |Permutes the amplitudes in a quantum state given a permutation using decomposition-based synthesis. |
 |[ApplyPermutationUsingTransformation](xref:Microsoft.Quantum.Synthesis.ApplyPermutationUsingTransformation) |Permutes the amplitudes in a quantum state given a permutation using transformation-based synthesis. |
 |[ApplyTransposition](xref:Microsoft.Quantum.Synthesis.ApplyTransposition) | |
-|[ApplyUnitary](xref:Microsoft.Quantum.Synthesis.ApplyUnitary) |Applies gate defined by 2^n x 2^n unitary matrix. |
+|[ApplyUnitary](xref:Microsoft.Quantum.Synthesis.ApplyUnitary) |Applies gate defined by a 2ⁿ × 2ⁿ unitary matrix. |
 |[ApplyXControlledOnTruthTable](xref:Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTable) |Applies the @"microsoft.quantum.intrinsic.x" operation on `target`, if the Boolean function `func` evaluates to true for the classical assignment in `controlRegister`. |
 |[ApplyXControlledOnTruthTableWithCleanTarget](xref:Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTableWithCleanTarget) |Applies the @"microsoft.quantum.intrinsic.x" operation on `target`, if the Boolean function `func` evaluates to true for the classical assignment in `controlRegister`. |
 

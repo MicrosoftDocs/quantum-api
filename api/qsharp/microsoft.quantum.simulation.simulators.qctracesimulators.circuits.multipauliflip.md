@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiPauliFlip
 title: MultiPauliFlip operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,21 +25,21 @@ operation MultiPauliFlip (paulis : Pauli[], target : Qubit[], k : Int) : Unit is
 
 ## Input
 
-### paulis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### paulis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 P₁ , … , Pₙ
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubits to which apply the Clifford
 
 
-### k : [Int](xref:microsoft.quantum.lang-ref.int)
+### k : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 k above, number of qubit in array of target qubits on which Z operator acts
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

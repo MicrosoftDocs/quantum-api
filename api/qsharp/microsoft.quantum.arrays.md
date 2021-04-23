@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays
 title: Microsoft.Quantum.Arrays namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arrays
@@ -40,7 +40,6 @@ data.
 |[ElementAt](xref:Microsoft.Quantum.Arrays.ElementAt) |Returns the at the given index of an array. |
 |[ElementsAt](xref:Microsoft.Quantum.Arrays.ElementsAt) |Returns the array's elements at a given range of indices. |
 |[EmptyArray](xref:Microsoft.Quantum.Arrays.EmptyArray) |Returns the empty array of a given type. |
-|[EmptyArraysAreEmpty](xref:Microsoft.Quantum.Arrays.EmptyArraysAreEmpty) |Checks that empty arrays are indeed empty. |
 |[Enumerated](xref:Microsoft.Quantum.Arrays.Enumerated) |Given an array, returns a new array containing elements of the original array along with the indices of each element. |
 |[EqualA](xref:Microsoft.Quantum.Arrays.EqualA) |Given two arrays of the same type and a predicate that is defined for pairs of elements of the arrays, checks whether the arrays are equal. |
 |[Exclude](xref:Microsoft.Quantum.Arrays.Exclude) |Returns an array containing the elements of another array, excluding elements at a given list of indices. |

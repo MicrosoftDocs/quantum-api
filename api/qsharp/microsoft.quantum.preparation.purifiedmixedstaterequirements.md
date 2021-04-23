@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PurifiedMixedStateRequirements
 title: PurifiedMixedStateRequirements function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -28,12 +28,12 @@ function PurifiedMixedStateRequirements (targetError : Double, nCoefficients : I
 
 ## Input
 
-### targetError : [Double](xref:microsoft.quantum.lang-ref.double)
+### targetError : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The target error $\epsilon$.
 
 
-### nCoefficients : [Int](xref:microsoft.quantum.lang-ref.int)
+### nCoefficients : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of coefficients to be specified in preparing a mixed state.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Oracles
 title: Microsoft.Quantum.Oracles namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Oracles
@@ -24,7 +24,7 @@ and amplitude amplification.
 
 | Name | Summary |
 |------|---------|
-|[_ReflectionOracleFromDeterministicStateOracle](xref:Microsoft.Quantum.Oracles._ReflectionOracleFromDeterministicStateOracle) |Implementation of <xref:microsoft.quantum.canon.reflectionoraclefromdeterministicstateoracle>. |
+|[_ReflectionOracleFromDeterministicStateOracle](xref:Microsoft.Quantum.Oracles._ReflectionOracleFromDeterministicStateOracle) |Implementation of <xref:Microsoft.Quantum.Canon.ReflectionOracleFromDeterministicStateOracle>. |
 
 ## Functions
 

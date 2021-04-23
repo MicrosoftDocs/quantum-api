@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Oracles.DeterministicStateOracleFromStateOracle
 title: DeterministicStateOracleFromStateOracle function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Oracles
@@ -25,7 +25,7 @@ function DeterministicStateOracleFromStateOracle (idxFlagQubit : Int, stateOracl
 
 ## Input
 
-### idxFlagQubit : [Int](xref:microsoft.quantum.lang-ref.int)
+### idxFlagQubit : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The index to the flag qubit of the `stateOracle` $A$,which explicitly acts on two registers: the flag $f$ and the system$s$, e.g. $A\ket{0}\_f\ket{\psi}\_s$.
 

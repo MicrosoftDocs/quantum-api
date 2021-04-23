@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.AbsL
 title: AbsL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,19 +25,19 @@ function AbsL (a : BigInt) : BigInt
 
 ## Input
 
-### a : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### a : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The number whose absolute value is to be returned.
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The absolute value of `a`.
 
 ## Example
 
-```qsharpMessage($"{AbsD(314L)}");   // 314LMessage($"{AbsD(-271L)}");  // 271L```
+```qsharpMessage($"{AbsL(314L)}");   // 314LMessage($"{AbsL(-271L)}");  // 271L```
 
 ## See Also
 

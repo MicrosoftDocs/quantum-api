@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._MisclassificationRate
 title: _MisclassificationRate function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,21 +25,21 @@ function _MisclassificationRate (probabilities : Double[], labels : Int[], bias 
 
 ## Input
 
-### probabilities : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### probabilities : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
 
-### labels : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### labels : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
-### bias : [Double](xref:microsoft.quantum.lang-ref.double)
+### bias : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

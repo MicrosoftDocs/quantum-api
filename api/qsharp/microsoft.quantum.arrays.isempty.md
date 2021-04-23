@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.IsEmpty
 title: IsEmpty function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -31,7 +31,7 @@ The array to be checked.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `true` if and only if the array is empty (has length 0).
 

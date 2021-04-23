@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Windows
 title: Windows function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -29,7 +29,7 @@ This function returns all `n - size + 1` subarrays oflength `size` in order, wh
 
 ## Input
 
-### size : [Int](xref:microsoft.quantum.lang-ref.int)
+### size : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Length of the subarrays.
 

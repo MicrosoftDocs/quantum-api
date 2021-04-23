@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.Honeywell.Monomorphization.CallGenerics
 title: CallGenerics operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Testing.Honeywell.Monomorphization
@@ -23,5 +23,5 @@ operation CallGenerics () : String
 ```
 
 
-## Output : [String](xref:microsoft.quantum.lang-ref.string)
+## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 

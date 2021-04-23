@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Exclude
 title: Exclude function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function Exclude<'T> (remove : Int[], array : 'T[]) : 'T[]
 
 ## Input
 
-### remove : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### remove : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 An array of indices denoting which elements should be excludedfrom the output.
 

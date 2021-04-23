@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Exp
 title: Exp operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -29,21 +29,21 @@ operation Exp (paulis : Pauli[], theta : Double, qubits : Qubit[]) : Unit is Adj
 
 ## Input
 
-### paulis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### paulis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 Array of single-qubit Pauli values indicating the tensor productfactors on each qubit.
 
 
-### theta : [Double](xref:microsoft.quantum.lang-ref.double)
+### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Angle about the given multi-qubit Pauli operator by which thetarget register is to be rotated.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register to apply the given rotation to.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

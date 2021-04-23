@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.RepeatCA
 title: RepeatCA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -25,12 +25,12 @@ operation RepeatCA<'TInput> (op : ('TInput => Unit is Adj + Ctl), nTimes : Int, 
 
 ## Input
 
-### op : 'TInput => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### op : 'TInput => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The operation to be called repeatedly.
 
 
-### nTimes : [Int](xref:microsoft.quantum.lang-ref.int)
+### nTimes : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of times to call `op`.
 
@@ -41,7 +41,7 @@ The input to be passed to `op`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization.SingleQubitProcessTomographyMeasurement
 title: SingleQubitProcessTomographyMeasurement operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
@@ -27,23 +27,23 @@ operation SingleQubitProcessTomographyMeasurement (preparation : Pauli, measurem
 
 ## Input
 
-### preparation : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### preparation : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 The Pauli basis element $P$ in which a qubit is to be prepared.
 
 
-### measurement : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### measurement : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 The Pauli basis element $Q$ in which a qubit is to be measured.
 
 
-### channel : [Qubit](xref:microsoft.quantum.lang-ref.qubit) => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### channel : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 A single qubit channel $\Lambda$ whose behavior is being estimatedwith process tomography.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The Result `Zero` with probability$$\begin{align}\Pr(\texttt{Zero} | \Lambda; P, Q) = \operatorname{Tr}\left(\frac{\boldone + Q}{2} \Lambda\left[\frac{\boldone + P}{2}\right]\right).\end{align}$$
 

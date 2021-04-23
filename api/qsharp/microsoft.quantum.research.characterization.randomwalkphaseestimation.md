@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Characterization.RandomWalkPhaseEstimation
 title: RandomWalkPhaseEstimation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Characterization
@@ -28,27 +28,27 @@ operation RandomWalkPhaseEstimation (initialMean : Double, initialStdDev : Doubl
 
 ## Input
 
-### initialMean : [Double](xref:microsoft.quantum.lang-ref.double)
+### initialMean : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Mean of the initial normal prior distribution over $\phi$.
 
 
-### initialStdDev : [Double](xref:microsoft.quantum.lang-ref.double)
+### initialStdDev : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Standard deviation of the initial normal prior distribution over $\phi$.
 
 
-### nMeasurements : [Int](xref:microsoft.quantum.lang-ref.int)
+### nMeasurements : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Number of measurements to be accepted into the final posterior estimate.
 
 
-### maxMeasurements : [Int](xref:microsoft.quantum.lang-ref.int)
+### maxMeasurements : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Total number of measurements than can be taken before the operation is considered to have failed.
 
 
-### unwind : [Int](xref:microsoft.quantum.lang-ref.int)
+### unwind : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Number of results to forget when consistency checks fail.
 
@@ -58,13 +58,13 @@ Number of results to forget when consistency checks fail.
 An operation representing a unitary $U$ such that $U(t)\ket{\phi} = e^{i t \phi}\ket{\phi}$for eigenstates $\ket{\phi}$ with unknown phase $\phi \in \mathbb{R}^+$.
 
 
-### targetState : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetState : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register that $U$ acts on.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The final estimate $\hat{\phi} \mathrel{:=} \expect[\phi]$ , wherethe expectation is over the posterior given all accepted data.
 

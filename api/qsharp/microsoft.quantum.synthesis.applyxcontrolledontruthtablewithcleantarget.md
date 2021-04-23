@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTableWithCleanTarget
 title: ApplyXControlledOnTruthTableWithCleanTarget operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -31,23 +31,23 @@ This operation implements a special case of @"microsoft.quantum.synthesis.applyx
 
 ## Input
 
-### func : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### func : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 Boolean truth table represented as big integer
 
 
-### controlRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### controlRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register of control qubits
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Target qubit (must be in $\ket{0}$ state)
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

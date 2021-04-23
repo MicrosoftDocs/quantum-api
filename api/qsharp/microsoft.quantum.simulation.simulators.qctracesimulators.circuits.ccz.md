@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCZ
 title: CCZ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,23 +25,23 @@ operation CCZ (a : Qubit, b : Qubit, c : Qubit) : Unit is Adj
 
 ## Input
 
-### a : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### a : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 the first qubit the operation acts on
 
 
-### b : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### b : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 the second qubit the operation acts on
 
 
-### c : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### c : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 the third qubit the operation acts on
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

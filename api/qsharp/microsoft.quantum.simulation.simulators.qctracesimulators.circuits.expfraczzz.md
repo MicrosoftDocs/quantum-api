@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ExpFracZZZ
 title: ExpFracZZZ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,33 +25,33 @@ operation ExpFracZZZ (numerator : Int, power : Int, a : Qubit, b : Qubit, c : Qu
 
 ## Input
 
-### numerator : [Int](xref:microsoft.quantum.lang-ref.int)
+### numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 k
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 n
 
 
-### a : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### a : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 first target qubit
 
 
-### b : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### b : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 second target qubit
 
 
-### c : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### c : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 third target qubit
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

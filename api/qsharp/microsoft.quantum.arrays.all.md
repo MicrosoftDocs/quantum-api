@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.All
 title: All function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -28,7 +28,7 @@ function All<'T> (predicate : ('T -> Bool), array : 'T[]) : Bool
 
 ## Input
 
-### predicate : 'T -> [Bool](xref:microsoft.quantum.lang-ref.bool)
+### predicate : 'T -> [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A function from `'T` to `Bool` that is used to check elements.
 
@@ -39,7 +39,7 @@ An array of elements over `'T`.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A `Bool` value of the AND function of the predicate applied to all elements.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.BoolArrayAsInt
 title: BoolArrayAsInt function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -25,11 +25,11 @@ function BoolArrayAsInt (bits : Bool[]) : Int
 
 ## Input
 
-### bits : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+### bits : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 Bits in binary representation of number.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

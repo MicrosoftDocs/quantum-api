@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MResetY
 title: MResetY operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -32,12 +32,12 @@ Performs a single-qubit measurement in the $Y$-basis,and ensures that the qubit
 
 ## Input
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 A single qubit to be measured.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The result of measuring `target` in the Pauli $Y$ basis.

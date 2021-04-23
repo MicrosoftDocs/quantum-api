@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.PartialRotationsLayer
 title: PartialRotationsLayer function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -27,12 +27,12 @@ function PartialRotationsLayer (idxsQubits : Int[], axis : Pauli) : Microsoft.Qu
 
 ## Input
 
-### idxsQubits : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### idxsQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Indices for the qubits to be used as the targets for each rotation.
 
 
-### axis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### axis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 The rotation axis for each rotation in the given layer.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.EqualityFactI
 title: EqualityFactI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -25,21 +25,21 @@ function EqualityFactI (actual : Int, expected : Int, message : String) : Unit
 
 ## Input
 
-### actual : [Int](xref:microsoft.quantum.lang-ref.int)
+### actual : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number to be checked.
 
 
-### expected : [Int](xref:microsoft.quantum.lang-ref.int)
+### expected : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The expected value.
 
 
-### message : [String](xref:microsoft.quantum.lang-ref.string)
+### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 Failure message string to be used when the assertion is triggered.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

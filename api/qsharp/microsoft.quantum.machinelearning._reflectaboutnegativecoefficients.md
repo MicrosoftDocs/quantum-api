@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._ReflectAboutNegativeCoefficients
 title: _ReflectAboutNegativeCoefficients operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,7 +25,7 @@ operation _ReflectAboutNegativeCoefficients (negLocs : Int[], coefficients : Mic
 
 ## Input
 
-### negLocs : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### negLocs : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
@@ -41,5 +41,5 @@ operation _ReflectAboutNegativeCoefficients (negLocs : Int[], coefficients : Mic
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

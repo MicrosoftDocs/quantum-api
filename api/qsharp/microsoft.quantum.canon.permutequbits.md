@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.PermuteQubits
 title: PermuteQubits operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -25,18 +25,18 @@ operation PermuteQubits (ordering : Int[], register : Qubit[]) : Unit is Adj + C
 
 ## Input
 
-### ordering : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### ordering : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Describes the new ordering of the qubits, where the qubit at index i will now be at ordering[i].
 
 
-### register : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### register : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubit register to be acted upon.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

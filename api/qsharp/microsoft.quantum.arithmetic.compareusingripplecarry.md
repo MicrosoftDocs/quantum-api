@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.CompareUsingRippleCarry
 title: CompareUsingRippleCarry operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -42,13 +42,13 @@ First number to be compared stored in `LittleEndian` format in a qubit register.
 Second number to be compared stored in `LittleEndian` format in a qubit register.
 
 
-### output : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### output : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit that stores the result of the comparison $x>y$.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

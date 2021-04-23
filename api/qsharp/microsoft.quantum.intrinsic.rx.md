@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Rx
 title: Rx operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -29,18 +29,18 @@ operation Rx (theta : Double, qubit : Qubit) : Unit is Adj + Ctl
 
 ## Input
 
-### theta : [Double](xref:microsoft.quantum.lang-ref.double)
+### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Angle about which the qubit is to be rotated.
 
 
-### qubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit to which the gate should be applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

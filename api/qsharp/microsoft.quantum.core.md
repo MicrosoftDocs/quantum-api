@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Core
 title: Microsoft.Quantum.Core namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Core
@@ -23,13 +23,9 @@ This namespace includes Q# core functions and operations.
 |[Default](xref:Microsoft.Quantum.Core.Default) |Returns a default instance of the specified type. |
 |[Length](xref:Microsoft.Quantum.Core.Length) |Returns the number of elements in an array. |
 |[RangeEnd](xref:Microsoft.Quantum.Core.RangeEnd) |Returns the defined end value of the given range, which is not necessarily the last element in the sequence. |
-|[RangeEnd__Body](xref:Microsoft.Quantum.Core.RangeEnd__Body) | |
 |[RangeReverse](xref:Microsoft.Quantum.Core.RangeReverse) |Returns a new range which is the reverse of the input range. |
-|[RangeReverse__Body](xref:Microsoft.Quantum.Core.RangeReverse__Body) | |
 |[RangeStart](xref:Microsoft.Quantum.Core.RangeStart) |Returns the defined start value of the given range. |
-|[RangeStart__Body](xref:Microsoft.Quantum.Core.RangeStart__Body) | |
 |[RangeStep](xref:Microsoft.Quantum.Core.RangeStep) |Returns the integer that specifies how the next value of a range is calculated. |
-|[RangeStep__Body](xref:Microsoft.Quantum.Core.RangeStep__Body) | |
 
 ## User-defined types
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.FixedPointReflectionPhases
 title: FixedPointReflectionPhases function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -27,12 +27,12 @@ function FixedPointReflectionPhases (nQueries : Int, successMin : Double) : Micr
 
 ## Input
 
-### nQueries : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQueries : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Number of queries to the state preparation oracle. Must be an oddinteger.
 
 
-### successMin : [Double](xref:microsoft.quantum.lang-ref.double)
+### successMin : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Target minimum success probability.
 

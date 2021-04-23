@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._UpdatedBias
 title: _UpdatedBias function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,21 +25,21 @@ function _UpdatedBias (labeledProbabilities : (Double, Int)[], bias : Double, to
 
 ## Input
 
-### labeledProbabilities : ([Double](xref:microsoft.quantum.lang-ref.double),[Int](xref:microsoft.quantum.lang-ref.int))[]
+### labeledProbabilities : ([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))[]
 
 
 
 
-### bias : [Double](xref:microsoft.quantum.lang-ref.double)
+### bias : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

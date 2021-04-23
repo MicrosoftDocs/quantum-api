@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.IterateThroughCartesianPower
 title: IterateThroughCartesianPower operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -31,23 +31,23 @@ Iteratively applies an operation for each element of a Cartesian powerof the ra
 
 ## Input
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The Cartesian power to which the range `0..(bound - 1)` should beraised.
 
 
-### bound : [Int](xref:microsoft.quantum.lang-ref.int)
+### bound : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 A specification of the range to be iterated over, given as the lengthof the range.
 
 
-### op : [Int](xref:microsoft.quantum.lang-ref.int)[] => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 An operation to be called for each element of the given Cartesian power.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

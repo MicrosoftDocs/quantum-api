@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.IntAsBoolArray
 title: IntAsBoolArray function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -27,18 +27,18 @@ function IntAsBoolArray (number : Int, bits : Int) : Bool[]
 
 ## Input
 
-### number : [Int](xref:microsoft.quantum.lang-ref.int)
+### number : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 A non-negative integer to be converted to an array of boolean values.
 
 
-### bits : [Int](xref:microsoft.quantum.lang-ref.int)
+### bits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of bits in the binary representation of `number`.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 An array of boolean values representing `number`.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.IsRangeEmpty
 title: IsRangeEmpty function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -25,12 +25,12 @@ function IsRangeEmpty (rng : Range) : Bool
 
 ## Input
 
-### rng : [Range](xref:microsoft.quantum.lang-ref.range)
+### rng : [Range](xref:microsoft.quantum.qsharp.valueliterals#range-literals)
 
 Any range
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 True, if and only if `rng` is empty

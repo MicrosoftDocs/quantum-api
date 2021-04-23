@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareChoiState
 title: PrepareChoiState operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -27,23 +27,23 @@ operation PrepareChoiState (op : (Qubit[] => Unit), reference : Qubit[], target 
 
 ## Input
 
-### op : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 Operation $\Lambda$ whose Choi–Jamiołkowski state $J(\Lambda) / 2^N$is to be prepared, where $N$ is the number of qubits on which`op` acts.
 
 
-### reference : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### reference : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register of qubits starting in the $\ket{00\cdots 0}$ stateto be used as a reference for the action of `op`.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register of qubits initially in the $\ket{00\cdots 0}$ stateon which `op` is to be applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

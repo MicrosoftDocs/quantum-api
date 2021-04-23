@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._ToJordanWignerSelectInput
 title: _ToJordanWignerSelectInput operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,7 +25,7 @@ operation _ToJordanWignerSelectInput (idx : Int, optimizedBEGeneratorSystem : Mi
 
 ## Input
 
-### idx : [Int](xref:microsoft.quantum.lang-ref.int)
+### idx : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
@@ -35,17 +35,17 @@ operation _ToJordanWignerSelectInput (idx : Int, optimizedBEGeneratorSystem : Mi
 
 
 
-### signQubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### signQubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### selectZControlRegisters : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### selectZControlRegisters : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### OptimizedBEControlRegisters : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### OptimizedBEControlRegisters : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
@@ -61,5 +61,5 @@ operation _ToJordanWignerSelectInput (idx : Int, optimizedBEGeneratorSystem : Mi
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

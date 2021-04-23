@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.EvaluateEvenPolynomialFxP
 title: EvaluateEvenPolynomialFxP operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -25,7 +25,7 @@ operation EvaluateEvenPolynomialFxP (coefficients : Double[], fpx : Microsoft.Qu
 
 ## Input
 
-### coefficients : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coefficients : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 Coefficients of the even polynomial as a double array, i.e., the array$[a_0, a_1, ..., a_k]$ for the even polynomial$P(x) = a_0 + a_1 x^2 + \cdots + a_k x^{2k}$.
 
@@ -41,5 +41,5 @@ Output fixed-point number which will hold $P(x)$. Must be in state$\ket{0}$ ini
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

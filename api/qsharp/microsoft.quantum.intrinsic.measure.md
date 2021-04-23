@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Measure
 title: Measure operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -31,18 +31,18 @@ The output result is given by the distribution:\begin{align}\Pr(\texttt{Zero} 
 
 ## Input
 
-### bases : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### bases : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 Array of single-qubit Pauli values indicating the tensor productfactors on each qubit.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register of qubits to be measured.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 `Zero` if the $+1$ eigenvalue is observed, and `One` ifthe $-1$ eigenvalue is observed.
 

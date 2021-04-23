@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ConjugatedByA
 title: ConjugatedByA function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -27,18 +27,18 @@ function ConjugatedByA<'T> (outerOperation : ('T => Unit is Adj), innerOperation
 
 ## Input
 
-### outerOperation : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### outerOperation : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 The operation $U$ that should be used to conjugate $V$. Note that theouter operation $U$ needs to be adjointable, but does notneed to be controllable.
 
 
-### innerOperation : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### innerOperation : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 The operation $V$ being conjugated.
 
 
 
-## Output : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+## Output : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 A new operation whose action is represented by the unitary$U^{\dagger} V U$.
 

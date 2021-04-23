@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubitIsInStateWithinTolerance
 title: AssertQubitIsInStateWithinTolerance operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -36,18 +36,18 @@ operation AssertQubitIsInStateWithinTolerance (expected : (Microsoft.Quantum.Mat
 Expected complex amplitudes for $\ket{0}$ and $\ket{1}$, respectively.
 
 
-### register : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### register : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit whose state is to be asserted. Note that this qubit is assumed to be separablefrom other allocated qubits, and not entangled.
 
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Additive tolerance by which actual amplitudes are allowed to deviate from expected.See remarks below for details.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

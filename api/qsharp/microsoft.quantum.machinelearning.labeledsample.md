@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.LabeledSample
 title: LabeledSample user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -27,9 +27,9 @@ newtype LabeledSample = (Features : Double[], Label : Int);
 
 ## Named Items
 
-### Features : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### Features : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 A vector of features for the given sample.
-### Label : [Int](xref:microsoft.quantum.lang-ref.int)
+### Label : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 An integer label for the class to which this sample belongs.

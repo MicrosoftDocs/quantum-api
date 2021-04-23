@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.EncodeIntoSteaneCode
 title: EncodeIntoSteaneCode operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -27,12 +27,12 @@ operation EncodeIntoSteaneCode (physRegister : Qubit[], auxQubits : Qubit[]) : M
 
 ## Input
 
-### physRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### physRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A qubit register which holds the an unencoded quantum state
 
 
-### auxQubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### auxQubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A qubit register which is initially zero and which gets added to the quantumsystem so that an encoding operation can be performed
 

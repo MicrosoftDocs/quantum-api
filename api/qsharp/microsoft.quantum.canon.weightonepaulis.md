@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.WeightOnePaulis
 title: WeightOnePaulis function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -27,12 +27,12 @@ function WeightOnePaulis (nQubits : Int) : Pauli[][]
 
 ## Input
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of qubits on which the returned Pauli operatorsare defined.
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[][]
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[][]
 
 An array of multi-qubit Pauli operators, each of which isrepresented as an array with length `nQubits`.

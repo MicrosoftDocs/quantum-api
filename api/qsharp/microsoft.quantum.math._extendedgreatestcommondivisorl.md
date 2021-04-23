@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math._ExtendedGreatestCommonDivisorL
 title: _ExtendedGreatestCommonDivisorL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,31 +25,31 @@ function _ExtendedGreatestCommonDivisorL (signA : Int, signB : Int, r : (BigInt,
 
 ## Input
 
-### signA : [Int](xref:microsoft.quantum.lang-ref.int)
+### signA : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### signB : [Int](xref:microsoft.quantum.lang-ref.int)
+### signB : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### r : ([BigInt](xref:microsoft.quantum.lang-ref.bigint),[BigInt](xref:microsoft.quantum.lang-ref.bigint))
+### r : ([BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals),[BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals))
 
 
 
 
-### s : ([BigInt](xref:microsoft.quantum.lang-ref.bigint),[BigInt](xref:microsoft.quantum.lang-ref.bigint))
+### s : ([BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals),[BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals))
 
 
 
 
-### t : ([BigInt](xref:microsoft.quantum.lang-ref.bigint),[BigInt](xref:microsoft.quantum.lang-ref.bigint))
+### t : ([BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals),[BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals))
 
 
 
 
 
-## Output : ([BigInt](xref:microsoft.quantum.lang-ref.bigint),[BigInt](xref:microsoft.quantum.lang-ref.bigint))
+## Output : ([BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals),[BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals))
 

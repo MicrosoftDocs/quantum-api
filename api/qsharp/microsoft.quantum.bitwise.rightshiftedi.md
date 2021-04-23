@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Bitwise.RightShiftedI
 title: RightShiftedI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
@@ -27,18 +27,18 @@ function RightShiftedI (value : Int, amount : Int) : Int
 
 ## Input
 
-### value : [Int](xref:microsoft.quantum.lang-ref.int)
+### value : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number whose bitwise representation is to be shifted to the right(less significant).
 
 
-### amount : [Int](xref:microsoft.quantum.lang-ref.int)
+### amount : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of bits by which `value` is to be shifted to the right.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The value of `value`, shifted right by `amount` bits.
 

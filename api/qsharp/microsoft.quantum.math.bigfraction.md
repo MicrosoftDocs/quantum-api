@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.BigFraction
 title: BigFraction user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Math
@@ -30,9 +30,9 @@ newtype BigFraction = (Numerator : BigInt, Denominator : BigInt);
 
 ## Named Items
 
-### Numerator : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### Numerator : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 Numerator of the fraction.
-### Denominator : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### Denominator : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 Denominator of the fraction/

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.EqualA
 title: EqualA function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function EqualA<'T> (equal : (('T, 'T) -> Bool), array1 : 'T[], array2 : 'T[]) :
 
 ## Input
 
-### equal : ('T,'T) -> [Bool](xref:microsoft.quantum.lang-ref.bool)
+### equal : ('T,'T) -> [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A function from tuple `('T, 'T)` to `Bool` that is used to check whether two elements of arrays are equal.
 
@@ -43,7 +43,7 @@ The second array to be compared.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 The value `true` if and only if `array1` and `array2` are equal.That is, if both arrays have the same length, and all elements are equalas defined by `equal`.
 

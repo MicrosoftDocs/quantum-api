@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ScheduleLength
 title: ScheduleLength function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -31,6 +31,6 @@ A sampling schedule whose length is to be returned.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of elements in the given sampling schedule.

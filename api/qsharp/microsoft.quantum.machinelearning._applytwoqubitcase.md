@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._ApplyTwoQubitCase
 title: _ApplyTwoQubitCase operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,7 +25,7 @@ operation _ApplyTwoQubitCase (datum : Double[], reg : Microsoft.Quantum.Arithmet
 
 ## Input
 
-### datum : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### datum : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
@@ -36,5 +36,5 @@ operation _ApplyTwoQubitCase (datum : Double[], reg : Microsoft.Quantum.Arithmet
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

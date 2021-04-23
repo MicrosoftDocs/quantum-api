@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.GeneratorSystem
 title: GeneratorSystem user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -32,7 +32,7 @@ newtype GeneratorSystem = (Int, (Int -> Microsoft.Quantum.Simulation.GeneratorIn
 
 ## Remarks
 
-Instances of `GeneratorSystem` can be defined easily using the<xref:microsoft.quantum.arrays.lookupfunction> function.
+Instances of `GeneratorSystem` can be defined easily using the<xref:Microsoft.Quantum.Arrays.LookupFunction> function.
 
 ## See Also
 

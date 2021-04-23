@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorL
 title: ExtendedGreatestCommonDivisorL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -28,18 +28,18 @@ function ExtendedGreatestCommonDivisorL (a : BigInt, b : BigInt) : (BigInt, BigI
 
 ## Input
 
-### a : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### a : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 the first number of which extended greatest common divisor is being computed
 
 
-### b : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### b : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 the second number of which extended greatest common divisor is being computed
 
 
 
-## Output : ([BigInt](xref:microsoft.quantum.lang-ref.bigint),[BigInt](xref:microsoft.quantum.lang-ref.bigint))
+## Output : ([BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals),[BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals))
 
 Tuple $(u,v)$ with the property $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$.
 

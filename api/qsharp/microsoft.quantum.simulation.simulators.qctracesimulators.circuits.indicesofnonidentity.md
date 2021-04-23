@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.IndicesOfNonIdentity
 title: IndicesOfNonIdentity function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -27,11 +27,11 @@ function IndicesOfNonIdentity (paulies : Pauli[]) : Int[]
 
 ## Input
 
-### paulies : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### paulies : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)[]
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.CurriedOpA
 title: CurriedOpA function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -30,13 +30,13 @@ function CurriedOpA<'T, 'U> (op : (('T, 'U) => Unit is Adj)) : ('T -> ('U => Uni
 
 ## Input
 
-### op : ('T,'U) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### op : ('T,'U) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 An operation whose input is a pair.
 
 
 
-## Output : 'T -> 'U => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+## Output : 'T -> 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 An operation which accepts the first element of a pair and returnsan operation which accepts as its input the second element of theoriginal operation's input.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledR
 title: ControlledR operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,26 +25,26 @@ operation ControlledR (pauli : Pauli, angle : Double, control : Qubit, target : 
 
 ## Input
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 φ
 
 
-### angle : [Double](xref:microsoft.quantum.lang-ref.double)
+### angle : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 P
 
 
-### control : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 qubit 1, the rotation is applied when this qubit is in state |1⟩
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 qubit 2, the rotation is applied to this qubit
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

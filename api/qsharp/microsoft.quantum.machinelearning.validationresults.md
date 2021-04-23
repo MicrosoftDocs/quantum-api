@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ValidationResults
 title: ValidationResults user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -29,8 +29,8 @@ newtype ValidationResults = (NMisclassifications : Int, NValidationSamples : Int
 
 ## Named Items
 
-### NMisclassifications : [Int](xref:microsoft.quantum.lang-ref.int)
+### NMisclassifications : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of misclassifications observed during validation.
-### NValidationSamples : [Int](xref:microsoft.quantum.lang-ref.int)
+### NValidationSamples : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

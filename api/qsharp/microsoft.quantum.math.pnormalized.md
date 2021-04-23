@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.PNormalized
 title: PNormalized function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -29,18 +29,18 @@ function PNormalized (p : Double, array : Double[]) : Double[]
 
 ## Input
 
-### p : [Double](xref:microsoft.quantum.lang-ref.double)
+### p : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The exponent $p$ in the $p$-norm.
 
 
-### array : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### array : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)[]
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 The array $x$ normalized by the $p$-norm $\|x\|_p$.
 

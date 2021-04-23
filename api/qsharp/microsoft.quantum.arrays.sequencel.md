@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.SequenceL
 title: SequenceL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -25,18 +25,18 @@ function SequenceL (from : BigInt, to : BigInt) : BigInt[]
 
 ## Input
 
-### from : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### from : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 An inclusive start index of the interval.
 
 
-### to : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### to : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 An inclusive end index of the interval that is not smaller than `from`.
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)[]
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)[]
 
 An array containing the sequence of numbers `from`, `from + 1`, ...,`to`.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization.RobustPhaseEstimation
 title: RobustPhaseEstimation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
@@ -27,7 +27,7 @@ operation RobustPhaseEstimation (bitsPrecision : Int, oracle : Microsoft.Quantum
 
 ## Input
 
-### bitsPrecision : [Int](xref:microsoft.quantum.lang-ref.int)
+### bitsPrecision : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 This provides an estimate of $\phi$ with standard deviation$\sigma \le 2\pi / 2^\text{bitsPrecision}$ using a number of queries scaling like $\sigma \le 10.7 \pi / \text{# of queries}$.
 
@@ -37,13 +37,13 @@ This provides an estimate of $\phi$ with standard deviation$\sigma \le 2\pi / 2
 An operation implementing $U^m$ for given integer powers $m$.
 
 
-### targetState : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetState : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A quantum register that $U$ acts on. If it stores an eigenstate$\ket{\phi}$ of $U$, then $U\ket{\phi} = e^{i\phi} \ket{\phi}$for $\phi\in(-\pi,\pi]$ an unknown phase.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 

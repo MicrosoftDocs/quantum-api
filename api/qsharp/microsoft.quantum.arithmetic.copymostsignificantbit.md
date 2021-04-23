@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.CopyMostSignificantBit
 title: CopyMostSignificantBit operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -32,13 +32,13 @@ operation CopyMostSignificantBit (from : Microsoft.Quantum.Arithmetic.LittleEndi
 The unsigned integer from which the highest bit is copied from.the integer is encoded in little-endian format.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 The qubit in which the highest bit is being copied. The bit encoding isin computational basis.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubitWithinTolerance
 title: AssertQubitWithinTolerance operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -27,23 +27,23 @@ operation AssertQubitWithinTolerance (expected : Result, q : Qubit, tolerance : 
 
 ## Input
 
-### expected : __invalid<Result>__
+### expected : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 Which state the qubit is expected to be in: `Zero` or `One`.
 
 
-### q : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### q : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 The qubit whose state is asserted.
 
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Tolerance on the probability of a measurement of the qubit returning the expectedresult.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

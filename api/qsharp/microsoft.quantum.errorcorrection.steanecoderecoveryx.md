@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.SteaneCodeRecoveryX
 title: SteaneCodeRecoveryX function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -31,7 +31,7 @@ A syndrome array obtained from measuring the X-part of the stabilizer.
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 An array of Pauli operations which, when applied to the encoded quantum systemcorrects the error corresponding to `syndrome`.
 

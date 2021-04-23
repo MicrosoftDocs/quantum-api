@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.TransformedContinuousDistribution
 title: TransformedContinuousDistribution function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
@@ -27,7 +27,7 @@ function TransformedContinuousDistribution (transform : (Double -> Double), dist
 
 ## Input
 
-### transform : [Double](xref:microsoft.quantum.lang-ref.double) -> [Double](xref:microsoft.quantum.lang-ref.double)
+### transform : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals) -> [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A function that transforms variates of the original distribution to thetransformed distribution.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.ExpFrac
 title: ExpFrac operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -31,26 +31,26 @@ operation ExpFrac (paulis : Pauli[], numerator : Int, power : Int, qubits : Qubi
 
 ## Input
 
-### paulis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### paulis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 Array of single-qubit Pauli values indicating the tensor productfactors on each qubit.
 
 
-### numerator : [Int](xref:microsoft.quantum.lang-ref.int)
+### numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Numerator ($k$) in the dyadic fraction representation of the angleby which the qubit register is to be rotated.
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Power of two ($n$) specifying the denominator of the angle by whichthe qubit register is to be rotated.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register to apply the given rotation to.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

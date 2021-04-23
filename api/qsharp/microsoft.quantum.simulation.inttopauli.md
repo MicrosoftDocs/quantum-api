@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.IntToPauli
 title: IntToPauli function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -25,12 +25,12 @@ function IntToPauli (idx : Int) : Pauli
 
 ## Input
 
-### idx : [Int](xref:microsoft.quantum.lang-ref.int)
+### idx : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Integer in the range `0..3` to be converted to Pauli operators.
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 A `Pauli` operator given by `[PauliI, PauliX, PauliY, PauliZ][idx]`.

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.ExpandedCoefficients
 title: ExpandedCoefficients function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner.VQE
@@ -27,17 +27,17 @@ function ExpandedCoefficients (coeff : Double[], termType : Int) : Double[]
 
 ## Input
 
-### coeff : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coeff : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 An array of coefficients, as read from the Jordan-Wigner Hamiltonian data structure.
 
 
-### termType : [Int](xref:microsoft.quantum.lang-ref.int)
+### termType : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The type of the Jordan-Wigner term.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)[]
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 Expanded arrays of coefficients, one per Pauli term.

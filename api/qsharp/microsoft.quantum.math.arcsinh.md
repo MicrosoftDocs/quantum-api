@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ArcSinh
 title: ArcSinh function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,12 +25,12 @@ function ArcSinh (x : Double) : Double
 
 ## Input
 
-### x : [Double](xref:microsoft.quantum.lang-ref.double)
+### x : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A real number $x$.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A real number $y$ such that $x = \operatorname{sinh}(y)$.

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ApplySequentialClassifier
 title: ApplySequentialClassifier operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -32,11 +32,11 @@ operation ApplySequentialClassifier (model : Microsoft.Quantum.MachineLearning.S
 
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A target register to which the classifier should be applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests.ControlledAdjointSupportDistribute_DistributeBody
 title: ControlledAdjointSupportDistribute_DistributeBody operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Testing.QCI.ClassicallyControlledSupportTests
@@ -23,5 +23,5 @@ operation ControlledAdjointSupportDistribute_DistributeBody () : Unit is Adj + C
 ```
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

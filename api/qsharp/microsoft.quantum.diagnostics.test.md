@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.Test
 title: Test user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -28,5 +28,5 @@ newtype Test = (ExecutionTarget : String);
 
 ## Named Items
 
-### ExecutionTarget : [String](xref:microsoft.quantum.lang-ref.string)
+### ExecutionTarget : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Logical.NotEqualR
 title: NotEqualR function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
@@ -25,18 +25,18 @@ function NotEqualR (a : Result, b : Result) : Bool
 
 ## Input
 
-### a : __invalid<Result>__
+### a : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The first value to be compared.
 
 
-### b : __invalid<Result>__
+### b : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The second value to be compared.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `true` if and only if `a` is not equal to `b`.
 

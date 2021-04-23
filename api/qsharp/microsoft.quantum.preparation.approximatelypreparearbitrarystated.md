@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.ApproximatelyPrepareArbitraryStateD
 title: ApproximatelyPrepareArbitraryStateD operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -32,12 +32,12 @@ This operation prepares an arbitrary quantumstate $\ket{\psi}$ with complex coe
 
 ## Input
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The approximation tolerance to be used when preparing the given state.
 
 
-### coefficients : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coefficients : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 Array of up to $2^n$ real coefficients. The $j$th coefficientindexes the number state $\ket{j}$ encoded in little-endian format.
 
@@ -48,7 +48,7 @@ Qubit register encoding number states in little-endian format. This isexpected 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

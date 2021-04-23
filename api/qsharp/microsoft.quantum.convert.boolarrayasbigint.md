@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.BoolArrayAsBigInt
 title: BoolArrayAsBigInt function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -27,13 +27,13 @@ function BoolArrayAsBigInt (a : Bool[]) : BigInt
 
 ## Input
 
-### a : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+### a : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 

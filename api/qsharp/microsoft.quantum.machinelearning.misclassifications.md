@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.Misclassifications
 title: Misclassifications function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -27,18 +27,18 @@ function Misclassifications (inferredLabels : Int[], actualLabels : Int[]) : Int
 
 ## Input
 
-### inferredLabels : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### inferredLabels : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 The labels inferred for a given training or validation set.
 
 
-### actualLabels : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### actualLabels : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 The true labels for a given training or validation set.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)[]
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 An array of indices `idx` such that`inferredLabels[idx] != actualLabels[idx]`.
 

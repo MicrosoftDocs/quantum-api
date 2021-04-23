@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.RAll0
 title: RAll0 operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -28,18 +28,18 @@ operation RAll0 (phase : Double, qubits : Qubit[]) : Unit is Adj + Ctl
 
 ## Input
 
-### phase : [Double](xref:microsoft.quantum.lang-ref.double)
+### phase : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The phase $\phi$ applied to state $\ket{0\cdots 0}\bra{0\cdots 0}$.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 The register whose state is to be rotated by $R$.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

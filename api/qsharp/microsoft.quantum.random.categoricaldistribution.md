@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.CategoricalDistribution
 title: CategoricalDistribution function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
@@ -27,7 +27,7 @@ function CategoricalDistribution (probs : Double[]) : Microsoft.Quantum.Random.D
 
 ## Input
 
-### probs : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### probs : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 The probabilities for each outcome from the categorical distribution.These probabilities may not be normalized, but must all be non-negative.
 

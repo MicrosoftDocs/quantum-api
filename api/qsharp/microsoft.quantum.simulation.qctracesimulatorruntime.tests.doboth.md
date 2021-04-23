@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests.DoBoth
 title: DoBoth operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.Tests
@@ -25,26 +25,26 @@ operation DoBoth (q1 : Qubit, q2 : Qubit, op1 : (Qubit => Unit), op2 : (Qubit =>
 
 ## Input
 
-### q1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### q1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### q2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### q2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### op1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit) => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 
 
 
-### op2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit) => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

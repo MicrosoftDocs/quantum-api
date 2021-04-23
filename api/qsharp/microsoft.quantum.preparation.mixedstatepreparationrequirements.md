@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.MixedStatePreparationRequirements
 title: MixedStatePreparationRequirements user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -29,13 +29,13 @@ newtype MixedStatePreparationRequirements = (NTotalQubits : Int, (NIndexQubits :
 
 ## Named Items
 
-### NTotalQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### NTotalQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
-### NIndexQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### NIndexQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
-### NGarbageQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### NGarbageQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 

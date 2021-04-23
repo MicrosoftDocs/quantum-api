@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.NegationD
 title: NegationD function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,12 +25,12 @@ function NegationD (input : Double) : Double
 
 ## Input
 
-### input : [Double](xref:microsoft.quantum.lang-ref.double)
+### input : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A value whose negation is to be returned.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The unary negation of `input`.

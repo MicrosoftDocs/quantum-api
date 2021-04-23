@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ModularAddProductLE
 title: ModularAddProductLE operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -38,12 +38,12 @@ operation ModularAddProductLE (constMultiplier : Int, modulus : Int, multiplier 
 
 ## Input
 
-### constMultiplier : [Int](xref:microsoft.quantum.lang-ref.int)
+### constMultiplier : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### modulus : [Int](xref:microsoft.quantum.lang-ref.int)
+### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
@@ -59,5 +59,5 @@ operation ModularAddProductLE (constMultiplier : Int, modulus : Int, multiplier 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

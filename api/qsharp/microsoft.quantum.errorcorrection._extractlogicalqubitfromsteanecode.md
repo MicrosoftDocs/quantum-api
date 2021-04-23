@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection._ExtractLogicalQubitFromSteaneCode
 title: _ExtractLogicalQubitFromSteaneCode operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -40,7 +40,7 @@ operation _ExtractLogicalQubitFromSteaneCode (code : Microsoft.Quantum.ErrorCorr
 
 
 
-## Output : ([Qubit](xref:microsoft.quantum.lang-ref.qubit),[Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int))
+## Output : ([Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))
 
 The logical qubit and a pair of integers for $X$-syndrome and $Z$-syndrome.They represent the index of the code qubit on which a single $X$- or $Z$-errorwould have caused the measured syndrome.
 

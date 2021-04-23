@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.Carry
 title: Carry operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,26 +29,26 @@ operation Carry (carryIn : Qubit, summand1 : Qubit, summand2 : Qubit, carryOut :
 
 ## Input
 
-### carryIn : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### carryIn : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Carry-in qubit.
 
 
-### summand1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### summand1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 First summand qubit.
 
 
-### summand2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### summand2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Second summand qubit, is replaced with the lower bit of the sum of`summand1` and `summand2`.
 
 
-### carryOut : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### carryOut : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Carry-out qubit, will be xored with the higher bit of the sum.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

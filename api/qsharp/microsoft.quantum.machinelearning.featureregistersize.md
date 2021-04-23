@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.FeatureRegisterSize
 title: FeatureRegisterSize function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -27,12 +27,12 @@ function FeatureRegisterSize (sample : Double[]) : Int
 
 ## Input
 
-### sample : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### sample : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 A sample feature vector to be encoded into a qubit register.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The size required to encode `sample` into a qubit register, expressedas a number of qubits.

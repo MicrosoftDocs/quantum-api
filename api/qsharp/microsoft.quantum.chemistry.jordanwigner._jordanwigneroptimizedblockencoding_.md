@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncoding_
 title: _JordanWignerOptimizedBlockEncoding_ function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,7 +25,7 @@ function _JordanWignerOptimizedBlockEncoding_ (targetError : Double, data : Micr
 
 ## Input
 
-### targetError : [Double](xref:microsoft.quantum.lang-ref.double)
+### targetError : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
@@ -35,11 +35,11 @@ function _JordanWignerOptimizedBlockEncoding_ (targetError : Double, data : Micr
 
 
 
-### nSpinOrbitals : [Int](xref:microsoft.quantum.lang-ref.int)
+### nSpinOrbitals : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : (([Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int)),([Double](xref:microsoft.quantum.lang-ref.double),[BlockEncodingReflection](xref:Microsoft.Quantum.Simulation.BlockEncodingReflection)))
+## Output : (([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)),([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[BlockEncodingReflection](xref:Microsoft.Quantum.Simulation.BlockEncodingReflection)))
 

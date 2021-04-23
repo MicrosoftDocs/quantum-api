@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Targeting.RequiresCapability
 title: RequiresCapability user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Targeting
@@ -30,10 +30,10 @@ newtype RequiresCapability = (Level : String, Reason : String);
 
 ## Named Items
 
-### Level : [String](xref:microsoft.quantum.lang-ref.string)
+### Level : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 The name of the runtime capability level required by the callable.
-### Reason : [String](xref:microsoft.quantum.lang-ref.string)
+### Reason : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 A description of why the callable requires this runtime capability.
 

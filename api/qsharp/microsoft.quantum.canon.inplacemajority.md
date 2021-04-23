@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.InPlaceMajority
 title: InPlaceMajority operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -38,16 +38,16 @@ operation InPlaceMajority (output : Qubit, input : Qubit[]) : Unit is Adj + Ctl
 
 ## Input
 
-### output : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### output : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### input : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### input : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._ComputeJordanWignerPauliString
 title: _ComputeJordanWignerPauliString function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,21 +25,21 @@ function _ComputeJordanWignerPauliString (nFermions : Int, idxFermions : Int[], 
 
 ## Input
 
-### nFermions : [Int](xref:microsoft.quantum.lang-ref.int)
+### nFermions : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### idxFermions : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### idxFermions : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
-### pauliReplacements : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### pauliReplacements : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 

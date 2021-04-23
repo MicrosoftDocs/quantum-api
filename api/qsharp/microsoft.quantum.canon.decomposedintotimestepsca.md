@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.DecomposedIntoTimeStepsCA
 title: DecomposedIntoTimeStepsCA function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -27,23 +27,23 @@ function DecomposedIntoTimeStepsCA<'T> ((nSteps : Int, op : ((Int, Double, 'T) =
 
 ## Input
 
-### nSteps : [Int](xref:microsoft.quantum.lang-ref.int)
+### nSteps : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of operations to be decomposed into time steps.
 
 
-### op : ([Int](xref:microsoft.quantum.lang-ref.int),[Double](xref:microsoft.quantum.lang-ref.double),'T) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### op : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),'T) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 An operation which accepts an index input (type `Int`) and a timeinput (type `Double`) for decomposition.
 
 
-### trotterOrder : [Int](xref:microsoft.quantum.lang-ref.int)
+### trotterOrder : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Selects the order of the Trotter–Suzuki integrator to be used.Order 1 and even orders 2, 4, 6,... are currently supported.
 
 
 
-## Output : ([Double](xref:microsoft.quantum.lang-ref.double),'T) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : ([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),'T) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 Returns a unitary implementing the Trotter–Suzuki integrator, wherethe first parameter `Double` is the integration step size, and thesecond parameter is the target acted upon.
 

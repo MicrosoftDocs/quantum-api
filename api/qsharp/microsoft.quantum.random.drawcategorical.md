@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.DrawCategorical
 title: DrawCategorical operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -31,13 +31,13 @@ The probability of selecting a specific index is proportional to the valueof th
 
 ## Input
 
-### probs : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### probs : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 An array of floating-point numbers proportional to the probability ofselecting each index.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 An integer $i$ with probability $\Pr(i) = p_i / \sum_i p_i$, where $p_i$is the $i$th element of `probs`.
 

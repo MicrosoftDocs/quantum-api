@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.BoundCA
 title: BoundCA function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -30,13 +30,13 @@ function BoundCA<'T> (operations : ('T => Unit is Adj + Ctl)[]) : ('T => Unit is
 
 ## Input
 
-### operations : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl[]
+### operations : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl[]
 
 A sequence of operations to be performed on a given input.
 
 
 
-## Output : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A new operation that performs each given operation in sequenceon its input.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.ConstantArray
 title: ConstantArray function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -25,7 +25,7 @@ function ConstantArray<'T> (length : Int, value : 'T) : 'T[]
 
 ## Input
 
-### length : [Int](xref:microsoft.quantum.lang-ref.int)
+### length : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Length of the new array.
 

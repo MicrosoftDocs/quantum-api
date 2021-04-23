@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.StackPeek
 title: StackPeek function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -38,5 +38,5 @@ function StackPeek (stack : Microsoft.Quantum.Canon.ResultStack) : Result
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ApproximateInputEncoder
 title: ApproximateInputEncoder function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -28,12 +28,12 @@ function ApproximateInputEncoder (tolerance : Double, coefficients : Double[]) :
 
 ## Input
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The approximation tolerance to be used in encoding the givencoefficients into an input state.
 
 
-### coefficients : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coefficients : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 The coefficients to be encoded into an input state.
 

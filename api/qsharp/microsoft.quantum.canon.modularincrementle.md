@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ModularIncrementLE
 title: ModularIncrementLE operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -38,12 +38,12 @@ operation ModularIncrementLE (increment : Int, modulus : Int, target : Microsoft
 
 ## Input
 
-### increment : [Int](xref:microsoft.quantum.lang-ref.int)
+### increment : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### modulus : [Int](xref:microsoft.quantum.lang-ref.int)
+### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
@@ -54,5 +54,5 @@ operation ModularIncrementLE (increment : Int, modulus : Int, target : Microsoft
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

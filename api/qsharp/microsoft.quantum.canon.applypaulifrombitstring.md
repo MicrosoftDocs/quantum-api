@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyPauliFromBitString
 title: ApplyPauliFromBitString operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -27,28 +27,28 @@ operation ApplyPauliFromBitString (pauli : Pauli, bitApply : Bool, bits : Bool[]
 
 ## Input
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 Pauli operator to apply to `qubits[idx]` where `bitsApply == bits[idx]`
 
 
-### bitApply : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### bitApply : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 apply Pauli if bit is this value
 
 
-### bits : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+### bits : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 Boolean register specifying which corresponding qubit in `qubits` should be operated on
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Quantum register on which to selectively apply the specified Pauli operator
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

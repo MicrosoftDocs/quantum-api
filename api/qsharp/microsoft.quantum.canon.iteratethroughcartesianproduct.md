@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.IterateThroughCartesianProduct
 title: IterateThroughCartesianProduct operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -31,18 +31,18 @@ Iteratively applies an operation for each element of the Cartesian productof `0
 
 ## Input
 
-### bounds : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### bounds : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 An array specifying the ranges to be iterated over, with each rangebeing specified as an integer length.
 
 
-### op : [Int](xref:microsoft.quantum.lang-ref.int)[] => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 An operation to be called for each element of the given Cartesian product.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._RandomlyRescale
 title: _RandomlyRescale operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,16 +25,16 @@ operation _RandomlyRescale (scale : Double, value : Double) : Double
 
 ## Input
 
-### scale : [Double](xref:microsoft.quantum.lang-ref.double)
+### scale : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### value : [Double](xref:microsoft.quantum.lang-ref.double)
+### value : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

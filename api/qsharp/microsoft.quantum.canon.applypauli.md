@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyPauli
 title: ApplyPauli operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -27,18 +27,18 @@ operation ApplyPauli (pauli : Pauli[], target : Qubit[]) : Unit is Adj + Ctl
 
 ## Input
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 A multi-qubit Pauli operator represented as an array of single-qubit Pauli operators.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register to apply the given Pauli operation on.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

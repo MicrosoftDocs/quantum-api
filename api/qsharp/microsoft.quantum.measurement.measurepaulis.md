@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MeasurePaulis
 title: MeasurePaulis operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -27,22 +27,22 @@ operation MeasurePaulis (paulis : Pauli[][], target : Qubit[], gadget : ((Pauli[
 
 ## Input
 
-### paulis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[][]
+### paulis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[][]
 
 Array of multi-qubit Pauli operators to measure.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register on which to measure the given operators.
 
 
-### gadget : ([Pauli](xref:microsoft.quantum.lang-ref.pauli)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[]) => __invalid<Result>__ 
+### gadget : ([Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]) => [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal) 
 
 Operation which performs the measurement of a given multi-qubit operator.
 
 
 
-## Output : __invalid<Result>__[]
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 The array of results obtained from measuring each element of `paulis`on `target`.

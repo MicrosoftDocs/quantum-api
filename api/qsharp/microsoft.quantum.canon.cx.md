@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.CX
 title: CX operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -38,18 +38,18 @@ operation CX (control : Qubit, target : Qubit) : Unit is Adj + Ctl
 
 ## Input
 
-### control : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Control qubit for the CX gate.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Target qubit for the CX gate.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

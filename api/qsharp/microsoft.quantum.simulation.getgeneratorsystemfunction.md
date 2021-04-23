@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.GetGeneratorSystemFunction
 title: GetGeneratorSystemFunction function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -31,7 +31,7 @@ The `GeneratorSystem` of interest.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int) -> [GeneratorIndex](xref:Microsoft.Quantum.Simulation.GeneratorIndex)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals) -> [GeneratorIndex](xref:Microsoft.Quantum.Simulation.GeneratorIndex)
 
 An function that indexes each `GeneratorIndex` term in a Hamiltonian.
 

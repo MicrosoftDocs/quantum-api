@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.MinI
 title: MinI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,24 +25,24 @@ function MinI (a : Int, b : Int) : Int
 
 ## Input
 
-### a : [Int](xref:microsoft.quantum.lang-ref.int)
+### a : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The first number to be compared.
 
 
-### b : [Int](xref:microsoft.quantum.lang-ref.int)
+### b : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The second number to be compared.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The smaller of `a` and `b`.
 
 ## Example
 
-```qsharplet min = MinD(314, 271);  // 271```
+```qsharplet min = MinI(314, 271);  // 271```
 
 ## See Also
 

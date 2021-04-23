@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Sorted
 title: Sorted function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function Sorted<'T> (comparison : (('T, 'T) -> Bool), array : 'T[]) : 'T[]
 
 ## Input
 
-### comparison : ('T,'T) -> [Bool](xref:microsoft.quantum.lang-ref.bool)
+### comparison : ('T,'T) -> [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A function that compares two elements such that `a` is considered tobe less than or equal to `b` if `comparison(a, b)` is `true`.
 

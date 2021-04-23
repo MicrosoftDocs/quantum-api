@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingStatePrep
 title: _JordanWignerOptimizedBlockEncodingStatePrep operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,7 +25,7 @@ operation _JordanWignerOptimizedBlockEncodingStatePrep (targetError : Double, op
 
 ## Input
 
-### targetError : [Double](xref:microsoft.quantum.lang-ref.double)
+### targetError : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
@@ -40,27 +40,27 @@ operation _JordanWignerOptimizedBlockEncodingStatePrep (targetError : Double, op
 
 
 
-### qROMGarbage : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qROMGarbage : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### signQubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### signQubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### selectZControlRegisters : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### selectZControlRegisters : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### OptimizedBEControlRegisters : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### OptimizedBEControlRegisters : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### pauliBases : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### pauliBases : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
@@ -76,5 +76,5 @@ operation _JordanWignerOptimizedBlockEncodingStatePrep (targetError : Double, op
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

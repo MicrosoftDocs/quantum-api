@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.EmbedPauli
 title: EmbedPauli function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -28,23 +28,23 @@ function EmbedPauli (pauli : Pauli, location : Int, n : Int) : Pauli[]
 
 ## Input
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 A single-qubit Pauli operator to be placed at the given location.
 
 
-### location : [Int](xref:microsoft.quantum.lang-ref.int)
+### location : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 An index such that `output[location] == pauli`, where `output` isthe output of this function.
 
 
-### n : [Int](xref:microsoft.quantum.lang-ref.int)
+### n : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Length of the array to be returned.
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 
 

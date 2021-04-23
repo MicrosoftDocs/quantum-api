@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._AllNearlyEqualD
 title: _AllNearlyEqualD function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,16 +25,16 @@ function _AllNearlyEqualD (v1 : Double[], v2 : Double[]) : Bool
 
 ## Input
 
-### v1 : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### v1 : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
 
-### v2 : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### v2 : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ComplexPolar
 title: ComplexPolar user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Math
@@ -30,9 +30,9 @@ newtype ComplexPolar = (Magnitude : Double, Argument : Double);
 
 ## Named Items
 
-### Magnitude : [Double](xref:microsoft.quantum.lang-ref.double)
+### Magnitude : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The absolute value $r \ge 0$ of $c$.
-### Argument : [Double](xref:microsoft.quantum.lang-ref.double)
+### Argument : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The phase $t \in \mathbb R$ of $c$.

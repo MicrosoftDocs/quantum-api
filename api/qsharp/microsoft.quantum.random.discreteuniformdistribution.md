@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.DiscreteUniformDistribution
 title: DiscreteUniformDistribution function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
@@ -25,12 +25,12 @@ function DiscreteUniformDistribution (min : Int, max : Int) : Microsoft.Quantum.
 
 ## Input
 
-### min : [Int](xref:microsoft.quantum.lang-ref.int)
+### min : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The smallest integer to be drawn.
 
 
-### max : [Int](xref:microsoft.quantum.lang-ref.int)
+### max : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The largest integer to be drawn.
 
@@ -46,7 +46,7 @@ The following Q# snippet randomly rolls a six-sided die:```qsharplet dieDistr
 
 ## Remarks
 
-Fails if `max <= min`.
+Fails if `max < min`.
 
 ## See Also
 

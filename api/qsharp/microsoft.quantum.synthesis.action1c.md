@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.Action1C
 title: Action1C function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -32,13 +32,13 @@ function Action1C (op : Microsoft.Quantum.Synthesis.SingleQubitClifford, pauli :
 The single-qubit Clifford operator to conjugate by.
 
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 
 

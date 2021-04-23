@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.IsResultZero
 title: IsResultZero function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -25,12 +25,12 @@ function IsResultZero (input : Result) : Bool
 
 ## Input
 
-### input : __invalid<Result>__
+### input : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 `Result` value to be tested.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 Returns `true` if `input` is equal to `Zero`.

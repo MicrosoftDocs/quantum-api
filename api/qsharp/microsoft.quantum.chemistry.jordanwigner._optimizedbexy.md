@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._OptimizedBEXY
 title: _OptimizedBEXY operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,26 +25,26 @@ operation _OptimizedBEXY (targetIndex : Int, pauliBasis : Qubit, accumulator : Q
 
 ## Input
 
-### targetIndex : [Int](xref:microsoft.quantum.lang-ref.int)
+### targetIndex : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### pauliBasis : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### pauliBasis : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### accumulator : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### accumulator : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### targetRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

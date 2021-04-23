@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.IdentityFact1C
 title: IdentityFact1C function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -30,11 +30,11 @@ function IdentityFact1C (op : Microsoft.Quantum.Synthesis.SingleQubitClifford, m
 
 
 
-### message : [String](xref:microsoft.quantum.lang-ref.string)
+### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 Failure message string to be used when `actual` is not equal to the identity.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

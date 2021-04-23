@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Partitioned
 title: Partitioned function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -25,7 +25,7 @@ function Partitioned<'T> (nElements : Int[], arr : 'T[]) : 'T[][]
 
 ## Input
 
-### nElements : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### nElements : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Number of elements in each part of array
 

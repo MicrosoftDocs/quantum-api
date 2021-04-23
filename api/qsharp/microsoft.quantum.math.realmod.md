@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.RealMod
 title: RealMod function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,23 +25,23 @@ function RealMod (value : Double, modulo : Double, minValue : Double) : Double
 
 ## Input
 
-### value : [Double](xref:microsoft.quantum.lang-ref.double)
+### value : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A real number $x$ to take the modulus of.
 
 
-### modulo : [Double](xref:microsoft.quantum.lang-ref.double)
+### modulo : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A real number to take the modulus of $x$ with respect to.
 
 
-### minValue : [Double](xref:microsoft.quantum.lang-ref.double)
+### minValue : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The smallest value to be returned by this function.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 

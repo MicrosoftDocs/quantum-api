@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderD
 title: RippleCarryAdderD operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -40,13 +40,13 @@ LittleEndian qubit register encoding the first integer summand.
 LittleEndian qubit register encoding the second integer summand, ismodified to hold the $n$ least significant bits of the sum.
 
 
-### carry : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### carry : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Carry qubit, is xored with the most significant bit of the sum.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

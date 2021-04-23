@@ -1,16 +1,19 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
-qsharp.summary: ''
+qsharp.summary: >-
+  This namespace contains functions and operations used for coherently
+  computing arithmetic.
 ---
 
 # Microsoft.Quantum.Arithmetic namespace
 
-
+This namespace contains functions and operations used for coherently
+computing arithmetic.
 
 
 <!-- summaries -->
@@ -22,12 +25,12 @@ qsharp.summary: ''
 |[AddConstantFxP](xref:Microsoft.Quantum.Arithmetic.AddConstantFxP) |Adds a classical constant to a quantum fixed-point number. |
 |[AddFxP](xref:Microsoft.Quantum.Arithmetic.AddFxP) |Adds two fixed-point numbers stored in quantum registers. |
 |[AddI](xref:Microsoft.Quantum.Arithmetic.AddI) |Automatically chooses between addition with carry and without, depending on the register size of `ys`. |
-|[ApplyLEOperationOnPhaseLE](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLE) |Applies an operation that takes a <xref:microsoft.quantum.arithmetic.phaselittleendian> register as input on a target register of type <xref:microsoft.quantum.arithmetic.littleendian>. |
-|[ApplyLEOperationOnPhaseLEA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEA) |Applies an operation that takes a <xref:microsoft.quantum.arithmetic.phaselittleendian> register as input on a target register of type <xref:microsoft.quantum.arithmetic.littleendian>. |
-|[ApplyLEOperationOnPhaseLEC](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEC) |Applies an operation that takes a <xref:microsoft.quantum.arithmetic.phaselittleendian> register as input on a target register of type <xref:microsoft.quantum.arithmetic.littleendian>. |
-|[ApplyLEOperationOnPhaseLECA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLECA) |Applies an operation that takes a <xref:microsoft.quantum.arithmetic.phaselittleendian> register as input on a target register of type <xref:microsoft.quantum.arithmetic.littleendian>. |
+|[ApplyLEOperationOnPhaseLE](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLE) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.LittleEndian>. |
+|[ApplyLEOperationOnPhaseLEA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEA) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.LittleEndian>. |
+|[ApplyLEOperationOnPhaseLEC](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEC) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.LittleEndian>. |
+|[ApplyLEOperationOnPhaseLECA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLECA) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.LittleEndian>. |
 |[ApplyMajorityInPlace](xref:Microsoft.Quantum.Arithmetic.ApplyMajorityInPlace) |Applies the three-qubit majority operation in-place on a register of qubits. |
-|[ApplyPhaseLEOperationOnLE](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLE) |Applies an operation that takes a <xref:microsoft.quantum.arithmetic.littleendian> register as input on a target register of type <xref:microsoft.quantum.arithmetic.phaselittleendian>. |
+|[ApplyPhaseLEOperationOnLE](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLE) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.LittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian>. |
 |[ApplyPhaseLEOperationOnLEA](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEA) | |
 |[ApplyPhaseLEOperationOnLEC](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEC) | |
 |[ApplyPhaseLEOperationOnLECA](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLECA) | |

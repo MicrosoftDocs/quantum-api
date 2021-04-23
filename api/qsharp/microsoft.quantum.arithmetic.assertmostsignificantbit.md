@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AssertMostSignificantBit
 title: AssertMostSignificantBit operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -27,7 +27,7 @@ operation AssertMostSignificantBit (value : Result, number : Microsoft.Quantum.A
 
 ## Input
 
-### value : __invalid<Result>__
+### value : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The value of the highest bit being asserted.
 
@@ -38,7 +38,7 @@ Unsigned integer of which the highest bit is checked.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

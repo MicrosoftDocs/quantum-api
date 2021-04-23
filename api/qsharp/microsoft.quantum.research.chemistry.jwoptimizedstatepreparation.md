@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry.JWOptimizedStatePreparation
 title: JWOptimizedStatePreparation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -27,16 +27,16 @@ operation JWOptimizedStatePreparation (qubitIndices : Int[], qubits : Qubit[]) :
 
 ## Input
 
-### qubitIndices : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### qubitIndices : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Indices of qubits to be occupied by electrons.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubits of Hamiltonian.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

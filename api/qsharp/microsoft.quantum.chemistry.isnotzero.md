@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.IsNotZero
 title: IsNotZero function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry
@@ -25,12 +25,12 @@ function IsNotZero (number : Double) : Bool
 
 ## Input
 
-### number : [Double](xref:microsoft.quantum.lang-ref.double)
+### number : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Number to be checked
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 Returns true if `number` has an absolute value greater than `1e-15`.

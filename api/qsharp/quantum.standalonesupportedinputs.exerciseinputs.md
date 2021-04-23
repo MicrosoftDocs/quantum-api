@@ -1,7 +1,7 @@
 ---
 uid: Quantum.StandaloneSupportedInputs.ExerciseInputs
 title: ExerciseInputs operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Quantum.StandaloneSupportedInputs
@@ -25,66 +25,66 @@ operation ExerciseInputs (intValue : Int, intArray : Int[], doubleValue : Double
 
 ## Input
 
-### intValue : [Int](xref:microsoft.quantum.lang-ref.int)
+### intValue : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### intArray : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### intArray : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
-### doubleValue : [Double](xref:microsoft.quantum.lang-ref.double)
+### doubleValue : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### doubleArray : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### doubleArray : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
 
-### boolValue : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### boolValue : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 
 
 
-### boolArray : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+### boolArray : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 
 
 
-### pauliValue : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### pauliValue : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 
 
 
-### pauliArray : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### pauliArray : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 
 
 
-### rangeValue : [Range](xref:microsoft.quantum.lang-ref.range)
+### rangeValue : [Range](xref:microsoft.quantum.qsharp.valueliterals#range-literals)
 
 
 
 
-### resultValue : __invalid<Result>__
+### resultValue : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 
 
 
-### resultArray : __invalid<Result>__[]
+### resultArray : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 
 
 
-### stringValue : [String](xref:microsoft.quantum.lang-ref.string)
+### stringValue : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

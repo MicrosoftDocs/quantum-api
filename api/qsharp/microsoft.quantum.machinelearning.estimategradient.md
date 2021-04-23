@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.EstimateGradient
 title: EstimateGradient operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -37,13 +37,13 @@ The sequential model whose gradient is to be estimated.
 An input to the sequential classifier, encoded into a state preparationoperation.
 
 
-### nMeasurements : [Int](xref:microsoft.quantum.lang-ref.int)
+### nMeasurements : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of measurements to use in estimating the gradient.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)[]
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 An estimate of the training gradient at the given input and modelparameters.
 

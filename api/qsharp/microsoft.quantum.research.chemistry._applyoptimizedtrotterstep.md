@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._ApplyOptimizedTrotterStep
 title: _ApplyOptimizedTrotterStep operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -30,16 +30,16 @@ operation _ApplyOptimizedTrotterStep (qSharpData : Microsoft.Quantum.Chemistry.J
 
 
 
-### trotterStepSize : [Double](xref:microsoft.quantum.lang-ref.double)
+### trotterStepSize : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### allQubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### allQubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

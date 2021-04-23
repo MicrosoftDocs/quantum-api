@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.DrawRandomBool
 title: DrawRandomBool operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -27,13 +27,13 @@ operation DrawRandomBool (successProbability : Double) : Bool
 
 ## Input
 
-### successProbability : [Double](xref:microsoft.quantum.lang-ref.double)
+### successProbability : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The probability with which `true` should be returned.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `true` with probability `successProbability` and `false` withprobability `1.0 - successProbability`.
 

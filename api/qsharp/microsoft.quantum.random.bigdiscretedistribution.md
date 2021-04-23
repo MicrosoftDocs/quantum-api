@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.BigDiscreteDistribution
 title: BigDiscreteDistribution user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random
@@ -29,7 +29,7 @@ newtype BigDiscreteDistribution = (Sample : (Unit => BigInt));
 
 ## Named Items
 
-### Sample : [Unit](xref:microsoft.quantum.lang-ref.unit) => [BigInt](xref:microsoft.quantum.lang-ref.bigint) 
+### Sample : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) => [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals) 
 
 
 

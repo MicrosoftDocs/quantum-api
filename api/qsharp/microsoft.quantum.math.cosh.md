@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.Cosh
 title: Cosh function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,13 +25,13 @@ function Cosh (d : Double) : Double
 
 ## Input
 
-### d : [Double](xref:microsoft.quantum.lang-ref.double)
+### d : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 

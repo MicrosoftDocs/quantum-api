@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.DrawMany
 title: DrawMany operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -32,7 +32,7 @@ operation DrawMany<'TInput, 'TOutput> (op : ('TInput => 'TOutput), nSamples : In
 The operation to be called repeatedly.
 
 
-### nSamples : [Int](xref:microsoft.quantum.lang-ref.int)
+### nSamples : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of samples of calling `op` to collect.
 

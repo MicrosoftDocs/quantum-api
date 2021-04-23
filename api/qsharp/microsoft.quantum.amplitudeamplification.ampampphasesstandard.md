@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpPhasesStandard
 title: AmpAmpPhasesStandard function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -41,7 +41,7 @@ function AmpAmpPhasesStandard (nIterations : Int) : Microsoft.Quantum.AmplitudeA
 
 ## Input
 
-### nIterations : [Int](xref:microsoft.quantum.lang-ref.int)
+### nIterations : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 

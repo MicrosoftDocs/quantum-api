@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.EstimateEnergy
 title: EstimateEnergy operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner.VQE
@@ -34,12 +34,12 @@ This operation implicitly relies on the spin up-down indexing convention.
 The Jordan-Wigner Hamiltonian.
 
 
-### nSamples : [Int](xref:microsoft.quantum.lang-ref.int)
+### nSamples : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of samples to use for the estimation of the term expectations.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The estimated energy of the molecule

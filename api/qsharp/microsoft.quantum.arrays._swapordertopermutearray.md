@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays._SwapOrderToPermuteArray
 title: _SwapOrderToPermuteArray function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,13 +27,13 @@ function _SwapOrderToPermuteArray (newOrder : Int[]) : (Int, Int)[]
 
 ## Input
 
-### newOrder : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### newOrder : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Array with the permutation of the indices of the new array. There should be $n$ elements,each being a unique integer from $0$ to $n-1$.
 
 
 
-## Output : ([Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int))[]
+## Output : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))[]
 
 The tuple represents the two indices to be swapped. The swaps begin at the lowest index.
 

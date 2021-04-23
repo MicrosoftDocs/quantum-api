@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerClusterOperatorPQRSTermSigns
 title: _JordanWignerClusterOperatorPQRSTermSigns function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,11 +25,11 @@ function _JordanWignerClusterOperatorPQRSTermSigns (indices : Int[]) : (Int[], D
 
 ## Input
 
-### indices : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### indices : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
 
-## Output : ([Int](xref:microsoft.quantum.lang-ref.int)[],[Double](xref:microsoft.quantum.lang-ref.double)[],[Double](xref:microsoft.quantum.lang-ref.double))
+## Output : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[],[Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[],[Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals))
 

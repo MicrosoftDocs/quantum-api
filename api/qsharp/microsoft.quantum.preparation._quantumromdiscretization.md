@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation._QuantumROMDiscretization
 title: _QuantumROMDiscretization function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -25,16 +25,16 @@ function _QuantumROMDiscretization (bitsPrecision : Int, coefficients : Double[]
 
 ## Input
 
-### bitsPrecision : [Int](xref:microsoft.quantum.lang-ref.int)
+### bitsPrecision : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### coefficients : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coefficients : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 
 
 
 
-## Output : ([Double](xref:microsoft.quantum.lang-ref.double),[Int](xref:microsoft.quantum.lang-ref.int)[],[Int](xref:microsoft.quantum.lang-ref.int)[])
+## Output : ([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[],[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[])
 
