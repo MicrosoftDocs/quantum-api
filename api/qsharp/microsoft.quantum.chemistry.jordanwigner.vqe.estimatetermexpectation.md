@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.EstimateTermExpectation
 title: EstimateTermExpectation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner.VQE
@@ -29,32 +29,32 @@ This operation estimates the expectation value associated to each measurement op
 
 ## Input
 
-### inputStateUnitary : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### inputStateUnitary : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 The unitary used for state preparation.
 
 
-### ops : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[][]
+### ops : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[][]
 
 The measurement operators of the Jordan-Wigner term.
 
 
-### coeffs : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coeffs : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 The coefficients of the Jordan-Wigner term.
 
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of qubits required to simulate the molecular system.
 
 
-### nSamples : [Int](xref:microsoft.quantum.lang-ref.int)
+### nSamples : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of samples to use for the estimation of the term expectation.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The energy associated to the Jordan-Wigner term.

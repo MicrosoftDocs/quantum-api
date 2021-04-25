@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.AssertHighestBit
 title: AssertHighestBit operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -38,7 +38,7 @@ operation AssertHighestBit (value : Result, number : Microsoft.Quantum.Arithmeti
 
 ## Input
 
-### value : __invalid<Result>__
+### value : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 
 
@@ -49,5 +49,5 @@ operation AssertHighestBit (value : Result, number : Microsoft.Quantum.Arithmeti
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

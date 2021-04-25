@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.PlusL
 title: PlusL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,17 +25,17 @@ function PlusL (a : BigInt, b : BigInt) : BigInt
 
 ## Input
 
-### a : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### a : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The first input $a$ to be summed.
 
 
-### b : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### b : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The second input $b$ to be summed.
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The sum $a + b$.

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyIfElseBCA
 title: ApplyIfElseBCA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -31,12 +31,12 @@ Given a bit `bit`, applies the operation `trueOp` with `trueInput` asits input 
 
 ## Input
 
-### bit : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### bit : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 The boolean value used to determine whether `trueOp` or `falseOp` isapplied.
 
 
-### trueOp : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### trueOp : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The unitary operation to be applied when `bit` is `true`.
 
@@ -46,7 +46,7 @@ The unitary operation to be applied when `bit` is `true`.
 The input to be provided to `trueOp` when `bit` is `true`.
 
 
-### falseOp : 'U => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### falseOp : 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The unitary operation to be applied when `bit` is `false`.
 
@@ -57,7 +57,7 @@ The input to be provided to `falseOp` when `bit` is `false`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

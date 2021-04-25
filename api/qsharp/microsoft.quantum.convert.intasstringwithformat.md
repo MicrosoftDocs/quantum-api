@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.IntAsStringWithFormat
 title: IntAsStringWithFormat function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -27,18 +27,18 @@ function IntAsStringWithFormat (a : Int, fmt : String) : String
 
 ## Input
 
-### a : [Int](xref:microsoft.quantum.lang-ref.int)
+### a : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### fmt : [String](xref:microsoft.quantum.lang-ref.string)
+### fmt : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 
 
 
 
-## Output : [String](xref:microsoft.quantum.lang-ref.string)
+## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 
 

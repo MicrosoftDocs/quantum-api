@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertMeasurement
 title: AssertMeasurement operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -27,28 +27,28 @@ operation AssertMeasurement (bases : Pauli[], qubits : Qubit[], result : Result,
 
 ## Input
 
-### bases : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### bases : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 A measurement effect to assert the probability of, expressed as amulti-qubit Pauli operator.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register on which to make the assertion.
 
 
-### result : __invalid<Result>__
+### result : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The expected result of `Measure(bases, qubits)`.
 
 
-### msg : [String](xref:microsoft.quantum.lang-ref.string)
+### msg : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 A message to be reported if the assertion fails.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

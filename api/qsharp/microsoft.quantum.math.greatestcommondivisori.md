@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.GreatestCommonDivisorI
 title: GreatestCommonDivisorI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,17 +25,17 @@ function GreatestCommonDivisorI (a : Int, b : Int) : Int
 
 ## Input
 
-### a : [Int](xref:microsoft.quantum.lang-ref.int)
+### a : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 the first number of which extended greatest common divisor is being computed
 
 
-### b : [Int](xref:microsoft.quantum.lang-ref.int)
+### b : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 the second number of which extended greatest common divisor is being computed
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Greatest common divisor of $a$ and $b$

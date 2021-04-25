@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.Interface_Clifford
 title: Interface_Clifford operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation
@@ -27,23 +27,23 @@ operation Interface_Clifford (cliffordId : Int, pauli : Pauli, target : Qubit) :
 
 ## Input
 
-### cliffordId : [Int](xref:microsoft.quantum.lang-ref.int)
+### cliffordId : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Id of the single qubit unitary to apply. See remarks
 
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

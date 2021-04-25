@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ReflectionStart
 title: ReflectionStart function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -29,4 +29,4 @@ A `ReflectionOracle` that reflects about the state $\ket{0\cdots 0}$.
 
 ## See Also
 
-- [Microsoft.Quantum.Canon.ReflectionOracle](xref:Microsoft.Quantum.Canon.ReflectionOracle)
+- [Microsoft.Quantum.AmplitudeAmplification.ReflectionOracle](xref:Microsoft.Quantum.AmplitudeAmplification.ReflectionOracle)

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyIfElseRCA
 title: ApplyIfElseRCA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -31,12 +31,12 @@ Given a result `result`, applies the operation `zeroOp` with `zeroInput` asits 
 
 ## Input
 
-### result : __invalid<Result>__
+### result : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The measurement result used to determine if `zeroOp` or `oneOp` isapplied.
 
 
-### zeroOp : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### zeroOp : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The unitary operation to be applied when `result == Zero`.
 
@@ -46,7 +46,7 @@ The unitary operation to be applied when `result == Zero`.
 The input to be provided to `zeroOp` when `result == Zero`.
 
 
-### oneOp : 'U => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### oneOp : 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The unitary operation to be applied when `result == One`.
 
@@ -57,7 +57,7 @@ The input to be provided to `oneOp` when `result == One`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertMeasurementProbability
 title: AssertMeasurementProbability operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -27,38 +27,38 @@ operation AssertMeasurementProbability (bases : Pauli[], qubits : Qubit[], resul
 
 ## Input
 
-### bases : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### bases : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 A measurement effect to assert the probability of, expressed as amulti-qubit Pauli operator.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register on which to make the assertion.
 
 
-### result : __invalid<Result>__
+### result : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 An expected result of `Measure(bases, qubits)`.
 
 
-### prob : [Double](xref:microsoft.quantum.lang-ref.double)
+### prob : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The probability with which the given result is expected.
 
 
-### msg : [String](xref:microsoft.quantum.lang-ref.string)
+### msg : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 A message to be reported if the assertion fails.
 
 
-### tol : [Double](xref:microsoft.quantum.lang-ref.double)
+### tol : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

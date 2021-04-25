@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.DoubleAsInt
 title: DoubleAsInt function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -27,13 +27,13 @@ function DoubleAsInt (a : Double) : Int
 
 ## Input
 
-### a : [Double](xref:microsoft.quantum.lang-ref.double)
+### a : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The value whose truncation is to be returned.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The truncation of the input.
 

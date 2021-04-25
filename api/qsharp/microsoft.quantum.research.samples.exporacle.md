@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Samples.ExpOracle
 title: ExpOracle operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Samples
@@ -25,21 +25,21 @@ operation ExpOracle (eigenphase : Double, time : Double, register : Qubit[]) : U
 
 ## Input
 
-### eigenphase : [Double](xref:microsoft.quantum.lang-ref.double)
+### eigenphase : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### time : [Double](xref:microsoft.quantum.lang-ref.double)
+### time : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### register : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### register : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ReflectionPhases
 title: ReflectionPhases user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -27,10 +27,10 @@ newtype ReflectionPhases = (AboutStart : Double[], AboutTarget : Double[]);
 
 ## Named Items
 
-### AboutStart : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### AboutStart : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 An array of phases for reflection about thestart state.
-### AboutTarget : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### AboutTarget : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 An array of phases for reflectionabout the target state.
 

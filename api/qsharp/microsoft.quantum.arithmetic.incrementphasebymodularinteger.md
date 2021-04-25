@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.IncrementPhaseByModularInteger
 title: IncrementPhaseByModularInteger operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,12 +29,12 @@ Let us denote `increment` by $a$, `modulus` by $N$ and integer encoded in `targe
 
 ## Input
 
-### increment : [Int](xref:microsoft.quantum.lang-ref.int)
+### increment : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Integer increment $a$ to be added to $y$.
 
 
-### modulus : [Int](xref:microsoft.quantum.lang-ref.int)
+### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Integer $N$ that mods $y + a$.
 
@@ -45,7 +45,7 @@ Integer $y$ in phase-encoded little-endian format that `increment` $a$ is added 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

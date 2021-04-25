@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.DividedByL
 title: DividedByL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,17 +25,17 @@ function DividedByL (a : BigInt, b : BigInt) : BigInt
 
 ## Input
 
-### a : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### a : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The first input $a$ to be divided.
 
 
-### b : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### b : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The second input $b$ to be divided.
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The quotient $a / b$.

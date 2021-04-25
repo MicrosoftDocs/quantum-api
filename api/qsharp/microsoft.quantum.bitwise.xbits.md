@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Bitwise.XBits
 title: XBits function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
@@ -27,13 +27,13 @@ function XBits (paulis : Pauli[]) : Int
 
 ## Input
 
-### paulis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### paulis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 An array of Pauli operators to be represented as an integer.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 An integer $x$ with binary representation $(p_{62}\,p_{61}\,\dots\,p_0)$,where $p_i = 0$ if `paulis[i]` is `PauliI` or `PauliZ` and where$p_i = 1$ if `paulis[i]` is `PauliX` or `PauliY`.
 

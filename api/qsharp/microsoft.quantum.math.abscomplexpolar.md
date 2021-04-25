@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.AbsComplexPolar
 title: AbsComplexPolar function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -33,6 +33,6 @@ Complex number $c = r e^{i t}$.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Absolute value $|c| = r$.

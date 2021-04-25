@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyMultiControlledCA
 title: ApplyMultiControlledCA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,7 +29,7 @@ operation ApplyMultiControlledCA (singlyControlledOp : (Qubit[] => Unit is Adj),
 
 ## Input
 
-### singlyControlledOp : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### singlyControlledOp : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 An operation controlled on a single qubit.The first qubit in the argument of the operationassumed to be a control and the rest are assumed to be target qubits.`ApplyMultiControlled` always calls `singlyControlledOp` with an argument oflength at least 1.
 
@@ -39,18 +39,18 @@ An operation controlled on a single qubit.The first qubit in the argument of th
 The controlled-controlled-NOT gate to use for the construction.
 
 
-### controls : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### controls : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 The qubits that `singlyControlledOp` is to be controlled on.The length of `controls` must be at least 1.
 
 
-### targets : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targets : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 The target qubits that `singlyControlledOp` acts upon.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

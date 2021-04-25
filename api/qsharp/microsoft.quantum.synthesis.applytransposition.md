@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyTransposition
 title: ApplyTransposition operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -29,12 +29,12 @@ This operation swaps the amplitude at index `a` with theamplitude at index `b` 
 
 ## Input
 
-### a : [Int](xref:microsoft.quantum.lang-ref.int)
+### a : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 First index (must be a value from 0 to $2^n - 1$)
 
 
-### b : [Int](xref:microsoft.quantum.lang-ref.int)
+### b : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Second index (must be a value from 0 to $2^n - 1$)
 
@@ -45,7 +45,7 @@ A list of $n$ qubits to which the transposition is applied to.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.IsSorted
 title: IsSorted function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function IsSorted<'T> (comparison : (('T, 'T) -> Bool), array : 'T[]) : Bool
 
 ## Input
 
-### comparison : ('T,'T) -> [Bool](xref:microsoft.quantum.lang-ref.bool)
+### comparison : ('T,'T) -> [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A function that compares two elements such that `a` is considered tobe less than or equal to `b` if `comparison(a, b)` is `true`.
 
@@ -38,7 +38,7 @@ The array to be checked.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `true` if and only if for each pair of elements `a` and `b` of`array` occuring in that order, `comparison(a, b)` is `true`.
 

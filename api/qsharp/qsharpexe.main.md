@@ -1,7 +1,7 @@
 ---
 uid: QSharpExe.Main
 title: Main operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: QSharpExe
@@ -23,5 +23,5 @@ operation Main () : Result
 ```
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 

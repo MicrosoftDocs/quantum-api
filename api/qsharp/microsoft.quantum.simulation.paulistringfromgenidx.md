@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.PauliStringFromGenIdx
 title: PauliStringFromGenIdx function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -33,6 +33,6 @@ function PauliStringFromGenIdx (generatorIndex : Microsoft.Quantum.Simulation.Ge
 
 
 
-## Output : ([Pauli](xref:microsoft.quantum.lang-ref.pauli)[],[Int](xref:microsoft.quantum.lang-ref.int)[])
+## Output : ([Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[],[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[])
 
 The Pauli string of the term described by a `GeneratorIndex`, andindices to the qubits it acts on.

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.CyclicEntanglingLayer
 title: CyclicEntanglingLayer function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -28,17 +28,17 @@ function CyclicEntanglingLayer (nQubits : Int, axis : Pauli, stride : Int) : Mic
 
 ## Input
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of qubits acted on by the given layer.
 
 
-### axis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### axis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 The rotation axis for each rotation in the given layer.
 
 
-### stride : [Int](xref:microsoft.quantum.lang-ref.int)
+### stride : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The separation between the target and control indices for each rotation.
 

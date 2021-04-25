@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyPermutationUsingTransformation
 title: ApplyPermutationUsingTransformation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -31,7 +31,7 @@ This procedure implements the unidirectional transformation basedsynthesis appr
 
 ## Input
 
-### perm : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### perm : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 A permutation of $2^n$ elements starting from 0.
 
@@ -42,7 +42,7 @@ A list of $n$ qubits to which the permutation is applied to.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

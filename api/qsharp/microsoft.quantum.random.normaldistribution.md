@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.NormalDistribution
 title: NormalDistribution function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
@@ -25,12 +25,12 @@ function NormalDistribution (mean : Double, variance : Double) : Microsoft.Quant
 
 ## Input
 
-### mean : [Double](xref:microsoft.quantum.lang-ref.double)
+### mean : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### variance : [Double](xref:microsoft.quantum.lang-ref.double)
+### variance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 

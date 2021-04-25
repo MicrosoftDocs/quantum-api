@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyControlledOnInt
 title: ApplyControlledOnInt operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -27,17 +27,17 @@ operation ApplyControlledOnInt<'T> (numberState : Int, oracle : ('T => Unit is A
 
 ## Input
 
-### numberState : [Int](xref:microsoft.quantum.lang-ref.int)
+### numberState : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 A nonnegative integer on which the operation `oracle` should becontrolled.
 
 
-### oracle : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### oracle : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A unitary operation to be controlled.
 
 
-### controlRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### controlRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A quantum register that controls application of `oracle`.
 
@@ -48,7 +48,7 @@ A register on which to apply `oracle`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

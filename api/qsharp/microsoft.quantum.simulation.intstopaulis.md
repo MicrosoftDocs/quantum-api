@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.IntsToPaulis
 title: IntsToPaulis function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -27,12 +27,12 @@ function IntsToPaulis (ints : Int[]) : Pauli[]
 
 ## Input
 
-### ints : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### ints : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Array of integers in the range `0..3`  to be converted to Paulioperators.
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 An array `paulis` of Pauli operators `Pauli[]` the same length as`ints` such that `paulis[idxPauli]` is equal to the element of`[PauliI, PauliX, PauliY, PauliZ]` given by `ints[idxPauli]`.

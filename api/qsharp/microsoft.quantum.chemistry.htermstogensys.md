@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.HTermsToGenSys
 title: HTermsToGenSys function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry
@@ -30,7 +30,7 @@ function HTermsToGenSys (data : Microsoft.Quantum.Chemistry.HTerm[], termType : 
 Input data in `HTerm[]` format.
 
 
-### termType : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### termType : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 Additional information added to GeneratorIndex.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyConditionallyC
 title: ApplyConditionallyC operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
@@ -25,17 +25,17 @@ operation ApplyConditionallyC<'T, 'U> (measurementResults : Result[], resultsVal
 
 ## Input
 
-### measurementResults : __invalid<Result>__[]
+### measurementResults : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 
 
 
-### resultsValues : __invalid<Result>__[]
+### resultsValues : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 
 
 
-### onEqualOp : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### onEqualOp : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 
 
@@ -45,7 +45,7 @@ operation ApplyConditionallyC<'T, 'U> (measurementResults : Result[], resultsVal
 
 
 
-### onNonEqualOp : 'U => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### onNonEqualOp : 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 
 
@@ -56,7 +56,7 @@ operation ApplyConditionallyC<'T, 'U> (measurementResults : Result[], resultsVal
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

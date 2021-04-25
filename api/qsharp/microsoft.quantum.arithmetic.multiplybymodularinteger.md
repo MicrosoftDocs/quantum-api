@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplyByModularInteger
 title: MultiplyByModularInteger operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,12 +29,12 @@ Let us denote `modulus` by $N$ and `constMultiplier` by $a$.Then this operation
 
 ## Input
 
-### constMultiplier : [Int](xref:microsoft.quantum.lang-ref.int)
+### constMultiplier : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Constant by which multiplier is being multiplied. Must be co-prime to modulus.
 
 
-### modulus : [Int](xref:microsoft.quantum.lang-ref.int)
+### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The multiplication operation is performed modulo `modulus`.
 
@@ -45,7 +45,7 @@ The number being multiplied by a constant.This is an array of qubits encoding a
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

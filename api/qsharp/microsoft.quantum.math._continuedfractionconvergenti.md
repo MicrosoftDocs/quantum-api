@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math._ContinuedFractionConvergentI
 title: _ContinuedFractionConvergentI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,32 +25,32 @@ function _ContinuedFractionConvergentI (signA : Int, signB : Int, r : (Int, Int)
 
 ## Input
 
-### signA : [Int](xref:microsoft.quantum.lang-ref.int)
+### signA : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### signB : [Int](xref:microsoft.quantum.lang-ref.int)
+### signB : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### r : ([Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int))
+### r : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))
 
 
 
 
-### s : ([Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int))
+### s : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))
 
 
 
 
-### t : ([Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int))
+### t : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))
 
 
 
 
-### denominatorBound : [Int](xref:microsoft.quantum.lang-ref.int)
+### denominatorBound : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 

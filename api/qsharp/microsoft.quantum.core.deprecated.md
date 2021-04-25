@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Core.Deprecated
 title: Deprecated user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Core
@@ -28,6 +28,6 @@ newtype Deprecated = (NewName : String);
 
 ## Named Items
 
-### NewName : [String](xref:microsoft.quantum.lang-ref.string)
+### NewName : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 The full name of the type or callable to use instead.Is set to the empty String if a type or callable has been deprecated without substitution.

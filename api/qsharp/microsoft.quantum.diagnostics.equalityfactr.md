@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.EqualityFactR
 title: EqualityFactR function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -25,21 +25,21 @@ function EqualityFactR (actual : Result, expected : Result, message : String) : 
 
 ## Input
 
-### actual : __invalid<Result>__
+### actual : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The variable to be checked.
 
 
-### expected : __invalid<Result>__
+### expected : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The expected value.
 
 
-### message : [String](xref:microsoft.quantum.lang-ref.string)
+### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 Failure message string to be used when the assertion is triggered.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

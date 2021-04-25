@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ResultStack
 title: ResultStack user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Canon

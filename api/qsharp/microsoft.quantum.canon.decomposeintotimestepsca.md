@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.DecomposeIntoTimeStepsCA
 title: DecomposeIntoTimeStepsCA function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -32,23 +32,23 @@ function DecomposeIntoTimeStepsCA<'T> ((nSteps : Int, op : ((Int, Double, 'T) =>
 
 ## Input
 
-### nSteps : [Int](xref:microsoft.quantum.lang-ref.int)
+### nSteps : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### op : ([Int](xref:microsoft.quantum.lang-ref.int),[Double](xref:microsoft.quantum.lang-ref.double),'T) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### op : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),'T) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 
 
 
-### trotterOrder : [Int](xref:microsoft.quantum.lang-ref.int)
+### trotterOrder : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : ([Double](xref:microsoft.quantum.lang-ref.double),'T) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : ([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),'T) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 
 

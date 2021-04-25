@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.XOR
 title: XOR function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -38,16 +38,16 @@ function XOR (bit1 : Bool, bit2 : Bool) : Bool
 
 ## Input
 
-### bit1 : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### bit1 : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 
 
 
-### bit2 : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### bit2 : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 

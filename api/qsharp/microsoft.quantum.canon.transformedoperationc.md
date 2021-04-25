@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.TransformedOperationC
 title: TransformedOperationC function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -32,13 +32,13 @@ function TransformedOperationC<'T, 'U> (fn : ('U -> 'T), op : ('T => Unit is Ctl
 A function that transforms the given input into a form expected by theoperation.
 
 
-### op : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### op : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 The operation to be transformed.
 
 
 
-## Output : 'U => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+## Output : 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 A new operation tbat calls `fn` with its input, then passes theresulting output to `op`.
 

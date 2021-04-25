@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.R1Frac
 title: R1Frac operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -31,23 +31,23 @@ operation R1Frac (numerator : Int, power : Int, qubit : Qubit) : Unit is Adj + C
 
 ## Input
 
-### numerator : [Int](xref:microsoft.quantum.lang-ref.int)
+### numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Numerator in the dyadic fraction representation of the angleby which the qubit is to be rotated.
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Power of two specifying the denominator of the angle by whichthe qubit is to be rotated.
 
 
-### qubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit to which the gate should be applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.TrotterStepImpl
 title: TrotterStepImpl operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -30,21 +30,21 @@ operation TrotterStepImpl (evolutionGenerator : Microsoft.Quantum.Simulation.Evo
 A complete description of the system to be simulated.
 
 
-### idx : [Int](xref:microsoft.quantum.lang-ref.int)
+### idx : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Integer index to a term in the described system.
 
 
-### stepsize : [Double](xref:microsoft.quantum.lang-ref.double)
+### stepsize : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Multiplier on duration of time-evolution by term indexed by `idx`.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubits acted on by simulation.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

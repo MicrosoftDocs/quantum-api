@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.Interface_CX
 title: Interface_CX operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation
@@ -25,18 +25,18 @@ operation Interface_CX (control : Qubit, target : Qubit) : Unit
 
 ## Input
 
-### control : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 the qubit used to control the application of X gate
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 the qubit to which Pauli X is applied when control qubit is in state |1⟩
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

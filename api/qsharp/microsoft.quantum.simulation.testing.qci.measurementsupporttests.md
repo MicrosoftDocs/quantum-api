@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Testing.QCI.MeasurementSupportTests
 title: Microsoft.Quantum.Simulation.Testing.QCI.MeasurementSupportTests namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Simulation.Testing.QCI.MeasurementSupportTests

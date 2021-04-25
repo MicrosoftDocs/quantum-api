@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.Interface_RFrac
 title: Interface_RFrac operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation
@@ -25,28 +25,28 @@ operation Interface_RFrac (axis : Pauli, numerator : Int, power : Int, target : 
 
 ## Input
 
-### axis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### axis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 Pauli matrix, P
 
 
-### numerator : [Int](xref:microsoft.quantum.lang-ref.int)
+### numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 k
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 n
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 the qubit operation is acting on
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

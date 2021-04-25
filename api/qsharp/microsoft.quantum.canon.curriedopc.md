@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.CurriedOpC
 title: CurriedOpC function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -30,13 +30,13 @@ function CurriedOpC<'T, 'U> (op : (('T, 'U) => Unit is Ctl)) : ('T -> ('U => Uni
 
 ## Input
 
-### op : ('T,'U) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### op : ('T,'U) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 An operation whose input is a pair.
 
 
 
-## Output : 'T -> 'U => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+## Output : 'T -> 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 An operation which accepts the first element of a pair and returnsan operation which accepts as its input the second element of theoriginal operation's input.
 

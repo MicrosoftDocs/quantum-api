@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.SquareArrayFact
 title: SquareArrayFact function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -34,13 +34,13 @@ This function asserts that each row in an array hasas many elements as there ar
 A 2-dimensional array of elements
 
 
-### message : [String](xref:microsoft.quantum.lang-ref.string)
+### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 A message to be printed if the array is not a square array
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

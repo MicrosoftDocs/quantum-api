@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._SelectZ
 title: _SelectZ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,16 +25,16 @@ operation _SelectZ (targetIndex : Int, targetRegister : Qubit[]) : Unit is Adj +
 
 ## Input
 
-### targetIndex : [Int](xref:microsoft.quantum.lang-ref.int)
+### targetIndex : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### targetRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

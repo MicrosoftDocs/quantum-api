@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.StandardReflectionPhases
 title: StandardReflectionPhases function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -27,7 +27,7 @@ function StandardReflectionPhases (nIterations : Int) : Microsoft.Quantum.Amplit
 
 ## Input
 
-### nIterations : [Int](xref:microsoft.quantum.lang-ref.int)
+### nIterations : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Number of amplitude amplification iterations to generate partialreflection phases for.
 

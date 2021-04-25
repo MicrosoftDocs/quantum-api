@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Enumerated
 title: Enumerated function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -33,7 +33,7 @@ An array whose elements are to be enumerated.
 
 
 
-## Output : ([Int](xref:microsoft.quantum.lang-ref.int),'TElement)[]
+## Output : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),'TElement)[]
 
 A new array containing elements of the original array along with theirindices.
 

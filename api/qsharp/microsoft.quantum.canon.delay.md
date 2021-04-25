@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.Delay
 title: Delay operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -39,7 +39,7 @@ An operation to be applied.
 The input to which the operation is applied.
 
 
-### aux : [Unit](xref:microsoft.quantum.lang-ref.unit)
+### aux : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 Argument used to delay the application of operation by usingpartial application.
 

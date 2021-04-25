@@ -1,15 +1,15 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLECA
 title: ApplyLEOperationOnPhaseLECA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ApplyLEOperationOnPhaseLECA
 qsharp.summary: >-
   Applies an operation that takes a
-  <xref:microsoft.quantum.arithmetic.phaselittleendian> register as input
-  on a target register of type <xref:microsoft.quantum.arithmetic.littleendian>.
+  <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian> register as input
+  on a target register of type <xref:Microsoft.Quantum.Arithmetic.LittleEndian>.
 ---
 
 # ApplyLEOperationOnPhaseLECA operation
@@ -19,7 +19,7 @@ Namespace: [Microsoft.Quantum.Arithmetic](xref:Microsoft.Quantum.Arithmetic)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Applies an operation that takes a<xref:microsoft.quantum.arithmetic.phaselittleendian> register as inputon a target register of type <xref:microsoft.quantum.arithmetic.littleendian>.
+Applies an operation that takes a<xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian> register as inputon a target register of type <xref:Microsoft.Quantum.Arithmetic.LittleEndian>.
 
 ```qsharp
 operation ApplyLEOperationOnPhaseLECA (op : (Microsoft.Quantum.Arithmetic.LittleEndian => Unit is Adj + Ctl), target : Microsoft.Quantum.Arithmetic.PhaseLittleEndian) : Unit is Adj + Ctl
@@ -28,7 +28,7 @@ operation ApplyLEOperationOnPhaseLECA (op : (Microsoft.Quantum.Arithmetic.Little
 
 ## Input
 
-### op : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### op : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The operation to be applied.
 
@@ -39,16 +39,16 @@ The register to which the operation is applied.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 
 ## Remarks
 
-The register is transformed to `LittleEndian` by the use of<xref:microsoft.quantum.canon.qftle> and is then returned toits original representation after application of `op`.
+The register is transformed to `LittleEndian` by the use of<xref:Microsoft.Quantum.Canon.QFTLE> and is then returned toits original representation after application of `op`.
 
 ## See Also
 
-- [Microsoft.Quantum.Canon.ApplyLEOperationonPhaseLE](xref:Microsoft.Quantum.Canon.ApplyLEOperationonPhaseLE)
-- [Microsoft.Quantum.Canon.ApplyLEOperationonPhaseLEA](xref:Microsoft.Quantum.Canon.ApplyLEOperationonPhaseLEA)
-- [Microsoft.Quantum.Canon.ApplyLEOperationonPhaseLEC](xref:Microsoft.Quantum.Canon.ApplyLEOperationonPhaseLEC)
+- [Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLE](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLE)
+- [Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLEA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLEA)
+- [Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLEC](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLEC)
