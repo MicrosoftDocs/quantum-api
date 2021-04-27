@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.ComplexDistribution
 title: ComplexDistribution user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random
@@ -27,7 +27,7 @@ newtype ComplexDistribution = (Sample : (Unit => Microsoft.Quantum.Math.Complex)
 
 ## Named Items
 
-### Sample : [Unit](xref:microsoft.quantum.lang-ref.unit) => [Complex](xref:Microsoft.Quantum.Math.Complex) 
+### Sample : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) => [Complex](xref:Microsoft.Quantum.Math.Complex) 
 
 
 

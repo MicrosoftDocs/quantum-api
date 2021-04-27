@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.AbsD
 title: AbsD function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,13 +25,13 @@ function AbsD (a : Double) : Double
 
 ## Input
 
-### a : [Double](xref:microsoft.quantum.lang-ref.double)
+### a : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The number whose absolute value is to be returned.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The absolute value of `a`.
 

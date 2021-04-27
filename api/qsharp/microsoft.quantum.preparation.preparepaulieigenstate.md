@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PreparePauliEigenstate
 title: PreparePauliEigenstate operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -28,22 +28,22 @@ operation PreparePauliEigenstate (basis : Pauli, qubit : Qubit) : Unit
 
 ## Description
 
-If the qubit was initially in the $\ket{0}$ state, this operation prepares thequbit in the $+1$ eigenstate of a given Pauli operator, or, for `PauliI`,in the maximally mixed state instead (see <xref:microsoft.quantum.preparation.preparesinglequbitidentity>).If the qubit was in a state other than $\ket{0}$, this operation applies the following gates:$H$ for `PauliX`, $HS$ for `PauliY`, $I$ for `PauliZ` and<xref:microsoft.quantum.preparation.preparesinglequbitidentity> for `PauliI`.
+If the qubit was initially in the $\ket{0}$ state, this operation prepares thequbit in the $+1$ eigenstate of a given Pauli operator, or, for `PauliI`,in the maximally mixed state instead (see <xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity>).If the qubit was in a state other than $\ket{0}$, this operation applies the following gates:$H$ for `PauliX`, $HS$ for `PauliY`, $I$ for `PauliZ` and<xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity> for `PauliI`.
 
 ## Input
 
-### basis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### basis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 A Pauli operator $P$.
 
 
-### qubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 A qubit to be prepared.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

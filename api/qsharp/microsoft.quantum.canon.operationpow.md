@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.OperationPow
 title: OperationPow function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,18 +29,18 @@ function OperationPow<'T> (op : ('T => Unit), power : Int) : ('T => Unit)
 
 ## Input
 
-### op : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 An operation $U$ representing the gate to be repeated.
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of times that $U$ is to be repeated.
 
 
 
-## Output : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+## Output : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 A new operation representing $U^m$, where $m = \texttt{power}$.
 

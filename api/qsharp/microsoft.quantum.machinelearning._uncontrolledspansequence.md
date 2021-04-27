@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._UncontrolledSpanSequence
 title: _UncontrolledSpanSequence function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,11 +25,11 @@ function _UncontrolledSpanSequence (idxsQubits : Int[]) : (Int, Int[])[]
 
 ## Input
 
-### idxsQubits : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### idxsQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
 
-## Output : ([Int](xref:microsoft.quantum.lang-ref.int),[Int](xref:microsoft.quantum.lang-ref.int)[])[]
+## Output : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[])[]
 

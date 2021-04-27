@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.IndexOf
 title: IndexOf function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function IndexOf<'T> (predicate : ('T -> Bool), arr : 'T[]) : Int
 
 ## Input
 
-### predicate : 'T -> [Bool](xref:microsoft.quantum.lang-ref.bool)
+### predicate : 'T -> [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A predicate function acting on elements of the array.
 
@@ -38,7 +38,7 @@ An array to be searched using the given predicate.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Either the smallest index `idx` such that `predicate(arr[idx])` is true,or -1 if no such element exists.
 

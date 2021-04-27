@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ObliviousAmplitudeAmplificationFromStatePreparation
 title: ObliviousAmplitudeAmplificationFromStatePreparation function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -40,13 +40,13 @@ Unitary oracle $A$ that prepares auxiliary start state
 Unitary oracle $O$ of type `ObliviousOracle` that acts jointly on theauxiliary and system register
 
 
-### idxFlagQubit : [Int](xref:microsoft.quantum.lang-ref.int)
+### idxFlagQubit : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Index to single-qubit flag register
 
 
 
-## Output : ([Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[]) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : ([Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 An operation that implements oblivious amplitude amplification based on partial reflections.
 

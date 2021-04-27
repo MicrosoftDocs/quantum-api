@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.TimeDependentTrotterSimulationAlgorithm
 title: TimeDependentTrotterSimulationAlgorithm function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -28,12 +28,12 @@ function TimeDependentTrotterSimulationAlgorithm (trotterStepSize : Double, trot
 
 ## Input
 
-### trotterStepSize : [Double](xref:microsoft.quantum.lang-ref.double)
+### trotterStepSize : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Duration of simulated time-evolution in single Trotter step.
 
 
-### trotterOrder : [Int](xref:microsoft.quantum.lang-ref.int)
+### trotterOrder : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Order of Trotter integrator. This must be either 1 or an even number.
 

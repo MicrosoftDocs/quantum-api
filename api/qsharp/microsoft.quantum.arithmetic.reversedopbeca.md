@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ReversedOpBECA
 title: ReversedOpBECA function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -27,13 +27,13 @@ function ReversedOpBECA (op : (Microsoft.Quantum.Arithmetic.BigEndian => Unit is
 
 ## Input
 
-### op : [BigEndian](xref:Microsoft.Quantum.Arithmetic.BigEndian) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### op : [BigEndian](xref:Microsoft.Quantum.Arithmetic.BigEndian) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The operation whose input is to be reversed.
 
 
 
-## Output : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A new operation that accepts its input as a little-endian register.
 

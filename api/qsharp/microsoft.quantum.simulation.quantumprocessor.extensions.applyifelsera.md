@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfElseRA
 title: ApplyIfElseRA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
@@ -25,12 +25,12 @@ operation ApplyIfElseRA<'T, 'U> (measurementResult : Result, (onResultZeroOp : (
 
 ## Input
 
-### measurementResult : __invalid<Result>__
+### measurementResult : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 
 
 
-### onResultZeroOp : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### onResultZeroOp : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 
 
@@ -40,7 +40,7 @@ operation ApplyIfElseRA<'T, 'U> (measurementResult : Result, (onResultZeroOp : (
 
 
 
-### onResultOneOp : 'U => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### onResultOneOp : 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 
 
@@ -51,7 +51,7 @@ operation ApplyIfElseRA<'T, 'U> (measurementResult : Result, (onResultZeroOp : (
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.MixedStatePreparation
 title: MixedStatePreparation user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -32,10 +32,10 @@ newtype MixedStatePreparation = (Requirements : Microsoft.Quantum.Preparation.Mi
 ### Requirements : [MixedStatePreparationRequirements](xref:Microsoft.Quantum.Preparation.MixedStatePreparationRequirements)
 
 
-### Norm : [Double](xref:microsoft.quantum.lang-ref.double)
+### Norm : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
-### Prepare : ([LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[]) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### Prepare : ([LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 
 

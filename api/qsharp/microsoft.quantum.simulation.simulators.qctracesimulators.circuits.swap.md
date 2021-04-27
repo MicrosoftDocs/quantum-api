@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.SWAP
 title: SWAP operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,16 +25,16 @@ operation SWAP (target1 : Qubit, target2 : Qubit) : Unit is Adj + Ctl
 
 ## Input
 
-### target1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### target2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

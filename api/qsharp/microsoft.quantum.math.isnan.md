@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.IsNaN
 title: IsNaN function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -27,13 +27,13 @@ function IsNaN (d : Double) : Bool
 
 ## Input
 
-### d : [Double](xref:microsoft.quantum.lang-ref.double)
+### d : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A floating-point value to be checked.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `true` if and only if `d` is not a number.
 

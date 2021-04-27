@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.NegationI
 title: NegationI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,12 +25,12 @@ function NegationI (input : Int) : Int
 
 ## Input
 
-### input : [Int](xref:microsoft.quantum.lang-ref.int)
+### input : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 A value whose negation is to be returned.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The unary negation of `input`.

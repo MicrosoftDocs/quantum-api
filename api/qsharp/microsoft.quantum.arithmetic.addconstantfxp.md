@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AddConstantFxP
 title: AddConstantFxP operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -25,7 +25,7 @@ operation AddConstantFxP (constant : Double, fp : Microsoft.Quantum.Arithmetic.F
 
 ## Input
 
-### constant : [Double](xref:microsoft.quantum.lang-ref.double)
+### constant : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Constant to add to the quantum fixed-point number.
 
@@ -36,5 +36,5 @@ Fixed-point number to which the constant willbe added.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

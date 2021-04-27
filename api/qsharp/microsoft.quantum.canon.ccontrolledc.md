@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.CControlledC
 title: CControlledC function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -28,13 +28,13 @@ function CControlledC<'T> (op : ('T => Unit is Ctl)) : ((Bool, 'T) => Unit is Ct
 
 ## Input
 
-### op : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### op : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 An operation to be conditionally applied.
 
 
 
-## Output : ([Bool](xref:microsoft.quantum.lang-ref.bool),'T) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+## Output : ([Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals),'T) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 A new operation which is op if the classical control bit is true.
 

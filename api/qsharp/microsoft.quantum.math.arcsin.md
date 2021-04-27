@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ArcSin
 title: ArcSin function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,13 +25,13 @@ function ArcSin (y : Double) : Double
 
 ## Input
 
-### y : [Double](xref:microsoft.quantum.lang-ref.double)
+### y : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 

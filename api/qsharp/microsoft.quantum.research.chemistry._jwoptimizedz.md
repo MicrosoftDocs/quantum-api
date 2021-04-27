@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedZ
 title: _JWOptimizedZ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -27,21 +27,21 @@ operation _JWOptimizedZ (angle : Double, parityQubit : Qubit, qubit : Qubit) : U
 
 ## Input
 
-### angle : [Double](xref:microsoft.quantum.lang-ref.double)
+### angle : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Angle of Rz rotation.
 
 
-### parityQubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### parityQubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit that determines the sign of time-evolution.
 
 
-### qubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

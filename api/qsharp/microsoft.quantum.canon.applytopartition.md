@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToPartition
 title: ApplyToPartition operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -25,23 +25,23 @@ operation ApplyToPartition (op : ((Qubit[], Qubit[]) => Unit), numberOfQubitsToF
 
 ## Input
 
-### op : ([Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[]) => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : ([Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 The pair of operations to be applied to the given partition.
 
 
-### numberOfQubitsToFirstArgument : [Int](xref:microsoft.quantum.lang-ref.int)
+### numberOfQubitsToFirstArgument : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Number of qubits from target to put into the first part of the partition.The remaining qubits constitute the second part of the partition.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register of qubits that are being partitioned and operated on by thegiven two operation.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

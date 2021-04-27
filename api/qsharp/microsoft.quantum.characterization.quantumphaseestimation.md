@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization.QuantumPhaseEstimation
 title: QuantumPhaseEstimation operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
@@ -32,7 +32,7 @@ operation QuantumPhaseEstimation (oracle : Microsoft.Quantum.Oracles.DiscreteOra
 An operation implementing $U^m$ for given integer powers m.
 
 
-### targetState : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetState : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A quantum register representing the state $\ket{\phi}$ acted on by $U$. If $\ket{\phi}$ is aneigenstate of $U$, $U\ket{\phi} = e^{i\phi} \ket{\phi}$ for $\phi \in [0, 2\pi)$ an unknown phase.
 
@@ -43,5 +43,5 @@ A big-endian representation integer register that can be usedto control the pro
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

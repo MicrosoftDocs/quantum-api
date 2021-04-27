@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ModulusL
 title: ModulusL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,18 +25,18 @@ function ModulusL (value : BigInt, modulus : BigInt) : BigInt
 
 ## Input
 
-### value : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### value : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The value of which residue is computed
 
 
-### modulus : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### modulus : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The modulus by which residues are take, must be positive
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 Integer $r$ between 0 and `modulus - 1` such that `value - r` is divisible by modulus
 

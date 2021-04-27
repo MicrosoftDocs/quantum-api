@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.CCNOT
 title: CCNOT operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -25,23 +25,23 @@ operation CCNOT (control1 : Qubit, control2 : Qubit, target : Qubit) : Unit is A
 
 ## Input
 
-### control1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 First control qubit for the CCNOT gate.
 
 
-### control2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Second control qubit for the CCNOT gate.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Target qubit for the CCNOT gate.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

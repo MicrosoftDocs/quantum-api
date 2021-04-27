@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Characterization._PrepAndMeasurePhaseEst
 title: _PrepAndMeasurePhaseEst operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Characterization
@@ -25,21 +25,21 @@ operation _PrepAndMeasurePhaseEst (wInv : Double, t : Double, op : ((Double, Dou
 
 ## Input
 
-### wInv : [Double](xref:microsoft.quantum.lang-ref.double)
+### wInv : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### t : [Double](xref:microsoft.quantum.lang-ref.double)
+### t : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### op : ([Double](xref:microsoft.quantum.lang-ref.double),[Double](xref:microsoft.quantum.lang-ref.double),[Qubit](xref:microsoft.quantum.lang-ref.qubit)) => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### op : ([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 

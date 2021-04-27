@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedFermionEvolution
 title: _JWOptimizedFermionEvolution operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -35,21 +35,21 @@ operation _JWOptimizedFermionEvolution (generatorIndex : Microsoft.Quantum.Simul
 A generator index to be represented as unitary evolution in the JWOptimizedbasis.
 
 
-### stepSize : [Double](xref:microsoft.quantum.lang-ref.double)
+### stepSize : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A multiplier on the duration of time-evolution by the term referencedin `generatorIndex`.
 
 
-### parityQubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### parityQubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit that determines the sign of time-evolution.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register acted upon by time-evolution operator.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

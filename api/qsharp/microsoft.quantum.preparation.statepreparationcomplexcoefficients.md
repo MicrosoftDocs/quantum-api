@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.StatePreparationComplexCoefficients
 title: StatePreparationComplexCoefficients function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -51,7 +51,7 @@ Array of up to $2^n$ complex coefficients represented by theirabsolute value an
 
 
 
-## Output : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A state-preparation unitary operation $U$.
 

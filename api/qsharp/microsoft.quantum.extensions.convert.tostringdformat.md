@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Extensions.Convert.ToStringDFormat
 title: ToStringDFormat function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Convert
@@ -38,16 +38,16 @@ function ToStringDFormat (a : Double, fmt : String) : String
 
 ## Input
 
-### a : [Double](xref:microsoft.quantum.lang-ref.double)
+### a : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### fmt : [String](xref:microsoft.quantum.lang-ref.string)
+### fmt : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 
 
 
 
-## Output : [String](xref:microsoft.quantum.lang-ref.string)
+## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 

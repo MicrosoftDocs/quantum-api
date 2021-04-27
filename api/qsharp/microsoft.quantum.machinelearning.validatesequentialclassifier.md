@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ValidateSequentialClassifier
 title: ValidateSequentialClassifier operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -37,12 +37,12 @@ The sequential model to be validated.
 The samples to be used to validate the given model.
 
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The approximation tolerance to use in encoding each sample as an inputto the sequential classifier.
 
 
-### nMeasurements : [Int](xref:microsoft.quantum.lang-ref.int)
+### nMeasurements : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of measurements to use in classifying each sample.
 

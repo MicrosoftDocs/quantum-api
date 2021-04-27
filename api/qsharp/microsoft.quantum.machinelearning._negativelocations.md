@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._NegativeLocations
 title: _NegativeLocations function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,7 +25,7 @@ function _NegativeLocations (cNegative : Int, coefficients : Microsoft.Quantum.M
 
 ## Input
 
-### cNegative : [Int](xref:microsoft.quantum.lang-ref.int)
+### cNegative : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
@@ -36,5 +36,5 @@ function _NegativeLocations (cNegative : Int, coefficients : Microsoft.Quantum.M
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)[]
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Swapped
 title: Swapped function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -25,12 +25,12 @@ function Swapped<'T> (firstIndex : Int, secondIndex : Int, arr : 'T[]) : 'T[]
 
 ## Input
 
-### firstIndex : [Int](xref:microsoft.quantum.lang-ref.int)
+### firstIndex : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Index of the first element to be swapped.
 
 
-### secondIndex : [Int](xref:microsoft.quantum.lang-ref.int)
+### secondIndex : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Index of the second element to be swapped.
 

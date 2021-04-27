@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Samples.PhaseEstimationSample
 title: PhaseEstimationSample operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Samples
@@ -25,11 +25,11 @@ operation PhaseEstimationSample (eigenphase : Double) : Double
 
 ## Input
 
-### eigenphase : [Double](xref:microsoft.quantum.lang-ref.double)
+### eigenphase : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

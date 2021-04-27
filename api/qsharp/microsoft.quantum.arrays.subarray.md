@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Subarray
 title: Subarray function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -28,7 +28,7 @@ function Subarray<'T> (indices : Int[], array : 'T[]) : 'T[]
 
 ## Input
 
-### indices : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### indices : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 A list of integers that is used to define the subarray.
 

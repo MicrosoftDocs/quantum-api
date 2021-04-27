@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization.MeasureIdentity
 title: MeasureIdentity operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
@@ -27,13 +27,13 @@ operation MeasureIdentity (register : Qubit[]) : Result
 
 ## Input
 
-### register : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### register : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 The register to be measured.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The result value `Zero`.
 

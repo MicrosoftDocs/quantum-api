@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Library.MyInt
 title: MyInt user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Library
@@ -13,7 +13,7 @@ qsharp.summary: ''
 
 Namespace: [Microsoft.Quantum.Library](xref:Microsoft.Quantum.Library)
 
-Package: [Library1](https://nuget.org/packages/Library1)
+Package: [Library2](https://nuget.org/packages/Library2)
 
 
 
@@ -22,13 +22,13 @@ Package: [Library1](https://nuget.org/packages/Library1)
 
 // Used for a unit test;
 // do not change the name or namespace of this type!
-@ Microsoft.Quantum.Diagnostics.EnableTestingViaName("Library1.MyInt")
-newtype MyInt = (Value1 : Int);
+@ Microsoft.Quantum.Diagnostics.EnableTestingViaName("Library2.MyInt")
+newtype MyInt = (Value2 : Int);
 ```
 
 
 
 ## Named Items
 
-### Value1 : [Int](xref:microsoft.quantum.lang-ref.int)
+### Value2 : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

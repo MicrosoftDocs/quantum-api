@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.ElementsAt
 title: ElementsAt function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function ElementsAt<'T> (range : Range, array : 'T[]) : 'T[]
 
 ## Input
 
-### range : [Range](xref:microsoft.quantum.lang-ref.range)
+### range : [Range](xref:microsoft.quantum.qsharp.valueliterals#range-literals)
 
 Range of array indexes
 

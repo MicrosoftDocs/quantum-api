@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.TableLookupRecovery
 title: TableLookupRecovery function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -28,7 +28,7 @@ function TableLookupRecovery (table : Pauli[][]) : Microsoft.Quantum.ErrorCorrec
 
 ## Input
 
-### table : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[][]
+### table : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[][]
 
 Table of Pauli operations that operate on a given qubit register
 

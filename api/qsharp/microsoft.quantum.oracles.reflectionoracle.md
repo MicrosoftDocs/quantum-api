@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Oracles.ReflectionOracle
 title: ReflectionOracle user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Oracles
@@ -33,7 +33,7 @@ newtype ReflectionOracle = (ApplyReflection : ((Double, Qubit[]) => Unit is Adj 
 
 ## Named Items
 
-### ApplyReflection : ([Double](xref:microsoft.quantum.lang-ref.double),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[]) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### ApplyReflection : ([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 
 

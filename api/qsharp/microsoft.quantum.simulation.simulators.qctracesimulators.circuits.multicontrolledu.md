@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiControlledU
 title: MultiControlledU operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,21 +25,21 @@ operation MultiControlledU (controlledU : ((Qubit, Qubit) => Unit is Adj), contr
 
 ## Input
 
-### controlledU : ([Qubit](xref:microsoft.quantum.lang-ref.qubit),[Qubit](xref:microsoft.quantum.lang-ref.qubit)) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### controlledU : ([Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 Singly controlled unitary to turn into multiply-controlled.First argument is control, second is target.
 
 
-### controls : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### controls : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyConditionallyIntrinsicA
 title: ApplyConditionallyIntrinsicA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
@@ -25,26 +25,26 @@ operation ApplyConditionallyIntrinsicA (measurementResults : Result[], resultsVa
 
 ## Input
 
-### measurementResults : __invalid<Result>__[]
+### measurementResults : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 
 
 
-### resultsValues : __invalid<Result>__[]
+### resultsValues : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 
 
 
-### onEqualOp : [Unit](xref:microsoft.quantum.lang-ref.unit) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### onEqualOp : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 
 
 
-### onNonEqualOp : [Unit](xref:microsoft.quantum.lang-ref.unit) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### onNonEqualOp : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

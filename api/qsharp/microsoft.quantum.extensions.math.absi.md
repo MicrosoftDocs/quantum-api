@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.AbsI
 title: AbsI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
@@ -38,11 +38,11 @@ function AbsI (a : Int) : Int
 
 ## Input
 
-### a : [Int](xref:microsoft.quantum.lang-ref.int)
+### a : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

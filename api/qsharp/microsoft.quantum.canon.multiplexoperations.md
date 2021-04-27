@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.MultiplexOperations
 title: MultiplexOperations operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -31,7 +31,7 @@ operation MultiplexOperations<'T> (unitaries : ('T => Unit is Adj + Ctl)[], inde
 
 ## Input
 
-### unitaries : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl[]
+### unitaries : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl[]
 
 Array of up to $2^n$ unitary operations. The $j$th operationis indexed by the number state $\ket{j}$ encoded in little-endian format.
 
@@ -47,7 +47,7 @@ Generic qubit register that $V_j$ acts on.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

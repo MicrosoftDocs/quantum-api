@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.PlusD
 title: PlusD function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,17 +25,17 @@ function PlusD (a : Double, b : Double) : Double
 
 ## Input
 
-### a : [Double](xref:microsoft.quantum.lang-ref.double)
+### a : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The first input $a$ to be summed.
 
 
-### b : [Double](xref:microsoft.quantum.lang-ref.double)
+### b : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The second input $b$ to be summed.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The sum $a + b$.

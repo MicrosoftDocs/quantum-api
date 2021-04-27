@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MeasureWithScratch
 title: MeasureWithScratch operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -27,17 +27,17 @@ operation MeasureWithScratch (pauli : Pauli[], target : Qubit[]) : Result
 
 ## Input
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 A multi-qubit Pauli operator specified as an array ofsingle-qubit Pauli operators.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubit register to be measured.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The result of measuring the given Pauli operator onthe `target` register.

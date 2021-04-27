@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Logical.NotEqualC
 title: NotEqualC function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
@@ -36,6 +36,6 @@ The second value to be compared.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 `true` if and only if `a` is not equal to `b`.

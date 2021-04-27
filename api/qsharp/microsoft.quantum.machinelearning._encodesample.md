@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._EncodeSample
 title: _EncodeSample function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,12 +25,12 @@ function _EncodeSample (effectiveTolerance : Double, nQubits : Int, sample : Mic
 
 ## Input
 
-### effectiveTolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### effectiveTolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 

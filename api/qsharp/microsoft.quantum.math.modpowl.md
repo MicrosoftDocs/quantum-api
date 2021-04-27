@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ModPowL
 title: ModPowL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,23 +25,23 @@ function ModPowL (value : BigInt, exponent : BigInt, modulus : BigInt) : BigInt
 
 ## Input
 
-### value : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### value : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The value to be raised to the given exponent.
 
 
-### exponent : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### exponent : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The exponent to which `value` is to be raised.
 
 
-### modulus : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### modulus : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The modulus with respect to which `value ^ exponent` is to be computed.
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The result of `(value ^ exponent) % modulus`.
 

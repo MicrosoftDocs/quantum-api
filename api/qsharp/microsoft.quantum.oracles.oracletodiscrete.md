@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Oracles.OracleToDiscrete
 title: OracleToDiscrete function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Oracles
@@ -27,7 +27,7 @@ function OracleToDiscrete (blackBoxOracle : (Qubit[] => Unit is Adj + Ctl)) : Mi
 
 ## Input
 
-### blackBoxOracle : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### blackBoxOracle : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The operation to be exponentiated.
 

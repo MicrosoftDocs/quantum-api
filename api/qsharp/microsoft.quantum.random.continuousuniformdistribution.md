@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.ContinuousUniformDistribution
 title: ContinuousUniformDistribution function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
@@ -25,12 +25,12 @@ function ContinuousUniformDistribution (min : Double, max : Double) : Microsoft.
 
 ## Input
 
-### min : [Double](xref:microsoft.quantum.lang-ref.double)
+### min : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The smallest real number to be drawn.
 
 
-### max : [Double](xref:microsoft.quantum.lang-ref.double)
+### max : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The largest real number to be drawn.
 
@@ -46,7 +46,7 @@ The following Q# snippet randomly draws an angle between $0$ and $2 \pi$:```qs
 
 ## Remarks
 
-Fails if `max <= min`.
+Fails if `max < min`.
 
 ## See Also
 

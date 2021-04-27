@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.BlockEncodingByLCU
 title: BlockEncodingByLCU function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -32,18 +32,18 @@ function BlockEncodingByLCU<'T, 'S> (statePreparation : ('T => Unit is Adj + Ctl
 
 ## Input
 
-### statePreparation : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### statePreparation : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A unitary $P$ that prepares some target state.
 
 
-### selector : ('T,'S) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### selector : ('T,'S) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A unitary $V$ that encodes the component unitaries of $H$.
 
 
 
-## Output : ('T,'S) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : ('T,'S) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A unitary $U$ acting jointly on registers `a` and `s` that block-encodes $H$, and satisfies $U^\dagger = U$.
 

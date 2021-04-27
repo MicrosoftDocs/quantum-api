@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.DrawRandomInt
 title: DrawRandomInt operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -25,18 +25,18 @@ operation DrawRandomInt (min : Int, max : Int) : Int
 
 ## Input
 
-### min : [Int](xref:microsoft.quantum.lang-ref.int)
+### min : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The smallest integer to be drawn.
 
 
-### max : [Int](xref:microsoft.quantum.lang-ref.int)
+### max : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The largest integer to be drawn.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 An integer in the inclusive range from `min` to `max` with uniformprobability.
 
@@ -46,7 +46,7 @@ The following Q# snippet randomly rolls a six-sided die:```qsharplet roll = D
 
 ## Remarks
 
-Fails if `max <= min`.
+Fails if `max < min`.
 
 ## See Also
 

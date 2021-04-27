@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.SequenceI
 title: SequenceI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -25,18 +25,18 @@ function SequenceI (from : Int, to : Int) : Int[]
 
 ## Input
 
-### from : [Int](xref:microsoft.quantum.lang-ref.int)
+### from : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 An inclusive start index of the interval.
 
 
-### to : [Int](xref:microsoft.quantum.lang-ref.int)
+### to : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 An inclusive end index of the interval that is not smaller than `from`.
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)[]
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 An array containing the sequence of numbers `from`, `from + 1`, ...,`to`.
 

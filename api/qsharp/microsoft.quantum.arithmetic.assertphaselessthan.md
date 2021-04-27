@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AssertPhaseLessThan
 title: AssertPhaseLessThan operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -25,7 +25,7 @@ operation AssertPhaseLessThan (value : Int, number : Microsoft.Quantum.Arithmeti
 
 ## Input
 
-### value : [Int](xref:microsoft.quantum.lang-ref.int)
+### value : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 `number` must be less than this.
 
@@ -36,7 +36,7 @@ Unsigned integer which is compared to `value`.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

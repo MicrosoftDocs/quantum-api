@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplySeriesOfOpsA
 title: ApplySeriesOfOpsA operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -25,12 +25,12 @@ operation ApplySeriesOfOpsA<'T> (listOfOps : ('T[] => Unit is Adj)[], targets : 
 
 ## Input
 
-### listOfOps : 'T[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj[]
+### listOfOps : 'T[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj[]
 
 List of ops, each taking a 'T array, to be applied. They are applied sequentially, lowest index first.Each must have an adjoint functor
 
 
-### targets : [Int](xref:microsoft.quantum.lang-ref.int)[][]
+### targets : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[][]
 
 Nested arrays describing the targets of the op. Each array should contain a list of ints describingthe indices to be used.
 
@@ -41,7 +41,7 @@ Qubit register to be acted upon.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

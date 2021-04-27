@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.TrainSequentialClassifierAtModel
 title: TrainSequentialClassifierAtModel operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -53,7 +53,7 @@ A sampling schedule to use when selecting samples from the trainingdata when se
 
 
 
-## Output : ([SequentialModel](xref:Microsoft.Quantum.MachineLearning.SequentialModel),[Int](xref:microsoft.quantum.lang-ref.int))
+## Output : ([SequentialModel](xref:Microsoft.Quantum.MachineLearning.SequentialModel),[Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals))
 
 - A parameterization of the given classifier and a bias between the two  classes, together corresponding to the best result from each of the  given start points.- The number of misses observed at the best classifier model.
 

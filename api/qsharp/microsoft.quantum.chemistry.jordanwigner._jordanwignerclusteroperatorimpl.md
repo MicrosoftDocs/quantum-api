@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerClusterOperatorImpl
 title: _JordanWignerClusterOperatorImpl operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -35,16 +35,16 @@ operation _JordanWignerClusterOperatorImpl (generatorIndex : Microsoft.Quantum.S
 A generator index to be represented as unitary evolution in the JordanWigner.
 
 
-### stepSize : [Double](xref:microsoft.quantum.lang-ref.double)
+### stepSize : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Dummy variable to match signature of simulation algorithms.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Register acted upon by time-evolution operator.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

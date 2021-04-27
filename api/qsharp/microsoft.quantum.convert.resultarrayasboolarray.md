@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.ResultArrayAsBoolArray
 title: ResultArrayAsBoolArray function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -27,12 +27,12 @@ function ResultArrayAsBoolArray (input : Result[]) : Bool[]
 
 ## Input
 
-### input : __invalid<Result>__[]
+### input : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 `Result[]` to be converted.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 A `Bool[]` representing the `input`.

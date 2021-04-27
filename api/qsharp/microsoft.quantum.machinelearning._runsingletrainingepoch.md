@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._RunSingleTrainingEpoch
 title: _RunSingleTrainingEpoch operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -37,7 +37,7 @@ operation _RunSingleTrainingEpoch (encodedSamples : (Microsoft.Quantum.MachineLe
 
 
 
-### periodScore : [Int](xref:microsoft.quantum.lang-ref.int)
+### periodScore : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of gradient steps to be taken between scoring points.For best accuracy, set to 1.
 
@@ -52,12 +52,12 @@ Options to be used in training.
 The sequential model to be trained.
 
 
-### nPreviousBestMisses : [Int](xref:microsoft.quantum.lang-ref.int)
+### nPreviousBestMisses : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The best number of misclassifications observed in previous epochs.
 
 
 
-## Output : ([Int](xref:microsoft.quantum.lang-ref.int),[SequentialModel](xref:Microsoft.Quantum.MachineLearning.SequentialModel))
+## Output : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[SequentialModel](xref:Microsoft.Quantum.MachineLearning.SequentialModel))
 
 - The smallest number of misclassifications observed through to this  epoch.- The new best sequential model found.

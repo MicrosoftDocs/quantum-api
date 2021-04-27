@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Padded
 title: Padded function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function Padded<'T> (nElementsTotal : Int, defaultElement : 'T, inputArray : 'T[
 
 ## Input
 
-### nElementsTotal : [Int](xref:microsoft.quantum.lang-ref.int)
+### nElementsTotal : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The length of the padded array. If this is positive, `inputArray`is padded at the head. If this is negative, `inputArray` is paddedat the tail.
 

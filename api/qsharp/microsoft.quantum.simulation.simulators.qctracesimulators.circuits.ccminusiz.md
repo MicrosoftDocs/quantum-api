@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.CCminusIZ
 title: CCminusIZ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,21 +25,21 @@ operation CCminusIZ (control1 : Qubit, control2 : Qubit, target : Qubit) : Unit 
 
 ## Input
 
-### control1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### control2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Unique
 title: Unique function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -29,7 +29,7 @@ Given some array of elements and a function to test equality, thisfunction retu
 
 ## Input
 
-### equal : ('T,'T) -> [Bool](xref:microsoft.quantum.lang-ref.bool)
+### equal : ('T,'T) -> [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A function that compares two elements such that `a` is considered tobe equal to `b` if `equal(a, b)` is `true`.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingQubitManager_
 title: _JordanWignerOptimizedBlockEncodingQubitManager_ function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,36 +25,36 @@ function _JordanWignerOptimizedBlockEncodingQubitManager_ (targetError : Double,
 
 ## Input
 
-### targetError : [Double](xref:microsoft.quantum.lang-ref.double)
+### targetError : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### nCoeffs : [Int](xref:microsoft.quantum.lang-ref.int)
+### nCoeffs : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### nZ : [Int](xref:microsoft.quantum.lang-ref.int)
+### nZ : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### nMaj : [Int](xref:microsoft.quantum.lang-ref.int)
+### nMaj : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### nIdxRegQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nIdxRegQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### ctrlRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### ctrlRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : (([LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian),[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)[]),([Qubit](xref:microsoft.quantum.lang-ref.qubit),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)[]),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[])
+## Output : (([LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian),[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)[]),([Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)[]),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[])
 

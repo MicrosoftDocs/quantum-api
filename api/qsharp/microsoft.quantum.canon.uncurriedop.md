@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.UncurriedOp
 title: UncurriedOp function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -28,13 +28,13 @@ function UncurriedOp<'T, 'U> (curriedOp : ('T -> ('U => Unit))) : (('T, 'U) => U
 
 ## Input
 
-### curriedOp : 'T -> 'U => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### curriedOp : 'T -> 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 A function which returns operations.
 
 
 
-## Output : ('T,'U) => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+## Output : ('T,'U) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 A new operation `op` such that `op(t, u)` is equivalentto `(curriedOp(t))(u)`.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.RandomInt
 title: RandomInt operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
@@ -32,11 +32,11 @@ operation RandomInt (maxInt : Int) : Int
 
 ## Input
 
-### maxInt : [Int](xref:microsoft.quantum.lang-ref.int)
+### maxInt : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

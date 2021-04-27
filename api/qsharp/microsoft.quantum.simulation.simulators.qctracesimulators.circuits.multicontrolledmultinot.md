@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.MultiControlledMultiNot
 title: MultiControlledMultiNot operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,16 +25,16 @@ operation MultiControlledMultiNot (controls : Qubit[], targets : Qubit[]) : Unit
 
 ## Input
 
-### controls : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### controls : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### targets : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targets : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

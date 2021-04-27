@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Assert
 title: Assert operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -32,26 +32,26 @@ operation Assert (bases : Pauli[], qubits : Qubit[], result : Result, msg : Stri
 
 ## Input
 
-### bases : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### bases : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### result : __invalid<Result>__
+### result : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 
 
 
-### msg : [String](xref:microsoft.quantum.lang-ref.string)
+### msg : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

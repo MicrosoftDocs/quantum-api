@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.LogOf2
 title: LogOf2 function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -23,6 +23,6 @@ function LogOf2 () : Double
 ```
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Returns a `Double` equal to $0.6931471805599453$.

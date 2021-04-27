@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation.ForceMeasure
 title: ForceMeasure operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Implementation
@@ -25,21 +25,21 @@ operation ForceMeasure (observable : Pauli[], target : Qubit[], result : Result)
 
 ## Input
 
-### observable : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### observable : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### result : __invalid<Result>__
+### result : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

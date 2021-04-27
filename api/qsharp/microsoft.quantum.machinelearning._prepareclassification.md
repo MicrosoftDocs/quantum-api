@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._PrepareClassification
 title: _PrepareClassification operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -25,7 +25,7 @@ operation _PrepareClassification (encoder : (Microsoft.Quantum.Arithmetic.Little
 
 ## Input
 
-### encoder : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### encoder : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 
 
@@ -35,11 +35,11 @@ operation _PrepareClassification (encoder : (Microsoft.Quantum.Arithmetic.Little
 
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

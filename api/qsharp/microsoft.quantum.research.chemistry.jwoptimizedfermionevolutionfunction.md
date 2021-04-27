@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry.JWOptimizedFermionEvolutionFunction
 title: JWOptimizedFermionEvolutionFunction function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -32,7 +32,7 @@ function JWOptimizedFermionEvolutionFunction (generatorIndex : Microsoft.Quantum
 A generator index to be represented as unitary evolution in the JWOptimizedbasis.
 
 
-### parityQubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### parityQubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit that determines the sign of time-evolution.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.PauliArrayByIndex
 title: PauliArrayByIndex function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -27,16 +27,16 @@ function PauliArrayByIndex (paulies : Pauli[], indices : Int[]) : Pauli[]
 
 ## Input
 
-### paulies : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+### paulies : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
 
 
 
-### indices : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### indices : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
 
-## Output : [Pauli](xref:microsoft.quantum.lang-ref.pauli)[]
+## Output : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubit
 title: AssertQubit operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -25,18 +25,18 @@ operation AssertQubit (expected : Result, q : Qubit) : Unit is Adj + Ctl
 
 ## Input
 
-### expected : __invalid<Result>__
+### expected : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 Which state the qubit is expected to be in: `Zero` or `One`.
 
 
-### q : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### q : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 The qubit whose state is asserted.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

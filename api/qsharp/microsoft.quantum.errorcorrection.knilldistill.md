@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.KnillDistill
 title: KnillDistill operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -29,13 +29,13 @@ Given 15 approximate copies of a magic state$$\begin{align}\cos\frac{\pi}{8} 
 
 ## Input
 
-### roughMagic : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### roughMagic : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register of fifteen qubits containing approximate copiesof a magic state. Following application of this distillationprocedure, `roughMagic[0]` will contain one higher-qualitycopy, and the rest of the register will be reset to the$\ket{00\cdots 0}$ state.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 If `true`, then the procedure succeeded and the higher-qualitycopy should be accepted. If `false`, the procedure failed, andthe state of the register should be considered undefined.
 

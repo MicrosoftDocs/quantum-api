@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PurifiedMixedState
 title: PurifiedMixedState function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -29,12 +29,12 @@ Uses the Quantum ROM technique to represent a given density matrix,returning th
 
 ## Input
 
-### targetError : [Double](xref:microsoft.quantum.lang-ref.double)
+### targetError : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The target error $\epsilon$.
 
 
-### coefficients : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coefficients : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 Array of $N$ coefficients specifying the probability of basis states.Negative numbers $-\alpha_j$ will be treated as positive $|\alpha_j|$.
 

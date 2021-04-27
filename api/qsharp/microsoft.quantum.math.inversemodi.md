@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.InverseModI
 title: InverseModI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,17 +25,17 @@ function InverseModI (a : Int, modulus : Int) : Int
 
 ## Input
 
-### a : [Int](xref:microsoft.quantum.lang-ref.int)
+### a : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number being inverted
 
 
-### modulus : [Int](xref:microsoft.quantum.lang-ref.int)
+### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The modulus according to which the numbers are inverted
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Integer $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$.
