@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.StackPush
 title: StackPush function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -37,7 +37,7 @@ function StackPush (stack : Microsoft.Quantum.Canon.ResultStack, datum : Result)
 
 
 
-### datum : __invalid<Result>__
+### datum : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 
 

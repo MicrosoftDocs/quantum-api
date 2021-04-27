@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AssertProbInt
 title: AssertProbInt operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -31,12 +31,12 @@ Given an $n$-qubit quantum state $\ket{\psi}=\sum^{2^n-1}_{j=0}\alpha_j \ket{j}$
 
 ## Input
 
-### stateIndex : [Int](xref:microsoft.quantum.lang-ref.int)
+### stateIndex : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The index $j$ of the state $\ket{j}$ represented by a `LittleEndian`register.
 
 
-### expected : [Double](xref:microsoft.quantum.lang-ref.double)
+### expected : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The expected value of $|\alpha_j|^2$.
 
@@ -46,13 +46,13 @@ The expected value of $|\alpha_j|^2$.
 The qubit register that stores $\ket{\psi}$ in little-endian format.
 
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Absolute tolerance on the difference between actual and expected.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: SystemTestJWOptimizedES.PQQRTermFromGeneralHamiltonianTestOp
 title: PQQRTermFromGeneralHamiltonianTestOp operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: SystemTestJWOptimizedES
@@ -31,5 +31,5 @@ operation PQQRTermFromGeneralHamiltonianTestOp (data : Microsoft.Quantum.Chemist
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

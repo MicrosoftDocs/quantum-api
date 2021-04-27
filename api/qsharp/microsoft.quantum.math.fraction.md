@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.Fraction
 title: Fraction user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Math
@@ -30,9 +30,9 @@ newtype Fraction = (Numerator : Int, Denominator : Int);
 
 ## Named Items
 
-### Numerator : [Int](xref:microsoft.quantum.lang-ref.int)
+### Numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Numerator of the fraction.
-### Denominator : [Int](xref:microsoft.quantum.lang-ref.int)
+### Denominator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Denominator of the fraction/

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.DelayC
 title: DelayC operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,7 +29,7 @@ Given an operation and an input to that operation, appliesthe operation once an
 
 ## Input
 
-### op : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### op : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 An operation to be applied.
 
@@ -39,13 +39,13 @@ An operation to be applied.
 The input to which the operation is applied.
 
 
-### aux : [Unit](xref:microsoft.quantum.lang-ref.unit)
+### aux : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 Argument used to delay the application of operation by usingpartial application.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.BlochSphereCoordinates
 title: BlochSphereCoordinates function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -41,6 +41,6 @@ Complex coefficient of state $\ket{1}$.
 
 
 
-## Output : ([ComplexPolar](xref:Microsoft.Quantum.Math.ComplexPolar),[Double](xref:microsoft.quantum.lang-ref.double),[Double](xref:microsoft.quantum.lang-ref.double))
+## Output : ([ComplexPolar](xref:Microsoft.Quantum.Math.ComplexPolar),[Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals))
 
 A tuple containing `(ComplexPolar(r, t), phi, theta)`.

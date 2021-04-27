@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingStatePrep_
 title: _JordanWignerOptimizedBlockEncodingStatePrep_ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,12 +25,12 @@ operation _JordanWignerOptimizedBlockEncodingStatePrep_ (targetError : Double, n
 
 ## Input
 
-### targetError : [Double](xref:microsoft.quantum.lang-ref.double)
+### targetError : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### nCoeffs : [Int](xref:microsoft.quantum.lang-ref.int)
+### nCoeffs : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
@@ -40,26 +40,26 @@ operation _JordanWignerOptimizedBlockEncodingStatePrep_ (targetError : Double, n
 
 
 
-### nZ : [Int](xref:microsoft.quantum.lang-ref.int)
+### nZ : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### nMaj : [Int](xref:microsoft.quantum.lang-ref.int)
+### nMaj : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### nIdxRegQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nIdxRegQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### ctrlRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### ctrlRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

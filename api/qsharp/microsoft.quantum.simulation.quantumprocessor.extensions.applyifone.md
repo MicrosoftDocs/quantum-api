@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfOne
 title: ApplyIfOne operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
@@ -25,12 +25,12 @@ operation ApplyIfOne<'T> (measurementResult : Result, (onResultOneOp : ('T => Un
 
 ## Input
 
-### measurementResult : __invalid<Result>__
+### measurementResult : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 
 
 
-### onResultOneOp : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### onResultOneOp : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 
 
@@ -41,7 +41,7 @@ operation ApplyIfOne<'T> (measurementResult : Result, (onResultOneOp : ('T => Un
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

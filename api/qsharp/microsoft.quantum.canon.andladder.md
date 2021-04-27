@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.AndLadder
 title: AndLadder operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -34,24 +34,24 @@ This operation applies a transformation described by the followingmapping of th
 The CCNOT gate to use for the construction.
 
 
-### controls : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### controls : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A register of qubits to be used as controls for the and ladder.This operation leaves computational basis states of `controls`invariant.The length of `controls` must be at least 2, and mustbe equal to one plus the length of `targets`.
 
 
-### targets : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targets : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 The length of `targets` must be at least 1 and equal to the lengthof `controls` minus one.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 
 ## Remarks
 
-- Used as a part of <xref:microsoft.quantum.canon.applymulticontrolledc>  and <xref:microsoft.quantum.canon.applymulticontrolledca>.- For the explanation and circuit diagram see Figure 4.10, Section 4.3 in Nielsen & Chuang.
+- Used as a part of <xref:Microsoft.Quantum.Canon.ApplyMultiControlledC>  and <xref:Microsoft.Quantum.Canon.ApplyMultiControlledCA>.- For the explanation and circuit diagram see Figure 4.10, Section 4.3 in Nielsen & Chuang.
 
 ## References
 

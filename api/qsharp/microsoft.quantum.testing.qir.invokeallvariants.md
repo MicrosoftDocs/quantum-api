@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Testing.QIR.InvokeAllVariants
 title: InvokeAllVariants operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Testing.QIR
@@ -25,11 +25,11 @@ operation InvokeAllVariants (op : (Qubit => Unit is Adj + Ctl)) : Int
 
 ## Input
 
-### op : [Qubit](xref:microsoft.quantum.lang-ref.qubit) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### op : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 

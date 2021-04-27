@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyCNOTChainWithTarget
 title: ApplyCNOTChainWithTarget operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,18 +29,18 @@ If the array is initially in the state$\ket{q_0} \ket{q_1} \cdots \ket{q_{\text
 
 ## Input
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Array of qubits on which the parity is computed.
 
 
-### targetQubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### targetQubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Final qubit into which the parity of 'qubits' is XORed.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

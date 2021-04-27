@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApproximatelyMultiplexZ
 title: ApproximatelyMultiplexZ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -31,12 +31,12 @@ This applies the multiply controlled unitary operation that performsrotations b
 
 ## Input
 
-### tolerance : [Double](xref:microsoft.quantum.lang-ref.double)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 A tolerance below which small coefficients are truncated.
 
 
-### coefficients : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coefficients : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 Array of up to $2^n$ coefficients $\theta_j$. The $j$th coefficientindexes the number state $\ket{j}$ encoded in little-endian format.
 
@@ -46,13 +46,13 @@ Array of up to $2^n$ coefficients $\theta_j$. The $j$th coefficientindexes the 
 $n$-qubit control register that encodes number states $\ket{j}$ inlittle-endian format.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Single qubit register that is rotated by $e^{i P \theta_j}$.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

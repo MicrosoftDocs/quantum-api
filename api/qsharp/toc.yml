@@ -124,7 +124,6 @@
   - {name: ElementAt, uid: Microsoft.Quantum.Arrays.ElementAt}
   - {name: ElementsAt, uid: Microsoft.Quantum.Arrays.ElementsAt}
   - {name: EmptyArray, uid: Microsoft.Quantum.Arrays.EmptyArray}
-  - {name: EmptyArraysAreEmpty, uid: Microsoft.Quantum.Arrays.EmptyArraysAreEmpty}
   - {name: Enumerated, uid: Microsoft.Quantum.Arrays.Enumerated}
   - {name: EqualA, uid: Microsoft.Quantum.Arrays.EqualA}
   - {name: Exclude, uid: Microsoft.Quantum.Arrays.Exclude}
@@ -548,13 +547,9 @@
   - {name: Inline, uid: Microsoft.Quantum.Core.Inline}
   - {name: Length, uid: Microsoft.Quantum.Core.Length}
   - {name: RangeEnd, uid: Microsoft.Quantum.Core.RangeEnd}
-  - {name: RangeEnd__Body, uid: Microsoft.Quantum.Core.RangeEnd__Body}
   - {name: RangeReverse, uid: Microsoft.Quantum.Core.RangeReverse}
-  - {name: RangeReverse__Body, uid: Microsoft.Quantum.Core.RangeReverse__Body}
   - {name: RangeStart, uid: Microsoft.Quantum.Core.RangeStart}
-  - {name: RangeStart__Body, uid: Microsoft.Quantum.Core.RangeStart__Body}
   - {name: RangeStep, uid: Microsoft.Quantum.Core.RangeStep}
-  - {name: RangeStep__Body, uid: Microsoft.Quantum.Core.RangeStep__Body}
   name: Microsoft.Quantum.Core
   uid: Microsoft.Quantum.Core
 - items:
@@ -696,28 +691,6 @@
   name: Microsoft.Quantum.Extensions.Math
   uid: Microsoft.Quantum.Extensions.Math
 - items:
-  - {name: Mx, uid: Microsoft.Quantum.Instructions.Mx}
-  - {name: Mxx, uid: Microsoft.Quantum.Instructions.Mxx}
-  - {name: Mxz, uid: Microsoft.Quantum.Instructions.Mxz}
-  - {name: Mz, uid: Microsoft.Quantum.Instructions.Mz}
-  - {name: Mzx, uid: Microsoft.Quantum.Instructions.Mzx}
-  - {name: Mzz, uid: Microsoft.Quantum.Instructions.Mzz}
-  - {name: Sx, uid: Microsoft.Quantum.Instructions.Sx}
-  - {name: Sz, uid: Microsoft.Quantum.Instructions.Sz}
-  - {name: Tx, uid: Microsoft.Quantum.Instructions.Tx}
-  - {name: Tz, uid: Microsoft.Quantum.Instructions.Tz}
-  - {name: apply_conditionally, uid: Microsoft.Quantum.Instructions.apply_conditionally}
-  - {name: joint_measure, uid: Microsoft.Quantum.Instructions.joint_measure}
-  - {name: multi_qubit_op, uid: Microsoft.Quantum.Instructions.multi_qubit_op}
-  - {name: multi_qubit_op_ctl, uid: Microsoft.Quantum.Instructions.multi_qubit_op_ctl}
-  - {name: single_qubit_measure, uid: Microsoft.Quantum.Instructions.single_qubit_measure}
-  - {name: single_qubit_op, uid: Microsoft.Quantum.Instructions.single_qubit_op}
-  - {name: single_qubit_op_ctl, uid: Microsoft.Quantum.Instructions.single_qubit_op_ctl}
-  name: Microsoft.Quantum.Instructions
-  uid: Microsoft.Quantum.Instructions
-- items:
-  - {name: ApplyConditionallyIntrinsic, uid: Microsoft.Quantum.Intrinsic.ApplyConditionallyIntrinsic}
-  - {name: ApplyIfElseIntrinsic, uid: Microsoft.Quantum.Intrinsic.ApplyIfElseIntrinsic}
   - {name: ApplyUncontrolledSWAP, uid: Microsoft.Quantum.Intrinsic.ApplyUncontrolledSWAP}
   - {name: Assert, uid: Microsoft.Quantum.Intrinsic.Assert}
   - {name: AssertProb, uid: Microsoft.Quantum.Intrinsic.AssertProb}
@@ -727,22 +700,9 @@
   - {name: ExpFrac, uid: Microsoft.Quantum.Intrinsic.ExpFrac}
   - {name: H, uid: Microsoft.Quantum.Intrinsic.H}
   - {name: I, uid: Microsoft.Quantum.Intrinsic.I}
-  - {name: INFINITY, uid: Microsoft.Quantum.Intrinsic.INFINITY}
-  - {name: INFINITY__Body, uid: Microsoft.Quantum.Intrinsic.INFINITY__Body}
-  - {name: IsInf, uid: Microsoft.Quantum.Intrinsic.IsInf}
-  - {name: IsInf__Body, uid: Microsoft.Quantum.Intrinsic.IsInf__Body}
-  - {name: IsNan, uid: Microsoft.Quantum.Intrinsic.IsNan}
-  - {name: IsNan__Body, uid: Microsoft.Quantum.Intrinsic.IsNan__Body}
-  - {name: IsNegativeInfinity, uid: Microsoft.Quantum.Intrinsic.IsNegativeInfinity}
-  - {name: IsNegativeInfinity__Body, uid: Microsoft.Quantum.Intrinsic.IsNegativeInfinity__Body}
-  - {name: K, uid: Microsoft.Quantum.Intrinsic.K}
-  - {name: K__Body, uid: Microsoft.Quantum.Intrinsic.K__Body}
-  - {name: K__Ctl, uid: Microsoft.Quantum.Intrinsic.K__Ctl}
   - {name: M, uid: Microsoft.Quantum.Intrinsic.M}
   - {name: Measure, uid: Microsoft.Quantum.Intrinsic.Measure}
   - {name: Message, uid: Microsoft.Quantum.Intrinsic.Message}
-  - {name: NAN, uid: Microsoft.Quantum.Intrinsic.NAN}
-  - {name: NAN__Body, uid: Microsoft.Quantum.Intrinsic.NAN__Body}
   - {name: R, uid: Microsoft.Quantum.Intrinsic.R}
   - {name: R1, uid: Microsoft.Quantum.Intrinsic.R1}
   - {name: R1Frac, uid: Microsoft.Quantum.Intrinsic.R1Frac}
@@ -1132,7 +1092,6 @@
   - {name: IdentityTimeDependentGeneratorSystem, uid: Microsoft.Quantum.Simulation.IdentityTimeDependentGeneratorSystem}
   - {name: IntToPauli, uid: Microsoft.Quantum.Simulation.IntToPauli}
   - {name: InterpolateGeneratorSystems, uid: Microsoft.Quantum.Simulation.InterpolateGeneratorSystems}
-  - {name: InterpolateGeneratorSystemsImpl, uid: Microsoft.Quantum.Simulation.InterpolateGeneratorSystemsImpl}
   - {name: InterpolatedEvolution, uid: Microsoft.Quantum.Simulation.InterpolatedEvolution}
   - {name: IntsToPaulis, uid: Microsoft.Quantum.Simulation.IntsToPaulis}
   - {name: MultiplyGeneratorIndex, uid: Microsoft.Quantum.Simulation.MultiplyGeneratorIndex}
@@ -1140,7 +1099,6 @@
   - {name: PauliBlockEncoding, uid: Microsoft.Quantum.Simulation.PauliBlockEncoding}
   - {name: PauliCoefficientFromGenIdx, uid: Microsoft.Quantum.Simulation.PauliCoefficientFromGenIdx}
   - {name: PauliEvolutionFunction, uid: Microsoft.Quantum.Simulation.PauliEvolutionFunction}
-  - {name: PauliEvolutionImpl, uid: Microsoft.Quantum.Simulation.PauliEvolutionImpl}
   - {name: PauliEvolutionSet, uid: Microsoft.Quantum.Simulation.PauliEvolutionSet}
   - {name: PauliStringFromGenIdx, uid: Microsoft.Quantum.Simulation.PauliStringFromGenIdx}
   - {name: QuantumWalkByQubitization, uid: Microsoft.Quantum.Simulation.QuantumWalkByQubitization}
@@ -1156,10 +1114,6 @@
   - {name: TrotterStep, uid: Microsoft.Quantum.Simulation.TrotterStep}
   - {name: TrotterStepImpl, uid: Microsoft.Quantum.Simulation.TrotterStepImpl}
   - {name: Unitary, uid: Microsoft.Quantum.Simulation.Unitary}
-  - {name: _AddGeneratorSystems, uid: Microsoft.Quantum.Simulation._AddGeneratorSystems}
-  - {name: _IdentityTimeDependentGeneratorSystem, uid: Microsoft.Quantum.Simulation._IdentityTimeDependentGeneratorSystem}
-  - {name: _MultiplyGeneratorSystem, uid: Microsoft.Quantum.Simulation._MultiplyGeneratorSystem}
-  - {name: _PauliBlockEncoding, uid: Microsoft.Quantum.Simulation._PauliBlockEncoding}
   name: Microsoft.Quantum.Simulation
   uid: Microsoft.Quantum.Simulation
 - items:
@@ -1573,131 +1527,31 @@
   name: Microsoft.Quantum.Testing.Honeywell.Monomorphization
   uid: Microsoft.Quantum.Testing.Honeywell.Monomorphization
 - items:
-  - {name: BothCallables, uid: Microsoft.Quantum.Testing.LoadViaTestName.BothCallables}
-  - {name: BothTypes, uid: Microsoft.Quantum.Testing.LoadViaTestName.BothTypes}
-  - {name: ConflictingWithSource, uid: Microsoft.Quantum.Testing.LoadViaTestName.ConflictingWithSource}
-  - {name: OneCallable, uid: Microsoft.Quantum.Testing.LoadViaTestName.OneCallable}
-  - {name: OneType, uid: Microsoft.Quantum.Testing.LoadViaTestName.OneType}
-  name: Microsoft.Quantum.Testing.LoadViaTestName
-  uid: Microsoft.Quantum.Testing.LoadViaTestName
-- items:
+  - {name: DumpMachineTest, uid: Microsoft.Quantum.Testing.QIR.DumpMachineTest}
+  - {name: DumpMachineToFileTest, uid: Microsoft.Quantum.Testing.QIR.DumpMachineToFileTest}
+  - {name: DumpRegisterTest, uid: Microsoft.Quantum.Testing.QIR.DumpRegisterTest}
+  - {name: DumpRegisterToFileTest, uid: Microsoft.Quantum.Testing.QIR.DumpRegisterToFileTest}
   - {name: InvokeAllVariants, uid: Microsoft.Quantum.Testing.QIR.InvokeAllVariants}
-  - {name: NoArgs, uid: Microsoft.Quantum.Testing.QIR.NoArgs}
-  - {name: Qop, uid: Microsoft.Quantum.Testing.QIR.Qop}
   - {name: QuantumRandomNumberGenerator, uid: Microsoft.Quantum.Testing.QIR.QuantumRandomNumberGenerator}
-  - {name: Subtract, uid: Microsoft.Quantum.Testing.QIR.Subtract}
-  - {name: TestApplyConditionally, uid: Microsoft.Quantum.Testing.QIR.TestApplyConditionally}
-  - {name: TestApplyIf, uid: Microsoft.Quantum.Testing.QIR.TestApplyIf}
-  - {name: TestApplyIfWithFunctors, uid: Microsoft.Quantum.Testing.QIR.TestApplyIfWithFunctors}
-  - {name: TestFunctors, uid: Microsoft.Quantum.Testing.QIR.TestFunctors}
-  - {name: TestFunctorsNoArgs, uid: Microsoft.Quantum.Testing.QIR.TestFunctorsNoArgs}
-  - {name: TestPartials, uid: Microsoft.Quantum.Testing.QIR.TestPartials}
-  - {name: TestQubitResultManagement, uid: Microsoft.Quantum.Testing.QIR.TestQubitResultManagement}
-  - {name: Test_Arrays, uid: Microsoft.Quantum.Testing.QIR.Test_Arrays}
   - {name: Test_Simulator_QIS, uid: Microsoft.Quantum.Testing.QIR.Test_Simulator_QIS}
   name: Microsoft.Quantum.Testing.QIR
   uid: Microsoft.Quantum.Testing.QIR
-- items:
-  - {name: ArcCosTest, uid: Microsoft.Quantum.Testing.QIR.Math.ArcCosTest}
-  - {name: ArcSinTest, uid: Microsoft.Quantum.Testing.QIR.Math.ArcSinTest}
-  - {name: ArcTan2Test, uid: Microsoft.Quantum.Testing.QIR.Math.ArcTan2Test}
-  - {name: ArcTanTest, uid: Microsoft.Quantum.Testing.QIR.Math.ArcTanTest}
-  - {name: Close, uid: Microsoft.Quantum.Testing.QIR.Math.Close}
-  - {name: CosTest, uid: Microsoft.Quantum.Testing.QIR.Math.CosTest}
-  - {name: CoshTest, uid: Microsoft.Quantum.Testing.QIR.Math.CoshTest}
-  - {name: IeeeRemainderTest, uid: Microsoft.Quantum.Testing.QIR.Math.IeeeRemainderTest}
-  - {name: LogTest, uid: Microsoft.Quantum.Testing.QIR.Math.LogTest}
-  - {name: SinTest, uid: Microsoft.Quantum.Testing.QIR.Math.SinTest}
-  - {name: SinhTest, uid: Microsoft.Quantum.Testing.QIR.Math.SinhTest}
-  - {name: SqrtTest, uid: Microsoft.Quantum.Testing.QIR.Math.SqrtTest}
-  - {name: TanTest, uid: Microsoft.Quantum.Testing.QIR.Math.TanTest}
-  - {name: TanhTest, uid: Microsoft.Quantum.Testing.QIR.Math.TanhTest}
-  - {name: TestDrawRandomDouble, uid: Microsoft.Quantum.Testing.QIR.Math.TestDrawRandomDouble}
-  - {name: TestDrawRandomInt, uid: Microsoft.Quantum.Testing.QIR.Math.TestDrawRandomInt}
-  name: Microsoft.Quantum.Testing.QIR.Math
-  uid: Microsoft.Quantum.Testing.QIR.Math
-- items:
-  - {name: ParityTest, uid: Microsoft.Quantum.Testing.QIR.Other.ParityTest}
-  - {name: PauliArrayAsIntFailTest, uid: Microsoft.Quantum.Testing.QIR.Other.PauliArrayAsIntFailTest}
-  - {name: PauliArrayAsIntTest, uid: Microsoft.Quantum.Testing.QIR.Other.PauliArrayAsIntTest}
-  name: Microsoft.Quantum.Testing.QIR.Other
-  uid: Microsoft.Quantum.Testing.QIR.Other
-- items:
-  - {name: MessageTest, uid: Microsoft.Quantum.Testing.QIR.Out.MessageTest}
-  name: Microsoft.Quantum.Testing.QIR.Out
-  uid: Microsoft.Quantum.Testing.QIR.Out
-- items:
-  - {name: PauliToStringTest, uid: Microsoft.Quantum.Testing.QIR.Str.PauliToStringTest}
-  name: Microsoft.Quantum.Testing.QIR.Str
-  uid: Microsoft.Quantum.Testing.QIR.Str
-- items:
-  - {name: LibraryWithSpacesTest, uid: Microsoft.Quantum.Testing.SpacesInFileName.LibraryWithSpacesTest}
-  name: Microsoft.Quantum.Testing.SpacesInFileName
-  uid: Microsoft.Quantum.Testing.SpacesInFileName
-- items:
-  - {name: Delay, uid: Microsoft.Quantum.Testing.Tracer.Delay}
-  - {name: TestCoreIntrinsics, uid: Microsoft.Quantum.Testing.Tracer.TestCoreIntrinsics}
-  - {name: TestMeasurements, uid: Microsoft.Quantum.Testing.Tracer.TestMeasurements}
-  name: Microsoft.Quantum.Testing.Tracer
-  uid: Microsoft.Quantum.Testing.Tracer
-- items:
-  - {name: AbsDIsCorrect, uid: Microsoft.Quantum.Tests.AbsDIsCorrect}
-  - {name: AbsIIsCorrect, uid: Microsoft.Quantum.Tests.AbsIIsCorrect}
-  - {name: AbsLIsCorrect, uid: Microsoft.Quantum.Tests.AbsLIsCorrect}
-  - {name: AndIsCorrect, uid: Microsoft.Quantum.Tests.AndIsCorrect}
-  - {name: CeilingIsCorrect, uid: Microsoft.Quantum.Tests.CeilingIsCorrect}
-  - {name: CheckCategoricalHistogramIsCorrect, uid: Microsoft.Quantum.Tests.CheckCategoricalHistogramIsCorrect}
-  - {name: CheckCategoricalMomentsAreCorrect, uid: Microsoft.Quantum.Tests.CheckCategoricalMomentsAreCorrect}
-  - {name: CheckContinuousUniformDistributionHasRightMoments, uid: Microsoft.Quantum.Tests.CheckContinuousUniformDistributionHasRightMoments}
-  - {name: CheckDiscreteUniformMomentsAreCorrect, uid: Microsoft.Quantum.Tests.CheckDiscreteUniformMomentsAreCorrect}
-  - {name: CheckDrawRandomBoolHasRightExpectation, uid: Microsoft.Quantum.Tests.CheckDrawRandomBoolHasRightExpectation}
-  - {name: CheckDrawRandomDoubleObeysRanges, uid: Microsoft.Quantum.Tests.CheckDrawRandomDoubleObeysRanges}
-  - {name: CheckDrawRandomIntObeysRanges, uid: Microsoft.Quantum.Tests.CheckDrawRandomIntObeysRanges}
-  - {name: CheckImpossibleEventsAreNotDrawn, uid: Microsoft.Quantum.Tests.CheckImpossibleEventsAreNotDrawn}
-  - {name: CheckNormalDistributionHasRightMoments, uid: Microsoft.Quantum.Tests.CheckNormalDistributionHasRightMoments}
-  - {name: CheckRescaledCategoricalMomentsAreCorrect, uid: Microsoft.Quantum.Tests.CheckRescaledCategoricalMomentsAreCorrect}
-  - {name: CheckStandardNormalDistributionHasRightMoments, uid: Microsoft.Quantum.Tests.CheckStandardNormalDistributionHasRightMoments}
-  - {name: DoubleAsStringIsCorrect, uid: Microsoft.Quantum.Tests.DoubleAsStringIsCorrect}
-  - {name: FiniteFactIsCorrect, uid: Microsoft.Quantum.Tests.FiniteFactIsCorrect}
-  - {name: FiniteNumbersAreFinite, uid: Microsoft.Quantum.Tests.FiniteNumbersAreFinite}
-  - {name: FloorIsCorrect, uid: Microsoft.Quantum.Tests.FloorIsCorrect}
-  - {name: InfinityIsInfinite, uid: Microsoft.Quantum.Tests.InfinityIsInfinite}
-  - {name: IntAsStringIsCorrect, uid: Microsoft.Quantum.Tests.IntAsStringIsCorrect}
-  - {name: Log10IsCorrect, uid: Microsoft.Quantum.Tests.Log10IsCorrect}
-  - {name: MaxDIsCorrect, uid: Microsoft.Quantum.Tests.MaxDIsCorrect}
-  - {name: MaxIIsCorrect, uid: Microsoft.Quantum.Tests.MaxIIsCorrect}
-  - {name: ModPowLIsCorrect, uid: Microsoft.Quantum.Tests.ModPowLIsCorrect}
-  - {name: NaNIsNaN, uid: Microsoft.Quantum.Tests.NaNIsNaN}
-  - {name: NaNIsNotEqualToAnything, uid: Microsoft.Quantum.Tests.NaNIsNotEqualToAnything}
-  - {name: NotIsCorrect, uid: Microsoft.Quantum.Tests.NotIsCorrect}
-  - {name: OrIsCorrect, uid: Microsoft.Quantum.Tests.OrIsCorrect}
-  - {name: PowDIsCorrect, uid: Microsoft.Quantum.Tests.PowDIsCorrect}
-  - {name: RoundIsCorrect, uid: Microsoft.Quantum.Tests.RoundIsCorrect}
-  - {name: XBitsIsCorrect, uid: Microsoft.Quantum.Tests.XBitsIsCorrect}
-  - {name: XorIsCorrect, uid: Microsoft.Quantum.Tests.XorIsCorrect}
-  - {name: ZBitsIsCorrect, uid: Microsoft.Quantum.Tests.ZBitsIsCorrect}
-  name: Microsoft.Quantum.Tests
-  uid: Microsoft.Quantum.Tests
-- items:
-  - {name: Barrier, uid: Microsoft.Quantum.Tracer.Barrier}
-  name: Microsoft.Quantum.Tracer
-  uid: Microsoft.Quantum.Tracer
 - items:
   - {name: Main, uid: QSharpExe.Main}
   name: QSharpExe
   uid: QSharpExe
 - items:
   - {name: ExerciseInputs, uid: Quantum.StandaloneSupportedInputs.ExerciseInputs}
-  - {name: _08bb759388a04aefaf4845200e639b84_ArrayToString, uid: Quantum.StandaloneSupportedInputs._08bb759388a04aefaf4845200e639b84_ArrayToString}
-  - {name: _14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString, uid: Quantum.StandaloneSupportedInputs._14eb6969dd2a4d66800f1c1af42e42f1_ArrayToString}
-  - {name: _386cf3bb16a34c10ad6fbb23f878e840_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._386cf3bb16a34c10ad6fbb23f878e840_TautologyPredicate}
-  - {name: _524d37ebcfc24dc197adde850df8cfd4_ArrayToString, uid: Quantum.StandaloneSupportedInputs._524d37ebcfc24dc197adde850df8cfd4_ArrayToString}
-  - {name: _5dcf36115ed7411ea93552b6827078f5_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._5dcf36115ed7411ea93552b6827078f5_TautologyPredicate}
-  - {name: _6ac6e13f088b4ef7929f41bf92729b22_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._6ac6e13f088b4ef7929f41bf92729b22_TautologyPredicate}
-  - {name: _7075f36c4cd44d82aa58c1639bd1a086_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._7075f36c4cd44d82aa58c1639bd1a086_TautologyPredicate}
-  - {name: _7c0082817bb34484bcd81ef6dd50e441_ArrayToString, uid: Quantum.StandaloneSupportedInputs._7c0082817bb34484bcd81ef6dd50e441_ArrayToString}
-  - {name: _7f8c0c7b20b3424598f021a26c3a4a4e_ArrayToString, uid: Quantum.StandaloneSupportedInputs._7f8c0c7b20b3424598f021a26c3a4a4e_ArrayToString}
-  - {name: _ddbead3a3f5f4ab5aae003e0762301c3_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._ddbead3a3f5f4ab5aae003e0762301c3_TautologyPredicate}
+  - {name: _01a7c1e9c8644f53b73ca16e897ff372_ArrayToString, uid: Quantum.StandaloneSupportedInputs._01a7c1e9c8644f53b73ca16e897ff372_ArrayToString}
+  - {name: _2e0d032e7d0d4433a05fb1bdb3b2be53_ArrayToString, uid: Quantum.StandaloneSupportedInputs._2e0d032e7d0d4433a05fb1bdb3b2be53_ArrayToString}
+  - {name: _41f8deddf1854c69ae142a0cef4c4565_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._41f8deddf1854c69ae142a0cef4c4565_TautologyPredicate}
+  - {name: _737cbcff280b46b38038001d8caa6b68_ArrayToString, uid: Quantum.StandaloneSupportedInputs._737cbcff280b46b38038001d8caa6b68_ArrayToString}
+  - {name: _91a88e55be0747539f8f4523649a0b69_ArrayToString, uid: Quantum.StandaloneSupportedInputs._91a88e55be0747539f8f4523649a0b69_ArrayToString}
+  - {name: _b833881551444326b1819968da91dca5_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._b833881551444326b1819968da91dca5_TautologyPredicate}
+  - {name: _bb85585e5b054e6aa221163a46959404_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._bb85585e5b054e6aa221163a46959404_TautologyPredicate}
+  - {name: _bbbd29abe5c24663a95b32afab2115f1_ArrayToString, uid: Quantum.StandaloneSupportedInputs._bbbd29abe5c24663a95b32afab2115f1_ArrayToString}
+  - {name: _bfa6238c40914224a68d0f21c9ca681b_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._bfa6238c40914224a68d0f21c9ca681b_TautologyPredicate}
+  - {name: _ff6d95dafa4e487d825a8ef598a46116_TautologyPredicate, uid: Quantum.StandaloneSupportedInputs._ff6d95dafa4e487d825a8ef598a46116_TautologyPredicate}
   name: Quantum.StandaloneSupportedInputs
   uid: Quantum.StandaloneSupportedInputs
 - items:

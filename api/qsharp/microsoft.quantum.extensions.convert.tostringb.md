@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Extensions.Convert.ToStringB
 title: ToStringB function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Convert
@@ -38,11 +38,11 @@ function ToStringB (a : Bool) : String
 
 ## Input
 
-### a : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### a : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 
 
 
 
-## Output : [String](xref:microsoft.quantum.lang-ref.string)
+## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 

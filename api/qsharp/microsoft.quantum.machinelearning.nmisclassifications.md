@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.NMisclassifications
 title: NMisclassifications function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -27,18 +27,18 @@ function NMisclassifications (proposed : Int[], actual : Int[]) : Int
 
 ## Input
 
-### proposed : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### proposed : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
-### actual : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### actual : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of indices `idx` such that`inferredLabels[idx] != actualLabels[idx]`.
 

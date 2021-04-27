@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEC
 title: ApplyPhaseLEOperationOnLEC operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -25,7 +25,7 @@ operation ApplyPhaseLEOperationOnLEC (op : (Microsoft.Quantum.Arithmetic.PhaseLi
 
 ## Input
 
-### op : [PhaseLittleEndian](xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Ctl
+### op : [PhaseLittleEndian](xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
 
 
@@ -36,10 +36,10 @@ operation ApplyPhaseLEOperationOnLEC (op : (Microsoft.Quantum.Arithmetic.PhaseLi
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 
 ## See Also
 
-- [Microsoft.Quantum.Canon.ApplyPhaseLEOperationOnLE](xref:Microsoft.Quantum.Canon.ApplyPhaseLEOperationOnLE)
+- [Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLE](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLE)

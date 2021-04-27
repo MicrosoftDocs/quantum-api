@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MultiM
 title: MultiM operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -25,12 +25,12 @@ operation MultiM (targets : Qubit[]) : Result[]
 
 ## Input
 
-### targets : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targets : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 An array of qubits to be measured.
 
 
 
-## Output : __invalid<Result>__[]
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)[]
 
 An array of measurement results.

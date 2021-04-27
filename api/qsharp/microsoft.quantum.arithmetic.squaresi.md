@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SquareSI
 title: SquareSI operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -38,7 +38,7 @@ n-bit integer to square (SignedLittleEndian)
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

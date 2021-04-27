@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization.EstimateOverlapBetweenStates
 title: EstimateOverlapBetweenStates operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
@@ -28,28 +28,28 @@ operation EstimateOverlapBetweenStates (preparation1 : (Qubit[] => Unit is Adj),
 
 ## Input
 
-### preparation1 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### preparation1 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 The first of the two state preparation operations to be compared.
 
 
-### preparation2 : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### preparation2 : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 The second of the two state preparation operations to be compared.
 
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of qubits on which `commonPreparation`, `preparation1`, and`preparation2` all act.
 
 
-### nMeasurements : [Int](xref:microsoft.quantum.lang-ref.int)
+### nMeasurements : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of measurements to use in estimating the overlap.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 

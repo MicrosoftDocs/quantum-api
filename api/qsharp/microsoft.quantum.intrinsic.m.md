@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.M
 title: M operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -31,13 +31,13 @@ The output result is given bythe distribution\begin{align}\Pr(\texttt{Zero} |
 
 ## Input
 
-### qubit : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Qubit to be measured.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 `Zero` if the $+1$ eigenvalue is observed, and `One` ifthe $-1$ eigenvalue is observed.
 

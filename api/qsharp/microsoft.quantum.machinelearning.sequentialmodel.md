@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.SequentialModel
 title: SequentialModel user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -33,10 +33,10 @@ newtype SequentialModel = (Structure : Microsoft.Quantum.MachineLearning.Control
 ### Structure : [ControlledRotation](xref:Microsoft.Quantum.MachineLearning.ControlledRotation)[]
 
 The sequence of controlled rotations used to classify inputs.
-### Parameters : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### Parameters : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 An assignment of rotation angles to the given classification structure.
-### Bias : [Double](xref:microsoft.quantum.lang-ref.double)
+### Bias : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The bias between the two classes recognized by this classifier.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ApplyObliviousAmplitudeAmplification
 title: ApplyObliviousAmplitudeAmplification operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -45,18 +45,18 @@ Reflection operator about target state of auxiliary register
 Unitary oracle $O$ of type `ObliviousOracle` that acts jointly on theauxiliary and system registers.
 
 
-### auxiliaryRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### auxiliaryRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Auxiliary register
 
 
-### systemRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### systemRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 System register
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

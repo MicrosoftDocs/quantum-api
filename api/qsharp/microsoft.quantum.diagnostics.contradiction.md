@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.Contradiction
 title: Contradiction function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -25,18 +25,18 @@ function Contradiction (actual : Bool, message : String) : Unit
 
 ## Input
 
-### actual : [Bool](xref:microsoft.quantum.lang-ref.bool)
+### actual : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 The condition to be declared.
 
 
-### message : [String](xref:microsoft.quantum.lang-ref.string)
+### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 Failure message string to be printed in the case that the classicalcondition is true.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

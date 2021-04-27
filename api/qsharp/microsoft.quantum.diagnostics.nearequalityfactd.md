@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.NearEqualityFactD
 title: NearEqualityFactD function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -27,21 +27,21 @@ function NearEqualityFactD (actual : Double, expected : Double) : Unit
 
 ## Input
 
-### actual : [Double](xref:microsoft.quantum.lang-ref.double)
+### actual : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The number to be checked.
 
 
-### expected : [Double](xref:microsoft.quantum.lang-ref.double)
+### expected : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The expected value.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 
 ## Remarks
 
-This is equivalent to <xref:microsoft.quantum.diagnostics.equalitywithintolerancefact> withhardcoded tolerance of $10^{-10}$.
+This is equivalent to <xref:Microsoft.Quantum.Diagnostics.EqualityWithinToleranceFact> withhardcoded tolerance of $10^{-10}$.

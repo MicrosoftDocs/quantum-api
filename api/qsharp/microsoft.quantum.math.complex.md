@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.Complex
 title: Complex user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Math
@@ -29,8 +29,8 @@ newtype Complex = (Real : Double, Imag : Double);
 
 ## Named Items
 
-### Real : [Double](xref:microsoft.quantum.lang-ref.double)
+### Real : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
-### Imag : [Double](xref:microsoft.quantum.lang-ref.double)
+### Imag : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

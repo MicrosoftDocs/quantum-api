@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.MaxL
 title: MaxL function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,24 +25,24 @@ function MaxL (a : BigInt, b : BigInt) : BigInt
 
 ## Input
 
-### a : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### a : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The first number to be compared.
 
 
-### b : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### b : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The second number to be compared.
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 The larger of `a` and `b`.
 
 ## Example
 
-```qsharplet max = MaxD(314L, 271L);  // 314L```
+```qsharplet max = MaxL(314L, 271L);  // 314L```
 
 ## See Also
 

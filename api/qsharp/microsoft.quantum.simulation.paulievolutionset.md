@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.PauliEvolutionSet
 title: PauliEvolutionSet function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -31,4 +31,4 @@ An `EvolutionSet` that maps a `GeneratorIndex` for the Pauli basis toan `Evolut
 
 ## Remarks
 
-This is obtained by partial application of<xref:microsoft.quantum.simulation.paulievolutionfunction>.
+This is obtained by partial application of<xref:Microsoft.Quantum.Simulation.PauliEvolutionFunction>.

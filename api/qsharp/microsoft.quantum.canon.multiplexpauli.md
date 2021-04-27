@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.MultiplexPauli
 title: MultiplexPauli operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,12 +29,12 @@ This applies a multiply controlled unitary operation that performsrotations by 
 
 ## Input
 
-### coefficients : [Double](xref:microsoft.quantum.lang-ref.double)[]
+### coefficients : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 Array of up to $2^n$ coefficients $\theta_j$. The $j$th coefficientindexes the number state $\ket{j}$ encoded in little-endian format.
 
 
-### pauli : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### pauli : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 Pauli operator $P$ that determines axis of rotation.
 
@@ -44,13 +44,13 @@ Pauli operator $P$ that determines axis of rotation.
 $n$-qubit control register that encodes number states $\ket{j}$ inlittle-endian format.
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Single qubit register that is rotated by $e^{i P \theta_j}$.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

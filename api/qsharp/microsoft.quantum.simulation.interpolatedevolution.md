@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.InterpolatedEvolution
 title: InterpolatedEvolution function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -28,7 +28,7 @@ function InterpolatedEvolution (interpolationTime : Double, evolutionGeneratorSt
 
 ## Input
 
-### interpolationTime : [Double](xref:microsoft.quantum.lang-ref.double)
+### interpolationTime : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Time to perform the interpolation over.
 
@@ -49,7 +49,7 @@ A time-dependent simulation algorithm that will be usedto simulate evolution du
 
 
 
-## Output : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[] => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[] => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 
 

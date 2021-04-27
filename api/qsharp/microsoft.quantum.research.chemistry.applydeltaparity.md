@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry.ApplyDeltaParity
 title: ApplyDeltaParity operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -28,28 +28,28 @@ operation ApplyDeltaParity (prevFermionicTerm : Int[], nextFermionicTerm : Int[]
 
 ## Input
 
-### prevFermionicTerm : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### prevFermionicTerm : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 List of indices to previous PQRS... terms.
 
 
-### nextFermionicTerm : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### nextFermionicTerm : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 List of indices to next PQRS... terms.
 
 
-### aux : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### aux : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 Auxiliary qubit onto which parity computation results are stored.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubit acted on by all PQRS... terms.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

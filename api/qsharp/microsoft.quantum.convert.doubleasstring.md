@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.DoubleAsString
 title: DoubleAsString function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -25,13 +25,13 @@ function DoubleAsString (a : Double) : String
 
 ## Input
 
-### a : [Double](xref:microsoft.quantum.lang-ref.double)
+### a : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
 
-## Output : [String](xref:microsoft.quantum.lang-ref.string)
+## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 
 

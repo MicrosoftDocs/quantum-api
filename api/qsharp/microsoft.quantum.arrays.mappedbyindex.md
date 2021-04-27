@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.MappedByIndex
 title: MappedByIndex function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -28,7 +28,7 @@ function MappedByIndex<'T, 'U> (mapper : ((Int, 'T) -> 'U), array : 'T[]) : 'U[]
 
 ## Input
 
-### mapper : ([Int](xref:microsoft.quantum.lang-ref.int),'T) -> 'U
+### mapper : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),'T) -> 'U
 
 A function from `(Int, 'T)` to `'U` that is used to map elementsand their indices.
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ControlledOnBitString
 title: ControlledOnBitString function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,18 +29,18 @@ The output of this function is an operation that can be represented by aunitary
 
 ## Input
 
-### bits : [Bool](xref:microsoft.quantum.lang-ref.bool)[]
+### bits : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[]
 
 The bit string to control the given unitary operation on.
 
 
-### oracle : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+### oracle : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 The unitary operation to be applied on the target register.
 
 
 
-## Output : ([Qubit](xref:microsoft.quantum.lang-ref.qubit)[],'T) => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj + Ctl
+## Output : ([Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],'T) => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl
 
 A unitary operation that applies `oracle` on the target register if the control register state corresponds to the bit mask `bits`.
 

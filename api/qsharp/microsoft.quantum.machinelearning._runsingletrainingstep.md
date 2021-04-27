@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._RunSingleTrainingStep
 title: _RunSingleTrainingStep operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -41,6 +41,6 @@ container of labeled samples in the mini batch
 
 
 
-## Output : ([Double](xref:microsoft.quantum.lang-ref.double),[SequentialModel](xref:Microsoft.Quantum.MachineLearning.SequentialModel))
+## Output : ([Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals),[SequentialModel](xref:Microsoft.Quantum.MachineLearning.SequentialModel))
 
 (utility, (new)parameters) pair

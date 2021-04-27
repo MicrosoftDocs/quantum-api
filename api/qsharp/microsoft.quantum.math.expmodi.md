@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ExpModI
 title: ExpModI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -31,23 +31,23 @@ Let us denote expBase by $x$, power by $p$ and modulus by $N$.The function retu
 
 ## Input
 
-### expBase : [Int](xref:microsoft.quantum.lang-ref.int)
+### expBase : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### modulus : [Int](xref:microsoft.quantum.lang-ref.int)
+### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
 
-## Output : [Int](xref:microsoft.quantum.lang-ref.int)
+## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 

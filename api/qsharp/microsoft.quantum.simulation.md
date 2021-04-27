@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation
 title: Microsoft.Quantum.Simulation namespace
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Simulation
@@ -25,7 +25,6 @@ the dynamics of quantum systems.
 |[AdiabaticStateEnergyUnitary](xref:Microsoft.Quantum.Simulation.AdiabaticStateEnergyUnitary) |Performs state preparation by applying a `statePrepUnitary` on the input state, followed by adiabatic state preparation using a `adiabaticUnitary`, and finally phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
 |[EstimateEnergy](xref:Microsoft.Quantum.Simulation.EstimateEnergy) |Performs state preparation by applying a `statePrepUnitary` on an automatically allocated input state phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
 |[EstimateEnergyWithAdiabaticEvolution](xref:Microsoft.Quantum.Simulation.EstimateEnergyWithAdiabaticEvolution) |Performs state preparation by applying a `statePrepUnitary` on an automatically allocated input state, followed by adiabatic state preparation using a `adiabaticUnitary`, and finally phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
-|[PauliEvolutionImpl](xref:Microsoft.Quantum.Simulation.PauliEvolutionImpl) |Represents a dynamical generator as a set of simulatable gates and an expansion in the Pauli basis. |
 |[TimeDependentTrotterSimulationAlgorithmImpl](xref:Microsoft.Quantum.Simulation.TimeDependentTrotterSimulationAlgorithmImpl) |Implementation of multiple Trotter steps to approximate a unitary operator that solves the time-dependent Schrödinger equation. |
 |[TrotterSimulationAlgorithmImpl](xref:Microsoft.Quantum.Simulation.TrotterSimulationAlgorithmImpl) |Makes repeated calls to `TrotterStep` to approximate the time-evolution operator exp(_-iHt_). |
 |[TrotterStepImpl](xref:Microsoft.Quantum.Simulation.TrotterStepImpl) |Implements time-evolution by a term contained in a `GeneratorSystem`. |
@@ -45,7 +44,6 @@ the dynamics of quantum systems.
 |[IdentityTimeDependentGeneratorSystem](xref:Microsoft.Quantum.Simulation.IdentityTimeDependentGeneratorSystem) |Returns a time-dependent generator system consistent with the Hamiltonian `H(s) = 0`. |
 |[IntToPauli](xref:Microsoft.Quantum.Simulation.IntToPauli) |Converts a integer to a single-qubit Pauli operator. |
 |[InterpolateGeneratorSystems](xref:Microsoft.Quantum.Simulation.InterpolateGeneratorSystems) |Returns a `TimeDependentGeneratorSystem` representing the linear interpolation between two `GeneratorSystem`s. |
-|[InterpolateGeneratorSystemsImpl](xref:Microsoft.Quantum.Simulation.InterpolateGeneratorSystemsImpl) |Linearly interpolates between two `GeneratorSystems` according to a schedule parameter `s` between 0 and 1 (inclusive). |
 |[InterpolatedEvolution](xref:Microsoft.Quantum.Simulation.InterpolatedEvolution) |Interpolates between two generators with a uniform schedule, returning an operation that applies simulated evolution under the resulting time-dependent generator to a qubit register. |
 |[IntsToPaulis](xref:Microsoft.Quantum.Simulation.IntsToPaulis) |Converts an array of integers to an array of single-qubit Pauli operators. |
 |[MultiplyGeneratorIndex](xref:Microsoft.Quantum.Simulation.MultiplyGeneratorIndex) |Multiplies the coefficient in a `GeneratorIndex`. |
@@ -60,10 +58,6 @@ the dynamics of quantum systems.
 |[TimeDependentTrotterSimulationAlgorithm](xref:Microsoft.Quantum.Simulation.TimeDependentTrotterSimulationAlgorithm) |`TimeDependentSimulationAlgorithm` function that uses a Trotter–Suzuki decomposition to approximate a unitary operator that solves the time-dependent Schrodinger equation. |
 |[TrotterSimulationAlgorithm](xref:Microsoft.Quantum.Simulation.TrotterSimulationAlgorithm) |`SimulationAlgorithm` function that uses a Trotter–Suzuki decomposition to approximate the time-evolution operator _exp(-iHt)_. |
 |[TrotterStep](xref:Microsoft.Quantum.Simulation.TrotterStep) |Implements a single time-step of time-evolution by the system described in an `EvolutionGenerator` using a Trotter–Suzuki decomposition. |
-|[_AddGeneratorSystems](xref:Microsoft.Quantum.Simulation._AddGeneratorSystems) |Adds two `GeneratorSystem`s to create a new `GeneratorSystem`. |
-|[_IdentityTimeDependentGeneratorSystem](xref:Microsoft.Quantum.Simulation._IdentityTimeDependentGeneratorSystem) |Returns a generator system consistent with the Hamiltonian `H(s) = 0`, where `s` is a schedule parameter. |
-|[_MultiplyGeneratorSystem](xref:Microsoft.Quantum.Simulation._MultiplyGeneratorSystem) |Multiplies the coefficient of all terms in a `GeneratorSystem`. |
-|[_PauliBlockEncoding](xref:Microsoft.Quantum.Simulation._PauliBlockEncoding) |Creates a block-encoding unitary for a Hamiltonian. |
 
 ## User-defined types
 

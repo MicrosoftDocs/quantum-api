@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ReflectAboutInteger
 title: ReflectAboutInteger operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,7 +29,7 @@ Given a quantum register initially in the state $\sum_i \alpha_i \ket{i}$,where
 
 ## Input
 
-### index : [Int](xref:microsoft.quantum.lang-ref.int)
+### index : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The classical integer indexing the basis state about which to reflect.
 
@@ -40,7 +40,7 @@ The classical integer indexing the basis state about which to reflect.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

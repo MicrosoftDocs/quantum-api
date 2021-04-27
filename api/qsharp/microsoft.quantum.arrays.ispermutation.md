@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.IsPermutation
 title: IsPermutation function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -29,13 +29,13 @@ Given an array `array` of length `n`, returns true if and only ifeach integer f
 
 ## Input
 
-### permuation : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### permuation : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 An array that may or may not represent a permutation.
 
 
 
-## Output : [Bool](xref:microsoft.quantum.lang-ref.bool)
+## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 
 

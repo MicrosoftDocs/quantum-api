@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Samples.EvolveByTrotter
 title: EvolveByTrotter operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Samples
@@ -27,21 +27,21 @@ operation EvolveByTrotter (time : Double, nStep : Int, qubits : Qubit[]) : Unit 
 
 ## Input
 
-### time : [Double](xref:microsoft.quantum.lang-ref.double)
+### time : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
 
-### nStep : [Int](xref:microsoft.quantum.lang-ref.int)
+### nStep : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

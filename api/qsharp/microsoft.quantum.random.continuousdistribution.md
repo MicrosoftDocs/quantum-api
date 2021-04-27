@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.ContinuousDistribution
 title: ContinuousDistribution user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random
@@ -27,7 +27,7 @@ newtype ContinuousDistribution = (Sample : (Unit => Double));
 
 ## Named Items
 
-### Sample : [Unit](xref:microsoft.quantum.lang-ref.unit) => [Double](xref:microsoft.quantum.lang-ref.double) 
+### Sample : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) => [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals) 
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.IdentityGeneratorIndex
 title: IdentityGeneratorIndex function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -27,9 +27,9 @@ function IdentityGeneratorIndex (idxTerm : Int) : Microsoft.Quantum.Simulation.G
 
 ## Input
 
-### idxTerm : [Int](xref:microsoft.quantum.lang-ref.int)
+### idxTerm : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-This input is ignored, and is defined for consistency with the<xref:microsoft.quantum.simulation.generatorsystem> user-defined type.
+This input is ignored, and is defined for consistency with the<xref:Microsoft.Quantum.Simulation.GeneratorSystem> user-defined type.
 
 
 

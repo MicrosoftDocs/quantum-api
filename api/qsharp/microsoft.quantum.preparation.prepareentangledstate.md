@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareEntangledState
 title: PrepareEntangledState operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -30,16 +30,16 @@ operation PrepareEntangledState (left : Qubit[], right : Qubit[]) : Unit is Adj 
 
 ## Input
 
-### left : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### left : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A qubit array in the $\ket{0\cdots 0}$ state
 
 
-### right : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### right : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 A qubit array in the $\ket{0\cdots 0}$ state
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

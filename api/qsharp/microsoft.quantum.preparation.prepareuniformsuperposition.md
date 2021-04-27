@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareUniformSuperposition
 title: PrepareUniformSuperposition operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -34,7 +34,7 @@ operation PrepareUniformSuperposition (nIndices : Int, indexRegister : Microsoft
 
 ## Input
 
-### nIndices : [Int](xref:microsoft.quantum.lang-ref.int)
+### nIndices : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The desired number of states $M$ in the uniform superposition.
 
@@ -45,7 +45,7 @@ The qubit register that stores the number states in `LittleEndian` format.This 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

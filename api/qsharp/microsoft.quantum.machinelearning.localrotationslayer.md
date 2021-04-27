@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.LocalRotationsLayer
 title: LocalRotationsLayer function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -28,12 +28,12 @@ function LocalRotationsLayer (nQubits : Int, axis : Pauli) : Microsoft.Quantum.M
 
 ## Input
 
-### nQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 The number of qubits acted on by the given layer.
 
 
-### axis : [Pauli](xref:microsoft.quantum.lang-ref.pauli)
+### axis : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)
 
 The rotation axis for each rotation in the given layer.
 

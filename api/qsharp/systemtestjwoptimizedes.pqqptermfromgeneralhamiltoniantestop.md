@@ -1,7 +1,7 @@
 ---
 uid: SystemTestJWOptimizedES.PQQPTermFromGeneralHamiltonianTestOp
 title: PQQPTermFromGeneralHamiltonianTestOp operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: SystemTestJWOptimizedES
@@ -25,7 +25,7 @@ operation PQQPTermFromGeneralHamiltonianTestOp (identity : Double, data : Micros
 
 ## Input
 
-### identity : [Double](xref:microsoft.quantum.lang-ref.double)
+### identity : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 
 
@@ -36,5 +36,5 @@ operation PQQPTermFromGeneralHamiltonianTestOp (identity : Double, data : Micros
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

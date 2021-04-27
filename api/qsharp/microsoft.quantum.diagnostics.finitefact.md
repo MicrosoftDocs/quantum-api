@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.FiniteFact
 title: FiniteFact function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -27,18 +27,18 @@ function FiniteFact (d : Double, message : String) : Unit
 
 ## Input
 
-### d : [Double](xref:microsoft.quantum.lang-ref.double)
+### d : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 The floating-point value that is to be checked.
 
 
-### message : [String](xref:microsoft.quantum.lang-ref.string)
+### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 Failure message to be printed in the case that `d` is eithernot finite, or not a number.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

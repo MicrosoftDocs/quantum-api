@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Library.Hello
 title: Hello operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Library
@@ -13,13 +13,13 @@ qsharp.summary: ''
 
 Namespace: [Microsoft.Quantum.Library](xref:Microsoft.Quantum.Library)
 
-Package: [UnitTests](https://nuget.org/packages/UnitTests)
+Package: [Library1](https://nuget.org/packages/Library1)
 
 
 
 
 ```qsharp
-operation Hello (dummy : Microsoft.Quantum.Library.Token) : Unit
+operation Hello (dummy : Microsoft.Quantum.Library.Token) : String
 ```
 
 
@@ -31,5 +31,5 @@ operation Hello (dummy : Microsoft.Quantum.Library.Token) : Unit
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 

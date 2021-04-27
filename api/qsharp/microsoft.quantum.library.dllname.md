@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Library.DllName
 title: DllName function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Library
@@ -13,7 +13,7 @@ qsharp.summary: ''
 
 Namespace: [Microsoft.Quantum.Library](xref:Microsoft.Quantum.Library)
 
-Package: [Library1](https://nuget.org/packages/Library1)
+Package: [Library2](https://nuget.org/packages/Library2)
 
 
 
@@ -23,5 +23,5 @@ function DllName () : String
 ```
 
 
-## Output : [String](xref:microsoft.quantum.lang-ref.string)
+## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 

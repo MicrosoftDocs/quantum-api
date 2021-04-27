@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MeasureAllZ
 title: MeasureAllZ operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -29,12 +29,12 @@ Measures a register of qubits in the $Z \otimes Z \otimes \cdots \otimes Z$basi
 
 ## Input
 
-### register : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### register : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 The register to be measured.
 
 
 
-## Output : __invalid<Result>__
+## Output : [Result](xref:microsoft.quantum.qsharp.valueliterals#result-literal)
 
 The result of measuring $Z \otimes Z \otimes \cdots \otimes Z$.

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AllEqualityFactI
 title: AllEqualityFactI function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -25,21 +25,21 @@ function AllEqualityFactI (actual : Int[], expected : Int[], message : String) :
 
 ## Input
 
-### actual : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### actual : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 The array that is produced by a test case of interest.
 
 
-### expected : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### expected : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 The array that is expected from a test case of interest.
 
 
-### message : [String](xref:microsoft.quantum.lang-ref.string)
+### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
 A message to be printed if the arrays are not equal.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

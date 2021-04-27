@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.DiscreteDistribution
 title: DiscreteDistribution user defined type
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random
@@ -27,7 +27,7 @@ newtype DiscreteDistribution = (Sample : (Unit => Int));
 
 ## Named Items
 
-### Sample : [Unit](xref:microsoft.quantum.lang-ref.unit) => [Int](xref:microsoft.quantum.lang-ref.int) 
+### Sample : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) => [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals) 
 
 
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.MaxB
 title: MaxB function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
@@ -38,16 +38,16 @@ function MaxB (a : BigInt, b : BigInt) : BigInt
 
 ## Input
 
-### a : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### a : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 
 
-### b : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+### b : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
 
 
 
 
-## Output : [BigInt](xref:microsoft.quantum.lang-ref.bigint)
+## Output : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 

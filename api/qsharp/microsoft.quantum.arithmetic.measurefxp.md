@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MeasureFxP
 title: MeasureFxP operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -33,5 +33,5 @@ Fixed-point number to measure.
 
 
 
-## Output : [Double](xref:microsoft.quantum.lang-ref.double)
+## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 

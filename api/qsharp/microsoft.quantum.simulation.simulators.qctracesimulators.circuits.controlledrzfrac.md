@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.ControlledRZFrac
 title: ControlledRZFrac operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,28 +25,28 @@ operation ControlledRZFrac (numerator : Int, power : Int, control : Qubit, targe
 
 ## Input
 
-### numerator : [Int](xref:microsoft.quantum.lang-ref.int)
+### numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 k
 
 
-### power : [Int](xref:microsoft.quantum.lang-ref.int)
+### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 n
 
 
-### control : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### control : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 first qubit operation acts on
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 second qubit operation acts on
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

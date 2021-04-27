@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.TrotterSimulationAlgorithmImpl
 title: TrotterSimulationAlgorithmImpl operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -27,17 +27,17 @@ operation TrotterSimulationAlgorithmImpl (trotterStepSize : Double, trotterOrder
 
 ## Input
 
-### trotterStepSize : [Double](xref:microsoft.quantum.lang-ref.double)
+### trotterStepSize : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Duration of simulated time-evolution in single Trotter step.
 
 
-### trotterOrder : [Int](xref:microsoft.quantum.lang-ref.int)
+### trotterOrder : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 Order of Trotter integrator. This must be either 1 or an even number.
 
 
-### maxTime : [Double](xref:microsoft.quantum.lang-ref.double)
+### maxTime : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
 Total duration of simulation $t$.
 
@@ -47,11 +47,11 @@ Total duration of simulation $t$.
 A complete description of the system to be simulated.
 
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Qubits acted on by simulation.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

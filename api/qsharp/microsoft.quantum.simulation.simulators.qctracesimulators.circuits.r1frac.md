@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits.R1Frac
 title: R1Frac operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Simulators.QCTraceSimulators.Circuits
@@ -25,21 +25,21 @@ operation R1Frac (numerator : Int, denominatorPower : Int, target : Qubit) : Uni
 
 ## Input
 
-### numerator : [Int](xref:microsoft.quantum.lang-ref.int)
+### numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### denominatorPower : [Int](xref:microsoft.quantum.lang-ref.int)
+### denominatorPower : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### target : [Qubit](xref:microsoft.quantum.lang-ref.qubit)
+### target : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
 
 
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

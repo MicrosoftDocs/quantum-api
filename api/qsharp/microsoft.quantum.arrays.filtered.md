@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Filtered
 title: Filtered function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -28,7 +28,7 @@ function Filtered<'T> (predicate : ('T -> Bool), array : 'T[]) : 'T[]
 
 ## Input
 
-### predicate : 'T -> [Bool](xref:microsoft.quantum.lang-ref.bool)
+### predicate : 'T -> [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
 A function from `'T` to Boolean that is used to filter elements.
 

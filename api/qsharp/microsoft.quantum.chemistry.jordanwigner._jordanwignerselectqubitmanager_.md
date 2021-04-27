@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerSelectQubitManager_
 title: _JordanWignerSelectQubitManager_ function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
@@ -25,31 +25,31 @@ function _JordanWignerSelectQubitManager_ (nZ : Int, nMaj : Int, nIdxRegQubits :
 
 ## Input
 
-### nZ : [Int](xref:microsoft.quantum.lang-ref.int)
+### nZ : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### nMaj : [Int](xref:microsoft.quantum.lang-ref.int)
+### nMaj : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### nIdxRegQubits : [Int](xref:microsoft.quantum.lang-ref.int)
+### nIdxRegQubits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
 
 
 
-### ctrlRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### ctrlRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
-### targetRegister : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### targetRegister : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 
 
 
 
-## Output : (([Qubit](xref:microsoft.quantum.lang-ref.qubit),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[],[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)[],[Qubit](xref:microsoft.quantum.lang-ref.qubit)[]),[Qubit](xref:microsoft.quantum.lang-ref.qubit)[])
+## Output : (([Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[],[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)[],[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]),[Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[])
 

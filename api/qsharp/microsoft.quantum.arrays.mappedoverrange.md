@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.MappedOverRange
 title: MappedOverRange function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -28,12 +28,12 @@ function MappedOverRange<'T> (mapper : (Int -> 'T), range : Range) : 'T[]
 
 ## Input
 
-### mapper : [Int](xref:microsoft.quantum.lang-ref.int) -> 'T
+### mapper : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals) -> 'T
 
 A function from `Int` to `'T` that is used to map range values.
 
 
-### range : [Range](xref:microsoft.quantum.lang-ref.range)
+### range : [Range](xref:microsoft.quantum.qsharp.valueliterals#range-literals)
 
 A range of integers.
 

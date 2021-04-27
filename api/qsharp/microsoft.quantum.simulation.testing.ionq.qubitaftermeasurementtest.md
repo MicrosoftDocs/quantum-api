@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.Testing.IonQ.QubitAfterMeasurementTest
 title: QubitAfterMeasurementTest operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.Testing.IonQ
@@ -23,5 +23,5 @@ operation QubitAfterMeasurementTest () : Unit
 ```
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

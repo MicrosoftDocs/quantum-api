@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyWith
 title: ApplyWith operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,12 +29,12 @@ Given two operations, respectively described by unitary operators $U$and $V$, a
 
 ## Input
 
-### outerOperation : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit)  is Adj
+### outerOperation : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
 
 The operation $U$ that should be used to conjugate $V$. Note that theouter operation $U$ needs to be adjointable, but does notneed to be controllable.
 
 
-### innerOperation : 'T => [Unit](xref:microsoft.quantum.lang-ref.unit) 
+### innerOperation : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal) 
 
 The operation $V$ being conjugated.
 
@@ -45,7 +45,7 @@ The input to be provided to the outer and inner operations.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
 

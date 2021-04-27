@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyCNOTChain
 title: ApplyCNOTChain operation
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/25/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -29,11 +29,11 @@ This operation transforms the state of its input as$$\begin{align}\ket{q_0} \
 
 ## Input
 
-### qubits : [Qubit](xref:microsoft.quantum.lang-ref.qubit)[]
+### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
 Array of qubits whose parity is to be computed and stored.
 
 
 
-## Output : [Unit](xref:microsoft.quantum.lang-ref.unit)
+## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 

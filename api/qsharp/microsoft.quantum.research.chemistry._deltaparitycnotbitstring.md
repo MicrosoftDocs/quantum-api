@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._DeltaParityCNOTbitstring
 title: _DeltaParityCNOTbitstring function
-ms.date: 3/30/2021 12:00:00 AM
+ms.date: 4/24/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
@@ -28,18 +28,18 @@ function _DeltaParityCNOTbitstring (prevFermionicTerm : Int[], nextFermionicTerm
 
 ## Input
 
-### prevFermionicTerm : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### prevFermionicTerm : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
-### nextFermionicTerm : [Int](xref:microsoft.quantum.lang-ref.int)[]
+### nextFermionicTerm : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 
 
 
 
-## Output : ([Int](xref:microsoft.quantum.lang-ref.int),[Bool](xref:microsoft.quantum.lang-ref.bool)[])
+## Output : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)[])
 
 
 
