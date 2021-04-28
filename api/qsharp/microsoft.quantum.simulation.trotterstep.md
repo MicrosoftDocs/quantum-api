@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.TrotterStep
 title: TrotterStep function
-ms.date: 4/25/2021 12:00:00 AM
+ms.date: 4/27/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
