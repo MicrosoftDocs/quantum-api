@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.TupleArrayAsNestedArray
 title: TupleArrayAsNestedArray function
-ms.date: 4/27/2021 12:00:00 AM
+ms.date: 5/5/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays

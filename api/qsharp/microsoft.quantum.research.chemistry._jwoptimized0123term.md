@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._JWOptimized0123Term
 title: _JWOptimized0123Term operation
-ms.date: 4/27/2021 12:00:00 AM
+ms.date: 5/5/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry

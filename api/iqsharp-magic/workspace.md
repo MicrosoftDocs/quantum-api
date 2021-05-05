@@ -4,7 +4,7 @@ description: Provides actions related to the current workspace.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.workspace
 ms.author: anburton
-ms.date: 04/27/2021
+ms.date: 05/05/2021
 ms.topic: managed-reference
 ---
 
