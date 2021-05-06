@@ -4,7 +4,7 @@ description: Checks the reference implementation for a single kata's test.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.check_kata
 ms.author: anburton
-ms.date: 04/27/2021
+ms.date: 05/06/2021
 ms.topic: managed-reference
 ---
 
