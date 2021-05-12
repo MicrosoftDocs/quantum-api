@@ -4,7 +4,7 @@ description: Executes a single test.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.kata
 ms.author: anburton
-ms.date: 05/06/2021
+ms.date: 05/12/2021
 ms.topic: managed-reference
 ---
 

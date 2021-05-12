@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.HTerm
 title: HTerm user defined type
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/12/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Chemistry
