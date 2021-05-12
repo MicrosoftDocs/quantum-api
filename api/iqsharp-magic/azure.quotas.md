@@ -4,7 +4,7 @@ description: Displays a list of quotas for the current Azure Quantum workspace.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.quotas
 ms.author: anburton
-ms.date: 04/27/2021
+ms.date: 05/06/2021
 ms.topic: managed-reference
 ---
 
