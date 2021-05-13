@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Samples
 title: Microsoft.Quantum.Research.Samples namespace
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/13/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Research.Samples

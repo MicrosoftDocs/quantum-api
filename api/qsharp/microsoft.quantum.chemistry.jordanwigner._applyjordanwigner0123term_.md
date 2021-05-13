@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._ApplyJordanWigner0123Term_
 title: _ApplyJordanWigner0123Term_ operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/13/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
