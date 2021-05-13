@@ -1,7 +1,7 @@
 ---
 uid: SystemTestJWOptimizedES.PPTermFromGeneralHamiltonianTestOp
 title: PPTermFromGeneralHamiltonianTestOp operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/13/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: SystemTestJWOptimizedES
