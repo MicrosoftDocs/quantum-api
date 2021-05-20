@@ -1,12 +1,16 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyConditionallyCA
 title: ApplyConditionallyCA operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/20/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
 qsharp.name: ApplyConditionallyCA
-qsharp.summary: ''
+qsharp.summary: >+
+  > [!WARNING]
+
+  > ApplyConditionallyCA has been deprecated. Please use <xref:Microsoft.Quantum.ClassicalControl.ApplyConditionallyCA> instead.
+
 ---
 
 # ApplyConditionallyCA operation
@@ -15,6 +19,9 @@ Namespace: [Microsoft.Quantum.Simulation.QuantumProcessor.Extensions](xref:Micro
 
 Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Microsoft.Quantum.QSharp.Foundation)
 
+
+> [!WARNING]
+> ApplyConditionallyCA has been deprecated. Please use <xref:Microsoft.Quantum.ClassicalControl.ApplyConditionallyCA> instead.
 
 
 

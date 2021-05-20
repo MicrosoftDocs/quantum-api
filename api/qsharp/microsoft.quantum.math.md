@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math
 title: Microsoft.Quantum.Math namespace
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/20/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Math
@@ -35,6 +35,7 @@ This namespace contains classical mathematical functions and data types.
 |[AbsL](xref:Microsoft.Quantum.Math.AbsL) |Returns the absolute value of an integer. |
 |[AbsSquaredComplex](xref:Microsoft.Quantum.Math.AbsSquaredComplex) |Returns the squared absolute value of a complex number of type `Complex`. |
 |[AbsSquaredComplexPolar](xref:Microsoft.Quantum.Math.AbsSquaredComplexPolar) |Returns the squared absolute value of a complex number of type `ComplexPolar`. |
+|[ApproximateFactorial](xref:Microsoft.Quantum.Math.ApproximateFactorial) |Returns an approximate factorial of a given number. |
 |[ArcCos](xref:Microsoft.Quantum.Math.ArcCos) |Returns the angle whose cosine is the specified number. |
 |[ArcCosh](xref:Microsoft.Quantum.Math.ArcCosh) |Computes the inverse hyperbolic cosine of a number. |
 |[ArcSin](xref:Microsoft.Quantum.Math.ArcSin) |Returns the angle whose sine is the specified number. |
@@ -44,6 +45,7 @@ This namespace contains classical mathematical functions and data types.
 |[ArcTanh](xref:Microsoft.Quantum.Math.ArcTanh) |Computes the inverse hyperbolic tangent of a number. |
 |[ArgComplex](xref:Microsoft.Quantum.Math.ArgComplex) |Returns the phase of a complex number of type `Complex`. |
 |[ArgComplexPolar](xref:Microsoft.Quantum.Math.ArgComplexPolar) |Returns the phase of a complex number of type `ComplexPolar`. |
+|[Binom](xref:Microsoft.Quantum.Math.Binom) |Returns the binomial coefficient of two integers. |
 |[BitSizeI](xref:Microsoft.Quantum.Math.BitSizeI) |For a non-negative integer `a`, returns the number of bits required to represent `a`. |
 |[BitSizeL](xref:Microsoft.Quantum.Math.BitSizeL) |For a non-negative integer `a`, returns the number of bits required to represent `a`. |
 |[Ceiling](xref:Microsoft.Quantum.Math.Ceiling) |Returns the smallest integer greater than or equal to the specified number. |
@@ -65,9 +67,12 @@ This namespace contains classical mathematical functions and data types.
 |[ExpModL](xref:Microsoft.Quantum.Math.ExpModL) |Returns an integer raised to a given power, with respect to a given modulus. |
 |[ExtendedGreatestCommonDivisorI](xref:Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorI) |Computes a tuple $(u,v)$ such that $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$, where $\operatorname{GCD}$ is $a$ greatest common divisor of $a$ and $b$. The GCD is always positive. |
 |[ExtendedGreatestCommonDivisorL](xref:Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorL) |Computes a tuple $(u,v)$ such that $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$, where $\operatorname{GCD}$ is $a$ greatest common divisor of $a$ and $b$. The GCD is always positive. |
+|[FactorialI](xref:Microsoft.Quantum.Math.FactorialI) |Returns the factorial of a given number. |
+|[FactorialL](xref:Microsoft.Quantum.Math.FactorialL) |Returns the factorial of a given integer. |
 |[Floor](xref:Microsoft.Quantum.Math.Floor) |Returns the smallest integer greater than or equal to the specified number. |
 |[GreatestCommonDivisorI](xref:Microsoft.Quantum.Math.GreatestCommonDivisorI) |Computes the greatest common divisor of $a$ and $b$. The GCD is always positive. |
 |[GreatestCommonDivisorL](xref:Microsoft.Quantum.Math.GreatestCommonDivisorL) |Computes the greatest common divisor of $a$ and $b$. The GCD is always positive. |
+|[HalfIntegerBinom](xref:Microsoft.Quantum.Math.HalfIntegerBinom) |Returns a binomial coefficient of the form "½-choose-k." |
 |[IEEERemainder](xref:Microsoft.Quantum.Math.IEEERemainder) |Returns the remainder resulting from the division of a specified number by another specified number. |
 |[InverseModI](xref:Microsoft.Quantum.Math.InverseModI) |Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$. |
 |[InverseModL](xref:Microsoft.Quantum.Math.InverseModL) |Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$. |
@@ -79,6 +84,8 @@ This namespace contains classical mathematical functions and data types.
 |[Lg](xref:Microsoft.Quantum.Math.Lg) |Computes the base-2 logarithm of a number. |
 |[Log](xref:Microsoft.Quantum.Math.Log) |Returns the natural (base $e$) logarithm of a specified number. |
 |[Log10](xref:Microsoft.Quantum.Math.Log10) |Returns the base-10 logarithm of a specified number. |
+|[LogFactorialD](xref:Microsoft.Quantum.Math.LogFactorialD) |Returns the approximate natural logarithm of the factorial of a given integer. |
+|[LogGammaD](xref:Microsoft.Quantum.Math.LogGammaD) |Returns the natural logarithm of the gamma function (aka the log-gamma function). |
 |[LogOf2](xref:Microsoft.Quantum.Math.LogOf2) |Returns the natural logarithm of 2. |
 |[Max](xref:Microsoft.Quantum.Math.Max) |Given an array of integers, returns the largest element. |
 |[MaxD](xref:Microsoft.Quantum.Math.MaxD) |Returns the larger of two specified numbers. |

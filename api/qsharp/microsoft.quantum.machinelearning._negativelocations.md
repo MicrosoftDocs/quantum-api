@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._NegativeLocations
 title: _NegativeLocations function
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/20/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning

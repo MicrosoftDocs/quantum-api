@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertMeasurement
 title: AssertMeasurement operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/20/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -59,3 +59,4 @@ Note that the Adjoint and Controlled versions of this operation will notcheck t
 ## See Also
 
 - [Microsoft.Quantum.Diagnostics.AssertMeasurementProbability](xref:Microsoft.Quantum.Diagnostics.AssertMeasurementProbability)
+- [Microsoft.Quantum.Intrinsic.Measure](xref:Microsoft.Quantum.Intrinsic.Measure)
