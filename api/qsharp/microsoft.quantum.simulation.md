@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation
 title: Microsoft.Quantum.Simulation namespace
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Simulation
@@ -25,9 +25,7 @@ the dynamics of quantum systems.
 |[AdiabaticStateEnergyUnitary](xref:Microsoft.Quantum.Simulation.AdiabaticStateEnergyUnitary) |Performs state preparation by applying a `statePrepUnitary` on the input state, followed by adiabatic state preparation using a `adiabaticUnitary`, and finally phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
 |[EstimateEnergy](xref:Microsoft.Quantum.Simulation.EstimateEnergy) |Performs state preparation by applying a `statePrepUnitary` on an automatically allocated input state phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
 |[EstimateEnergyWithAdiabaticEvolution](xref:Microsoft.Quantum.Simulation.EstimateEnergyWithAdiabaticEvolution) |Performs state preparation by applying a `statePrepUnitary` on an automatically allocated input state, followed by adiabatic state preparation using a `adiabaticUnitary`, and finally phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
-|[TimeDependentTrotterSimulationAlgorithmImpl](xref:Microsoft.Quantum.Simulation.TimeDependentTrotterSimulationAlgorithmImpl) |Implementation of multiple Trotter steps to approximate a unitary operator that solves the time-dependent Schrödinger equation. |
 |[TrotterSimulationAlgorithmImpl](xref:Microsoft.Quantum.Simulation.TrotterSimulationAlgorithmImpl) |Makes repeated calls to `TrotterStep` to approximate the time-evolution operator exp(_-iHt_). |
-|[TrotterStepImpl](xref:Microsoft.Quantum.Simulation.TrotterStepImpl) |Implements time-evolution by a term contained in a `GeneratorSystem`. |
 
 ## Functions
 

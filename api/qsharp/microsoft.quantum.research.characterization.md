@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Characterization
 title: Microsoft.Quantum.Research.Characterization namespace
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Research.Characterization
@@ -23,7 +23,6 @@ characterization and phase estimation.
 | Name | Summary |
 |------|---------|
 |[RandomWalkPhaseEstimation](xref:Microsoft.Quantum.Research.Characterization.RandomWalkPhaseEstimation) |Performs iterative phase estimation using a random walk to approximate Bayesian inference on the classical measurement results from a given oracle and eigenstate. |
-|[_PrepAndMeasurePhaseEst](xref:Microsoft.Quantum.Research.Characterization._PrepAndMeasurePhaseEst) | |
 
 
 <!-- /summaries -->

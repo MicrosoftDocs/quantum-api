@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MResetX
 title: MResetX operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement

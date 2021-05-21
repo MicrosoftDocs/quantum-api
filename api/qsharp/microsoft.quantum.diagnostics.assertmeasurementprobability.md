@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertMeasurementProbability
 title: AssertMeasurementProbability operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -21,7 +21,7 @@ Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Micros
 Asserts that measuring the given qubits in the given Pauli basis will have the given resultwith the given probability, within some tolerance.
 
 ```qsharp
-operation AssertMeasurementProbability (bases : Pauli[], qubits : Qubit[], result : Result, prob : Double, msg : String, tol : Double) : Unit is Adj + Ctl
+operation AssertMeasurementProbability (bases : Pauli[], qubits : Qubit[], result : Result, prob : Double, msg : String, tolerance : Double) : Unit is Adj + Ctl
 ```
 
 
@@ -52,9 +52,9 @@ The probability with which the given result is expected.
 A message to be reported if the assertion fails.
 
 
-### tol : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
+### tolerance : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-
+Tolerance allowed in the measurement probability.
 
 
 
@@ -73,3 +73,4 @@ Note that the Adjoint and Controlled versions of this operation will notcheck t
 ## See Also
 
 - [Microsoft.Quantum.Diagnostics.AssertMeasurement](xref:Microsoft.Quantum.Diagnostics.AssertMeasurement)
+- [Microsoft.Quantum.Intrinsic.Measure](xref:Microsoft.Quantum.Intrinsic.Measure)

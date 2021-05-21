@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyWithA
 title: ApplyWithA operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon

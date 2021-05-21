@@ -514,7 +514,35 @@
   name: Microsoft.Quantum.Chemistry.JordanWigner.VQE
   uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE
 - items:
+  - {name: ApplyConditionally, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionally}
+  - {name: ApplyConditionallyA, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyA}
+  - {name: ApplyConditionallyC, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyC}
+  - {name: ApplyConditionallyCA, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyCA}
+  - {name: ApplyConditionallyIntrinsic, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyIntrinsic}
+  - {name: ApplyConditionallyIntrinsicA, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyIntrinsicA}
+  - {name: ApplyConditionallyIntrinsicC, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyIntrinsicC}
+  - {name: ApplyConditionallyIntrinsicCA, uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyIntrinsicCA}
+  - {name: ApplyIfElseIntrinsic, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseIntrinsic}
+  - {name: ApplyIfElseIntrinsicA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseIntrinsicA}
+  - {name: ApplyIfElseIntrinsicC, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseIntrinsicC}
+  - {name: ApplyIfElseIntrinsicCA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseIntrinsicCA}
+  - {name: ApplyIfElseR, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseR}
+  - {name: ApplyIfElseRA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseRA}
+  - {name: ApplyIfElseRC, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseRC}
+  - {name: ApplyIfElseRCA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfElseRCA}
+  - {name: ApplyIfOne, uid: Microsoft.Quantum.ClassicalControl.ApplyIfOne}
+  - {name: ApplyIfOneA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfOneA}
+  - {name: ApplyIfOneC, uid: Microsoft.Quantum.ClassicalControl.ApplyIfOneC}
+  - {name: ApplyIfOneCA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfOneCA}
+  - {name: ApplyIfZero, uid: Microsoft.Quantum.ClassicalControl.ApplyIfZero}
+  - {name: ApplyIfZeroA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfZeroA}
+  - {name: ApplyIfZeroC, uid: Microsoft.Quantum.ClassicalControl.ApplyIfZeroC}
+  - {name: ApplyIfZeroCA, uid: Microsoft.Quantum.ClassicalControl.ApplyIfZeroCA}
+  name: Microsoft.Quantum.ClassicalControl
+  uid: Microsoft.Quantum.ClassicalControl
+- items:
   - {name: BigIntAsBoolArray, uid: Microsoft.Quantum.Convert.BigIntAsBoolArray}
+  - {name: BigIntAsString, uid: Microsoft.Quantum.Convert.BigIntAsString}
   - {name: BoolArrayAsBigInt, uid: Microsoft.Quantum.Convert.BoolArrayAsBigInt}
   - {name: BoolArrayAsInt, uid: Microsoft.Quantum.Convert.BoolArrayAsInt}
   - {name: BoolArrayAsPauli, uid: Microsoft.Quantum.Convert.BoolArrayAsPauli}
@@ -825,6 +853,7 @@
   - {name: AbsL, uid: Microsoft.Quantum.Math.AbsL}
   - {name: AbsSquaredComplex, uid: Microsoft.Quantum.Math.AbsSquaredComplex}
   - {name: AbsSquaredComplexPolar, uid: Microsoft.Quantum.Math.AbsSquaredComplexPolar}
+  - {name: ApproximateFactorial, uid: Microsoft.Quantum.Math.ApproximateFactorial}
   - {name: ArcCos, uid: Microsoft.Quantum.Math.ArcCos}
   - {name: ArcCosh, uid: Microsoft.Quantum.Math.ArcCosh}
   - {name: ArcSin, uid: Microsoft.Quantum.Math.ArcSin}
@@ -835,6 +864,7 @@
   - {name: ArgComplex, uid: Microsoft.Quantum.Math.ArgComplex}
   - {name: ArgComplexPolar, uid: Microsoft.Quantum.Math.ArgComplexPolar}
   - {name: BigFraction, uid: Microsoft.Quantum.Math.BigFraction}
+  - {name: Binom, uid: Microsoft.Quantum.Math.Binom}
   - {name: BitSizeI, uid: Microsoft.Quantum.Math.BitSizeI}
   - {name: BitSizeL, uid: Microsoft.Quantum.Math.BitSizeL}
   - {name: Ceiling, uid: Microsoft.Quantum.Math.Ceiling}
@@ -858,10 +888,13 @@
   - {name: ExpModL, uid: Microsoft.Quantum.Math.ExpModL}
   - {name: ExtendedGreatestCommonDivisorI, uid: Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorI}
   - {name: ExtendedGreatestCommonDivisorL, uid: Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorL}
+  - {name: FactorialI, uid: Microsoft.Quantum.Math.FactorialI}
+  - {name: FactorialL, uid: Microsoft.Quantum.Math.FactorialL}
   - {name: Floor, uid: Microsoft.Quantum.Math.Floor}
   - {name: Fraction, uid: Microsoft.Quantum.Math.Fraction}
   - {name: GreatestCommonDivisorI, uid: Microsoft.Quantum.Math.GreatestCommonDivisorI}
   - {name: GreatestCommonDivisorL, uid: Microsoft.Quantum.Math.GreatestCommonDivisorL}
+  - {name: HalfIntegerBinom, uid: Microsoft.Quantum.Math.HalfIntegerBinom}
   - {name: IEEERemainder, uid: Microsoft.Quantum.Math.IEEERemainder}
   - {name: InverseModI, uid: Microsoft.Quantum.Math.InverseModI}
   - {name: InverseModL, uid: Microsoft.Quantum.Math.InverseModL}
@@ -873,6 +906,8 @@
   - {name: Lg, uid: Microsoft.Quantum.Math.Lg}
   - {name: Log, uid: Microsoft.Quantum.Math.Log}
   - {name: Log10, uid: Microsoft.Quantum.Math.Log10}
+  - {name: LogFactorialD, uid: Microsoft.Quantum.Math.LogFactorialD}
+  - {name: LogGammaD, uid: Microsoft.Quantum.Math.LogGammaD}
   - {name: LogOf2, uid: Microsoft.Quantum.Math.LogOf2}
   - {name: Max, uid: Microsoft.Quantum.Math.Max}
   - {name: MaxD, uid: Microsoft.Quantum.Math.MaxD}
@@ -1024,7 +1059,6 @@
   uid: Microsoft.Quantum.Random
 - items:
   - {name: RandomWalkPhaseEstimation, uid: Microsoft.Quantum.Research.Characterization.RandomWalkPhaseEstimation}
-  - {name: _PrepAndMeasurePhaseEst, uid: Microsoft.Quantum.Research.Characterization._PrepAndMeasurePhaseEst}
   name: Microsoft.Quantum.Research.Characterization
   uid: Microsoft.Quantum.Research.Characterization
 - items:
@@ -1036,30 +1070,9 @@
   - {name: OptimizedTrotterStepOracle, uid: Microsoft.Quantum.Research.Chemistry.OptimizedTrotterStepOracle}
   - {name: _ApplyOptimizedTrotterStep, uid: Microsoft.Quantum.Research.Chemistry._ApplyOptimizedTrotterStep}
   - {name: _DeltaParityCNOTbitstring, uid: Microsoft.Quantum.Research.Chemistry._DeltaParityCNOTbitstring}
-  - {name: _JWOptimized0123Term, uid: Microsoft.Quantum.Research.Chemistry._JWOptimized0123Term}
-  - {name: _JWOptimized0123TermImpl, uid: Microsoft.Quantum.Research.Chemistry._JWOptimized0123TermImpl}
   - {name: _JWOptimizedFermionEvolution, uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedFermionEvolution}
-  - {name: _JWOptimizedHpqTerm, uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedHpqTerm}
-  - {name: _JWOptimizedHpqTermImpl, uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedHpqTermImpl}
-  - {name: _JWOptimizedPQandPQQRTerm, uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedPQandPQQRTerm}
-  - {name: _JWOptimizedZ, uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedZ}
-  - {name: _JWOptimizedZTerm, uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedZTerm}
-  - {name: _JWOptimizedZZTerm, uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedZZTerm}
   name: Microsoft.Quantum.Research.Chemistry
   uid: Microsoft.Quantum.Research.Chemistry
-- items:
-  - {name: ApplyBlockEncodedHamiltonian, uid: Microsoft.Quantum.Research.Samples.ApplyBlockEncodedHamiltonian}
-  - {name: EvolveByTrotter, uid: Microsoft.Quantum.Research.Samples.EvolveByTrotter}
-  - {name: ExpOracle, uid: Microsoft.Quantum.Research.Samples.ExpOracle}
-  - {name: PhaseEstimationSample, uid: Microsoft.Quantum.Research.Samples.PhaseEstimationSample}
-  - {name: QuantumSignalProcessOnEquator, uid: Microsoft.Quantum.Research.Samples.QuantumSignalProcessOnEquator}
-  - {name: SampleHamiltonianEvolutionByQSP, uid: Microsoft.Quantum.Research.Samples.SampleHamiltonianEvolutionByQSP}
-  name: Microsoft.Quantum.Research.Samples
-  uid: Microsoft.Quantum.Research.Samples
-- items:
-  - {name: CheckBayesianPERandomWalk, uid: Microsoft.Quantum.Research.Tests.CheckBayesianPERandomWalk}
-  name: Microsoft.Quantum.Research.Tests
-  uid: Microsoft.Quantum.Research.Tests
 - items:
   - {name: AddGeneratorSystems, uid: Microsoft.Quantum.Simulation.AddGeneratorSystems}
   - {name: AdiabaticStateEnergyUnitary, uid: Microsoft.Quantum.Simulation.AdiabaticStateEnergyUnitary}
@@ -1099,11 +1112,9 @@
   - {name: TimeDependentGeneratorSystem, uid: Microsoft.Quantum.Simulation.TimeDependentGeneratorSystem}
   - {name: TimeDependentSimulationAlgorithm, uid: Microsoft.Quantum.Simulation.TimeDependentSimulationAlgorithm}
   - {name: TimeDependentTrotterSimulationAlgorithm, uid: Microsoft.Quantum.Simulation.TimeDependentTrotterSimulationAlgorithm}
-  - {name: TimeDependentTrotterSimulationAlgorithmImpl, uid: Microsoft.Quantum.Simulation.TimeDependentTrotterSimulationAlgorithmImpl}
   - {name: TrotterSimulationAlgorithm, uid: Microsoft.Quantum.Simulation.TrotterSimulationAlgorithm}
   - {name: TrotterSimulationAlgorithmImpl, uid: Microsoft.Quantum.Simulation.TrotterSimulationAlgorithmImpl}
   - {name: TrotterStep, uid: Microsoft.Quantum.Simulation.TrotterStep}
-  - {name: TrotterStepImpl, uid: Microsoft.Quantum.Simulation.TrotterStepImpl}
   - {name: Unitary, uid: Microsoft.Quantum.Simulation.Unitary}
   name: Microsoft.Quantum.Simulation
   uid: Microsoft.Quantum.Simulation
@@ -1160,19 +1171,3 @@
   - {name: TargetInstruction, uid: Microsoft.Quantum.Targeting.TargetInstruction}
   name: Microsoft.Quantum.Targeting
   uid: Microsoft.Quantum.Targeting
-- items:
-  - {name: JWOptimizedApplyTrotterStep, uid: SystemTestJWOptimizedES.JWOptimizedApplyTrotterStep}
-  - {name: PPTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PPTermFromGeneralHamiltonianTestOp}
-  - {name: PPTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PPTermFromLiquidOrbitalTestOp}
-  - {name: PQQPTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQQPTermFromGeneralHamiltonianTestOp}
-  - {name: PQQPTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQQPTermFromLiquidOrbitalTestOp}
-  - {name: PQQRTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQQRTermFromGeneralHamiltonianTestOp}
-  - {name: PQQRTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQQRTermFromLiquidOrbitalTestOp}
-  - {name: PQRSTermFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQRSTermFromGeneralHamiltonianTestOp}
-  - {name: PQRSTermFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQRSTermFromLiquidOrbitalTestOp}
-  - {name: PQTermABFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQTermABFromGeneralHamiltonianTestOp}
-  - {name: PQTermABFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQTermABFromLiquidOrbitalTestOp}
-  - {name: PQTermACFromGeneralHamiltonianTestOp, uid: SystemTestJWOptimizedES.PQTermACFromGeneralHamiltonianTestOp}
-  - {name: PQTermACFromLiquidOrbitalTestOp, uid: SystemTestJWOptimizedES.PQTermACFromLiquidOrbitalTestOp}
-  name: SystemTestJWOptimizedES
-  uid: SystemTestJWOptimizedES
