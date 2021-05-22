@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert
 title: Microsoft.Quantum.Convert namespace
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Convert
@@ -29,6 +29,7 @@ types.
 | Name | Summary |
 |------|---------|
 |[BigIntAsBoolArray](xref:Microsoft.Quantum.Convert.BigIntAsBoolArray) |Converts a given big integer to an array of Booleans. The 0 element of the array is the least significant bit of the big integer. |
+|[BigIntAsString](xref:Microsoft.Quantum.Convert.BigIntAsString) |Converts a given integer number to an equivalent string representation. |
 |[BoolArrayAsBigInt](xref:Microsoft.Quantum.Convert.BoolArrayAsBigInt) |Converts a given array of Booleans to an equivalent big integer. The 0 element of the array is the least significant bit of the big integer. |
 |[BoolArrayAsInt](xref:Microsoft.Quantum.Convert.BoolArrayAsInt) |Produces a non-negative integer from a string of bits in little endian format. |
 |[BoolArrayAsPauli](xref:Microsoft.Quantum.Convert.BoolArrayAsPauli) |Given a bit string, returns a multi-qubit Pauli operator represented as an array of single-qubit Pauli operators. |
