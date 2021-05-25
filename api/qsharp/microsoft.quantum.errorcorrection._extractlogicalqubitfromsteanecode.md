@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection._ExtractLogicalQubitFromSteaneCode
 title: _ExtractLogicalQubitFromSteaneCode operation
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -15,7 +15,8 @@ qsharp.summary: >-
   One could measure the syndrome by measuring multi-qubit Pauli operator
   directly on the code state, but for the distillation purpose
   the logical qubit is returned into a single qubit,
-  in course of which the syndrome measurements can be done without further ancillas.
+  in course of which the syndrome measurements can be done without further
+  auxillary qubits.
 ---
 
 # _ExtractLogicalQubitFromSteaneCode operation
@@ -25,7 +26,7 @@ Namespace: [Microsoft.Quantum.ErrorCorrection](xref:Microsoft.Quantum.ErrorCorre
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Syndrome measurement and the inverse of embedding.$X$- and $Z$-stabilizers are not treated equally,which is due to the particular choice of the encoding circuit.This asymmetry leads to a different syndrome extraction routine.One could measure the syndrome by measuring multi-qubit Pauli operatordirectly on the code state, but for the distillation purposethe logical qubit is returned into a single qubit,in course of which the syndrome measurements can be done without further ancillas.
+Syndrome measurement and the inverse of embedding.$X$- and $Z$-stabilizers are not treated equally,which is due to the particular choice of the encoding circuit.This asymmetry leads to a different syndrome extraction routine.One could measure the syndrome by measuring multi-qubit Pauli operatordirectly on the code state, but for the distillation purposethe logical qubit is returned into a single qubit,in course of which the syndrome measurements can be done without furtherauxillary qubits.
 
 ```qsharp
 operation _ExtractLogicalQubitFromSteaneCode (code : Microsoft.Quantum.ErrorCorrection.LogicalRegister) : (Qubit, Int, Int)
