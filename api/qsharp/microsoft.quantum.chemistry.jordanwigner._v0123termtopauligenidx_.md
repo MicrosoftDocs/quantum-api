@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._V0123TermToPauliGenIdx_
 title: _V0123TermToPauliGenIdx_ function
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner

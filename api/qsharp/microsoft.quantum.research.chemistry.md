@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry
 title: Microsoft.Quantum.Research.Chemistry namespace
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Research.Chemistry
@@ -25,15 +25,7 @@ chemistry simulation.
 |[ApplyDeltaParity](xref:Microsoft.Quantum.Research.Chemistry.ApplyDeltaParity) |Computes difference in parity between a previous PQRS... terms and the next PQRS... term. This difference is computed on a auxiliary qubit. |
 |[JWOptimizedStatePreparation](xref:Microsoft.Quantum.Research.Chemistry.JWOptimizedStatePreparation) |Simple state preparation of trial state by occupying spin-orbitals |
 |[_ApplyOptimizedTrotterStep](xref:Microsoft.Quantum.Research.Chemistry._ApplyOptimizedTrotterStep) | |
-|[_JWOptimized0123Term](xref:Microsoft.Quantum.Research.Chemistry._JWOptimized0123Term) |Applies time-evolution by a PQRS term described by a `GeneratorIndex`. |
-|[_JWOptimized0123TermImpl](xref:Microsoft.Quantum.Research.Chemistry._JWOptimized0123TermImpl) |Implementation step of `JWOptimized0123Term_`; |
 |[_JWOptimizedFermionEvolution](xref:Microsoft.Quantum.Research.Chemistry._JWOptimizedFermionEvolution) |Represents a dynamical generator as a set of simulatable gates and an expansion in the JWOptimized basis. |
-|[_JWOptimizedHpqTerm](xref:Microsoft.Quantum.Research.Chemistry._JWOptimizedHpqTerm) |Applies time-evolution by a PQ term described by a `GeneratorIndex`. |
-|[_JWOptimizedHpqTermImpl](xref:Microsoft.Quantum.Research.Chemistry._JWOptimizedHpqTermImpl) |Implementation step of `JWOptimizedHpqTerm_`. |
-|[_JWOptimizedPQandPQQRTerm](xref:Microsoft.Quantum.Research.Chemistry._JWOptimizedPQandPQQRTerm) |Applies time-evolution by a PQ or PQQR term described by a `GeneratorIndex`. |
-|[_JWOptimizedZ](xref:Microsoft.Quantum.Research.Chemistry._JWOptimizedZ) |Applies a Rz rotation, with a C-NOT trick to double phase in phase estimation. |
-|[_JWOptimizedZTerm](xref:Microsoft.Quantum.Research.Chemistry._JWOptimizedZTerm) |Applies time-evolution by a Z term described by a `GeneratorIndex`. |
-|[_JWOptimizedZZTerm](xref:Microsoft.Quantum.Research.Chemistry._JWOptimizedZZTerm) |Applies time-evolution by a ZZ term described by a `GeneratorIndex`. |
 
 ## Functions
 

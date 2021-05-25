@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.SquaredNorm
 title: SquaredNorm function
-ms.date: 5/6/2021 12:00:00 AM
+ms.date: 5/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
