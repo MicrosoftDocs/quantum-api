@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic
 title: Microsoft.Quantum.Intrinsic namespace
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 5/28/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Intrinsic
