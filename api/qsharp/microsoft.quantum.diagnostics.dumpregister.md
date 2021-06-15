@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.DumpRegister
 title: DumpRegister function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -38,13 +38,17 @@ The list of qubits to report.
 
 ## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
-None.
+
 
 ## Type Parameters
 
 ### 'T
 
 
+
+## Example
+
+When run on the full-state simulator, the following snippet dumpsthe Bell state $(\ket{00} + \ket{11}) / \sqrt{2}$ to the console:```qsharpuse left = Qubit();use right = Qubit();within {    H(left);    CNOT(left, right);} apply {    // The () input here denotes that the state dumped by the    // full-state simulator should be reported to the console.    DumpRegister((), [left, right]);}```
 
 ## Remarks
 

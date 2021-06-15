@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE
 title: Microsoft.Quantum.Chemistry.JordanWigner.VQE namespace
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Chemistry.JordanWigner.VQE
@@ -21,7 +21,6 @@ qsharp.summary: ''
 |------|---------|
 |[EstimateEnergy](xref:Microsoft.Quantum.Chemistry.JordanWigner.VQE.EstimateEnergy) |Estimates the energy of the molecule by summing the energy contributed by the individual Jordan-Wigner terms. |
 |[EstimateTermExpectation](xref:Microsoft.Quantum.Chemistry.JordanWigner.VQE.EstimateTermExpectation) |Computes the energy associated to a given Jordan-Wigner Hamiltonian term |
-|[_prepareTrialStateWrapper](xref:Microsoft.Quantum.Chemistry.JordanWigner.VQE._prepareTrialStateWrapper) |Private wrapper around PrepareTrialState to make it compatible with EstimateFrequencyA by defining an adjoint. EstimateFrequencyA has built-in emulation feature when targeting the QuantumSimulator, which speeds up its execution. |
 
 ## Functions
 

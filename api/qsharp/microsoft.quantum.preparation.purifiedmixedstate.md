@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PurifiedMixedState
 title: PurifiedMixedState function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -46,7 +46,7 @@ An operation that prepares $\tilde \rho$ as a purification onto a jointindex an
 
 ## Example
 
-The following code snippet prepares an purification of the $3$-qubit state$\rho=\sum_{j=0}^{4}\frac{|alpha_j|}{\sum_k |\alpha_k|}\ket{j}\bra{j}$, where$\vec\alpha=(1.0, 2.0, 3.0, 4.0, 5.0)$, and the target error is$10^{-3}$:```qsharplet coefficients = [1.0, 2.0, 3.0, 4.0, 5.0];let targetError = 1e-3;let purifiedState = PurifiedMixedState(targetError, coefficients);using (indexRegister = Qubit[purifiedState::Requirements::NIndexQubits]) {    using (garbageRegister = Qubit[purifiedState::Requirements::NGarbageQubits]) {        purifiedState::Prepare(LittleEndian(indexRegister), new Qubit[0], garbageRegister);    }}```
+The following code snippet prepares an purification of the $3$-qubit state$\rho=\sum_{j=0}^{4}\frac{|alpha_j|}{\sum_k |\alpha_k|}\ket{j}\bra{j}$, where$\vec\alpha=(1.0, 2.0, 3.0, 4.0, 5.0)$, and the target error is$10^{-3}$:```qsharplet coefficients = [1.0, 2.0, 3.0, 4.0, 5.0];let targetError = 1e-3;let purifiedState = PurifiedMixedState(targetError, coefficients);using (indexRegister = Qubit[purifiedState::Requirements::NIndexQubits]) {    using (garbageRegister = Qubit[purifiedState::Requirements::NGarbageQubits]) {        purifiedState::Prepare(LittleEndian(indexRegister), [], garbageRegister);    }}```
 
 ## Remarks
 

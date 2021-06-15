@@ -1,12 +1,14 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ComputeReciprocalFxP
 title: ComputeReciprocalFxP operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ComputeReciprocalFxP
-qsharp.summary: Computes $1/x$ for a fixed-point number $x$.
+qsharp.summary: >-
+  Computes the reciprocal of a number stored in a quantum register with
+  the fixed-point representation.
 ---
 
 # ComputeReciprocalFxP operation
@@ -16,12 +18,16 @@ Namespace: [Microsoft.Quantum.Arithmetic](xref:Microsoft.Quantum.Arithmetic)
 Package: [Microsoft.Quantum.Numerics](https://nuget.org/packages/Microsoft.Quantum.Numerics)
 
 
-Computes $1/x$ for a fixed-point number $x$.
+Computes the reciprocal of a number stored in a quantum register withthe fixed-point representation.
 
 ```qsharp
 operation ComputeReciprocalFxP (x : Microsoft.Quantum.Arithmetic.FixedPoint, result : Microsoft.Quantum.Arithmetic.FixedPoint) : Unit is Adj + Ctl
 ```
 
+
+## Description
+
+Given a register in the state $\ket{x}$ for a fixed-point number $x$,computes the reciprocal $1 / x$ into the state of the `result`register.
 
 ## Input
 

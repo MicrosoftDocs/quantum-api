@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.SingleQubitCliffordAsOperation
 title: SingleQubitCliffordAsOperation function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -29,7 +29,7 @@ function SingleQubitCliffordAsOperation (clifford : Microsoft.Quantum.Synthesis.
 
 ### clifford : [SingleQubitClifford](xref:Microsoft.Quantum.Synthesis.SingleQubitClifford)
 
-
+The operator to be represented as an operation.
 
 
 

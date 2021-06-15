@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.BigIntAsString
 title: BigIntAsString function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -31,10 +31,14 @@ Returns a string given a BigInt.
 
 ### a : [BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals)
 
-
+The big integer to be represented as a string.
 
 
 
 ## Output : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
-String
+The value of `a` formatted as a string.
+
+## Example
+
+```qsharplet nAsString = BigIntAsString(12345678901234567890L);// Displays 12345678901234567890.Message(nAsString);```

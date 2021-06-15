@@ -1,12 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.InverseModI
 title: InverseModI function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: InverseModI
-qsharp.summary: Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$.
+qsharp.summary: Returns the multiplicative inverse of a modular integer.
 ---
 
 # InverseModI function
@@ -16,12 +16,16 @@ Namespace: [Microsoft.Quantum.Math](xref:Microsoft.Quantum.Math)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$.
+Returns the multiplicative inverse of a modular integer.
 
 ```qsharp
 function InverseModI (a : Int, modulus : Int) : Int
 ```
 
+
+## Description
+
+Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$.
 
 ## Input
 

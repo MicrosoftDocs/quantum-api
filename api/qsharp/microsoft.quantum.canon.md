@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon
 title: Microsoft.Quantum.Canon namespace
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Canon
@@ -166,8 +166,8 @@ qsharp.summary: ''
 |[PermuteQubits](xref:Microsoft.Quantum.Canon.PermuteQubits) |Permutes qubits by using the SWAP operation. |
 |[QFT](xref:Microsoft.Quantum.Canon.QFT) |Performs the Quantum Fourier Transform on a quantum register containing an integer in the big-endian representation. |
 |[QFTLE](xref:Microsoft.Quantum.Canon.QFTLE) |Performs the Quantum Fourier Transform on a quantum register containing an integer in the little-endian representation. |
-|[RAll0](xref:Microsoft.Quantum.Canon.RAll0) |Performs a phase shift operation. |
-|[RAll1](xref:Microsoft.Quantum.Canon.RAll1) |Performs a phase shift operation. |
+|[RAll0](xref:Microsoft.Quantum.Canon.RAll0) |Rotates the all-zeros state by a given phase. |
+|[RAll1](xref:Microsoft.Quantum.Canon.RAll1) |Rotates the all-ones state by a given phase. |
 |[Repeat](xref:Microsoft.Quantum.Canon.Repeat) |Repeats an operation a given number of times. |
 |[RepeatA](xref:Microsoft.Quantum.Canon.RepeatA) |Repeats an operation a given number of times. |
 |[RepeatC](xref:Microsoft.Quantum.Canon.RepeatC) |Repeats an operation a given number of times. |
@@ -222,12 +222,6 @@ qsharp.summary: ''
 |[RestrictedToSubregisterC](xref:Microsoft.Quantum.Canon.RestrictedToSubregisterC) |Restricts an operation to an array of indices of a register, i.e., a subregister. The modifier `C` indicates that the operation is controllable. |
 |[RestrictedToSubregisterCA](xref:Microsoft.Quantum.Canon.RestrictedToSubregisterCA) |Restricts an operation to an array of indices of a register, i.e., a subregister. The modifier `CA` indicates that the operation is controllable and adjointable. |
 |[Snd](xref:Microsoft.Quantum.Canon.Snd) |Given a pair, returns its second element. |
-|[StackCapacity](xref:Microsoft.Quantum.Canon.StackCapacity) |> [!WARNING] |
-|[StackLength](xref:Microsoft.Quantum.Canon.StackLength) |> [!WARNING] |
-|[StackNew](xref:Microsoft.Quantum.Canon.StackNew) |> [!WARNING] |
-|[StackPeek](xref:Microsoft.Quantum.Canon.StackPeek) |> [!WARNING] |
-|[StackPop](xref:Microsoft.Quantum.Canon.StackPop) |> [!WARNING] |
-|[StackPush](xref:Microsoft.Quantum.Canon.StackPush) |> [!WARNING] |
 |[TransformedOperation](xref:Microsoft.Quantum.Canon.TransformedOperation) |Given a function and an operation, returns a new operation whose input is transformed by the given function. |
 |[TransformedOperationA](xref:Microsoft.Quantum.Canon.TransformedOperationA) |Given a function and an operation, returns a new operation whose input is transformed by the given function. |
 |[TransformedOperationC](xref:Microsoft.Quantum.Canon.TransformedOperationC) |Given a function and an operation, returns a new operation whose input is transformed by the given function. |
@@ -244,5 +238,4 @@ qsharp.summary: ''
 | Name | Summary |
 |------|---------|
 |[CCNOTop](xref:Microsoft.Quantum.Canon.CCNOTop) |The signature type of CCNOT gate. |
-|[ResultStack](xref:Microsoft.Quantum.Canon.ResultStack) |> [!WARNING] |
 <!-- /summaries -->

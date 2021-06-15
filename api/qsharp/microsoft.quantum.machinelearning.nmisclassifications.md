@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.NMisclassifications
 title: NMisclassifications function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/15/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -29,12 +29,12 @@ function NMisclassifications (proposed : Int[], actual : Int[]) : Int
 
 ### proposed : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
-
+The labels inferred for a given training or validation set.
 
 
 ### actual : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
-
+The true labels for a given training or validation set.
 
 
 
