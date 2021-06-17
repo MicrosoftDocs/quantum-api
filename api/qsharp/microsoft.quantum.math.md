@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math
 title: Microsoft.Quantum.Math namespace
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/17/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Math
@@ -65,19 +65,19 @@ This namespace contains classical mathematical functions and data types.
 |[ExpD](xref:Microsoft.Quantum.Math.ExpD) |Returns the natural logarithmic base raised to a specified power. |
 |[ExpModI](xref:Microsoft.Quantum.Math.ExpModI) |Returns an integer raised to a given power, with respect to a given modulus. |
 |[ExpModL](xref:Microsoft.Quantum.Math.ExpModL) |Returns an integer raised to a given power, with respect to a given modulus. |
-|[ExtendedGreatestCommonDivisorI](xref:Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorI) |Computes a tuple $(u,v)$ such that $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$, where $\operatorname{GCD}$ is $a$ greatest common divisor of $a$ and $b$. The GCD is always positive. |
-|[ExtendedGreatestCommonDivisorL](xref:Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorL) |Computes a tuple $(u,v)$ such that $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$, where $\operatorname{GCD}$ is $a$ greatest common divisor of $a$ and $b$. The GCD is always positive. |
+|[ExtendedGreatestCommonDivisorI](xref:Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorI) |Returns the GCD of two integers, decomposed into a linear combination. |
+|[ExtendedGreatestCommonDivisorL](xref:Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorL) |Returns the GCD of two integers, decomposed into a linear combination. |
 |[FactorialI](xref:Microsoft.Quantum.Math.FactorialI) |Returns the factorial of a given number. |
 |[FactorialL](xref:Microsoft.Quantum.Math.FactorialL) |Returns the factorial of a given integer. |
 |[Floor](xref:Microsoft.Quantum.Math.Floor) |Returns the smallest integer greater than or equal to the specified number. |
-|[GreatestCommonDivisorI](xref:Microsoft.Quantum.Math.GreatestCommonDivisorI) |Computes the greatest common divisor of $a$ and $b$. The GCD is always positive. |
-|[GreatestCommonDivisorL](xref:Microsoft.Quantum.Math.GreatestCommonDivisorL) |Computes the greatest common divisor of $a$ and $b$. The GCD is always positive. |
+|[GreatestCommonDivisorI](xref:Microsoft.Quantum.Math.GreatestCommonDivisorI) |Computes the greatest common divisor of two integers. |
+|[GreatestCommonDivisorL](xref:Microsoft.Quantum.Math.GreatestCommonDivisorL) |Computes the greatest common divisor of two integers. |
 |[HalfIntegerBinom](xref:Microsoft.Quantum.Math.HalfIntegerBinom) |Returns a binomial coefficient of the form "½-choose-k." |
 |[IEEERemainder](xref:Microsoft.Quantum.Math.IEEERemainder) |Returns the remainder resulting from the division of a specified number by another specified number. |
-|[InverseModI](xref:Microsoft.Quantum.Math.InverseModI) |Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$. |
+|[InverseModI](xref:Microsoft.Quantum.Math.InverseModI) |Returns the multiplicative inverse of a modular integer. |
 |[InverseModL](xref:Microsoft.Quantum.Math.InverseModL) |Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$. |
-|[IsCoprimeI](xref:Microsoft.Quantum.Math.IsCoprimeI) |Returns true if $a$ and $b$ are co-prime and false otherwise. |
-|[IsCoprimeL](xref:Microsoft.Quantum.Math.IsCoprimeL) |Returns true if $a$ and $b$ are co-prime and false otherwise. |
+|[IsCoprimeI](xref:Microsoft.Quantum.Math.IsCoprimeI) |Returns if two integers are co-prime. |
+|[IsCoprimeL](xref:Microsoft.Quantum.Math.IsCoprimeL) |Returns if two integers are co-prime. |
 |[IsFinite](xref:Microsoft.Quantum.Math.IsFinite) |Returns whether a given floating-point value is a finite number. |
 |[IsInfinite](xref:Microsoft.Quantum.Math.IsInfinite) |Returns whether a given floating-point value is either positive or negative infinity. |
 |[IsNaN](xref:Microsoft.Quantum.Math.IsNaN) |Returns whether a given floating-point value is not a number (i.e. is NaN). |

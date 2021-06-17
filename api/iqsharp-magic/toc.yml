@@ -34,6 +34,12 @@
   name: '%debug magic command'
 - href: estimate.md
   name: '%estimate magic command'
+- href: experimental.build_info.md
+  name: '%experimental.build_info magic command'
+- href: experimental.noise_model.md
+  name: '%experimental.noise_model magic command'
+- href: experimental.simulate_noise.md
+  name: '%experimental.simulate_noise magic command'
 - href: kata.md
   name: '%kata magic command'
 - href: lsmagic.md

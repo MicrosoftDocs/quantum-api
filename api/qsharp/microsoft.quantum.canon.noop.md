@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.NoOp
 title: NoOp operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/17/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -44,10 +44,6 @@ A value to be ignored.
 ### 'T
 
 
-
-## Remarks
-
-In almost all cases, the type parameter for `NoOp` needs to be specifiedexplicitly. For instance, `NoOp<Qubit>` is identical to<xref:microsoft.quantum.intrinsic.i>.
 
 ## See Also
 

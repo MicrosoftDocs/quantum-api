@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.Test
 title: Test user defined type
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/17/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -30,3 +30,8 @@ newtype Test = (ExecutionTarget : String);
 
 ### ExecutionTarget : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
+
+
+## Example
+
+The following is a unit test that checks if `2 + 3` is `5`:```qsharp@Test("QuantumSimulator")function AdditionIsCorrect() : Unit {    EqualityFactI(2 + 3, 5, "Addition did not work correctly.");}```
