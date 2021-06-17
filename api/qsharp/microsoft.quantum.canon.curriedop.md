@@ -1,17 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.CurriedOp
 title: CurriedOp function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/17/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: CurriedOp
-qsharp.summary: >-
-  Returns a curried version of an operation on two inputs.
-
-  That is, given an operation with two inputs, this function applies Curry's isomorphism
-  $f(x, y) \equiv f(x)(y)$ to return an operation of one input which
-  returns an operation of one input.
+qsharp.summary: Returns a curried version of an operation on two inputs.
 ---
 
 # CurriedOp function
@@ -21,12 +16,16 @@ Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Returns a curried version of an operation on two inputs.That is, given an operation with two inputs, this function applies Curry's isomorphism$f(x, y) \equiv f(x)(y)$ to return an operation of one input whichreturns an operation of one input.
+Returns a curried version of an operation on two inputs.
 
 ```qsharp
 function CurriedOp<'T, 'U> (op : (('T, 'U) => Unit)) : ('T -> ('U => Unit))
 ```
 
+
+## Description
+
+Given an operation with two inputs, this function applies Curry's isomorphism$f(x, y) \equiv f(x)(y)$ to return an operation of one input whichreturns an operation of one input.
 
 ## Input
 
