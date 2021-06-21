@@ -1,21 +1,12 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareUniformSuperposition
 title: PrepareUniformSuperposition operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PrepareUniformSuperposition
-qsharp.summary: >-
-  Creates a uniform superposition over states that encode 0 through `nIndices - 1`.
-
-  That is, this unitary $U$ creates a uniform superposition over all number states
-  $0$ to $M-1$, given an input state $\ket{0\cdots 0}$. In other words,
-  $$
-  \begin{align}
-  U\ket{0}=\frac{1}{\sqrt{M}}\sum_{j=0}^{M-1}\ket{j}.
-  \end{align}
-  $$.
+qsharp.summary: Creates a uniform superposition over states that encode 0 through `nIndices - 1`.
 ---
 
 # PrepareUniformSuperposition operation
@@ -25,12 +16,16 @@ Namespace: [Microsoft.Quantum.Preparation](xref:Microsoft.Quantum.Preparation)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Creates a uniform superposition over states that encode 0 through `nIndices - 1`.That is, this unitary $U$ creates a uniform superposition over all number states$0$ to $M-1$, given an input state $\ket{0\cdots 0}$. In other words,$$\begin{align}U\ket{0}=\frac{1}{\sqrt{M}}\sum_{j=0}^{M-1}\ket{j}.\end{align}$$.
+Creates a uniform superposition over states that encode 0 through `nIndices - 1`.
 
 ```qsharp
 operation PrepareUniformSuperposition (nIndices : Int, indexRegister : Microsoft.Quantum.Arithmetic.LittleEndian) : Unit is Adj + Ctl
 ```
 
+
+## Description
+
+This operation can be described by a unitary matrix $U$ that createsa uniform superposition over all number states$0$ to $M-1$, given an input state $\ket{0\cdots 0}$. In other words,$$\begin{align}U \ket{0} = \frac{1}{\sqrt{M}} \sum_{j=0}^{M - 1} \ket{j}.\end{align}$$.
 
 ## Input
 

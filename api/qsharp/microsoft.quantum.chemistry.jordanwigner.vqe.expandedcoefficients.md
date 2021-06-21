@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.ExpandedCoefficients
 title: ExpandedCoefficients function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner.VQE

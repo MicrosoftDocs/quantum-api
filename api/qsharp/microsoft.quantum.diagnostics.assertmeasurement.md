@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertMeasurement
 title: AssertMeasurement operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -51,6 +51,10 @@ A message to be reported if the assertion fails.
 ## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
+
+## Example
+
+The following snippet will execute without errors on the full-statesimulator:```qsharpuse q = Qubit();within {    H(q);} apply {    AssertMeasurement([PauliX], [q], Zero, "Expected |+⟩ state.");}```
 
 ## Remarks
 

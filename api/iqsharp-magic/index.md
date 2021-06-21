@@ -4,7 +4,7 @@ description: Lists the magic commands available in the IQ# Jupyter kernel.
 author: rmshaffer
 uid: microsoft.quantum.iqsharp.magic-ref.index
 ms.author: ryansha
-ms.date: 05/22/2021
+ms.date: 06/21/2021
 ms.topic: article
 ---
 # IQ# Magic Commands
@@ -27,6 +27,9 @@ ms.topic: article
 | [`%config`](xref:microsoft.quantum.iqsharp.magic-ref.config) | Allows setting or querying configuration options. |
 | [`%debug`](xref:microsoft.quantum.iqsharp.magic-ref.debug) | Steps through the execution of a given Q# operation or function. |
 | [`%estimate`](xref:microsoft.quantum.iqsharp.magic-ref.estimate) | Runs a given function or operation on the ResourcesEstimator target machine. |
+| [`%experimental.build_info`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.build_info) | Reports build info for the experimental simulators. |
+| [`%experimental.noise_model`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.noise_model) | Gets, sets, saves, or loads a noise model used in simulating quantum operations. |
+| [`%experimental.simulate_noise`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.simulate_noise) | Runs a given function or operation on the OpenSystemsSimulator target machine. |
 | [`%kata`](xref:microsoft.quantum.iqsharp.magic-ref.kata) | Executes a single test. |
 | [`%lsmagic`](xref:microsoft.quantum.iqsharp.magic-ref.lsmagic) | Returns a list of all currently available magic commands. |
 | [`%lsopen`](xref:microsoft.quantum.iqsharp.magic-ref.lsopen) | Lists currently opened namespaces and their aliases. |

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning._RunSingleTrainingEpoch
 title: _RunSingleTrainingEpoch operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -29,17 +29,17 @@ operation _RunSingleTrainingEpoch (encodedSamples : (Microsoft.Quantum.MachineLe
 
 ### encodedSamples : ([LabeledSample](xref:Microsoft.Quantum.MachineLearning.LabeledSample),[StateGenerator](xref:Microsoft.Quantum.MachineLearning.StateGenerator))[]
 
-
+The samples to be trained on.
 
 
 ### schedule : [SamplingSchedule](xref:Microsoft.Quantum.MachineLearning.SamplingSchedule)
 
-
+A sampling schedule defining a subset of samples to be included in training.
 
 
 ### periodScore : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-The number of gradient steps to be taken between scoring points.For best accuracy, set to 1.
+
 
 
 ### options : [TrainingOptions](xref:Microsoft.Quantum.MachineLearning.TrainingOptions)

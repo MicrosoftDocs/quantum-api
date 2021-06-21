@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation
 title: Microsoft.Quantum.Simulation namespace
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Simulation
@@ -25,7 +25,6 @@ the dynamics of quantum systems.
 |[AdiabaticStateEnergyUnitary](xref:Microsoft.Quantum.Simulation.AdiabaticStateEnergyUnitary) |Performs state preparation by applying a `statePrepUnitary` on the input state, followed by adiabatic state preparation using a `adiabaticUnitary`, and finally phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
 |[EstimateEnergy](xref:Microsoft.Quantum.Simulation.EstimateEnergy) |Performs state preparation by applying a `statePrepUnitary` on an automatically allocated input state phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
 |[EstimateEnergyWithAdiabaticEvolution](xref:Microsoft.Quantum.Simulation.EstimateEnergyWithAdiabaticEvolution) |Performs state preparation by applying a `statePrepUnitary` on an automatically allocated input state, followed by adiabatic state preparation using a `adiabaticUnitary`, and finally phase estimation with respect to `qpeUnitary`on the resulting state using a `phaseEstAlgorithm`. |
-|[TrotterSimulationAlgorithmImpl](xref:Microsoft.Quantum.Simulation.TrotterSimulationAlgorithmImpl) |Makes repeated calls to `TrotterStep` to approximate the time-evolution operator exp(_-iHt_). |
 
 ## Functions
 

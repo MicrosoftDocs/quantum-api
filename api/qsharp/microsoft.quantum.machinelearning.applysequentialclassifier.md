@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ApplySequentialClassifier
 title: ApplySequentialClassifier operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/21/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -29,7 +29,7 @@ operation ApplySequentialClassifier (model : Microsoft.Quantum.MachineLearning.S
 
 ### model : [SequentialModel](xref:Microsoft.Quantum.MachineLearning.SequentialModel)
 
-
+The sequential model describing the parameters and structure of theclassifier to be applied.
 
 
 ### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
