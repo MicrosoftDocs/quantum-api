@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.BlockEncodingReflection
 title: BlockEncodingReflection user defined type
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -24,6 +24,10 @@ newtype BlockEncodingReflection = (Microsoft.Quantum.Simulation.BlockEncoding);
 ```
 
 
+
+## Description
+
+A unitary operation that can be represented by a unitary matrix $U$where an arbitrary operator $H$ ofinterest that acts on the system register `s` is encoded in the top-left block corresponding to auxiliary state $\ket{0}_a$. That is,$$\begin{align}(\bra{0}_a\otimes I_s)U(\ket{0}_a\otimes I_s) = H\end{align}$$.The inputs to this callable are:- An array of qubits representing the auxiliary register acted on by $U$.  Note that the action of $U$ is only defined when this register is  in the state $\ket{0}_a$.- An array of qubits representing the system register acted on by $H$.
 
 ## See Also
 

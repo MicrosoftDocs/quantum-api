@@ -1,17 +1,12 @@
 ---
 uid: Microsoft.Quantum.Oracles.DeterministicStateOracle
 title: DeterministicStateOracle user defined type
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Oracles
 qsharp.name: DeterministicStateOracle
-qsharp.summary: >-
-  Represents an oracle for deterministic state preparation.
-
-  The input to the oracle $O$ is:
-
-  - The register that will store the desired quantum state $\ket{\psi}\_s$.
+qsharp.summary: Represents an oracle for deterministic state preparation.
 ---
 
 # DeterministicStateOracle user defined type
@@ -21,7 +16,7 @@ Namespace: [Microsoft.Quantum.Oracles](xref:Microsoft.Quantum.Oracles)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Represents an oracle for deterministic state preparation.The input to the oracle $O$ is:- The register that will store the desired quantum state $\ket{\psi}\_s$.
+Represents an oracle for deterministic state preparation.
 
 ```qsharp
 
@@ -29,6 +24,10 @@ newtype DeterministicStateOracle = ((Qubit[] => Unit is Adj + Ctl));
 ```
 
 
+
+## Description
+
+The input to the oracle $O$ is:- The register that will store the desired quantum state $\ket{\psi}\_s$.
 
 ## Remarks
 

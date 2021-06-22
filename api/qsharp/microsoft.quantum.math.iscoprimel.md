@@ -1,12 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.IsCoprimeL
 title: IsCoprimeL function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: IsCoprimeL
-qsharp.summary: Returns true if $a$ and $b$ are co-prime and false otherwise.
+qsharp.summary: Returns if two integers are co-prime.
 ---
 
 # IsCoprimeL function
@@ -16,12 +16,16 @@ Namespace: [Microsoft.Quantum.Math](xref:Microsoft.Quantum.Math)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Returns true if $a$ and $b$ are co-prime and false otherwise.
+Returns if two integers are co-prime.
 
 ```qsharp
 function IsCoprimeL (a : BigInt, b : BigInt) : Bool
 ```
 
+
+## Description
+
+Returns true if $a$ and $b$ are co-prime and false otherwise.
 
 ## Input
 
