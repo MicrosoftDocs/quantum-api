@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.IdentityFact1C
 title: IdentityFact1C function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -19,15 +19,15 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 Requires that a single-qubit Clifford operator is equal to the identity.
 
 ```qsharp
-function IdentityFact1C (op : Microsoft.Quantum.Synthesis.SingleQubitClifford, message : String) : Unit
+function IdentityFact1C (actual : Microsoft.Quantum.Synthesis.SingleQubitClifford, message : String) : Unit
 ```
 
 
 ## Input
 
-### op : [SingleQubitClifford](xref:Microsoft.Quantum.Synthesis.SingleQubitClifford)
+### actual : [SingleQubitClifford](xref:Microsoft.Quantum.Synthesis.SingleQubitClifford)
 
-
+The value to be checked.
 
 
 ### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)

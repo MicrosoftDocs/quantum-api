@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Message
 title: Message function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -34,6 +34,10 @@ The message to be reported.
 ## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
+
+## Example
+
+The following causes `"Hello, world!"` to be reported (typically tothe console):```qsharplet name = "world";Message($"Hello, {name}!");```
 
 ## Remarks
 

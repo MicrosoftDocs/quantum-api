@@ -387,14 +387,7 @@
   - {name: RestrictedToSubregisterA, uid: Microsoft.Quantum.Canon.RestrictedToSubregisterA}
   - {name: RestrictedToSubregisterC, uid: Microsoft.Quantum.Canon.RestrictedToSubregisterC}
   - {name: RestrictedToSubregisterCA, uid: Microsoft.Quantum.Canon.RestrictedToSubregisterCA}
-  - {name: ResultStack, uid: Microsoft.Quantum.Canon.ResultStack}
   - {name: Snd, uid: Microsoft.Quantum.Canon.Snd}
-  - {name: StackCapacity, uid: Microsoft.Quantum.Canon.StackCapacity}
-  - {name: StackLength, uid: Microsoft.Quantum.Canon.StackLength}
-  - {name: StackNew, uid: Microsoft.Quantum.Canon.StackNew}
-  - {name: StackPeek, uid: Microsoft.Quantum.Canon.StackPeek}
-  - {name: StackPop, uid: Microsoft.Quantum.Canon.StackPop}
-  - {name: StackPush, uid: Microsoft.Quantum.Canon.StackPush}
   - {name: SwapReverseRegister, uid: Microsoft.Quantum.Canon.SwapReverseRegister}
   - {name: TransformedOperation, uid: Microsoft.Quantum.Canon.TransformedOperation}
   - {name: TransformedOperationA, uid: Microsoft.Quantum.Canon.TransformedOperationA}
@@ -454,9 +447,6 @@
   - {name: QubitizationOracle, uid: Microsoft.Quantum.Chemistry.JordanWigner.QubitizationOracle}
   - {name: SelectZ, uid: Microsoft.Quantum.Chemistry.JordanWigner.SelectZ}
   - {name: TrotterStepOracle, uid: Microsoft.Quantum.Chemistry.JordanWigner.TrotterStepOracle}
-  - {name: _ApplyJordanWigner0123Term_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ApplyJordanWigner0123Term_}
-  - {name: _ApplyJordanWignerClusterOperatorPQRSTerm, uid: Microsoft.Quantum.Chemistry.JordanWigner._ApplyJordanWignerClusterOperatorPQRSTerm}
-  - {name: _ApplyJordanWignerClusterOperatorPQTerm, uid: Microsoft.Quantum.Chemistry.JordanWigner._ApplyJordanWignerClusterOperatorPQTerm}
   - {name: _ApplyJordanWignerPQTerm_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ApplyJordanWignerPQTerm_}
   - {name: _ApplyJordanWignerPQandPQQRTerm_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ApplyJordanWignerPQandPQQRTerm_}
   - {name: _ApplyJordanWignerZTerm_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ApplyJordanWignerZTerm_}
@@ -464,45 +454,9 @@
   - {name: _ComputeJordanWignerBitString, uid: Microsoft.Quantum.Chemistry.JordanWigner._ComputeJordanWignerBitString}
   - {name: _ComputeJordanWignerPauliString, uid: Microsoft.Quantum.Chemistry.JordanWigner._ComputeJordanWignerPauliString}
   - {name: _ComputeJordanWignerPauliZString, uid: Microsoft.Quantum.Chemistry.JordanWigner._ComputeJordanWignerPauliZString}
-  - {name: _GetOptimizedBETermIndexCoeff_, uid: Microsoft.Quantum.Chemistry.JordanWigner._GetOptimizedBETermIndexCoeff_}
-  - {name: _JordanWignerClusterOperatorFunction, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerClusterOperatorFunction}
-  - {name: _JordanWignerClusterOperatorGeneratorIndex, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerClusterOperatorGeneratorIndex}
-  - {name: _JordanWignerClusterOperatorGeneratorSystemImpl, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerClusterOperatorGeneratorSystemImpl}
-  - {name: _JordanWignerClusterOperatorImpl, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerClusterOperatorImpl}
   - {name: _JordanWignerClusterOperatorPQRSTermSigns, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerClusterOperatorPQRSTermSigns}
-  - {name: _JordanWignerOptimizedBlockEncodingQubitCount_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingQubitCount_}
-  - {name: _JordanWignerOptimizedBlockEncodingQubitManager_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingQubitManager_}
-  - {name: _JordanWignerOptimizedBlockEncodingSelect_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingSelect_}
-  - {name: _JordanWignerOptimizedBlockEncodingStatePrep, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingStatePrep}
-  - {name: _JordanWignerOptimizedBlockEncodingStatePrep_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncodingStatePrep_}
   - {name: _JordanWignerOptimizedBlockEncoding_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedBlockEncoding_}
-  - {name: _JordanWignerOptimizedQuantumWalkByQubitization_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerOptimizedQuantumWalkByQubitization_}
-  - {name: _JordanWignerSelectQubitCount_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerSelectQubitCount_}
-  - {name: _JordanWignerSelectQubitManager_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerSelectQubitManager_}
-  - {name: _JordanWignerSelect_, uid: Microsoft.Quantum.Chemistry.JordanWigner._JordanWignerSelect_}
-  - {name: _MergeTwoRegisters_, uid: Microsoft.Quantum.Chemistry.JordanWigner._MergeTwoRegisters_}
-  - {name: _OptimizedBEGeneratorSystemCoeff_, uid: Microsoft.Quantum.Chemistry.JordanWigner._OptimizedBEGeneratorSystemCoeff_}
-  - {name: _OptimizedBEXY, uid: Microsoft.Quantum.Chemistry.JordanWigner._OptimizedBEXY}
-  - {name: _OptimizedBEXY_, uid: Microsoft.Quantum.Chemistry.JordanWigner._OptimizedBEXY_}
-  - {name: _OptimizedQubitizationOracleSeperatedRegisters_, uid: Microsoft.Quantum.Chemistry.JordanWigner._OptimizedQubitizationOracleSeperatedRegisters_}
-  - {name: _PQTermToPauliGenIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._PQTermToPauliGenIdx_}
-  - {name: _PQTermToPauliMajIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._PQTermToPauliMajIdx_}
-  - {name: _PQandPQQRTermToPauliGenIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._PQandPQQRTermToPauliGenIdx_}
-  - {name: _PQandPQQRTermToPauliMajIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._PQandPQQRTermToPauliMajIdx_}
-  - {name: _PrepareSingleConfigurationalStateSingleSiteOccupation, uid: Microsoft.Quantum.Chemistry.JordanWigner._PrepareSingleConfigurationalStateSingleSiteOccupation}
-  - {name: _QubitizationOracleSeperatedRegisters, uid: Microsoft.Quantum.Chemistry.JordanWigner._QubitizationOracleSeperatedRegisters}
-  - {name: _SelectZ, uid: Microsoft.Quantum.Chemistry.JordanWigner._SelectZ}
-  - {name: _SelectZ_, uid: Microsoft.Quantum.Chemistry.JordanWigner._SelectZ_}
-  - {name: _ToJordanWignerSelectInput, uid: Microsoft.Quantum.Chemistry.JordanWigner._ToJordanWignerSelectInput}
-  - {name: _ToJordanWignerSelectInput_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ToJordanWignerSelectInput_}
-  - {name: _ToPauliBases, uid: Microsoft.Quantum.Chemistry.JordanWigner._ToPauliBases}
-  - {name: _ToPauliBases_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ToPauliBases_}
-  - {name: _V0123TermToPauliGenIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._V0123TermToPauliGenIdx_}
   - {name: _V0123TermToPauliMajIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._V0123TermToPauliMajIdx_}
-  - {name: _ZTermToPauliGenIdx, uid: Microsoft.Quantum.Chemistry.JordanWigner._ZTermToPauliGenIdx}
-  - {name: _ZTermToPauliMajIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ZTermToPauliMajIdx_}
-  - {name: _ZZTermToPauliGenIdx, uid: Microsoft.Quantum.Chemistry.JordanWigner._ZZTermToPauliGenIdx}
-  - {name: _ZZTermToPauliMajIdx_, uid: Microsoft.Quantum.Chemistry.JordanWigner._ZZTermToPauliMajIdx_}
   name: Microsoft.Quantum.Chemistry.JordanWigner
   uid: Microsoft.Quantum.Chemistry.JordanWigner
 - items:
@@ -510,7 +464,6 @@
   - {name: EstimateTermExpectation, uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.EstimateTermExpectation}
   - {name: ExpandedCoefficients, uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.ExpandedCoefficients}
   - {name: MeasurementOperators, uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.MeasurementOperators}
-  - {name: _prepareTrialStateWrapper, uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE._prepareTrialStateWrapper}
   name: Microsoft.Quantum.Chemistry.JordanWigner.VQE
   uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE
 - items:
@@ -1113,7 +1066,6 @@
   - {name: TimeDependentSimulationAlgorithm, uid: Microsoft.Quantum.Simulation.TimeDependentSimulationAlgorithm}
   - {name: TimeDependentTrotterSimulationAlgorithm, uid: Microsoft.Quantum.Simulation.TimeDependentTrotterSimulationAlgorithm}
   - {name: TrotterSimulationAlgorithm, uid: Microsoft.Quantum.Simulation.TrotterSimulationAlgorithm}
-  - {name: TrotterSimulationAlgorithmImpl, uid: Microsoft.Quantum.Simulation.TrotterSimulationAlgorithmImpl}
   - {name: TrotterStep, uid: Microsoft.Quantum.Simulation.TrotterStep}
   - {name: Unitary, uid: Microsoft.Quantum.Simulation.Unitary}
   name: Microsoft.Quantum.Simulation
@@ -1168,6 +1120,7 @@
   uid: Microsoft.Quantum.Synthesis
 - items:
   - {name: RequiresCapability, uid: Microsoft.Quantum.Targeting.RequiresCapability}
+  - {name: SubstitutableOnTarget, uid: Microsoft.Quantum.Targeting.SubstitutableOnTarget}
   - {name: TargetInstruction, uid: Microsoft.Quantum.Targeting.TargetInstruction}
   name: Microsoft.Quantum.Targeting
   uid: Microsoft.Quantum.Targeting

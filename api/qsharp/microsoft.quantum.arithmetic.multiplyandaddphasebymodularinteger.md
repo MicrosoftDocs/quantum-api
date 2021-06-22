@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplyAndAddPhaseByModularInteger
 title: MultiplyAndAddPhaseByModularInteger operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,7 +29,7 @@ operation MultiplyAndAddPhaseByModularInteger (constMultiplier : Int, modulus : 
 
 ### constMultiplier : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-An integer $a$ to be added to each basis state label.
+An integer $a$ by which `multiplier` is being multiplied.Must be between 0 and `modulus`-1, inclusive.
 
 
 ### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
@@ -39,7 +39,7 @@ The modulus $N$ which addition and multiplication is taken with respect to.
 
 ### multiplier : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
-A quantum register representing an unsigned integer whose value is tobe added to each basis state label of `summand`.
+A quantum register representing an unsigned integer whose value, multiplied by `constMultiplier`, is tobe added to each basis state label of `summand`.
 
 
 ### phaseSummand : [PhaseLittleEndian](xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian)

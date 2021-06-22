@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.SequentialModel
 title: SequentialModel user defined type
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
