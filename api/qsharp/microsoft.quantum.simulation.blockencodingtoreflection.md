@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.BlockEncodingToReflection
 title: BlockEncodingToReflection function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
@@ -33,13 +33,13 @@ function BlockEncodingToReflection (blockEncoding : Microsoft.Quantum.Simulation
 
 ### blockEncoding : [BlockEncoding](xref:Microsoft.Quantum.Simulation.BlockEncoding)
 
-A `BlockEncoding` unitary $U$ to be converted into a reflection.
+An operation to be converted into a reflection, and that is representedby a unitary matrix $U$.
 
 
 
 ## Output : [BlockEncodingReflection](xref:Microsoft.Quantum.Simulation.BlockEncodingReflection)
 
-A unitary $U'$ acting jointly on registers `a` and `s` that block-encodes $H$, and satisfies $U'^\dagger = U'$.
+A operation represented by a unitary matrix $U'$ acting jointly onregisters `a` and `s` that block-encodes $H$, andsatisfies $U'^\dagger = U'$.
 
 ## Remarks
 
