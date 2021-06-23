@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.Complex
 title: Complex user defined type
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Math
@@ -34,3 +34,8 @@ newtype Complex = (Real : Double, Imag : Double);
 
 ### Imag : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
+
+
+## Example
+
+The following snippet defines the imaginary unit $0 + 1i$:```qsharplet imagUnit = Complex(0.0, 1.0);```
