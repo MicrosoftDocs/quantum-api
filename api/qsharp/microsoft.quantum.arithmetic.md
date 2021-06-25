@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
@@ -43,7 +43,7 @@ computing arithmetic.
 |[ApplyReversedOpLEC](xref:Microsoft.Quantum.Arithmetic.ApplyReversedOpLEC) |Applies an operation that takes little-endian input to a register encoding an unsigned integer using big-endian format. |
 |[ApplyReversedOpLECA](xref:Microsoft.Quantum.Arithmetic.ApplyReversedOpLECA) |Applies an operation that takes little-endian input to a register encoding an unsigned integer using big-endian format. |
 |[ApplyXorInPlace](xref:Microsoft.Quantum.Arithmetic.ApplyXorInPlace) |Applies a bitwise-XOR operation between a classical integer and an integer represented by a register of qubits. |
-|[AssertAllZeroFxP](xref:Microsoft.Quantum.Arithmetic.AssertAllZeroFxP) |Helper function to assert that a quantum fixed-point number is initialized to zero, i.e., all qubits are in state $\ket{0}$. |
+|[AssertAllZeroFxP](xref:Microsoft.Quantum.Arithmetic.AssertAllZeroFxP) |Asserts that a quantum fixed-point number is initialized to zero. |
 |[AssertMostSignificantBit](xref:Microsoft.Quantum.Arithmetic.AssertMostSignificantBit) |Asserts that the most significant qubit of a qubit register representing an unsigned integer is in a particular state. |
 |[AssertPhaseLessThan](xref:Microsoft.Quantum.Arithmetic.AssertPhaseLessThan) |Asserts that the `number` encoded in PhaseLittleEndian is less than `value`. |
 |[AssertProbInt](xref:Microsoft.Quantum.Arithmetic.AssertProbInt) |Asserts that the probability of a specific state of a quantum register has the expected value. |
@@ -52,7 +52,7 @@ computing arithmetic.
 |[CompareGTSI](xref:Microsoft.Quantum.Arithmetic.CompareGTSI) |Wrapper for signed integer comparison: `result = xs > ys`. |
 |[CompareGreaterThanFxP](xref:Microsoft.Quantum.Arithmetic.CompareGreaterThanFxP) |Compares two fixed-point numbers stored in quantum registers, and controls a flip on the result. |
 |[CompareUsingRippleCarry](xref:Microsoft.Quantum.Arithmetic.CompareUsingRippleCarry) |This operation tests if an integer represented by a register of qubits is greater than another integer, applying an XOR of the result onto an output qubit. |
-|[ComputeReciprocalFxP](xref:Microsoft.Quantum.Arithmetic.ComputeReciprocalFxP) |Computes $1/x$ for a fixed-point number $x$. |
+|[ComputeReciprocalFxP](xref:Microsoft.Quantum.Arithmetic.ComputeReciprocalFxP) |Computes the reciprocal of a number stored in a quantum register with the fixed-point representation. |
 |[ComputeReciprocalI](xref:Microsoft.Quantum.Arithmetic.ComputeReciprocalI) |Computes the reciprocal 1/x for an unsigned integer x using integer division. The result, interpreted as an integer, will be `floor(2^(2*n-1) / x)`. |
 |[CopyMostSignificantBit](xref:Microsoft.Quantum.Arithmetic.CopyMostSignificantBit) |Copies the most significant bit of a qubit register `from` representing an unsigned integer into the qubit `target`. |
 |[DivideI](xref:Microsoft.Quantum.Arithmetic.DivideI) |Divides two quantum integers. |
@@ -77,7 +77,7 @@ computing arithmetic.
 |[PrepareFxP](xref:Microsoft.Quantum.Arithmetic.PrepareFxP) |Initialize a quantum fixed-point number to a classical constant. |
 |[ReflectAboutInteger](xref:Microsoft.Quantum.Arithmetic.ReflectAboutInteger) |Reflects a quantum register about a given classical integer. |
 |[RippleCarryAdderCDKM](xref:Microsoft.Quantum.Arithmetic.RippleCarryAdderCDKM) |Reversible, in-place ripple-carry addition of two integers. |
-|[RippleCarryAdderD](xref:Microsoft.Quantum.Arithmetic.RippleCarryAdderD) |Reversible, in-place ripple-carry addition of two integers. Given two $n$-bit integers encoded in LittleEndian registers `xs` and `ys`, and a qubit carry, the operation computes the sum of the two integers where the $n$ least significant bits of the result are held in `ys` and the carry out bit is xored to the qubit `carry`. |
+|[RippleCarryAdderD](xref:Microsoft.Quantum.Arithmetic.RippleCarryAdderD) |Reversible, in-place ripple-carry addition of two integers. |
 |[RippleCarryAdderNoCarryTTK](xref:Microsoft.Quantum.Arithmetic.RippleCarryAdderNoCarryTTK) |Reversible, in-place ripple-carry addition of two integers without carry out. |
 |[RippleCarryAdderTTK](xref:Microsoft.Quantum.Arithmetic.RippleCarryAdderTTK) |Reversible, in-place ripple-carry addition of two integers. Given two $n$-bit integers encoded in LittleEndian registers `xs` and `ys`, and a qubit carry, the operation computes the sum of the two integers where the $n$ least significant bits of the result are held in `ys` and the carry out bit is xored to the qubit `carry`. |
 |[SquareFxP](xref:Microsoft.Quantum.Arithmetic.SquareFxP) |Squares a fixed-point number. |

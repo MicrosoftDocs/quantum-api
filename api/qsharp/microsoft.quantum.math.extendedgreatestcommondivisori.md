@@ -1,15 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorI
 title: ExtendedGreatestCommonDivisorI function
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: ExtendedGreatestCommonDivisorI
-qsharp.summary: >-
-  Computes a tuple $(u,v)$ such that $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$,
-  where $\operatorname{GCD}$ is $a$
-  greatest common divisor of $a$ and $b$. The GCD is always positive.
+qsharp.summary: Returns the GCD of two integers, decomposed into a linear combination.
 ---
 
 # ExtendedGreatestCommonDivisorI function
@@ -19,12 +16,16 @@ Namespace: [Microsoft.Quantum.Math](xref:Microsoft.Quantum.Math)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Computes a tuple $(u,v)$ such that $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$,where $\operatorname{GCD}$ is $a$greatest common divisor of $a$ and $b$. The GCD is always positive.
+Returns the GCD of two integers, decomposed into a linear combination.
 
 ```qsharp
 function ExtendedGreatestCommonDivisorI (a : Int, b : Int) : (Int, Int)
 ```
 
+
+## Description
+
+Computes a tuple $(u,v)$ such that $u \cdot a + v \cdot b = \operatorname{GCD}(a, b)$,where $\operatorname{GCD}$ is $a$greatest common divisor of $a$ and $b$. The GCD is always positive.
 
 ## Input
 

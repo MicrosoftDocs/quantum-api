@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplyAndAddByModularInteger
 title: MultiplyAndAddByModularInteger operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -31,7 +31,7 @@ Implements the map$$\begin{align}\ket{x} \ket{b} \mapsto \ket{x} \ket{(b + a 
 
 ### constMultiplier : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-An integer $a$ to be added to each basis state label.
+An integer $a$ by which `multiplier` is being multiplied.Must be between 0 and `modulus`-1, inclusive.
 
 
 ### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
@@ -41,7 +41,7 @@ The modulus $N$ which addition and multiplication is taken with respect to.
 
 ### multiplier : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
-A quantum register representing an unsigned integer whose value is tobe added to each basis state label of `summand`. Corresponds to theregister in state $\ket{x}$ above.
+A quantum register representing an unsigned integer whose value, multiplied by `constMultiplier`, is tobe added to each basis state label of `summand`. Corresponds to theregister in state $\ket{x}$ above.
 
 
 ### summand : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)

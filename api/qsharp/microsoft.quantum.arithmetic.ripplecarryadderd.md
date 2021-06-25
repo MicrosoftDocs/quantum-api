@@ -1,17 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderD
 title: RippleCarryAdderD operation
-ms.date: 5/22/2021 12:00:00 AM
+ms.date: 6/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: RippleCarryAdderD
-qsharp.summary: >-
-  Reversible, in-place ripple-carry addition of two integers.
-  Given two $n$-bit integers encoded in LittleEndian registers `xs` and `ys`,
-  and a qubit carry, the operation computes the sum of the two integers
-  where the $n$ least significant bits of the result are held in `ys` and
-  the carry out bit is xored to the qubit `carry`.
+qsharp.summary: Reversible, in-place ripple-carry addition of two integers.
 ---
 
 # RippleCarryAdderD operation
@@ -21,12 +16,16 @@ Namespace: [Microsoft.Quantum.Arithmetic](xref:Microsoft.Quantum.Arithmetic)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Reversible, in-place ripple-carry addition of two integers.Given two $n$-bit integers encoded in LittleEndian registers `xs` and `ys`,and a qubit carry, the operation computes the sum of the two integerswhere the $n$ least significant bits of the result are held in `ys` andthe carry out bit is xored to the qubit `carry`.
+Reversible, in-place ripple-carry addition of two integers.
 
 ```qsharp
 operation RippleCarryAdderD (xs : Microsoft.Quantum.Arithmetic.LittleEndian, ys : Microsoft.Quantum.Arithmetic.LittleEndian, carry : Qubit) : Unit is Adj + Ctl
 ```
 
+
+## Description
+
+Given two $n$-bit integers encoded in LittleEndian registers `xs` and `ys`,and a qubit carry, the operation computes the sum of the two integerswhere the $n$ least significant bits of the result are held in `ys` andthe carry out bit is xored to the qubit `carry`.
 
 ## Input
 
