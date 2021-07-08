@@ -176,11 +176,6 @@
   name: Microsoft.Quantum.Arrays
   uid: Microsoft.Quantum.Arrays
 - items:
-  - {name: QuantumSwap, uid: Microsoft.Quantum.AutoSubstitution.Testing.QuantumSwap}
-  - {name: TestQuantumSwap, uid: Microsoft.Quantum.AutoSubstitution.Testing.TestQuantumSwap}
-  name: Microsoft.Quantum.AutoSubstitution.Testing
-  uid: Microsoft.Quantum.AutoSubstitution.Testing
-- items:
   - {name: And, uid: Microsoft.Quantum.Bitwise.And}
   - {name: LeftShiftedI, uid: Microsoft.Quantum.Bitwise.LeftShiftedI}
   - {name: LeftShiftedL, uid: Microsoft.Quantum.Bitwise.LeftShiftedL}
@@ -1125,7 +1120,6 @@
   uid: Microsoft.Quantum.Synthesis
 - items:
   - {name: RequiresCapability, uid: Microsoft.Quantum.Targeting.RequiresCapability}
-  - {name: SubstitutableOnTarget, uid: Microsoft.Quantum.Targeting.SubstitutableOnTarget}
   - {name: TargetInstruction, uid: Microsoft.Quantum.Targeting.TargetInstruction}
   name: Microsoft.Quantum.Targeting
   uid: Microsoft.Quantum.Targeting
