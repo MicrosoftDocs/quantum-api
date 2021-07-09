@@ -18,7 +18,8 @@ Namespace: [Microsoft.Quantum.Diagnostics](xref:Microsoft.Quantum.Diagnostics)
 Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Microsoft.Quantum.QSharp.Foundation)
 
 
-Asserts that measuring the given qubits in the given Pauli basis will have the given resultwith the given probability, within some tolerance.
+Asserts that measuring the given qubits in the given Pauli basis will have the given result
+with the given probability, within some tolerance.
 
 ```qsharp
 operation AssertMeasurementProbability (bases : Pauli[], qubits : Qubit[], result : Result, prob : Double, msg : String, tolerance : Double) : Unit is Adj + Ctl
@@ -29,7 +30,8 @@ operation AssertMeasurementProbability (bases : Pauli[], qubits : Qubit[], resul
 
 ### bases : [Pauli](xref:microsoft.quantum.qsharp.valueliterals#pauli-literals)[]
 
-A measurement effect to assert the probability of, expressed as amulti-qubit Pauli operator.
+A measurement effect to assert the probability of, expressed as a
+multi-qubit Pauli operator.
 
 
 ### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
@@ -64,11 +66,18 @@ Tolerance allowed in the measurement probability.
 
 ## Example
 
-```qsharpusing (register = Qubit()) {    H(register);    AssertProb([PauliZ], [register], One, 0.5,        "Measuring in conjugate basis did not give 50/50 results.", 1e-5);}```
+```qsharp
+using (register = Qubit()) {
+    H(register);
+    AssertMeasurementProbability([PauliZ], [register], One, 0.5,
+        "Measuring in conjugate basis did not give 50/50 results.", 1e-5);
+}
+```
 
 ## Remarks
 
-Note that the Adjoint and Controlled versions of this operation will notcheck the condition.
+Note that the Adjoint and Controlled versions of this operation will not
+check the condition.
 
 ## See Also
 
