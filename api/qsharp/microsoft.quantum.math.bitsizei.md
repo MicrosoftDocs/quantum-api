@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.BitSizeI
 title: BitSizeI function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -37,4 +37,4 @@ The bit-size of `a`.
 
 ## Remarks
 
-This function returns returns the smallest $n$ such that $a < 2^n$.
+This function returns the smallest $n$ such that $a < 2^n$.

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.PauliAsSingleQubitClifford
 title: PauliAsSingleQubitClifford function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -39,7 +39,7 @@ The Pauli operator to be represented as a Clifford operator.
 
 ## Output : [SingleQubitClifford](xref:Microsoft.Quantum.Synthesis.SingleQubitClifford)
 
-
+A single-qubit Clifford operator representing the action of `pauli` byconjugation.
 
 ## Remarks
 
