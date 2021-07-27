@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.ColumnAt
 title: ColumnAt function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -25,7 +25,7 @@ function ColumnAt<'T> (column : Int, matrix : 'T[][]) : 'T[]
 
 ## Description
 
-This function extracts a column in a matrix in row-wise order.Extracting a row corrsponds to element access of the first indexand therefore requires no further treatment.
+This function extracts a column in a matrix in row-wise order.Extracting a row corresponds to element access of the first indexand therefore requires no further treatment.
 
 ## Input
 

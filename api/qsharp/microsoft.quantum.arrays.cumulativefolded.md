@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.CumulativeFolded
 title: CumulativeFolded function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -25,7 +25,7 @@ function CumulativeFolded<'State, 'T> (fn : (('State, 'T) -> 'State), state : 'S
 
 ## Description
 
-This function iterates the `fn` function through the array, starting froman initial state `state` and returns all intermediate values, not includingthe inital state.
+This function iterates the `fn` function through the array, starting froman initial state `state` and returns all intermediate values, not includingthe initial state.
 
 ## Input
 

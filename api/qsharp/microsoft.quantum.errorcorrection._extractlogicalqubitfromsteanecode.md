@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection._ExtractLogicalQubitFromSteaneCode
 title: _ExtractLogicalQubitFromSteaneCode operation
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
@@ -37,4 +37,4 @@ The logical qubit and a pair of integers for $X$-syndrome and $Z$-syndrome.They
 
 ## Remarks
 
-$X$- and $Z$-stabilizers are not treated equally,which is due to the particular choice of the encoding circuit.This asymmetry leads to a different syndrome extraction routine.One could measure the syndrome by measuring multi-qubit Pauli operatordirectly on the code state, but for the distillation purposethe logical qubit is returned into a single qubit,in course of which the syndrome measurements can be done without furtherauxillary qubits.Note that this operation is not marked as `internal`, as unit testsdirectly depend on this operation. As a future improvement, unit testsshould be refactored to depend only on public callables directly.> [!WARNING]> This routine is tailored> to a particular encoding circuit for Steane's 7 qubit code;> if the encoding circuit is modified then the syndrome outcome> might have to be interpreted differently.
+$X$- and $Z$-stabilizers are not treated equally,which is due to the particular choice of the encoding circuit.This asymmetry leads to a different syndrome extraction routine.One could measure the syndrome by measuring multi-qubit Pauli operatordirectly on the code state, but for the distillation purposethe logical qubit is returned into a single qubit,in course of which the syndrome measurements can be done without furtherauxiliary qubits.Note that this operation is not marked as `internal`, as unit testsdirectly depend on this operation. As a future improvement, unit testsshould be refactored to depend only on public callables directly.> [!WARNING]> This routine is tailored> to a particular encoding circuit for Steane's 7 qubit code;> if the encoding circuit is modified then the syndrome outcome> might have to be interpreted differently.

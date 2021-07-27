@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Mapped
 title: Mapped function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -55,3 +55,7 @@ The result type of the `mapper` function.
 ## Remarks
 
 The function is defined for generic types, i.e., whenever we havean array `'T[]` and a function `mapper: 'T -> 'U` we can map the elementsof the array and produce a new array of type `'U[]`.
+
+## See Also
+
+- [Microsoft.Quantum.Arrays.ForEach](xref:Microsoft.Quantum.Arrays.ForEach)

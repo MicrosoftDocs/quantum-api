@@ -176,11 +176,6 @@
   name: Microsoft.Quantum.Arrays
   uid: Microsoft.Quantum.Arrays
 - items:
-  - {name: QuantumSwap, uid: Microsoft.Quantum.AutoSubstitution.Testing.QuantumSwap}
-  - {name: TestQuantumSwap, uid: Microsoft.Quantum.AutoSubstitution.Testing.TestQuantumSwap}
-  name: Microsoft.Quantum.AutoSubstitution.Testing
-  uid: Microsoft.Quantum.AutoSubstitution.Testing
-- items:
   - {name: And, uid: Microsoft.Quantum.Bitwise.And}
   - {name: LeftShiftedI, uid: Microsoft.Quantum.Bitwise.LeftShiftedI}
   - {name: LeftShiftedL, uid: Microsoft.Quantum.Bitwise.LeftShiftedL}
@@ -774,28 +769,11 @@
   - {name: TrainingOptions, uid: Microsoft.Quantum.MachineLearning.TrainingOptions}
   - {name: ValidateSequentialClassifier, uid: Microsoft.Quantum.MachineLearning.ValidateSequentialClassifier}
   - {name: ValidationResults, uid: Microsoft.Quantum.MachineLearning.ValidationResults}
-  - {name: _AllNearlyEqualD, uid: Microsoft.Quantum.MachineLearning._AllNearlyEqualD}
-  - {name: _ApplyLEOperationToRawRegister, uid: Microsoft.Quantum.MachineLearning._ApplyLEOperationToRawRegister}
-  - {name: _ApplyTwoQubitCase, uid: Microsoft.Quantum.MachineLearning._ApplyTwoQubitCase}
   - {name: _CallFlipped, uid: Microsoft.Quantum.MachineLearning._CallFlipped}
-  - {name: _CanApplyTwoQubitCase, uid: Microsoft.Quantum.MachineLearning._CanApplyTwoQubitCase}
-  - {name: _EncodeSample, uid: Microsoft.Quantum.MachineLearning._EncodeSample}
-  - {name: _EstimateDerivativeWithParameterShift, uid: Microsoft.Quantum.MachineLearning._EstimateDerivativeWithParameterShift}
   - {name: _Features, uid: Microsoft.Quantum.MachineLearning._Features}
   - {name: _Flipped, uid: Microsoft.Quantum.MachineLearning._Flipped}
   - {name: _Label, uid: Microsoft.Quantum.MachineLearning._Label}
-  - {name: _MisclassificationRate, uid: Microsoft.Quantum.MachineLearning._MisclassificationRate}
-  - {name: _NegativeLocations, uid: Microsoft.Quantum.MachineLearning._NegativeLocations}
-  - {name: _PrepareClassification, uid: Microsoft.Quantum.MachineLearning._PrepareClassification}
-  - {name: _RandomlyRescale, uid: Microsoft.Quantum.MachineLearning._RandomlyRescale}
-  - {name: _ReflectAboutNegativeCoefficients, uid: Microsoft.Quantum.MachineLearning._ReflectAboutNegativeCoefficients}
-  - {name: _RunSingleTrainingEpoch, uid: Microsoft.Quantum.MachineLearning._RunSingleTrainingEpoch}
-  - {name: _RunSingleTrainingStep, uid: Microsoft.Quantum.MachineLearning._RunSingleTrainingStep}
-  - {name: _TailMeasurement, uid: Microsoft.Quantum.MachineLearning._TailMeasurement}
-  - {name: _TrainSequentialClassifierAtModel, uid: Microsoft.Quantum.MachineLearning._TrainSequentialClassifierAtModel}
   - {name: _UncontrolledSpanSequence, uid: Microsoft.Quantum.MachineLearning._UncontrolledSpanSequence}
-  - {name: _Unnegate, uid: Microsoft.Quantum.MachineLearning._Unnegate}
-  - {name: _UpdatedBias, uid: Microsoft.Quantum.MachineLearning._UpdatedBias}
   name: Microsoft.Quantum.MachineLearning
   uid: Microsoft.Quantum.MachineLearning
 - items:
@@ -1125,7 +1103,14 @@
   uid: Microsoft.Quantum.Synthesis
 - items:
   - {name: RequiresCapability, uid: Microsoft.Quantum.Targeting.RequiresCapability}
-  - {name: SubstitutableOnTarget, uid: Microsoft.Quantum.Targeting.SubstitutableOnTarget}
   - {name: TargetInstruction, uid: Microsoft.Quantum.Targeting.TargetInstruction}
   name: Microsoft.Quantum.Targeting
   uid: Microsoft.Quantum.Targeting
+- items:
+  - {name: Main, uid: QirExe.Main}
+  name: QirExe
+  uid: QirExe
+- items:
+  - {name: HelloQ, uid: Quantum.MicrosoftSimulatorExe.HelloQ}
+  name: Quantum.MicrosoftSimulatorExe
+  uid: Quantum.MicrosoftSimulatorExe

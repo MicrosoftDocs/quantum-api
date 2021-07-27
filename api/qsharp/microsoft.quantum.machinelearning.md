@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning
 title: Microsoft.Quantum.MachineLearning namespace
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.MachineLearning
@@ -29,15 +29,6 @@ quantum machine learning applications.
 |[TrainSequentialClassifier](xref:Microsoft.Quantum.MachineLearning.TrainSequentialClassifier) |Given the structure of a sequential classifier, trains the classifier on a given labeled training set. |
 |[TrainSequentialClassifierAtModel](xref:Microsoft.Quantum.MachineLearning.TrainSequentialClassifierAtModel) |Given the structure of a sequential classifier, trains the classifier on a given labeled training set, starting from a particular model. |
 |[ValidateSequentialClassifier](xref:Microsoft.Quantum.MachineLearning.ValidateSequentialClassifier) |Validates a given sequential classifier against a given set of pre-labeled samples. |
-|[_ApplyLEOperationToRawRegister](xref:Microsoft.Quantum.MachineLearning._ApplyLEOperationToRawRegister) | |
-|[_ApplyTwoQubitCase](xref:Microsoft.Quantum.MachineLearning._ApplyTwoQubitCase) | |
-|[_EstimateDerivativeWithParameterShift](xref:Microsoft.Quantum.MachineLearning._EstimateDerivativeWithParameterShift) | |
-|[_PrepareClassification](xref:Microsoft.Quantum.MachineLearning._PrepareClassification) | |
-|[_RandomlyRescale](xref:Microsoft.Quantum.MachineLearning._RandomlyRescale) |Randomly rescales an input to either grow or shrink by a given factor. |
-|[_ReflectAboutNegativeCoefficients](xref:Microsoft.Quantum.MachineLearning._ReflectAboutNegativeCoefficients) | |
-|[_RunSingleTrainingEpoch](xref:Microsoft.Quantum.MachineLearning._RunSingleTrainingEpoch) |Perform one epoch of sequential classifier training on a subset of data samples. |
-|[_RunSingleTrainingStep](xref:Microsoft.Quantum.MachineLearning._RunSingleTrainingStep) |attempts a single parameter update in the direction of mini batch gradient |
-|[_TrainSequentialClassifierAtModel](xref:Microsoft.Quantum.MachineLearning._TrainSequentialClassifierAtModel) | |
 
 ## Functions
 
@@ -58,19 +49,11 @@ quantum machine learning applications.
 |[PartialRotationsLayer](xref:Microsoft.Quantum.MachineLearning.PartialRotationsLayer) |Returns an array of single-qubit rotations along a given axis, parameterized by distinct model parameters. |
 |[Sampled](xref:Microsoft.Quantum.MachineLearning.Sampled) |Samples a given array, using the given schedule. |
 |[ScheduleLength](xref:Microsoft.Quantum.MachineLearning.ScheduleLength) |Returns the number of elements in a given sampling schedule. |
-|[_AllNearlyEqualD](xref:Microsoft.Quantum.MachineLearning._AllNearlyEqualD) | |
 |[_CallFlipped](xref:Microsoft.Quantum.MachineLearning._CallFlipped) | |
-|[_CanApplyTwoQubitCase](xref:Microsoft.Quantum.MachineLearning._CanApplyTwoQubitCase) | |
-|[_EncodeSample](xref:Microsoft.Quantum.MachineLearning._EncodeSample) | |
 |[_Features](xref:Microsoft.Quantum.MachineLearning._Features) | |
 |[_Flipped](xref:Microsoft.Quantum.MachineLearning._Flipped) | |
 |[_Label](xref:Microsoft.Quantum.MachineLearning._Label) | |
-|[_MisclassificationRate](xref:Microsoft.Quantum.MachineLearning._MisclassificationRate) | |
-|[_NegativeLocations](xref:Microsoft.Quantum.MachineLearning._NegativeLocations) | |
-|[_TailMeasurement](xref:Microsoft.Quantum.MachineLearning._TailMeasurement) | |
 |[_UncontrolledSpanSequence](xref:Microsoft.Quantum.MachineLearning._UncontrolledSpanSequence) | |
-|[_Unnegate](xref:Microsoft.Quantum.MachineLearning._Unnegate) | |
-|[_UpdatedBias](xref:Microsoft.Quantum.MachineLearning._UpdatedBias) |Returns a bias value that leads to near-minimum misclassification score. |
 
 ## User-defined types
 
