@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.IsPermutation
 title: IsPermutation function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -19,7 +19,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 Outputs true if and only if a given array represents a permutation.
 
 ```qsharp
-function IsPermutation (permuation : Int[]) : Bool
+function IsPermutation (permutation : Int[]) : Bool
 ```
 
 
@@ -29,7 +29,7 @@ Given an array `array` of length `n`, returns true if and only ifeach integer f
 
 ## Input
 
-### permuation : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
+### permutation : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)[]
 
 An array that may or may not represent a permutation.
 
@@ -37,7 +37,7 @@ An array that may or may not represent a permutation.
 
 ## Output : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
-
+`true` if and only if the array is a permutation.
 
 ## Example
 

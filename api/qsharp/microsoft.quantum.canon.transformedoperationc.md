@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.TransformedOperationC
 title: TransformedOperationC function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -40,7 +40,7 @@ The operation to be transformed.
 
 ## Output : 'U => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Ctl
 
-A new operation tbat calls `fn` with its input, then passes theresulting output to `op`.
+A new operation that calls `fn` with its input, then passes theresulting output to `op`.
 
 ## Type Parameters
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.MultiplexerBruteForceFromGenerator
 title: MultiplexerBruteForceFromGenerator function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -41,4 +41,4 @@ A multiply-controlled unitary operation $U$ that applies unitariesdescribed by 
 
 ## See Also
 
-- [Microsoft.Quantum.Canon.MultiplexerBruteForceFromGenerator](xref:Microsoft.Quantum.Canon.MultiplexerBruteForceFromGenerator)
+- [Microsoft.Quantum.Canon.MultiplexOperationsBruteForceFromGenerator](xref:Microsoft.Quantum.Canon.MultiplexOperationsBruteForceFromGenerator)

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Partitioned
 title: Partitioned function
-ms.date: 6/23/2021 12:00:00 AM
+ms.date: 7/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -38,7 +38,7 @@ Input array to be split.
 
 ## Output : 'T[][]
 
-Multiple arrays where the first array is the first `nElements[0]` of `arr`and the second array are the next `nElements[1]` of `arr` etc. The last arraywill contain all remaining elements.
+Multiple arrays where the first array is the first `nElements[0]` of `arr`and the second array are the next `nElements[1]` of `arr` etc. The last arraywill contain all remaining elements. If the array is split exactly, thelast array will be the empty array, indicating there are no remaining elements.In other words, `Tail(Partitioned(...))` will always return the remainingelements, while `Most(Partitioned(...))` will always return the completepartitions of the array.
 
 ## Type Parameters
 
@@ -48,4 +48,4 @@ Multiple arrays where the first array is the first `nElements[0]` of `arr`and t
 
 ## Example
 
-```qsharp// The following returns [[1, 5], [3], [7]];let split = Partitioned([2,1], [1,5,3,7]);```
+```qsharp// The following returns [[1, 5], [3], [7]];let split = Partitioned([2,1], [1,5,3,7]);// The following returns [[1, 5], [3, 7], []];let split = Partitioned([2,2], [1,5,3,7]);```
