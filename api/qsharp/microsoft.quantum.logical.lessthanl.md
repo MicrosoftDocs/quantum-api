@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Logical.LessThanL
 title: LessThanL function
-ms.date: 7/22/2021 12:00:00 AM
+ms.date: 8/10/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical

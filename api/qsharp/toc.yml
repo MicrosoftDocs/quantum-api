@@ -1106,11 +1106,3 @@
   - {name: TargetInstruction, uid: Microsoft.Quantum.Targeting.TargetInstruction}
   name: Microsoft.Quantum.Targeting
   uid: Microsoft.Quantum.Targeting
-- items:
-  - {name: Main, uid: QirExe.Main}
-  name: QirExe
-  uid: QirExe
-- items:
-  - {name: HelloQ, uid: Quantum.MicrosoftSimulatorExe.HelloQ}
-  name: Quantum.MicrosoftSimulatorExe
-  uid: Quantum.MicrosoftSimulatorExe
