@@ -4,7 +4,7 @@ description: Runs a given function or operation on the QuantumSimulator target m
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.simulate
 ms.author: anburton
-ms.date: 07/22/2021
+ms.date: 08/20/2021
 ms.topic: managed-reference
 ---
 
