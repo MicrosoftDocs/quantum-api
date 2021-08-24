@@ -938,7 +938,6 @@
   - {name: ReflectionOracleFromDeterministicStateOracle, uid: Microsoft.Quantum.Oracles.ReflectionOracleFromDeterministicStateOracle}
   - {name: StateOracle, uid: Microsoft.Quantum.Oracles.StateOracle}
   - {name: StateOracleFromDeterministicStateOracle, uid: Microsoft.Quantum.Oracles.StateOracleFromDeterministicStateOracle}
-  - {name: _ReflectionOracleFromDeterministicStateOracle, uid: Microsoft.Quantum.Oracles._ReflectionOracleFromDeterministicStateOracle}
   name: Microsoft.Quantum.Oracles
   uid: Microsoft.Quantum.Oracles
 - items:
@@ -1106,11 +1105,3 @@
   - {name: TargetInstruction, uid: Microsoft.Quantum.Targeting.TargetInstruction}
   name: Microsoft.Quantum.Targeting
   uid: Microsoft.Quantum.Targeting
-- items:
-  - {name: Main, uid: QirExe.Main}
-  name: QirExe
-  uid: QirExe
-- items:
-  - {name: HelloQ, uid: Quantum.MicrosoftSimulatorExe.HelloQ}
-  name: Quantum.MicrosoftSimulatorExe
-  uid: Quantum.MicrosoftSimulatorExe
