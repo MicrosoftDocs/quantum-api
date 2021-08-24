@@ -4,7 +4,7 @@ description: Lists currently opened namespaces and their aliases.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.lsopen
 ms.author: anburton
-ms.date: 07/22/2021
+ms.date: 08/24/2021
 ms.topic: managed-reference
 ---
 
