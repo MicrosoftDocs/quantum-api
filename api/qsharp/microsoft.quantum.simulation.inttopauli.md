@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.IntToPauli
 title: IntToPauli function
-ms.date: 7/22/2021 12:00:00 AM
+ms.date: 8/26/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation

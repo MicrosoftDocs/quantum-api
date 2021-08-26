@@ -4,7 +4,7 @@ description: Displays a list of jobs in the current Azure Quantum workspace.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.jobs
 ms.author: anburton
-ms.date: 07/22/2021
+ms.date: 08/26/2021
 ms.topic: managed-reference
 ---
 
@@ -13,7 +13,7 @@ ms.topic: managed-reference
         please do not manually edit it.
 
     [DEBUG] JSON source:
-        {"Name": "%azure.jobs", "Documentation": {"Summary": "Displays a list of jobs in the current Azure Quantum workspace.", "Full": null, "Description": "\r\nThis magic command allows for displaying the list of jobs in the current \r\nAzure Quantum workspace, optionally filtering the list to jobs which\r\nhave an ID, name, or target containing the provided filter parameter.\r\n\r\nThe Azure Quantum workspace must have been previously initialized\r\nusing the [`%azure.connect` magic command](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.connect).\r\n\r\n#### Optional parameters\r\n\r\n- A string to filter the list of jobs. Jobs which have an ID, name, or target\r\ncontaining the provided filter parameter will be displayed. If not specified,\r\nall recent jobs are displayed.\r\n\r\n#### Possible errors\r\n\r\n- `NotConnected`: Not connected to any Azure Quantum workspace.\r\n                    ", "Remarks": null, "Examples": ["\r\nGet the list of jobs:\r\n```\r\nIn []: %azure.jobs\r\nOut[]: <detailed status of all recent jobs in the workspace>\r\n```\r\n                        ", "\r\nGet the list of jobs whose ID, name, or target contains \"My job\":\r\n```\r\nIn []: %azure.jobs \"My job\"\r\nOut[]: <detailed status of matching jobs in the workspace>\r\n```\r\n                        "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.AzureClient"}
+        {"Name": "%azure.jobs", "Documentation": {"Summary": "Displays a list of jobs in the current Azure Quantum workspace.", "Full": null, "Description": "\r\nThis magic command allows for displaying the list of jobs in the current \r\nAzure Quantum workspace, optionally filtering the list to jobs which\r\nhave an ID, name, or target containing the provided filter parameter.\r\n\r\nThe Azure Quantum workspace must have been previously initialized\r\nusing the [`%azure.connect` magic command](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.connect).\r\n\r\n#### Optional parameters\r\n\r\n- A string to filter the list of jobs. Jobs which have an ID, name, or target\r\ncontaining the provided filter parameter will be displayed. If not specified,\r\nno job is filtered.\r\n- `count=<integer>` (default=30): The max number of jobs to return.\r\n\r\n#### Possible errors\r\n\r\n- `NotConnected`: Not connected to any Azure Quantum workspace.\r\n                    ", "Remarks": null, "Examples": ["\r\nGet the list of jobs:\r\n```\r\nIn []: %azure.jobs\r\nOut[]: <detailed status of all recent jobs in the workspace>\r\n```\r\n                        ", "\r\nGet the list of jobs whose ID, name, or target contains \"My job\":\r\n```\r\nIn []: %azure.jobs \"My job\"\r\nOut[]: <detailed status of matching jobs in the workspace>\r\n```\r\n                        ", "\r\nGet the list of jobs whose ID, name, or target contains \"My job\", limit it to at most 100 jobs:\r\n```\r\nIn []: %azure.jobs \"My job\" count=100\r\nOut[]: <detailed status of at most 100 matching jobs in the workspace>\r\n```\r\n                        "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.AzureClient"}
 -->
 
 # `%azure.jobs`
@@ -35,7 +35,8 @@ using the [`%azure.connect` magic command](https://docs.microsoft.com/qsharp/api
 
 - A string to filter the list of jobs. Jobs which have an ID, name, or target
 containing the provided filter parameter will be displayed. If not specified,
-all recent jobs are displayed.
+no job is filtered.
+- `count=<integer>` (default=30): The max number of jobs to return.
 
 #### Possible errors
 
@@ -57,4 +58,12 @@ Get the list of jobs whose ID, name, or target contains "My job":
 ```
 In []: %azure.jobs "My job"
 Out[]: <detailed status of matching jobs in the workspace>
+```
+
+### Example 3
+
+Get the list of jobs whose ID, name, or target contains "My job", limit it to at most 100 jobs:
+```
+In []: %azure.jobs "My job" count=100
+Out[]: <detailed status of at most 100 matching jobs in the workspace>
 ```

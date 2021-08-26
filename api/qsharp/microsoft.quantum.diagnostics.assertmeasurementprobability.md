@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertMeasurementProbability
 title: AssertMeasurementProbability operation
-ms.date: 7/22/2021 12:00:00 AM
+ms.date: 8/26/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -64,7 +64,7 @@ Tolerance allowed in the measurement probability.
 
 ## Example
 
-```qsharpusing (register = Qubit()) {    H(register);    AssertProb([PauliZ], [register], One, 0.5,        "Measuring in conjugate basis did not give 50/50 results.", 1e-5);}```
+```qsharpusing (register = Qubit()) {    H(register);    AssertMeasurementProbability([PauliZ], [register], One, 0.5,        "Measuring in conjugate basis did not give 50/50 results.", 1e-5);}```
 
 ## Remarks
 
