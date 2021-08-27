@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MeasureInteger
 title: MeasureInteger operation
-ms.date: 7/22/2021 12:00:00 AM
+ms.date: 8/27/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -41,7 +41,3 @@ An unsigned integer that contains the measured value of `target`.
 ## Remarks
 
 This operation resets its input register to the $\ket{00\cdots 0}$ state,suitable for releasing back to a target machine.
-
-## See Also
-
-- [Microsoft.Quantum.Canon.MeasureIntegerBE](xref:Microsoft.Quantum.Canon.MeasureIntegerBE)

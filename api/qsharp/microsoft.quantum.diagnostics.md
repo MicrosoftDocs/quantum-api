@@ -1,18 +1,28 @@
 ---
 uid: Microsoft.Quantum.Diagnostics
 title: Microsoft.Quantum.Diagnostics namespace
-ms.date: 7/22/2021 12:00:00 AM
+ms.date: 8/27/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Diagnostics
-qsharp.summary: ''
+qsharp.summary: >-
+  This namespace contains function and operations that help
+  ensure correctness of Q# programs and inspect their behavior.
 ---
 
 # Microsoft.Quantum.Diagnostics namespace
 
+This namespace contains function and operations that help
+ensure correctness of Q# programs and inspect their behavior.
 
 
 
+## Description
+
+To learn more about the testing and diagnostics tools available in Q#, see
+[Diagnostics](xref:microsoft.quantum.libraries.overview.diagnostics) and
+[Testing and Debugging](xref:microsoft.quantum.user-guide-qdk.overview.testingdebugging)
+articles.
 <!-- summaries -->
 
 ## Operations
