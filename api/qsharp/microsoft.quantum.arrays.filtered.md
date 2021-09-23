@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Filtered
 title: Filtered function
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -51,7 +51,7 @@ The type of `array` elements.
 
 ## Example
 
-The following code demonstrates the "Filtered" function.A predicate is defined using the @"microsoft.quantum.logical.greaterthani" function:```qsharpopen Microsoft.Quantum.Arrays;open Microsoft.Quantum.Logical;function FilteredDemo() : Unit {   let predicate = GreaterThanI(_, 5);   let filteredArray = Filtered(predicate, [2, 5, 9, 1, 8]);   Message($"{filteredArray}");}```The outcome one should expect from this example will be an array of numbers greater than 5.
+The following code demonstrates the "Filtered" function.A predicate is defined using the @"Microsoft.Quantum.Logical.GreaterThanI" function:```qsharpopen Microsoft.Quantum.Arrays;open Microsoft.Quantum.Logical;function FilteredDemo() : Unit {   let predicate = GreaterThanI(_, 5);   let filteredArray = Filtered(predicate, [2, 5, 9, 1, 8]);   Message($"{filteredArray}");}```The outcome one should expect from this example will be an array of numbers greater than 5.
 
 ## Remarks
 

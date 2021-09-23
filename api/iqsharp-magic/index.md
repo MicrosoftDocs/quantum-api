@@ -4,7 +4,7 @@ description: Lists the magic commands available in the IQ# Jupyter kernel.
 author: rmshaffer
 uid: microsoft.quantum.iqsharp.magic-ref.index
 ms.author: ryansha
-ms.date: 08/27/2021
+ms.date: 09/23/2021
 ms.topic: article
 ---
 # IQ# Magic Commands
