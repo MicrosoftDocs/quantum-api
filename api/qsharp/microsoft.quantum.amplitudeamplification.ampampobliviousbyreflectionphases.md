@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpObliviousByReflectionPhases
 title: AmpAmpObliviousByReflectionPhases function
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -13,7 +13,7 @@ qsharp.summary: >+
 
   >
 
-  > Please use @"microsoft.quantum.amplitudeamplification.obliviousamplitudeamplificationfrompartialreflections".
+  > Please use @"Microsoft.Quantum.AmplitudeAmplification.ObliviousAmplitudeAmplificationFromPartialReflections".
 
 ---
 
@@ -27,7 +27,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 > [!WARNING]
 > AmpAmpObliviousByReflectionPhases has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.ObliviousAmplitudeAmplificationFromPartialReflections> instead.
 >
-> Please use @"microsoft.quantum.amplitudeamplification.obliviousamplitudeamplificationfrompartialreflections".
+> Please use @"Microsoft.Quantum.AmplitudeAmplification.ObliviousAmplitudeAmplificationFromPartialReflections".
 
 
 

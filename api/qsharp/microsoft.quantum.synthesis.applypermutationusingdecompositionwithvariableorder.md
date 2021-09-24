@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyPermutationUsingDecompositionWithVariableOrder
 title: ApplyPermutationUsingDecompositionWithVariableOrder operation
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -27,7 +27,7 @@ operation ApplyPermutationUsingDecompositionWithVariableOrder (perm : Int[], var
 
 ## Description
 
-This operation is a more general version of @"microsoft.quantum.synthesis.applypermutationusingdecomposition"in which the variable order can be specified. A different variable orderchanges the decomposition sequence and the truth tables used for thecontrolled @"microsoft.quantum.intrinsic.x" gates.  Therefore, changing thevariable order changes the number of overall gates used to realize thepermutation.
+This operation is a more general version of @"Microsoft.Quantum.Synthesis.ApplyPermutationUsingDecomposition"in which the variable order can be specified. A different variable orderchanges the decomposition sequence and the truth tables used for thecontrolled @"Microsoft.Quantum.Intrinsic.X" gates.  Therefore, changing thevariable order changes the number of overall gates used to realize thepermutation.
 
 ## Input
 

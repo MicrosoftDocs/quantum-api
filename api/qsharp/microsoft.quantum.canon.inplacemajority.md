@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.InPlaceMajority
 title: InPlaceMajority operation
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -13,7 +13,7 @@ qsharp.summary: >+
 
   >
 
-  > Please use @"microsoft.quantum.arithmetic.applymajorityinplace".
+  > Please use @"Microsoft.Quantum.Arithmetic.ApplyMajorityInPlace".
 
 ---
 
@@ -27,7 +27,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 > [!WARNING]
 > InPlaceMajority has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.ApplyMajorityInPlace> instead.
 >
-> Please use @"microsoft.quantum.arithmetic.applymajorityinplace".
+> Please use @"Microsoft.Quantum.Arithmetic.ApplyMajorityInPlace".
 
 
 

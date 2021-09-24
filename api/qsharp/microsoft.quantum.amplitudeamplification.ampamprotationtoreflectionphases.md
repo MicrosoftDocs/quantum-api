@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpRotationToReflectionPhases
 title: AmpAmpRotationToReflectionPhases function
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -15,7 +15,7 @@ qsharp.summary: >+
 
   > Please use
 
-  > @"microsoft.quantum.amplitudeamplification.rotationphasesasreflectionphases".
+  > @"Microsoft.Quantum.AmplitudeAmplification.RotationPhasesAsReflectionPhases".
 
 ---
 
@@ -30,7 +30,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 > AmpAmpRotationToReflectionPhases has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.RotationPhasesAsReflectionPhases> instead.
 >
 > Please use
-> @"microsoft.quantum.amplitudeamplification.rotationphasesasreflectionphases".
+> @"Microsoft.Quantum.AmplitudeAmplification.RotationPhasesAsReflectionPhases".
 
 
 

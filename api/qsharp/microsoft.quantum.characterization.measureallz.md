@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization.MeasureAllZ
 title: MeasureAllZ operation
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
@@ -13,7 +13,7 @@ qsharp.summary: >+
 
   >
 
-  > Please use @"microsoft.quantum.measurement.measureAllZ".
+  > Please use @"Microsoft.Quantum.Measurement.MeasureAllZ".
 
 ---
 
@@ -27,7 +27,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 > [!WARNING]
 > MeasureAllZ has been deprecated. Please use <xref:Microsoft.Quantum.Measurement.MeasureAllZ> instead.
 >
-> Please use @"microsoft.quantum.measurement.measureAllZ".
+> Please use @"Microsoft.Quantum.Measurement.MeasureAllZ".
 
 
 

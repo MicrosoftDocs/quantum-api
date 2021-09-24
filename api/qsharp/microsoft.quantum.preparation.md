@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation
 title: Microsoft.Quantum.Preparation namespace
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Preparation
@@ -46,7 +46,7 @@ arbitrary initial states.
 |------|---------|
 |[BlochSphereCoordinates](xref:Microsoft.Quantum.Preparation.BlochSphereCoordinates) |Computes the Bloch sphere coordinates for a single-qubit state. |
 |[PurifiedMixedState](xref:Microsoft.Quantum.Preparation.PurifiedMixedState) |Returns an operation that prepares a a purification of a given mixed state. |
-|[PurifiedMixedStateRequirements](xref:Microsoft.Quantum.Preparation.PurifiedMixedStateRequirements) |Returns the total number of qubits that must be allocated in order to apply the operation returned by @"microsoft.quantum.preparation.purifiedmixedstate". |
+|[PurifiedMixedStateRequirements](xref:Microsoft.Quantum.Preparation.PurifiedMixedStateRequirements) |Returns the total number of qubits that must be allocated in order to apply the operation returned by @"Microsoft.Quantum.Preparation.PurifiedMixedState". |
 |[PurifiedMixedStateWithData](xref:Microsoft.Quantum.Preparation.PurifiedMixedStateWithData) |Returns an operation that prepares a a purification of a given mixed |
 |[QuantumROM](xref:Microsoft.Quantum.Preparation.QuantumROM) |> [!WARNING] |
 |[QuantumROMQubitCount](xref:Microsoft.Quantum.Preparation.QuantumROMQubitCount) |> [!WARNING] |

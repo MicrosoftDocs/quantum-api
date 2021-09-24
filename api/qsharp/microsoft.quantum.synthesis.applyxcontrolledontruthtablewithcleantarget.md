@@ -1,13 +1,13 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTableWithCleanTarget
 title: ApplyXControlledOnTruthTableWithCleanTarget operation
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: ApplyXControlledOnTruthTableWithCleanTarget
 qsharp.summary: >-
-  Applies the @"microsoft.quantum.intrinsic.x" operation on `target`, if the Boolean function `func` evaluates
+  Applies the @"Microsoft.Quantum.Intrinsic.X" operation on `target`, if the Boolean function `func` evaluates
   to true for the classical assignment in `controlRegister`.
 ---
 
@@ -18,7 +18,7 @@ Namespace: [Microsoft.Quantum.Synthesis](xref:Microsoft.Quantum.Synthesis)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Applies the @"microsoft.quantum.intrinsic.x" operation on `target`, if the Boolean function `func` evaluatesto true for the classical assignment in `controlRegister`.
+Applies the @"Microsoft.Quantum.Intrinsic.X" operation on `target`, if the Boolean function `func` evaluatesto true for the classical assignment in `controlRegister`.
 
 ```qsharp
 operation ApplyXControlledOnTruthTableWithCleanTarget (func : BigInt, controlRegister : Qubit[], target : Qubit) : Unit is Adj + Ctl
@@ -27,7 +27,7 @@ operation ApplyXControlledOnTruthTableWithCleanTarget (func : BigInt, controlReg
 
 ## Description
 
-This operation implements a special case of @"microsoft.quantum.synthesis.applyxcontrolledontruthtable",in which the target qubit is known to be in the $\ket{0}$ state.The implementation makes use of @"microsoft.quantum.intrinsic.cnot"and @"microsoft.quantum.intrinsic.r1" gates.  The implementation of theadjoint operation is optimized and uses measurement-based uncomputation.
+This operation implements a special case of @"Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTable",in which the target qubit is known to be in the $\ket{0}$ state.The implementation makes use of @"Microsoft.Quantum.Intrinsic.Cnot"and @"Microsoft.Quantum.Intrinsic.R1" gates.  The implementation of theadjoint operation is optimized and uses measurement-based uncomputation.
 
 ## Input
 

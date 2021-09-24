@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyPermutationUsingDecomposition
 title: ApplyPermutationUsingDecomposition operation
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -27,7 +27,7 @@ operation ApplyPermutationUsingDecomposition (perm : Int[], qubits : Microsoft.Q
 
 ## Description
 
-This procedure implements the decomposition basedsynthesis approach.  The input is a permutation $\pi$ over $2^n$ elements$\{0, \dots, 2^n-1\}$, which represents an $n$-variable reversible Boolean function.The algorithm iteratively performs the following steps for each variableindex $i$:1. Compute $((\pi_l, \pi_r), \pi')$ such that the images   of $\pi_l$ and $\pi_r$ do not change bits in their elements at indexes other   than $i$ and images of $\pi'$ do not change bit $i$ in their elements.2. Set $\pi \leftarrow \pi'$, and derive truth tables from $\pi_l$ and $\pi_r$   based on elements that are not fixed-points.After applying these steps for all variable indexes, the remainingpermutation $\pi$ will be the identity, and based on the collected truthtables and indexes, one can apply truth-table controlled @"microsoft.quantum.intrinsic.x"operations using the @"microsoft.quantum.synthesis.applyxcontrolledontruthtable" operation.The variable order is $0, \dots, n - 1$.  A custom variable order can be specifiedin the operation @"microsoft.quantum.synthesis.applypermutationusingdecompositionwithvariableorder".
+This procedure implements the decomposition basedsynthesis approach.  The input is a permutation $\pi$ over $2^n$ elements$\{0, \dots, 2^n-1\}$, which represents an $n$-variable reversible Boolean function.The algorithm iteratively performs the following steps for each variableindex $i$:1. Compute $((\pi_l, \pi_r), \pi')$ such that the images   of $\pi_l$ and $\pi_r$ do not change bits in their elements at indexes other   than $i$ and images of $\pi'$ do not change bit $i$ in their elements.2. Set $\pi \leftarrow \pi'$, and derive truth tables from $\pi_l$ and $\pi_r$   based on elements that are not fixed-points.After applying these steps for all variable indexes, the remainingpermutation $\pi$ will be the identity, and based on the collected truthtables and indexes, one can apply truth-table controlled @"Microsoft.Quantum.Intrinsic.X"operations using the @"Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTable" operation.The variable order is $0, \dots, n - 1$.  A custom variable order can be specifiedin the operation @"Microsoft.Quantum.Synthesis.ApplyPermutationUsingDecompositionWithVariableOrder".
 
 ## Input
 

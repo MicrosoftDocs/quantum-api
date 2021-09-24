@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpByReflectionPhases
 title: AmpAmpByReflectionPhases function
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -13,7 +13,7 @@ qsharp.summary: >+
 
   >
 
-  > Please use @"microsoft.quantum.amplitudeamplification.amplitudeamplificationfrompartialreflections".
+  > Please use @"Microsoft.Quantum.AmplitudeAmplification.AmplitudeAmplificationFromPartialReflections".
 
 ---
 
@@ -27,7 +27,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 > [!WARNING]
 > AmpAmpByReflectionPhases has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.AmplitudeAmplificationFromPartialReflections> instead.
 >
-> Please use @"microsoft.quantum.amplitudeamplification.amplitudeamplificationfrompartialreflections".
+> Please use @"Microsoft.Quantum.AmplitudeAmplification.AmplitudeAmplificationFromPartialReflections".
 
 
 

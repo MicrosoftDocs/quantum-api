@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpByOracle
 title: AmpAmpByOracle function
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -13,7 +13,7 @@ qsharp.summary: >+
 
   >
 
-  > Please use @"microsoft.quantum.amplitudeamplification.standardamplitudeamplification".
+  > Please use @"Microsoft.Quantum.AmplitudeAmplification.StandardAmplitudeAmplification".
 
 ---
 
@@ -27,7 +27,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 > [!WARNING]
 > AmpAmpByOracle has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.StandardAmplitudeAmplification> instead.
 >
-> Please use @"microsoft.quantum.amplitudeamplification.standardamplitudeamplification".
+> Please use @"Microsoft.Quantum.AmplitudeAmplification.StandardAmplitudeAmplification".
 
 
 

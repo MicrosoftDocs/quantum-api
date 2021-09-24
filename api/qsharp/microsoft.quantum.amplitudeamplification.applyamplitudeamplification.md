@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ApplyAmplitudeAmplification
 title: ApplyAmplitudeAmplification operation
-ms.date: 8/27/2021 12:00:00 AM
+ms.date: 9/23/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -29,7 +29,7 @@ operation ApplyAmplitudeAmplification (phases : Microsoft.Quantum.AmplitudeAmpli
 
 ### phases : [ReflectionPhases](xref:Microsoft.Quantum.AmplitudeAmplification.ReflectionPhases)
 
-A set of phases describing the partial reflections at each step of theamplitude amplification algorithm. See@"microsoft.quantum.amplitudeamplification.standardreflectionphases"for an example.
+A set of phases describing the partial reflections at each step of theamplitude amplification algorithm. See@"Microsoft.Quantum.AmplitudeAmplification.StandardReflectionPhases"for an example.
 
 
 ### startStateReflection : [ReflectionOracle](xref:Microsoft.Quantum.Oracles.ReflectionOracle)
