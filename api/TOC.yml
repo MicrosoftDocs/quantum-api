@@ -17,3 +17,7 @@
     href: https://docs.microsoft.com/python/qsharp-core/qsharp
   - name: IQ# magic commands
     href: iqsharp-magic/toc.yml
+  - name: REST APIs
+    href: https://docs.microsoft.com/rest/api/azurequantum/
+  - name: ARM templates
+    href: https://docs.microsoft.com/azure/templates/microsoft.quantum/workspaces?tabs=bicep
