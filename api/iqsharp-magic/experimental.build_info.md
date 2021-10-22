@@ -4,7 +4,7 @@ description: Reports build info for the experimental simulators.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.experimental.build_info
 ms.author: anburton
-ms.date: 09/25/2021
+ms.date: 10/22/2021
 ms.topic: managed-reference
 ---
 
