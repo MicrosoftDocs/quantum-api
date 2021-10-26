@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.RAll0
 title: RAll0 operation
-ms.date: 9/25/2021 12:00:00 AM
+ms.date: 10/22/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
