@@ -5,7 +5,7 @@ description: Connects to an Azure Quantum workspace or displays current connecti
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.connect
 ms.author: anburton
-ms.date: 10/22/2021
+ms.date: 11/18/2021
 ms.topic: managed-reference
 ---
 
