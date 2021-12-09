@@ -5,7 +5,7 @@ description: Runs a given function or operation on the OpenSystemsSimulator targ
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.experimental.simulate_noise
 ms.author: anburton
-ms.date: 11/19/2021
+ms.date: 12/09/2021
 ms.topic: managed-reference
 ---
 

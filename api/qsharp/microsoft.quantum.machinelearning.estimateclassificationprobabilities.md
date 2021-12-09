@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.EstimateClassificationProbabilities
 title: EstimateClassificationProbabilities operation
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 12/9/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning

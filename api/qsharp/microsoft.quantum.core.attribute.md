@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Core.Attribute
 title: Attribute user defined type
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 12/9/2021 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Core
