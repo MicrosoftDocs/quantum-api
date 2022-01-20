@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning
 title: Microsoft.Quantum.MachineLearning namespace
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.MachineLearning
@@ -20,7 +20,7 @@ quantum machine learning applications.
 ## Description
 
 To learn more about this quantum machine learning library, see
-[Introduction to the Quantum Machine Learning Library](xref:microsoft.quantum.libraries-machine-learning.overview)
+[Introduction to the Quantum Machine Learning Library](xref:microsoft.quantum.libraries.overview.machine-learning.intro)
 in Q# documentation.
 <!-- summaries -->
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays
 title: Microsoft.Quantum.Arrays namespace
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arrays
@@ -47,7 +47,7 @@ data.
 |[Filtered](xref:Microsoft.Quantum.Arrays.Filtered) |Given an array and a predicate that is defined for the elements of the array, returns an array that consists of those elements that satisfy the predicate. |
 |[FlatMapped](xref:Microsoft.Quantum.Arrays.FlatMapped) |Given an array and a function that maps an array element to some output array, returns the concatenated output arrays for each array element. |
 |[Flattened](xref:Microsoft.Quantum.Arrays.Flattened) |Given an array of arrays, returns the concatenation of all arrays. |
-|[Fold](xref:Microsoft.Quantum.Arrays.Fold) |Iterates a function `f` through an array `array`, returning `f(f(f(initialState, array[0]), array[1]), ...)`. |
+|[Fold](xref:Microsoft.Quantum.Arrays.Fold) |Iterates a function `f` through an array `array`, returning `f(...f(f(initialState, array[0]), array[1]), ...)`. |
 |[Head](xref:Microsoft.Quantum.Arrays.Head) |Returns the first element of the array. |
 |[HeadAndRest](xref:Microsoft.Quantum.Arrays.HeadAndRest) |Returns a tuple of first and all remaining elements of the array. |
 |[IndexOf](xref:Microsoft.Quantum.Arrays.IndexOf) |Returns the first index of the first element in an array that satisfies a given predicate. If no such element exists, returns -1. |

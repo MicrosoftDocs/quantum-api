@@ -4,7 +4,7 @@ description: Provides the ability to load a NuGet package.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.package
 ms.author: anburton
-ms.date: 11/19/2021
+ms.date: 01/20/2022
 ms.topic: managed-reference
 ---
 

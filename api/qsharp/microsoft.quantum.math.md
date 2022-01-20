@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math
 title: Microsoft.Quantum.Math namespace
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Math
@@ -112,8 +112,8 @@ This namespace contains classical mathematical functions and data types.
 |[NegationI](xref:Microsoft.Quantum.Math.NegationI) |Returns the unary negation of an input. |
 |[NegationL](xref:Microsoft.Quantum.Math.NegationL) |Returns the unary negation of an input. |
 |[PI](xref:Microsoft.Quantum.Math.PI) |Represents the ratio of the circumference of a circle to its diameter. |
-|[PNorm](xref:Microsoft.Quantum.Math.PNorm) |Returns the `L(p)` norm of a vector of `Double`s. |
-|[PNormalized](xref:Microsoft.Quantum.Math.PNormalized) |Normalizes a vector of `Double`s in the `L(p)` norm. |
+|[PNorm](xref:Microsoft.Quantum.Math.PNorm) |Returns the p-norm of a vector of real numbers. |
+|[PNormalized](xref:Microsoft.Quantum.Math.PNormalized) |Normalizes a vector of real numbers according to the p-norm for a given p. |
 |[PlusA](xref:Microsoft.Quantum.Math.PlusA) |Returns the sum (concatenation) of two inputs. |
 |[PlusC](xref:Microsoft.Quantum.Math.PlusC) |Returns the sum of two inputs. |
 |[PlusCP](xref:Microsoft.Quantum.Math.PlusCP) |Returns the sum of two inputs. |

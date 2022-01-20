@@ -1,12 +1,14 @@
 ---
 uid: Microsoft.Quantum.Math.PNormalized
 title: PNormalized function
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: PNormalized
-qsharp.summary: Normalizes a vector of `Double`s in the `L(p)` norm.
+qsharp.summary: >-
+  Normalizes a vector of real numbers according to the p-norm for a given
+  p.
 ---
 
 # PNormalized function
@@ -16,7 +18,7 @@ Namespace: [Microsoft.Quantum.Math](xref:Microsoft.Quantum.Math)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Normalizes a vector of `Double`s in the `L(p)` norm.
+Normalizes a vector of real numbers according to the p-norm for a givenp.
 
 ```qsharp
 function PNormalized (p : Double, array : Double[]) : Double[]
@@ -36,13 +38,17 @@ The exponent $p$ in the $p$-norm.
 
 ### array : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
-
+The vector $x$ to be normalized.
 
 
 
 ## Output : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)[]
 
 The array $x$ normalized by the $p$-norm $\|x\|_p$.
+
+## Remarks
+
+This function defines a norm only when `p >= 1.0` or `Length(array)` iseither 0 or 1. In the more general case, this function fails thetriangle inequality.
 
 ## See Also
 

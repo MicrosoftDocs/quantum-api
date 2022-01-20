@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.IntAsDouble
 title: IntAsDouble function
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert

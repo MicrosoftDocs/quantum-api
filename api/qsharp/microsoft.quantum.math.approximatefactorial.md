@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ApproximateFactorial
 title: ApproximateFactorial function
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -41,7 +41,7 @@ The approximate factorial of `n`.
 
 ## Remarks
 
-This function uses the Ramanujan approximation with a relative errorto the order of $1 / n^5$.
+For $n \ge 10$, this function uses the Ramanujan approximation with arelative error to the order of $1 / n^5$.
 
 ## See Also
 

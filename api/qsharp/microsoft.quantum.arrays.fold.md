@@ -1,14 +1,14 @@
 ---
 uid: Microsoft.Quantum.Arrays.Fold
 title: Fold function
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Fold
 qsharp.summary: >-
   Iterates a function `f` through an array `array`, returning
-  `f(f(f(initialState, array[0]), array[1]), ...)`.
+  `f(...f(f(initialState, array[0]), array[1]), ...)`.
 ---
 
 # Fold function
@@ -18,7 +18,7 @@ Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Iterates a function `f` through an array `array`, returning`f(f(f(initialState, array[0]), array[1]), ...)`.
+Iterates a function `f` through an array `array`, returning`f(...f(f(initialState, array[0]), array[1]), ...)`.
 
 ```qsharp
 function Fold<'State, 'T> (folder : (('State, 'T) -> 'State), state : 'State, array : 'T[]) : 'State
