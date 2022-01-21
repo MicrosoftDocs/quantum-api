@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubitWithinTolerance
 title: AssertQubitWithinTolerance operation
-ms.date: 11/19/2021 12:00:00 AM
+ms.date: 1/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -49,7 +49,7 @@ Tolerance on the probability of a measurement of the qubit returning the expecte
 
 ## Remarks
 
-<xref:microsoft.quantum.diagnostics.assertqubitisinstatewithintolerance> allows for assertingarbitrary qubit states rather than only $Z$ eigenstates.Note that the Adjoint and Controlled versions of this operation will notcheck the condition.
+<xref:Microsoft.Quantum.Diagnostics.AssertQubitIsInStateWithinTolerance> allows for assertingarbitrary qubit states rather than only $Z$ eigenstates.Note that the Adjoint and Controlled versions of this operation will notcheck the condition.
 
 ## See Also
 
