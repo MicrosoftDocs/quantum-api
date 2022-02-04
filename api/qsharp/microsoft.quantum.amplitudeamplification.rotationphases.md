@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.RotationPhases
 title: RotationPhases user defined type
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 2/4/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification

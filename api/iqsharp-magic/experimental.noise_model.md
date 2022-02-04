@@ -5,7 +5,7 @@ description: Gets, sets, saves, or loads a noise model used in simulating quantu
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.experimental.noise_model
 ms.author: anburton
-ms.date: 01/25/2022
+ms.date: 02/04/2022
 ms.topic: managed-reference
 ---
 
