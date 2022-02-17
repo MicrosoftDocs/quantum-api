@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry
 title: Microsoft.Quantum.Research.Chemistry namespace
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 2/17/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Research.Chemistry

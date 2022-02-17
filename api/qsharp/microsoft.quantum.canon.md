@@ -1,18 +1,24 @@
 ---
 uid: Microsoft.Quantum.Canon
 title: Microsoft.Quantum.Canon namespace
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 2/17/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Canon
-qsharp.summary: ''
+qsharp.summary: This namespace contains a variety of useful operations and functions.
 ---
 
 # Microsoft.Quantum.Canon namespace
 
+This namespace contains a variety of useful operations and functions.
 
 
 
+## Description
+
+To learn more about the operations in this namespace, see
+[Higher-Order Control Flow](xref:microsoft.quantum.libraries.overview-standard.control-flow) and
+[Quantum Fourier Transform](xref:microsoft.quantum.libraries.overview.standard.algorithms#quantum-fourier-transform).
 <!-- summaries -->
 
 ## Operations
