@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Logical
 title: Microsoft.Quantum.Logical namespace
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 2/17/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Logical
@@ -13,6 +13,12 @@ qsharp.summary: Contains functions for working with logical expressions and Bool
 Contains functions for working with logical expressions and Boolean logic.
 
 
+
+## Description
+
+A lot of functions in this namespace offer the same functionality as the
+[logical expressions](xref:microsoft.quantum.qsharp.logicalexpressions) and
+[comparative expressions](xref:microsoft.quantum.qsharp.comparativeexpressions).
 <!-- summaries -->
 
 

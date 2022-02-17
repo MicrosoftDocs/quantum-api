@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ApplyObliviousAmplitudeAmplification
 title: ApplyObliviousAmplitudeAmplification operation
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 2/17/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
@@ -62,8 +62,8 @@ System register
 
 ## Remarks
 
-Given a particular auxiliary start state $\ket{\text{start}}\_a$, aparticular auxiliary target state $\ket{\text{target}}\_a$, and anysystem state $\ket{\psi}\_s$, suppose that\begin{align}O\ket{\text{start}}\_a\ket{\psi}\_s= \lambda\ket{\text{target}}\_a U \ket{\psi}\_s + \sqrt{1-|\lambda|^2}\ket{\text{target}^\perp}\_a\cdots\end{align}for some unitary $U$.By a sequence of reflections about the start and target states on theauxiliary register interleaved by applications of `signalOracle` and itsadjoint, the success probability of applying U may be altered.In most cases, `auxiliaryRegister` is initialized in the state $\ket{\text{start}}\_a$.
+Given a particular auxiliary start state $\ket{\text{start}}\_a$, aparticular auxiliary target state $\ket{\text{target}}\_a$, and anysystem state $\ket{\psi}\_s$, suppose that\begin{align}O\ket{\text{start}}\_a\ket{\psi}\_s= \lambda\ket{\text{target}}\_a U \ket{\psi}\_s + \sqrt{1-|\lambda|^2}\ket{\text{target}^\perp}\_a\cdots\end{align}for some unitary $U$.By a sequence of reflections about the start and target states on theauxiliary register interleaved by applications of `signalOracle` and itsadjoint, the success probability of applying $U$ may be altered.In most cases, `auxiliaryRegister` is initialized in the state $\ket{\text{start}}\_a$.
 
 ## References
 
-See- [ *D.W. Berry, A.M. Childs, R. Cleve, R. Kothari, R.D. Somma* ](https://arxiv.org/abs/1312.1414)  for the standard version.  See- [ *G.H. Low, I.L. Chuang* ](https://arxiv.org/abs/1610.06546)  for a generalization to partial reflections.
+- See [*D.W. Berry, A.M. Childs, R. Cleve, R. Kothari, R.D. Somma*](https://arxiv.org/abs/1312.1414)  for the standard version.- See [*G.H. Low, I.L. Chuang*](https://arxiv.org/abs/1610.06546)  for a generalization to partial reflections.
