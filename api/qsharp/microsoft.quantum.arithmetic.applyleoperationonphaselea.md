@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEA
 title: ApplyLEOperationOnPhaseLEA operation
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 2/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -49,6 +49,6 @@ The register is transformed to `LittleEndian` by the use of<xref:Microsoft.Quan
 
 ## See Also
 
-- [Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLE](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLE)
-- [Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLEC](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLEC)
-- [Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLECA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationonPhaseLECA)
+- [Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLE](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLE)
+- [Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEC](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEC)
+- [Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLECA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLECA)

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math
 title: Microsoft.Quantum.Math namespace
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 2/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Math
@@ -13,6 +13,11 @@ qsharp.summary: This namespace contains classical mathematical functions and dat
 This namespace contains classical mathematical functions and data types.
 
 
+
+## Description
+
+A lot of functions in this namespace offer the same functionality as the
+[arithmetic expressions](xref:microsoft.quantum.qsharp.arithmeticexpressions).
 <!-- summaries -->
 
 ## Operations
