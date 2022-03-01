@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics
 title: Microsoft.Quantum.Diagnostics namespace
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 3/1/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Diagnostics
@@ -50,7 +50,7 @@ articles.
 |------|---------|
 |[AllEqualityFactB](xref:Microsoft.Quantum.Diagnostics.AllEqualityFactB) |Asserts that two arrays of boolean values are equal. |
 |[AllEqualityFactI](xref:Microsoft.Quantum.Diagnostics.AllEqualityFactI) |Asserts that two arrays of integer values are equal. |
-|[Contradiction](xref:Microsoft.Quantum.Diagnostics.Contradiction) |Declares that a classical condition is false. |
+|[Contradiction](xref:Microsoft.Quantum.Diagnostics.Contradiction) |Checks whether a classical condition is false, and throws an exception if it is not. |
 |[DumpMachine](xref:Microsoft.Quantum.Diagnostics.DumpMachine) |Dumps the current target machine's status. |
 |[DumpRegister](xref:Microsoft.Quantum.Diagnostics.DumpRegister) |Dumps the current target machine's status associated with the given qubits. |
 |[EqualityFactB](xref:Microsoft.Quantum.Diagnostics.EqualityFactB) |Asserts that a classical Bool variable has the expected value. |
@@ -60,8 +60,8 @@ articles.
 |[EqualityFactL](xref:Microsoft.Quantum.Diagnostics.EqualityFactL) |Asserts that a classical BigInt variable has the expected value. |
 |[EqualityFactR](xref:Microsoft.Quantum.Diagnostics.EqualityFactR) |Asserts that a classical Result variable has the expected value. |
 |[EqualityWithinToleranceFact](xref:Microsoft.Quantum.Diagnostics.EqualityWithinToleranceFact) |Represents the claim that a classical floating point value has the expected value up to a given absolute tolerance. |
-|[Fact](xref:Microsoft.Quantum.Diagnostics.Fact) |Declares that a classical condition is true. |
-|[FiniteFact](xref:Microsoft.Quantum.Diagnostics.FiniteFact) |Declares that a given floating-point value represents a finite number, failing when this is not the case. |
+|[Fact](xref:Microsoft.Quantum.Diagnostics.Fact) |Checks whether a classical condition is true, and throws an exception if it is not. |
+|[FiniteFact](xref:Microsoft.Quantum.Diagnostics.FiniteFact) |Checks whether a given floating-point value represents a finite number, and throws an exception if this is not the case. |
 |[NearEqualityFactC](xref:Microsoft.Quantum.Diagnostics.NearEqualityFactC) |Asserts that a classical complex number has the expected value up to a small tolerance of 1e-10. |
 |[NearEqualityFactCP](xref:Microsoft.Quantum.Diagnostics.NearEqualityFactCP) |Asserts that a classical complex number has the expected value up to a small tolerance of 1e-10. |
 |[NearEqualityFactD](xref:Microsoft.Quantum.Diagnostics.NearEqualityFactD) |Asserts that a classical floating point value has the expected value up to a small tolerance of 1e-10. |
