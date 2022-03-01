@@ -48,7 +48,7 @@ of the mixed state
 
 $$
 \begin{align}
-\rho = \sum_{j = 0}^{N-1}\ frac{|alpha_j|}{\sum_k |\alpha_k|} \ket{j}\bra{j} \otimes \ket{\vec{x}_j}\bra{\vec{x}_j},
+\rho = \sum_{j = 0}^{N-1} \frac{|\alpha_j|}{\sum_k |\alpha_k|} \ket{j}\bra{j} \otimes \ket{\vec{x}_j}\bra{\vec{x}_j},
 \end{align}
 $$
 
