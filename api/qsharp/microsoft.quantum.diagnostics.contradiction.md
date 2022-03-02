@@ -1,12 +1,12 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.Contradiction
 title: Contradiction function
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 3/2/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: Contradiction
-qsharp.summary: Declares that a classical condition is false.
+qsharp.summary: Checks whether a classical condition is false, and throws an exception if it is not.
 ---
 
 # Contradiction function
@@ -16,7 +16,7 @@ Namespace: [Microsoft.Quantum.Diagnostics](xref:Microsoft.Quantum.Diagnostics)
 Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Microsoft.Quantum.QSharp.Foundation)
 
 
-Declares that a classical condition is false.
+Checks whether a classical condition is false, and throws an exception if it is not.
 
 ```qsharp
 function Contradiction (actual : Bool, message : String) : Unit
@@ -27,12 +27,12 @@ function Contradiction (actual : Bool, message : String) : Unit
 
 ### actual : [Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals)
 
-The condition to be declared.
+The condition to be checked.
 
 
 ### message : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
-Failure message string to be printed in the case that the classicalcondition is true.
+Failure message string to be used as an error message if the classicalcondition is true.
 
 
 

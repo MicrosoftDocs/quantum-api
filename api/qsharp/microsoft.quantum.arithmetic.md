@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 3/2/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
@@ -31,9 +31,9 @@ computing arithmetic.
 |[ApplyLEOperationOnPhaseLECA](xref:Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLECA) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.LittleEndian>. |
 |[ApplyMajorityInPlace](xref:Microsoft.Quantum.Arithmetic.ApplyMajorityInPlace) |Applies the three-qubit majority operation in-place on a register of qubits. |
 |[ApplyPhaseLEOperationOnLE](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLE) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.LittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian>. |
-|[ApplyPhaseLEOperationOnLEA](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEA) | |
-|[ApplyPhaseLEOperationOnLEC](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEC) | |
-|[ApplyPhaseLEOperationOnLECA](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLECA) | |
+|[ApplyPhaseLEOperationOnLEA](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEA) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.LittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian>. |
+|[ApplyPhaseLEOperationOnLEC](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEC) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.LittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian>. |
+|[ApplyPhaseLEOperationOnLECA](xref:Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLECA) |Applies an operation that takes a <xref:Microsoft.Quantum.Arithmetic.LittleEndian> register as input on a target register of type <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian>. |
 |[ApplyReversedOpBE](xref:Microsoft.Quantum.Arithmetic.ApplyReversedOpBE) |Applies an operation that takes big-endian input to a register encoding an unsigned integer using little-endian format. |
 |[ApplyReversedOpBEA](xref:Microsoft.Quantum.Arithmetic.ApplyReversedOpBEA) |Applies an operation that takes big-endian input to a register encoding an unsigned integer using little-endian format. |
 |[ApplyReversedOpBEC](xref:Microsoft.Quantum.Arithmetic.ApplyReversedOpBEC) |Applies an operation that takes big-endian input to a register encoding an unsigned integer using little-endian format. |
