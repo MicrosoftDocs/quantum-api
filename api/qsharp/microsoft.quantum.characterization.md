@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization
 title: Microsoft.Quantum.Characterization namespace
-ms.date: 1/25/2022 12:00:00 AM
+ms.date: 3/2/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Characterization
@@ -16,6 +16,11 @@ This namespace contains functions and operations for learning properties of
 quantum states and processes, including tomography and phase estimation.
 
 
+
+## Description
+
+To learn more about this namespace, see
+[Quantum characterization and statistics](xref:microsoft.quantum.libraries.overview.characterization).
 <!-- summaries -->
 
 ## Operations
