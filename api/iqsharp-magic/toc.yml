@@ -54,6 +54,8 @@
   name: '%project magic command'
 - href: simulate.md
   name: '%simulate magic command'
+- href: simulate_sparse.md
+  name: '%simulate_sparse magic command'
 - href: toffoli.md
   name: '%toffoli magic command'
 - href: trace.md
