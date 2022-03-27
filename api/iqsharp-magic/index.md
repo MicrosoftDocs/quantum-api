@@ -4,7 +4,7 @@ description: Lists the magic commands available in the IQ# Jupyter kernel.
 author: rmshaffer
 uid: microsoft.quantum.iqsharp.magic-ref.index
 ms.author: ryansha
-ms.date: 03/02/2022
+ms.date: 03/27/2022
 ms.topic: article
 ---
 # IQ# Magic Commands
@@ -37,6 +37,7 @@ ms.topic: article
 | [`%performance`](xref:microsoft.quantum.iqsharp.magic-ref.performance) | Reports current performance metrics for this kernel. |
 | [`%project`](xref:microsoft.quantum.iqsharp.magic-ref.project) | Provides the ability to view or add Q# project references. |
 | [`%simulate`](xref:microsoft.quantum.iqsharp.magic-ref.simulate) | Runs a given function or operation on the QuantumSimulator target machine. |
+| [`%simulate_sparse`](xref:microsoft.quantum.iqsharp.magic-ref.simulate_sparse) | Runs a given function or operation on the sparse simulator. |
 | [`%toffoli`](xref:microsoft.quantum.iqsharp.magic-ref.toffoli) | Runs a given function or operation on the ToffoliSimulator target machine. |
 | [`%trace`](xref:microsoft.quantum.iqsharp.magic-ref.trace) | Visualizes the execution path of the given operation. |
 | [`%who`](xref:microsoft.quantum.iqsharp.magic-ref.who) | Lists the Q# operations available in the current session. |

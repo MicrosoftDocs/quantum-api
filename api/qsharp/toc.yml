@@ -769,11 +769,8 @@
   - {name: TrainingOptions, uid: Microsoft.Quantum.MachineLearning.TrainingOptions}
   - {name: ValidateSequentialClassifier, uid: Microsoft.Quantum.MachineLearning.ValidateSequentialClassifier}
   - {name: ValidationResults, uid: Microsoft.Quantum.MachineLearning.ValidationResults}
-  - {name: _CallFlipped, uid: Microsoft.Quantum.MachineLearning._CallFlipped}
   - {name: _Features, uid: Microsoft.Quantum.MachineLearning._Features}
-  - {name: _Flipped, uid: Microsoft.Quantum.MachineLearning._Flipped}
   - {name: _Label, uid: Microsoft.Quantum.MachineLearning._Label}
-  - {name: _UncontrolledSpanSequence, uid: Microsoft.Quantum.MachineLearning._UncontrolledSpanSequence}
   name: Microsoft.Quantum.MachineLearning
   uid: Microsoft.Quantum.MachineLearning
 - items:

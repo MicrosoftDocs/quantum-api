@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.LittleEndian
 title: LittleEndian user defined type
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Arithmetic

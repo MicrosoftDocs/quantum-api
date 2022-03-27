@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Swapped
 title: Swapped function
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -43,9 +43,14 @@ Array with elements to be swapped.
 
 ## Output : 'T[]
 
-The array with the in place swap applied.## Example```qsharp// The following returns [0, 3, 2, 1, 4]Swapped(1, 3, [0, 1, 2, 3, 4]);```
+The array with the in place swap applied.
 
 ## Type Parameters
 
 ### 'T
 
+
+
+## Example
+
+```qsharp// The following returns [0, 3, 2, 1, 4]Swapped(1, 3, [0, 1, 2, 3, 4]);```

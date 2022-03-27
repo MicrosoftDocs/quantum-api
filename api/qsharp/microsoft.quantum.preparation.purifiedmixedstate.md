@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PurifiedMixedState
 title: PurifiedMixedState function
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -25,7 +25,7 @@ function PurifiedMixedState (targetError : Double, coefficients : Double[]) : Mi
 
 ## Description
 
-Uses the Quantum ROM technique to represent a given density matrix,returning that representation as a state preparation operation.In particular, given a list of $N$ coefficients $\alpha_j$, thisfunction returns an operation that uses the Quantum ROM technique toprepare an approximation$$\begin{align}\tilde\rho = \sum_{j = 0}^{N - 1} p_j \ket{j}\bra{j}\end{align}$$of the mixed state$$\begin{align}\rho = \sum_{j = 0}^{N-1} \frac{|alpha_j|}{\sum_k |\alpha_k|} \ket{j}\bra{j},\end{align}$$where each $p_j$ is an approximation to the given coefficient $\alpha_j$such that$$\begin{align}\left| p_j - \frac{ |\alpha_j| }{ \sum_k |\alpha_k| } \right| \le \frac{\epsilon}{N}\end{align}$$for each $j$.When passed an index register and a register of garbage qubits,initially in the state $\ket{0} \ket{00\cdots 0}$, the returned operationprepares both registers into the purification of $\tilde \rho$,$$\begin{align}\sum_{j=0}^{N-1} \sqrt{p_j} \ket{j}\ket{\text{garbage}_j},\end{align}$$such that resetting and deallocating the garbage register enacts thedesired preparation to within the target error $\epsilon$.
+Uses the Quantum ROM technique to represent a given density matrix,returning that representation as a state preparation operation.In particular, given a list of $N$ coefficients $\alpha_j$, thisfunction returns an operation that uses the Quantum ROM technique toprepare an approximation$$\begin{align}\tilde\rho = \sum_{j = 0}^{N - 1} p_j \ket{j}\bra{j}\end{align}$$of the mixed state$$\begin{align}\rho = \sum_{j = 0}^{N-1} \frac{|\alpha_j|}{\sum_k |\alpha_k|} \ket{j}\bra{j},\end{align}$$where each $p_j$ is an approximation to the given coefficient $\alpha_j$such that$$\begin{align}\left| p_j - \frac{ |\alpha_j| }{ \sum_k |\alpha_k| } \right| \le \frac{\epsilon}{N}\end{align}$$for each $j$.When passed an index register and a register of garbage qubits,initially in the state $\ket{0} \ket{00\cdots 0}$, the returned operationprepares both registers into the purification of $\tilde \rho$,$$\begin{align}\sum_{j=0}^{N-1} \sqrt{p_j} \ket{j}\ket{\text{garbage}_j},\end{align}$$such that resetting and deallocating the garbage register enacts thedesired preparation to within the target error $\epsilon$.
 
 ## Input
 
@@ -46,7 +46,7 @@ An operation that prepares $\tilde \rho$ as a purification onto a jointindex an
 
 ## Example
 
-The following code snippet prepares an purification of the $3$-qubit state$\rho=\sum_{j=0}^{4}\frac{|alpha_j|}{\sum_k |\alpha_k|}\ket{j}\bra{j}$, where$\vec\alpha=(1.0, 2.0, 3.0, 4.0, 5.0)$, and the target error is$10^{-3}$:```qsharplet coefficients = [1.0, 2.0, 3.0, 4.0, 5.0];let targetError = 1e-3;let purifiedState = PurifiedMixedState(targetError, coefficients);using (indexRegister = Qubit[purifiedState::Requirements::NIndexQubits]) {    using (garbageRegister = Qubit[purifiedState::Requirements::NGarbageQubits]) {        purifiedState::Prepare(LittleEndian(indexRegister), [], garbageRegister);    }}```
+The following code snippet prepares an purification of the $3$-qubit state$\rho=\sum_{j=0}^{4}\frac{|\alpha_j|}{\sum_k |\alpha_k|}\ket{j}\bra{j}$, where$\vec\alpha=(1.0, 2.0, 3.0, 4.0, 5.0)$, and the target error is$10^{-3}$:```qsharplet coefficients = [1.0, 2.0, 3.0, 4.0, 5.0];let targetError = 1e-3;let purifiedState = PurifiedMixedState(targetError, coefficients);using (indexRegister = Qubit[purifiedState::Requirements::NIndexQubits]) {    using (garbageRegister = Qubit[purifiedState::Requirements::NGarbageQubits]) {        purifiedState::Prepare(LittleEndian(indexRegister), [], garbageRegister);    }}```
 
 ## Remarks
 

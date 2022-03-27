@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyPauliFromBitString
 title: ApplyPauliFromBitString operation
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -51,6 +51,10 @@ Quantum register on which to selectively apply the specified Pauli operator
 ## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
+
+## Example
+
+The following applies an X operation on qubits 0 and 2, and a Z operation on qubits 1 and 3.```qsharpuse qubits = Qubit[4];let bits = [true, false, true, false];// Apply when index in `bits` is `true`.ApplyPauliFromBitString(PauliX, true, bits, qubits);// Apply when index in `bits` is `false`.ApplyPauliFromBitString(PauliZ, false, bits, qubits);```
 
 ## Remarks
 

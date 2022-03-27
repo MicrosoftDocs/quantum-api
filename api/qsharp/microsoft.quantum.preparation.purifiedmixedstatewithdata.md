@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PurifiedMixedStateWithData
 title: PurifiedMixedStateWithData function
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -25,7 +25,7 @@ function PurifiedMixedStateWithData (targetError : Double, coefficients : (Doubl
 
 ## Description
 
-Uses the Quantum ROM technique to represent a given density matrix,returning that representation as a state preparation operation.In particular, given a list of $N$ coefficients $\alpha_j$, and abitstring $\vec{x}_j$ associated with each coefficient, thisfunction returns an operation that uses the Quantum ROM technique toprepare an approximation$$\begin{align}\tilde\rho = \sum_{j = 0}^{N - 1} p_j \ket{j}\bra{j} \otimes \ket{\vec{x}_j}\bra{\vec{x}_j}\end{align}$$of the mixed state$$\begin{align}\rho = \sum_{j = 0}^{N-1}\ frac{|alpha_j|}{\sum_k |\alpha_k|} \ket{j}\bra{j} \otimes \ket{\vec{x}_j}\bra{\vec{x}_j},\end{align}$$where each $p_j$ is an approximation to the given coefficient $\alpha_j$such that$$\begin{align}\left| p_j - \frac{ |\alpha_j| }{ \sum_k |\alpha_k| } \right| \le \frac{\epsilon}{N}\end{align}$$for each $j$.When passed an index register and a register of garbage qubits,initially in the state $\ket{0} \ket{00\cdots 0}$, the returned operationprepares both registers into the purification of $\tilde \rho$,$$\begin{align}\sum_{j=0}^{N-1} \sqrt{p_j} \ket{j} \ket{\vec{x}_j} \ket{\text{garbage}_j},\end{align}$$such that resetting and deallocating the garbage register enacts thedesired preparation to within the target error $\epsilon$.
+Uses the Quantum ROM technique to represent a given density matrix,returning that representation as a state preparation operation.In particular, given a list of $N$ coefficients $\alpha_j$, and abitstring $\vec{x}_j$ associated with each coefficient, thisfunction returns an operation that uses the Quantum ROM technique toprepare an approximation$$\begin{align}\tilde\rho = \sum_{j = 0}^{N - 1} p_j \ket{j}\bra{j} \otimes \ket{\vec{x}_j}\bra{\vec{x}_j}\end{align}$$of the mixed state$$\begin{align}\rho = \sum_{j = 0}^{N-1} \frac{|\alpha_j|}{\sum_k |\alpha_k|} \ket{j}\bra{j} \otimes \ket{\vec{x}_j}\bra{\vec{x}_j},\end{align}$$where each $p_j$ is an approximation to the given coefficient $\alpha_j$such that$$\begin{align}\left| p_j - \frac{ |\alpha_j| }{ \sum_k |\alpha_k| } \right| \le \frac{\epsilon}{N}\end{align}$$for each $j$.When passed an index register and a register of garbage qubits,initially in the state $\ket{0} \ket{00\cdots 0}$, the returned operationprepares both registers into the purification of $\tilde \rho$,$$\begin{align}\sum_{j=0}^{N-1} \sqrt{p_j} \ket{j} \ket{\vec{x}_j} \ket{\text{garbage}_j},\end{align}$$such that resetting and deallocating the garbage register enacts thedesired preparation to within the target error $\epsilon$.
 
 ## Input
 

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning
 title: Microsoft.Quantum.MachineLearning namespace
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.MachineLearning
@@ -55,11 +55,8 @@ in Q# documentation.
 |[PartialRotationsLayer](xref:Microsoft.Quantum.MachineLearning.PartialRotationsLayer) |Returns an array of single-qubit rotations along a given axis, parameterized by distinct model parameters. |
 |[Sampled](xref:Microsoft.Quantum.MachineLearning.Sampled) |Samples a given array, using the given schedule. |
 |[ScheduleLength](xref:Microsoft.Quantum.MachineLearning.ScheduleLength) |Returns the number of elements in a given sampling schedule. |
-|[_CallFlipped](xref:Microsoft.Quantum.MachineLearning._CallFlipped) | |
 |[_Features](xref:Microsoft.Quantum.MachineLearning._Features) | |
-|[_Flipped](xref:Microsoft.Quantum.MachineLearning._Flipped) | |
 |[_Label](xref:Microsoft.Quantum.MachineLearning._Label) | |
-|[_UncontrolledSpanSequence](xref:Microsoft.Quantum.MachineLearning._UncontrolledSpanSequence) | |
 
 ## User-defined types
 
