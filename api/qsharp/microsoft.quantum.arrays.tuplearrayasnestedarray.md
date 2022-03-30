@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.TupleArrayAsNestedArray
 title: TupleArrayAsNestedArray function
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -33,9 +33,14 @@ List of 2-tuples to be turned into a nested array.
 
 ## Output : 'T[][]
 
-A nested array with length matching the tupleList.## Example```qsharp// The following returns [[2, 3], [4, 5]]TupleArrayAsNestedArray([(2, 3), (4, 5)]);```
+A nested array with length matching the tupleList.
 
 ## Type Parameters
 
 ### 'T
 
+
+
+## Example
+
+```qsharp// The following returns [[2, 3], [4, 5]]TupleArrayAsNestedArray([(2, 3), (4, 5)]);```

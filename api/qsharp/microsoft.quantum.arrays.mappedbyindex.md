@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.MappedByIndex
 title: MappedByIndex function
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -55,6 +55,10 @@ The result type of the `mapper` function.
 ## Example
 
 The following two lines are equivalent:```qsharplet arr = MapIndex(f, [x0, x1, x2]);```and```qsharplet arr = [f(0, x0), f(1, x1), f(2, x2)];```
+
+## Remarks
+
+The function is defined for generic types, i.e., whenever we havean array `'T[]` and a function `mapper: (Int, 'T) -> 'U` we can map the elementsof the array and produce a new array of type `'U[]`.
 
 ## See Also
 
