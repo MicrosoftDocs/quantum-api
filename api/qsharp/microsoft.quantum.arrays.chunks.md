@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Chunks
 title: Chunks function
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -27,7 +27,7 @@ function Chunks<'T> (nElements : Int, arr : 'T[]) : 'T[][]
 
 ### nElements : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-The length of each chunk.
+The length of each chunk. Must be positive.
 
 
 ### arr : 'T[]

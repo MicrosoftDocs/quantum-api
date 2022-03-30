@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplyAndAddByModularInteger
 title: MultiplyAndAddByModularInteger operation
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -19,7 +19,7 @@ Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quant
 Performs a modular multiply-and-add by integer constants on a qubit register.
 
 ```qsharp
-operation MultiplyAndAddByModularInteger (constMultiplier : Int, modulus : Int, multiplier : Microsoft.Quantum.Arithmetic.LittleEndian, summand : Microsoft.Quantum.Arithmetic.LittleEndian) : Unit is Adj + Ctl
+operation MultiplyAndAddByModularInteger (constMultiplier : Int, modulus : Int, multiplicand : Microsoft.Quantum.Arithmetic.LittleEndian, summand : Microsoft.Quantum.Arithmetic.LittleEndian) : Unit is Adj + Ctl
 ```
 
 
@@ -31,7 +31,7 @@ Implements the map$$\begin{align}\ket{x} \ket{b} \mapsto \ket{x} \ket{(b + a 
 
 ### constMultiplier : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-An integer $a$ by which `multiplier` is being multiplied.Must be between 0 and `modulus`-1, inclusive.
+An integer $a$ by which `multiplicand` is being multiplied.Must be between 0 and `modulus`-1, inclusive.
 
 
 ### modulus : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
@@ -39,7 +39,7 @@ An integer $a$ by which `multiplier` is being multiplied.Must be between 0 and 
 The modulus $N$ which addition and multiplication is taken with respect to.
 
 
-### multiplier : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
+### multiplicand : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
 A quantum register representing an unsigned integer whose value, multiplied by `constMultiplier`, is tobe added to each basis state label of `summand`. Corresponds to theregister in state $\ket{x}$ above.
 

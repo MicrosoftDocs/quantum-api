@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ClassicalControl.ApplyIfZeroA
 title: ApplyIfZeroA operation
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ClassicalControl

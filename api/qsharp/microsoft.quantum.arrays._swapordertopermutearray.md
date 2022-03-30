@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays._SwapOrderToPermuteArray
 title: _SwapOrderToPermuteArray function
-ms.date: 3/2/2022 12:00:00 AM
+ms.date: 3/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -43,4 +43,4 @@ The tuple represents the two indices to be swapped. The swaps begin at the lowes
 
 ## Remarks
 
-## Pseudocodefor index in 0..Length(newOrder) - 1 {while newOrder[index] != index {Switch newOrder[index] with newOrder[newOrder[index]]}}
+## Pseudocode```for index in 0..Length(newOrder) - 1 {    while newOrder[index] != index {        Switch newOrder[index] with newOrder[newOrder[index]]    }}```
