@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.MixedStatePreparationRequirements
 title: MixedStatePreparationRequirements user defined type
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Preparation

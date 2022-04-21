@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.SetToBasisState
 title: SetToBasisState operation
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -15,7 +15,7 @@ qsharp.summary: >-
 
 Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
 
 
 Sets a qubit to a given computational basis state by measuring thequbit and applying a bit flip if needed.

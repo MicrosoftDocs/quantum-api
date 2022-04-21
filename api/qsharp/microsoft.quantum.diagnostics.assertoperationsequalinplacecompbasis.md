@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertOperationsEqualInPlaceCompBasis
 title: AssertOperationsEqualInPlaceCompBasis operation
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -18,7 +18,7 @@ qsharp.summary: >-
 
 Namespace: [Microsoft.Quantum.Diagnostics](xref:Microsoft.Quantum.Diagnostics)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
 
 
 Checks if the operation `givenU` is equal to the operation `expectedU` onthe given input size  by checking the action of the operations only onthe vectors from the computational basis.This is a necessary, but not sufficient, condition for the equality oftwo unitaries.

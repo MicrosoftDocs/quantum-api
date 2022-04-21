@@ -387,6 +387,8 @@
   - {name: RestrictedToSubregisterA, uid: Microsoft.Quantum.Canon.RestrictedToSubregisterA}
   - {name: RestrictedToSubregisterC, uid: Microsoft.Quantum.Canon.RestrictedToSubregisterC}
   - {name: RestrictedToSubregisterCA, uid: Microsoft.Quantum.Canon.RestrictedToSubregisterCA}
+  - {name: SinglyControlled, uid: Microsoft.Quantum.Canon.SinglyControlled}
+  - {name: SinglyControlledA, uid: Microsoft.Quantum.Canon.SinglyControlledA}
   - {name: Snd, uid: Microsoft.Quantum.Canon.Snd}
   - {name: SwapReverseRegister, uid: Microsoft.Quantum.Canon.SwapReverseRegister}
   - {name: TransformedOperation, uid: Microsoft.Quantum.Canon.TransformedOperation}

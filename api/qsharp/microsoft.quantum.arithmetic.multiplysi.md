@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplySI
 title: MultiplySI operation
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,17 +29,17 @@ operation MultiplySI (xs : Microsoft.Quantum.Arithmetic.SignedLittleEndian, ys :
 
 ### xs : [SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian)
 
-n-bit multiplicand (SignedLittleEndian)
+𝑛₁-bit multiplicand
 
 
 ### ys : [SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian)
 
-n-bit multiplier (SignedLittleEndian)
+𝑛₂-bit multiplier
 
 
 ### result : [SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian)
 
-2n-bit result (SignedLittleEndian), must be in state $\ket{0}$initially.
+(𝑛₁+𝑛₂)-bit result, must be in state |0⟩initially.
 
 
 

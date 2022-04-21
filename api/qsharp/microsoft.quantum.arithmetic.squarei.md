@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SquareI
 title: SquareI operation
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,12 +29,12 @@ operation SquareI (xs : Microsoft.Quantum.Arithmetic.LittleEndian, result : Micr
 
 ### xs : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
-$n$-bit number to square (LittleEndian)
+𝑛-bit number to square
 
 
 ### result : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
-$2n$-bit result (LittleEndian), must be in state $\ket{0}$ initially.
+2𝑛-bit result, must be in state |0⟩ initially.
 
 
 
@@ -44,4 +44,4 @@ $2n$-bit result (LittleEndian), must be in state $\ket{0}$ initially.
 
 ## Remarks
 
-Uses a standard shift-and-add approach to compute the square. Saves$n-1$ qubits compared to the straight-forward solution which firstcopies out xs before applying a regular multiplier and then undoingthe copy operation.
+Uses a standard shift-and-add approach to compute the square. Saves𝑛-1 qubits compared to the straight-forward solution which firstcopies out `xs` before applying a regular multiplier and then undoingthe copy operation.

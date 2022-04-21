@@ -4,7 +4,7 @@ description: Returns a list of all currently available magic commands.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.lsmagic
 ms.author: anburton
-ms.date: 03/27/2022
+ms.date: 04/21/2022
 ms.topic: managed-reference
 ---
 

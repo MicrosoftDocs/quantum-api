@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Characterization
 title: Microsoft.Quantum.Characterization namespace
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Characterization
