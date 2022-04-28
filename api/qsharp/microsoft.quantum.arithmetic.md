@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/28/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
@@ -110,5 +110,5 @@ computing arithmetic.
 |[FixedPoint](xref:Microsoft.Quantum.Arithmetic.FixedPoint) |Represents a register of qubits encoding a fixed-point number. Consists of an integer that is equal to the number of qubits to the left of the binary point, i.e., qubits of weight greater than or equal to 1, and a quantum register. |
 |[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) |Register that encodes an unsigned integer in little-endian order. The qubit with index `0` encodes the lowest bit of an unsigned integer. |
 |[PhaseLittleEndian](xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian) |Little-endian unsigned integers in QFT basis. |
-|[SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian) |Type of a signed integer stored in little endian (see LittleEndian). |
+|[SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian) |Type of a signed integer stored in little endian (see LittleEndian). Negative numbers are stored using two's complement. |
 <!-- /summaries -->

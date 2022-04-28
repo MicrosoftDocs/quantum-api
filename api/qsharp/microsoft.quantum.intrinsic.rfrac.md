@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.RFrac
 title: RFrac operation
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/28/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -15,7 +15,7 @@ qsharp.summary: >-
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
 
 
 Applies a rotation about the given Pauli axis by an angle specifiedas a dyadic fraction.
