@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon
 title: Microsoft.Quantum.Canon namespace
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/28/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Canon
@@ -227,6 +227,8 @@ To learn more about the operations in this namespace, see
 |[RestrictedToSubregisterA](xref:Microsoft.Quantum.Canon.RestrictedToSubregisterA) |Restricts an operation to an array of indices of a register, i.e., a subregister. The modifier `A` indicates that the operation is adjointable. |
 |[RestrictedToSubregisterC](xref:Microsoft.Quantum.Canon.RestrictedToSubregisterC) |Restricts an operation to an array of indices of a register, i.e., a subregister. The modifier `C` indicates that the operation is controllable. |
 |[RestrictedToSubregisterCA](xref:Microsoft.Quantum.Canon.RestrictedToSubregisterCA) |Restricts an operation to an array of indices of a register, i.e., a subregister. The modifier `CA` indicates that the operation is controllable and adjointable. |
+|[SinglyControlled](xref:Microsoft.Quantum.Canon.SinglyControlled) |Given a controllable operation, returns a controlled version of that operation accepting exactly one control qubit. |
+|[SinglyControlledA](xref:Microsoft.Quantum.Canon.SinglyControlledA) |Given a controllable operation, returns a controlled version of that operation accepting exactly one control qubit. |
 |[Snd](xref:Microsoft.Quantum.Canon.Snd) |Given a pair, returns its second element. |
 |[TransformedOperation](xref:Microsoft.Quantum.Canon.TransformedOperation) |Given a function and an operation, returns a new operation whose input is transformed by the given function. |
 |[TransformedOperationA](xref:Microsoft.Quantum.Canon.TransformedOperationA) |Given a function and an operation, returns a new operation whose input is transformed by the given function. |

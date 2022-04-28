@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplyI
 title: MultiplyI operation
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/28/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,17 +29,17 @@ operation MultiplyI (xs : Microsoft.Quantum.Arithmetic.LittleEndian, ys : Micros
 
 ### xs : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
-$n$-bit multiplicand (LittleEndian)
+𝑛₁-bit multiplicand
 
 
 ### ys : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
-$n$-bit multiplier (LittleEndian)
+𝑛₂-bit multiplier
 
 
 ### result : [LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian)
 
-$2n$-bit result (LittleEndian), must be in state $\ket{0}$ initially.
+(𝑛₁+𝑛₂)-bit result, must be in state |0⟩ initially.
 
 
 
@@ -49,4 +49,4 @@ $2n$-bit result (LittleEndian), must be in state $\ket{0}$ initially.
 
 ## Remarks
 
-Uses a standard shift-and-add approach to implement the multiplication.The controlled version was improved by copying out $x_i$ to an ancillaqubit conditioned on the control qubits, and then controlling theaddition on the ancilla qubit.
+Uses a standard shift-and-add approach to implement the multiplication.The controlled version was improved by copying out 𝑥ᵢ to an ancillaqubit conditioned on the control qubits, and then controlling theaddition on the ancilla qubit.
