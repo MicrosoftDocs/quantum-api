@@ -4,7 +4,7 @@ description: Displays results for a job in the current Azure Quantum workspace.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.output
 ms.author: anburton
-ms.date: 03/27/2022
+ms.date: 04/28/2022
 ms.topic: managed-reference
 ---
 
