@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.Padded
 title: Padded function
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/28/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -55,4 +55,4 @@ The type of the array elements.
 
 ## Example
 
-```qsharplet array = [10, 11, 12];// The following line returns [10, 12, 15, 2, 2, 2].let output = Padded(-6, array, 2);// The following line returns [2, 2, 2, 10, 12, 15].let output = Padded(6, array, 2);```
+```qsharplet array = [10, 11, 12];// The following line returns [10, 12, 15, 2, 2, 2].let output = Padded(-6, 2, array);// The following line returns [2, 2, 2, 10, 12, 15].let output = Padded(6, 2, array);```

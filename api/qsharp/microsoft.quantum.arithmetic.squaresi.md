@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SquareSI
 title: SquareSI operation
-ms.date: 3/27/2022 12:00:00 AM
+ms.date: 4/28/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -29,12 +29,12 @@ operation SquareSI (xs : Microsoft.Quantum.Arithmetic.SignedLittleEndian, result
 
 ### xs : [SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian)
 
-n-bit integer to square (SignedLittleEndian)
+𝑛-bit integer to square
 
 
 ### result : [SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian)
 
-2n-bit result (SignedLittleEndian), must be in state $\ket{0}$initially.
+2𝑛-bit result, must be in state |0⟩initially.
 
 
 
@@ -44,4 +44,4 @@ n-bit integer to square (SignedLittleEndian)
 
 ## Remarks
 
-The implementation relies on IntegerSquare.
+The implementation relies on `SquareI`.
