@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.FixedPoint
 title: FixedPoint user defined type
-ms.date: 4/28/2022 12:00:00 AM
+ms.date: 5/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Arithmetic
@@ -23,6 +23,15 @@ Represents a register of qubits encoding a fixed-point number. Consists of an in
 
 ```qsharp
 
-newtype FixedPoint = (Int, Qubit[]);
+newtype FixedPoint = (IntegerBits : Int, Register : Qubit[]);
 ```
+
+
+
+## Named Items
+
+### IntegerBits : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
+
+
+### Register : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]
 
