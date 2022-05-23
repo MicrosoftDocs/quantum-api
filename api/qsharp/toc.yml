@@ -78,6 +78,7 @@
   - {name: IncrementPhaseByInteger, uid: Microsoft.Quantum.Arithmetic.IncrementPhaseByInteger}
   - {name: IncrementPhaseByModularInteger, uid: Microsoft.Quantum.Arithmetic.IncrementPhaseByModularInteger}
   - {name: Invert2sSI, uid: Microsoft.Quantum.Arithmetic.Invert2sSI}
+  - {name: InvertFxP, uid: Microsoft.Quantum.Arithmetic.InvertFxP}
   - {name: LittleEndian, uid: Microsoft.Quantum.Arithmetic.LittleEndian}
   - {name: LittleEndianAsBigEndian, uid: Microsoft.Quantum.Arithmetic.LittleEndianAsBigEndian}
   - {name: MAJ, uid: Microsoft.Quantum.Arithmetic.MAJ}
@@ -108,6 +109,7 @@
   - {name: SquareFxP, uid: Microsoft.Quantum.Arithmetic.SquareFxP}
   - {name: SquareI, uid: Microsoft.Quantum.Arithmetic.SquareI}
   - {name: SquareSI, uid: Microsoft.Quantum.Arithmetic.SquareSI}
+  - {name: SubtractFxP, uid: Microsoft.Quantum.Arithmetic.SubtractFxP}
   - {name: Sum, uid: Microsoft.Quantum.Arithmetic.Sum}
   name: Microsoft.Quantum.Arithmetic
   uid: Microsoft.Quantum.Arithmetic
@@ -499,15 +501,18 @@
   - {name: BigIntAsBoolArray, uid: Microsoft.Quantum.Convert.BigIntAsBoolArray}
   - {name: BigIntAsString, uid: Microsoft.Quantum.Convert.BigIntAsString}
   - {name: BoolArrayAsBigInt, uid: Microsoft.Quantum.Convert.BoolArrayAsBigInt}
+  - {name: BoolArrayAsFixedPoint, uid: Microsoft.Quantum.Convert.BoolArrayAsFixedPoint}
   - {name: BoolArrayAsInt, uid: Microsoft.Quantum.Convert.BoolArrayAsInt}
   - {name: BoolArrayAsPauli, uid: Microsoft.Quantum.Convert.BoolArrayAsPauli}
   - {name: BoolArrayAsResultArray, uid: Microsoft.Quantum.Convert.BoolArrayAsResultArray}
   - {name: BoolAsResult, uid: Microsoft.Quantum.Convert.BoolAsResult}
   - {name: BoolAsString, uid: Microsoft.Quantum.Convert.BoolAsString}
   - {name: Call, uid: Microsoft.Quantum.Convert.Call}
+  - {name: DoubleAsFixedPoint, uid: Microsoft.Quantum.Convert.DoubleAsFixedPoint}
   - {name: DoubleAsInt, uid: Microsoft.Quantum.Convert.DoubleAsInt}
   - {name: DoubleAsString, uid: Microsoft.Quantum.Convert.DoubleAsString}
   - {name: DoubleAsStringWithFormat, uid: Microsoft.Quantum.Convert.DoubleAsStringWithFormat}
+  - {name: FixedPointAsBoolArray, uid: Microsoft.Quantum.Convert.FixedPointAsBoolArray}
   - {name: FunctionAsOperation, uid: Microsoft.Quantum.Convert.FunctionAsOperation}
   - {name: IntAsBigInt, uid: Microsoft.Quantum.Convert.IntAsBigInt}
   - {name: IntAsBoolArray, uid: Microsoft.Quantum.Convert.IntAsBoolArray}

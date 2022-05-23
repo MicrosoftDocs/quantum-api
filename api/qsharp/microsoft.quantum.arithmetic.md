@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 4/28/2022 12:00:00 AM
+ms.date: 5/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
@@ -65,6 +65,7 @@ computing arithmetic.
 |[IncrementPhaseByInteger](xref:Microsoft.Quantum.Arithmetic.IncrementPhaseByInteger) |Increments an unsigned quantum register by a classical integer, using phase rotations. |
 |[IncrementPhaseByModularInteger](xref:Microsoft.Quantum.Arithmetic.IncrementPhaseByModularInteger) |Performs a modular increment of a qubit register by an integer constant. |
 |[Invert2sSI](xref:Microsoft.Quantum.Arithmetic.Invert2sSI) |Inverts a given integer modulo 2's complement. |
+|[InvertFxP](xref:Microsoft.Quantum.Arithmetic.InvertFxP) |Computes the additive inverse of `fp`. |
 |[MAJ](xref:Microsoft.Quantum.Arithmetic.MAJ) |This applies the in-place majority operation to 3 qubits. |
 |[MeasureFxP](xref:Microsoft.Quantum.Arithmetic.MeasureFxP) |Measure a fixed-point number, returns its value as Double, and resets all the register to zero. |
 |[MeasureInteger](xref:Microsoft.Quantum.Arithmetic.MeasureInteger) |Measures the content of a quantum register and converts it to an integer. The measurement is performed with respect to the standard computational basis, i.e., the eigenbasis of `PauliZ`. |
@@ -83,6 +84,7 @@ computing arithmetic.
 |[SquareFxP](xref:Microsoft.Quantum.Arithmetic.SquareFxP) |Squares a fixed-point number. |
 |[SquareI](xref:Microsoft.Quantum.Arithmetic.SquareI) |Computes the square of the integer `xs` into `result`, which must be zero initially. |
 |[SquareSI](xref:Microsoft.Quantum.Arithmetic.SquareSI) |Square signed integer `xs` and store the result in `result`, which must be zero initially. |
+|[SubtractFxP](xref:Microsoft.Quantum.Arithmetic.SubtractFxP) |Computes `minuend - subtrahend` and stores the difference in `minuend`. |
 |[Sum](xref:Microsoft.Quantum.Arithmetic.Sum) |Implements a reversible sum gate. Given a carry-in bit encoded in qubit `carryIn` and two summand bits encoded in `summand1` and `summand2`, computes the bitwise xor of `carryIn`, `summand1` and `summand2` in the qubit `summand2`. |
 
 ## Functions
