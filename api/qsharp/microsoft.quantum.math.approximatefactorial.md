@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.ApproximateFactorial
 title: ApproximateFactorial function
-ms.date: 4/28/2022 12:00:00 AM
+ms.date: 5/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -25,13 +25,13 @@ function ApproximateFactorial (n : Int) : Double
 
 ## Description
 
-Returns the factorial as `Double`, given an input of $n$ as a `Double`.The domain of inputs for this function is `AbsD(n) < 170.0`.
+Returns the factorial as `Double`, given an input of $n$ as a `Double`.The domain of inputs for this function is `n < 170`.
 
 ## Input
 
 ### n : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-The number to take the approximate factorial of.
+The number to take the approximate factorial of. Must not be negative.
 
 
 
