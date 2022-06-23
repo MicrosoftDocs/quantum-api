@@ -4,7 +4,7 @@ description: Lists the magic commands available in the IQ# Jupyter kernel.
 author: rmshaffer
 uid: microsoft.quantum.iqsharp.magic-ref.index
 ms.author: ryansha
-ms.date: 05/19/2022
+ms.date: 06/23/2022
 ms.topic: article
 ---
 # IQ# Magic Commands
@@ -18,6 +18,7 @@ ms.topic: article
 | [`%azure.status`](xref:microsoft.quantum.iqsharp.magic-ref.azure.status) | Displays status for a job in the current Azure Quantum workspace. |
 | [`%azure.submit`](xref:microsoft.quantum.iqsharp.magic-ref.azure.submit) | Submits a job to an Azure Quantum workspace. |
 | [`%azure.target`](xref:microsoft.quantum.iqsharp.magic-ref.azure.target) | Sets or displays the active execution target for Q# job submission in an Azure Quantum workspace. |
+| [`%azure.target-capability`](xref:microsoft.quantum.iqsharp.magic-ref.azure.target-capability) | Sets or displays the active target capability level for compiling Q# functions and operations. |
 | [`%check_kata`](xref:microsoft.quantum.iqsharp.magic-ref.check_kata) | Checks the reference implementation for a single kata's test. |
 | [`%chemistry.broombridge`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.broombridge) | Loads and returns Broombridge electronic structure problem representation from a given .yaml file. |
 | [`%chemistry.encode`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.encode) | Encodes a fermion Hamiltonian to a format consumable by Q#. |
@@ -28,15 +29,16 @@ ms.topic: article
 | [`%debug`](xref:microsoft.quantum.iqsharp.magic-ref.debug) | Steps through the execution of a given Q# operation or function. |
 | [`%estimate`](xref:microsoft.quantum.iqsharp.magic-ref.estimate) | Runs a given function or operation on the ResourcesEstimator target machine. |
 | [`%experimental.build_info`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.build_info) | Reports build info for the experimental simulators. |
-| [`%experimental.noise_model`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.noise_model) | Gets, sets, saves, or loads a noise model used in simulating quantum operations. |
-| [`%experimental.simulate_noise`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.simulate_noise) | Runs a given function or operation on the OpenSystemsSimulator target machine. |
 | [`%kata`](xref:microsoft.quantum.iqsharp.magic-ref.kata) | Executes a single test. |
 | [`%lsmagic`](xref:microsoft.quantum.iqsharp.magic-ref.lsmagic) | Returns a list of all currently available magic commands. |
 | [`%lsopen`](xref:microsoft.quantum.iqsharp.magic-ref.lsopen) | Lists currently opened namespaces and their aliases. |
+| [`%noise_model`](xref:microsoft.quantum.iqsharp.magic-ref.noise_model) | Gets, sets, saves, or loads a noise model used in simulating quantum operations. |
 | [`%package`](xref:microsoft.quantum.iqsharp.magic-ref.package) | Provides the ability to load a NuGet package. |
 | [`%performance`](xref:microsoft.quantum.iqsharp.magic-ref.performance) | Reports current performance metrics for this kernel. |
 | [`%project`](xref:microsoft.quantum.iqsharp.magic-ref.project) | Provides the ability to view or add Q# project references. |
+| [`%qir`](xref:microsoft.quantum.iqsharp.magic-ref.qir) | Compiles a given Q# entry point to QIR, saving the resulting QIR to a given file. |
 | [`%simulate`](xref:microsoft.quantum.iqsharp.magic-ref.simulate) | Runs a given function or operation on the QuantumSimulator target machine. |
+| [`%simulate_noise`](xref:microsoft.quantum.iqsharp.magic-ref.simulate_noise) | Runs a given function or operation on the OpenSystemsSimulator target machine. |
 | [`%simulate_sparse`](xref:microsoft.quantum.iqsharp.magic-ref.simulate_sparse) | Runs a given function or operation on the sparse simulator. |
 | [`%toffoli`](xref:microsoft.quantum.iqsharp.magic-ref.toffoli) | Runs a given function or operation on the ToffoliSimulator target machine. |
 | [`%trace`](xref:microsoft.quantum.iqsharp.magic-ref.trace) | Visualizes the execution path of the given operation. |
