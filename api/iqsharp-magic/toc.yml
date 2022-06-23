@@ -16,18 +16,8 @@
   name: '%azure.submit magic command'
 - href: azure.target.md
   name: '%azure.target magic command'
-- href: check_kata.md
-  name: '%check_kata magic command'
-- href: chemistry.broombridge.md
-  name: '%chemistry.broombridge magic command'
-- href: chemistry.encode.md
-  name: '%chemistry.encode magic command'
-- href: chemistry.fh.add_terms.md
-  name: '%chemistry.fh.add_terms magic command'
-- href: chemistry.fh.load.md
-  name: '%chemistry.fh.load magic command'
-- href: chemistry.inputstate.load.md
-  name: '%chemistry.inputstate.load magic command'
+- href: azure.target-capability.md
+  name: '%azure.target-capability magic command'
 - href: config.md
   name: '%config magic command'
 - href: debug.md
@@ -36,24 +26,24 @@
   name: '%estimate magic command'
 - href: experimental.build_info.md
   name: '%experimental.build_info magic command'
-- href: experimental.noise_model.md
-  name: '%experimental.noise_model magic command'
-- href: experimental.simulate_noise.md
-  name: '%experimental.simulate_noise magic command'
-- href: kata.md
-  name: '%kata magic command'
 - href: lsmagic.md
   name: '%lsmagic magic command'
 - href: lsopen.md
   name: '%lsopen magic command'
+- href: noise_model.md
+  name: '%noise_model magic command'
 - href: package.md
   name: '%package magic command'
 - href: performance.md
   name: '%performance magic command'
 - href: project.md
   name: '%project magic command'
+- href: qir.md
+  name: '%qir magic command'
 - href: simulate.md
   name: '%simulate magic command'
+- href: simulate_noise.md
+  name: '%simulate_noise magic command'
 - href: simulate_sparse.md
   name: '%simulate_sparse magic command'
 - href: toffoli.md
