@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic
 title: Microsoft.Quantum.Intrinsic namespace
-ms.date: 5/19/2022 12:00:00 AM
+ms.date: 6/25/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Intrinsic
@@ -19,7 +19,6 @@ qsharp.summary: ''
 
 | Name | Summary |
 |------|---------|
-|[ApplyUncontrolledSWAP](xref:Microsoft.Quantum.Intrinsic.ApplyUncontrolledSWAP) |Applies the SWAP gate to a pair of qubits. Note that the Controlled functor is not supported. |
 |[Assert](xref:Microsoft.Quantum.Intrinsic.Assert) |> [!WARNING] |
 |[AssertProb](xref:Microsoft.Quantum.Intrinsic.AssertProb) |> [!WARNING] |
 |[CCNOT](xref:Microsoft.Quantum.Intrinsic.CCNOT) |Applies the doubly controlled–NOT (CCNOT) gate to three qubits. |

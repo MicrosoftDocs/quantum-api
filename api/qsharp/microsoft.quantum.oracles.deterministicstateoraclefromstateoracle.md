@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Oracles.DeterministicStateOracleFromStateOracle
 title: DeterministicStateOracleFromStateOracle function
-ms.date: 5/19/2022 12:00:00 AM
+ms.date: 6/25/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Oracles

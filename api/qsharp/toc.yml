@@ -679,7 +679,6 @@
   name: Microsoft.Quantum.Extensions.Math
   uid: Microsoft.Quantum.Extensions.Math
 - items:
-  - {name: ApplyUncontrolledSWAP, uid: Microsoft.Quantum.Intrinsic.ApplyUncontrolledSWAP}
   - {name: Assert, uid: Microsoft.Quantum.Intrinsic.Assert}
   - {name: AssertProb, uid: Microsoft.Quantum.Intrinsic.AssertProb}
   - {name: CCNOT, uid: Microsoft.Quantum.Intrinsic.CCNOT}
@@ -919,6 +918,7 @@
   - {name: MResetY, uid: Microsoft.Quantum.Measurement.MResetY}
   - {name: MResetZ, uid: Microsoft.Quantum.Measurement.MResetZ}
   - {name: MeasureAllZ, uid: Microsoft.Quantum.Measurement.MeasureAllZ}
+  - {name: MeasureEachZ, uid: Microsoft.Quantum.Measurement.MeasureEachZ}
   - {name: MeasurePaulis, uid: Microsoft.Quantum.Measurement.MeasurePaulis}
   - {name: MeasureWithScratch, uid: Microsoft.Quantum.Measurement.MeasureWithScratch}
   - {name: MultiM, uid: Microsoft.Quantum.Measurement.MultiM}
