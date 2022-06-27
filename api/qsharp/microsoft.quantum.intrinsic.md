@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic
 title: Microsoft.Quantum.Intrinsic namespace
-ms.date: 5/19/2022 12:00:00 AM
+ms.date: 6/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Intrinsic
@@ -19,7 +19,6 @@ qsharp.summary: ''
 
 | Name | Summary |
 |------|---------|
-|[ApplyUncontrolledSWAP](xref:Microsoft.Quantum.Intrinsic.ApplyUncontrolledSWAP) |Applies the SWAP gate to a pair of qubits. Note that the Controlled functor is not supported. |
 |[Assert](xref:Microsoft.Quantum.Intrinsic.Assert) |> [!WARNING] |
 |[AssertProb](xref:Microsoft.Quantum.Intrinsic.AssertProb) |> [!WARNING] |
 |[CCNOT](xref:Microsoft.Quantum.Intrinsic.CCNOT) |Applies the doubly controlled–NOT (CCNOT) gate to three qubits. |
@@ -37,7 +36,7 @@ qsharp.summary: ''
 |[Random](xref:Microsoft.Quantum.Intrinsic.Random) |> [!WARNING] |
 |[Reset](xref:Microsoft.Quantum.Intrinsic.Reset) |Given a single qubit, measures it and ensures it is in the |0⟩ state such that it can be safely released. |
 |[ResetAll](xref:Microsoft.Quantum.Intrinsic.ResetAll) |Given an array of qubits, measure them and ensure they are in the |0⟩ state such that they can be safely released. |
-|[Rx](xref:Microsoft.Quantum.Intrinsic.Rx) | |
+|[Rx](xref:Microsoft.Quantum.Intrinsic.Rx) |Applies a rotation about the $x$-axis by a given angle. |
 |[Ry](xref:Microsoft.Quantum.Intrinsic.Ry) |Applies a rotation about the $y$-axis by a given angle. |
 |[Rz](xref:Microsoft.Quantum.Intrinsic.Rz) |Applies a rotation about the $z$-axis by a given angle. |
 |[S](xref:Microsoft.Quantum.Intrinsic.S) |Applies the π/4 phase gate to a single qubit. |
