@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._JWOptimizedFermionEvolution
 title: _JWOptimizedFermionEvolution operation
-ms.date: 5/19/2022 12:00:00 AM
+ms.date: 6/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry

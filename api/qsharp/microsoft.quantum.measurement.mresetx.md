@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MResetX
 title: MResetX operation
-ms.date: 5/19/2022 12:00:00 AM
+ms.date: 6/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -16,7 +16,7 @@ qsharp.summary: >-
 
 Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
 
-Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
+Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
 
 
 Measures a single qubit in the X basis,and resets it to a fixed initial statefollowing the measurement.
