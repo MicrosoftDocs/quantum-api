@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.MultiplexOperations
 title: MultiplexOperations operation
-ms.date: 6/27/2022 12:00:00 AM
+ms.date: 7/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -57,10 +57,6 @@ Generic qubit register that $V_j$ acts on.
 
 
 
-## Remarks
-
-`coefficients` will be padded with identity elements iffewer than $2^n$ are specified. This implementation uses$n - 1$ auxiliary qubits.
-
 ## References
 
-- Toward the first quantum simulation with quantum speedup  Andrew M. Childs, Dmitri Maslov, Yunseong Nam, Neil J. Ross, Yuan Su  https://arxiv.org/abs/1711.10980
+- Encoding Electronic Spectra in Quantum Circuits with Linear T Complexity  Ryan Babbush, Craig Gidney, Dominic W. Berry, Nathan Wiebe, Jarrod McClean, Alexandru Paler, Austin Fowler, Hartmut Neven  https://arxiv.org/abs/1805.03662

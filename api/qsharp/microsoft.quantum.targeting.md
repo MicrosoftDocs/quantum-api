@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Targeting
 title: Microsoft.Quantum.Targeting namespace
-ms.date: 6/27/2022 12:00:00 AM
+ms.date: 7/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Targeting

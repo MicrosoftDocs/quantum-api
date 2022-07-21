@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.Action1C
 title: Action1C function
-ms.date: 6/27/2022 12:00:00 AM
+ms.date: 7/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis

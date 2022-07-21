@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays
 title: Microsoft.Quantum.Arrays namespace
-ms.date: 6/27/2022 12:00:00 AM
+ms.date: 7/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arrays
@@ -22,6 +22,10 @@ data.
 
 | Name | Summary |
 |------|---------|
+|[ApplyToEachWindow](xref:Microsoft.Quantum.Arrays.ApplyToEachWindow) |Applies an operation windowing over an input register. |
+|[ApplyToEachWindowA](xref:Microsoft.Quantum.Arrays.ApplyToEachWindowA) |Applies an operation windowing over an input register. The modifier `A` indicates that the single-qubit operation is adjointable. |
+|[ApplyToEachWindowC](xref:Microsoft.Quantum.Arrays.ApplyToEachWindowC) |Applies an operation windowing over an input register. The modifier `C` indicates that the single-qubit operation is controllable. |
+|[ApplyToEachWindowCA](xref:Microsoft.Quantum.Arrays.ApplyToEachWindowCA) |Applies an operation windowing over an input register. The modifier `CA` indicates that the single-qubit operation is controllable and adjointable. |
 |[DrawMany](xref:Microsoft.Quantum.Arrays.DrawMany) |Repeats an operation for a given number of samples, collecting its outputs in an array. |
 |[ForEach](xref:Microsoft.Quantum.Arrays.ForEach) |Given an array and an operation that is defined for the elements of the array, returns a new array that consists of the images of the original array under the operation. |
 

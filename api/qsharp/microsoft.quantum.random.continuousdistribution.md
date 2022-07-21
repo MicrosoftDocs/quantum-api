@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.ContinuousDistribution
 title: ContinuousDistribution user defined type
-ms.date: 6/27/2022 12:00:00 AM
+ms.date: 7/21/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random

@@ -116,6 +116,10 @@
 - items:
   - {name: All, uid: Microsoft.Quantum.Arrays.All}
   - {name: Any, uid: Microsoft.Quantum.Arrays.Any}
+  - {name: ApplyToEachWindow, uid: Microsoft.Quantum.Arrays.ApplyToEachWindow}
+  - {name: ApplyToEachWindowA, uid: Microsoft.Quantum.Arrays.ApplyToEachWindowA}
+  - {name: ApplyToEachWindowC, uid: Microsoft.Quantum.Arrays.ApplyToEachWindowC}
+  - {name: ApplyToEachWindowCA, uid: Microsoft.Quantum.Arrays.ApplyToEachWindowCA}
   - {name: Chunks, uid: Microsoft.Quantum.Arrays.Chunks}
   - {name: ColumnAt, uid: Microsoft.Quantum.Arrays.ColumnAt}
   - {name: ConstantArray, uid: Microsoft.Quantum.Arrays.ConstantArray}
@@ -842,6 +846,7 @@
   - {name: IsFinite, uid: Microsoft.Quantum.Math.IsFinite}
   - {name: IsInfinite, uid: Microsoft.Quantum.Math.IsInfinite}
   - {name: IsNaN, uid: Microsoft.Quantum.Math.IsNaN}
+  - {name: LargestFixedPoint, uid: Microsoft.Quantum.Math.LargestFixedPoint}
   - {name: Lg, uid: Microsoft.Quantum.Math.Lg}
   - {name: Log, uid: Microsoft.Quantum.Math.Log}
   - {name: Log10, uid: Microsoft.Quantum.Math.Log10}
@@ -897,6 +902,7 @@
   - {name: SignL, uid: Microsoft.Quantum.Math.SignL}
   - {name: Sin, uid: Microsoft.Quantum.Math.Sin}
   - {name: Sinh, uid: Microsoft.Quantum.Math.Sinh}
+  - {name: SmallestFixedPoint, uid: Microsoft.Quantum.Math.SmallestFixedPoint}
   - {name: Sqrt, uid: Microsoft.Quantum.Math.Sqrt}
   - {name: SquaredNorm, uid: Microsoft.Quantum.Math.SquaredNorm}
   - {name: Tan, uid: Microsoft.Quantum.Math.Tan}
