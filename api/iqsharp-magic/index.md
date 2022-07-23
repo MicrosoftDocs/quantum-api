@@ -4,7 +4,7 @@ description: Lists the magic commands available in the IQ# Jupyter kernel.
 author: rmshaffer
 uid: microsoft.quantum.iqsharp.magic-ref.index
 ms.author: ryansha
-ms.date: 06/27/2022
+ms.date: 07/23/2022
 ms.topic: article
 ---
 # IQ# Magic Commands
@@ -19,17 +19,10 @@ ms.topic: article
 | [`%azure.submit`](xref:microsoft.quantum.iqsharp.magic-ref.azure.submit) | Submits a job to an Azure Quantum workspace. |
 | [`%azure.target`](xref:microsoft.quantum.iqsharp.magic-ref.azure.target) | Sets or displays the active execution target for Q# job submission in an Azure Quantum workspace. |
 | [`%azure.target-capability`](xref:microsoft.quantum.iqsharp.magic-ref.azure.target-capability) | Sets or displays the active target capability level for compiling Q# functions and operations. |
-| [`%check_kata`](xref:microsoft.quantum.iqsharp.magic-ref.check_kata) | Checks the reference implementation for a single kata's test. |
-| [`%chemistry.broombridge`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.broombridge) | Loads and returns Broombridge electronic structure problem representation from a given .yaml file. |
-| [`%chemistry.encode`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.encode) | Encodes a fermion Hamiltonian to a format consumable by Q#. |
-| [`%chemistry.fh.add_terms`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.fh.add_terms) | Adds terms to a fermion Hamiltonian. |
-| [`%chemistry.fh.load`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.fh.load) | Loads the fermion Hamiltonian for an electronic structure problem. The problem is loaded from a file or passed as an argument. |
-| [`%chemistry.inputstate.load`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.inputstate.load) | Loads Broombridge electronic structure problem and returns selected input state. |
 | [`%config`](xref:microsoft.quantum.iqsharp.magic-ref.config) | Allows setting or querying configuration options. |
 | [`%debug`](xref:microsoft.quantum.iqsharp.magic-ref.debug) | Steps through the execution of a given Q# operation or function. |
 | [`%estimate`](xref:microsoft.quantum.iqsharp.magic-ref.estimate) | Runs a given function or operation on the ResourcesEstimator target machine. |
 | [`%experimental.build_info`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.build_info) | Reports build info for the experimental simulators. |
-| [`%kata`](xref:microsoft.quantum.iqsharp.magic-ref.kata) | Executes a single test. |
 | [`%lsmagic`](xref:microsoft.quantum.iqsharp.magic-ref.lsmagic) | Returns a list of all currently available magic commands. |
 | [`%lsopen`](xref:microsoft.quantum.iqsharp.magic-ref.lsopen) | Lists currently opened namespaces and their aliases. |
 | [`%noise_model`](xref:microsoft.quantum.iqsharp.magic-ref.noise_model) | Gets, sets, saves, or loads a noise model used in simulating quantum operations. |
