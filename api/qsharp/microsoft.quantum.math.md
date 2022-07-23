@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math
 title: Microsoft.Quantum.Math namespace
-ms.date: 6/27/2022 12:00:00 AM
+ms.date: 7/23/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Math
@@ -86,6 +86,7 @@ A lot of functions in this namespace offer the same functionality as the
 |[IsFinite](xref:Microsoft.Quantum.Math.IsFinite) |Returns whether a given floating-point value is a finite number. |
 |[IsInfinite](xref:Microsoft.Quantum.Math.IsInfinite) |Returns whether a given floating-point value is either positive or negative infinity. |
 |[IsNaN](xref:Microsoft.Quantum.Math.IsNaN) |Returns whether a given floating-point value is not a number (i.e. is NaN). |
+|[LargestFixedPoint](xref:Microsoft.Quantum.Math.LargestFixedPoint) |Returns the largest representable number for specific fixed point dimensions. |
 |[Lg](xref:Microsoft.Quantum.Math.Lg) |Computes the base-2 logarithm of a number. |
 |[Log](xref:Microsoft.Quantum.Math.Log) |Returns the natural (base $e$) logarithm of a specified number. |
 |[Log10](xref:Microsoft.Quantum.Math.Log10) |Returns the base-10 logarithm of a specified number. |
@@ -137,6 +138,7 @@ A lot of functions in this namespace offer the same functionality as the
 |[SignL](xref:Microsoft.Quantum.Math.SignL) |Returns an integer that indicates the sign of a number. |
 |[Sin](xref:Microsoft.Quantum.Math.Sin) |Returns the sine of the specified angle. |
 |[Sinh](xref:Microsoft.Quantum.Math.Sinh) |Returns the hyperbolic sine of the specified angle. |
+|[SmallestFixedPoint](xref:Microsoft.Quantum.Math.SmallestFixedPoint) |Returns the smallest representable number for specific fixed point dimensions. |
 |[Sqrt](xref:Microsoft.Quantum.Math.Sqrt) |Returns the square root of a specified number. |
 |[SquaredNorm](xref:Microsoft.Quantum.Math.SquaredNorm) |Returns the squared 2-norm of a vector. |
 |[Tan](xref:Microsoft.Quantum.Math.Tan) |Returns the tangent of the specified angle. |
