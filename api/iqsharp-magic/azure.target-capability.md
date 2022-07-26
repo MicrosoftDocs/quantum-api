@@ -5,7 +5,7 @@ description: Sets or displays the active target capability level for compiling Q
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.target-capability
 ms.author: anburton
-ms.date: 06/27/2022
+ms.date: 07/23/2022
 ms.topic: managed-reference
 ---
 
