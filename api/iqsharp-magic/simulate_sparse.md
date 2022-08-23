@@ -4,7 +4,7 @@ description: Runs a given function or operation on the sparse simulator.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.simulate_sparse
 ms.author: anburton
-ms.date: 07/23/2022
+ms.date: 08/23/2022
 ms.topic: managed-reference
 ---
 
