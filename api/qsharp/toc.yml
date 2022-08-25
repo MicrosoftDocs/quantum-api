@@ -33,6 +33,7 @@
   - {name: AddConstantFxP, uid: Microsoft.Quantum.Arithmetic.AddConstantFxP}
   - {name: AddFxP, uid: Microsoft.Quantum.Arithmetic.AddFxP}
   - {name: AddI, uid: Microsoft.Quantum.Arithmetic.AddI}
+  - {name: ApplyFunctionWithLookupTable, uid: Microsoft.Quantum.Arithmetic.ApplyFunctionWithLookupTable}
   - {name: ApplyLEOperationOnPhaseLE, uid: Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLE}
   - {name: ApplyLEOperationOnPhaseLEA, uid: Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEA}
   - {name: ApplyLEOperationOnPhaseLEC, uid: Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEC}
@@ -70,6 +71,7 @@
   - {name: EvaluateOddPolynomialFxP, uid: Microsoft.Quantum.Arithmetic.EvaluateOddPolynomialFxP}
   - {name: EvaluatePolynomialFxP, uid: Microsoft.Quantum.Arithmetic.EvaluatePolynomialFxP}
   - {name: FixedPoint, uid: Microsoft.Quantum.Arithmetic.FixedPoint}
+  - {name: FunctionWithLookupTable, uid: Microsoft.Quantum.Arithmetic.FunctionWithLookupTable}
   - {name: GreaterThan, uid: Microsoft.Quantum.Arithmetic.GreaterThan}
   - {name: IdenticalFormatFactFxP, uid: Microsoft.Quantum.Arithmetic.IdenticalFormatFactFxP}
   - {name: IdenticalPointPosFactFxP, uid: Microsoft.Quantum.Arithmetic.IdenticalPointPosFactFxP}

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerInputState
 title: JordanWignerInputState user defined type
-ms.date: 7/23/2022 12:00:00 AM
+ms.date: 8/25/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
