@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 7/23/2022 12:00:00 AM
+ms.date: 8/30/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
@@ -91,6 +91,7 @@ computing arithmetic.
 
 | Name | Summary |
 |------|---------|
+|[ApplyFunctionWithLookupTable](xref:Microsoft.Quantum.Arithmetic.ApplyFunctionWithLookupTable) |This function creates a lookup table operator for the function that you want to approximate, as well as the parameters required to make the two `FixedPoint` registers that need to be used as inputs to the operator. |
 |[BigEndianAsLittleEndian](xref:Microsoft.Quantum.Arithmetic.BigEndianAsLittleEndian) |Converts a `BigEndian` qubit register to a `LittleEndian` qubit register by reversing the qubit ordering. |
 |[IdenticalFormatFactFxP](xref:Microsoft.Quantum.Arithmetic.IdenticalFormatFactFxP) |Assert that all fixed-point numbers in the provided array have identical point positions and qubit numbers. |
 |[IdenticalPointPosFactFxP](xref:Microsoft.Quantum.Arithmetic.IdenticalPointPosFactFxP) |Assert that all fixed-point numbers in the provided array have identical point positions when counting from the least- significant bit. I.e., number of bits minus point position must be constant for all fixed-point numbers in the array. |
@@ -110,6 +111,7 @@ computing arithmetic.
 |------|---------|
 |[BigEndian](xref:Microsoft.Quantum.Arithmetic.BigEndian) |Register that encodes an unsigned integer in big-endian order. The qubit with index `0` encodes the highest bit of an unsigned integer. |
 |[FixedPoint](xref:Microsoft.Quantum.Arithmetic.FixedPoint) |Represents a register of qubits encoding a fixed-point number. Consists of an integer that is equal to the number of qubits to the left of the binary point, i.e., qubits of weight greater than or equal to 1, and a quantum register. |
+|[FunctionWithLookupTable](xref:Microsoft.Quantum.Arithmetic.FunctionWithLookupTable) |The return type when making a lookup table. This contains the operation that makes the lookup table circuit, as well as all the parameters required to make the two FixedPoint registers that need to be used as inputs and outputs to the operator. |
 |[LittleEndian](xref:Microsoft.Quantum.Arithmetic.LittleEndian) |Register that encodes an unsigned integer in little-endian order. The qubit with index `0` encodes the lowest bit of an unsigned integer. |
 |[PhaseLittleEndian](xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian) |Little-endian unsigned integers in QFT basis. |
 |[SignedLittleEndian](xref:Microsoft.Quantum.Arithmetic.SignedLittleEndian) |Type of a signed integer stored in little endian (see LittleEndian). Negative numbers are stored using two's complement. |

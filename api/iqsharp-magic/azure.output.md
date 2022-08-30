@@ -4,7 +4,7 @@ description: Displays results for a job in the current Azure Quantum workspace.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.output
 ms.author: anburton
-ms.date: 07/23/2022
+ms.date: 08/30/2022
 ms.topic: managed-reference
 ---
 
@@ -13,7 +13,7 @@ ms.topic: managed-reference
         please do not manually edit it.
 
     [DEBUG] JSON source:
-        {"Name": "%azure.output", "Documentation": {"Summary": "Displays results for a job in the current Azure Quantum workspace.", "Full": null, "Description": "\r\nThis magic command allows for displaying results for a job in the current \r\nAzure Quantum workspace.\r\nThe job execution must already be completed in order to display\r\nresults.\r\n\r\nThe Azure Quantum workspace must have been previously initialized\r\nusing the [`%azure.connect` magic command](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.connect.\r\n\r\n#### Optional parameters\r\n\r\n- The job ID for which to display results. If not specified, the job ID from\r\nthe most recent call to [`%azure.submit`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.submit\r\nor [`%azure.execute`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.execute will be used.\r\n\r\n#### Possible errors\r\n\r\n- `NotConnected`: Not connected to any Azure Quantum workspace.\r\n- `JobNotFound`: No job with the given ID was found in the current Azure Quantum workspace.\r\n- `JobNotCompleted`: The specified Azure Quantum job has not yet completed.\r\n- `JobOutputDownloadFailed`: Failed to download results for the specified Azure Quantum job.\r\n- `JobFailedOrCancelled`: The specified Azure Quantum job failed or was cancelled.\r\n                    ", "Remarks": null, "Examples": ["\r\nGet results of a specific job:\r\n```\r\nIn []: %azure.output JOB_ID\r\nOut[]: <detailed results of specified job>\r\n```\r\n                        ", "\r\nGet results of the most recently submitted job:\r\n```\r\nIn []: %azure.output\r\nOut[]: <detailed results of most recently submitted job>\r\n```\r\n                        "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.AzureClient"}
+        {"Name": "%azure.output", "Documentation": {"Summary": "Displays results for a job in the current Azure Quantum workspace.", "Full": null, "Description": "\r\nThis magic command allows for displaying results for a job in the current \r\nAzure Quantum workspace.\r\nThe job execution must already be completed in order to display\r\nresults.\r\n\r\nThe Azure Quantum workspace must have been previously initialized\r\nusing the [`%azure.connect` magic command](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.connect).\r\n\r\n#### Optional parameters\r\n\r\n- The job ID for which to display results. If not specified, the job ID from\r\nthe most recent call to [`%azure.submit`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.submit)\r\nor [`%azure.execute`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.execute) will be used.\r\n\r\n#### Possible errors\r\n\r\n- `NotConnected`: Not connected to any Azure Quantum workspace.\r\n- `JobNotFound`: No job with the given ID was found in the current Azure Quantum workspace.\r\n- `JobNotCompleted`: The specified Azure Quantum job has not yet completed.\r\n- `JobOutputDownloadFailed`: Failed to download results for the specified Azure Quantum job.\r\n- `JobFailedOrCancelled`: The specified Azure Quantum job failed or was cancelled.\r\n                    ", "Remarks": null, "Examples": ["\r\nGet results of a specific job:\r\n```\r\nIn []: %azure.output JOB_ID\r\nOut[]: <detailed results of specified job>\r\n```\r\n                        ", "\r\nGet results of the most recently submitted job:\r\n```\r\nIn []: %azure.output\r\nOut[]: <detailed results of most recently submitted job>\r\n```\r\n                        "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.AzureClient"}
 -->
 
 # `%azure.output`
@@ -30,13 +30,13 @@ The job execution must already be completed in order to display
 results.
 
 The Azure Quantum workspace must have been previously initialized
-using the [`%azure.connect` magic command](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.connect.
+using the [`%azure.connect` magic command](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.connect).
 
 #### Optional parameters
 
 - The job ID for which to display results. If not specified, the job ID from
-the most recent call to [`%azure.submit`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.submit
-or [`%azure.execute`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.execute will be used.
+the most recent call to [`%azure.submit`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.submit)
+or [`%azure.execute`](https://docs.microsoft.com/qsharp/api/iqsharp-magic/azure.execute) will be used.
 
 #### Possible errors
 

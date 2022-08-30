@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.EncodeIntoBitFlipCode
 title: EncodeIntoBitFlipCode operation
-ms.date: 7/23/2022 12:00:00 AM
+ms.date: 8/30/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
