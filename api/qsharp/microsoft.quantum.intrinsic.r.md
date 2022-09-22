@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.R
 title: R operation
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/22/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -13,7 +13,7 @@ qsharp.summary: Applies a rotation about the given Pauli axis.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
 
 
 Applies a rotation about the given Pauli axis.
