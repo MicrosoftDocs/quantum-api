@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Exp
 title: Exp operation
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/22/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -36,7 +36,7 @@ Array of single-qubit Pauli values indicating the tensor productfactors on each
 
 ### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-Angle about the given multi-qubit Pauli operator by which thetarget register is to be rotated.
+Angle about the given multi-qubit Pauli operator by which thetarget register is to be rotated. Expressed in radians.
 
 
 ### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]

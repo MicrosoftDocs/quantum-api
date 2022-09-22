@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.R1Frac
 title: R1Frac operation
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/22/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -33,12 +33,12 @@ operation R1Frac (numerator : Int, power : Int, qubit : Qubit) : Unit is Adj + C
 
 ### numerator : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-Numerator in the dyadic fraction representation of the angleby which the qubit is to be rotated.
+Numerator in the dyadic fraction representation of the angleby which the qubit is to be rotated. This angle is expressed in radians.
 
 
 ### power : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-Power of two specifying the denominator of the angle by whichthe qubit is to be rotated.
+Power of two specifying the denominator of the angle by whichthe qubit is to be rotated. This angle is expressed in radians.
 
 
 ### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)

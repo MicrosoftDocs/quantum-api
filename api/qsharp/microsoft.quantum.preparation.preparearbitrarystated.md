@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareArbitraryStateD
 title: PrepareArbitraryStateD operation
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/22/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -48,7 +48,7 @@ Qubit register encoding number states in little-endian format. This isexpected 
 
 ## Example
 
-The following snippet prepares the quantum state $\ket{\psi}=\sqrt{1/8}\ket{0}+\sqrt{7/8}\ket{2}$in the qubit register `qubitsLE`.```qsharplet amplitudes = [Sqrt(0.125), 0.0, Sqrt(0.875), 0.0];let op = StatePreparationPositiveCoefficients(amplitudes);use qubits = Qubit[2];let qubitsLE = LittleEndian(qubits);PrepareArbitraryStateD(amplitudes, qubitsLE);```
+The following snippet prepares the quantum state $\ket{\psi}=\sqrt{1/8}\ket{0}+\sqrt{7/8}\ket{2}$in the qubit register `qubitsLE`.```qsharplet amplitudes = [Sqrt(0.125), 0.0, Sqrt(0.875), 0.0];use qubits = Qubit[2];let qubitsLE = LittleEndian(qubits);PrepareArbitraryStateD(amplitudes, qubitsLE);```
 
 ## Remarks
 

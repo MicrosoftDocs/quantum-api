@@ -1,14 +1,14 @@
 ---
 uid: Microsoft.Quantum.Canon.ControlledOnInt
 title: ControlledOnInt function
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/22/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ControlledOnInt
 qsharp.summary: >-
   Returns a unitary operator that applies an oracle on the target register
-  if the control register state corresponds to a specified positive integer.
+  if the control register state corresponds to a specified nonnegative integer.
 ---
 
 # ControlledOnInt function
@@ -18,7 +18,7 @@ Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
 
 
-Returns a unitary operator that applies an oracle on the target registerif the control register state corresponds to a specified positive integer.
+Returns a unitary operator that applies an oracle on the target registerif the control register state corresponds to a specified nonnegative integer.
 
 ```qsharp
 function ControlledOnInt<'T> (numberState : Int, oracle : ('T => Unit is Adj + Ctl)) : ((Qubit[], 'T) => Unit is Adj + Ctl)
@@ -29,7 +29,7 @@ function ControlledOnInt<'T> (numberState : Int, oracle : ('T => Unit is Adj + C
 
 ### numberState : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
-Positive integer.
+Nonnegative integer.
 
 
 ### oracle : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj + Ctl

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Random.BigDiscreteDistribution
 title: BigDiscreteDistribution user defined type
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/22/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random

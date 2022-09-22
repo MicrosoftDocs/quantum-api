@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon
 title: Microsoft.Quantum.Canon namespace
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/22/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Canon
@@ -31,7 +31,7 @@ To learn more about the operations in this namespace, see
 |[ApplyCNOTChain](xref:Microsoft.Quantum.Canon.ApplyCNOTChain) |Computes the parity of a register of qubits in-place. |
 |[ApplyCNOTChainWithTarget](xref:Microsoft.Quantum.Canon.ApplyCNOTChainWithTarget) |Computes the parity of an array of qubits into a target qubit. |
 |[ApplyControlledOnBitString](xref:Microsoft.Quantum.Canon.ApplyControlledOnBitString) |Applies a unitary operation on the target register, controlled on a a state specified by a given bit mask. |
-|[ApplyControlledOnInt](xref:Microsoft.Quantum.Canon.ApplyControlledOnInt) |Applies a unitary operation on the target register if the control register state corresponds to a specified positive integer. |
+|[ApplyControlledOnInt](xref:Microsoft.Quantum.Canon.ApplyControlledOnInt) |Applies a unitary operation on the target register if the control register state corresponds to a specified nonnegative integer. |
 |[ApplyDiagonalUnitary](xref:Microsoft.Quantum.Canon.ApplyDiagonalUnitary) |Applies an array of complex phases to numeric basis states of a register of qubits. |
 |[ApplyFermionicSWAP](xref:Microsoft.Quantum.Canon.ApplyFermionicSWAP) |Applies the Fermionic SWAP. |
 |[ApplyIf](xref:Microsoft.Quantum.Canon.ApplyIf) |Applies an operation conditioned on a classical bit. |
@@ -199,7 +199,7 @@ To learn more about the operations in this namespace, see
 |[ConjugatedByC](xref:Microsoft.Quantum.Canon.ConjugatedByC) |Given outer and inner operations, returns a new operation that conjugates the inner operation by the outer operation. |
 |[ConjugatedByCA](xref:Microsoft.Quantum.Canon.ConjugatedByCA) |Given outer and inner operations, returns a new operation that conjugates the inner operation by the outer operation. |
 |[ControlledOnBitString](xref:Microsoft.Quantum.Canon.ControlledOnBitString) |Returns a unitary operation that applies an oracle on the target register if the control register state corresponds to a specified bit mask. |
-|[ControlledOnInt](xref:Microsoft.Quantum.Canon.ControlledOnInt) |Returns a unitary operator that applies an oracle on the target register if the control register state corresponds to a specified positive integer. |
+|[ControlledOnInt](xref:Microsoft.Quantum.Canon.ControlledOnInt) |Returns a unitary operator that applies an oracle on the target register if the control register state corresponds to a specified nonnegative integer. |
 |[CurriedOp](xref:Microsoft.Quantum.Canon.CurriedOp) |Returns a curried version of an operation on two inputs. |
 |[CurriedOpA](xref:Microsoft.Quantum.Canon.CurriedOpA) |Returns a curried version of an operation on two inputs. |
 |[CurriedOpC](xref:Microsoft.Quantum.Canon.CurriedOpC) |Returns a curried version of an operation on two inputs. |
