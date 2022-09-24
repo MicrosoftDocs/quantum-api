@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SubtractFxP
 title: SubtractFxP operation
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/24/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
