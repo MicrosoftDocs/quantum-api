@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Rx
 title: Rx operation
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -31,7 +31,7 @@ operation Rx (theta : Double, qubit : Qubit) : Unit is Adj + Ctl
 
 ### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-Angle about which the qubit is to be rotated.
+Angle in radians about which the qubit is to be rotated.
 
 
 ### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
