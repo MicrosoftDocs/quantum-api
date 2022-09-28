@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AssertAllZeroFxP
 title: AssertAllZeroFxP operation
-ms.date: 9/1/2022 12:00:00 AM
+ms.date: 9/27/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
