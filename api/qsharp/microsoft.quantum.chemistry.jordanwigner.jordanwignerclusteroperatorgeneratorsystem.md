@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerClusterOperatorGeneratorSystem
 title: JordanWignerClusterOperatorGeneratorSystem function
-ms.date: 9/27/2022 12:00:00 AM
+ms.date: 9/30/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
