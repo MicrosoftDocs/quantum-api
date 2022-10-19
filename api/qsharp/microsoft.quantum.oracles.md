@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Oracles
 title: Microsoft.Quantum.Oracles namespace
-ms.date: 9/30/2022 12:00:00 AM
+ms.date: 10/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Oracles

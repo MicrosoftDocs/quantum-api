@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Ry
 title: Ry operation
-ms.date: 9/30/2022 12:00:00 AM
+ms.date: 10/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -13,7 +13,7 @@ qsharp.summary: Applies a rotation about the $y$-axis by a given angle.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
+Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
 
 
 Applies a rotation about the $y$-axis by a given angle.
@@ -31,7 +31,7 @@ operation Ry (theta : Double, qubit : Qubit) : Unit is Adj + Ctl
 
 ### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-Angle about which the qubit is to be rotated.
+Angle in radians about which the qubit is to be rotated.
 
 
 ### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)

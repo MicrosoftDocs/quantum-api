@@ -5,7 +5,7 @@ description: Compiles a given Q# entry point to QIR, saving the resulting QIR to
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.qir
 ms.author: anburton
-ms.date: 09/30/2022
+ms.date: 10/19/2022
 ms.topic: managed-reference
 ---
 

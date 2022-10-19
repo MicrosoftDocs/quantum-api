@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareArbitraryStateCP
 title: PrepareArbitraryStateCP operation
-ms.date: 9/30/2022 12:00:00 AM
+ms.date: 10/19/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -45,6 +45,10 @@ Qubit register encoding number states in little-endian format. This isexpected 
 ## Output : [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)
 
 
+
+## Example
+
+The following snippet prepares the quantum state $\ket{\psi}=\sqrt{1/8}\ket{0}+\sqrt{7/8}\ket{2}$in the qubit register `qubitsLE`.```qsharpuse qubits = Qubit();let qubitsLE = LittleEndian([qubits]);PrepareArbitraryStateCP([ComplexPolar(1.0/Sqrt(2.0),0.0),ComplexPolar(1.0/Sqrt(2.0),PI()/2.0)],qubitsLE); // = |i>```
 
 ## Remarks
 
