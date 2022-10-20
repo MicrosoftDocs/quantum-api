@@ -4,7 +4,7 @@ description: Reports current performance metrics for this kernel.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.performance
 ms.author: anburton
-ms.date: 09/30/2022
+ms.date: 10/20/2022
 ms.topic: managed-reference
 ---
 

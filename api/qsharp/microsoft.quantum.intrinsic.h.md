@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.H
 title: H operation
-ms.date: 9/30/2022 12:00:00 AM
+ms.date: 10/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -13,7 +13,7 @@ qsharp.summary: Applies the Hadamard transformation to a single qubit.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Applies the Hadamard transformation to a single qubit.

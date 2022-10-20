@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays._SwapOrderToPermuteArray
 title: _SwapOrderToPermuteArray function
-ms.date: 9/30/2022 12:00:00 AM
+ms.date: 10/20/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
