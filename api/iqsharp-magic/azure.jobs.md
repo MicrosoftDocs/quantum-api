@@ -4,7 +4,7 @@ description: Displays a list of jobs in the current Azure Quantum workspace.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.jobs
 ms.author: anburton
-ms.date: 09/30/2022
+ms.date: 10/20/2022
 ms.topic: managed-reference
 ---
 
