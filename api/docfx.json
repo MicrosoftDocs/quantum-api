@@ -45,6 +45,7 @@
       "ms.prod": "qsharp",
       "ms.topic": "managed-reference",
       "ms.devlang":"qsharp",
+      "uhfHeaderId": "Azure",
       "searchScope": ["quantum", "q#", "qsharp"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "Microsoft/QuantumLibraries",
