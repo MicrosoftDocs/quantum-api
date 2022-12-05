@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.DivRemL
 title: DivRemL function
-ms.date: 10/27/2022 12:00:00 AM
+ms.date: 12/5/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
@@ -38,8 +38,3 @@ function DivRemL (dividend : BigInt, divisor : BigInt) : (BigInt, BigInt)
 
 ## Output : ([BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals),[BigInt](xref:microsoft.quantum.qsharp.valueliterals#bigint-literals))
 
-
-
-## Remarks
-
-See [System.Numerics.BigInteger.DivRem](https://docs.microsoft.com/dotnet/api/system.numerics.biginteger.divrem) for more details.
