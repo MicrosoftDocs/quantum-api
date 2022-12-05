@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert
 title: Microsoft.Quantum.Convert namespace
-ms.date: 10/27/2022 12:00:00 AM
+ms.date: 12/5/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Convert
@@ -52,7 +52,7 @@ To learn more about this namespace, see
 |[IntAsBoolArray](xref:Microsoft.Quantum.Convert.IntAsBoolArray) |Produces a binary representation of a non-negative integer, using the little-endian representation for the returned array. |
 |[IntAsDouble](xref:Microsoft.Quantum.Convert.IntAsDouble) |Converts a given integer to an equivalent double-precision floating-point number. |
 |[IntAsString](xref:Microsoft.Quantum.Convert.IntAsString) |Converts a given integer number to an equivalent string representation. |
-|[IntAsStringWithFormat](xref:Microsoft.Quantum.Convert.IntAsStringWithFormat) |Converts a given integer number to an equivalent string representation, using the given format. |
+|[IntAsStringWithFormat](xref:Microsoft.Quantum.Convert.IntAsStringWithFormat) |> [!WARNING] |
 |[MaybeBigIntAsInt](xref:Microsoft.Quantum.Convert.MaybeBigIntAsInt) |Converts a given big integer to an equivalent integer, if possible. The function returns a pair of the resulting integer and a Boolean flag which is true, if and only if the conversion was possible. |
 |[PauliArrayAsInt](xref:Microsoft.Quantum.Convert.PauliArrayAsInt) |Encodes a multi-qubit Pauli operator represented as an array of single-qubit Pauli operators into an integer. |
 |[RangeAsIntArray](xref:Microsoft.Quantum.Convert.RangeAsIntArray) |Creates an array `arr` of integers enumerated by start..step..end. |

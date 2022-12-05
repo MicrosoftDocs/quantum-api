@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTableWithCleanTarget
 title: ApplyXControlledOnTruthTableWithCleanTarget operation
-ms.date: 10/27/2022 12:00:00 AM
+ms.date: 12/5/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
@@ -27,7 +27,7 @@ operation ApplyXControlledOnTruthTableWithCleanTarget (func : BigInt, controlReg
 
 ## Description
 
-This operation implements a special case of @"Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTable",in which the target qubit is known to be in the $\ket{0}$ state.The implementation makes use of @"Microsoft.Quantum.Intrinsic.Cnot"and @"Microsoft.Quantum.Intrinsic.R1" gates.  The implementation of theadjoint operation is optimized and uses measurement-based uncomputation.
+This operation implements a special case of @"Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTable",in which the target qubit is known to be in the $\ket{0}$ state.The implementation makes use of @"Microsoft.Quantum.Intrinsic.CNOT"and @"Microsoft.Quantum.Intrinsic.R1" gates.  The implementation of theadjoint operation is optimized and uses measurement-based uncomputation.
 
 ## Input
 

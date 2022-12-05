@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.LargestFixedPoint
 title: LargestFixedPoint function
-ms.date: 10/27/2022 12:00:00 AM
+ms.date: 12/5/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
