@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.ResultArrayAsInt
 title: ResultArrayAsInt function
-ms.date: 10/27/2022 12:00:00 AM
+ms.date: 12/5/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -33,3 +33,8 @@ Results in binary representation of number.
 
 ## Output : [Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals)
 
+A non-negative integer
+
+## Example
+
+```qsharp// The following returns 1let int1 = ResultArrayAsInt([One,Zero])```

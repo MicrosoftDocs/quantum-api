@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.MaybeBigIntAsInt
 title: MaybeBigIntAsInt function
-ms.date: 10/27/2022 12:00:00 AM
+ms.date: 12/5/2022 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -36,8 +36,3 @@ function MaybeBigIntAsInt (a : BigInt) : (Int, Bool)
 
 ## Output : ([Int](xref:microsoft.quantum.qsharp.valueliterals#int-literals),[Bool](xref:microsoft.quantum.qsharp.valueliterals#bool-literals))
 
-
-
-## Remarks
-
-See [C# BigInteger constructor](https://docs.microsoft.com/dotnet/api/system.numerics.biginteger.-ctor?view=netframework-4.7.2#System_Numerics_BigInteger__ctor_System_Int64_) for more details.
