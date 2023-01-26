@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.TrainSequentialClassifier
 title: TrainSequentialClassifier operation
-ms.date: 12/5/2022 12:00:00 AM
+ms.date: 1/26/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
@@ -39,7 +39,7 @@ A set of labeled training data that will be used to perform training.
 
 ### options : [TrainingOptions](xref:Microsoft.Quantum.MachineLearning.TrainingOptions)
 
-Configuration to be used when training; see@"microsoft.quantum.machinelearning.trainingoptions" and@"microsoft.quantum.machinelearning.defaulttrainingoptions" for moredetails.
+Configuration to be used when training; see@"Microsoft.Quantum.MachineLearning.TrainingOptions" and@"Microsoft.Quantum.MachineLearning.DefaultTrainingOptions" for moredetails.
 
 
 ### trainingSchedule : [SamplingSchedule](xref:Microsoft.Quantum.MachineLearning.SamplingSchedule)

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyLEOperationOnPhaseLEC
 title: ApplyLEOperationOnPhaseLEC operation
-ms.date: 12/5/2022 12:00:00 AM
+ms.date: 1/26/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
