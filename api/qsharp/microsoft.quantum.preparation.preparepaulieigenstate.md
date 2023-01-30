@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.PreparePauliEigenstate
 title: PreparePauliEigenstate operation
-ms.date: 12/5/2022 12:00:00 AM
+ms.date: 1/26/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
@@ -28,7 +28,7 @@ operation PreparePauliEigenstate (basis : Pauli, qubit : Qubit) : Unit
 
 ## Description
 
-If the qubit was initially in the $\ket{0}$ state, this operation prepares thequbit in the $+1$ eigenstate of a given Pauli operator, or, for `PauliI`,in the maximally mixed state instead (see <xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity>).If the qubit was in a state other than $\ket{0}$, this operation applies the following gates:$H$ for `PauliX`, $HS$ for `PauliY`, $I$ for `PauliZ` and<xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity> for `PauliI`.
+If the qubit was initially in the $\ket{0}$ state, this operation prepares thequbit in the $+1$ eigenstate of a given Pauli operator, or, for `PauliI`,in the maximally mixed state instead (see <xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity>).If the qubit was in a state other than $\ket{0}$, this operation applies the following gates:$H$ for `PauliX`, $SH$ for `PauliY`, $I$ for `PauliZ` and<xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity> for `PauliI`.
 
 ## Input
 
