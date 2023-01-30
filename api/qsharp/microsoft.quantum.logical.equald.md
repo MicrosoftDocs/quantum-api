@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Logical.EqualD
 title: EqualD function
-ms.date: 12/5/2022 12:00:00 AM
+ms.date: 1/26/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
