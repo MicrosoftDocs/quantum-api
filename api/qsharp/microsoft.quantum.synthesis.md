@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis
 title: Microsoft.Quantum.Synthesis namespace
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/17/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Synthesis

@@ -704,8 +704,11 @@
   - {name: Reset, uid: Microsoft.Quantum.Intrinsic.Reset}
   - {name: ResetAll, uid: Microsoft.Quantum.Intrinsic.ResetAll}
   - {name: Rx, uid: Microsoft.Quantum.Intrinsic.Rx}
+  - {name: Rxx, uid: Microsoft.Quantum.Intrinsic.Rxx}
   - {name: Ry, uid: Microsoft.Quantum.Intrinsic.Ry}
+  - {name: Ryy, uid: Microsoft.Quantum.Intrinsic.Ryy}
   - {name: Rz, uid: Microsoft.Quantum.Intrinsic.Rz}
+  - {name: Rzz, uid: Microsoft.Quantum.Intrinsic.Rzz}
   - {name: S, uid: Microsoft.Quantum.Intrinsic.S}
   - {name: SWAP, uid: Microsoft.Quantum.Intrinsic.SWAP}
   - {name: T, uid: Microsoft.Quantum.Intrinsic.T}

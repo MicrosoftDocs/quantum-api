@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Simulation.SimulationAlgorithm
 title: SimulationAlgorithm user defined type
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/17/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation

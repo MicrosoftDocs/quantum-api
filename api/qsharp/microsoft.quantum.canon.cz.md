@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.CZ
 title: CZ operation
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/17/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -13,7 +13,7 @@ qsharp.summary: Applies the controlled-Z (CZ) gate to a pair of qubits.
 
 Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
 
-Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Applies the controlled-Z (CZ) gate to a pair of qubits.
