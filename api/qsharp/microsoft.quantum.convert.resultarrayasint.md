@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert.ResultArrayAsInt
 title: ResultArrayAsInt function
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/23/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -13,7 +13,7 @@ qsharp.summary: Produces a non-negative integer from a string of Results in litt
 
 Namespace: [Microsoft.Quantum.Convert](xref:Microsoft.Quantum.Convert)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
 
 
 Produces a non-negative integer from a string of Results in little endian format.

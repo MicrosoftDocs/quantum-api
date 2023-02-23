@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyC
 title: ApplyConditionallyC operation
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/23/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ClassicalControl

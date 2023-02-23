@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.CNOT
 title: CNOT operation
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/23/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -13,7 +13,7 @@ qsharp.summary: Applies the controlled-NOT (CNOT) gate to a pair of qubits.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
 
 
 Applies the controlled-NOT (CNOT) gate to a pair of qubits.

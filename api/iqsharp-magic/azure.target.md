@@ -5,7 +5,7 @@ description: Sets or displays the active execution target for Q# job submission 
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.target
 ms.author: anburton
-ms.date: 01/26/2023
+ms.date: 02/23/2023
 ms.topic: managed-reference
 ---
 
