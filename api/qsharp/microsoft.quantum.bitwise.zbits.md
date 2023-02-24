@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Bitwise.ZBits
 title: ZBits function
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/24/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise

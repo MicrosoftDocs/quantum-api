@@ -1,18 +1,29 @@
 ---
 uid: Microsoft.Quantum.Measurement
 title: Microsoft.Quantum.Measurement namespace
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/24/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Measurement
-qsharp.summary: ''
+qsharp.summary: >-
+  This namespace contains operations for performing measurements beyond
+  the basic measurement operations available in the
+  [`Microsoft.Quantum.Intrinsic` namespace](xref:Microsoft.Quantum.Intrinsic).
 ---
 
 # Microsoft.Quantum.Measurement namespace
 
+This namespace contains operations for performing measurements beyond
+the basic measurement operations available in the
+[`Microsoft.Quantum.Intrinsic` namespace](xref:Microsoft.Quantum.Intrinsic).
 
 
 
+## Description
+
+To learn more about the different types of measurements, see the
+[Single- and multi-qubit Pauli measurement operations](xref:microsoft.quantum.concepts.pauli)
+article.
 <!-- summaries -->
 
 ## Operations
