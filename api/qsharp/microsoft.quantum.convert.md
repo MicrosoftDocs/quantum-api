@@ -1,18 +1,26 @@
 ---
 uid: Microsoft.Quantum.Convert
 title: Microsoft.Quantum.Convert namespace
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/27/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Convert
-qsharp.summary: ''
+qsharp.summary: >-
+  This namespace contains functions for converting between various Q# data
+  types.
 ---
 
 # Microsoft.Quantum.Convert namespace
 
+This namespace contains functions for converting between various Q# data
+types.
 
 
 
+## Description
+
+To learn more about this namespace, see
+[Type Conversions](xref:microsoft.quantum.libraries.overview.convert).
 <!-- summaries -->
 
 ## Operations

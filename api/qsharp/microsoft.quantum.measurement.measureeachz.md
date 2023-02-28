@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Measurement.MeasureEachZ
 title: MeasureEachZ operation
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/27/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -13,7 +13,7 @@ qsharp.summary: Measures each qubit in a given array in the standard basis.
 
 Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
 
 
 Measures each qubit in a given array in the standard basis.

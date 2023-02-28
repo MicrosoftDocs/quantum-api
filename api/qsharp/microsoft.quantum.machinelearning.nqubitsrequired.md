@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.NQubitsRequired
 title: NQubitsRequired function
-ms.date: 1/26/2023 12:00:00 AM
+ms.date: 2/27/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
