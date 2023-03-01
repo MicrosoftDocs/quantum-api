@@ -1,10 +1,10 @@
 ---
 title: '%estimate (magic command)'
 description: Runs a given function or operation on the ResourcesEstimator target machine.
-author: anjbur
+author: bradben
 uid: microsoft.quantum.iqsharp.magic-ref.estimate
-ms.author: anburton
-ms.date: 01/26/2023
+ms.author: brbenefield
+ms.date: 02/28/2023
 ms.topic: managed-reference
 ---
 
@@ -13,7 +13,7 @@ ms.topic: managed-reference
         please do not manually edit it.
 
     [DEBUG] JSON source:
-        {"Name": "%estimate", "Documentation": {"Summary": "Runs a given function or operation on the ResourcesEstimator target machine.", "Full": null, "Description": "\r\nThe ResourcesEstimator estimates statistics about how many resources the given\r\noperation needs for execution. The resources it calculates include:\r\n\r\n- Counts for each primitive operation\r\n- Depth (lower bound for the T-gate depth of the quantum circuit)\r\n- Width (lower bound for the maximum number of qubits used for the computation)\r\n\r\nSee the [ResourcesEstimator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/resources-estimator) to learn more.\r\n\r\n#### Required parameters\r\n\r\n- Q# operation or function name. This must be the first parameter, and must be a valid Q# operation\r\nor function name that has been defined either in the notebook or in a Q# file in the same folder.\r\n- Arguments for the Q# operation or function must also be specified as `key=value` pairs.\r\n                ", "Remarks": null, "Examples": ["\r\nEstimate resources for a Q# operation defined as `operation MyOperation() : Result`:\r\n```\r\nIn []: %estimate MyOperation\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    ", "\r\nEstimate resources for a Q# operation defined as `operation MyOperation(a : Int, b : Int) : Result`:\r\n```\r\nIn []: %estimate MyOperation a=5 b=10\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.Jupyter"}
+        {"Name": "%estimate", "Documentation": {"Summary": "Runs a given function or operation on the ResourcesEstimator target machine.", "Full": null, "Description": "\r\nThe ResourcesEstimator estimates statistics about how many resources the given\r\noperation needs for execution. The resources it calculates include:\r\n\r\n- Counts for each primitive operation\r\n- Depth (lower bound for the T-gate depth of the quantum circuit)\r\n- Width (lower bound for the maximum number of qubits used for the computation)\r\n\r\nSee the [ResourcesEstimator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/resources-estimator) to learn more.\r\n\r\n#### Required parameters\r\n\r\n- Q# operation or function name. This must be the first parameter, and must be a valid Q# operation\r\nor function name that has been defined either in the notebook or in a Q# file in the same folder.\r\n- Arguments for the Q# operation or function must also be specified as `key=value` pairs.\r\n                ", "Remarks": "\r\n**QDK warning message**: \"The local Resources Estimator will be removed in March 2023.\r\nThe Resources Estimator is now available through Azure Quantum.\"\r\n\r\nThe `%estimate` magic command is deprecated. To compute physical and logical resource estimation\r\nand runtime, we recommend using the\r\n[Azure Quantum Resource Estimator](https://learn.microsoft.com/azure/quantum/intro-to-resource-estimation) tool.\r\n                ", "Examples": ["\r\nEstimate resources for a Q# operation defined as `operation MyOperation() : Result`:\r\n```\r\nIn []: %estimate MyOperation\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    ", "\r\nEstimate resources for a Q# operation defined as `operation MyOperation(a : Int, b : Int) : Result`:\r\n```\r\nIn []: %estimate MyOperation a=5 b=10\r\nOut[]: Metric           Sum     \r\n       ---------------- ----\r\n       CNOT             0\r\n       QubitClifford    4\r\n       R                0\r\n       Measure          8\r\n       T                0\r\n       Depth            0\r\n       Width            4\r\n       BorrowedWidth    0\r\n```\r\n                    "], "SeeAlso": null}, "AssemblyName": "Microsoft.Quantum.IQSharp.Jupyter"}
 -->
 
 # `%estimate`
@@ -31,13 +31,22 @@ operation needs for execution. The resources it calculates include:
 - Depth (lower bound for the T-gate depth of the quantum circuit)
 - Width (lower bound for the maximum number of qubits used for the computation)
 
-See the [ResourcesEstimator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/resources-estimator) to learn more.
+See the [ResourcesEstimator user guide](/azure/quantum/user-guide/machines/resources-estimator) to learn more.
 
 #### Required parameters
 
 - Q# operation or function name. This must be the first parameter, and must be a valid Q# operation
 or function name that has been defined either in the notebook or in a Q# file in the same folder.
 - Arguments for the Q# operation or function must also be specified as `key=value` pairs.
+
+## Remarks
+
+**QDK warning message**: "The local Resources Estimator will be removed in March 2023.
+The Resources Estimator is now available through Azure Quantum."
+
+The `%estimate` magic command is deprecated. To compute physical and logical resource estimation
+and runtime, we recommend using the
+[Azure Quantum Resource Estimator](/azure/quantum/intro-to-resource-estimation) tool.
 
 ## Examples for `%estimate`
 
