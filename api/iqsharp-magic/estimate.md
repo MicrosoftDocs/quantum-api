@@ -1,7 +1,7 @@
 ---
 title: '%estimate (magic command)'
 description: Runs a given function or operation on the ResourcesEstimator target machine.
-author: anjbur
+author: brbenefield
 uid: microsoft.quantum.iqsharp.magic-ref.estimate
 ms.author: anburton
 ms.date: 02/28/2023
@@ -31,7 +31,7 @@ operation needs for execution. The resources it calculates include:
 - Depth (lower bound for the T-gate depth of the quantum circuit)
 - Width (lower bound for the maximum number of qubits used for the computation)
 
-See the [ResourcesEstimator user guide](https://docs.microsoft.com/azure/quantum/user-guide/machines/resources-estimator) to learn more.
+See the [ResourcesEstimator user guide](/azure/quantum/user-guide/machines/resources-estimator) to learn more.
 
 #### Required parameters
 
@@ -46,7 +46,7 @@ The Resources Estimator is now available through Azure Quantum."
 
 The `%estimate` magic command is deprecated. To compute physical and logical resource estimation
 and runtime, we recommend using the
-[Azure Quantum Resource Estimator](https://learn.microsoft.com/azure/quantum/intro-to-resource-estimation) tool.
+[Azure Quantum Resource Estimator](/azure/quantum/intro-to-resource-estimation) tool.
 
 ## Examples for `%estimate`
 
