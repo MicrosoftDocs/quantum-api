@@ -1,9 +1,9 @@
 ---
 title: '%estimate (magic command)'
 description: Runs a given function or operation on the ResourcesEstimator target machine.
-author: brbenefield
+author: bradben
 uid: microsoft.quantum.iqsharp.magic-ref.estimate
-ms.author: anburton
+ms.author: brbenefield
 ms.date: 02/28/2023
 ms.topic: managed-reference
 ---
