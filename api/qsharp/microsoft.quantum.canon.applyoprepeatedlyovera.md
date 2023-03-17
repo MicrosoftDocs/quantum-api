@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyOpRepeatedlyOverA
 title: ApplyOpRepeatedlyOverA operation
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/17/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon

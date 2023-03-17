@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Y
 title: Y operation
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/17/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -13,7 +13,7 @@ qsharp.summary: Applies the Pauli $Y$ gate.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
 
 
 Applies the Pauli $Y$ gate.
