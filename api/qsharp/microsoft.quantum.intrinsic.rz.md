@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Rz
 title: Rz operation
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/17/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -13,7 +13,7 @@ qsharp.summary: Applies a rotation about the $z$-axis by a given angle.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Applies a rotation about the $z$-axis by a given angle.
@@ -31,7 +31,7 @@ operation Rz (theta : Double, qubit : Qubit) : Unit is Adj + Ctl
 
 ### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-Angle in radians about which the qubit is to be rotated.
+Angle about which the qubit is to be rotated.
 
 
 ### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)
