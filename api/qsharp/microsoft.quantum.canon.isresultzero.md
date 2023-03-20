@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Canon.IsResultZero
 title: IsResultZero function
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/20/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon

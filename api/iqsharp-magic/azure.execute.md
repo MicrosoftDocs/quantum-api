@@ -4,7 +4,7 @@ description: Submits a job to an Azure Quantum workspace and waits for completio
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.azure.execute
 ms.author: anburton
-ms.date: 02/28/2023
+ms.date: 03/20/2023
 ms.topic: managed-reference
 ---
 

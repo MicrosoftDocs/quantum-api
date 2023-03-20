@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Targeting.SubstitutableOnTarget
 title: SubstitutableOnTarget user defined type
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/20/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Targeting
@@ -33,4 +33,4 @@ newtype SubstitutableOnTarget = (AlternativeOperation : String, TargetName : Str
 Fully qualified name of alternative operation to substitute operation with.
 ### TargetName : [String](xref:microsoft.quantum.qsharp.valueliterals#string-literals)
 
-One of `QuantumSimulator`, `ToffoliSimulator`, or `ResourcesEstimator`, or a fully qualified nameof a custom target.
+One of `QuantumSimulator`, `ToffoliSimulator`, or a fully qualified nameof a custom target.
