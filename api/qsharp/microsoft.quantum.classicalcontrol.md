@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.ClassicalControl
 title: Microsoft.Quantum.ClassicalControl namespace
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/22/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.ClassicalControl
