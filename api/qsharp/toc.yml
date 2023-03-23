@@ -1024,6 +1024,20 @@
   name: Microsoft.Quantum.Research.Chemistry
   uid: Microsoft.Quantum.Research.Chemistry
 - items:
+  - {name: AccountForEstimates, uid: Microsoft.Quantum.ResourceEstimation.AccountForEstimates}
+  - {name: AuxQubitCount, uid: Microsoft.Quantum.ResourceEstimation.AuxQubitCount}
+  - {name: BeginEstimateCaching, uid: Microsoft.Quantum.ResourceEstimation.BeginEstimateCaching}
+  - {name: CczCount, uid: Microsoft.Quantum.ResourceEstimation.CczCount}
+  - {name: EndEstimateCaching, uid: Microsoft.Quantum.ResourceEstimation.EndEstimateCaching}
+  - {name: MeasurementCount, uid: Microsoft.Quantum.ResourceEstimation.MeasurementCount}
+  - {name: PSSPCLayout, uid: Microsoft.Quantum.ResourceEstimation.PSSPCLayout}
+  - {name: RotationCount, uid: Microsoft.Quantum.ResourceEstimation.RotationCount}
+  - {name: RotationDepth, uid: Microsoft.Quantum.ResourceEstimation.RotationDepth}
+  - {name: SingleVariant, uid: Microsoft.Quantum.ResourceEstimation.SingleVariant}
+  - {name: TCount, uid: Microsoft.Quantum.ResourceEstimation.TCount}
+  name: Microsoft.Quantum.ResourceEstimation
+  uid: Microsoft.Quantum.ResourceEstimation
+- items:
   - {name: AddGeneratorSystems, uid: Microsoft.Quantum.Simulation.AddGeneratorSystems}
   - {name: AdiabaticStateEnergyUnitary, uid: Microsoft.Quantum.Simulation.AdiabaticStateEnergyUnitary}
   - {name: BlockEncoding, uid: Microsoft.Quantum.Simulation.BlockEncoding}
