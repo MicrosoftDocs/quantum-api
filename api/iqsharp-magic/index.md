@@ -4,7 +4,7 @@ description: Lists the magic commands available in the IQ# Jupyter kernel.
 author: rmshaffer
 uid: microsoft.quantum.iqsharp.magic-ref.index
 ms.author: ryansha
-ms.date: 02/28/2023
+ms.date: 03/23/2023
 ms.topic: article
 ---
 # IQ# Magic Commands
@@ -27,7 +27,6 @@ ms.topic: article
 | [`%chemistry.inputstate.load`](xref:microsoft.quantum.iqsharp.magic-ref.chemistry.inputstate.load) | Loads Broombridge electronic structure problem and returns selected input state. |
 | [`%config`](xref:microsoft.quantum.iqsharp.magic-ref.config) | Allows setting or querying configuration options. |
 | [`%debug`](xref:microsoft.quantum.iqsharp.magic-ref.debug) | Steps through the execution of a given Q# operation or function. |
-| [`%estimate`](xref:microsoft.quantum.iqsharp.magic-ref.estimate) | Runs a given function or operation on the ResourcesEstimator target machine. |
 | [`%experimental.build_info`](xref:microsoft.quantum.iqsharp.magic-ref.experimental.build_info) | Reports build info for the experimental simulators. |
 | [`%kata`](xref:microsoft.quantum.iqsharp.magic-ref.kata) | Executes a single test. |
 | [`%lsmagic`](xref:microsoft.quantum.iqsharp.magic-ref.lsmagic) | Returns a list of all currently available magic commands. |
