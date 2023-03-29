@@ -34,8 +34,6 @@
   name: '%config magic command'
 - href: debug.md
   name: '%debug magic command'
-- href: estimate.md
-  name: '%estimate magic command'
 - href: experimental.build_info.md
   name: '%experimental.build_info magic command'
 - href: kata.md
