@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Environment.GetQubitsAvailableToUse
 title: GetQubitsAvailableToUse operation
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/27/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Environment

@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Preparation.StatePreparationComplexCoefficients
 title: StatePreparationComplexCoefficients function
-ms.date: 2/27/2023 12:00:00 AM
+ms.date: 3/27/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
