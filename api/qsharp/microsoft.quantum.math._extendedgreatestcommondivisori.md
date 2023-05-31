@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math._ExtendedGreatestCommonDivisorI
 title: _ExtendedGreatestCommonDivisorI function
-ms.date: 3/27/2023 12:00:00 AM
+ms.date: 5/31/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math

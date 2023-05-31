@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic
 title: Microsoft.Quantum.Intrinsic namespace
-ms.date: 3/27/2023 12:00:00 AM
+ms.date: 5/31/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Intrinsic
@@ -36,7 +36,7 @@ qsharp.summary: ''
 |[Random](xref:Microsoft.Quantum.Intrinsic.Random) |> [!WARNING] |
 |[Reset](xref:Microsoft.Quantum.Intrinsic.Reset) |Given a single qubit, measures it and ensures it is in the |0⟩ state such that it can be safely released. |
 |[ResetAll](xref:Microsoft.Quantum.Intrinsic.ResetAll) |Given an array of qubits, measure them and ensure they are in the |0⟩ state such that they can be safely released. |
-|[Rx](xref:Microsoft.Quantum.Intrinsic.Rx) |Applies a rotation about the $x$-axis by a given angle. |
+|[Rx](xref:Microsoft.Quantum.Intrinsic.Rx) | |
 |[Rxx](xref:Microsoft.Quantum.Intrinsic.Rxx) |Applies the two qubit Ising $XX$ rotation gate. |
 |[Ry](xref:Microsoft.Quantum.Intrinsic.Ry) |Applies a rotation about the $y$-axis by a given angle. |
 |[Ryy](xref:Microsoft.Quantum.Intrinsic.Ryy) |Applies the two qubit Ising $YY$ rotation gate. |
