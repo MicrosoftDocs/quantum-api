@@ -1,22 +1,22 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Rx
 title: Rx operation
-ms.date: 3/27/2023 12:00:00 AM
+ms.date: 6/1/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Rx
-qsharp.summary: Applies a rotation about the $x$-axis by a given angle.
+qsharp.summary: ''
 ---
 
 # Rx operation
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
-Applies a rotation about the $x$-axis by a given angle.
+
 
 ```qsharp
 operation Rx (theta : Double, qubit : Qubit) : Unit is Adj + Ctl
@@ -31,7 +31,7 @@ operation Rx (theta : Double, qubit : Qubit) : Unit is Adj + Ctl
 
 ### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-Angle in radians about which the qubit is to be rotated.
+Angle about which the qubit is to be rotated.
 
 
 ### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)

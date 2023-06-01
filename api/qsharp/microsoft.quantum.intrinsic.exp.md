@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Exp
 title: Exp operation
-ms.date: 3/27/2023 12:00:00 AM
+ms.date: 6/1/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -13,7 +13,7 @@ qsharp.summary: Applies the exponential of a multi-qubit Pauli operator.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.QSharp.Core](https://nuget.org/packages/Microsoft.Quantum.QSharp.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Applies the exponential of a multi-qubit Pauli operator.
@@ -36,7 +36,7 @@ Array of single-qubit Pauli values indicating the tensor productfactors on each
 
 ### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-Angle about the given multi-qubit Pauli operator by which thetarget register is to be rotated. Expressed in radians.
+Angle about the given multi-qubit Pauli operator by which thetarget register is to be rotated.
 
 
 ### qubits : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)[]

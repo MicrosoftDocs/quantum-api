@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Math.TimesL
 title: TimesL function
-ms.date: 3/27/2023 12:00:00 AM
+ms.date: 6/1/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
