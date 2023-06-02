@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Convert
 title: Microsoft.Quantum.Convert namespace
-ms.date: 3/27/2023 12:00:00 AM
+ms.date: 6/2/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Convert
