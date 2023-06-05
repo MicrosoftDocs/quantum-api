@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Synthesis.Inverse1C
 title: Inverse1C function
-ms.date: 3/27/2023 12:00:00 AM
+ms.date: 6/5/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
