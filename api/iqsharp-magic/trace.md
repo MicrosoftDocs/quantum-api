@@ -4,7 +4,7 @@ description: Visualizes the execution path of the given operation.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.trace
 ms.author: anburton
-ms.date: 06/05/2023
+ms.date: 07/27/2023
 ms.topic: managed-reference
 ---
 

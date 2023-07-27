@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerGeneratorSystem
 title: JordanWignerGeneratorSystem function
-ms.date: 6/5/2023 12:00:00 AM
+ms.date: 7/27/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner

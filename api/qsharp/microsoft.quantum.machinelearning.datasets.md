@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.Datasets
 title: Microsoft.Quantum.MachineLearning.Datasets namespace
-ms.date: 6/5/2023 12:00:00 AM
+ms.date: 7/27/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.MachineLearning.Datasets

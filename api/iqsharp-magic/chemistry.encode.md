@@ -4,7 +4,7 @@ description: Encodes a fermion Hamiltonian to a format consumable by Q#.
 author: anjbur
 uid: microsoft.quantum.iqsharp.magic-ref.chemistry.encode
 ms.author: anburton
-ms.date: 06/05/2023
+ms.date: 07/27/2023
 ms.topic: managed-reference
 ---
 
