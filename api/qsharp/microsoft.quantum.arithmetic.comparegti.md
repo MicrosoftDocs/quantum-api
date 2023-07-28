@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.CompareGTI
 title: CompareGTI operation
-ms.date: 6/5/2023 12:00:00 AM
+ms.date: 7/28/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
