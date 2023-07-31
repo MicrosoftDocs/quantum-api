@@ -1,7 +1,7 @@
 ---
 uid: Microsoft.Quantum.Arrays.ConstantArray
 title: ConstantArray function
-ms.date: 6/5/2023 12:00:00 AM
+ms.date: 7/28/2023 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
