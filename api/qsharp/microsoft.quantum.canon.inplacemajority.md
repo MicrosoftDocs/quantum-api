@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.InPlaceMajority
 title: InPlaceMajority operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > InPlaceMajority has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.ApplyMajorityInPlace> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.Arithmetic.ApplyMajorityInPlace".
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: InPlaceMajority

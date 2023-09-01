@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.RecoveryFn
 title: RecoveryFn user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Type for function that maps an error syndrome to a sequence of `Pauli[]`
+  operations that correct the detected error.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: RecoveryFn

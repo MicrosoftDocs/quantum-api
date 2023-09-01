@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareEntangledState
 title: PrepareEntangledState operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Pairwise entangles two qubit registers.
+
+  That is, given two registers, prepares the maximally entangled state
+  $\frac{1}{\sqrt{2}} \left(\ket{00} + \ket{11} \right)$ between each pair of qubits on the respective registers,
+  assuming that each register starts in the $\ket{0\cdots 0}$ state.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PrepareEntangledState

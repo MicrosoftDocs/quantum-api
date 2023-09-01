@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyConditionallyC
 title: ApplyConditionallyC operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ApplyConditionallyC has been deprecated. Please use <xref:Microsoft.Quantum.ClassicalControl.ApplyConditionallyC> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
 qsharp.name: ApplyConditionallyC

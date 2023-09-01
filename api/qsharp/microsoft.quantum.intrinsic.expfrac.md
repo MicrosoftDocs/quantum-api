@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.ExpFrac
 title: ExpFrac operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies the exponential of a multi-qubit Pauli operator
+  with an argument given by a dyadic fraction.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: ExpFrac

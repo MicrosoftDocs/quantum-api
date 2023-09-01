@@ -1,8 +1,16 @@
 ---
 uid: Microsoft.Quantum.Core.Default
 title: Default function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > Default has been deprecated.
+
+
+  Returns a default instance of the specified type.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: Default

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.RotationPhases
 title: RotationPhases user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Phases for a sequence of single-qubit rotations in amplitude amplification.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: RotationPhases

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Convert.ResultArrayAsInt
 title: ResultArrayAsInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Produces a non-negative integer from a string of Results in little endian format.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: ResultArrayAsInt

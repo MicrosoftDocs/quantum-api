@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.DecomposedIntoTimeStepsCA
 title: DecomposedIntoTimeStepsCA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an operation implementing the Trotter–Suzuki integrator for
+  a given operation.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: DecomposedIntoTimeStepsCA

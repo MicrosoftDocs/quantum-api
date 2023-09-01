@@ -1,8 +1,19 @@
 ---
 uid: Microsoft.Quantum.Simulation.EvolutionSet
 title: EvolutionSet user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a set of gates that can be readily implemented and used
+  to implement simulation algorithms.
+
+  Elements in the set are indexed
+  by a <xref:Microsoft.Quantum.Simulation.GeneratorIndex>,
+  and each set is described by a function
+  from `GeneratorIndex` to <xref:Microsoft.Quantum.Simulation.EvolutionUnitary>,
+  which are operations
+  parameterized by a real number representing time
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: EvolutionSet

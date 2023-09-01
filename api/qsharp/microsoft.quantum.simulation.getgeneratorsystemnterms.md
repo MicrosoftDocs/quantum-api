@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Simulation.GetGeneratorSystemNTerms
 title: GetGeneratorSystemNTerms function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Retrieves the number of terms in a `GeneratorSystem`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: GetGeneratorSystemNTerms

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Synthesis.Identity1C
 title: Identity1C function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a representation of the identity as a single-qubit Clifford
+  operator.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: Identity1C

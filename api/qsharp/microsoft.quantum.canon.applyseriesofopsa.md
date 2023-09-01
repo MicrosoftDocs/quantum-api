@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplySeriesOfOpsA
 title: ApplySeriesOfOpsA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies a list of ops and their targets sequentially on an array. (Adjoint)
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplySeriesOfOpsA

@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.CompareUsingRippleCarry
 title: CompareUsingRippleCarry operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This operation tests if an integer represented by a register of qubits
+  is greater than another integer, applying an XOR of the result onto an
+  output qubit.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: CompareUsingRippleCarry

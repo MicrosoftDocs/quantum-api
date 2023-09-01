@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Zipped4
 title: Zipped4 function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given four arrays, returns a new array of 4-tuples such that each 4-tuple
+  contains an element from each original array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Zipped4

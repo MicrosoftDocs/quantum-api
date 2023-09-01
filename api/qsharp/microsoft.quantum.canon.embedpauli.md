@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Canon.EmbedPauli
 title: EmbedPauli function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a single-qubit Pauli operator and the index of a qubit,
+  returns a multi-qubit Pauli operator with the given single-qubit
+  operator at that index and `PauliI` at every other index.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: EmbedPauli

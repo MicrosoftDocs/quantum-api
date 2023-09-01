@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Simulation.AdiabaticStateEnergyUnitary
 title: AdiabaticStateEnergyUnitary operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs state preparation by applying a
+  `statePrepUnitary` on the input state, followed by adiabatic state
+  preparation using a `adiabaticUnitary`, and finally phase estimation
+  with respect to `qpeUnitary`on the resulting state using a
+  `phaseEstAlgorithm`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: AdiabaticStateEnergyUnitary

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.InverseModL
 title: InverseModL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns $b$ such that $a \cdot b = 1 (\operatorname{mod} \texttt{modulus})$.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: InverseModL

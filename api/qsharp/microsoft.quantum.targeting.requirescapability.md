@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Targeting.RequiresCapability
 title: RequiresCapability user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Compiler-recognized attribute used to mark a callable with its required target capabilities.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Targeting
 qsharp.name: RequiresCapability

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.QFTLE
 title: QFTLE operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs the Quantum Fourier Transform on a quantum register containing an
+  integer in the little-endian representation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: QFTLE

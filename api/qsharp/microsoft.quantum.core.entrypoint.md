@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Core.EntryPoint
 title: EntryPoint user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Compiler-recognized attribute used to mark the entry point of an executable.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: EntryPoint

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Simulation.TrotterSimulationAlgorithm
 title: TrotterSimulationAlgorithm function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  `SimulationAlgorithm` function that uses a Trotter–Suzuki
+  decomposition to approximate the time-evolution operator _exp(-iHt)_.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: TrotterSimulationAlgorithm

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Synthesis.Action1C
 title: Action1C function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the action by conjugation of a single-qubit Clifford operator
+  on a single-qubit Pauli operator.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: Action1C

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyIfOneCA
 title: ApplyIfOneCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies a unitary operation conditioned on a classical result value being one.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyIfOneCA

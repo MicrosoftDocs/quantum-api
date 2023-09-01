@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Synthesis.IdentityFact1C
 title: IdentityFact1C function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Requires that a single-qubit Clifford operator is equal to the identity.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: IdentityFact1C

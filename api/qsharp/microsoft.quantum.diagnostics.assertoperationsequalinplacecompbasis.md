@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertOperationsEqualInPlaceCompBasis
 title: AssertOperationsEqualInPlaceCompBasis operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Checks if the operation `givenU` is equal to the operation `expectedU` on
+  the given input size  by checking the action of the operations only on
+  the vectors from the computational basis.
+  This is a necessary, but not sufficient, condition for the equality of
+  two unitaries.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertOperationsEqualInPlaceCompBasis

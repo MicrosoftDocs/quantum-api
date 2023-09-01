@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Logical.LessThanD
 title: LessThanD function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns true if and only if a number is less than another number.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
 qsharp.name: LessThanD

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplyAndAddPhaseByModularInteger
 title: MultiplyAndAddPhaseByModularInteger operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  The same as MultiplyAndAddByModularInteger, but assumes that the summand encodes
+  integers in QFT basis.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: MultiplyAndAddPhaseByModularInteger

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Oracles.ReflectionOracle
 title: ReflectionOracle user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Represents a reflection oracle.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Oracles
 qsharp.name: ReflectionOracle

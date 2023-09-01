@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyReversedOpBigEndianC
 title: ApplyReversedOpBigEndianC operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ApplyReversedOpBigEndianC has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.ApplyReversedOpBEC> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.Arithmetic.ApplyReversedOpBEC".
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyReversedOpBigEndianC

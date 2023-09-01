@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpObliviousByOraclePhases
 title: AmpAmpObliviousByOraclePhases function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > AmpAmpObliviousByOraclePhases has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.ObliviousAmplitudeAmplificationFromStatePreparation> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.AmplitudeAmplification.ObliviousAmplitudeAmplificationFromStatePreparation".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: AmpAmpObliviousByOraclePhases

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.TrainSequentialClassifierAtModel
 title: TrainSequentialClassifierAtModel operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given the structure of a sequential classifier, trains the classifier
+  on a given labeled training set, starting from a particular model.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: TrainSequentialClassifierAtModel

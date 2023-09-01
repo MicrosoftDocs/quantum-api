@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.Fact
 title: Fact function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Checks whether a classical condition is true, and throws an exception if it is not.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: Fact

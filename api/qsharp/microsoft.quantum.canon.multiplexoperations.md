@@ -1,8 +1,16 @@
 ---
 uid: Microsoft.Quantum.Canon.MultiplexOperations
 title: MultiplexOperations operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies an array of operations controlled by an array of number states.
+
+  That is, applies Multiply-controlled unitary operation $U$ that applies a
+  unitary $V_j$ when controlled by $n$-qubit number state $\ket{j}$.
+
+  $U = \sum^{2^n-1}_{j=0}\ket{j}\bra{j}\otimes V_j$.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: MultiplexOperations

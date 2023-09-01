@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Convert.RangeAsIntArray
 title: RangeAsIntArray function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Creates an array `arr` of integers enumerated by start..step..end.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: RangeAsIntArray

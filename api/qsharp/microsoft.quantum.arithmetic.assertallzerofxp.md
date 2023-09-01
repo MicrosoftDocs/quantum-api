@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AssertAllZeroFxP
 title: AssertAllZeroFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Asserts that a quantum fixed-point number is
+  initialized to zero.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: AssertAllZeroFxP

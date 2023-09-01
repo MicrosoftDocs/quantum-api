@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Convert.BoolArrayAsBigInt
 title: BoolArrayAsBigInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a given array of Booleans to an equivalent big integer.
+  The 0 element of the array is the least significant bit of the big integer.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: BoolArrayAsBigInt

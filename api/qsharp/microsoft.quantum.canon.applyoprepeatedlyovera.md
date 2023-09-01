@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyOpRepeatedlyOverA
 title: ApplyOpRepeatedlyOverA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies the same op over a qubit register multiple times.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyOpRepeatedlyOverA

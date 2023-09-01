@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ResourceEstimation.RotationDepth
 title: RotationDepth function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a tuple that can be passed to the `AccountForEstimates` operation
+  to specify that the rotation depth is equal to the `amount`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ResourceEstimation
 qsharp.name: RotationDepth

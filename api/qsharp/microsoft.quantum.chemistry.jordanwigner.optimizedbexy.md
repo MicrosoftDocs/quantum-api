@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.OptimizedBEXY
 title: OptimizedBEXY operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies a sequence of Z operations and either an X or Y operation to
+  a register of qubits, where the selection of target qubits and basis
+  are conditioned on the state of a control register.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: OptimizedBEXY

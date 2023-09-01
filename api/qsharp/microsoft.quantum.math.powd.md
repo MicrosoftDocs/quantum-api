@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.PowD
 title: PowD function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the number x raised to the power y.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: PowD

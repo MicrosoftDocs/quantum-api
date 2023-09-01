@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.ResourceEstimation.BeginEstimateCaching
 title: BeginEstimateCaching function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Informs the resource estimator of the start of the code fragment
+  for which estimates caching can be done. This function
+  is only available when using resource estimator execution target.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ResourceEstimation
 qsharp.name: BeginEstimateCaching

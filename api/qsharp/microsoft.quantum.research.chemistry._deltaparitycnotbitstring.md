@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry._DeltaParityCNOTbitstring
 title: _DeltaParityCNOTbitstring function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Classical processing step of `ApplyDeltaParity`.
+  This computes a list of control qubits for evaluating parity
+  difference between any two PQRS... terms of even length.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
 qsharp.name: _DeltaParityCNOTbitstring

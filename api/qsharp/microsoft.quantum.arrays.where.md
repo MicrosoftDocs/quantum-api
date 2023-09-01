@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Where
 title: Where function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a predicate and an array, returns the indices of that
+  array where the predicate is true.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Where

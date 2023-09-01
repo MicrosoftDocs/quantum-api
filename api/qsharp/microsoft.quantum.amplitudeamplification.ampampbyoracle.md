@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpByOracle
 title: AmpAmpByOracle function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > AmpAmpByOracle has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.StandardAmplitudeAmplification> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.AmplitudeAmplification.StandardAmplitudeAmplification".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: AmpAmpByOracle

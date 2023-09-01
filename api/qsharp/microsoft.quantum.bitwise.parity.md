@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Bitwise.Parity
 title: Parity function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the bitwise PARITY of an integer.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
 qsharp.name: Parity

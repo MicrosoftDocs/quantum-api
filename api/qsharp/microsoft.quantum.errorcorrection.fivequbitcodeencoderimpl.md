@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.FiveQubitCodeEncoderImpl
 title: FiveQubitCodeEncoderImpl operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Private operation used to implement both the 5 qubit encoder and decoder.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: FiveQubitCodeEncoderImpl

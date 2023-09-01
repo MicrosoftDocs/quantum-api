@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.EstimateEnergy
 title: EstimateEnergy operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Estimates the energy of the molecule by summing the energy contributed by the individual Jordan-Wigner terms.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner.VQE
 qsharp.name: EstimateEnergy

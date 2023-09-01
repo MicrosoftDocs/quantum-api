@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.ArcTan2
 title: ArcTan2 function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ArcTan2 has been deprecated. Please use <xref:Microsoft.Quantum.Math.ArcTan2> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.arctan2".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: ArcTan2

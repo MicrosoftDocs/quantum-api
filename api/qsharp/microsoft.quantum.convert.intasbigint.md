@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Convert.IntAsBigInt
 title: IntAsBigInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Converts a given integer to an equivalent big integer.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: IntAsBigInt

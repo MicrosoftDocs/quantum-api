@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.Sin
 title: Sin function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Sin has been deprecated. Please use <xref:Microsoft.Quantum.Math.Sin> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.sin".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: Sin

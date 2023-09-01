@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.Max
 title: Max function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Given an array of integers, returns the largest element.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: Max

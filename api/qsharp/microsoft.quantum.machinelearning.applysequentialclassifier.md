@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ApplySequentialClassifier
 title: ApplySequentialClassifier operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given the structure and parameterization of a sequential classifier,
+  applies the classifier to a register of qubits.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: ApplySequentialClassifier

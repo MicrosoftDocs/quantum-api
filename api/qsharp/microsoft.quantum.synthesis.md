@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Synthesis
 title: Microsoft.Quantum.Synthesis namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace contains functions and operations for
+  synthesizing quantum operations based on permutations
+  and Boolean functions.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Synthesis
 qsharp.summary: >-

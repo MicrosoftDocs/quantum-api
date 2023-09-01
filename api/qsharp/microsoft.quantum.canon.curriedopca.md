@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.CurriedOpCA
 title: CurriedOpCA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns a curried version of an operation on two inputs.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: CurriedOpCA

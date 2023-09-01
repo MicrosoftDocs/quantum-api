@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Simulation.GetGeneratorSystemFunction
 title: GetGeneratorSystemFunction function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Retrieves the `GeneratorIndex` function in a `GeneratorSystem`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: GetGeneratorSystemFunction

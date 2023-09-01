@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareChoiStateCA
 title: PrepareChoiStateCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Prepares the Choi–Jamiołkowski state for a given operation with both controlled and adjoint variants onto given reference
+  and target registers.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PrepareChoiStateCA

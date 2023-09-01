@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Preparation.PreparePauliEigenstate
 title: PreparePauliEigenstate operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Prepares a qubit in the positive eigenstate of a given Pauli operator.
+  If the identity operator is given, then the qubit is prepared in the maximally
+  mixed state.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PreparePauliEigenstate

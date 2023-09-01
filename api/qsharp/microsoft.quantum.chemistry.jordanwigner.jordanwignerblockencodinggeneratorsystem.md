@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerBlockEncodingGeneratorSystem
 title: JordanWignerBlockEncodingGeneratorSystem function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a Hamiltonian described by `JWOptimizedHTerms`
+  to a `GeneratorSystem` expressed in terms of the Pauli
+  `GeneratorIndex`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: JordanWignerBlockEncodingGeneratorSystem

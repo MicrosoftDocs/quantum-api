@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Convert.IntAsDouble
 title: IntAsDouble function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a given integer to an equivalent double-precision
+  floating-point number.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: IntAsDouble

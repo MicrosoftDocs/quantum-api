@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Simulation
 title: Microsoft.Quantum.Simulation namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace contains functions and operations for coherently simulating
+  the dynamics of quantum systems.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Simulation
 qsharp.summary: >-

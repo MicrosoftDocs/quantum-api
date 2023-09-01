@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AllowAtMostNQubits
 title: AllowAtMostNQubits operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Between a call to this operation and its adjoint, asserts that
+  at most a given number of additional qubits are allocated with
+  using statements.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AllowAtMostNQubits

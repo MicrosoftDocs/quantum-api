@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToEachIndexCA
 title: ApplyToEachIndexCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies a single-qubit operation to each indexed element in a register.
+  The modifier `CA` indicates that the single-qubit operation is adjointable
+  and controllable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToEachIndexCA

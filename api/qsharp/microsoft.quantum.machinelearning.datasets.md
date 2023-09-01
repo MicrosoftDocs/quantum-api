@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.Datasets
 title: Microsoft.Quantum.MachineLearning.Datasets namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace provides example datasets for use
+  with quantum machine learning classifiers.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.MachineLearning.Datasets
 qsharp.summary: >-

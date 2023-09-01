@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ResourceEstimation.AuxQubitCount
 title: AuxQubitCount function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a tuple that can be passed to the `AccountForEstimates` operation
+  to specify that the number of auxilliary qubits is equal to the `amount`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ResourceEstimation
 qsharp.name: AuxQubitCount

@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Canon.BoundA
 title: BoundA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array of operations acting on a single input,
+  produces a new operation that
+  performs each given operation in sequence.
+  The modifier `A` indicates that all operations in the array are adjointable.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: BoundA

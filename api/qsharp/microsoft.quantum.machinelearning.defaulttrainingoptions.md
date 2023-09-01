@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.DefaultTrainingOptions
 title: DefaultTrainingOptions function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns a default set of options for training classifiers.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: DefaultTrainingOptions

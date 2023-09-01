@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Canon.CControlledCA
 title: CControlledCA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an operation op, returns a new operation which
+  applies the op if a classical control bit is true. If `false`, nothing happens.
+  The modifier `CA` indicates that the operation is controllable and adjointable.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: CControlledCA

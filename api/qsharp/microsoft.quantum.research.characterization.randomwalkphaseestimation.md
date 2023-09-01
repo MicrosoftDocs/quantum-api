@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Research.Characterization.RandomWalkPhaseEstimation
 title: RandomWalkPhaseEstimation operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs iterative phase estimation using a random walk to approximate
+  Bayesian inference on the classical measurement results from a given
+  oracle and eigenstate.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Characterization
 qsharp.name: RandomWalkPhaseEstimation

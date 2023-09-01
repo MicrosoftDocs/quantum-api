@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.DecodeFromSteaneCode
 title: DecodeFromSteaneCode operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  An inverse encoding operation that maps an unencoded quantum register to an encoded quantum
+  register under the ⟦7, 1, 3⟧ Steane quantum code.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: DecodeFromSteaneCode

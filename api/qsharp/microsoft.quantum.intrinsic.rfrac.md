@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.RFrac
 title: RFrac operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies a rotation about the given Pauli axis by an angle specified
+  as a dyadic fraction.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: RFrac

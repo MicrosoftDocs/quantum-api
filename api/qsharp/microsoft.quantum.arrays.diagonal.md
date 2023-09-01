@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.Diagonal
 title: Diagonal function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns an array of diagonal elements of a 2-dimensional array
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Diagonal

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Most
 title: Most function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Creates an array that is equal to an input array except that the last array
+  element is dropped.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Most

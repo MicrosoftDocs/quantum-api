@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToPartitionC
 title: ApplyToPartitionC operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies a pair of operations to a given partition of a register into two parts.
+  The modifier `C` indicates that the operation is controllable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToPartitionC

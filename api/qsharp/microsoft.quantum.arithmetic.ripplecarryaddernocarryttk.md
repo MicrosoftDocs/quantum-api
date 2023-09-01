@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderNoCarryTTK
 title: RippleCarryAdderNoCarryTTK operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Reversible, in-place ripple-carry addition of two integers without carry out.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: RippleCarryAdderNoCarryTTK

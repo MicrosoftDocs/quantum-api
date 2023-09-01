@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Convert.BoolArrayAsPauli
 title: BoolArrayAsPauli function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a bit string, returns a multi-qubit Pauli operator
+  represented as an array of single-qubit Pauli operators.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: BoolArrayAsPauli

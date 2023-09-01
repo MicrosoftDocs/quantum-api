@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Simulation.EvolutionSchedule
 title: EvolutionSchedule user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a time-dependent dynamical generator.
+
+  The `Double`
+  parameter is a schedule in $[0, 1]$.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: EvolutionSchedule

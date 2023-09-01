@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Convert.BoolArrayAsFixedPoint
 title: BoolArrayAsFixedPoint function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the double value of a fixed-point approximation from of a `Bool` array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: BoolArrayAsFixedPoint

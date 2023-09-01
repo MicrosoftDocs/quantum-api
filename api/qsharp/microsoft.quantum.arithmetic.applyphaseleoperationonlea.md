@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyPhaseLEOperationOnLEA
 title: ApplyPhaseLEOperationOnLEA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies an operation that takes a
+  <xref:Microsoft.Quantum.Arithmetic.LittleEndian> register as input
+  on a target register of type <xref:Microsoft.Quantum.Arithmetic.PhaseLittleEndian>.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ApplyPhaseLEOperationOnLEA

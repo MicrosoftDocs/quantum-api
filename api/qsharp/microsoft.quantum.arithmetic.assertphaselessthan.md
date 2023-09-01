@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AssertPhaseLessThan
 title: AssertPhaseLessThan operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Asserts that the `number` encoded in PhaseLittleEndian is less than `value`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: AssertPhaseLessThan

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Oracles.OracleToDiscrete
 title: OracleToDiscrete function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an operation representing a "black-box" oracle, returns a discrete-time oracle
+  which represents the "black-box" oracle repeated multiple times.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Oracles
 qsharp.name: OracleToDiscrete

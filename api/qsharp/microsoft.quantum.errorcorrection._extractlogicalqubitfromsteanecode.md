@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection._ExtractLogicalQubitFromSteaneCode
 title: _ExtractLogicalQubitFromSteaneCode operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Syndrome measurement and the inverse of embedding.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: _ExtractLogicalQubitFromSteaneCode

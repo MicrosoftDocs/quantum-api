@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math._ContinuedFractionConvergentL
 title: _ContinuedFractionConvergentL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Internal recursive call to calculate the GCD with a bound
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: _ContinuedFractionConvergentL

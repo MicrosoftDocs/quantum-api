@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.CX
 title: CX operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies the controlled-X (CX) gate to a pair of qubits.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: CX

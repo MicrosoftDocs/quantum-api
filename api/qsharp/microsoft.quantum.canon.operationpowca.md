@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Canon.OperationPowCA
 title: OperationPowCA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Raises an operation to a power.
+  The modifier `A` indicates that the operation is controllable and adjointable.
+
+  That is, given an operation representing a gate $U$, returns a new operation
+  $U^m$ for a power $m$.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: OperationPowCA

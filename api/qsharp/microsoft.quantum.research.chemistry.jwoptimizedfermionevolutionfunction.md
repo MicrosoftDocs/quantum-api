@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry.JWOptimizedFermionEvolutionFunction
 title: JWOptimizedFermionEvolutionFunction function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a dynamical generator as a set of simulatable gates and an
+  expansion in the JWOptimized basis.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
 qsharp.name: JWOptimizedFermionEvolutionFunction

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math._ExtendedGreatestCommonDivisorI
 title: _ExtendedGreatestCommonDivisorI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Internal recursive call to calculate the GCD.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: _ExtendedGreatestCommonDivisorI

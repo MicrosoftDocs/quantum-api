@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Ry
 title: Ry operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies a rotation about the $y$-axis by a given angle.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Ry

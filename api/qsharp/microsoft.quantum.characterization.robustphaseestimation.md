@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Characterization.RobustPhaseEstimation
 title: RobustPhaseEstimation operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs the robust non-iterative quantum phase estimation algorithm for a given oracle `U` and eigenstate,
+  and provides a single real-valued estimate of the phase with variance scaling at the Heisenberg limit.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
 qsharp.name: RobustPhaseEstimation

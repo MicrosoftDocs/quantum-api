@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.TargetStateReflectionOracle
 title: TargetStateReflectionOracle function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Constructs a `ReflectionOracle` about the target state uniquely marked by the flag qubit.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: TargetStateReflectionOracle

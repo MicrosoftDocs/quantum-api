@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.LittleEndianAsBigEndian
 title: LittleEndianAsBigEndian function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a `LittleEndian` qubit register to a `BigEndian` qubit
+  register by reversing the qubit ordering.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: LittleEndianAsBigEndian

@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.LocalRotationsLayer
 title: LocalRotationsLayer function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an array of uncontrolled (single-qubit) rotations along a given
+  axis, with one rotation for each qubit in a register, parameterized by
+  distinct model parameters.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: LocalRotationsLayer

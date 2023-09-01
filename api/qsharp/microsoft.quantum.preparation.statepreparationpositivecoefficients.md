@@ -1,8 +1,27 @@
 ---
 uid: Microsoft.Quantum.Preparation.StatePreparationPositiveCoefficients
 title: StatePreparationPositiveCoefficients function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > StatePreparationPositiveCoefficients has been deprecated. Please use <xref:Microsoft.Quantum.Preparation.PrepareArbitraryStateD> instead.
+
+
+  Returns an operation that prepares the given quantum state.
+
+  The returned operation $U$ prepares an arbitrary quantum
+  state $\ket{\psi}$ with positive coefficients $\alpha_j\ge 0$ from
+  the $n$-qubit computational basis state $\ket{0...0}$.
+
+  The action of U on a newly-allocated register is given by
+  $$
+  \begin{align}
+  U \ket{0\cdots 0} = \ket{\psi} = \frac{\sum_{j=0}^{2^n-1}\alpha_j \ket{j}}{\sqrt{\sum_{j=0}^{2^n-1}|\alpha_j|^2}}.
+  \end{align}
+  $$
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: StatePreparationPositiveCoefficients

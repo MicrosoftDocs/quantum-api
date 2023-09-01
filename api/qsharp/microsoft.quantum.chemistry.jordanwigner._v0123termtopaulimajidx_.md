@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._V0123TermToPauliMajIdx_
 title: _V0123TermToPauliMajIdx_ function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/01/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a GeneratorIndex describing a PQRS term to
+  an expression 'GeneratorIndex[]' in terms of Paulis
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: _V0123TermToPauliMajIdx_
