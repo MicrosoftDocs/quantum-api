@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Simulation.PauliBlockEncoding
 title: PauliBlockEncoding function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Creates a block-encoding unitary for a Hamiltonian.
+
+  The Hamiltonian $H=\sum_{j}\alpha_j P_j$ is described by a
+  sum of Pauli terms $P_j$, each with real coefficient $\alpha_j$.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: PauliBlockEncoding

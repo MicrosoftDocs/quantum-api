@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.Carry
 title: Carry operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Implements a reversible carry gate. Given a carry-in bit encoded in
+  qubit `carryIn` and two summand bits encoded in `summand1` and `summand2`,
+  computes the bitwise xor of `carryIn`, `summand1` and `summand2` in the
+  qubit `summand2` and the carry-out is xored to the qubit `carryOut`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: Carry

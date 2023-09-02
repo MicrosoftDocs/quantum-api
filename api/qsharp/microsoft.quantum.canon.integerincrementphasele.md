@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.IntegerIncrementPhaseLE
 title: IntegerIncrementPhaseLE operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > IntegerIncrementPhaseLE has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.IncrementPhaseByInteger> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.Arithmetic.IncrementPhaseByInteger".
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: IntegerIncrementPhaseLE

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.RotationPhasesAsReflectionPhases
 title: RotationPhasesAsReflectionPhases function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts phases specified as single-qubit rotations to phases
+  specified as partial reflections.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: RotationPhasesAsReflectionPhases

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Oracles.ObliviousOracleFromDeterministicStateOracle
 title: ObliviousOracleFromDeterministicStateOracle function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Combines the oracles `DeterministicStateOracle` and `ObliviousOracle`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Oracles
 qsharp.name: ObliviousOracleFromDeterministicStateOracle

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ReflectionPhases
 title: ReflectionPhases user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Phases for a sequence of partial reflections in amplitude amplification.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: ReflectionPhases

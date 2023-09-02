@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Random.MaybeChooseElement
 title: MaybeChooseElement operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array of data and an a distribution over its indices,
+  attempts to choose an element at random.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: MaybeChooseElement

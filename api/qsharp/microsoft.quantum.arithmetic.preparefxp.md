@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.PrepareFxP
 title: PrepareFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Initialize a quantum fixed-point number to a classical constant.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: PrepareFxP

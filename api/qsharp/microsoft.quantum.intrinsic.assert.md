@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Assert
 title: Assert operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Assert has been deprecated. Please use <xref:Microsoft.Quantum.Diagnostics.AssertMeasurement> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Assert

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.CopyMostSignificantBit
 title: CopyMostSignificantBit operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Copies the most significant bit of a qubit register
+  `from` representing an unsigned integer into the qubit `target`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: CopyMostSignificantBit

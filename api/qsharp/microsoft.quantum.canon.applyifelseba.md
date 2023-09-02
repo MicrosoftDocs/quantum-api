@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyIfElseBA
 title: ApplyIfElseBA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies one of two adjointable operations, depending on the value of a
+  classical bit.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyIfElseBA

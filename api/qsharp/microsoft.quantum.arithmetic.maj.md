@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MAJ
 title: MAJ operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: This applies the in-place majority operation to 3 qubits.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: MAJ

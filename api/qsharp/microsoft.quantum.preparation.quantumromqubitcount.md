@@ -1,8 +1,17 @@
 ---
 uid: Microsoft.Quantum.Preparation.QuantumROMQubitCount
 title: QuantumROMQubitCount function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > QuantumROMQubitCount has been deprecated. Please use <xref:Microsoft.Quantum.Preparation.PurifiedMixedStateRequirements> instead.
+
+
+  Returns the total number of qubits that must be allocated
+  to the operation returned by `QuantumROM`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: QuantumROMQubitCount

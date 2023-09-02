@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.Min
 title: Min function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Given an array of integers, returns the smallest element.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: Min

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Optimization
 title: Microsoft.Quantum.Optimization namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Contains functions and optimizations for finding minima.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Optimization
 qsharp.summary: Contains functions and optimizations for finding minima.

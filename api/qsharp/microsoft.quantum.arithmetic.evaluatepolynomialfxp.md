@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.EvaluatePolynomialFxP
 title: EvaluatePolynomialFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Evaluates a polynomial in a fixed-point representation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: EvaluatePolynomialFxP

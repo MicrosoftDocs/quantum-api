@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Targeting
 title: Microsoft.Quantum.Targeting namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: ''
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Targeting
 qsharp.summary: ''

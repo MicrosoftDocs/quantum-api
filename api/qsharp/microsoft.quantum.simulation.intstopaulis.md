@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Simulation.IntsToPaulis
 title: IntsToPaulis function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts an array of integers to an array of single-qubit Pauli
+  operators.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: IntsToPaulis

@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.OptimizedBEGeneratorSystem
 title: OptimizedBEGeneratorSystem user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Function that returns `OptimizedBETermIndex` data for term `n` given an
+  integer `n`, together with the number of terms in the first `Int` and
+  the sum of absolute-values of all term coefficients in the `Double`.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: OptimizedBEGeneratorSystem

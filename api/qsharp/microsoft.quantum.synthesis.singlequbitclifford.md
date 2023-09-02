@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Synthesis.SingleQubitClifford
 title: SingleQubitClifford user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: An element of the single-qubit Clifford group.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: SingleQubitClifford

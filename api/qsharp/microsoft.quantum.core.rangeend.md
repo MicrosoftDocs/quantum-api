@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Core.RangeEnd
 title: RangeEnd function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the defined end value of the given range,
+  which is not necessarily the last element in the sequence.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: RangeEnd

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.DrawMany
 title: DrawMany operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Repeats an operation for a given number of samples, collecting its outputs
+  in an array.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: DrawMany

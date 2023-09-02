@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.LogGammaD
 title: LogGammaD function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the natural logarithm of the gamma function (aka the log-gamma
+  function).
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: LogGammaD

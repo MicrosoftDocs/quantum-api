@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Bitwise.Parity
 title: Parity function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Parity has been deprecated. Please use <xref:Microsoft.Quantum.Bitwise.Parity> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.bitwise.parity".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Bitwise
 qsharp.name: Parity

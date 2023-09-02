@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._ComputeJordanWignerBitString
 title: _ComputeJordanWignerBitString function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Computes Z component of Jordan–Wigner string between
+  fermion indices in a fermionic operator with an even
+  number of creation / annihilation operators.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: _ComputeJordanWignerBitString

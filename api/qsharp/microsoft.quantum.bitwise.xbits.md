@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Bitwise.XBits
 title: XBits function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an integer representing the X bits of an array
+  of Pauli operators.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
 qsharp.name: XBits

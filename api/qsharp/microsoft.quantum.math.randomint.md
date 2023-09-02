@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Math.RandomInt
 title: RandomInt operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > RandomInt has been deprecated. Please use <xref:Microsoft.Quantum.Random.DrawRandomInt> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: RandomInt

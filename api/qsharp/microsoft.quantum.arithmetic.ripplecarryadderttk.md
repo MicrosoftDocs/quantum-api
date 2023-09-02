@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderTTK
 title: RippleCarryAdderTTK operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Reversible, in-place ripple-carry addition of two integers.
+  Given two $n$-bit integers encoded in LittleEndian registers `xs` and `ys`,
+  and a qubit carry, the operation computes the sum of the two integers
+  where the $n$ least significant bits of the result are held in `ys` and
+  the carry out bit is xored to the qubit `carry`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: RippleCarryAdderTTK

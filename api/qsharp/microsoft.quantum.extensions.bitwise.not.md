@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Bitwise.Not
 title: Not function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Not has been deprecated. Please use <xref:Microsoft.Quantum.Bitwise.Not> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.bitwise.not".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Bitwise
 qsharp.name: Not

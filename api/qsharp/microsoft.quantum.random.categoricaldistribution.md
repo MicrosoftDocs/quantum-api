@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Random.CategoricalDistribution
 title: CategoricalDistribution function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a discrete categorical distribution, in which the probability
+  for each of a finite list of given outcomes is explicitly specified.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: CategoricalDistribution

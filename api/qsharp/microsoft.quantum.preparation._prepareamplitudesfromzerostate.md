@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Preparation._PrepareAmplitudesFromZeroState
 title: _PrepareAmplitudesFromZeroState operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a set of coefficients and a little-endian encoded quantum register
+  of unentangled qubits, all of which are in zero state, prepares a state
+  on that register described by the given coefficients. Uses state emulation
+  if supported by the target.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: _PrepareAmplitudesFromZeroState

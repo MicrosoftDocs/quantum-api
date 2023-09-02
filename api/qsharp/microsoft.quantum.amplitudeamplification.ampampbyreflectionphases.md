@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpByReflectionPhases
 title: AmpAmpByReflectionPhases function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > AmpAmpByReflectionPhases has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.AmplitudeAmplificationFromPartialReflections> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.AmplitudeAmplification.AmplitudeAmplificationFromPartialReflections".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: AmpAmpByReflectionPhases
