@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.DivRemL
 title: DivRemL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Divides one BigInteger value by another, returns the result and the remainder as a tuple.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: DivRemL

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AssertMostSignificantBit
 title: AssertMostSignificantBit operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Asserts that the most significant qubit of a qubit register
+  representing an unsigned integer is in a particular state.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: AssertMostSignificantBit

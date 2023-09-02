@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Convert.DoubleAsInt
 title: DoubleAsInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a floating-point number to an integer by
+  returning the truncation to its integral part.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: DoubleAsInt

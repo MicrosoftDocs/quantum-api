@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyControlledOnBitString
 title: ApplyControlledOnBitString operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies a unitary operation on the target register, controlled on a a state specified by a given
+  bit mask.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyControlledOnBitString

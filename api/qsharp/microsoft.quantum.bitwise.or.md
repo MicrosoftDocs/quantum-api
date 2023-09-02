@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Bitwise.Or
 title: Or function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the bitwise OR of two integers.
+  This performs the same computation as the built-in `|||` operator.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
 qsharp.name: Or

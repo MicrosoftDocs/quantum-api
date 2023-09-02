@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.PNorm
 title: PNorm function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the p-norm of a vector of real numbers.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: PNorm

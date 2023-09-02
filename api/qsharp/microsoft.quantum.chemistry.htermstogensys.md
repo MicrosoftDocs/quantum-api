@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry.HTermsToGenSys
 title: HTermsToGenSys function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Converts a Hamiltonian in `HTerm[]` data format to a GeneratorSystem.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry
 qsharp.name: HTermsToGenSys

@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.ArcSin
 title: ArcSin function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ArcSin has been deprecated. Please use <xref:Microsoft.Quantum.Math.ArcSin> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.arcsin".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: ArcSin

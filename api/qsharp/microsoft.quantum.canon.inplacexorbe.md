@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.InPlaceXorBE
 title: InPlaceXorBE operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > InPlaceXorBE has been deprecated. Please use <xref:ApplyReversedOpLECA(ApplyXorInPlace(value, _), target)> instead.
+
+  >
+
+  > This operation has been removed.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: InPlaceXorBE

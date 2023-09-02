@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.ResourceEstimation.PSSPCLayout
 title: PSSPCLayout function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Pass the value returned by the function to the `AccountForEstimates` operation
+  to indicate Parallel Synthesis Sequential Pauli Computation (PSSPC) layout.
+  See https://arxiv.org/pdf/2211.07629.pdf for details.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ResourceEstimation
 qsharp.name: PSSPCLayout

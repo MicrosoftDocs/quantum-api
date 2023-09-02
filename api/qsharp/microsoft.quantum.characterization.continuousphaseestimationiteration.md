@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Characterization.ContinuousPhaseEstimationIteration
 title: ContinuousPhaseEstimationIteration operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs a single iteration of an iterative (classically-controlled) phase
+  estimation algorithm using arbitrary real powers of a unitary oracle.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
 qsharp.name: ContinuousPhaseEstimationIteration

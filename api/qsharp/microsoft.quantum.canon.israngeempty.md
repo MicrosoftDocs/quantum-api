@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.IsRangeEmpty
 title: IsRangeEmpty function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns true if and only if input range is empty.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: IsRangeEmpty

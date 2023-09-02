@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry.HTermsToGenIdx
 title: HTermsToGenIdx function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Converts an index to a Hamiltonian term in `HTerm[]` data format to a GeneratorIndex.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry
 qsharp.name: HTermsToGenIdx

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ResourceEstimation.SingleVariant
 title: SingleVariant function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Used to specify that there's only one execution variant in `BeginEstimateCaching`
+  function
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ResourceEstimation
 qsharp.name: SingleVariant

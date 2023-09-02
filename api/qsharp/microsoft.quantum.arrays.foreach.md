@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arrays.ForEach
 title: ForEach operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array and an operation that is defined
+  for the elements of the array, returns a new array that consists
+  of the images of the original array under the operation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: ForEach

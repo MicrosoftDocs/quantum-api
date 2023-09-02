@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.ModularIncrementPhaseLE
 title: ModularIncrementPhaseLE operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ModularIncrementPhaseLE has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.IncrementPhaseByModularInteger> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.Arithmetic.IncrementPhaseByModularInteger".
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ModularIncrementPhaseLE

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Reversed
 title: Reversed function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Create an array that contains the same elements as an input array but in Reversed
+  order.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Reversed

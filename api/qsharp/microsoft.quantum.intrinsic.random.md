@@ -1,8 +1,22 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Random
 title: Random operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > Random has been deprecated. Please use <xref:Microsoft.Quantum.Random.DrawCategorical> instead.
+
+
+  The random operation takes an array of doubles as input, and returns
+  a randomly-selected index into the array as an `Int`.
+  The probability of selecting a specific index is proportional to the value
+  of the array element at that index.
+  Array elements that are equal to zero are ignored and their indices are never
+  returned. If any array element is less than zero,
+  or if no array element is greater than zero, then the operation fails.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Random

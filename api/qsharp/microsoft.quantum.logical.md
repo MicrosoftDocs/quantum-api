@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Logical
 title: Microsoft.Quantum.Logical namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Contains functions for working with logical expressions and Boolean logic.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Logical
 qsharp.summary: Contains functions for working with logical expressions and Boolean logic.

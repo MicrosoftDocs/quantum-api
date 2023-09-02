@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Bitwise.Xor
 title: Xor function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Xor has been deprecated. Please use <xref:Microsoft.Quantum.Bitwise.Xor> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.bitwise.xor".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Bitwise
 qsharp.name: Xor

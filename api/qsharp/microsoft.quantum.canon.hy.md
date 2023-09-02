@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.HY
 title: HY operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies the Y-basis analog to the Hadamard transformation
+  that interchanges the Z and Y axes.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: HY

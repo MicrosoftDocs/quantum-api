@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ReflectAboutInteger
 title: ReflectAboutInteger operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Reflects a quantum register about a given classical integer.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ReflectAboutInteger

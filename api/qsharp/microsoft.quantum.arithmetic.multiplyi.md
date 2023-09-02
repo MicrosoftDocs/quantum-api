@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MultiplyI
 title: MultiplyI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Multiply integer `xs` by integer `ys` and store the result in `result`,
+  which must be zero initially.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: MultiplyI

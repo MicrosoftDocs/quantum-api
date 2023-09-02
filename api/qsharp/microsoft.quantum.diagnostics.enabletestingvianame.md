@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.EnableTestingViaName
 title: EnableTestingViaName user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Compiler-recognized attribute via which an alternative name can be defined
+  that may be used when loading a type or callable for testing purposes.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: EnableTestingViaName

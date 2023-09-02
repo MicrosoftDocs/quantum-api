@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SignedLittleEndian
 title: SignedLittleEndian user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Type of a signed integer stored in little endian (see LittleEndian).
+  Negative numbers are stored using two's complement.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: SignedLittleEndian

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Preparation.MixedStatePreparationRequirements
 title: MixedStatePreparationRequirements user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents the number of qubits required in order to prepare a given
+  mixed state.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: MixedStatePreparationRequirements

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection
 title: Microsoft.Quantum.ErrorCorrection namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace contains functions, operations, and user-defined types for
+  quantum error correction.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.ErrorCorrection
 qsharp.summary: >-

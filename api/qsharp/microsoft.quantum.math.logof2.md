@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.LogOf2
 title: LogOf2 function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the natural logarithm of 2.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: LogOf2

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AddI
 title: AddI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Automatically chooses between addition with
+  carry and without, depending on the register size of `ys`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: AddI

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.IsInfinite
 title: IsInfinite function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns whether a given floating-point value is either positive or
+  negative infinity.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: IsInfinite

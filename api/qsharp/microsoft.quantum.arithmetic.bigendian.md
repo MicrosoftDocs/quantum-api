@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.BigEndian
 title: BigEndian user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Register that encodes an unsigned integer in big-endian order. The
+  qubit with index `0` encodes the highest bit of an unsigned integer.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: BigEndian

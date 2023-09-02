@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.CompareGTSI
 title: CompareGTSI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: 'Wrapper for signed integer comparison: `result = xs > ys`.'
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: CompareGTSI

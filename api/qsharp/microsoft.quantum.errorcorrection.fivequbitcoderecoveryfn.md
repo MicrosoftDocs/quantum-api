@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.FiveQubitCodeRecoveryFn
 title: FiveQubitCodeRecoveryFn function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/02/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns function that maps error syndrome measurements to the
+  appropriate error-correcting Pauli operators by table lookup for
+  the ⟦5, 1, 3⟧ quantum code.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: FiveQubitCodeRecoveryFn
