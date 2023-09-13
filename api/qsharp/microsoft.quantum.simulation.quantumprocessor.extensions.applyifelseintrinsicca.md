@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfElseIntrinsicCA
 title: ApplyIfElseIntrinsicCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ApplyIfElseIntrinsicCA has been deprecated. Please use <xref:Microsoft.Quantum.ClassicalControl.ApplyIfElseIntrinsicCA> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
 qsharp.name: ApplyIfElseIntrinsicCA

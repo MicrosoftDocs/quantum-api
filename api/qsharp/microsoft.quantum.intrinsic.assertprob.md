@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.AssertProb
 title: AssertProb operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > AssertProb has been deprecated. Please use <xref:Microsoft.Quantum.Diagnostics.AssertMeasurementProbability> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: AssertProb

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Oracles.ReflectionOracleFromDeterministicStateOracle
 title: ReflectionOracleFromDeterministicStateOracle function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Constructs reflection about a given state from an oracle.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Oracles
 qsharp.name: ReflectionOracleFromDeterministicStateOracle

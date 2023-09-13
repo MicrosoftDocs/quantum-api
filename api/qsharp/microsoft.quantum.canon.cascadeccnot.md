@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Canon.CascadeCCNOT
 title: CascadeCCNOT operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > CascadeCCNOT has been deprecated. Please use <xref:Microsoft.Quantum.Canon.ApplyCCNOTChain> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: CascadeCCNOT

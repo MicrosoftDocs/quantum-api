@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.CyclicEntanglingLayer
 title: CyclicEntanglingLayer function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an array of singly controlled rotations along a given axis,
+  arranged cyclically across a register of qubits, and parameterized by
+  distinct model parameters.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: CyclicEntanglingLayer

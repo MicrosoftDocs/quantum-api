@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Measurement.MeasurePaulis
 title: MeasurePaulis operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array of multi-qubit Pauli operators, measures each using a specified measurement
+  gadget, then returns the array of results.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
 qsharp.name: MeasurePaulis

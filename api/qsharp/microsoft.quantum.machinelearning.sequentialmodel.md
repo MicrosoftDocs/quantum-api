@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.SequentialModel
 title: SequentialModel user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Describes a quantum classifier model composed of a sequence of
+  parameterized and controlled rotations, an assignment of rotation
+  angles, and a bias between the two classes recognized by the model.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: SequentialModel

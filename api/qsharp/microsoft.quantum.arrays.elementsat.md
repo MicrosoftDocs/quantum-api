@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.ElementsAt
 title: ElementsAt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the array's elements at a given range
+  of indices.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: ElementsAt

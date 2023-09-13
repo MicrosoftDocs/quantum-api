@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.TrainingOptions
 title: TrainingOptions user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: A collection of options to be used in training quantum classifiers.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: TrainingOptions

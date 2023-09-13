@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Math.RandomReal
 title: RandomReal operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > RandomReal has been deprecated. Please use <xref:Microsoft.Quantum.Random.DrawRandomDouble> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: RandomReal

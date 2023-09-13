@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Characterization.EstimateOverlapBetweenStates
 title: EstimateOverlapBetweenStates operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given two operations which each prepare copies of a state, estimates
+  the squared overlap between the states prepared by each
+  operation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
 qsharp.name: EstimateOverlapBetweenStates

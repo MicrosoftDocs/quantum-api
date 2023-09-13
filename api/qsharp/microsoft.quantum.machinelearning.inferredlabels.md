@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.InferredLabels
 title: InferredLabels function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array of classification probabilities and a bias, returns the
+  label inferred from each probability.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: InferredLabels

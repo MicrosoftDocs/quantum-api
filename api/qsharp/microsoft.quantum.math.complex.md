@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.Complex
 title: Complex user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a complex number by its real and imaginary components.
+  The first element of the tuple is the real component, the second one - the imaginary component.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: Complex

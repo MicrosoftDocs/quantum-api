@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.ModularMultiplyByConstantLE
 title: ModularMultiplyByConstantLE operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ModularMultiplyByConstantLE has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.MultiplyByModularInteger> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.Arithmetic.MultiplyByModularInteger".
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ModularMultiplyByConstantLE

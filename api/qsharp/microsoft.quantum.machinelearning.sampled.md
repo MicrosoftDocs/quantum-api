@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.Sampled
 title: Sampled function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Samples a given array, using the given schedule.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: Sampled

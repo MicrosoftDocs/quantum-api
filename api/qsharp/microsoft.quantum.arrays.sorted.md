@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Sorted
 title: Sorted function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array, returns the elements of that array sorted by a given
+  comparison function.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Sorted

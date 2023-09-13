@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.RestrictedToSubregisterA
 title: RestrictedToSubregisterA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Restricts an operation to an array of indices of a register, i.e., a subregister.
+  The modifier `A` indicates that the operation is adjointable.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: RestrictedToSubregisterA

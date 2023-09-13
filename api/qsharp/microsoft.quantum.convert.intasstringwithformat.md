@@ -1,8 +1,17 @@
 ---
 uid: Microsoft.Quantum.Convert.IntAsStringWithFormat
 title: IntAsStringWithFormat function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > IntAsStringWithFormat has been deprecated.
+
+
+  Converts a given integer number to an equivalent string representation,
+  using the given format.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: IntAsStringWithFormat

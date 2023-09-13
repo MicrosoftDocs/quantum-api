@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.AbsSquaredComplexPolar
 title: AbsSquaredComplexPolar function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the squared absolute value of a complex number of type
+  `ComplexPolar`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: AbsSquaredComplexPolar

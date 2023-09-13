@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Convert.DoubleAsFixedPoint
 title: DoubleAsFixedPoint function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Discretizes a double value as a fixed-point approximation and returns its value as a double.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: DoubleAsFixedPoint

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ReversedOpBEC
 title: ReversedOpBEC function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an operation that takes a big-endian input, returns a new
+  operation that takes a little-endian input.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ReversedOpBEC

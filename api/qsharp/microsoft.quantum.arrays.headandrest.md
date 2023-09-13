@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.HeadAndRest
 title: HeadAndRest function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns a tuple of first and all remaining elements of the array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: HeadAndRest

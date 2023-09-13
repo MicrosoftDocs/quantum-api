@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Characterization.MeasureIdentity
 title: MeasureIdentity operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Measures the identity operator on a register
+  of qubits.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
 qsharp.name: MeasureIdentity

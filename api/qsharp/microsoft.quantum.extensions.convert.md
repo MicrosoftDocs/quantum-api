@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Extensions.Convert
 title: Microsoft.Quantum.Extensions.Convert namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  These are some of the functions from System.Convert namespace of .NET CLR
+  that are relevant within Q# type system.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Extensions.Convert
 qsharp.summary: >-

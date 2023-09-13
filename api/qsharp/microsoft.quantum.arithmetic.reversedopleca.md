@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ReversedOpLECA
 title: ReversedOpLECA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an operation that takes a little-endian input, returns a new
+  operation that takes a big-endian input.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ReversedOpLECA

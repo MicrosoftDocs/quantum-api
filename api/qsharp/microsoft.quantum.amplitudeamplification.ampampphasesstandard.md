@@ -1,8 +1,20 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpPhasesStandard
 title: AmpAmpPhasesStandard function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > AmpAmpPhasesStandard has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.StandardReflectionPhases> instead.
+
+  >
+
+  > Please use
+
+  > @"Microsoft.Quantum.AmplitudeAmplification.StandardReflectionPhases".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: AmpAmpPhasesStandard

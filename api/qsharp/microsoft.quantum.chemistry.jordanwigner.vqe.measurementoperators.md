@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.MeasurementOperators
 title: MeasurementOperators function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Computes all the measurement operators required to compute the expectation of a Jordan-Wigner term.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner.VQE
 qsharp.name: MeasurementOperators

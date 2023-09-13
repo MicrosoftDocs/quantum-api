@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.EstimateGradient
 title: EstimateGradient operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Estimates the training gradient for a sequential classifier at a
+  particular model and for a given encoded input.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: EstimateGradient

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Random.DrawRandomInt
 title: DrawRandomInt operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Draws a random integer in a given inclusive range.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: DrawRandomInt

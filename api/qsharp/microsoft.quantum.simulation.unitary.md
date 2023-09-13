@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Simulation.Unitary
 title: Unitary user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Represents evolution under a unitary operator.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: Unitary

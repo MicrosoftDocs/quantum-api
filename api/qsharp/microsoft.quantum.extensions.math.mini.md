@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.MinI
 title: MinI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > MinI has been deprecated. Please use <xref:Microsoft.Quantum.Math.MinI> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.mini".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: MinI

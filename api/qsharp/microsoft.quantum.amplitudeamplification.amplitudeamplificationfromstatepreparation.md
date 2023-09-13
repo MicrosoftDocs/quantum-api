@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmplitudeAmplificationFromStatePreparation
 title: AmplitudeAmplificationFromStatePreparation function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Amplitude amplification by oracles for partial reflections.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: AmplitudeAmplificationFromStatePreparation

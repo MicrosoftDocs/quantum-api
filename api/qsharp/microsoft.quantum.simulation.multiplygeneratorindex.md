@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Simulation.MultiplyGeneratorIndex
 title: MultiplyGeneratorIndex function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Multiplies the coefficient in a `GeneratorIndex`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: MultiplyGeneratorIndex

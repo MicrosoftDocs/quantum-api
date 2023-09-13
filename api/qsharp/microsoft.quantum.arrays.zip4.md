@@ -1,8 +1,17 @@
 ---
 uid: Microsoft.Quantum.Arrays.Zip4
 title: Zip4 function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > Zip4 has been deprecated. Please use <xref:Microsoft.Quantum.Arrays.Zipped4> instead.
+
+
+  Given four arrays, returns a new array of 4-tuples such that each 4-tuple
+  contains an element from each original array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Zip4

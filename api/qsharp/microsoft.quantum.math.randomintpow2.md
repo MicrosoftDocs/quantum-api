@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Math.RandomIntPow2
 title: RandomIntPow2 operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > RandomIntPow2 has been deprecated. Please use <xref:Microsoft.Quantum.Random.DrawRandomInt> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: RandomIntPow2

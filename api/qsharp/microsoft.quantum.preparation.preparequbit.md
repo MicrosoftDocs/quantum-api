@@ -1,8 +1,26 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareQubit
 title: PrepareQubit operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > PrepareQubit has been deprecated. Please use <xref:Microsoft.Quantum.Preparation.PreparePauliEigenstate> instead.
+
+
+  Prepares a qubit in the +1 (`Zero`) eigenstate of the given Pauli operator.
+  If the identity operator is given, then the qubit is prepared in the maximally
+  mixed state.
+
+  If the qubit was initially in the $\ket{0}$ state, this operation prepares the
+  qubit in the $+1$ eigenstate of a given Pauli operator, or, for `PauliI`,
+  in the maximally mixed state instead (see <xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity>).
+
+  If the qubit was in a state other than $\ket{0}$, this operation applies the following gates:
+  $H$ for `PauliX`, $HS$ for `PauliY`, $I$ for `PauliZ` and
+  <xref:Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity> for `PauliI`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PrepareQubit

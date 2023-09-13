@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Bitwise.RightShiftedL
 title: RightShiftedL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Shifts the bitwise representation of a number right by a given number of
+  bits.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
 qsharp.name: RightShiftedL

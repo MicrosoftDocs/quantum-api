@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner._ComputeJordanWignerPauliString
 title: _ComputeJordanWignerPauliString function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: ''
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: _ComputeJordanWignerPauliString

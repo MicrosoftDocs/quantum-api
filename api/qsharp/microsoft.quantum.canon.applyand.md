@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyAnd
 title: ApplyAnd operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Inverts a given target qubit if and only if both control qubits are in the 1 state,
+  using measurement to perform the adjoint operation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyAnd

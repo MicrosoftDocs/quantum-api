@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Preparation.MixedStatePreparation
 title: MixedStatePreparation user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a particular mixed state that can be prepared on an index
+  and a garbage register.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: MixedStatePreparation

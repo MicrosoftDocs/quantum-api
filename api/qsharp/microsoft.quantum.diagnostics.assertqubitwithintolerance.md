@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubitWithinTolerance
 title: AssertQubitWithinTolerance operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Asserts that the qubit `q` is in the expected eigenstate of the Pauli Z operator up to
+  a given tolerance.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertQubitWithinTolerance
