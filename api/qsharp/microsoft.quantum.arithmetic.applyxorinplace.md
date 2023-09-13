@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyXorInPlace
 title: ApplyXorInPlace operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies a bitwise-XOR operation between a classical integer and an
+  integer represented by a register of qubits.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ApplyXorInPlace

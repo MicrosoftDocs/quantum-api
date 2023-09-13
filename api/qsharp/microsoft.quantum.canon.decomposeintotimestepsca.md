@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Canon.DecomposeIntoTimeStepsCA
 title: DecomposeIntoTimeStepsCA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > DecomposeIntoTimeStepsCA has been deprecated. Please use <xref:Microsoft.Quantum.Canon.DecomposedIntoTimeStepsCA> instead.
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: DecomposeIntoTimeStepsCA

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertPhase
 title: AssertPhase operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Asserts that the phase of an equal superposition state has the expected value.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertPhase

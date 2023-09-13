@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.LittleEndian
 title: LittleEndian user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Register that encodes an unsigned integer in little-endian order. The
+  qubit with index `0` encodes the lowest bit of an unsigned integer.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: LittleEndian

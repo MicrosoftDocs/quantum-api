@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.Cosh
 title: Cosh function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Cosh has been deprecated. Please use <xref:Microsoft.Quantum.Math.Cosh> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.cosh".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: Cosh

@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Convert.PauliArrayToInt
 title: PauliArrayToInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > PauliArrayToInt has been deprecated. Please use <xref:Microsoft.Quantum.Convert.PauliArrayAsInt> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.convert.pauliarrayasint".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Convert
 qsharp.name: PauliArrayToInt

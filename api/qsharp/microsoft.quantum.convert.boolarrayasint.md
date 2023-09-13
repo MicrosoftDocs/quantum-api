@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Convert.BoolArrayAsInt
 title: BoolArrayAsInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Produces a non-negative integer from a string of bits in little endian format.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: BoolArrayAsInt

@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Canon.Bound
 title: Bound function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array of operations acting on a single input,
+  produces a new operation that
+  performs each given operation in sequence.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: Bound

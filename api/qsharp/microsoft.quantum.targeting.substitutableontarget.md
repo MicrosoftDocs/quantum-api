@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Targeting.SubstitutableOnTarget
 title: SubstitutableOnTarget user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Enables to substitute an operation with an alternative operation for a given target
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Targeting
 qsharp.name: SubstitutableOnTarget

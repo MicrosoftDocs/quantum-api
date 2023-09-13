@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Convert.MaybeBigIntAsInt
 title: MaybeBigIntAsInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a given big integer to an equivalent integer, if possible.
+  The function returns a pair of the resulting integer and a Boolean flag
+  which is true, if and only if the conversion was possible.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: MaybeBigIntAsInt

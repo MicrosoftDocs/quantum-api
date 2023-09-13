@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.FunctionWithLookupTable
 title: FunctionWithLookupTable user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  The return type when making a lookup table. This contains the operation that
+  makes the lookup table circuit, as well as all the parameters required to make
+  the two FixedPoint registers that need to be used as inputs and outputs to the
+  operator.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: FunctionWithLookupTable

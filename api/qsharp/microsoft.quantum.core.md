@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Core
 title: Microsoft.Quantum.Core namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: This namespace includes Q# core functions and operations.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Core
 qsharp.summary: This namespace includes Q# core functions and operations.

@@ -1,8 +1,17 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertOperationsEqualInPlace
 title: AssertOperationsEqualInPlace operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given two operations, asserts that they act identically for all input states.
+
+  This assertion is implemented by checking the action of the operations
+  on all states of the form $V_0 \otimes ... \otimes V_{n-1}$, where
+  $V_k$ is one of the states $\ket{0}$, $\ket{1}$, $\ket{+}$ and $\ket{i}$ (+1 eigenstate of Pauli Y operator).
+
+  This assertion uses $n$ qubits and requires multiple calls of the operations being compared.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertOperationsEqualInPlace

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Logical.NearlyEqualD
 title: NearlyEqualD function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns true if and only if two inputs are nearly equal (that is, within
+  a tolerance of 1e-12).
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
 qsharp.name: NearlyEqualD

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Reset
 title: Reset operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a single qubit, measures it and ensures it is in the |0⟩ state
+  such that it can be safely released.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Reset

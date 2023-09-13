@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ScheduleLength
 title: ScheduleLength function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the number of elements in a given sampling schedule.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: ScheduleLength

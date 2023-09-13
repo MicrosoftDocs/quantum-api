@@ -1,8 +1,16 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.EncodeOp
 title: EncodeOp user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents an operation which encodes a physical register into a
+  logical register, using the provided scratch qubits.
+
+  The first argument is taken to be the physical register that will
+  be encoded, while the second argument is taken to be the scratch
+  register that will be used.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: EncodeOp

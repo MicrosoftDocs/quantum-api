@@ -1,8 +1,17 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareArbitraryState
 title: PrepareArbitraryState operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > PrepareArbitraryState has been deprecated. Please use <xref:Microsoft.Quantum.Preparation.PrepareArbitraryStateCP> instead.
+
+
+  Given a set of coefficients and a little-endian encoded quantum register,
+  prepares an state on that register described by the given coefficients.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PrepareArbitraryState

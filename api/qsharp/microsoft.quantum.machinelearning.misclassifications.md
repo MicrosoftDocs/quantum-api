@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.Misclassifications
 title: Misclassifications function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a set of inferred labels and a set of correct labels, returns
+  indices for where each set of labels differs.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: Misclassifications

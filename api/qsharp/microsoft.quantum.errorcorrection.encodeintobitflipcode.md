@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.EncodeIntoBitFlipCode
 title: EncodeIntoBitFlipCode operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Encodes into the [3, 1, 3] / ⟦3, 1, 1⟧ bit-flip code.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: EncodeIntoBitFlipCode

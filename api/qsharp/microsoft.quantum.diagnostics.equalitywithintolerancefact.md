@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.EqualityWithinToleranceFact
 title: EqualityWithinToleranceFact function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents the claim that a classical floating point value has the
+  expected value up to a given
+  absolute tolerance.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: EqualityWithinToleranceFact

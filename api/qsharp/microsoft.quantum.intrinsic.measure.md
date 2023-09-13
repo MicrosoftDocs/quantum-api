@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Measure
 title: Measure operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs a joint measurement of one or more qubits in the
+  specified Pauli bases.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Measure

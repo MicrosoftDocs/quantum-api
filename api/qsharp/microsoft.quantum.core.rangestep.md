@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Core.RangeStep
 title: RangeStep function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the integer that specifies how the next value of a range is calculated.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: RangeStep

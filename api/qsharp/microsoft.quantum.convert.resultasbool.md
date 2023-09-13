@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Convert.ResultAsBool
 title: ResultAsBool function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a `Result` type to a `Bool` type, where `One` is mapped to
+  `true` and `Zero` is mapped to `false`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: ResultAsBool

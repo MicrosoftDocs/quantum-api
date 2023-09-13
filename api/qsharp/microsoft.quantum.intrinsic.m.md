@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.M
 title: M operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs a measurement of a single qubit in the
+  Pauli $Z$ basis.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: M

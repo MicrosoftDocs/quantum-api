@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.R
 title: R operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies a rotation about the given Pauli axis.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: R

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.NearEqualityFactD
 title: NearEqualityFactD function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Asserts that a classical floating point value has the expected value up to a
+  small tolerance of 1e-10.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: NearEqualityFactD

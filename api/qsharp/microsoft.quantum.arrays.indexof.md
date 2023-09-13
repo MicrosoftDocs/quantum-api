@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.IndexOf
 title: IndexOf function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the first index of the first element in an array that satisfies
+  a given predicate. If no such element exists, returns -1.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: IndexOf

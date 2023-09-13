@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Oracles.StateOracleFromDeterministicStateOracle
 title: StateOracleFromDeterministicStateOracle function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Converts an oracle of type `DeterministicStateOracle` to `StateOracle`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Oracles
 qsharp.name: StateOracleFromDeterministicStateOracle

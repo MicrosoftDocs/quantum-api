@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyUnitary
 title: ApplyUnitary operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies gate defined by a 2ⁿ × 2ⁿ unitary matrix.
+
+  Fails if matrix is not unitary, or has wrong size.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: ApplyUnitary

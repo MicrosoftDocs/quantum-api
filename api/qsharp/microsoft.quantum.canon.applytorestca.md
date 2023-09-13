@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToRestCA
 title: ApplyToRestCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies an operation to all but the first element of an array.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToRestCA

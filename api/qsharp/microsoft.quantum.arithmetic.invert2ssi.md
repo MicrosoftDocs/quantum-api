@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.Invert2sSI
 title: Invert2sSI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Inverts a given integer modulo 2's complement.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: Invert2sSI

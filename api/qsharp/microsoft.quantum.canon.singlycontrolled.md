@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.SinglyControlled
 title: SinglyControlled function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a controllable operation, returns a controlled version of that operation
+  accepting exactly one control qubit.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: SinglyControlled

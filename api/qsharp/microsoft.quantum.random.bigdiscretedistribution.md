@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Random.BigDiscreteDistribution
 title: BigDiscreteDistribution user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a univariate probability distribution over integers of
+  arbitrary size.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: BigDiscreteDistribution

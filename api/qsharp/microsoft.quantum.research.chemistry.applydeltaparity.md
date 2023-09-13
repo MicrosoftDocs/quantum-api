@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Research.Chemistry.ApplyDeltaParity
 title: ApplyDeltaParity operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Computes difference in parity between a previous PQRS... terms
+  and the next PQRS... term. This difference is computed on a auxiliary
+  qubit.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Research.Chemistry
 qsharp.name: ApplyDeltaParity

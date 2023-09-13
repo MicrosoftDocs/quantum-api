@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerInputState
 title: JordanWignerInputState user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Format of data passed from C# to Q# to represent preparation of the initial state
+  The meaning of the data represented is determined by the algorithm that receives it.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: JordanWignerInputState

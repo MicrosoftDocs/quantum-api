@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.PhaseLittleEndian
 title: PhaseLittleEndian user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Little-endian unsigned integers in QFT basis.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: PhaseLittleEndian

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareSingleQubitIdentity
 title: PrepareSingleQubitIdentity operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Prepares a qubit in the maximally mixed state.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PrepareSingleQubitIdentity

@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arrays.Subarray
 title: Subarray function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Takes an array and a list of locations and
+  produces a new array formed from the elements of the original
+  array that match the given locations.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Subarray

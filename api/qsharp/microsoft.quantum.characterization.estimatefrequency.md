@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Characterization.EstimateFrequency
 title: EstimateFrequency operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a preparation and measurement, estimates the frequency
+  with which that measurement succeeds (returns `Zero`) by
+  performing a given number of trials.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
 qsharp.name: EstimateFrequency

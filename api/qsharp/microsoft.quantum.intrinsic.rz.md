@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Rz
 title: Rz operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies a rotation about the $z$-axis by a given angle.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Rz

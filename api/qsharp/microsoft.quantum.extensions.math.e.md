@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.E
 title: E function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > E has been deprecated. Please use <xref:Microsoft.Quantum.Math.E> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.e".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: E

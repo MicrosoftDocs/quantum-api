@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.ModPowL
 title: ModPowL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Performs modular division on a number raised to the power of another number.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: ModPowL

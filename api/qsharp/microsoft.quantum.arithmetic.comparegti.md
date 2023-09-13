@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.CompareGTI
 title: CompareGTI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: 'Wrapper for integer comparison: `result = x > y`.'
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: CompareGTI

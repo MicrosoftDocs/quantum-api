@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertAllZeroWithinTolerance
 title: AssertAllZeroWithinTolerance operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Assert that given qubits are all in $\ket{0}$ state up to a given tolerance.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertAllZeroWithinTolerance

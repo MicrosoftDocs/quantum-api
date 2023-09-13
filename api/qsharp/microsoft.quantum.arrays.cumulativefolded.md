@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.CumulativeFolded
 title: CumulativeFolded function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/13/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Combines Mapped and Fold into a single function
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: CumulativeFolded
