@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.VQE.ExpandedCoefficients
 title: ExpandedCoefficients function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Expands the compact representation of the Jordan-Wigner coefficients in order
+  to obtain a one-to-one mapping between these and Pauli terms.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner.VQE
 qsharp.name: ExpandedCoefficients

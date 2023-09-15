@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.Cosh
 title: Cosh function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the hyperbolic cosine of the specified angle.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: Cosh

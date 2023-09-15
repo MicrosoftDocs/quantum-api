@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.InverseModI
 title: InverseModI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the multiplicative inverse of a modular integer.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: InverseModI

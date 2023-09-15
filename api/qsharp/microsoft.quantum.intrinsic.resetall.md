@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.ResetAll
 title: ResetAll operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array of qubits, measure them and ensure they are in the |0⟩ state
+  such that they can be safely released.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: ResetAll
@@ -15,7 +19,7 @@ qsharp.summary: >-
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.Type1.Core](https://nuget.org/packages/Microsoft.Quantum.Type1.Core)
 
 
 Given an array of qubits, measure them and ensure they are in the |0⟩ statesuch that they can be safely released.

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SquareFxP
 title: SquareFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Squares a fixed-point number.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: SquareFxP

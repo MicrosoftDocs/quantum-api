@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Logical.Or
 title: Or function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the Boolean disjunction of two values.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
 qsharp.name: Or

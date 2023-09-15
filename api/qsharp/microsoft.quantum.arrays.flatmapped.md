@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.FlatMapped
 title: FlatMapped function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array and a function that maps an array element to some output
+  array, returns the concatenated output arrays for each array element.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: FlatMapped

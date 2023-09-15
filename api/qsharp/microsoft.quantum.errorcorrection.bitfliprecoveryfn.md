@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.BitFlipRecoveryFn
 title: BitFlipRecoveryFn function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Function for recovery Pauli operations for given syndrome measurement
+  by table lookup for the ⟦3, 1, 1⟧ bit flip code.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: BitFlipRecoveryFn

@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Convert.ToStringIFormat
 title: ToStringIFormat function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ToStringIFormat has been deprecated. Please use <xref:Microsoft.Quantum.Convert.IntAsStringWithFormat> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.convert.intasstringwithformat".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Convert
 qsharp.name: ToStringIFormat

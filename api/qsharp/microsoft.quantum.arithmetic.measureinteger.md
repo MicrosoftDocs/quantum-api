@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MeasureInteger
 title: MeasureInteger operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Measures the content of a quantum register and converts
+  it to an integer. The measurement is performed with respect
+  to the standard computational basis, i.e., the eigenbasis of `PauliZ`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: MeasureInteger

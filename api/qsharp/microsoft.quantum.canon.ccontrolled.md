@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.CControlled
 title: CControlled function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an operation op, returns a new operation which
+  applies the op if a classical control bit is true. If `false`, nothing happens.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: CControlled

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.InvertFxP
 title: InvertFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Computes the additive inverse of `fp`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: InvertFxP

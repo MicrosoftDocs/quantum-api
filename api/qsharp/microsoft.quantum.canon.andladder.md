@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.AndLadder
 title: AndLadder operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Performs a controlled "AND ladder" on a register of target qubits.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: AndLadder

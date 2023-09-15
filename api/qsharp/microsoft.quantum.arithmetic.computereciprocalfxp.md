@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ComputeReciprocalFxP
 title: ComputeReciprocalFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Computes the reciprocal of a number stored in a quantum register with
+  the fixed-point representation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ComputeReciprocalFxP

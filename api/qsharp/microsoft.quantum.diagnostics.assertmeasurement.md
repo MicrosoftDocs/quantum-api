@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertMeasurement
 title: AssertMeasurement operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Asserts that measuring the given qubits in the given Pauli basis will
+  always have the given result.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertMeasurement

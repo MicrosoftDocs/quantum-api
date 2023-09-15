@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToFirstTwoQubitsC
 title: ApplyToFirstTwoQubitsC operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies an operation to the first two qubits in the register.
+  The modifier `C` indicates that the operation is controllable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToFirstTwoQubitsC

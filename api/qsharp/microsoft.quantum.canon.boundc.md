@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Canon.BoundC
 title: BoundC function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array of operations acting on a single input,
+  produces a new operation that
+  performs each given operation in sequence.
+  The modifier `C` indicates that all operations in the array are controllable.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: BoundC

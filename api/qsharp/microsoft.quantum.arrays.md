@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays
 title: Microsoft.Quantum.Arrays namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace contains functions for creating and manipulating arrays of
+  data.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arrays
 qsharp.summary: >-

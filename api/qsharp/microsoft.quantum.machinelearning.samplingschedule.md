@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.SamplingSchedule
 title: SamplingSchedule user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: A schedule for drawing batches from a set of samples.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: SamplingSchedule

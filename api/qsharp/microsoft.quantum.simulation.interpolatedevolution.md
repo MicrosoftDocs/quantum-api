@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Simulation.InterpolatedEvolution
 title: InterpolatedEvolution function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Interpolates between two generators with a uniform schedule,
+  returning an operation that applies simulated evolution under
+  the resulting time-dependent generator to a qubit register.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: InterpolatedEvolution

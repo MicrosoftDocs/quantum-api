@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.MeasureFxP
 title: MeasureFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Measure a fixed-point number, returns its value as Double, and resets
+  all the register to zero.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: MeasureFxP

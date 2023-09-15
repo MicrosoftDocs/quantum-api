@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Research.Characterization
 title: Microsoft.Quantum.Research.Characterization namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace provides advanced research methods for quantum
+  characterization and phase estimation.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Research.Characterization
 qsharp.summary: >-

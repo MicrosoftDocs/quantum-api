@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Preparation.ApproximatelyPrepareArbitraryStateCP
 title: ApproximatelyPrepareArbitraryStateCP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a set of coefficients and a little-endian encoded quantum register,
+  prepares an state on that register described by the given coefficients,
+  up to a given approximation tolerance.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: ApproximatelyPrepareArbitraryStateCP

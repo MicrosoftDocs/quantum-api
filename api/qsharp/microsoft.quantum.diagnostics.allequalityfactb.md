@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AllEqualityFactB
 title: AllEqualityFactB function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Asserts that two arrays of boolean values are equal.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AllEqualityFactB

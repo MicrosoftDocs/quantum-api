@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.EqualityFactI
 title: EqualityFactI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Asserts that a classical Int variable has the expected value.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: EqualityFactI

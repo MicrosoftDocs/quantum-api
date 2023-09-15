@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.PI
 title: PI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Represents the ratio of the circumference of a circle to its diameter.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: PI

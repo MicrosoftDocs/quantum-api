@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToFirstQubitC
 title: ApplyToFirstQubitC operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies operation op to the first qubit in the register.
+  The modifier `C` indicates that the operation is controllable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToFirstQubitC

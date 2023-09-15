@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Bitwise.LeftShiftedL
 title: LeftShiftedL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Shifts the bitwise representation of a number left by a given number of
+  bits.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Bitwise
 qsharp.name: LeftShiftedL

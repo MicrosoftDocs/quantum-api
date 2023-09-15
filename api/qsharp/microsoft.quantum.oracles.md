@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Oracles
 title: Microsoft.Quantum.Oracles namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace provides user-defined types to decorate various kinds of
+  oracles by their intended use in quantum algorithms such as phase estimation
+  and amplitude amplification.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Oracles
 qsharp.summary: >-

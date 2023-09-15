@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SquareSI
 title: SquareSI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Square signed integer `xs` and store
+  the result in `result`, which must be zero initially.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: SquareSI

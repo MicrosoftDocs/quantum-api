@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Synthesis.EqualityFact1C
 title: EqualityFact1C function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Requires that a single-qubit Clifford operator has the expected value.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: EqualityFact1C

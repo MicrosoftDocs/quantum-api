@@ -1,8 +1,16 @@
 ---
 uid: Microsoft.Quantum.Environment.GetQubitsAvailableToUse
 title: GetQubitsAvailableToUse operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > GetQubitsAvailableToUse has been deprecated.
+
+
+  Returns the number of qubits currently available to use.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Environment
 qsharp.name: GetQubitsAvailableToUse
