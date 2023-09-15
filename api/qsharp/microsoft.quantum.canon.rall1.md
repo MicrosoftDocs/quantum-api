@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.RAll1
 title: RAll1 operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Rotates the all-ones state by a given phase.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: RAll1

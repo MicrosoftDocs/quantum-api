@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Synthesis.Inverse1C
 title: Inverse1C function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the inverse of a single-qubit Clifford operators.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: Inverse1C

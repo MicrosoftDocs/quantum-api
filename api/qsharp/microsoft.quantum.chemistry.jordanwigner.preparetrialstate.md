@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.PrepareTrialState
 title: PrepareTrialState operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: ''
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: PrepareTrialState

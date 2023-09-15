@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Simulation.MultiplyGeneratorSystem
 title: MultiplyGeneratorSystem function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Multiplies the coefficient of all terms in a `GeneratorSystem`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: MultiplyGeneratorSystem

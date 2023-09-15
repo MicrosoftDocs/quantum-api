@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Bitwise.XBits
 title: XBits function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > XBits has been deprecated. Please use <xref:Microsoft.Quantum.Bitwise.XBits> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.bitwise.xbits".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Bitwise
 qsharp.name: XBits

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyReversedOpLEC
 title: ApplyReversedOpLEC operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies an operation that takes little-endian input to a register encoding
+  an unsigned integer using big-endian format.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ApplyReversedOpLEC

@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.Log10
 title: Log10 function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Log10 has been deprecated. Please use <xref:Microsoft.Quantum.Math.Log10> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.log10".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: Log10

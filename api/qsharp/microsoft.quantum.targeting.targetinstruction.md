@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Targeting.TargetInstruction
 title: TargetInstruction user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Compiler-recognized attribute for usage within target-specific packages
+  to specify the name of the instruction on the target machine.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Targeting
 qsharp.name: TargetInstruction

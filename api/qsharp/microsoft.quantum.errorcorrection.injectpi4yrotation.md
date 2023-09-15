@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.InjectPi4YRotation
 title: InjectPi4YRotation operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Rotates a single qubit by π/4 about the Y-axis.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: InjectPi4YRotation

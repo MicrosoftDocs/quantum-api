@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions.ApplyIfZeroA
 title: ApplyIfZeroA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ApplyIfZeroA has been deprecated. Please use <xref:Microsoft.Quantum.ClassicalControl.ApplyIfZeroA> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Simulation.QuantumProcessor.Extensions
 qsharp.name: ApplyIfZeroA

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Random.DrawCategorical
 title: DrawCategorical operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Draws a random sample from a categorical distribution specified by a
+  list of probablities.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: DrawCategorical

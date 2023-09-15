@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.ExpD
 title: ExpD function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ExpD has been deprecated. Please use <xref:Microsoft.Quantum.Math.ExpD> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.expd".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: ExpD

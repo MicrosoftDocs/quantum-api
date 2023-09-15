@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.EstimateClassificationProbability
 title: EstimateClassificationProbability operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a sample and a sequential classifier, estimates the
+  classification probability for that sample by repeatedly measuring
+  the output of the classifier on the given sample.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: EstimateClassificationProbability

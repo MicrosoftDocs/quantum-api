@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Measurement.MResetY
 title: MResetY operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Measures a single qubit in the Y basis,
+  and resets it to a fixed initial state
+  following the measurement.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
 qsharp.name: MResetY
@@ -16,7 +21,7 @@ qsharp.summary: >-
 
 Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Measures a single qubit in the Y basis,and resets it to a fixed initial statefollowing the measurement.

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.ApplyToEachWindowCA
 title: ApplyToEachWindowCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies an operation windowing over an input register. The modifier `CA` indicates that the single-qubit operation is controllable and adjointable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: ApplyToEachWindowCA

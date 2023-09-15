@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.NQubitsRequired
 title: NQubitsRequired function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the number of qubits required to apply a given sequential
+  classifier.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: NQubitsRequired

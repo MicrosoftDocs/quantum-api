@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.ResourceEstimation.AccountForEstimates
 title: AccountForEstimates operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Account for the resource estimates of an unimplemented operation,
+  which were obtainted separately. This operation is only available
+  when using resource estimator execution target.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ResourceEstimation
 qsharp.name: AccountForEstimates

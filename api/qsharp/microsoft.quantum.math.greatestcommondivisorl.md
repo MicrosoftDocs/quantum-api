@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.GreatestCommonDivisorL
 title: GreatestCommonDivisorL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Computes the greatest common divisor of two integers.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: GreatestCommonDivisorL

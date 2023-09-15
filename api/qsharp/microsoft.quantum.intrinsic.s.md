@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.S
 title: S operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies the π/4 phase gate to a single qubit.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: S
@@ -13,7 +15,7 @@ qsharp.summary: Applies the π/4 phase gate to a single qubit.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Applies the π/4 phase gate to a single qubit.

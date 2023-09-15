@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.Cos
 title: Cos function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > Cos has been deprecated. Please use <xref:Microsoft.Quantum.Math.Cos> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.cos".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: Cos

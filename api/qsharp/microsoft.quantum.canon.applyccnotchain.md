@@ -1,8 +1,16 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyCCNOTChain
 title: ApplyCCNOTChain operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Implements a cascade of CCNOT gates controlled on corresponding bits of two
+  qubit registers, acting on the next qubit of one of the registers.
+  Starting from the qubits at position 0 in both registers as controls, CCNOT is
+  applied to the qubit at position 1 of the target register, then controlled by
+  the qubits at position 1 acting on the qubit at position 2 in the target register,
+  etc., ending with an action on the target qubit in position `Length(nQubits)-1`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyCCNOTChain

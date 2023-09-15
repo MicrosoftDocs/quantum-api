@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyPermutationUsingTransformation
 title: ApplyPermutationUsingTransformation operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Permutes the amplitudes in a quantum state given a permutation
+  using transformation-based synthesis.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: ApplyPermutationUsingTransformation

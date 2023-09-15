@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ConjugatedByC
 title: ConjugatedByC function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given outer and inner operations, returns a new operation that
+  conjugates the inner operation by the outer operation.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ConjugatedByC

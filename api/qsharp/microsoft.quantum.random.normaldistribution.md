@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Random.NormalDistribution
 title: NormalDistribution function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns a normal distribution with a given mean and variance.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: NormalDistribution

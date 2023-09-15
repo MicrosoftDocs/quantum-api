@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning
 title: Microsoft.Quantum.MachineLearning namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace provides functions and operations used in
+  quantum machine learning applications.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.MachineLearning
 qsharp.summary: >-

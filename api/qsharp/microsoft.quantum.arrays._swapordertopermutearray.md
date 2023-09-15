@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays._SwapOrderToPermuteArray
 title: _SwapOrderToPermuteArray function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the order elements in an array need to be swapped to produce an ordered array.
+  Assumes swaps occur in place.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: _SwapOrderToPermuteArray

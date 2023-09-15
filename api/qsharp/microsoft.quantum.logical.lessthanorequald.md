@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Logical.LessThanOrEqualD
 title: LessThanOrEqualD function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns true if and only if a number is less than or equal to another
+  number.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
 qsharp.name: LessThanOrEqualD

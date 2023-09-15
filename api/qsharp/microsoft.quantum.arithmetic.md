@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic
 title: Microsoft.Quantum.Arithmetic namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace contains functions and operations used for coherently
+  computing arithmetic.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Arithmetic
 qsharp.summary: >-

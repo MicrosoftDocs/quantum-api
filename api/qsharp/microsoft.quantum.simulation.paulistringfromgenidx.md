@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Simulation.PauliStringFromGenIdx
 title: PauliStringFromGenIdx function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Extracts the Pauli string and its qubit indices of a Pauli term described
+  by a `GeneratorIndex`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: PauliStringFromGenIdx

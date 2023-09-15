@@ -1,8 +1,17 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AllowAtMostNCallsCA
 title: AllowAtMostNCallsCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Between a call to this operation and its adjoint, asserts that
+  a given operation is called at most a certain number of times.
+
+  Operation calls are considered, if they contain the the specified
+  variant.  For example, if `op` is `X`, `Adjoint X` or `Controlled X`
+  are also counted, but if `op` is `Controlled X`, only `Controlled X`
+  or `Controlled Adjoint X` are counted.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AllowAtMostNCallsCA

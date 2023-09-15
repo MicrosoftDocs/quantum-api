@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arrays.Any
 title: Any function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array and a predicate that is defined
+  for the elements of the array, checks if at least one element of
+  the array satisfies the predicate.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Any

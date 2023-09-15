@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Core.Length
 title: Length function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the number of elements in an array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: Length

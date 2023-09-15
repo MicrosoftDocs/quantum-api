@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.DecodeOp
 title: DecodeOp user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents an operation which decodes an encoded register into a
+  physical register and the scratch qubits used to record a syndrome.
+
+  The argument to a DecodeOp is the same as the return from an
+  EncodeOp, and vice versa.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: DecodeOp

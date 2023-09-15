@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.BitFlipCode
 title: BitFlipCode function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a QECC value representing the ⟦3, 1, 1⟧ bit flip code encoder and
+  decoder with in-place syndrome measurement.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: BitFlipCode

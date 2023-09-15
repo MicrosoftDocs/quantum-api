@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.GreaterThan
 title: GreaterThan operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies a greater-than comparison between two integers encoded into
+  qubit registers, flipping a target qubit based on the result of the
+  comparison.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: GreaterThan

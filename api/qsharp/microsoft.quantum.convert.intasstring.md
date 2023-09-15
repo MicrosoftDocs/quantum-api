@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Convert.IntAsString
 title: IntAsString function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Converts a given integer number to an equivalent string representation.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: IntAsString

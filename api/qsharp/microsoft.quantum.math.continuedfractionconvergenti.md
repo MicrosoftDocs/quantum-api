@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.ContinuedFractionConvergentI
 title: ContinuedFractionConvergentI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Finds the continued fraction convergent closest to `fraction`
+  with the denominator less or equal to `denominatorBound`
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: ContinuedFractionConvergentI

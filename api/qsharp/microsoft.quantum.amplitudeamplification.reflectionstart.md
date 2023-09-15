@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ReflectionStart
 title: ReflectionStart function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Constructs a reflection about the all-zero string |0...0〉, which is the typical input state to amplitude amplification.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: ReflectionStart

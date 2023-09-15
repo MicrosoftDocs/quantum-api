@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arrays.Filtered
 title: Filtered function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array and a predicate that is defined
+  for the elements of the array, returns an array that consists of
+  those elements that satisfy the predicate.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Filtered

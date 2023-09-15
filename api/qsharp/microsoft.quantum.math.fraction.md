@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Math.Fraction
 title: Fraction user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a rational number of the form `p/q`. Integer `p` is
+  the first element of the tuple and `q` is the second element
+  of the tuple.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: Fraction

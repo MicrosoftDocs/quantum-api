@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Padded
 title: Padded function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an array padded at with specified values up to a
+  specified length.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Padded

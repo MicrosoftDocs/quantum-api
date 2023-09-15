@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ValidationResults
 title: ValidationResults user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  The results from having validated a classifier against a set of
+  samples.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: ValidationResults

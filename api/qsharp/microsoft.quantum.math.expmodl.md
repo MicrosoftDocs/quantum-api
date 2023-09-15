@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.ExpModL
 title: ExpModL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an integer raised to a given power, with respect to a given
+  modulus.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: ExpModL

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Preparation
 title: Microsoft.Quantum.Preparation namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This namespace contains functions and operations for preparing qubits into
+  arbitrary initial states.
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Preparation
 qsharp.summary: >-

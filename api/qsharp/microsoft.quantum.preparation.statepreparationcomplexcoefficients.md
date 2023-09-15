@@ -1,8 +1,27 @@
 ---
 uid: Microsoft.Quantum.Preparation.StatePreparationComplexCoefficients
 title: StatePreparationComplexCoefficients function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > StatePreparationComplexCoefficients has been deprecated. Please use <xref:Microsoft.Quantum.Preparation.PrepareArbitraryStateCP> instead.
+
+
+  Returns an operation that prepares a specific quantum state.
+
+  The returned operation $U$ prepares an arbitrary quantum
+  state $\ket{\psi}$ with complex coefficients $r_j e^{i t_j}$ from
+  the $n$-qubit computational basis state $\ket{0...0}$.
+
+  The action of U on a newly-allocated register is given by
+  $$
+  \begin{align}
+  U\ket{0...0}=\ket{\psi}=\frac{\sum_{j=0}^{2^n-1}r_j e^{i t_j}\ket{j}}{\sqrt{\sum_{j=0}^{2^n-1}|r_j|^2}}.
+  \end{align}
+  $$
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: StatePreparationComplexCoefficients

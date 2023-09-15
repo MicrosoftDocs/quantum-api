@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.AbsB
 title: AbsB function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > AbsB has been deprecated. Please use <xref:Microsoft.Quantum.Math.AbsL> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.absl".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: AbsB

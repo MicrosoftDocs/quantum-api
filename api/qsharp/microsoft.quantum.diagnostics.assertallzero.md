@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertAllZero
 title: AssertAllZero operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Assert that given qubits are all in $\ket{0}$ state.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertAllZero

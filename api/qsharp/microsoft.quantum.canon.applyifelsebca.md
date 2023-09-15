@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyIfElseBCA
 title: ApplyIfElseBCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies one of two unitary operations, depending on the value of a
+  classical bit.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyIfElseBCA

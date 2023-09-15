@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Transposed
 title: Transposed function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the transpose of a matrix represented as an array
+  of arrays.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Transposed

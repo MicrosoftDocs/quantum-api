@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Random.ContinuousDistribution
 title: ContinuousDistribution user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/15/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Represents a univariate probability distribution over real numbers.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: ContinuousDistribution
