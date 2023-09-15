@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Preparation.PrepareIdentity
 title: PrepareIdentity operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a register, prepares that register in the maximally mixed state.
+
+  The register is prepared in the $\boldone / 2^N$ state by applying the
+  complete depolarizing
+  channel to each qubit, where $N$ is the length of the register.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PrepareIdentity

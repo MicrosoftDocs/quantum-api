@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Core.Inline
 title: Inline user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Compiler-recognized attribute used during QIR emission to determine
+  when callables should be inlined, if possible.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: Inline

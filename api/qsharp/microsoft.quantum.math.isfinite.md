@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.IsFinite
 title: IsFinite function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns whether a given floating-point value is a finite number.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: IsFinite

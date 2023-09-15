@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.MinusL
 title: MinusL function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the difference between two inputs.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: MinusL

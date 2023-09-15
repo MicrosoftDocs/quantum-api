@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Excluding
 title: Excluding function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an array containing the elements of another array,
+  excluding elements at a given list of indices.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Excluding

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Simulation.IdentityGeneratorIndex
 title: IdentityGeneratorIndex function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a generator index consistent with the zero
+  Hamiltonian, `H = 0`, which corresponds to the identity evolution operation.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: IdentityGeneratorIndex

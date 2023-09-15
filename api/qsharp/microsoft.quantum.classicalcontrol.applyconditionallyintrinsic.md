@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.ClassicalControl.ApplyConditionallyIntrinsic
 title: ApplyConditionallyIntrinsic operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: ''
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.ClassicalControl
 qsharp.name: ApplyConditionallyIntrinsic

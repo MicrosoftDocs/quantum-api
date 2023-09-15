@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.Ceiling
 title: Ceiling function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the smallest integer greater than or equal to the specified number.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: Ceiling

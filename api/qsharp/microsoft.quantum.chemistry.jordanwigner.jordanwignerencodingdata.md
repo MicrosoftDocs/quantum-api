@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerEncodingData
 title: JordanWignerEncodingData user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Format of data passed from C# to Q# to represent all information for Hamiltonian simulation.
+  The meaning of the data represented is determined by the algorithm that receives it.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: JordanWignerEncodingData

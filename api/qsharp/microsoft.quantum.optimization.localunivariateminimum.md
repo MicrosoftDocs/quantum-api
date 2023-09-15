@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Optimization.LocalUnivariateMinimum
 title: LocalUnivariateMinimum function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns some local minimum for a univariate function over a bounded interval,
+  using a golden interval search.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Optimization
 qsharp.name: LocalUnivariateMinimum

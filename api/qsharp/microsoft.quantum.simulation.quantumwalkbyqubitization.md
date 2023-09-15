@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Simulation.QuantumWalkByQubitization
 title: QuantumWalkByQubitization function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Converts a block-encoding reflection into a quantum walk.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: QuantumWalkByQubitization

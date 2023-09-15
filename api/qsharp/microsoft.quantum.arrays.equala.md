@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.EqualA
 title: EqualA function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given two arrays of the same type and a predicate that is defined
+  for pairs of elements of the arrays, checks whether the arrays are equal.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: EqualA

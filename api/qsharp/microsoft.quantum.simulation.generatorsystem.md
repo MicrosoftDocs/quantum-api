@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Simulation.GeneratorSystem
 title: GeneratorSystem user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a collection of `GeneratorIndex`es.
+
+  We iterate over this
+  collection using a single-index integer, and the size of the
+  collection is assumed to be known.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: GeneratorSystem

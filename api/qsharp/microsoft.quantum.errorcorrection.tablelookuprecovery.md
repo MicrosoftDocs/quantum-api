@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.TableLookupRecovery
 title: TableLookupRecovery function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  For a given table of Pauli operations on a given register of qubits, this function
+  returns an object of type `RecoveryFn` which contains all information needed to
+  perform a table-lookup decoding with respect to the given array of Pauli operations.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: TableLookupRecovery

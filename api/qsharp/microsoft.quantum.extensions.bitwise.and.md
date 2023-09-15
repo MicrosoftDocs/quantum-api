@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Bitwise.And
 title: And function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > And has been deprecated. Please use <xref:Microsoft.Quantum.Bitwise.And> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.bitwise.and".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Bitwise
 qsharp.name: And

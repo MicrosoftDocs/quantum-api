@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Math.RandomSingleQubitPauli
 title: RandomSingleQubitPauli operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > RandomSingleQubitPauli has been deprecated. Please use <xref:Microsoft.Quantum.Random.DrawRandomPauli> instead.
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: RandomSingleQubitPauli

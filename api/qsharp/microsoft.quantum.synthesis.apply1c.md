@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Synthesis.Apply1C
 title: Apply1C operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a single-qubit Clifford operator, applies the corresponding operation
+  to a single qubit.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: Apply1C

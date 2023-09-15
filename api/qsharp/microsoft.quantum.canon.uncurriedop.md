@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Canon.UncurriedOp
 title: UncurriedOp function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a function which returns operations,
+  returns a new operation which takes both inputs
+  as a tuple.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: UncurriedOp

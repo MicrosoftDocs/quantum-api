@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToFirstThreeQubitsA
 title: ApplyToFirstThreeQubitsA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies an operation to the first three qubits in the register.
+  The modifier `A` indicates that the operation is adjointable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToFirstThreeQubitsA

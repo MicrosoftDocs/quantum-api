@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.Ryy
 title: Ryy operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies the two qubit Ising $YY$ rotation gate.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Ryy
@@ -13,7 +15,7 @@ qsharp.summary: Applies the two qubit Ising $YY$ rotation gate.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Applies the two qubit Ising $YY$ rotation gate.

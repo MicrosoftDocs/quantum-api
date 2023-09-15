@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyRippleCarryComparatorLE
 title: ApplyRippleCarryComparatorLE operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ApplyRippleCarryComparatorLE has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.CompareUsingRippleCarry> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.Arithmetic.CompareUsingRippleCarry".
+
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyRippleCarryComparatorLE

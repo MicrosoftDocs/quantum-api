@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ValidateSequentialClassifier
 title: ValidateSequentialClassifier operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Validates a given sequential classifier against a given set of
+  pre-labeled samples.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: ValidateSequentialClassifier

@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Simulation.EvolutionUnitary
 title: EvolutionUnitary user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a unitary time-evolution operator.
+
+  The first parameter is
+  is duration of time-evolution, and the second parameter is the qubit
+  register acted upon by the unitary.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: EvolutionUnitary

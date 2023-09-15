@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToSubregisterCA
 title: ApplyToSubregisterCA operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies an operation to a subregister of a register, with qubits
+  specified by an array of their indices.
+  The modifier `CA` indicates that the operation is controllable and adjointable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToSubregisterCA

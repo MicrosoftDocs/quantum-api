@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Simulation.TrotterStep
 title: TrotterStep function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Implements a single time-step of time-evolution by the system
+  described in an `EvolutionGenerator` using a Trotter–Suzuki
+  decomposition.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: TrotterStep

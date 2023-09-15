@@ -1,8 +1,28 @@
 ---
 uid: Microsoft.Quantum.Preparation.QuantumROM
 title: QuantumROM function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > QuantumROM has been deprecated. Please use <xref:Microsoft.Quantum.Preparation.PurifiedMixedState> instead.
+
+
+  Uses the Quantum ROM technique to represent a given density matrix.
+
+  Given a list of $N$ coefficients $\alpha_j$, this returns a unitary $U$ that uses the Quantum-ROM
+  technique to prepare
+  an approximation  $\tilde\rho\sum_{j=0}^{N-1}p_j\ket{j}\bra{j}$ of the purification of the density matrix
+  $\rho=\sum_{j=0}^{N-1}\frac{|alpha_j|}{\sum_k |\alpha_k|}\ket{j}\bra{j}$. In this approximation, the
+  error $\epsilon$ is such that $|p_j-\frac{|alpha_j|}{\sum_k |\alpha_k|}|\le \epsilon / N$ and
+  $\|\tilde\rho - \rho\| \le \epsilon$. In other words,
+  $$
+  \begin{align}
+  U\ket{0}^{\lceil\log_2 N\rceil}\ket{0}^{m}=\sum_{j=0}^{N-1}\sqrt{p_j} \ket{j}\ket{\text{garbage}_j}.
+  \end{align}
+  $$
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: QuantumROM

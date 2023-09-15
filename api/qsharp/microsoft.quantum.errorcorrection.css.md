@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.CSS
 title: CSS user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a Calderbank–Shor–Steane (CSS) code as defined by
+  its encoder, decoder, and its syndrome measurement procedures
+  for `X` and `Z` errors, respectively.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: CSS

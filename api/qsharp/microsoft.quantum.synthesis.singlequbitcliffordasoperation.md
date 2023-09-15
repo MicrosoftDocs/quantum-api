@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Synthesis.SingleQubitCliffordAsOperation
 title: SingleQubitCliffordAsOperation function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a representation of a single-qubit Clifford operator as an
+  operation acting on a single qubit.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: SingleQubitCliffordAsOperation

@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry
 title: Microsoft.Quantum.Chemistry namespace
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: ''
 qsharp.kind: namespace
 qsharp.name: Microsoft.Quantum.Chemistry
 qsharp.summary: ''

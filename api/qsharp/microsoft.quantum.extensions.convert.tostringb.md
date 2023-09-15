@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Convert.ToStringB
 title: ToStringB function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ToStringB has been deprecated. Please use <xref:Microsoft.Quantum.Convert.BoolAsString> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.convert.boolasstring".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Convert
 qsharp.name: ToStringB

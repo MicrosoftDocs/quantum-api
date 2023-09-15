@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyWithInputTransformation
 title: ApplyWithInputTransformation operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an operation that accepts some input, a function that
+  returns an output compatible with that operation, and an input to that
+  function, applies the operation using the function to transform the
+  input to a form expected by the operation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyWithInputTransformation

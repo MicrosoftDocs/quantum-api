@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Simulation.PauliCoefficientFromGenIdx
 title: PauliCoefficientFromGenIdx function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Extracts the coefficient of a Pauli term described by a `GeneratorIndex`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: PauliCoefficientFromGenIdx

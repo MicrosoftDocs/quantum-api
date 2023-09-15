@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.MaxI
 title: MaxI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > MaxI has been deprecated. Please use <xref:Microsoft.Quantum.Math.MaxI> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.maxi".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: MaxI

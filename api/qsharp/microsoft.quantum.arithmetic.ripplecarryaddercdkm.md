@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.RippleCarryAdderCDKM
 title: RippleCarryAdderCDKM operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Reversible, in-place ripple-carry addition of two integers.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: RippleCarryAdderCDKM

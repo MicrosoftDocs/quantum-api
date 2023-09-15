@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Core.Attribute
 title: Attribute user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Compiler-recognized attribute used to mark user-defined types as attributes.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: Attribute

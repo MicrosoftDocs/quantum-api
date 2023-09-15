@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.MostAndTail
 title: MostAndTail function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns a tuple of all but one and the last element of the array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: MostAndTail

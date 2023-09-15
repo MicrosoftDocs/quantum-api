@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.PI
 title: PI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > PI has been deprecated. Please use <xref:Microsoft.Quantum.Math.PI> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.pi".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: PI

@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Simulation.TimeDependentSimulationAlgorithm
 title: TimeDependentSimulationAlgorithm user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a time-dependent simulation algorithm.
+
+  A time-dependent simulation technique converts an
+  <xref:Microsoft.Quantum.Simulation.EvolutionSchedule>
+  to unitary time-evolution for some time-interval.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: TimeDependentSimulationAlgorithm

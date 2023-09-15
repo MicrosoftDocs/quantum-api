@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.Enumerated
 title: Enumerated function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array, returns a new array containing elements of the original
+  array along with the indices of each element.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Enumerated

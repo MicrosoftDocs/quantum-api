@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.Flattened
 title: Flattened function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Given an array of arrays, returns the concatenation of all arrays.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Flattened

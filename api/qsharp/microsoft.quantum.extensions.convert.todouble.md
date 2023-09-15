@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Convert.ToDouble
 title: ToDouble function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > ToDouble has been deprecated. Please use <xref:Microsoft.Quantum.Convert.IntAsDouble> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.convert.intasdouble".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Convert
 qsharp.name: ToDouble

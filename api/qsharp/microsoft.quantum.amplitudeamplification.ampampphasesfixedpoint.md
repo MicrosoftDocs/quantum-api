@@ -1,8 +1,20 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.AmpAmpPhasesFixedPoint
 title: AmpAmpPhasesFixedPoint function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > AmpAmpPhasesFixedPoint has been deprecated. Please use <xref:Microsoft.Quantum.AmplitudeAmplification.FixedPointReflectionPhases> instead.
+
+  >
+
+  > Please use
+
+  > @"Microsoft.Quantum.AmplitudeAmplification.FixedPointReflectionPhases".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: AmpAmpPhasesFixedPoint

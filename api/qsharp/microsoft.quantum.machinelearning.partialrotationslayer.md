@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.PartialRotationsLayer
 title: PartialRotationsLayer function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an array of single-qubit rotations along a given
+  axis, parameterized by distinct model parameters.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: PartialRotationsLayer

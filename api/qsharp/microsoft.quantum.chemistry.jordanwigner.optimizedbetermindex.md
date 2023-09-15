@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.OptimizedBETermIndex
 title: OptimizedBETermIndex user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Term data in the optimized block-encoding algorithm.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: OptimizedBETermIndex

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.WeightOnePaulis
 title: WeightOnePaulis function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns an array of all weight-1 Pauli operators
+  on a given number of qubits.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: WeightOnePaulis

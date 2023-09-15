@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.SquareI
 title: SquareI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Computes the square of the integer `xs` into `result`,
+  which must be zero initially.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: SquareI

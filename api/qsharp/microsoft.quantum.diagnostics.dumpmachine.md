@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.DumpMachine
 title: DumpMachine function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Dumps the current target machine's status.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: DumpMachine

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Characterization.QuantumPhaseEstimation
 title: QuantumPhaseEstimation operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Performs the quantum phase estimation algorithm for a given oracle `U` and `targetState`,
+  reading the phase into a big-endian quantum register.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Characterization
 qsharp.name: QuantumPhaseEstimation

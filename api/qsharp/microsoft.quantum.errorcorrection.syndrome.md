@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.Syndrome
 title: Syndrome user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Type for measurement results `Result[]` that specify an error syndrome
+  of a quantum code.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: Syndrome

@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Canon.ApproximatelyApplyDiagonalUnitary
 title: ApproximatelyApplyDiagonalUnitary operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies an array of complex phases to numeric basis states of a register
+  of qubits, truncating small rotation angles according to a given
+  tolerance.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApproximatelyApplyDiagonalUnitary

@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arrays.LookupFunction
 title: LookupFunction function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array, returns a function which returns elements of that
+  array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: LookupFunction

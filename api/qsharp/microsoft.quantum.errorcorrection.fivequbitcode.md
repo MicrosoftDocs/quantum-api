@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.FiveQubitCode
 title: FiveQubitCode function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a QECC value representing the ⟦5, 1, 3⟧ code encoder and
+  decoder with in-place syndrome measurement.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: FiveQubitCode

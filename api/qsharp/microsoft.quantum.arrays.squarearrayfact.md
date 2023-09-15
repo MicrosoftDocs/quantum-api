@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.SquareArrayFact
 title: SquareArrayFact function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Represents a condition that a 2-dimensional array has a square shape
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: SquareArrayFact

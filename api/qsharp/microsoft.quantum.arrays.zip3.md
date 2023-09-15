@@ -1,8 +1,17 @@
 ---
 uid: Microsoft.Quantum.Arrays.Zip3
 title: Zip3 function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  > [!WARNING]
+
+  > Zip3 has been deprecated. Please use <xref:Microsoft.Quantum.Arrays.Zipped3> instead.
+
+
+  Given three arrays, returns a new array of 3-tuples such that each 3-tuple
+  contains an element from each original array.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Zip3

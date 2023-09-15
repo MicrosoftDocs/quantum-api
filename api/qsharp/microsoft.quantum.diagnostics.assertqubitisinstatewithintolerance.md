@@ -1,8 +1,16 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.AssertQubitIsInStateWithinTolerance
 title: AssertQubitIsInStateWithinTolerance operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Asserts that a qubit in the expected state.
+
+  `expected` represents a complex vector, $\ket{\psi} = \begin{bmatrix}a & b\end{bmatrix}^{\mathrm{T}}$.
+  The first element of the tuples representing each of $a$, $b$
+  is the real part of the complex number, while the second one is the imaginary part.
+  The last argument defines the tolerance with which assertion is made.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: AssertQubitIsInStateWithinTolerance

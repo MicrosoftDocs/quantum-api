@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.BitSizeI
 title: BitSizeI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: For a non-negative integer `a`, returns the number of bits required to represent `a`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: BitSizeI

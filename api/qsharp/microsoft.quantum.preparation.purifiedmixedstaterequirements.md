@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Preparation.PurifiedMixedStateRequirements
 title: PurifiedMixedStateRequirements function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns the total number of qubits that must be allocated
+  in order to apply the operation returned by
+  @"Microsoft.Quantum.Preparation.PurifiedMixedState".
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: PurifiedMixedStateRequirements

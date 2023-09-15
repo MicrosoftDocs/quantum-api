@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Preparation.BlochSphereCoordinates
 title: BlochSphereCoordinates function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Computes the Bloch sphere coordinates for a single-qubit state.
+
+  Given two complex numbers $a0, a1$ that represent the qubit state, computes coordinates
+  on the Bloch sphere such that
+  $a0 \ket{0} + a1 \ket{1} = r e^{it}(e^{-i \phi /2}\cos{(\theta/2)}\ket{0}+e^{i \phi /2}\sin{(\theta/2)}\ket{1})$.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Preparation
 qsharp.name: BlochSphereCoordinates

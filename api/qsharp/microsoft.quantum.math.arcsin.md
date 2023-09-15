@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.ArcSin
 title: ArcSin function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the angle whose sine is the specified number.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: ArcSin

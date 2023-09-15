@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Simulation.BlockEncoding
 title: BlockEncoding user defined type
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Represents a unitary where an arbitrary operator of
+  interest is encoded in the top-left block.
 qsharp.kind: udt
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: BlockEncoding

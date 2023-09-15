@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Synthesis.ApplyXControlledOnTruthTable
 title: ApplyXControlledOnTruthTable operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies the @"Microsoft.Quantum.Intrinsic.X" operation on `target`, if the Boolean function `func` evaluates
+  to true for the classical assignment in `controlRegister`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Synthesis
 qsharp.name: ApplyXControlledOnTruthTable

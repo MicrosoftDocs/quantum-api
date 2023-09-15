@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToFirstQubit
 title: ApplyToFirstQubit operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies an operation to the first qubit in the register.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToFirstQubit

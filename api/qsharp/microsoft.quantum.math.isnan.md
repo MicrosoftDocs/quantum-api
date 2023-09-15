@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Math.IsNaN
 title: IsNaN function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns whether a given floating-point value is not a number (i.e.
+  is NaN).
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: IsNaN

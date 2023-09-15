@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.ControlledOnBitString
 title: ControlledOnBitString function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns a unitary operation that applies an oracle on the target register if the control register state corresponds to a specified bit mask.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ControlledOnBitString

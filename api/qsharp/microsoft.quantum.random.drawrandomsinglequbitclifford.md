@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Random.DrawRandomSingleQubitClifford
 title: DrawRandomSingleQubitClifford operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a single-qubit Clifford operator chosen uniformly at random
+  from the single-qubit Clifford group.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: DrawRandomSingleQubitClifford

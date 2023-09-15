@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.ErrorCorrection.SteaneCodeRecoveryZ
 title: SteaneCodeRecoveryZ function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Decoder for the Z-part of the stabilizer group of the ⟦7, 1, 3⟧ Steane quantum code.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.ErrorCorrection
 qsharp.name: SteaneCodeRecoveryZ

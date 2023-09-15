@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.PermuteQubits
 title: PermuteQubits operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Permutes qubits by using the SWAP operation.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: PermuteQubits

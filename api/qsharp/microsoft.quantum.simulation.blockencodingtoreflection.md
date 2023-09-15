@@ -1,8 +1,16 @@
 ---
 uid: Microsoft.Quantum.Simulation.BlockEncodingToReflection
 title: BlockEncodingToReflection function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Converts a `BlockEncoding` into an equivalent `BLockEncodingReflection`.
+
+  That is, given a `BlockEncoding` unitary $U$ that encodes some
+  operator $H$ of interest, converts it into a `BlockEncodingReflection` $U'$ that
+  encodes the same operator, but also satisfies $U'^\dagger = U'$.
+  This increases the size of the auxiliary register of $U$ by one qubit.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Simulation
 qsharp.name: BlockEncodingToReflection

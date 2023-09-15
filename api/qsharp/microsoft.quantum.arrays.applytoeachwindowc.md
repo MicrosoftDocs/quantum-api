@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arrays.ApplyToEachWindowC
 title: ApplyToEachWindowC operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies an operation windowing over an input register. The modifier `C` indicates that the single-qubit operation is controllable.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: ApplyToEachWindowC

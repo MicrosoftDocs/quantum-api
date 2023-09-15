@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.MachineLearning.ApproximateInputEncoder
 title: ApproximateInputEncoder function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a set of coefficients and a tolerance, returns a state preparation
+  operation that prepares each coefficient as the corresponding amplitude
+  of a computational basis state, up to the given tolerance.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.MachineLearning
 qsharp.name: ApproximateInputEncoder

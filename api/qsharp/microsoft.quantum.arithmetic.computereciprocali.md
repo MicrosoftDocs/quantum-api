@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ComputeReciprocalI
 title: ComputeReciprocalI operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Computes the reciprocal 1/x for an unsigned integer x
+  using integer division. The result, interpreted as an integer,
+  will be `floor(2^(2*n-1) / x)`.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ComputeReciprocalI

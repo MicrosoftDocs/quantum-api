@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.ApplyToPartition
 title: ApplyToPartition operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies a pair of operations to a given partition of a register into two parts.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToPartition

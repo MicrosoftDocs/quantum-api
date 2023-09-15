@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.ApplyFunctionWithLookupTable
 title: ApplyFunctionWithLookupTable function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  This function creates a lookup table operator for the function that you want to approximate, as well as
+  the parameters required to make the two `FixedPoint` registers that need to be used as inputs to the operator.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: ApplyFunctionWithLookupTable

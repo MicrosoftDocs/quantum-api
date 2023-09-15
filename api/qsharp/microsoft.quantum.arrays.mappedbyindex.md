@@ -1,8 +1,13 @@
 ---
 uid: Microsoft.Quantum.Arrays.MappedByIndex
 title: MappedByIndex function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given an array and a function that is defined
+  for the indexed elements of the array, returns a new array that consists
+  of the images of the original array under the function.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: MappedByIndex

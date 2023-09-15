@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Random.TransformedContinuousDistribution
 title: TransformedContinuousDistribution function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Given a continuous distribution, returns a new distribution that
+  transforms the original by a given function.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Random
 qsharp.name: TransformedContinuousDistribution

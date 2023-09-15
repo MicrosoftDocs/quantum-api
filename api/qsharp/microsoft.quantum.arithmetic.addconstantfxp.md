@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Arithmetic.AddConstantFxP
 title: AddConstantFxP operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Adds a classical constant to a quantum fixed-point number.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arithmetic
 qsharp.name: AddConstantFxP

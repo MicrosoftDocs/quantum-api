@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Canon.ControlledOnInt
 title: ControlledOnInt function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a unitary operator that applies an oracle on the target register
+  if the control register state corresponds to a specified nonnegative integer.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ControlledOnInt

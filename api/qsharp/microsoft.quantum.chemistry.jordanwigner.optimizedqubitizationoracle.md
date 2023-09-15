@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Chemistry.JordanWigner.OptimizedQubitizationOracle
 title: OptimizedQubitizationOracle function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns T-count optimized Qubitization operation
+  and the parameters necessary to run it.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Chemistry.JordanWigner
 qsharp.name: OptimizedQubitizationOracle

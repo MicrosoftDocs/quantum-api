@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorI
 title: ExtendedGreatestCommonDivisorI function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns the GCD of two integers, decomposed into a linear combination.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Math
 qsharp.name: ExtendedGreatestCommonDivisorI

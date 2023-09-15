@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Extensions.Math.MaxB
 title: MaxB function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > MaxB has been deprecated. Please use <xref:Microsoft.Quantum.Math.MaxL> instead.
+
+  >
+
+  > Please use @"microsoft.quantum.math.maxl".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Extensions.Math
 qsharp.name: MaxB

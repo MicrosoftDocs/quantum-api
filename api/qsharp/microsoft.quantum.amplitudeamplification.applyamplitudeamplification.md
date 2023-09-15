@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.AmplitudeAmplification.ApplyAmplitudeAmplification
 title: ApplyAmplitudeAmplification operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Applies amplitude amplification on a given register, using a given set
+  of phases and oracles to reflect about the initial and final states.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.AmplitudeAmplification
 qsharp.name: ApplyAmplitudeAmplification

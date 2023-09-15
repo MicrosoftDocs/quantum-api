@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Logical.NotEqualCP
 title: NotEqualCP function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Returns true if and only if two inputs are not equal.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
 qsharp.name: NotEqualCP

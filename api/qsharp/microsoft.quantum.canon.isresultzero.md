@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Canon.IsResultZero
 title: IsResultZero function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Tests if a given Result value is equal to `Zero`.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: IsResultZero

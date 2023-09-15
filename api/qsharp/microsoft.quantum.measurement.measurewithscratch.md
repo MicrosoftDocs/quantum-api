@@ -1,8 +1,12 @@
 ---
 uid: Microsoft.Quantum.Measurement.MeasureWithScratch
 title: MeasureWithScratch operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Measures the given Pauli operator using an explicit scratch
+  qubit to perform the measurement.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
 qsharp.name: MeasureWithScratch

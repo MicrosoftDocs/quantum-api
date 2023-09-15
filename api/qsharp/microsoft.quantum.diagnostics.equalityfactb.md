@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Diagnostics.EqualityFactB
 title: EqualityFactB function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Asserts that a classical Bool variable has the expected value.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
 qsharp.name: EqualityFactB

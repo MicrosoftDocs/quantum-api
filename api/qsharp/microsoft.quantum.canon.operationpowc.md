@@ -1,8 +1,15 @@
 ---
 uid: Microsoft.Quantum.Canon.OperationPowC
 title: OperationPowC function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Raises an operation to a power.
+  The modifier `C` indicates that the operation is controllable.
+
+  That is, given an operation representing a gate $U$, returns a new operation
+  $U^m$ for a power $m$.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: OperationPowC

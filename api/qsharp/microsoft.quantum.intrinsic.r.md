@@ -1,8 +1,10 @@
 ---
 uid: Microsoft.Quantum.Intrinsic.R
 title: R operation
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: Applies a rotation about the given Pauli axis.
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: R
@@ -13,7 +15,7 @@ qsharp.summary: Applies a rotation about the given Pauli axis.
 
 Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
 
-Package: [Microsoft.Quantum.Type2.Core](https://nuget.org/packages/Microsoft.Quantum.Type2.Core)
+Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)
 
 
 Applies a rotation about the given Pauli axis.
@@ -36,7 +38,7 @@ Pauli operator ($\mu$) to be exponentiated to form the rotation.
 
 ### theta : [Double](xref:microsoft.quantum.qsharp.valueliterals#double-literals)
 
-Angle in radians about which the qubit is to be rotated.
+Angle about which the qubit is to be rotated.
 
 
 ### qubit : [Qubit](xref:microsoft.quantum.qsharp.valueliterals#qubit-literals)

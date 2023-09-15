@@ -1,8 +1,14 @@
 ---
 uid: Microsoft.Quantum.Canon.MultiplexerFromGenerator
 title: MultiplexerFromGenerator function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >-
+  Returns a multiply-controlled unitary operation $U$ that applies a
+  unitary $V_j$ when controlled by n-qubit number state $\ket{j}$.
+
+  $U = \sum^{2^n-1}_{j=0}\ket{j}\bra{j}\otimes V_j$.
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: MultiplexerFromGenerator

@@ -1,8 +1,18 @@
 ---
 uid: Microsoft.Quantum.Canon.BigEndianToLittleEndian
 title: BigEndianToLittleEndian function
-ms.date: 7/28/2023 12:00:00 AM
+ms.date: 09/14/2023
 ms.topic: managed-reference
+ms.author: quantumdocwriters
+description: >+
+  > [!WARNING]
+
+  > BigEndianToLittleEndian has been deprecated. Please use <xref:Microsoft.Quantum.Arithmetic.BigEndianAsLittleEndian> instead.
+
+  >
+
+  > Please use @"Microsoft.Quantum.Arithmetic.BigEndianAsLittleEndian".
+
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: BigEndianToLittleEndian
