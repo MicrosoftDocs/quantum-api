@@ -4,7 +4,7 @@ title: Q# libraries for Microsoft Quantum
 description: Reference documentation for the Q# libraries for Microsoft Quantum
 author: bradben
 ms.author: brbenefield
-ms.date: 10/`9/2023
+ms.date: 10/19/2023
 ms.topic: landing-page
 ---
 
