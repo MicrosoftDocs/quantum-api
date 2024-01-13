@@ -41,8 +41,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.service": "qsharp",
       "show_latex": true,
-      "ms.prod": "qsharp",
       "ms.topic": "managed-reference",
       "ms.devlang":"qsharp",
       "uhfHeaderId": "Azure",
