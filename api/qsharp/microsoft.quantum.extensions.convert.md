@@ -12,6 +12,11 @@ qsharp.summary: >-
 
 # Microsoft.Quantum.Extensions.Convert namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 These are some of the functions from System.Convert namespace of .NET CLR
 that are relevant within Q# type system.
 

@@ -10,6 +10,11 @@ qsharp.summary: These functions provide information about the environment in whi
 
 # Microsoft.Quantum.Environment namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 These functions provide information about the environment in which the quantum computation is occuring.
 
 

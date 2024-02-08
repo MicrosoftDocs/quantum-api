@@ -18,6 +18,11 @@ ms.topic: managed-reference
 
 # `%debug`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Steps through the execution of a given Q# operation or function.

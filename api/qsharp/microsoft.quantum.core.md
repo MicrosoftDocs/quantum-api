@@ -10,6 +10,11 @@ qsharp.summary: This namespace includes Q# core functions and operations.
 
 # Microsoft.Quantum.Core namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 This namespace includes Q# core functions and operations.
 
 

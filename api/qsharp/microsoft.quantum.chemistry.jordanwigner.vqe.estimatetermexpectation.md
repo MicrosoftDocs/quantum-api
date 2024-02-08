@@ -11,6 +11,11 @@ qsharp.summary: Computes the energy associated to a given Jordan-Wigner Hamilton
 
 # EstimateTermExpectation operation
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 Namespace: [Microsoft.Quantum.Chemistry.JordanWigner.VQE](xref:Microsoft.Quantum.Chemistry.JordanWigner.VQE)
 
 Package: [Microsoft.Quantum.Chemistry](https://nuget.org/packages/Microsoft.Quantum.Chemistry)

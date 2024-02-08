@@ -11,6 +11,11 @@ qsharp.summary: Given two operations, applies one as conjugated with the other.
 
 # ApplyWithA operation
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
 
 Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)

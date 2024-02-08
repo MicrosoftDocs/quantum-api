@@ -18,6 +18,11 @@ ms.topic: managed-reference
 
 # `%performance`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Reports current performance metrics for this kernel.

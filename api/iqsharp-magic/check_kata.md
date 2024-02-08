@@ -18,6 +18,11 @@ ms.topic: managed-reference
 
 # `%check_kata`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Checks the reference implementation for a single kata's test.

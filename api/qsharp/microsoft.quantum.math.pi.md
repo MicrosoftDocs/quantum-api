@@ -11,6 +11,11 @@ qsharp.summary: Represents the ratio of the circumference of a circle to its dia
 
 # PI function
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 Namespace: [Microsoft.Quantum.Math](xref:Microsoft.Quantum.Math)
 
 Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Microsoft.Quantum.QSharp.Foundation)

@@ -12,6 +12,11 @@ qsharp.summary: >-
 
 # Microsoft.Quantum.ErrorCorrection namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 This namespace contains functions, operations, and user-defined types for
 quantum error correction.
 
