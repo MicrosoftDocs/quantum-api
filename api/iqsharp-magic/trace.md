@@ -18,6 +18,11 @@ ms.topic: managed-reference
 
 # `%trace`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Visualizes the execution path of the given operation.

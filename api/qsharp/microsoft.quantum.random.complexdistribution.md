@@ -11,6 +11,11 @@ qsharp.summary: Represents a univariate probability distribution over complex nu
 
 # ComplexDistribution user defined type
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 Namespace: [Microsoft.Quantum.Random](xref:Microsoft.Quantum.Random)
 
 Package: [Microsoft.Quantum.QSharp.Foundation](https://nuget.org/packages/Microsoft.Quantum.QSharp.Foundation)

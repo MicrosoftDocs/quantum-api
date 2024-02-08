@@ -19,6 +19,11 @@ ms.topic: managed-reference
 
 # `%chemistry.fh.load`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Loads the fermion Hamiltonian for an electronic structure problem. The problem is loaded from a file or passed as an argument.

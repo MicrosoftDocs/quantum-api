@@ -19,6 +19,11 @@ ms.topic: managed-reference
 
 # `%chemistry.inputstate.load`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Loads Broombridge electronic structure problem and returns selected input state.

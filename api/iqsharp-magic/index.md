@@ -8,6 +8,11 @@ ms.date: 07/28/2023
 ms.topic: article
 ---
 # IQ# Magic Commands
+
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
 | Magic Command | Summary |
 |---------------|---------|
 | [`%azure.connect`](xref:microsoft.quantum.iqsharp.magic-ref.azure.connect) | Connects to an Azure Quantum workspace or displays current connection status. |

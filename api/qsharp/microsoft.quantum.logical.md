@@ -10,6 +10,11 @@ qsharp.summary: Contains functions for working with logical expressions and Bool
 
 # Microsoft.Quantum.Logical namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 Contains functions for working with logical expressions and Boolean logic.
 
 

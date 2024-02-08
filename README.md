@@ -1,6 +1,6 @@
 > **ℹ️ NOTE**:
-> This repository only contains automatically generated API documentation, and thus cannot accept contributions.
-> If you would like to contribute to the API documentation in this repo, please see the [Quantum Development Kit contribution guide](https://docs.microsoft.com/azure/quantum/contributing-docs#contributing-to-the-api-references) to learn more.
+> This repository only contains automatically generated API documentation, and thus cannot accept external pull requests.
+> If you would like to report issues or contribute to the API documentation, please see the [Contributing to Q#]([https://github.com/microsoft/qsharp/blob/main/CONTRIBUTING.md) to learn more.
 
 ## Microsoft Open Source Code of Conduct
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).

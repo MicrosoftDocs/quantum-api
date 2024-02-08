@@ -12,6 +12,11 @@ qsharp.summary: >-
 
 # Microsoft.Quantum.Research.Characterization namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 This namespace provides advanced research methods for quantum
 characterization and phase estimation.
 

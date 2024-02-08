@@ -19,6 +19,11 @@ ms.topic: managed-reference
 
 # `%qir`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Compiles a given Q# entry point to QIR, saving the resulting QIR to a given file.

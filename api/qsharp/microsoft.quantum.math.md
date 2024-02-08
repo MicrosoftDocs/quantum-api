@@ -10,6 +10,11 @@ qsharp.summary: This namespace contains classical mathematical functions and dat
 
 # Microsoft.Quantum.Math namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 This namespace contains classical mathematical functions and data types.
 
 

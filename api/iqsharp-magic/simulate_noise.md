@@ -19,6 +19,11 @@ ms.topic: managed-reference
 
 # `%simulate_noise`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Runs a given function or operation on the OpenSystemsSimulator target machine.

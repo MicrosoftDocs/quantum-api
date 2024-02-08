@@ -18,6 +18,11 @@ ms.topic: managed-reference
 
 # `%simulate`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Runs a given function or operation on the QuantumSimulator target machine.
