@@ -13,6 +13,11 @@ qsharp.summary: >-
 
 # Microsoft.Quantum.Oracles namespace
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 This namespace provides user-defined types to decorate various kinds of
 oracles by their intended use in quantum algorithms such as phase estimation
 and amplitude amplification.

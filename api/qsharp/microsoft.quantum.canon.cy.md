@@ -11,6 +11,11 @@ qsharp.summary: Applies the controlled-Y (CY) gate to a pair of qubits.
 
 # CY operation
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
 
 Package: [Microsoft.Quantum.Type3.Core](https://nuget.org/packages/Microsoft.Quantum.Type3.Core)

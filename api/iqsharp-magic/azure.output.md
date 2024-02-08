@@ -18,6 +18,11 @@ ms.topic: managed-reference
 
 # `%azure.output`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Displays results for a job in the current Azure Quantum workspace.

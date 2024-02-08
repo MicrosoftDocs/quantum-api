@@ -19,6 +19,11 @@ ms.topic: managed-reference
 
 # `%chemistry.broombridge`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Loads and returns Broombridge electronic structure problem representation from a given .yaml file.

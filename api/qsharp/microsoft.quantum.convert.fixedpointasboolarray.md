@@ -11,6 +11,11 @@ qsharp.summary: Computes fixed-point approximation for a double and returns it a
 
 # FixedPointAsBoolArray function
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
+
 Namespace: [Microsoft.Quantum.Convert](xref:Microsoft.Quantum.Convert)
 
 Package: [Microsoft.Quantum.Numerics](https://nuget.org/packages/Microsoft.Quantum.Numerics)

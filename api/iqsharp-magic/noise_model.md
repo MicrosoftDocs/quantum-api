@@ -19,6 +19,11 @@ ms.topic: managed-reference
 
 # `%noise_model`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Gets, sets, saves, or loads a noise model used in simulating quantum operations.

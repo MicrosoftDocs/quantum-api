@@ -18,6 +18,11 @@ ms.topic: managed-reference
 
 # `%lsmagic`
 
+> [!WARNING]
+> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
+>
+> The Modern QDK only supports the '%%qsharp' magic command.
+
 ## Summary
 
 Returns a list of all currently available magic commands.
