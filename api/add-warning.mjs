@@ -6,19 +6,18 @@ const apiWarning = `
 > [!WARNING]
 > This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
 >
-> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.  `;
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.`;
 
 const magicWarning = `
 > [!WARNING]
 > This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
 >
-> The Modern QDK only supports the '%%qsharp' magic command.  `;
+> The Modern QDK only supports the '%%qsharp' magic command.`;
 
 const updateLimit = 100000;
 
 updateFiles("iqsharp-magic", magicWarning);
 updateFiles("qsharp", apiWarning);
-
 
 /**
  * @param {string} dirName
@@ -47,7 +46,9 @@ function updateFiles(dirName, warningText) {
       if (line === "---") {
         dashesFound++;
         if (dashesFound > 2) {
-          throw Error("Found more than two lines of dashes in the file before the main header");
+          throw Error(
+            "Found more than two lines of dashes in the file before the main header"
+          );
         }
       }
       if (line.startsWith("# ") && dashesFound === 2) {
@@ -66,6 +67,6 @@ function updateFiles(dirName, warningText) {
     // Write the file back to disk
     writeFileSync(fileName, lines.join("\n"));
 
-    if(++updatedFiles > updateLimit) return;
+    if (++updatedFiles > updateLimit) throw new Error("Update file limit reached");
   }
 }
