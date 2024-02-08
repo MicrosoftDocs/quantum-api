@@ -6,7 +6,7 @@ const apiWarning = `
 > [!WARNING]
 > This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
 >
-> Please see https://aka.ms/qdk.api for the API documentation for the Modern QDK.
+> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
 `;
 
 const magicWarning = `
@@ -16,21 +16,23 @@ const magicWarning = `
 > The Modern QDK only supports the '%%qsharp' magic command.
 `;
 
-updateFiles("qsharp", apiWarning);
 updateFiles("iqsharp-magic", magicWarning);
+updateFiles("qsharp", apiWarning);
 
 /**
- * @param {string} dirName 
- * @param {string} warningText 
+ * @param {string} dirName
+ * @param {string} warningText
  */
 function updateFiles(dirName, warningText) {
   // loop over all files in the "qsharp" directory
-  const files = readdirSync("qsharp");
+  const files = readdirSync(dirName);
   for (const file of files) {
     if (!file.endsWith(".md")) continue;
 
+    const fileName = `${dirName}/${file}`;
+
     // read the file
-    const content = readFileSync(file, "utf8");
+    const content = readFileSync(fileName, "utf8");
 
     // Find the location of the second line consistenting of just "---"
     const lines = content.split("\n");
@@ -52,8 +54,8 @@ function updateFiles(dirName, warningText) {
     }
 
     // Insert a warning message
-    lines.splice(insertIndex, 0, "WARNING: This file is not yet complete.");
+    lines.splice(insertIndex, 0, warningText);
     // Write the file back to disk
-    writeFileSync(file, lines.join("\n"));
+    writeFileSync(fileName, lines.join("\n"));
   }
 }
