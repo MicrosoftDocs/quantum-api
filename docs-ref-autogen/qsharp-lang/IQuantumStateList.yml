@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: IQuantumStateList
+uid: qsharp-lang.IQuantumStateList
+package: qsharp-lang
+summary: ''
+fullName: IQuantumStateList
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: entries
+    uid: qsharp-lang.IQuantumStateList.entries
+    package: qsharp-lang
+    summary: ''
+    fullName: entries
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'entries: IQuantumState[]'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.IQuantumState" />[]

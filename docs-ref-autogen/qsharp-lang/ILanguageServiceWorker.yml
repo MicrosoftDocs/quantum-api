@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ILanguageServiceWorker
+uid: qsharp-lang.ILanguageServiceWorker
+package: qsharp-lang
+summary: ''
+fullName: ILanguageServiceWorker
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ILanguageServiceWorker = ILanguageService & IServiceProxy

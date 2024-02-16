@@ -1,0 +1,34 @@
+### YamlMime:TSType
+name: ILocation
+uid: qsharp-lang.ILocation
+package: qsharp-lang
+summary: ''
+fullName: ILocation
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: source
+    uid: qsharp-lang.ILocation.source
+    package: qsharp-lang
+    summary: ''
+    fullName: source
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'source: string'
+      return:
+        description: ''
+        type: string
+  - name: span
+    uid: qsharp-lang.ILocation.span
+    package: qsharp-lang
+    summary: ''
+    fullName: span
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'span: IRange'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.IRange" />

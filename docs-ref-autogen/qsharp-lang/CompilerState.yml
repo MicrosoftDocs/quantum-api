@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: CompilerState
+uid: qsharp-lang.CompilerState
+package: qsharp-lang
+summary: ''
+fullName: CompilerState
+remarks: ''
+isDeprecated: false
+syntax: |
+  type CompilerState = ServiceState

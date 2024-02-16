@@ -1,0 +1,46 @@
+### YamlMime:TSType
+name: ISignatureHelp
+uid: qsharp-lang.ISignatureHelp
+package: qsharp-lang
+summary: ''
+fullName: ISignatureHelp
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: activeParameter
+    uid: qsharp-lang.ISignatureHelp.activeParameter
+    package: qsharp-lang
+    summary: ''
+    fullName: activeParameter
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'activeParameter: number'
+      return:
+        description: ''
+        type: number
+  - name: activeSignature
+    uid: qsharp-lang.ISignatureHelp.activeSignature
+    package: qsharp-lang
+    summary: ''
+    fullName: activeSignature
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'activeSignature: number'
+      return:
+        description: ''
+        type: number
+  - name: signatures
+    uid: qsharp-lang.ISignatureHelp.signatures
+    package: qsharp-lang
+    summary: ''
+    fullName: signatures
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'signatures: ISignatureInformation[]'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.ISignatureInformation" />[]

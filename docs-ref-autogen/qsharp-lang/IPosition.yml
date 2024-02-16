@@ -1,0 +1,34 @@
+### YamlMime:TSType
+name: IPosition
+uid: qsharp-lang.IPosition
+package: qsharp-lang
+summary: ''
+fullName: IPosition
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: character
+    uid: qsharp-lang.IPosition.character
+    package: qsharp-lang
+    summary: ''
+    fullName: character
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'character: number'
+      return:
+        description: ''
+        type: number
+  - name: line
+    uid: qsharp-lang.IPosition.line
+    package: qsharp-lang
+    summary: ''
+    fullName: line
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'line: number'
+      return:
+        description: ''
+        type: number

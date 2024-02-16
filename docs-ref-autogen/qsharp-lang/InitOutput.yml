@@ -1,0 +1,508 @@
+### YamlMime:TSType
+name: InitOutput
+uid: qsharp-lang.InitOutput
+package: qsharp-lang
+summary: ''
+fullName: InitOutput
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: check_exercise_solution
+    uid: qsharp-lang.InitOutput.check_exercise_solution
+    package: qsharp-lang
+    summary: ''
+    fullName: check_exercise_solution
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        check_exercise_solution: (a: number, b: number, c: number, d: number) =>
+        number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number) =&gt; number'
+  - name: debugservice_capture_quantum_state
+    uid: qsharp-lang.InitOutput.debugservice_capture_quantum_state
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_capture_quantum_state
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'debugservice_capture_quantum_state: (a: number) => number'
+      return:
+        description: ''
+        type: '(a: number) =&gt; number'
+  - name: debugservice_eval_continue
+    uid: qsharp-lang.InitOutput.debugservice_eval_continue
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_eval_continue
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        debugservice_eval_continue: (a: number, b: number, c: number, d: number,
+        e: number) => void
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number, e: number) =&gt; void'
+  - name: debugservice_eval_next
+    uid: qsharp-lang.InitOutput.debugservice_eval_next
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_eval_next
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        debugservice_eval_next: (a: number, b: number, c: number, d: number, e:
+        number) => void
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number, e: number) =&gt; void'
+  - name: debugservice_eval_step_in
+    uid: qsharp-lang.InitOutput.debugservice_eval_step_in
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_eval_step_in
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        debugservice_eval_step_in: (a: number, b: number, c: number, d: number,
+        e: number) => void
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number, e: number) =&gt; void'
+  - name: debugservice_eval_step_out
+    uid: qsharp-lang.InitOutput.debugservice_eval_step_out
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_eval_step_out
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        debugservice_eval_step_out: (a: number, b: number, c: number, d: number,
+        e: number) => void
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number, e: number) =&gt; void'
+  - name: debugservice_get_breakpoints
+    uid: qsharp-lang.InitOutput.debugservice_get_breakpoints
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_get_breakpoints
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        debugservice_get_breakpoints: (a: number, b: number, c: number) =>
+        number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; number'
+  - name: debugservice_get_locals
+    uid: qsharp-lang.InitOutput.debugservice_get_locals
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_get_locals
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'debugservice_get_locals: (a: number) => number'
+      return:
+        description: ''
+        type: '(a: number) =&gt; number'
+  - name: debugservice_get_stack_frames
+    uid: qsharp-lang.InitOutput.debugservice_get_stack_frames
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_get_stack_frames
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'debugservice_get_stack_frames: (a: number) => number'
+      return:
+        description: ''
+        type: '(a: number) =&gt; number'
+  - name: debugservice_load_source
+    uid: qsharp-lang.InitOutput.debugservice_load_source
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_load_source
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        debugservice_load_source: (a: number, b: number, c: number, d: number,
+        e: number, f: number, g: number, h: number) => void
+      return:
+        description: ''
+        type: >-
+          (a: number, b: number, c: number, d: number, e: number, f: number, g:
+          number, h: number) =&gt; void
+  - name: debugservice_new
+    uid: qsharp-lang.InitOutput.debugservice_new
+    package: qsharp-lang
+    summary: ''
+    fullName: debugservice_new
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'debugservice_new: () => number'
+      return:
+        description: ''
+        type: () =&gt; number
+  - name: get_estimates
+    uid: qsharp-lang.InitOutput.get_estimates
+    package: qsharp-lang
+    summary: ''
+    fullName: get_estimates
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        get_estimates: (a: number, b: number, c: number, d: number, e: number)
+        => void
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number, e: number) =&gt; void'
+  - name: get_hir
+    uid: qsharp-lang.InitOutput.get_hir
+    package: qsharp-lang
+    summary: ''
+    fullName: get_hir
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'get_hir: (a: number, b: number, c: number) => void'
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; void'
+  - name: get_library_source_content
+    uid: qsharp-lang.InitOutput.get_library_source_content
+    package: qsharp-lang
+    summary: ''
+    fullName: get_library_source_content
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'get_library_source_content: (a: number, b: number, c: number) => void'
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; void'
+  - name: get_qir
+    uid: qsharp-lang.InitOutput.get_qir
+    package: qsharp-lang
+    summary: ''
+    fullName: get_qir
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'get_qir: (a: number, b: number, c: number) => void'
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; void'
+  - name: git_hash
+    uid: qsharp-lang.InitOutput.git_hash
+    package: qsharp-lang
+    summary: ''
+    fullName: git_hash
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'git_hash: (a: number) => void'
+      return:
+        description: ''
+        type: '(a: number) =&gt; void'
+  - name: initLogging
+    uid: qsharp-lang.InitOutput.initLogging
+    package: qsharp-lang
+    summary: ''
+    fullName: initLogging
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'initLogging: (a: number, b: number, c: number) => void'
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; void'
+  - name: languageservice_close_document
+    uid: qsharp-lang.InitOutput.languageservice_close_document
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_close_document
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_close_document: (a: number, b: number, c: number) =>
+        void
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; void'
+  - name: languageservice_close_notebook_document
+    uid: qsharp-lang.InitOutput.languageservice_close_notebook_document
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_close_notebook_document
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_close_notebook_document: (a: number, b: number, c:
+        number) => void
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; void'
+  - name: languageservice_get_completions
+    uid: qsharp-lang.InitOutput.languageservice_get_completions
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_get_completions
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_get_completions: (a: number, b: number, c: number, d:
+        number) => number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number) =&gt; number'
+  - name: languageservice_get_definition
+    uid: qsharp-lang.InitOutput.languageservice_get_definition
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_get_definition
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_get_definition: (a: number, b: number, c: number, d:
+        number) => number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number) =&gt; number'
+  - name: languageservice_get_hover
+    uid: qsharp-lang.InitOutput.languageservice_get_hover
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_get_hover
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_get_hover: (a: number, b: number, c: number, d: number)
+        => number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number) =&gt; number'
+  - name: languageservice_get_references
+    uid: qsharp-lang.InitOutput.languageservice_get_references
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_get_references
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_get_references: (a: number, b: number, c: number, d:
+        number, e: number, f: number) => void
+      return:
+        description: ''
+        type: >-
+          (a: number, b: number, c: number, d: number, e: number, f: number)
+          =&gt; void
+  - name: languageservice_get_rename
+    uid: qsharp-lang.InitOutput.languageservice_get_rename
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_get_rename
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_get_rename: (a: number, b: number, c: number, d: number,
+        e: number, f: number) => number
+      return:
+        description: ''
+        type: >-
+          (a: number, b: number, c: number, d: number, e: number, f: number)
+          =&gt; number
+  - name: languageservice_get_signature_help
+    uid: qsharp-lang.InitOutput.languageservice_get_signature_help
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_get_signature_help
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_get_signature_help: (a: number, b: number, c: number, d:
+        number) => number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number) =&gt; number'
+  - name: languageservice_new
+    uid: qsharp-lang.InitOutput.languageservice_new
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_new
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'languageservice_new: () => number'
+      return:
+        description: ''
+        type: () =&gt; number
+  - name: languageservice_prepare_rename
+    uid: qsharp-lang.InitOutput.languageservice_prepare_rename
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_prepare_rename
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_prepare_rename: (a: number, b: number, c: number, d:
+        number) => number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number) =&gt; number'
+  - name: languageservice_start_background_work
+    uid: qsharp-lang.InitOutput.languageservice_start_background_work
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_start_background_work
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_start_background_work: (a: number, b: number, c: number,
+        d: number, e: number) => number
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number, d: number, e: number) =&gt; number'
+  - name: languageservice_stop_background_work
+    uid: qsharp-lang.InitOutput.languageservice_stop_background_work
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_stop_background_work
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'languageservice_stop_background_work: (a: number) => void'
+      return:
+        description: ''
+        type: '(a: number) =&gt; void'
+  - name: languageservice_update_configuration
+    uid: qsharp-lang.InitOutput.languageservice_update_configuration
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_update_configuration
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'languageservice_update_configuration: (a: number, b: number) => void'
+      return:
+        description: ''
+        type: '(a: number, b: number) =&gt; void'
+  - name: languageservice_update_document
+    uid: qsharp-lang.InitOutput.languageservice_update_document
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_update_document
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_update_document: (a: number, b: number, c: number, d:
+        number, e: number, f: number) => void
+      return:
+        description: ''
+        type: >-
+          (a: number, b: number, c: number, d: number, e: number, f: number)
+          =&gt; void
+  - name: languageservice_update_notebook_document
+    uid: qsharp-lang.InitOutput.languageservice_update_notebook_document
+    package: qsharp-lang
+    summary: ''
+    fullName: languageservice_update_notebook_document
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        languageservice_update_notebook_document: (a: number, b: number, c:
+        number, d: number, e: number, f: number) => void
+      return:
+        description: ''
+        type: >-
+          (a: number, b: number, c: number, d: number, e: number, f: number)
+          =&gt; void
+  - name: memory
+    uid: qsharp-lang.InitOutput.memory
+    package: qsharp-lang
+    summary: ''
+    fullName: memory
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'memory: Memory'
+      return:
+        description: ''
+        type: Memory
+  - name: projectloader_load_project
+    uid: qsharp-lang.InitOutput.projectloader_load_project
+    package: qsharp-lang
+    summary: ''
+    fullName: projectloader_load_project
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'projectloader_load_project: (a: number, b: number) => number'
+      return:
+        description: ''
+        type: '(a: number, b: number) =&gt; number'
+  - name: projectloader_new
+    uid: qsharp-lang.InitOutput.projectloader_new
+    package: qsharp-lang
+    summary: ''
+    fullName: projectloader_new
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'projectloader_new: (a: number, b: number, c: number) => number'
+      return:
+        description: ''
+        type: '(a: number, b: number, c: number) =&gt; number'
+  - name: run
+    uid: qsharp-lang.InitOutput.run
+    package: qsharp-lang
+    summary: ''
+    fullName: run
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        run: (a: number, b: number, c: number, d: number, e: number, f: number,
+        g: number) => void
+      return:
+        description: ''
+        type: >-
+          (a: number, b: number, c: number, d: number, e: number, f: number, g:
+          number) =&gt; void
+  - name: setLogLevel
+    uid: qsharp-lang.InitOutput.setLogLevel
+    package: qsharp-lang
+    summary: ''
+    fullName: setLogLevel
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'setLogLevel: (a: number) => void'
+      return:
+        description: ''
+        type: '(a: number) =&gt; void'

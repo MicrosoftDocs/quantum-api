@@ -1,0 +1,19 @@
+### YamlMime:TSTypeAlias
+name: SingleEstimateResult
+uid: qsharp-lang.SingleEstimateResult
+package: qsharp-lang
+summary: ''
+fullName: SingleEstimateResult
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SingleEstimateResult = {
+    errorBudget: any
+    jobParams: any
+    logicalCounts: any
+    logicalQubit: any
+    physicalCounts: any
+    physicalCountsFormatted: any
+    status: string
+    tfactory: any
+  }

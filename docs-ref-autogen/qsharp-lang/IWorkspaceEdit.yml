@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: IWorkspaceEdit
+uid: qsharp-lang.IWorkspaceEdit
+package: qsharp-lang
+summary: ''
+fullName: IWorkspaceEdit
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: changes
+    uid: qsharp-lang.IWorkspaceEdit.changes
+    package: qsharp-lang
+    summary: ''
+    fullName: changes
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'changes: [string, ITextEdit[]][]'
+      return:
+        description: ''
+        type: '[string, ITextEdit[]][]'

@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: Result
+uid: qsharp-lang.Result
+package: qsharp-lang
+summary: ''
+fullName: Result
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Result =
+    | { success: true; value: string }
+    | { success: false; value: VSDiagnostic }

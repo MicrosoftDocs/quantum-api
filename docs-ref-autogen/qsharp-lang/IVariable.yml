@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: IVariable
+uid: qsharp-lang.IVariable
+package: qsharp-lang
+summary: ''
+fullName: IVariable
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: name
+    uid: qsharp-lang.IVariable.name
+    package: qsharp-lang
+    summary: ''
+    fullName: name
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: qsharp-lang.IVariable.value
+    package: qsharp-lang
+    summary: ''
+    fullName: value
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'value: string'
+      return:
+        description: ''
+        type: string
+  - name: var_type
+    uid: qsharp-lang.IVariable.var_type
+    package: qsharp-lang
+    summary: ''
+    fullName: var_type
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        var_type: "Result" | "Array" | "BigInt" | "Bool" | "Closure" | "Double"
+        | "Global" | "Int" | "Pauli" | "Qubit" | "Range" | "String" | "Tuple"
+      return:
+        description: ''
+        type: >-
+          "Result" | "Array" | "BigInt" | "Bool" | "Closure" | "Double" |
+          "Global" | "Int" | "Pauli" | "Qubit" | "Range" | "String" | "Tuple"

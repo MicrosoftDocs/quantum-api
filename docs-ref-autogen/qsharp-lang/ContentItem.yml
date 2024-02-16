@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ContentItem
+uid: qsharp-lang.ContentItem
+package: qsharp-lang
+summary: ''
+fullName: ContentItem
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ContentItem = Example | TextContent

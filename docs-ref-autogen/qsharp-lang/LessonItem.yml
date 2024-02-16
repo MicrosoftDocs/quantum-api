@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: LessonItem
+uid: qsharp-lang.LessonItem
+package: qsharp-lang
+summary: ''
+fullName: LessonItem
+remarks: ''
+isDeprecated: false
+syntax: |
+  type LessonItem = ContentItem | Question

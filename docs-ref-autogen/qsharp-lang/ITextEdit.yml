@@ -1,0 +1,34 @@
+### YamlMime:TSType
+name: ITextEdit
+uid: qsharp-lang.ITextEdit
+package: qsharp-lang
+summary: ''
+fullName: ITextEdit
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: newText
+    uid: qsharp-lang.ITextEdit.newText
+    package: qsharp-lang
+    summary: ''
+    fullName: newText
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'newText: string'
+      return:
+        description: ''
+        type: string
+  - name: range
+    uid: qsharp-lang.ITextEdit.range
+    package: qsharp-lang
+    summary: ''
+    fullName: range
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'range: IRange'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.IRange" />

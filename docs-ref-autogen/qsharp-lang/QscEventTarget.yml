@@ -1,0 +1,132 @@
+### YamlMime:TSType
+name: QscEventTarget
+uid: qsharp-lang.QscEventTarget
+package: qsharp-lang
+summary: ''
+fullName: QscEventTarget
+remarks: ''
+isDeprecated: false
+type: class
+constructors:
+  - name: QscEventTarget(boolean)
+    uid: qsharp-lang.QscEventTarget.constructor
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'new QscEventTarget(captureEvents: boolean)'
+      parameters:
+        - id: captureEvents
+          type: boolean
+          description: Set to true if this instance should record events internally
+methods:
+  - name: >-
+      addEventListener<T>(T, (event: Extract<Event & { detail: string, type:
+      "Message" }, { type: T }> | Extract<Event & { detail: Dump, type:
+      "DumpMachine" }, { type: T }> | Extract<Event & { detail: Result, type:
+      "Result" }, { type: T }> | Extract<Event & { detail: TelemetryEvent, type:
+      "telemetry-event" }, { type: T }>) => void)
+    uid: qsharp-lang.QscEventTarget.addEventListener
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function addEventListener<T>(type: T, listener: (event: Extract<Event &
+        { detail: string, type: "Message" }, { type: T }> | Extract<Event & {
+        detail: Dump, type: "DumpMachine" }, { type: T }> | Extract<Event & {
+        detail: Result, type: "Result" }, { type: T }> | Extract<Event & {
+        detail: TelemetryEvent, type: "telemetry-event" }, { type: T }>) =>
+        void)
+      parameters:
+        - id: type
+          type: T
+          description: ''
+        - id: listener
+          type: >-
+            (event: Extract&lt;Event & { detail: string, type: "Message" }, {
+            type: T }&gt; | Extract&lt;Event & { detail: Dump, type:
+            "DumpMachine" }, { type: T }&gt; | Extract&lt;Event & { detail:
+            Result, type: "Result" }, { type: T }&gt; | Extract&lt;Event & {
+            detail: TelemetryEvent, type: "telemetry-event" }, { type: T }&gt;)
+            =&gt; void
+          description: ''
+  - name: clearResults()
+    uid: qsharp-lang.QscEventTarget.clearResults
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: function clearResults()
+  - name: dispatchEvent(QscUiEvents)
+    uid: qsharp-lang.QscEventTarget.dispatchEvent
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function dispatchEvent(event: QscUiEvents): boolean'
+      parameters:
+        - id: event
+          type: QscUiEvents
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: getResults()
+    uid: qsharp-lang.QscEventTarget.getResults
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function getResults(): ShotResult[]'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.ShotResult" />[]
+  - name: >-
+      removeEventListener<T>(T, (event: Extract<Event & { detail: string, type:
+      "Message" }, { type: T }> | Extract<Event & { detail: Dump, type:
+      "DumpMachine" }, { type: T }> | Extract<Event & { detail: Result, type:
+      "Result" }, { type: T }> | Extract<Event & { detail: TelemetryEvent, type:
+      "telemetry-event" }, { type: T }>) => void)
+    uid: qsharp-lang.QscEventTarget.removeEventListener
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function removeEventListener<T>(type: T, listener: (event: Extract<Event
+        & { detail: string, type: "Message" }, { type: T }> | Extract<Event & {
+        detail: Dump, type: "DumpMachine" }, { type: T }> | Extract<Event & {
+        detail: Result, type: "Result" }, { type: T }> | Extract<Event & {
+        detail: TelemetryEvent, type: "telemetry-event" }, { type: T }>) =>
+        void)
+      parameters:
+        - id: type
+          type: T
+          description: ''
+        - id: listener
+          type: >-
+            (event: Extract&lt;Event & { detail: string, type: "Message" }, {
+            type: T }&gt; | Extract&lt;Event & { detail: Dump, type:
+            "DumpMachine" }, { type: T }&gt; | Extract&lt;Event & { detail:
+            Result, type: "Result" }, { type: T }&gt; | Extract&lt;Event & {
+            detail: TelemetryEvent, type: "telemetry-event" }, { type: T }&gt;)
+            =&gt; void
+          description: ''
+  - name: resultCount()
+    uid: qsharp-lang.QscEventTarget.resultCount
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function resultCount(): number'
+      return:
+        description: ''
+        type: number

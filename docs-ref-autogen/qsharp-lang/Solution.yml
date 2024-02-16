@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Solution
+uid: qsharp-lang.Solution
+package: qsharp-lang
+summary: ''
+fullName: Solution
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Solution = { code: string; id: string; type: "solution" }

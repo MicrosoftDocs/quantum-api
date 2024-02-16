@@ -1,0 +1,185 @@
+### YamlMime:TSType
+name: QSharpDebugService
+uid: qsharp-lang.QSharpDebugService
+package: qsharp-lang
+summary: ''
+fullName: QSharpDebugService
+remarks: ''
+isDeprecated: false
+type: class
+constructors:
+  - name: QSharpDebugService(__module)
+    uid: qsharp-lang.QSharpDebugService.constructor
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'new QSharpDebugService(wasm: __module)'
+      parameters:
+        - id: wasm
+          type: __module
+          description: ''
+methods:
+  - name: captureQuantumState()
+    uid: qsharp-lang.QSharpDebugService.captureQuantumState
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function captureQuantumState(): Promise<IQuantumState[]>'
+      return:
+        description: ''
+        type: Promise&lt;IQuantumState[]&gt;
+  - name: dispose()
+    uid: qsharp-lang.QSharpDebugService.dispose
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function dispose(): Promise<void>'
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: evalContinue(number[], IQscEventTarget)
+    uid: qsharp-lang.QSharpDebugService.evalContinue
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function evalContinue(bps: number[], eventHandler: IQscEventTarget):
+        Promise<IStructStepResult>
+      parameters:
+        - id: bps
+          type: number[]
+          description: ''
+        - id: eventHandler
+          type: <xref uid="qsharp-lang.IQscEventTarget" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;IStructStepResult&gt;
+  - name: evalNext(number[], IQscEventTarget)
+    uid: qsharp-lang.QSharpDebugService.evalNext
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function evalNext(bps: number[], eventHandler: IQscEventTarget):
+        Promise<IStructStepResult>
+      parameters:
+        - id: bps
+          type: number[]
+          description: ''
+        - id: eventHandler
+          type: <xref uid="qsharp-lang.IQscEventTarget" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;IStructStepResult&gt;
+  - name: evalStepIn(number[], IQscEventTarget)
+    uid: qsharp-lang.QSharpDebugService.evalStepIn
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function evalStepIn(bps: number[], eventHandler: IQscEventTarget):
+        Promise<IStructStepResult>
+      parameters:
+        - id: bps
+          type: number[]
+          description: ''
+        - id: eventHandler
+          type: <xref uid="qsharp-lang.IQscEventTarget" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;IStructStepResult&gt;
+  - name: evalStepOut(number[], IQscEventTarget)
+    uid: qsharp-lang.QSharpDebugService.evalStepOut
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function evalStepOut(bps: number[], eventHandler: IQscEventTarget):
+        Promise<IStructStepResult>
+      parameters:
+        - id: bps
+          type: number[]
+          description: ''
+        - id: eventHandler
+          type: <xref uid="qsharp-lang.IQscEventTarget" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;IStructStepResult&gt;
+  - name: getBreakpoints(string)
+    uid: qsharp-lang.QSharpDebugService.getBreakpoints
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function getBreakpoints(path: string): Promise<IBreakpointSpan[]>'
+      parameters:
+        - id: path
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;IBreakpointSpan[]&gt;
+  - name: getLocalVariables()
+    uid: qsharp-lang.QSharpDebugService.getLocalVariables
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function getLocalVariables(): Promise<IVariable[]>'
+      return:
+        description: ''
+        type: Promise&lt;IVariable[]&gt;
+  - name: getStackFrames()
+    uid: qsharp-lang.QSharpDebugService.getStackFrames
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function getStackFrames(): Promise<IStackFrame[]>'
+      return:
+        description: ''
+        type: Promise&lt;IStackFrame[]&gt;
+  - name: loadSource([string, string][], TargetProfile, undefined | string)
+    uid: qsharp-lang.QSharpDebugService.loadSource
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function loadSource(sources: [string, string][], target: TargetProfile,
+        entry: undefined | string): Promise<string>
+      parameters:
+        - id: sources
+          type: '[string, string][]'
+          description: ''
+        - id: target
+          type: <xref uid="qsharp-lang.TargetProfile" />
+          description: ''
+        - id: entry
+          type: undefined | string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;string&gt;

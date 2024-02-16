@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: ShotResult
+uid: qsharp-lang.ShotResult
+package: qsharp-lang
+summary: ''
+fullName: ShotResult
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ShotResult = {
+    events: (MessageMsg | DumpMsg)[]
+    result: string | VSDiagnostic
+    success: boolean
+  }

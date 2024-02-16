@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: LanguageServiceEvent
+uid: qsharp-lang.LanguageServiceEvent
+package: qsharp-lang
+summary: ''
+fullName: LanguageServiceEvent
+remarks: ''
+isDeprecated: false
+syntax: |
+  type LanguageServiceEvent = {
+    detail: { diagnostics: VSDiagnostic[]; uri: string; version: number }
+    type: "diagnostics"
+  }

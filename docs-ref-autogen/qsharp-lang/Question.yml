@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Question
+uid: qsharp-lang.Question
+package: qsharp-lang
+summary: ''
+fullName: Question
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Question = { answer: Answer; description: TextContent; type: "question" }

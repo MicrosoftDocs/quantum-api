@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Example
+uid: qsharp-lang.Example
+package: qsharp-lang
+summary: ''
+fullName: Example
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Example = { code: string; id: string; type: "example" }

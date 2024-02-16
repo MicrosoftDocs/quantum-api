@@ -1,0 +1,34 @@
+### YamlMime:TSType
+name: CancellationToken
+uid: qsharp-lang.CancellationToken
+package: qsharp-lang
+summary: ''
+fullName: CancellationToken
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: isCancellationRequested
+    uid: qsharp-lang.CancellationToken.isCancellationRequested
+    package: qsharp-lang
+    summary: ''
+    fullName: isCancellationRequested
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'isCancellationRequested: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: onCancellationRequested
+    uid: qsharp-lang.CancellationToken.onCancellationRequested
+    package: qsharp-lang
+    summary: ''
+    fullName: onCancellationRequested
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'onCancellationRequested: (listener: (e: any) => any) => void'
+      return:
+        description: ''
+        type: '(listener: (e: any) =&gt; any) =&gt; void'

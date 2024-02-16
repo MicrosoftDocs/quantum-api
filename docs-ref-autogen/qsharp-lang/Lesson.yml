@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: Lesson
+uid: qsharp-lang.Lesson
+package: qsharp-lang
+summary: ''
+fullName: Lesson
+remarks: ''
+isDeprecated: false
+syntax: >
+  type Lesson = { id: string; items: LessonItem[]; title: string; type: "lesson"
+  }

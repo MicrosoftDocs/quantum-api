@@ -1,0 +1,34 @@
+### YamlMime:TSType
+name: IWorkspaceConfiguration
+uid: qsharp-lang.IWorkspaceConfiguration
+package: qsharp-lang
+summary: ''
+fullName: IWorkspaceConfiguration
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: packageType
+    uid: qsharp-lang.IWorkspaceConfiguration.packageType
+    package: qsharp-lang
+    summary: ''
+    fullName: packageType
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'packageType?: "exe" | "lib"'
+      return:
+        description: ''
+        type: '"exe" | "lib"'
+  - name: targetProfile
+    uid: qsharp-lang.IWorkspaceConfiguration.targetProfile
+    package: qsharp-lang
+    summary: ''
+    fullName: targetProfile
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'targetProfile?: TargetProfile'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.TargetProfile" />

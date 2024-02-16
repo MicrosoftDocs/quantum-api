@@ -1,0 +1,25 @@
+### YamlMime:TSTypeAlias
+name: MethodMap
+uid: qsharp-lang.MethodMap
+package: qsharp-lang
+summary: |-
+  Defines the service methods that the proxy will handle and their types.
+  "request" is a normal async method.
+  "requestWithProgress" methods take an
+
+  See IServiceEventTarget to
+    communicate events back to the main thread as they run. They also set
+    the service state to "busy" while they run.
+  "addEventListener" and "removeEventListener" methods are used to
+    subscribe to events from the service.
+fullName: MethodMap<T>
+remarks: ''
+isDeprecated: false
+syntax: |
+  type MethodMap<T> = {
+    [M in keyof T]:
+      | "request"
+      | "requestWithProgress"
+      | "addEventListener"
+      | "removeEventListener"
+  }

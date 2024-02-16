@@ -1,0 +1,46 @@
+### YamlMime:TSType
+name: ISignatureInformation
+uid: qsharp-lang.ISignatureInformation
+package: qsharp-lang
+summary: ''
+fullName: ISignatureInformation
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: documentation
+    uid: qsharp-lang.ISignatureInformation.documentation
+    package: qsharp-lang
+    summary: ''
+    fullName: documentation
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'documentation: string'
+      return:
+        description: ''
+        type: string
+  - name: label
+    uid: qsharp-lang.ISignatureInformation.label
+    package: qsharp-lang
+    summary: ''
+    fullName: label
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'label: string'
+      return:
+        description: ''
+        type: string
+  - name: parameters
+    uid: qsharp-lang.ISignatureInformation.parameters
+    package: qsharp-lang
+    summary: ''
+    fullName: parameters
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'parameters: IParameterInformation[]'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.IParameterInformation" />[]

@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: QscEvent
+uid: qsharp-lang.QscEvent
+package: qsharp-lang
+summary: ''
+fullName: QscEvent<T>
+remarks: ''
+isDeprecated: false
+syntax: |
+  type QscEvent<T> = Extract<QscEvents, { type: T }>

@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: FrontierEntry
+uid: qsharp-lang.FrontierEntry
+package: qsharp-lang
+summary: ''
+fullName: FrontierEntry
+remarks: ''
+isDeprecated: false
+syntax: |
+  type FrontierEntry = {
+    errorBudget: any
+    logicalQubit: any
+    physicalCounts: any
+    physicalCountsFormatted: any
+    tfactory: any
+  }

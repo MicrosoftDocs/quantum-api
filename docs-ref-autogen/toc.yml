@@ -1,0 +1,247 @@
+- name: qsharp-lang
+  items:
+    - name: Overview
+      uid: qsharp-lang
+    - uid: qsharp-lang.Answer
+      name: Answer
+      items: []
+    - uid: qsharp-lang.CancellationToken
+      name: CancellationToken
+      items: []
+    - uid: qsharp-lang.CancellationTokenSource
+      name: CancellationTokenSource
+      items: []
+    - uid: qsharp-lang.Compiler
+      name: Compiler
+      items: []
+    - uid: qsharp-lang.CompilerState
+      name: CompilerState
+      items: []
+    - uid: qsharp-lang.ContentItem
+      name: ContentItem
+      items: []
+    - uid: qsharp-lang.DebugService
+      name: DebugService
+      items: []
+    - uid: qsharp-lang.Dump
+      name: Dump
+      items: []
+    - uid: qsharp-lang.EventMessage
+      name: EventMessage
+      items: []
+    - uid: qsharp-lang.Example
+      name: Example
+      items: []
+    - uid: qsharp-lang.Exercise
+      name: Exercise
+      items: []
+    - uid: qsharp-lang.ExplainedSolution
+      name: ExplainedSolution
+      items: []
+    - uid: qsharp-lang.ExplainedSolutionItem
+      name: ExplainedSolutionItem
+      items: []
+    - uid: qsharp-lang.FrontierEntry
+      name: FrontierEntry
+      items: []
+    - uid: qsharp-lang.IBreakpointSpan
+      name: IBreakpointSpan
+      items: []
+    - uid: qsharp-lang.IBreakpointSpanList
+      name: IBreakpointSpanList
+      items: []
+    - uid: qsharp-lang.ICell
+      name: ICell
+      items: []
+    - uid: qsharp-lang.ICompiler
+      name: ICompiler
+      items: []
+    - uid: qsharp-lang.ICompilerWorker
+      name: ICompilerWorker
+      items: []
+    - uid: qsharp-lang.ICompletionItem
+      name: ICompletionItem
+      items: []
+    - uid: qsharp-lang.ICompletionList
+      name: ICompletionList
+      items: []
+    - uid: qsharp-lang.IDebugService
+      name: IDebugService
+      items: []
+    - uid: qsharp-lang.IDebugServiceWorker
+      name: IDebugServiceWorker
+      items: []
+    - uid: qsharp-lang.IHover
+      name: IHover
+      items: []
+    - uid: qsharp-lang.ILanguageService
+      name: ILanguageService
+      items: []
+    - uid: qsharp-lang.ILanguageServiceWorker
+      name: ILanguageServiceWorker
+      items: []
+    - uid: qsharp-lang.ILocation
+      name: ILocation
+      items: []
+    - uid: qsharp-lang.InitInput
+      name: InitInput
+      items: []
+    - uid: qsharp-lang.InitOutput
+      name: InitOutput
+      items: []
+    - uid: qsharp-lang.INotebookMetadata
+      name: INotebookMetadata
+      items: []
+    - uid: qsharp-lang.IParameterInformation
+      name: IParameterInformation
+      items: []
+    - uid: qsharp-lang.IPosition
+      name: IPosition
+      items: []
+    - uid: qsharp-lang.IQscEventTarget
+      name: IQscEventTarget
+      items: []
+    - uid: qsharp-lang.IQuantumState
+      name: IQuantumState
+      items: []
+    - uid: qsharp-lang.IQuantumStateList
+      name: IQuantumStateList
+      items: []
+    - uid: qsharp-lang.IRange
+      name: IRange
+      items: []
+    - uid: qsharp-lang.IRelatedInformation
+      name: IRelatedInformation
+      items: []
+    - uid: qsharp-lang.IServiceEventTarget
+      name: IServiceEventTarget
+      items: []
+    - uid: qsharp-lang.IServiceProxy
+      name: IServiceProxy
+      items: []
+    - uid: qsharp-lang.ISignatureHelp
+      name: ISignatureHelp
+      items: []
+    - uid: qsharp-lang.ISignatureInformation
+      name: ISignatureInformation
+      items: []
+    - uid: qsharp-lang.IStackFrame
+      name: IStackFrame
+      items: []
+    - uid: qsharp-lang.IStackFrameList
+      name: IStackFrameList
+      items: []
+    - uid: qsharp-lang.IStructStepResult
+      name: IStructStepResult
+      items: []
+    - uid: qsharp-lang.ITextEdit
+      name: ITextEdit
+      items: []
+    - uid: qsharp-lang.IVariable
+      name: IVariable
+      items: []
+    - uid: qsharp-lang.IVariableList
+      name: IVariableList
+      items: []
+    - uid: qsharp-lang.IWorkspaceConfiguration
+      name: IWorkspaceConfiguration
+      items: []
+    - uid: qsharp-lang.IWorkspaceEdit
+      name: IWorkspaceEdit
+      items: []
+    - uid: qsharp-lang.Kata
+      name: Kata
+      items: []
+    - uid: qsharp-lang.KataSection
+      name: KataSection
+      items: []
+    - uid: qsharp-lang.LanguageService
+      name: LanguageService
+      items: []
+    - uid: qsharp-lang.LanguageServiceEvent
+      name: LanguageServiceEvent
+      items: []
+    - uid: qsharp-lang.Lesson
+      name: Lesson
+      items: []
+    - uid: qsharp-lang.LessonItem
+      name: LessonItem
+      items: []
+    - uid: qsharp-lang.LogLevel
+      name: LogLevel
+      items: []
+    - uid: qsharp-lang.MethodMap
+      name: MethodMap
+      items: []
+    - uid: qsharp-lang.ProjectLoader
+      name: ProjectLoader
+      items: []
+    - uid: qsharp-lang.QscEvent
+      name: QscEvent
+      items: []
+    - uid: qsharp-lang.QscEventData
+      name: QscEventData
+      items: []
+    - uid: qsharp-lang.QscEvents
+      name: QscEvents
+      items: []
+    - uid: qsharp-lang.QscEventTarget
+      name: QscEventTarget
+      items: []
+    - uid: qsharp-lang.QSharpDebugService
+      name: QSharpDebugService
+      items: []
+    - uid: qsharp-lang.QSharpLanguageService
+      name: QSharpLanguageService
+      items: []
+    - uid: qsharp-lang.Question
+      name: Question
+      items: []
+    - uid: qsharp-lang.ReData
+      name: ReData
+      items: []
+    - uid: qsharp-lang.RequestMessage
+      name: RequestMessage
+      items: []
+    - uid: qsharp-lang.ResponseMessage
+      name: ResponseMessage
+      items: []
+    - uid: qsharp-lang.Result
+      name: Result
+      items: []
+    - uid: qsharp-lang.ServiceState
+      name: ServiceState
+      items: []
+    - uid: qsharp-lang.ShotResult
+      name: ShotResult
+      items: []
+    - uid: qsharp-lang.SingleEstimateResult
+      name: SingleEstimateResult
+      items: []
+    - uid: qsharp-lang.Solution
+      name: Solution
+      items: []
+    - uid: qsharp-lang.StepResultId
+      name: StepResultId
+      items: []
+    - uid: qsharp-lang.SyncInitInput
+      name: SyncInitInput
+      items: []
+    - uid: qsharp-lang.TargetProfile
+      name: TargetProfile
+      items: []
+    - uid: qsharp-lang.TelemetryCollector
+      name: TelemetryCollector
+      items: []
+    - uid: qsharp-lang.TelemetryEvent
+      name: TelemetryEvent
+      items: []
+    - uid: qsharp-lang.TextContent
+      name: TextContent
+      items: []
+    - uid: qsharp-lang.Tick
+      name: Tick
+      items: []
+    - uid: qsharp-lang.VSDiagnostic
+      name: VSDiagnostic
+      items: []

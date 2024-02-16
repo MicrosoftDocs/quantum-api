@@ -1,0 +1,44 @@
+### YamlMime:TSType
+name: CancellationTokenSource
+uid: qsharp-lang.CancellationTokenSource
+package: qsharp-lang
+summary: ''
+fullName: CancellationTokenSource
+remarks: ''
+isDeprecated: false
+type: class
+constructors:
+  - name: CancellationTokenSource(CancellationToken)
+    uid: qsharp-lang.CancellationTokenSource.constructor
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'new CancellationTokenSource(parent?: CancellationToken)'
+      parameters:
+        - id: parent
+          type: <xref uid="qsharp-lang.CancellationToken" />
+          description: ''
+properties:
+  - name: token
+    uid: qsharp-lang.CancellationTokenSource.token
+    package: qsharp-lang
+    summary: ''
+    fullName: token
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: CancellationToken token
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.CancellationToken" />
+methods:
+  - name: cancel()
+    uid: qsharp-lang.CancellationTokenSource.cancel
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: function cancel()

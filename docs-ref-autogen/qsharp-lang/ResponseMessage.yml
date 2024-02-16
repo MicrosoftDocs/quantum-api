@@ -1,0 +1,17 @@
+### YamlMime:TSTypeAlias
+name: ResponseMessage
+uid: qsharp-lang.ResponseMessage
+package: qsharp-lang
+summary: Response message for a request from the worker to the main thread
+fullName: ResponseMessage<T>
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ResponseMessage<T> = { messageType: "response" } & {
+    [K in keyof T]: {
+      result:
+        | { result: Awaited<ReturnType<T[K]>>; success: true }
+        | { error: unknown; success: false }
+      type: K
+    }
+  }[keyof T]

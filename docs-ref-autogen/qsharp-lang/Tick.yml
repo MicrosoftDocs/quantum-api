@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Tick
+uid: qsharp-lang.Tick
+package: qsharp-lang
+summary: ''
+fullName: Tick
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Tick = { label: string; value: number }

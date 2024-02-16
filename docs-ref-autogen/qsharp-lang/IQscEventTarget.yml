@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: IQscEventTarget
+uid: qsharp-lang.IQscEventTarget
+package: qsharp-lang
+summary: ''
+fullName: IQscEventTarget
+remarks: ''
+isDeprecated: false
+syntax: |
+  type IQscEventTarget = IServiceEventTarget<QscEventData>

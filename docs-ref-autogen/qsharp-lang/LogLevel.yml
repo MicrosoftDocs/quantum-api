@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: LogLevel
+uid: qsharp-lang.LogLevel
+package: qsharp-lang
+summary: ''
+fullName: LogLevel
+remarks: ''
+isDeprecated: false
+syntax: |
+  type LogLevel = "off" | "error" | "warn" | "info" | "debug" | "trace"

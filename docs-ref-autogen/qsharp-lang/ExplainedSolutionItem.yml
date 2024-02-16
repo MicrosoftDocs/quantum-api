@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ExplainedSolutionItem
+uid: qsharp-lang.ExplainedSolutionItem
+package: qsharp-lang
+summary: ''
+fullName: ExplainedSolutionItem
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ExplainedSolutionItem = ContentItem | Solution

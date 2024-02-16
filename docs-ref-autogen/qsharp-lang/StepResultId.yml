@@ -1,0 +1,34 @@
+### YamlMime:TSEnum
+name: StepResultId
+uid: qsharp-lang.StepResultId
+package: qsharp-lang
+summary: ''
+fullName: StepResultId
+remarks: ''
+isDeprecated: false
+fields:
+  - name: BreakpointHit
+    uid: qsharp-lang.StepResultId.BreakpointHit
+    package: qsharp-lang
+    summary: ''
+    numericValue: 0
+  - name: Next
+    uid: qsharp-lang.StepResultId.Next
+    package: qsharp-lang
+    summary: ''
+    numericValue: 1
+  - name: StepIn
+    uid: qsharp-lang.StepResultId.StepIn
+    package: qsharp-lang
+    summary: ''
+    numericValue: 2
+  - name: StepOut
+    uid: qsharp-lang.StepResultId.StepOut
+    package: qsharp-lang
+    summary: ''
+    numericValue: 3
+  - name: Return
+    uid: qsharp-lang.StepResultId.Return
+    package: qsharp-lang
+    summary: ''
+    numericValue: 4

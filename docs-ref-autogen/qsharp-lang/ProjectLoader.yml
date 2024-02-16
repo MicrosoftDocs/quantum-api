@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: ProjectLoader
+uid: qsharp-lang.ProjectLoader
+package: qsharp-lang
+summary: |-
+  a minimal implementation for interacting with async JS filesystem callbacks to
+  load project files
+fullName: ProjectLoader
+remarks: ''
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ProjectLoader((uri: string) => Promise<null | string>, (uri: string) =>
+      Promise<[string, number][]>, (uri: string) => Promise<null | {
+      manifestDirectory: string }>)
+    uid: qsharp-lang.ProjectLoader.constructor
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ProjectLoader(read_file: (uri: string) => Promise<null | string>,
+        list_directory: (uri: string) => Promise<[string, number][]>,
+        get_manifest: (uri: string) => Promise<null | { manifestDirectory:
+        string }>)
+      parameters:
+        - id: read_file
+          type: '(uri: string) =&gt; Promise&lt;null | string&gt;'
+          description: ''
+        - id: list_directory
+          type: '(uri: string) =&gt; Promise&lt;[string, number][]&gt;'
+          description: ''
+        - id: get_manifest
+          type: >-
+            (uri: string) =&gt; Promise&lt;null | { manifestDirectory: string
+            }&gt;
+          description: ''
+methods:
+  - name: free()
+    uid: qsharp-lang.ProjectLoader.free
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: function free()
+  - name: 'load_project({ manifestDirectory: string })'
+    uid: qsharp-lang.ProjectLoader.load_project
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function load_project(manifest: { manifestDirectory: string }):
+        Promise<[string, string][]>
+      parameters:
+        - id: manifest
+          type: '{ manifestDirectory: string }'
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;[string, string][]&gt;

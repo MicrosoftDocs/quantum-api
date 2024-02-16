@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Dump
+uid: qsharp-lang.Dump
+package: qsharp-lang
+summary: ''
+fullName: Dump
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Dump = { [index: string]: [number, number] }

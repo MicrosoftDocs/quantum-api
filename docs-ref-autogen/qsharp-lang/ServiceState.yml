@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ServiceState
+uid: qsharp-lang.ServiceState
+package: qsharp-lang
+summary: '"requestWithProgress" type methods will set the service state to "busy"'
+fullName: ServiceState
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ServiceState = "idle" | "busy"

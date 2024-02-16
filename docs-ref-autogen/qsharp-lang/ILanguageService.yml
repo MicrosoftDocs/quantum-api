@@ -1,0 +1,304 @@
+### YamlMime:TSType
+name: ILanguageService
+uid: qsharp-lang.ILanguageService
+package: qsharp-lang
+summary: ''
+fullName: ILanguageService
+remarks: ''
+isDeprecated: false
+type: interface
+methods:
+  - name: >-
+      addEventListener<T>(T, (event: Extract<LanguageServiceEvent, { type: T }>)
+      => void)
+    uid: qsharp-lang.ILanguageService.addEventListener
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function addEventListener<T>(type: T, listener: (event:
+        Extract<LanguageServiceEvent, { type: T }>) => void)
+      parameters:
+        - id: type
+          type: T
+          description: ''
+        - id: listener
+          type: '(event: Extract&lt;LanguageServiceEvent, { type: T }&gt;) =&gt; void'
+          description: ''
+  - name: closeDocument(string)
+    uid: qsharp-lang.ILanguageService.closeDocument
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function closeDocument(uri: string): Promise<void>'
+      parameters:
+        - id: uri
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: closeNotebookDocument(string)
+    uid: qsharp-lang.ILanguageService.closeNotebookDocument
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function closeNotebookDocument(notebookUri: string): Promise<void>'
+      parameters:
+        - id: notebookUri
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: dispose()
+    uid: qsharp-lang.ILanguageService.dispose
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function dispose(): Promise<void>'
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: getCompletions(string, IPosition)
+    uid: qsharp-lang.ILanguageService.getCompletions
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getCompletions(documentUri: string, position: IPosition):
+        Promise<ICompletionList>
+      parameters:
+        - id: documentUri
+          type: string
+          description: ''
+        - id: position
+          type: IPosition
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;ICompletionList&gt;
+  - name: getDefinition(string, IPosition)
+    uid: qsharp-lang.ILanguageService.getDefinition
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getDefinition(documentUri: string, position: IPosition):
+        Promise<undefined | ILocation>
+      parameters:
+        - id: documentUri
+          type: string
+          description: ''
+        - id: position
+          type: IPosition
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;undefined | ILocation&gt;
+  - name: getHover(string, IPosition)
+    uid: qsharp-lang.ILanguageService.getHover
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getHover(documentUri: string, position: IPosition):
+        Promise<undefined | IHover>
+      parameters:
+        - id: documentUri
+          type: string
+          description: ''
+        - id: position
+          type: IPosition
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;undefined | IHover&gt;
+  - name: getReferences(string, IPosition, boolean)
+    uid: qsharp-lang.ILanguageService.getReferences
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getReferences(documentUri: string, position: IPosition,
+        includeDeclaration: boolean): Promise<ILocation[]>
+      parameters:
+        - id: documentUri
+          type: string
+          description: ''
+        - id: position
+          type: IPosition
+          description: ''
+        - id: includeDeclaration
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;ILocation[]&gt;
+  - name: getRename(string, IPosition, string)
+    uid: qsharp-lang.ILanguageService.getRename
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getRename(documentUri: string, position: IPosition, newName:
+        string): Promise<undefined | IWorkspaceEdit>
+      parameters:
+        - id: documentUri
+          type: string
+          description: ''
+        - id: position
+          type: IPosition
+          description: ''
+        - id: newName
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;undefined | IWorkspaceEdit&gt;
+  - name: getSignatureHelp(string, IPosition)
+    uid: qsharp-lang.ILanguageService.getSignatureHelp
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getSignatureHelp(documentUri: string, position: IPosition):
+        Promise<undefined | ISignatureHelp>
+      parameters:
+        - id: documentUri
+          type: string
+          description: ''
+        - id: position
+          type: IPosition
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;undefined | ISignatureHelp&gt;
+  - name: prepareRename(string, IPosition)
+    uid: qsharp-lang.ILanguageService.prepareRename
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function prepareRename(documentUri: string, position: IPosition):
+        Promise<undefined | ITextEdit>
+      parameters:
+        - id: documentUri
+          type: string
+          description: ''
+        - id: position
+          type: IPosition
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;undefined | ITextEdit&gt;
+  - name: >-
+      removeEventListener<T>(T, (event: Extract<LanguageServiceEvent, { type: T
+      }>) => void)
+    uid: qsharp-lang.ILanguageService.removeEventListener
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function removeEventListener<T>(type: T, listener: (event:
+        Extract<LanguageServiceEvent, { type: T }>) => void)
+      parameters:
+        - id: type
+          type: T
+          description: ''
+        - id: listener
+          type: '(event: Extract&lt;LanguageServiceEvent, { type: T }&gt;) =&gt; void'
+          description: ''
+  - name: updateConfiguration(IWorkspaceConfiguration)
+    uid: qsharp-lang.ILanguageService.updateConfiguration
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function updateConfiguration(config: IWorkspaceConfiguration):
+        Promise<void>
+      parameters:
+        - id: config
+          type: IWorkspaceConfiguration
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: updateDocument(string, number, string)
+    uid: qsharp-lang.ILanguageService.updateDocument
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function updateDocument(uri: string, version: number, code: string):
+        Promise<void>
+      parameters:
+        - id: uri
+          type: string
+          description: ''
+        - id: version
+          type: number
+          description: ''
+        - id: code
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: >-
+      updateNotebookDocument(string, number, INotebookMetadata, { code: string,
+      uri: string, version: number }[])
+    uid: qsharp-lang.ILanguageService.updateNotebookDocument
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function updateNotebookDocument(notebookUri: string, version: number,
+        metadata: INotebookMetadata, cells: { code: string, uri: string,
+        version: number }[]): Promise<void>
+      parameters:
+        - id: notebookUri
+          type: string
+          description: ''
+        - id: version
+          type: number
+          description: ''
+        - id: metadata
+          type: INotebookMetadata
+          description: ''
+        - id: cells
+          type: '{ code: string, uri: string, version: number }[]'
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;void&gt;

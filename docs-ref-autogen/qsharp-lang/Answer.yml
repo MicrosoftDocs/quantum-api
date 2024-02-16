@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Answer
+uid: qsharp-lang.Answer
+package: qsharp-lang
+summary: ''
+fullName: Answer
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Answer = { items: ContentItem[]; type: "answer" }

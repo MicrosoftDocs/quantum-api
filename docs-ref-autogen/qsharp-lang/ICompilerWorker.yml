@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ICompilerWorker
+uid: qsharp-lang.ICompilerWorker
+package: qsharp-lang
+summary: ''
+fullName: ICompilerWorker
+remarks: ''
+isDeprecated: false
+syntax: |
+  type ICompilerWorker = ICompiler & IServiceProxy

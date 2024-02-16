@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: IServiceProxy
+uid: qsharp-lang.IServiceProxy
+package: qsharp-lang
+summary: Methods added to the service when wrapped in a proxy
+fullName: IServiceProxy
+remarks: ''
+isDeprecated: false
+syntax: |
+  type IServiceProxy = {
+    onstatechange: (state: ServiceState) => void | null
+    terminate: () => void
+  }

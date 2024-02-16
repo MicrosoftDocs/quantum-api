@@ -1,0 +1,137 @@
+### YamlMime:TSType
+name: Compiler
+uid: qsharp-lang.Compiler
+package: qsharp-lang
+summary: ''
+fullName: Compiler
+remarks: ''
+isDeprecated: false
+type: class
+constructors:
+  - name: Compiler(__module)
+    uid: qsharp-lang.Compiler.constructor
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'new Compiler(wasm: __module)'
+      parameters:
+        - id: wasm
+          type: __module
+          description: ''
+methods:
+  - name: checkCode(string)
+    uid: qsharp-lang.Compiler.checkCode
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function checkCode(code: string): Promise<VSDiagnostic[]>'
+      parameters:
+        - id: code
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;<xref uid="qsharp-lang.VSDiagnostic" />[]&gt;
+  - name: checkExerciseSolution(string, string[], IQscEventTarget)
+    uid: qsharp-lang.Compiler.checkExerciseSolution
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function checkExerciseSolution(user_code: string, exercise_sources:
+        string[], eventHandler: IQscEventTarget): Promise<boolean>
+      parameters:
+        - id: user_code
+          type: string
+          description: ''
+        - id: exercise_sources
+          type: string[]
+          description: ''
+        - id: eventHandler
+          type: <xref uid="qsharp-lang.IQscEventTarget" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;boolean&gt;
+  - name: getEstimates([string, string][], string)
+    uid: qsharp-lang.Compiler.getEstimates
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getEstimates(sources: [string, string][], params: string):
+        Promise<string>
+      parameters:
+        - id: sources
+          type: '[string, string][]'
+          description: ''
+        - id: params
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;string&gt;
+  - name: getHir(string)
+    uid: qsharp-lang.Compiler.getHir
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function getHir(code: string): Promise<string>'
+      parameters:
+        - id: code
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;string&gt;
+  - name: getQir([string, string][])
+    uid: qsharp-lang.Compiler.getQir
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function getQir(sources: [string, string][]): Promise<string>'
+      parameters:
+        - id: sources
+          type: '[string, string][]'
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;string&gt;
+  - name: run([string, string][], string, number, IQscEventTarget)
+    uid: qsharp-lang.Compiler.run
+    package: qsharp-lang
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function run(sources: [string, string][], expr: string, shots: number,
+        eventHandler: IQscEventTarget): Promise<void>
+      parameters:
+        - id: sources
+          type: '[string, string][]'
+          description: ''
+        - id: expr
+          type: string
+          description: ''
+        - id: shots
+          type: number
+          description: ''
+        - id: eventHandler
+          type: <xref uid="qsharp-lang.IQscEventTarget" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;void&gt;

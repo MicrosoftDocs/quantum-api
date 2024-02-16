@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: IBreakpointSpanList
+uid: qsharp-lang.IBreakpointSpanList
+package: qsharp-lang
+summary: ''
+fullName: IBreakpointSpanList
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: spans
+    uid: qsharp-lang.IBreakpointSpanList.spans
+    package: qsharp-lang
+    summary: ''
+    fullName: spans
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'spans: IBreakpointSpan[]'
+      return:
+        description: ''
+        type: <xref uid="qsharp-lang.IBreakpointSpan" />[]

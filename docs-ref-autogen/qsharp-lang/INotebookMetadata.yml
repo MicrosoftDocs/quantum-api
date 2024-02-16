@@ -1,0 +1,22 @@
+### YamlMime:TSType
+name: INotebookMetadata
+uid: qsharp-lang.INotebookMetadata
+package: qsharp-lang
+summary: ''
+fullName: INotebookMetadata
+remarks: ''
+isDeprecated: false
+type: interface
+properties:
+  - name: targetProfile
+    uid: qsharp-lang.INotebookMetadata.targetProfile
+    package: qsharp-lang
+    summary: ''
+    fullName: targetProfile
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'targetProfile?: "base" | "unrestricted"'
+      return:
+        description: ''
+        type: '"base" | "unrestricted"'

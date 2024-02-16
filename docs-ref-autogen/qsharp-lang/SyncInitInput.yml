@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: SyncInitInput
+uid: qsharp-lang.SyncInitInput
+package: qsharp-lang
+summary: ''
+fullName: SyncInitInput
+remarks: ''
+isDeprecated: false
+syntax: |
+  type SyncInitInput = BufferSource | WebAssembly.Module

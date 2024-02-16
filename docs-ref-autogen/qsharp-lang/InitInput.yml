@@ -1,0 +1,15 @@
+### YamlMime:TSTypeAlias
+name: InitInput
+uid: qsharp-lang.InitInput
+package: qsharp-lang
+summary: ''
+fullName: InitInput
+remarks: ''
+isDeprecated: false
+syntax: |
+  type InitInput =
+    | RequestInfo
+    | URL
+    | Response
+    | BufferSource
+    | WebAssembly.Module

@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: TargetProfile
+uid: qsharp-lang.TargetProfile
+package: qsharp-lang
+summary: ''
+fullName: TargetProfile
+remarks: ''
+isDeprecated: false
+syntax: |
+  type TargetProfile = "base" | "unrestricted"

@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Kata
+uid: qsharp-lang.Kata
+package: qsharp-lang
+summary: ''
+fullName: Kata
+remarks: ''
+isDeprecated: false
+syntax: |
+  type Kata = { id: string; sections: KataSection[]; title: string }
