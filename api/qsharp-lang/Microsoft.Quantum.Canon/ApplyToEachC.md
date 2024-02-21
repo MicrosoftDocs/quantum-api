@@ -1,5 +1,5 @@
 ---
-uid: Microsoft.Quantum.Canon.ApplyToEachC
+uid: Azure.Quantum.Canon.ApplyToEachC
 title: ApplyToEachC operation
 ms.date: 02/21/2024 12:00:00 AM
 ms.topic: managed-reference
@@ -12,7 +12,7 @@ The modifier `C` indicates that the single-element operation is controllable.
 
 # ApplyToEachC operation
 
-Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
+Namespace: [Microsoft.Quantum.Canon](xref:Azure.Quantum.Canon)
 
 ```qsharp
 operation ApplyToEachC<'T>(singleElementOperation : ('T => Unit is Ctl), register : 'T[]) : Unit is Ctl
