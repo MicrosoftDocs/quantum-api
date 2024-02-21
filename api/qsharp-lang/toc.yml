@@ -5,7 +5,7 @@
 - items:
   - {name: ApplyToEach, uid: Azure.Quantum.Canon.ApplyToEach}
   - {name: ApplyToEachA, uid: Azure.Quantum.Canon.ApplyToEachA}
-  - {name: ApplyToEachC, uid: Microsoft.Quantum.Canon.ApplyToEachC}
+  - {name: ApplyToEachC, uid: Azure.Quantum.Canon.ApplyToEachC}
   - {name: ApplyToEachCA, uid: Microsoft.Quantum.Canon.ApplyToEachCA}
   - {name: CX, uid: Microsoft.Quantum.Canon.CX}
   - {name: CY, uid: Microsoft.Quantum.Canon.CY}
@@ -24,7 +24,7 @@
   - {name: ApplyXorInPlace, uid: Microsoft.Quantum.Canon.ApplyXorInPlace}
   - {name: ApplyXorInPlaceL, uid: Microsoft.Quantum.Canon.ApplyXorInPlaceL}
   name: Microsoft.Quantum.Canon
-  uid: Microsoft.Quantum.Canon
+  uid: Azure.Quantum.Canon
 - items:
   - {name: PreparePureStateD, uid: Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD}
   - {name: ApproximatelyPreparePureStateCP, uid: Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP}
