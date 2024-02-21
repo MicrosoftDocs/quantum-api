@@ -3,8 +3,8 @@
 # Please do not modify this file manually, or your changes will be lost when
 # documentation is rebuilt.
 - items:
-  - {name: ApplyToEach, uid: Microsoft.Quantum.Canon.ApplyToEach}
-  - {name: ApplyToEachA, uid: Microsoft.Quantum.Canon.ApplyToEachA}
+  - {name: ApplyToEach, uid: Azure.Quantum.Canon.ApplyToEach}
+  - {name: ApplyToEachA, uid: Azure.Quantum.Canon.ApplyToEachA}
   - {name: ApplyToEachC, uid: Microsoft.Quantum.Canon.ApplyToEachC}
   - {name: ApplyToEachCA, uid: Microsoft.Quantum.Canon.ApplyToEachCA}
   - {name: CX, uid: Microsoft.Quantum.Canon.CX}
