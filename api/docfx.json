@@ -41,7 +41,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "ms.author": "quantumdocwriters"
+      "ms.author": "quantumdocwriters",
+      "author": "bradben",
       "ms.service": "qsharp",
       "show_latex": true,
       "ms.topic": "managed-reference",
