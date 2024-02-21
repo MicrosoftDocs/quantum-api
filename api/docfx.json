@@ -50,7 +50,7 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "Microsoft/qsharp",
       "feedback_product_url": "https://github.com/microsoft/qsharp/issues",
-      "titleSuffix": "Q# reference - Microsoft Quantum"
+      "titleSuffix": "Q# reference - Azure Quantum"
     },
     "breadcrumb_path": "/qsharp/breadcrumb/toc.json",
     "extendBreadcrumb": true,
