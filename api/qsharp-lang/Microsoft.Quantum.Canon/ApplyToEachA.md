@@ -6,8 +6,7 @@ ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToEachA
-qsharp.summary: Applies an operation to each element in a register.
-The modifier `A` indicates that the single-element operation is adjointable.
+qsharp.summary: Applies an operation to each element in a register. The modifier `A` indicates that the single-element operation is adjointable.
 ---
 
 # ApplyToEachA operation
