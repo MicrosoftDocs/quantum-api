@@ -1,5 +1,5 @@
 ---
-uid: Microsoft.Quantum.Canon.ApplyToEach
+uid: Azure.Quantum.Canon.ApplyToEach
 title: ApplyToEach operation
 ms.date: 02/21/2024 12:00:00 AM
 ms.topic: managed-reference
