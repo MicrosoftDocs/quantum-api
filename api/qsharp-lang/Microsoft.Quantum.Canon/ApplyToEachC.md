@@ -6,8 +6,7 @@ ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToEachC
-qsharp.summary: Applies an operation to each element in a register.
-The modifier `C` indicates that the single-element operation is controllable.
+qsharp.summary: Applies an operation to each element in a register. The modifier `C` indicates that the single-element operation is controllable.
 ---
 
 # ApplyToEachC operation
