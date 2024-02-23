@@ -6,7 +6,7 @@ ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: IncByLE
-qsharp.summary: Increments a little-endian register ys by a little-endian register xs
+qsharp.summary: "Increments a little-endian register ys by a little-endian register xs"
 ---
 
 # IncByLE operation
