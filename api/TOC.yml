@@ -3,8 +3,8 @@
   - name: API reference
     href: index.md   
   - name: Q# libraries
-    topicHref: qsharp/index.md
-    href: qsharp/toc.yml
+    topicHref: qsharp-lang/index.md
+    href: qsharp-lang/toc.yml
   - name: Python libraries
     href: https://learn.microsoft.com/python/qsharp/qsharp
   - name: REST APIs
