@@ -26,6 +26,7 @@ Computes zs := xs + ys + zs[0] modulo 2ⁿ, where xs, ys, and zs are
 little-endian registers, Length(xs) = Length(ys) ≤ Length(zs) = n,
 assuming zs is 0-initialized, except for maybe zs[0], which can be
 This operation uses the ripple-carry algorithm.
+
 NOTE: `zs[Length(xs)]` can be used as carry-out, if `zs` is longer than `xs`.
 
 ## Reference
