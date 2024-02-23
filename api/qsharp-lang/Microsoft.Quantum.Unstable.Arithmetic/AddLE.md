@@ -6,7 +6,7 @@ ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: AddLE
-qsharp.summary: "Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys."
+qsharp.summary: Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys
 ---
 
 # AddLE operation
