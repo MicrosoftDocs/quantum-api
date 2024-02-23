@@ -1,19 +1,17 @@
 ---
-uid: Microsoft.Quantum.Arrays.Subarray
+uid: Qdk.Microsoft.Quantum.Arrays.Subarray
 title: Subarray function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Subarray
-qsharp.summary: Takes an array and a list of locations and
-produces a new array formed from the elements of the original
-array that match the given locations.
+qsharp.summary: Takes an array and a list of locations and produces a new array formed from the elements of the original array that match the given locations.
 ---
 
 # Subarray function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function Subarray<'T>(locations : Int[], array : 'T[]) : 'T[]

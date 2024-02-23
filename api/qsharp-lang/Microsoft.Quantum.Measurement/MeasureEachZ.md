@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Measurement.MeasureEachZ
+uid: Qdk.Microsoft.Quantum.Measurement.MeasureEachZ
 title: MeasureEachZ operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
@@ -11,7 +11,7 @@ qsharp.summary: Measures each qubit in a given array in the standard basis.
 
 # MeasureEachZ operation
 
-Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
+Namespace: Microsoft.Quantum.Measurement
 
 ```qsharp
 operation MeasureEachZ(register : Qubit[]) : Result[]

@@ -1,19 +1,17 @@
 ---
-uid: Microsoft.Quantum.Arrays.Count
+uid: Qdk.Microsoft.Quantum.Arrays.Count
 title: Count function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Count
-qsharp.summary: Given an array and a predicate that is defined
-for the elements of the array, returns the number of elements
-an array that consists of those elements that satisfy the predicate.
+qsharp.summary: Given an array and a predicate that is defined for the elements of the array, returns the number of elements an array that consists of those elements that satisfy the predicate.
 ---
 
 # Count function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function Count<'T>(predicate : ('T -> Bool), array : 'T[]) : Int

@@ -1,19 +1,17 @@
 ---
-uid: Microsoft.Quantum.Arrays.MappedOverRange
+uid: Qdk.Microsoft.Quantum.Arrays.MappedOverRange
 title: MappedOverRange function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: MappedOverRange
-qsharp.summary: Given a range and a function that takes an integer as input,
-returns a new array that consists
-of the images of the range values under the function.
+qsharp.summary: Given a range and a function that takes an integer as input, returns a new array that consists of the images of the range values under the function.
 ---
 
 # MappedOverRange function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function MappedOverRange<'T>(mapper : (Int -> 'T), range : Range) : 'T[]

@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Intrinsic.I
+uid: Qdk.Microsoft.Quantum.Intrinsic.I
 title: I operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -11,7 +11,7 @@ qsharp.summary: Performs the identity operation (no-op) on a single qubit.
 
 # I operation
 
-Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
+Namespace: Microsoft.Quantum.Intrinsic
 
 ```qsharp
 operation I(target : Qubit) : Unit is Adj + Ctl

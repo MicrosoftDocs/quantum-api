@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Arrays.Sorted
+uid: Qdk.Microsoft.Quantum.Arrays.Sorted
 title: Sorted function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: Sorted
-qsharp.summary: Given an array, returns the elements of that array sorted by a given
-comparison function.
+qsharp.summary: Given an array, returns the elements of that array sorted by a given comparison function.
 ---
 
 # Sorted function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function Sorted<'T>(comparison : (('T, 'T) -> Bool), array : 'T[]) : 'T[]

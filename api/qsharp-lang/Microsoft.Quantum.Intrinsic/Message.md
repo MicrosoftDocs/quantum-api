@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Intrinsic.Message
+uid: Qdk.Microsoft.Quantum.Intrinsic.Message
 title: Message function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -11,7 +11,7 @@ qsharp.summary: Logs a message.
 
 # Message function
 
-Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
+Namespace: Microsoft.Quantum.Intrinsic
 
 ```qsharp
 function Message(msg : String) : Unit

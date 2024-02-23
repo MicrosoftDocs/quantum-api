@@ -1,23 +1,17 @@
 ---
-uid: Microsoft.Quantum.Intrinsic.R1Frac
+uid: Qdk.Microsoft.Quantum.Intrinsic.R1Frac
 title: R1Frac operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: R1Frac
-qsharp.summary: Applies a rotation about the |1⟩ state by an angle specified
-as a dyadic fraction.
-
-WARNING:
-This operation uses the **opposite** sign convention from
-Microsoft.Quantum.Intrinsic.R, and does not include the
-factor of 1/2 included by Microsoft.Quantum.Intrinsic.R1.
+qsharp.summary: Applies a rotation about the |1⟩ state by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Microsoft.Quantum.Intrinsic.R, and does not include the factor of 1/2 included by Microsoft.Quantum.Intrinsic.R1.
 ---
 
 # R1Frac operation
 
-Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
+Namespace: Microsoft.Quantum.Intrinsic
 
 ```qsharp
 operation R1Frac(numerator : Int, power : Int, qubit : Qubit) : Unit is Adj + Ctl

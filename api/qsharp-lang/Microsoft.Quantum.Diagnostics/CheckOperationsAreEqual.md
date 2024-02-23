@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Diagnostics.CheckOperationsAreEqual
+uid: Qdk.Microsoft.Quantum.Diagnostics.CheckOperationsAreEqual
 title: CheckOperationsAreEqual operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -11,7 +11,7 @@ qsharp.summary: Given two operations, checks that they act identically for all i
 
 # CheckOperationsAreEqual operation
 
-Namespace: [Microsoft.Quantum.Diagnostics](xref:Microsoft.Quantum.Diagnostics)
+Namespace: Microsoft.Quantum.Diagnostics
 
 ```qsharp
 operation CheckOperationsAreEqual(nQubits : Int, actual : (Qubit[] => Unit), expected : (Qubit[] => Unit is Adj)) : Bool

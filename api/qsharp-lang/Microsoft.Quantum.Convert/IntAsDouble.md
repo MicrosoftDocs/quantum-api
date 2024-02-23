@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Convert.IntAsDouble
+uid: Qdk.Microsoft.Quantum.Convert.IntAsDouble
 title: IntAsDouble function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -11,7 +11,7 @@ qsharp.summary: Converts a given integer to an equivalent double-precision float
 
 # IntAsDouble function
 
-Namespace: [Microsoft.Quantum.Convert](xref:Microsoft.Quantum.Convert)
+Namespace: Microsoft.Quantum.Convert
 
 ```qsharp
 function IntAsDouble(number : Int) : Double

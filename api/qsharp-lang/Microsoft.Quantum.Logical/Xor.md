@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Logical.Xor
+uid: Qdk.Microsoft.Quantum.Logical.Xor
 title: Xor function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Logical
@@ -11,7 +11,7 @@ qsharp.summary: Returns the boolean exclusive disjunction (XOR) of two input boo
 
 # Xor function
 
-Namespace: [Microsoft.Quantum.Logical](xref:Microsoft.Quantum.Logical)
+Namespace: Microsoft.Quantum.Logical
 
 ```qsharp
 function Xor(first : Bool, second : Bool) : Bool

@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Unstable.Arithmetic.RippleCarryTTKIncByLE
+uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.RippleCarryTTKIncByLE
 title: RippleCarryTTKIncByLE operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
@@ -11,7 +11,7 @@ qsharp.summary: Reversible, in-place ripple-carry addition of two integers.
 
 # RippleCarryTTKIncByLE operation
 
-Namespace: [Microsoft.Quantum.Unstable.Arithmetic](xref:Microsoft.Quantum.Unstable.Arithmetic)
+Namespace: Microsoft.Quantum.Unstable.Arithmetic
 
 ```qsharp
 operation RippleCarryTTKIncByLE(xs : Qubit[], ys : Qubit[]) : Unit is Adj + Ctl

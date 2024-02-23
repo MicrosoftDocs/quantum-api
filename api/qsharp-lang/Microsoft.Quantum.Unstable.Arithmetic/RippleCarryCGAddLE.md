@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Unstable.Arithmetic.RippleCarryCGAddLE
+uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.RippleCarryCGAddLE
 title: RippleCarryCGAddLE operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: RippleCarryCGAddLE
-qsharp.summary: Sets a zero-initialized little-endian register zs to the sum of
-little-endian registers xs and ys using the ripple-carry algorithm.
+qsharp.summary: Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys using the ripple-carry algorithm.
 ---
 
 # RippleCarryCGAddLE operation
 
-Namespace: [Microsoft.Quantum.Unstable.Arithmetic](xref:Microsoft.Quantum.Unstable.Arithmetic)
+Namespace: Microsoft.Quantum.Unstable.Arithmetic
 
 ```qsharp
 operation RippleCarryCGAddLE(xs : Qubit[], ys : Qubit[], zs : Qubit[]) : Unit is Adj

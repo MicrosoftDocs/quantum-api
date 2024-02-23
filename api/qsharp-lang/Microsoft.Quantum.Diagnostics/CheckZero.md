@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Diagnostics.CheckZero
+uid: Qdk.Microsoft.Quantum.Diagnostics.CheckZero
 title: CheckZero operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -11,7 +11,7 @@ qsharp.summary:
 
 # CheckZero operation
 
-Namespace: [Microsoft.Quantum.Diagnostics](xref:Microsoft.Quantum.Diagnostics)
+Namespace: Microsoft.Quantum.Diagnostics
 
 ```qsharp
 operation CheckZero(qubit : Qubit) : Bool

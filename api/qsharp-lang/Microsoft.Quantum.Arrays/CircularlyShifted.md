@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Arrays.CircularlyShifted
+uid: Qdk.Microsoft.Quantum.Arrays.CircularlyShifted
 title: CircularlyShifted function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -11,7 +11,7 @@ qsharp.summary: Shift an array circularly left or right by a specific step size.
 
 # CircularlyShifted function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function CircularlyShifted<'T>(stepCount : Int, array : 'T[]) : 'T[]

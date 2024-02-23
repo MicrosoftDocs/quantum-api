@@ -1,7 +1,7 @@
 ---
-uid: Azure.Quantum.Canon.ApplyToEachC
+uid: Qdk.Microsoft.Quantum.Canon.ApplyToEachC
 title: ApplyToEachC operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -11,7 +11,7 @@ qsharp.summary: Applies an operation to each element in a register. The modifier
 
 # ApplyToEachC operation
 
-Namespace: [Microsoft.Quantum.Canon](xref:Azure.Quantum.Canon)
+Namespace: Microsoft.Quantum.Canon
 
 ```qsharp
 operation ApplyToEachC<'T>(singleElementOperation : ('T => Unit is Ctl), register : 'T[]) : Unit is Ctl

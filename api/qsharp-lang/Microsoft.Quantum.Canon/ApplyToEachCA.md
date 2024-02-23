@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Canon.ApplyToEachCA
+uid: Qdk.Microsoft.Quantum.Canon.ApplyToEachCA
 title: ApplyToEachCA operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyToEachCA
-qsharp.summary: Applies an operation to each element in a register.
-The modifier `CA` indicates that the single-element operation is controllable and adjointable.
+qsharp.summary: Applies an operation to each element in a register. The modifier `CA` indicates that the single-element operation is controllable and adjointable.
 ---
 
 # ApplyToEachCA operation
 
-Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
+Namespace: Microsoft.Quantum.Canon
 
 ```qsharp
 operation ApplyToEachCA<'T>(singleElementOperation : ('T => Unit is Adj + Ctl), register : 'T[]) : Unit is Adj + Ctl

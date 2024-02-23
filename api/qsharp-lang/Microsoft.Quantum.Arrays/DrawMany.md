@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Arrays.DrawMany
+uid: Qdk.Microsoft.Quantum.Arrays.DrawMany
 title: DrawMany operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: DrawMany
-qsharp.summary: Repeats an operation for a given number of samples, collecting its outputs
-in an array.
+qsharp.summary: Repeats an operation for a given number of samples, collecting its outputs in an array.
 ---
 
 # DrawMany operation
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 operation DrawMany<'TInput, 'TOutput>(op : ('TInput => 'TOutput), nSamples : Int, input : 'TInput) : 'TOutput[]

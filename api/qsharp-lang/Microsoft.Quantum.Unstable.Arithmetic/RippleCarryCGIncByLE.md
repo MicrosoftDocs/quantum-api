@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Unstable.Arithmetic.RippleCarryCGIncByLE
+uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.RippleCarryCGIncByLE
 title: RippleCarryCGIncByLE operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: RippleCarryCGIncByLE
-qsharp.summary: Increments a little-endian register ys by a little-endian register xs
-using the ripple-carry algorithm.
+qsharp.summary: Increments a little-endian register ys by a little-endian register xs using the ripple-carry algorithm.
 ---
 
 # RippleCarryCGIncByLE operation
 
-Namespace: [Microsoft.Quantum.Unstable.Arithmetic](xref:Microsoft.Quantum.Unstable.Arithmetic)
+Namespace: Microsoft.Quantum.Unstable.Arithmetic
 
 ```qsharp
 operation RippleCarryCGIncByLE(xs : Qubit[], ys : Qubit[]) : Unit is Adj + Ctl

@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Intrinsic.Measure
+uid: Qdk.Microsoft.Quantum.Intrinsic.Measure
 title: Measure operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
 qsharp.name: Measure
-qsharp.summary: Performs a joint measurement of one or more qubits in the
-specified Pauli bases.
+qsharp.summary: Performs a joint measurement of one or more qubits in the specified Pauli bases.
 ---
 
 # Measure operation
 
-Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
+Namespace: Microsoft.Quantum.Intrinsic
 
 ```qsharp
 operation Measure(bases : Pauli[], qubits : Qubit[]) : Result

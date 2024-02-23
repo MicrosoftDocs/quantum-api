@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Canon.ApplyXorInPlace
+uid: Qdk.Microsoft.Quantum.Canon.ApplyXorInPlace
 title: ApplyXorInPlace operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyXorInPlace
-qsharp.summary: Applies a bitwise-XOR operation between a classical integer and an
-integer represented by a register of qubits.
+qsharp.summary: Applies a bitwise-XOR operation between a classical integer and an integer represented by a register of qubits.
 ---
 
 # ApplyXorInPlace operation
 
-Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
+Namespace: Microsoft.Quantum.Canon
 
 ```qsharp
 operation ApplyXorInPlace(value : Int, target : Qubit[]) : Unit is Adj + Ctl
