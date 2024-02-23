@@ -11,6 +11,3 @@ ms.topic: landing-page
 # Q# standard library
 
 The Q# standard library includes operations, functions and user-defined types used to develop quantum programs. 
-
-> [!NOTE]
-> The documentation for the Classic QDK, which has been replaced by the Modern QDK, has been deprecated.
