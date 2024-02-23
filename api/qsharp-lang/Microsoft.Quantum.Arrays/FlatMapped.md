@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Arrays.FlatMapped
+uid: Qdk.Microsoft.Quantum.Arrays.FlatMapped
 title: FlatMapped function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
 qsharp.name: FlatMapped
-qsharp.summary: Given an array and a function that maps an array element to some output
-array, returns the concatenated output arrays for each array element.
+qsharp.summary: Given an array and a function that maps an array element to some output array, returns the concatenated output arrays for each array element.
 ---
 
 # FlatMapped function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function FlatMapped<'TInput, 'TOutput>(mapper : ('TInput -> 'TOutput[]), array : 'TInput[]) : 'TOutput[]

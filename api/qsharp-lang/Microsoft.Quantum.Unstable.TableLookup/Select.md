@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Unstable.TableLookup.Select
+uid: Qdk.Microsoft.Quantum.Unstable.TableLookup.Select
 title: Select operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.TableLookup
@@ -11,7 +11,7 @@ qsharp.summary: Performs table lookup using a SELECT network
 
 # Select operation
 
-Namespace: [Microsoft.Quantum.Unstable.TableLookup](xref:Microsoft.Quantum.Unstable.TableLookup)
+Namespace: Microsoft.Quantum.Unstable.TableLookup
 
 ```qsharp
 operation Select(data : Bool[][], address : Qubit[], target : Qubit[]) : Unit is Adj + Ctl

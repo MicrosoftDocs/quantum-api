@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Diagnostics.DumpMachine
+uid: Qdk.Microsoft.Quantum.Diagnostics.DumpMachine
 title: DumpMachine function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Diagnostics
@@ -11,7 +11,7 @@ qsharp.summary:
 
 # DumpMachine function
 
-Namespace: [Microsoft.Quantum.Diagnostics](xref:Microsoft.Quantum.Diagnostics)
+Namespace: Microsoft.Quantum.Diagnostics
 
 ```qsharp
 function DumpMachine() : Unit

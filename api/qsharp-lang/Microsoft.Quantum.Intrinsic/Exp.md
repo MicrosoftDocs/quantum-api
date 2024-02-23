@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Intrinsic.Exp
+uid: Qdk.Microsoft.Quantum.Intrinsic.Exp
 title: Exp operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -11,7 +11,7 @@ qsharp.summary: Applies the exponential of a multi-qubit Pauli operator.
 
 # Exp operation
 
-Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
+Namespace: Microsoft.Quantum.Intrinsic
 
 ```qsharp
 operation Exp(paulis : Pauli[], theta : Double, qubits : Qubit[]) : Unit is Adj + Ctl

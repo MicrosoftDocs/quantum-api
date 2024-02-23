@@ -1,19 +1,17 @@
 ---
-uid: Microsoft.Quantum.Measurement.MResetZ
+uid: Qdk.Microsoft.Quantum.Measurement.MResetZ
 title: MResetZ operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
 qsharp.name: MResetZ
-qsharp.summary: Measures a single qubit in the Z basis,
-and resets it to a fixed initial state
-following the measurement.
+qsharp.summary: Measures a single qubit in the Z basis, and resets it to a fixed initial state following the measurement.
 ---
 
 # MResetZ operation
 
-Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
+Namespace: Microsoft.Quantum.Measurement
 
 ```qsharp
 operation MResetZ(target : Qubit) : Result

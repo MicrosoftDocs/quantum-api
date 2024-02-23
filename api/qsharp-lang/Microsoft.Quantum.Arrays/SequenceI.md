@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Arrays.SequenceI
+uid: Qdk.Microsoft.Quantum.Arrays.SequenceI
 title: SequenceI function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -11,7 +11,7 @@ qsharp.summary: Get an array of integers in a given interval.
 
 # SequenceI function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function SequenceI(from : Int, to : Int) : Int[]

@@ -1,19 +1,17 @@
 ---
-uid: Microsoft.Quantum.Measurement.MeasureInteger
+uid: Qdk.Microsoft.Quantum.Measurement.MeasureInteger
 title: MeasureInteger operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
 qsharp.name: MeasureInteger
-qsharp.summary: Measures the content of a quantum register and converts
-it to an integer. The measurement is performed with respect
-to the standard computational basis, i.e., the eigenbasis of `PauliZ`.
+qsharp.summary: Measures the content of a quantum register and converts it to an integer. The measurement is performed with respect to the standard computational basis, i.e., the eigenbasis of `PauliZ`.
 ---
 
 # MeasureInteger operation
 
-Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
+Namespace: Microsoft.Quantum.Measurement
 
 ```qsharp
 operation MeasureInteger(target : Qubit[]) : Int

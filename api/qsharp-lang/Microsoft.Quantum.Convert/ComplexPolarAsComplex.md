@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Convert.ComplexPolarAsComplex
+uid: Qdk.Microsoft.Quantum.Convert.ComplexPolarAsComplex
 title: ComplexPolarAsComplex function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
 qsharp.name: ComplexPolarAsComplex
-qsharp.summary: Converts a complex number of type `ComplexPolar` to a complex
-number of type `Complex`.
+qsharp.summary: Converts a complex number of type `ComplexPolar` to a complex number of type `Complex`.
 ---
 
 # ComplexPolarAsComplex function
 
-Namespace: [Microsoft.Quantum.Convert](xref:Microsoft.Quantum.Convert)
+Namespace: Microsoft.Quantum.Convert
 
 ```qsharp
 function ComplexPolarAsComplex(input : ComplexPolar) : Complex

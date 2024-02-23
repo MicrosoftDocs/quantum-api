@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Canon.ApplyControlledOnBitString
+uid: Qdk.Microsoft.Quantum.Canon.ApplyControlledOnBitString
 title: ApplyControlledOnBitString operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
 qsharp.name: ApplyControlledOnBitString
-qsharp.summary: Applies a unitary operation on the target,
-controlled on a state specified by a given bit mask.
+qsharp.summary: Applies a unitary operation on the target, controlled on a state specified by a given bit mask.
 ---
 
 # ApplyControlledOnBitString operation
 
-Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
+Namespace: Microsoft.Quantum.Canon
 
 ```qsharp
 operation ApplyControlledOnBitString<'T>(bits : Bool[], oracle : ('T => Unit is Adj + Ctl), controlRegister : Qubit[], target : 'T) : Unit is Adj + Ctl

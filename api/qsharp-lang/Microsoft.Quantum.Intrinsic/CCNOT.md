@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Intrinsic.CCNOT
+uid: Qdk.Microsoft.Quantum.Intrinsic.CCNOT
 title: CCNOT operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -11,7 +11,7 @@ qsharp.summary: Applies the doubly controlled–NOT (CCNOT) gate to three qubits
 
 # CCNOT operation
 
-Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
+Namespace: Microsoft.Quantum.Intrinsic
 
 ```qsharp
 operation CCNOT(control1 : Qubit, control2 : Qubit, target : Qubit) : Unit is Adj + Ctl

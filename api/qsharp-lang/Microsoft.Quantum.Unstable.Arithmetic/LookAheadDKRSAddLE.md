@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Unstable.Arithmetic.LookAheadDKRSAddLE
+uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.LookAheadDKRSAddLE
 title: LookAheadDKRSAddLE operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: LookAheadDKRSAddLE
-qsharp.summary: Sets a zero-initialized little-endian register zs to the sum of
-little-endian registers xs and ys using the carry-lookahead algorithm.
+qsharp.summary: Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys using the carry-lookahead algorithm.
 ---
 
 # LookAheadDKRSAddLE operation
 
-Namespace: [Microsoft.Quantum.Unstable.Arithmetic](xref:Microsoft.Quantum.Unstable.Arithmetic)
+Namespace: Microsoft.Quantum.Unstable.Arithmetic
 
 ```qsharp
 operation LookAheadDKRSAddLE(xs : Qubit[], ys : Qubit[], zs : Qubit[]) : Unit is Adj

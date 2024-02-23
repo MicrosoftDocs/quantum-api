@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Core.RangeReverse
+uid: Qdk.Microsoft.Quantum.Core.RangeReverse
 title: RangeReverse function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Core
@@ -11,7 +11,7 @@ qsharp.summary: Returns a new range which is the reverse of the input range.
 
 # RangeReverse function
 
-Namespace: [Microsoft.Quantum.Core](xref:Microsoft.Quantum.Core)
+Namespace: Microsoft.Quantum.Core
 
 ```qsharp
 function RangeReverse(r : Range) : Range

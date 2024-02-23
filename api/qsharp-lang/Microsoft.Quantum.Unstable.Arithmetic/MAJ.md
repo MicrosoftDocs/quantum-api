@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Unstable.Arithmetic.MAJ
+uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.MAJ
 title: MAJ operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
@@ -11,7 +11,7 @@ qsharp.summary: This applies the in-place majority operation to 3 qubits.
 
 # MAJ operation
 
-Namespace: [Microsoft.Quantum.Unstable.Arithmetic](xref:Microsoft.Quantum.Unstable.Arithmetic)
+Namespace: Microsoft.Quantum.Unstable.Arithmetic
 
 ```qsharp
 operation MAJ(x : Qubit, y : Qubit, z : Qubit) : Unit is Adj + Ctl

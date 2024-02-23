@@ -1,19 +1,17 @@
 ---
-uid: Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP
+uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP
 title: ApproximatelyPreparePureStateCP operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.StatePreparation
 qsharp.name: ApproximatelyPreparePureStateCP
-qsharp.summary: Given a set of coefficients and a big-endian quantum register,
-prepares a state on that register described by the given coefficients,
-up to a given approximation tolerance.
+qsharp.summary: Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients, up to a given approximation tolerance.
 ---
 
 # ApproximatelyPreparePureStateCP operation
 
-Namespace: [Microsoft.Quantum.Unstable.StatePreparation](xref:Microsoft.Quantum.Unstable.StatePreparation)
+Namespace: Microsoft.Quantum.Unstable.StatePreparation
 
 ```qsharp
 operation ApproximatelyPreparePureStateCP(tolerance : Double, coefficients : ComplexPolar[], qubits : Qubit[]) : Unit is Adj + Ctl

@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Arrays.IsRectangularArray
+uid: Qdk.Microsoft.Quantum.Arrays.IsRectangularArray
 title: IsRectangularArray function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -11,7 +11,7 @@ qsharp.summary: Returns whether a 2-dimensional array has a rectangular shape
 
 # IsRectangularArray function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function IsRectangularArray<'T>(array : 'T[][]) : Bool

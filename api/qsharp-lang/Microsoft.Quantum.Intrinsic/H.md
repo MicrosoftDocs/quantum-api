@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Intrinsic.H
+uid: Qdk.Microsoft.Quantum.Intrinsic.H
 title: H operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Intrinsic
@@ -11,7 +11,7 @@ qsharp.summary: Applies the Hadamard transformation to a single qubit.
 
 # H operation
 
-Namespace: [Microsoft.Quantum.Intrinsic](xref:Microsoft.Quantum.Intrinsic)
+Namespace: Microsoft.Quantum.Intrinsic
 
 ```qsharp
 operation H(qubit : Qubit) : Unit is Adj + Ctl

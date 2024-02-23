@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD
+uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD
 title: PreparePureStateD operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.StatePreparation
 qsharp.name: PreparePureStateD
-qsharp.summary: Given a set of coefficients and a big-endian quantum register,
-prepares a state on that register described by the given coefficients.
+qsharp.summary: Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients.
 ---
 
 # PreparePureStateD operation
 
-Namespace: [Microsoft.Quantum.Unstable.StatePreparation](xref:Microsoft.Quantum.Unstable.StatePreparation)
+Namespace: Microsoft.Quantum.Unstable.StatePreparation
 
 ```qsharp
 operation PreparePureStateD(coefficients : Double[], qubits : Qubit[]) : Unit is Adj + Ctl

@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Convert.BoolArrayAsInt
+uid: Qdk.Microsoft.Quantum.Convert.BoolArrayAsInt
 title: BoolArrayAsInt function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Convert
@@ -11,7 +11,7 @@ qsharp.summary: Produces a non-negative integer from a string of bits in little 
 
 # BoolArrayAsInt function
 
-Namespace: [Microsoft.Quantum.Convert](xref:Microsoft.Quantum.Convert)
+Namespace: Microsoft.Quantum.Convert
 
 ```qsharp
 function BoolArrayAsInt(bits : Bool[]) : Int

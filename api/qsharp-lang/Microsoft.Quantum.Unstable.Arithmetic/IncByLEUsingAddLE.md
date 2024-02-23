@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Unstable.Arithmetic.IncByLEUsingAddLE
+uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.IncByLEUsingAddLE
 title: IncByLEUsingAddLE operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
@@ -11,7 +11,7 @@ qsharp.summary: Generic operation to turn two out-place adders into one in-place
 
 # IncByLEUsingAddLE operation
 
-Namespace: [Microsoft.Quantum.Unstable.Arithmetic](xref:Microsoft.Quantum.Unstable.Arithmetic)
+Namespace: Microsoft.Quantum.Unstable.Arithmetic
 
 ```qsharp
 operation IncByLEUsingAddLE(forwardAdder : ((Qubit[], Qubit[], Qubit[]) => Unit is Adj), backwardAdder : ((Qubit[], Qubit[], Qubit[]) => Unit is Adj), xs : Qubit[], ys : Qubit[]) : Unit is Adj + Ctl

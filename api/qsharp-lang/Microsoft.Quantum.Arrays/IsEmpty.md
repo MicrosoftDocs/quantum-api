@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Arrays.IsEmpty
+uid: Qdk.Microsoft.Quantum.Arrays.IsEmpty
 title: IsEmpty function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -11,7 +11,7 @@ qsharp.summary: Returns true if and only if an array is empty.
 
 # IsEmpty function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function IsEmpty<'T>(array : 'T[]) : Bool

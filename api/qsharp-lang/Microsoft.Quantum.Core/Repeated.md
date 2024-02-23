@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Core.Repeated
+uid: Qdk.Microsoft.Quantum.Core.Repeated
 title: Repeated function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Core
@@ -11,7 +11,7 @@ qsharp.summary: Creates an array of given length with all elements equal to give
 
 # Repeated function
 
-Namespace: [Microsoft.Quantum.Core](xref:Microsoft.Quantum.Core)
+Namespace: Microsoft.Quantum.Core
 
 ```qsharp
 function Repeated<'T>(value : 'T, length : Int) : 'T[]

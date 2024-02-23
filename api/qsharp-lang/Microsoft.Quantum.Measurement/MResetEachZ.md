@@ -1,18 +1,17 @@
 ---
-uid: Microsoft.Quantum.Measurement.MResetEachZ
+uid: Qdk.Microsoft.Quantum.Measurement.MResetEachZ
 title: MResetEachZ operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Measurement
 qsharp.name: MResetEachZ
-qsharp.summary: Measures each qubit in a given array in the Z basis
-and resets them to a fixed initial state.
+qsharp.summary: Measures each qubit in a given array in the Z basis and resets them to a fixed initial state.
 ---
 
 # MResetEachZ operation
 
-Namespace: [Microsoft.Quantum.Measurement](xref:Microsoft.Quantum.Measurement)
+Namespace: Microsoft.Quantum.Measurement
 
 ```qsharp
 operation MResetEachZ(register : Qubit[]) : Result[]

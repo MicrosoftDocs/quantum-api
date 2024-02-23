@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Arrays.Partitioned
+uid: Qdk.Microsoft.Quantum.Arrays.Partitioned
 title: Partitioned function
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.namespace: Microsoft.Quantum.Arrays
@@ -11,7 +11,7 @@ qsharp.summary: Splits an array into multiple parts.
 
 # Partitioned function
 
-Namespace: [Microsoft.Quantum.Arrays](xref:Microsoft.Quantum.Arrays)
+Namespace: Microsoft.Quantum.Arrays
 
 ```qsharp
 function Partitioned<'T>(partitionSizes : Int[], array : 'T[]) : 'T[][]

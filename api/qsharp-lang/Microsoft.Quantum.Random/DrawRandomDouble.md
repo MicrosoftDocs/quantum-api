@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Random.DrawRandomDouble
+uid: Qdk.Microsoft.Quantum.Random.DrawRandomDouble
 title: DrawRandomDouble operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -11,7 +11,7 @@ qsharp.summary: Draws a random real number in a given inclusive interval.
 
 # DrawRandomDouble operation
 
-Namespace: [Microsoft.Quantum.Random](xref:Microsoft.Quantum.Random)
+Namespace: Microsoft.Quantum.Random
 
 ```qsharp
 operation DrawRandomDouble(min : Double, max : Double) : Double

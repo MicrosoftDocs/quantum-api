@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Random.DrawRandomInt
+uid: Qdk.Microsoft.Quantum.Random.DrawRandomInt
 title: DrawRandomInt operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Random
@@ -11,7 +11,7 @@ qsharp.summary: Draws a random integer in a given inclusive range.
 
 # DrawRandomInt operation
 
-Namespace: [Microsoft.Quantum.Random](xref:Microsoft.Quantum.Random)
+Namespace: Microsoft.Quantum.Random
 
 ```qsharp
 operation DrawRandomInt(min : Int, max : Int) : Int

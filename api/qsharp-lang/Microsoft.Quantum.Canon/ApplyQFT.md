@@ -1,7 +1,7 @@
 ---
-uid: Microsoft.Quantum.Canon.ApplyQFT
+uid: Qdk.Microsoft.Quantum.Canon.ApplyQFT
 title: ApplyQFT operation
-ms.date: 02/21/2024 12:00:00 AM
+ms.date: 02/23/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.namespace: Microsoft.Quantum.Canon
@@ -11,7 +11,7 @@ qsharp.summary: Applies Quantum Fourier Transform (QFT) to a little-endian quant
 
 # ApplyQFT operation
 
-Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
+Namespace: Microsoft.Quantum.Canon
 
 ```qsharp
 operation ApplyQFT(qs : Qubit[]) : Unit is Adj + Ctl
