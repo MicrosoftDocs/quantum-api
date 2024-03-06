@@ -8,7 +8,9 @@
       "monikers": [],
       "moniker_ranges": [],
       "xref_query_tags": [
-        "/azure/quantum"
+        "/azure/quantum",
+        "/python/quantum",
+        "/python/azure-quantum"
       ],
       "enable_xrefmap_share": true,
       "open_to_public_contributors": false,
