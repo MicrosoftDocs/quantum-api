@@ -49,9 +49,10 @@
       "ms.devlang":"qsharp",
       "uhfHeaderId": "Azure",
       "searchScope": ["quantum", "q#", "qsharp"],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "Microsoft/qsharp",
-      "feedback_product_url": "https://github.com/microsoft/qsharp/issues",
+      "feedback_system": "Standard",
+      "feedback_product_url": "https://feedback.azure.com/d365community/forum/8616edd6-9f3b-ec11-8c62-00224825a012",
+      "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/3/azure-quantum",
+      "feedback_help_link_type": "get-help-at-qna",
       "titleSuffix": "Q# reference - Azure Quantum"
     },
     "breadcrumb_path": "/qsharp/breadcrumb/toc.json",
