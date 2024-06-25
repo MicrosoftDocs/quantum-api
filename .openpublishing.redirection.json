@@ -5471,11 +5471,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "api/iqsharp-magic/toc.yml",
-            "redirect_url": "/en-us/qsharp/api/qsharp-lang/",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "api/iqsharp-magic/toffoli.md",
             "redirect_url": "/en-us/qsharp/api/qsharp-lang/",
             "redirect_document_id": false
