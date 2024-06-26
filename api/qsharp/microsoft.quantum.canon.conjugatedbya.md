@@ -1,65 +1,0 @@
----
-uid: Microsoft.Quantum.Canon.ConjugatedByA
-title: ConjugatedByA function
-ms.date: 7/28/2023 12:00:00 AM
-ms.topic: managed-reference
-qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Canon
-qsharp.name: ConjugatedByA
-qsharp.summary: >-
-  Given outer and inner operations, returns a new operation that
-  conjugates the inner operation by the outer operation.
----
-
-# ConjugatedByA function
-
-> [!WARNING]
-> This documentation refers to the Classic QDK, which has been replaced by the Modern QDK.
->
-> Please see <https://aka.ms/qdk.api> for the API documentation for the Modern QDK.
-
-Namespace: [Microsoft.Quantum.Canon](xref:Microsoft.Quantum.Canon)
-
-Package: [Microsoft.Quantum.Standard](https://nuget.org/packages/Microsoft.Quantum.Standard)
-
-
-Given outer and inner operations, returns a new operation thatconjugates the inner operation by the outer operation.
-
-```qsharp
-function ConjugatedByA<'T> (outerOperation : ('T => Unit is Adj), innerOperation : ('T => Unit is Adj)) : ('T => Unit is Adj)
-```
-
-
-## Input
-
-### outerOperation : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
-
-The operation $U$ that should be used to conjugate $V$. Note that theouter operation $U$ needs to be adjointable, but does notneed to be controllable.
-
-
-### innerOperation : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
-
-The operation $V$ being conjugated.
-
-
-
-## Output : 'T => [Unit](xref:microsoft.quantum.qsharp.valueliterals#unit-literal)  is Adj
-
-A new operation whose action is represented by the unitary$U^{\dagger} V U$.
-
-## Type Parameters
-
-### 'T
-
-The type of the target on which each of the inner and outer operationsact.
-
-## Remarks
-
-The outer operation is always assumed to be adjointable, but does notneed to be controllable in order for the combined operation to becontrollable.
-
-## See Also
-
-- [Microsoft.Quantum.Canon.ConjugatedByA](xref:Microsoft.Quantum.Canon.ConjugatedByA)
-- [Microsoft.Quantum.Canon.ConjugatedByC](xref:Microsoft.Quantum.Canon.ConjugatedByC)
-- [Microsoft.Quantum.Canon.ConjugatedByCA](xref:Microsoft.Quantum.Canon.ConjugatedByCA)
-- [Microsoft.Quantum.Canon.ApplyWith](xref:Microsoft.Quantum.Canon.ApplyWith)
