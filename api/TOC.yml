@@ -6,8 +6,8 @@
     topicHref: qsharp-lang/index.md
     href: qsharp-lang/toc.yml
   - name: Python libraries
-    href: https://learn.microsoft.com/python/qsharp/qsharp
+    href: /python/qsharp/qsharp
   - name: REST APIs
-    href: https://docs.microsoft.com/rest/api/azurequantum/
+    href: /rest/api/azurequantum/
   - name: ARM templates
-    href: https://docs.microsoft.com/azure/templates/microsoft.quantum/workspaces?tabs=bicep
+    href: /azure/templates/microsoft.quantum/workspaces?tabs=bicep
