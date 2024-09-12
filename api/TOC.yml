@@ -3,7 +3,6 @@
   - name: API reference
     href: index.md   
   - name: Q# libraries
-    topicHref: qsharp-lang/index.md
     href: qsharp-lang/toc.yml
   - name: Python libraries
     href: /python/qsharp/qsharp

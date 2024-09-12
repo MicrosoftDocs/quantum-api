@@ -5494,6 +5494,11 @@
             "source_path": "api/dot-net-libraries.md",
             "redirect_url": "/qsharp/api/index/",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/index.md",
+            "redirect_url": "/qsharp/api/index/",
+            "redirect_document_id": false
         }
     ]
 }
