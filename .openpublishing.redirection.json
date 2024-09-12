@@ -5489,6 +5489,11 @@
             "source_path": "api/iqsharp-magic/workspace.md",
             "redirect_url": "/en-us/qsharp/api/qsharp-lang/",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "api/dot-net-libraries.md",
+            "redirect_url": "/en-us/qsharp/api/index/",
+            "redirect_document_id": false
         }
     ]
 }
