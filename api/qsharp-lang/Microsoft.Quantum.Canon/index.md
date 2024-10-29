@@ -15,8 +15,7 @@ The Microsoft.Quantum.Canon namespace contains the following functions and opera
 | Name | Description |
 |-----------|-------------|
 | [`ApplyCNOTChain`](xref:Qdk.Microsoft.Quantum.Canon.ApplyCNOTChain) | Computes the parity of a register of qubits in-place. |
-| [`ApplyControlledOnBitString`](xref:Qdk.Microsoft.Quantum.Canon.ApplyControlledOnBitString) | Applies a unitary operation on the target,
-controlled on a state specified by a given bit mask. |
+| [`ApplyControlledOnBitString`](xref:Qdk.Microsoft.Quantum.Canon.ApplyControlledOnBitString) | Applies a unitary operation on the target, controlled on a state specified by a given bit mask. |
 
 etc...
 

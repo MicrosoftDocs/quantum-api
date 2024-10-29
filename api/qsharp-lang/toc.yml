@@ -5,8 +5,8 @@
 # Please do not modify this file manually, or your changes will be lost when
 # documentation is rebuilt.
 - items:
-  - name: Overview
-  - uid: microsoft.quantum.apiref-toc
+  name: Overview
+  uid: microsoft.quantum.apiref-toc
 - items:
   - {name: Overview, uid: microsoft.quantum.arrays-toc}
   - {name: All, uid: Qdk.Microsoft.Quantum.Arrays.All}
