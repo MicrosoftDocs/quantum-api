@@ -5,6 +5,10 @@
 # Please do not modify this file manually, or your changes will be lost when
 # documentation is rebuilt.
 - items:
+  - name: Overview
+  - uid: microsoft.quantum.apiref-toc
+- items:
+  - {name: Overview, uid: microsoft.quantum.arrays-toc}
   - {name: All, uid: Qdk.Microsoft.Quantum.Arrays.All}
   - {name: Any, uid: Qdk.Microsoft.Quantum.Arrays.Any}
   - {name: Chunks, uid: Qdk.Microsoft.Quantum.Arrays.Chunks}
@@ -52,6 +56,7 @@
   name: Microsoft.Quantum.Arrays
   uid: Qdk.Microsoft.Quantum.Arrays
 - items:
+  - {name: Overview, uid: microsoft.quantum.canon-toc}
   - {name: ApplyCNOTChain, uid: Qdk.Microsoft.Quantum.Canon.ApplyCNOTChain}
   - {name: ApplyControlledOnBitString, uid: Qdk.Microsoft.Quantum.Canon.ApplyControlledOnBitString}
   - {name: ApplyControlledOnInt, uid: Qdk.Microsoft.Quantum.Canon.ApplyControlledOnInt}
