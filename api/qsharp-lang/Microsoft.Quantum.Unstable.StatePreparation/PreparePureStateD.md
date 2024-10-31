@@ -1,17 +1,18 @@
 ---
 uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD
 title: PreparePureStateD operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 10/30/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Unstable.StatePreparation
 qsharp.name: PreparePureStateD
-qsharp.summary: Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients.
+qsharp.summary: "Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients."
 ---
 
 # PreparePureStateD operation
 
-Namespace: Microsoft.Quantum.Unstable.StatePreparation
+Fully qualified name: Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD
 
 ```qsharp
 operation PreparePureStateD(coefficients : Double[], qubits : Qubit[]) : Unit is Adj + Ctl
@@ -56,9 +57,9 @@ PreparePureStateD(amplitudes, qubits);
 ```
 
 ## References
-- Synthesis of Quantum Logic Circuits
+- [arXiv:quant-ph/0406176](https://arxiv.org/abs/quant-ph/0406176)
+  "Synthesis of Quantum Logic Circuits",
   Vivek V. Shende, Stephen S. Bullock, Igor L. Markov
-  https://arxiv.org/abs/quant-ph/0406176
 
 ## See Also
 - Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP

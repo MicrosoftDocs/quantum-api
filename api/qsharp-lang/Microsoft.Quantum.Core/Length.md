@@ -1,28 +1,19 @@
 ---
 uid: Qdk.Microsoft.Quantum.Core.Length
-title: Length function
-ms.date: 02/23/2024 12:00:00 AM
+title: Length exported item
+ms.date: 10/30/2024 12:00:00 AM
 ms.topic: managed-reference
-qsharp.kind: function
+qsharp.kind: export
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: Length
-qsharp.summary: Returns the number of elements in an array.
+qsharp.summary: ""
 ---
 
-# Length function
+# Length exported item
 
-Namespace: Microsoft.Quantum.Core
+Fully qualified name: Microsoft.Quantum.Core.Length
 
 ```qsharp
-function Length<'T>(a : 'T[]) : Int
+
 ```
-
-## Summary
-Returns the number of elements in an array.
-
-## Input
-### a
-Input array.
-
-## Output
-The total count of elements in an array.

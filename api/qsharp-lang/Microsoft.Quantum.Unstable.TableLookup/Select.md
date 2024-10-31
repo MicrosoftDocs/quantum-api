@@ -1,17 +1,18 @@
 ---
 uid: Qdk.Microsoft.Quantum.Unstable.TableLookup.Select
 title: Select operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 10/30/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Unstable.TableLookup
 qsharp.name: Select
-qsharp.summary: Performs table lookup using a SELECT network
+qsharp.summary: "Performs table lookup using a SELECT network"
 ---
 
 # Select operation
 
-Namespace: Microsoft.Quantum.Unstable.TableLookup
+Fully qualified name: Microsoft.Quantum.Unstable.TableLookup.Select
 
 ```qsharp
 operation Select(data : Bool[][], address : Qubit[], target : Qubit[]) : Unit is Adj + Ctl
@@ -44,10 +45,10 @@ measurement-based unlookup operation [3]. The controlled adjoint variant
 is not optimized using this technique.
 
 ## References
-[1] [arXiv:1805.03662](https://arxiv.org/abs/1805.03662)
-    "Encoding Electronic Spectra in Quantum Circuits with Linear T
-     Complexity"
-[2] [arXiv:1905.07682](https://arxiv.org/abs/1905.07682)
-    "Windowed arithmetic"
-[3] [arXiv:2211.01133](https://arxiv.org/abs/2211.01133)
-    "Space-time optimized table lookup"
+1. [arXiv:1805.03662](https://arxiv.org/abs/1805.03662)
+   "Encoding Electronic Spectra in Quantum Circuits with Linear T
+   Complexity"
+2. [arXiv:1905.07682](https://arxiv.org/abs/1905.07682)
+   "Windowed arithmetic"
+3. [arXiv:2211.01133](https://arxiv.org/abs/2211.01133)
+   "Space-time optimized table lookup"

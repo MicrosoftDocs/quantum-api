@@ -1,17 +1,18 @@
 ---
 uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP
 title: ApproximatelyPreparePureStateCP operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 10/30/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Unstable.StatePreparation
 qsharp.name: ApproximatelyPreparePureStateCP
-qsharp.summary: Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients, up to a given approximation tolerance.
+qsharp.summary: "Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients, up to a given approximation tolerance."
 ---
 
 # ApproximatelyPreparePureStateCP operation
 
-Namespace: Microsoft.Quantum.Unstable.StatePreparation
+Fully qualified name: Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP
 
 ```qsharp
 operation ApproximatelyPreparePureStateCP(tolerance : Double, coefficients : ComplexPolar[], qubits : Qubit[]) : Unit is Adj + Ctl
@@ -61,6 +62,6 @@ elements (rⱼ, tⱼ) = (0.0, 0.0) if fewer than 2ⁿ are
 specified.
 
 ## References
-- Synthesis of Quantum Logic Circuits
+- [arXiv:quant-ph/0406176](https://arxiv.org/abs/quant-ph/0406176)
+  "Synthesis of Quantum Logic Circuits",
   Vivek V. Shende, Stephen S. Bullock, Igor L. Markov
-  https://arxiv.org/abs/quant-ph/0406176

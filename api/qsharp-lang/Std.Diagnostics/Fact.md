@@ -1,0 +1,32 @@
+---
+uid: Qdk.Std.Diagnostics.Fact
+title: Fact function
+ms.date: 10/30/2024 12:00:00 AM
+ms.topic: managed-reference
+qsharp.kind: function
+qsharp.package: __Std__
+qsharp.namespace: Std.Diagnostics
+qsharp.name: Fact
+qsharp.summary: "Checks whether a given condition is true, failing with a message if it is not."
+---
+
+# Fact function
+
+Fully qualified name: Std.Diagnostics.Fact
+
+```qsharp
+function Fact(actual : Bool, message : String) : Unit
+```
+
+## Summary
+Checks whether a given condition is true, failing with a message if it is not.
+
+## Description
+This function checks whether a given condition is true. If the condition is false, the operation fails with the given message,
+terminating the program.
+
+## Input
+### actual
+The condition to check.
+### message
+The message to use in the failure if the condition is false.
