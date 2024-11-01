@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.FactorialL
+uid: Qdk.Std.Math.FactorialL
 title: FactorialL function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: FactorialL
-qsharp.summary: Returns the factorial of a given number.
+qsharp.summary: "Returns the factorial of a given number."
 ---
 
 # FactorialL function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.FactorialL
 
 ```qsharp
 function FactorialL(n : Int) : BigInt

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.SquaredNorm
+uid: Qdk.Std.Math.SquaredNorm
 title: SquaredNorm function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: SquaredNorm
-qsharp.summary: Returns the squared 2-norm of a vector.
+qsharp.summary: "Returns the squared 2-norm of a vector."
 ---
 
 # SquaredNorm function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.SquaredNorm
 
 ```qsharp
 function SquaredNorm(array : Double[]) : Double

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Y
+uid: Qdk.Std.Intrinsic.Y
 title: Y operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Y
-qsharp.summary: Applies the Pauli _Y_ gate.
+qsharp.summary: "Applies the Pauli _Y_ gate."
 ---
 
 # Y operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Y
 
 ```qsharp
 operation Y(qubit : Qubit) : Unit is Adj + Ctl

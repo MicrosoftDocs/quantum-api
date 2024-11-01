@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Transposed
+uid: Qdk.Std.Arrays.Transposed
 title: Transposed function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Transposed
-qsharp.summary: Returns the transpose of a matrix represented as an array of arrays.
+qsharp.summary: "Returns the transpose of a matrix represented as an array of arrays."
 ---
 
 # Transposed function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Transposed
 
 ```qsharp
 function Transposed<'T>(matrix : 'T[][]) : 'T[][]

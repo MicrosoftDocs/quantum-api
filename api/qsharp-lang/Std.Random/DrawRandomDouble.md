@@ -1,24 +1,26 @@
 ---
-uid: Qdk.Microsoft.Quantum.Random.DrawRandomDouble
+uid: Qdk.Std.Random.DrawRandomDouble
 title: DrawRandomDouble operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Random
+qsharp.package: __Std__
+qsharp.namespace: Std.Random
 qsharp.name: DrawRandomDouble
-qsharp.summary: Draws a random real number in a given inclusive interval.
+qsharp.summary: "Draws a random real number from a uniform distribution in a given inclusive interval. Fails if `max < min`."
 ---
 
 # DrawRandomDouble operation
 
-Namespace: Microsoft.Quantum.Random
+Fully qualified name: Std.Random.DrawRandomDouble
 
 ```qsharp
 operation DrawRandomDouble(min : Double, max : Double) : Double
 ```
 
 ## Summary
-Draws a random real number in a given inclusive interval.
+Draws a random real number from a uniform distribution
+in a given inclusive interval. Fails if `max < min`.
 
 ## Input
 ### min
@@ -29,9 +31,6 @@ The largest real number to be drawn.
 ## Output
 A random real number in the inclusive interval from `min` to `max` with
 uniform probability.
-
-## Remarks
-Fails if `max < min`.
 
 ## Example
 The following Q# snippet randomly draws an angle between 0 and 2π:

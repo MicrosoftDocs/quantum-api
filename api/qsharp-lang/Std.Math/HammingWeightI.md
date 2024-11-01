@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.HammingWeightI
+uid: Qdk.Std.Math.HammingWeightI
 title: HammingWeightI function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: HammingWeightI
-qsharp.summary: Returns the number of 1 bits in the binary representation of integer `n`.
+qsharp.summary: "Returns the number of 1 bits in the binary representation of integer `n`."
 ---
 
 # HammingWeightI function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.HammingWeightI
 
 ```qsharp
 function HammingWeightI(n : Int) : Int

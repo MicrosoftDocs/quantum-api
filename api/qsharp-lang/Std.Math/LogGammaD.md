@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.LogGammaD
+uid: Qdk.Std.Math.LogGammaD
 title: LogGammaD function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: LogGammaD
-qsharp.summary: Returns the natural logarithm of the gamma function (aka the log-gamma function).
+qsharp.summary: "Returns the natural logarithm of the gamma function (aka the log-gamma function)."
 ---
 
 # LogGammaD function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.LogGammaD
 
 ```qsharp
 function LogGammaD(x : Double) : Double

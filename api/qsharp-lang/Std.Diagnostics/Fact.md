@@ -1,20 +1,32 @@
 ---
-uid: Qdk.Microsoft.Quantum.Diagnostics.Fact
+uid: Qdk.Std.Diagnostics.Fact
 title: Fact function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Diagnostics
+qsharp.package: __Std__
+qsharp.namespace: Std.Diagnostics
 qsharp.name: Fact
-qsharp.summary: Checks whether a classical condition is true, and throws an exception if it is not.
+qsharp.summary: "Checks whether a given condition is true, failing with a message if it is not."
 ---
 
 # Fact function
 
-Namespace: Microsoft.Quantum.Diagnostics
+Fully qualified name: Std.Diagnostics.Fact
 
 ```qsharp
 function Fact(actual : Bool, message : String) : Unit
 ```
 
-Checks whether a classical condition is true, and throws an exception if it is not.
+## Summary
+Checks whether a given condition is true, failing with a message if it is not.
+
+## Description
+This function checks whether a given condition is true. If the condition is false, the operation fails with the given message,
+terminating the program.
+
+## Input
+### actual
+The condition to check.
+### message
+The message to use in the failure if the condition is false.

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.ArgComplexPolar
+uid: Qdk.Std.Math.ArgComplexPolar
 title: ArgComplexPolar function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: ArgComplexPolar
-qsharp.summary: Returns the phase of a complex number of type `ComplexPolar`.
+qsharp.summary: "Returns the phase of a complex number of type `ComplexPolar`."
 ---
 
 # ArgComplexPolar function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.ArgComplexPolar
 
 ```qsharp
 function ArgComplexPolar(input : ComplexPolar) : Double

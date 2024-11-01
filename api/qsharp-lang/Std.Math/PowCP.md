@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.PowCP
+uid: Qdk.Std.Math.PowCP
 title: PowCP function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: PowCP
-qsharp.summary: Returns a number raised to a given power of type `ComplexPolar`. Note that this is a multi-valued function, but only one value is returned.
+qsharp.summary: "Returns a number raised to a given power of type `ComplexPolar`. Note that this is a multi-valued function, but only one value is returned."
 ---
 
 # PowCP function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.PowCP
 
 ```qsharp
 function PowCP(a : ComplexPolar, power : ComplexPolar) : ComplexPolar

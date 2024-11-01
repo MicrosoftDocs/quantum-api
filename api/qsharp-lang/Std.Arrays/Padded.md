@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Padded
+uid: Qdk.Std.Arrays.Padded
 title: Padded function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Padded
-qsharp.summary: Returns an array padded at with specified values up to a specified length.
+qsharp.summary: "Returns an array padded at with specified values up to a specified length."
 ---
 
 # Padded function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Padded
 
 ```qsharp
 function Padded<'T>(paddedLength : Int, defaultElement : 'T, inputArray : 'T[]) : 'T[]

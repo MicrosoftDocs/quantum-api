@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.CNOT
+uid: Qdk.Std.Intrinsic.CNOT
 title: CNOT operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: CNOT
-qsharp.summary: Applies the controlled-NOT (CNOT) gate to a pair of qubits.
+qsharp.summary: "Applies the controlled-NOT (CNOT) gate to a pair of qubits."
 ---
 
 # CNOT operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.CNOT
 
 ```qsharp
 operation CNOT(control : Qubit, target : Qubit) : Unit is Adj + Ctl

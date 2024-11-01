@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.BitSizeI
+uid: Qdk.Std.Math.BitSizeI
 title: BitSizeI function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: BitSizeI
 qsharp.summary: "For a non-negative integer `a`, returns the number of bits required to represent `a`. NOTE: This function returns the smallest n such that a < 2^n."
 ---
 
 # BitSizeI function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.BitSizeI
 
 ```qsharp
 function BitSizeI(a : Int) : Int

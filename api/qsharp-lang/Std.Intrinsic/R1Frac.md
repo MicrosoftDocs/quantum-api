@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.R1Frac
+uid: Qdk.Std.Intrinsic.R1Frac
 title: R1Frac operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: R1Frac
-qsharp.summary: "Applies a rotation about the |1⟩ state by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Microsoft.Quantum.Intrinsic.R, and does not include the factor of 1/2 included by Microsoft.Quantum.Intrinsic.R1."
+qsharp.summary: "Applies a rotation about the |1⟩ state by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Microsoft.Quantum.Intrinsic.R."
 ---
 
 # R1Frac operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.R1Frac
 
 ```qsharp
 operation R1Frac(numerator : Int, power : Int, qubit : Qubit) : Unit is Adj + Ctl
@@ -23,8 +24,7 @@ as a dyadic fraction.
 
 WARNING:
 This operation uses the **opposite** sign convention from
-Microsoft.Quantum.Intrinsic.R, and does not include the
-factor of 1/2 included by Microsoft.Quantum.Intrinsic.R1.
+Microsoft.Quantum.Intrinsic.R.
 
 ## Input
 ### numerator
@@ -40,7 +40,7 @@ Qubit to which the gate should be applied.
 $$
 \begin{align}
     R_1(n, k) \mathrel{:=}
-    \operatorname{diag}(1, e^{i \pi k / 2^n}).
+    \operatorname{diag}(1, e^{i \pi n / 2^k}).
 \end{align}
 $$
 

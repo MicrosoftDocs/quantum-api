@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Rzz
+uid: Qdk.Std.Intrinsic.Rzz
 title: Rzz operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Rzz
-qsharp.summary: Applies the two qubit Ising _ZZ_ rotation gate.
+qsharp.summary: "Applies the two qubit Ising _ZZ_ rotation gate."
 ---
 
 # Rzz operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Rzz
 
 ```qsharp
 operation Rzz(theta : Double, qubit0 : Qubit, qubit1 : Qubit) : Unit is Adj + Ctl

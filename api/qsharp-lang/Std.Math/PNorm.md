@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.PNorm
+uid: Qdk.Std.Math.PNorm
 title: PNorm function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: PNorm
-qsharp.summary: Returns the `L(p)` norm of a vector of `Double`s.  That is, given an array x of type `Double[]`, this returns the p-norm |x̄|ₚ= (∑(xᵢ)ᵖ)¹ᐟᵖ.
+qsharp.summary: "Returns the `L(p)` norm of a vector of `Double`s.  That is, given an array x of type `Double[]`, this returns the p-norm |x̄|ₚ= (∑(xᵢ)ᵖ)¹ᐟᵖ."
 ---
 
 # PNorm function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.PNorm
 
 ```qsharp
 function PNorm(p : Double, array : Double[]) : Double

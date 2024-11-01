@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.IsCoprimeI
+uid: Qdk.Std.Math.IsCoprimeI
 title: IsCoprimeI function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: IsCoprimeI
-qsharp.summary: Returns if two integers are co-prime.
+qsharp.summary: "Returns if two integers are co-prime."
 ---
 
 # IsCoprimeI function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.IsCoprimeI
 
 ```qsharp
 function IsCoprimeI(a : Int, b : Int) : Bool

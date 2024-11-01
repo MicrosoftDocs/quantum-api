@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.IsNaN
+uid: Qdk.Std.Math.IsNaN
 title: IsNaN function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: IsNaN
-qsharp.summary: Returns whether a given floating-point value is not a number (i.e. is NaN).
+qsharp.summary: "Returns whether a given floating-point value is not a number (i.e. is NaN)."
 ---
 
 # IsNaN function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.IsNaN
 
 ```qsharp
 function IsNaN(d : Double) : Bool

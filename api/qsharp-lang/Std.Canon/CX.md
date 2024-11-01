@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Canon.CX
+uid: Qdk.Std.Canon.CX
 title: CX operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Canon
+qsharp.package: __Std__
+qsharp.namespace: Std.Canon
 qsharp.name: CX
-qsharp.summary: Applies the controlled-X (CX) gate to a pair of qubits.
+qsharp.summary: "Applies the controlled-X (CX) gate to a pair of qubits."
 ---
 
 # CX operation
 
-Namespace: Microsoft.Quantum.Canon
+Fully qualified name: Std.Canon.CX
 
 ```qsharp
 operation CX(control : Qubit, target : Qubit) : Unit is Adj + Ctl

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Any
+uid: Qdk.Std.Arrays.Any
 title: Any function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Any
-qsharp.summary: Given an array and a predicate that is defined for the elements of the array, checks if at least one element of the array satisfies the predicate.
+qsharp.summary: "Given an array and a predicate that is defined for the elements of the array, checks if at least one element of the array satisfies the predicate."
 ---
 
 # Any function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Any
 
 ```qsharp
 function Any<'T>(predicate : ('T -> Bool), array : 'T[]) : Bool

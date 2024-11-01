@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.PNormalized
+uid: Qdk.Std.Math.PNormalized
 title: PNormalized function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: PNormalized
-qsharp.summary: Normalizes a vector of `Double`s in the `L(p)` norm.  That is, given an array x of type `Double[]`, this returns an array where all elements are divided by the p-norm |x̄|ₚ. Function leaves array with norm 0 unchanged.
+qsharp.summary: "Normalizes a vector of `Double`s in the `L(p)` norm.  That is, given an array x of type `Double[]`, this returns an array where all elements are divided by the p-norm |x̄|ₚ. Function leaves array with norm 0 unchanged."
 ---
 
 # PNormalized function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.PNormalized
 
 ```qsharp
 function PNormalized(p : Double, array : Double[]) : Double[]

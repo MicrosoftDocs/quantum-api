@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.TimesC
+uid: Qdk.Std.Math.TimesC
 title: TimesC function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: TimesC
-qsharp.summary: Returns the product of two inputs of type `Complex`.
+qsharp.summary: "Returns the product of two inputs of type `Complex`."
 ---
 
 # TimesC function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.TimesC
 
 ```qsharp
 function TimesC(a : Complex, b : Complex) : Complex

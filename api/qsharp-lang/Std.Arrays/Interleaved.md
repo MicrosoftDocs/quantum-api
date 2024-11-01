@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Interleaved
+uid: Qdk.Std.Arrays.Interleaved
 title: Interleaved function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Interleaved
-qsharp.summary: Interleaves two arrays of (almost) same size.
+qsharp.summary: "Interleaves two arrays of (almost) same size."
 ---
 
 # Interleaved function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Interleaved
 
 ```qsharp
 function Interleaved<'T>(first : 'T[], second : 'T[]) : 'T[]

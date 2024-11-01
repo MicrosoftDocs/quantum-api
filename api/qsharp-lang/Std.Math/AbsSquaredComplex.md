@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.AbsSquaredComplex
+uid: Qdk.Std.Math.AbsSquaredComplex
 title: AbsSquaredComplex function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: AbsSquaredComplex
-qsharp.summary: Returns the squared absolute value of a complex number of type `Complex`.
+qsharp.summary: "Returns the squared absolute value of a complex number of type `Complex`."
 ---
 
 # AbsSquaredComplex function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.AbsSquaredComplex
 
 ```qsharp
 function AbsSquaredComplex(input : Complex) : Double

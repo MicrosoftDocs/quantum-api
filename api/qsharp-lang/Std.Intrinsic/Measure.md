@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Measure
+uid: Qdk.Std.Intrinsic.Measure
 title: Measure operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Measure
-qsharp.summary: Performs a joint measurement of one or more qubits in the specified Pauli bases.
+qsharp.summary: "Performs a joint measurement of one or more qubits in the specified Pauli bases.  If the basis array and qubit array are different lengths, then the operation will fail."
 ---
 
 # Measure operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Measure
 
 ```qsharp
 operation Measure(bases : Pauli[], qubits : Qubit[]) : Result
@@ -20,6 +21,9 @@ operation Measure(bases : Pauli[], qubits : Qubit[]) : Result
 ## Summary
 Performs a joint measurement of one or more qubits in the
 specified Pauli bases.
+
+If the basis array and qubit array are different lengths, then the
+operation will fail.
 
 ## Input
 ### bases
@@ -33,23 +37,9 @@ Register of qubits to be measured.
 the -1 eigenvalue is observed.
 
 ## Remarks
-The output result is given by the distribution:
-$$
-\begin{align}
-    \Pr(\texttt{Zero} | \ket{\psi}) =
-        \frac12 \braket{
-            \psi \mid|
-            \left(
-                \boldone + P_0 \otimes P_1 \otimes \cdots \otimes P_{N-1}
-            \right) \mid|
-            \psi
-        },
-\end{align}
-$$
-where $P_i$ is the $i$th element of `bases`, and where
-$N = \texttt{Length}(\texttt{bases})$.
+The probability of getting `Zero` is
+$\bra{\psi} \frac{I + P_0 \otimes \ldots \otimes P_{N-1}}{2} \ket{\psi}$
+where $P_i$ is the $i$-th element of `bases`, and where
+$N$ is the `Length(bases)`.
 That is, measurement returns a `Result` $d$ such that the eigenvalue of the
 observed measurement effect is $(-1)^d$.
-
-If the basis array and qubit array are different lengths, then the
-operation will fail.

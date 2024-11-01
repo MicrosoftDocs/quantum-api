@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.LogFactorialD
+uid: Qdk.Std.Math.LogFactorialD
 title: LogFactorialD function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: LogFactorialD
-qsharp.summary: Returns the approximate natural logarithm of the factorial of a given integer.
+qsharp.summary: "Returns the approximate natural logarithm of the factorial of a given integer."
 ---
 
 # LogFactorialD function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.LogFactorialD
 
 ```qsharp
 function LogFactorialD(n : Int) : Double

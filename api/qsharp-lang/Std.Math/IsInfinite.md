@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.IsInfinite
+uid: Qdk.Std.Math.IsInfinite
 title: IsInfinite function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: IsInfinite
-qsharp.summary: Returns whether a given floating-point value is either positive or negative infinity.
+qsharp.summary: "Returns whether a given floating-point value is either positive or negative infinity."
 ---
 
 # IsInfinite function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.IsInfinite
 
 ```qsharp
 function IsInfinite(d : Double) : Bool

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Canon.ApplyToEachC
+uid: Qdk.Std.Canon.ApplyToEachC
 title: ApplyToEachC operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Canon
+qsharp.package: __Std__
+qsharp.namespace: Std.Canon
 qsharp.name: ApplyToEachC
-qsharp.summary: Applies an operation to each element in a register. The modifier `C` indicates that the single-element operation is controllable.
+qsharp.summary: "Applies an operation to each element in a register. The modifier `C` indicates that the single-element operation is controllable."
 ---
 
 # ApplyToEachC operation
 
-Namespace: Microsoft.Quantum.Canon
+Fully qualified name: Std.Canon.ApplyToEachC
 
 ```qsharp
 operation ApplyToEachC<'T>(singleElementOperation : ('T => Unit is Ctl), register : 'T[]) : Unit is Ctl

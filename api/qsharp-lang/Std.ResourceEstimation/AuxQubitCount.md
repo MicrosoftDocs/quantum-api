@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.ResourceEstimation.AuxQubitCount
+uid: Qdk.Std.ResourceEstimation.AuxQubitCount
 title: AuxQubitCount function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.ResourceEstimation
+qsharp.package: __Std__
+qsharp.namespace: Std.ResourceEstimation
 qsharp.name: AuxQubitCount
-qsharp.summary: Returns a tuple that can be passed to the `AccountForEstimates` operation to specify that the number of auxiliary qubits is equal to the `amount`.
+qsharp.summary: "Returns a tuple that can be passed to the `AccountForEstimates` operation to specify that the number of auxiliary qubits is equal to the `amount`."
 ---
 
 # AuxQubitCount function
 
-Namespace: Microsoft.Quantum.ResourceEstimation
+Fully qualified name: Std.ResourceEstimation.AuxQubitCount
 
 ```qsharp
 function AuxQubitCount(amount : Int) : (Int, Int)

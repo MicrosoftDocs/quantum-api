@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.IndexRange
+uid: Qdk.Std.Arrays.IndexRange
 title: IndexRange function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: IndexRange
-qsharp.summary: Given an array, returns a range over the indices of that array, suitable for use in a for loop.
+qsharp.summary: "Given an array, returns a range over the indices of that array, suitable for use in a for loop."
 ---
 
 # IndexRange function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.IndexRange
 
 ```qsharp
 function IndexRange<'TElement>(array : 'TElement[]) : Range

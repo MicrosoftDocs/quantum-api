@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Measurement.MResetX
+uid: Qdk.Std.Measurement.MResetX
 title: MResetX operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Measurement
+qsharp.package: __Std__
+qsharp.namespace: Std.Measurement
 qsharp.name: MResetX
-qsharp.summary: Measures a single qubit in the X basis, and resets it to a fixed initial state following the measurement.
+qsharp.summary: "Measures a single qubit in the X basis, and resets it to a fixed initial state following the measurement."
 ---
 
 # MResetX operation
 
-Namespace: Microsoft.Quantum.Measurement
+Fully qualified name: Std.Measurement.MResetX
 
 ```qsharp
 operation MResetX(target : Qubit) : Result

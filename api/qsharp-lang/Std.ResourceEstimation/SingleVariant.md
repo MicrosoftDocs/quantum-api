@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.ResourceEstimation.SingleVariant
+uid: Qdk.Std.ResourceEstimation.SingleVariant
 title: SingleVariant function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.ResourceEstimation
+qsharp.package: __Std__
+qsharp.namespace: Std.ResourceEstimation
 qsharp.name: SingleVariant
-qsharp.summary: Used to specify that there's only one execution variant in `BeginEstimateCaching` function
+qsharp.summary: "Used to specify that there's only one execution variant in `BeginEstimateCaching` function"
 ---
 
 # SingleVariant function
 
-Namespace: Microsoft.Quantum.ResourceEstimation
+Fully qualified name: Std.ResourceEstimation.SingleVariant
 
 ```qsharp
 function SingleVariant() : Int

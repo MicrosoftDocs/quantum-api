@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Max
+uid: Qdk.Std.Math.Max
 title: Max function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Max
-qsharp.summary: Given an array of integers, returns the largest element.
+qsharp.summary: "Given an array of integers, returns the largest element."
 ---
 
 # Max function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Max
 
 ```qsharp
 function Max(values : Int[]) : Int

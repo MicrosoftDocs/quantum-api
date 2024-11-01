@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.ArcSinh
+uid: Qdk.Std.Math.ArcSinh
 title: ArcSinh function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: ArcSinh
-qsharp.summary: Computes the inverse hyperbolic sine of a number.
+qsharp.summary: "Computes the inverse hyperbolic sine of a number."
 ---
 
 # ArcSinh function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.ArcSinh
 
 ```qsharp
 function ArcSinh(x : Double) : Double

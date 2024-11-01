@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Canon.ApplyCNOTChain
+uid: Qdk.Std.Canon.ApplyCNOTChain
 title: ApplyCNOTChain operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Canon
+qsharp.package: __Std__
+qsharp.namespace: Std.Canon
 qsharp.name: ApplyCNOTChain
-qsharp.summary: Computes the parity of a register of qubits in-place.
+qsharp.summary: "Computes the parity of a register of qubits in-place."
 ---
 
 # ApplyCNOTChain operation
 
-Namespace: Microsoft.Quantum.Canon
+Fully qualified name: Std.Canon.ApplyCNOTChain
 
 ```qsharp
 operation ApplyCNOTChain(qubits : Qubit[]) : Unit is Adj + Ctl

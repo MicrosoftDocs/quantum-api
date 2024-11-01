@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.R
+uid: Qdk.Std.Intrinsic.R
 title: R operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: R
-qsharp.summary: Applies a rotation about the given Pauli axis.
+qsharp.summary: "Applies a rotation about the given Pauli axis."
 ---
 
 # R operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.R
 
 ```qsharp
 operation R(pauli : Pauli, theta : Double, qubit : Qubit) : Unit is Adj + Ctl

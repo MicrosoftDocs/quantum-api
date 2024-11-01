@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.PlusC
+uid: Qdk.Std.Math.PlusC
 title: PlusC function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: PlusC
-qsharp.summary: Returns the sum of two inputs of type `Complex`.
+qsharp.summary: "Returns the sum of two inputs of type `Complex`."
 ---
 
 # PlusC function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.PlusC
 
 ```qsharp
 function PlusC(a : Complex, b : Complex) : Complex

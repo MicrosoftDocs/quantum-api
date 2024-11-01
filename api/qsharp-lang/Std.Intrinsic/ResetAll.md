@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.ResetAll
+uid: Qdk.Std.Intrinsic.ResetAll
 title: ResetAll operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: ResetAll
-qsharp.summary: Given an array of qubits, measure them and ensure they are in the |0⟩ state such that they can be safely released.
+qsharp.summary: "Given an array of qubits, measure them and ensure they are in the |0⟩ state such that they can be safely released."
 ---
 
 # ResetAll operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.ResetAll
 
 ```qsharp
 operation ResetAll(qubits : Qubit[]) : Unit

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.T
+uid: Qdk.Std.Intrinsic.T
 title: T operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: T
-qsharp.summary: Applies the π/8 gate to a single qubit.
+qsharp.summary: "Applies the π/8 gate to a single qubit."
 ---
 
 # T operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.T
 
 ```qsharp
 operation T(qubit : Qubit) : Unit is Adj + Ctl

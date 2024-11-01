@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Sinh
+uid: Qdk.Std.Math.Sinh
 title: Sinh function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Sinh
-qsharp.summary: Returns the hyperbolic sine of the specified angle.
+qsharp.summary: "Returns the hyperbolic sine of the specified angle."
 ---
 
 # Sinh function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Sinh
 
 ```qsharp
 function Sinh(d : Double) : Double

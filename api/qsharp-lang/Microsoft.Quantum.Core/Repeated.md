@@ -1,36 +1,17 @@
 ---
 uid: Qdk.Microsoft.Quantum.Core.Repeated
-title: Repeated function
-ms.date: 02/23/2024 12:00:00 AM
+title: Repeated exported item
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
-qsharp.kind: function
+qsharp.kind: export
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Core
 qsharp.name: Repeated
-qsharp.summary: Creates an array of given length with all elements equal to given value.
+qsharp.summary: ""
 ---
 
-# Repeated function
+# Repeated exported item
 
-Namespace: Microsoft.Quantum.Core
+Fully qualified name: Microsoft.Quantum.Core.Repeated
 
-```qsharp
-function Repeated<'T>(value : 'T, length : Int) : 'T[]
-```
-
-## Summary
-Creates an array of given length with all elements equal to given value.
-
-## Input
-### value
-The value of each element of the new array.
-### length
-Length of the new array.
-
-## Output
-A new array of length `length`, such that every element is `value`.
-
-## Example
-The following code creates an array of 3 Boolean values, each equal to `true`:
-```qsharp
-let array = Repeated(true, 3);
-```
+This is an exported item. The actual definition is found here: [Repeated](xref:Std.Core.Repeated)

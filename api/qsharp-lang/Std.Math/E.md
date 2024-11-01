@@ -1,28 +1,33 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.E
+uid: Qdk.Std.Math.E
 title: E function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: E
-qsharp.summary: Returns the natural logarithmic base to double-precision.
+qsharp.summary: "Returns a double-precision approximation of the mathematical constant 𝒆 ≈ 2.7182818284590452354"
 ---
 
 # E function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.E
 
 ```qsharp
 function E() : Double
 ```
 
 ## Summary
-Returns the natural logarithmic base to double-precision.
+Returns a double-precision approximation of the
+mathematical constant 𝒆 ≈ 2.7182818284590452354
 
-## Output
-A double-precision approximation of the natural logarithmic base,
-e ≈ 2.7182818284590452354.
+## Remarks
+Mathematical constant 𝒆 is the base of the natural logarithm
+also known as the Euler's number
+
+## References
+[Wikipedia article - e](https://en.wikipedia.org/wiki/E_(mathematical_constant))
 
 ## See Also
 - Microsoft.Quantum.Math.PI

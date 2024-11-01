@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.DividedByC
+uid: Qdk.Std.Math.DividedByC
 title: DividedByC function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: DividedByC
-qsharp.summary: Returns the quotient of two inputs of type `Complex`.
+qsharp.summary: "Returns the quotient of two inputs of type `Complex`."
 ---
 
 # DividedByC function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.DividedByC
 
 ```qsharp
 function DividedByC(a : Complex, b : Complex) : Complex

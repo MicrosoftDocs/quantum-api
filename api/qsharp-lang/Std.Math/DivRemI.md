@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.DivRemI
+uid: Qdk.Std.Math.DivRemI
 title: DivRemI function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: DivRemI
-qsharp.summary: Divides one Integer value by another, returns the result and the remainder as a tuple.
+qsharp.summary: "Divides one Integer value by another, returns the result and the remainder as a tuple."
 ---
 
 # DivRemI function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.DivRemI
 
 ```qsharp
 function DivRemI(dividend : Int, divisor : Int) : (Int, Int)

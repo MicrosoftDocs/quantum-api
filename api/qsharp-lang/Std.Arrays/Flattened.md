@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Flattened
+uid: Qdk.Std.Arrays.Flattened
 title: Flattened function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Flattened
-qsharp.summary: Given an array of arrays, returns the concatenation of all arrays.
+qsharp.summary: "Given an array of arrays, returns the concatenation of all arrays."
 ---
 
 # Flattened function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Flattened
 
 ```qsharp
 function Flattened<'T>(arrays : 'T[][]) : 'T[]

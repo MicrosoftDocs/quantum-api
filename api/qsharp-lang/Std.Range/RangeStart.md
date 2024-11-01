@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Core.RangeStart
+uid: Qdk.Std.Range.RangeStart
 title: RangeStart function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Core
+qsharp.package: __Std__
+qsharp.namespace: Std.Range
 qsharp.name: RangeStart
-qsharp.summary: Returns the defined start value of the given range.
+qsharp.summary: "Returns the defined start value of the given range."
 ---
 
 # RangeStart function
 
-Namespace: Microsoft.Quantum.Core
+Fully qualified name: Std.Range.RangeStart
 
 ```qsharp
 function RangeStart(r : Range) : Int
@@ -34,3 +35,8 @@ until `end` is passed.
 
 Note that the defined start value of a range is the same as the first element of the sequence,
 unless the range specifies an empty sequence (for example, 2 .. 1).
+
+## Example
+```qsharp
+Message($"{ RangeStart(7..-1..3) }"); // Prints 7
+```

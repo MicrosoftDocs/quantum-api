@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.ResourceEstimation.CczCount
+uid: Qdk.Std.ResourceEstimation.CczCount
 title: CczCount function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.ResourceEstimation
+qsharp.package: __Std__
+qsharp.namespace: Std.ResourceEstimation
 qsharp.name: CczCount
-qsharp.summary: Returns a tuple that can be passed to the `AccountForEstimates` operation to specify that the number of the CCZ gates is equal to the `amount`.
+qsharp.summary: "Returns a tuple that can be passed to the `AccountForEstimates` operation to specify that the number of the CCZ gates is equal to the `amount`."
 ---
 
 # CczCount function
 
-Namespace: Microsoft.Quantum.ResourceEstimation
+Fully qualified name: Std.ResourceEstimation.CczCount
 
 ```qsharp
 function CczCount(amount : Int) : (Int, Int)

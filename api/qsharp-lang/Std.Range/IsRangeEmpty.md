@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Core.IsRangeEmpty
+uid: Qdk.Std.Range.IsRangeEmpty
 title: IsRangeEmpty function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Core
+qsharp.package: __Std__
+qsharp.namespace: Std.Range
 qsharp.name: IsRangeEmpty
-qsharp.summary: Returns true if and only if the input range is empty.
+qsharp.summary: "Returns true if and only if the input range is empty."
 ---
 
 # IsRangeEmpty function
 
-Namespace: Microsoft.Quantum.Core
+Fully qualified name: Std.Range.IsRangeEmpty
 
 ```qsharp
 function IsRangeEmpty(rng : Range) : Bool

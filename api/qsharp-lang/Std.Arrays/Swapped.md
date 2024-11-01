@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Swapped
+uid: Qdk.Std.Arrays.Swapped
 title: Swapped function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Swapped
-qsharp.summary: Applies a swap of two elements in an array.
+qsharp.summary: "Applies a swap of two elements in an array."
 ---
 
 # Swapped function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Swapped
 
 ```qsharp
 function Swapped<'T>(firstIndex : Int, secondIndex : Int, array : 'T[]) : 'T[]

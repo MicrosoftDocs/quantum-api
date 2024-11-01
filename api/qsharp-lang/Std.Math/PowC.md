@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.PowC
+uid: Qdk.Std.Math.PowC
 title: PowC function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: PowC
-qsharp.summary: Returns a number raised to a given power of type `Complex`. Note that this is a multi-valued function, but only one value is returned.
+qsharp.summary: "Returns a number raised to a given power of type `Complex`. Note that this is a multi-valued function, but only one value is returned."
 ---
 
 # PowC function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.PowC
 
 ```qsharp
 function PowC(a : Complex, power : Complex) : Complex

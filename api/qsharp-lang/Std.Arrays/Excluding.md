@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Excluding
+uid: Qdk.Std.Arrays.Excluding
 title: Excluding function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Excluding
-qsharp.summary: Returns an array containing the elements of another array, excluding elements at a given list of indices.
+qsharp.summary: "Returns an array containing the elements of another array, excluding elements at a given list of indices."
 ---
 
 # Excluding function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Excluding
 
 ```qsharp
 function Excluding<'T>(remove : Int[], array : 'T[]) : 'T[]

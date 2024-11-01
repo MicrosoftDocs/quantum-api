@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.NegationCP
+uid: Qdk.Std.Math.NegationCP
 title: NegationCP function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: NegationCP
-qsharp.summary: Returns the unary negation of an input of type `ComplexPolar`
+qsharp.summary: "Returns the unary negation of an input of type `ComplexPolar`"
 ---
 
 # NegationCP function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.NegationCP
 
 ```qsharp
 function NegationCP(input : ComplexPolar) : ComplexPolar

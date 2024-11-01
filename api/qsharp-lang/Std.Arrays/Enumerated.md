@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Enumerated
+uid: Qdk.Std.Arrays.Enumerated
 title: Enumerated function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Enumerated
-qsharp.summary: Given an array, returns a new array containing elements of the original array along with the indices of each element.
+qsharp.summary: "Given an array, returns a new array containing elements of the original array along with the indices of each element."
 ---
 
 # Enumerated function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Enumerated
 
 ```qsharp
 function Enumerated<'TElement>(array : 'TElement[]) : (Int, 'TElement)[]

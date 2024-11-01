@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Core.RangeStep
+uid: Qdk.Std.Range.RangeStep
 title: RangeStep function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Core
+qsharp.package: __Std__
+qsharp.namespace: Std.Range
 qsharp.name: RangeStep
-qsharp.summary: Returns the integer that specifies how the next value of a range is calculated.
+qsharp.summary: "Returns the integer that specifies how the next value of a range is calculated."
 ---
 
 # RangeStep function
 
-Namespace: Microsoft.Quantum.Core
+Fully qualified name: Std.Range.RangeStep
 
 ```qsharp
 function RangeStep(r : Range) : Int

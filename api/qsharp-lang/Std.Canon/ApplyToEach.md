@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Canon.ApplyToEach
+uid: Qdk.Std.Canon.ApplyToEach
 title: ApplyToEach operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Canon
+qsharp.package: __Std__
+qsharp.namespace: Std.Canon
 qsharp.name: ApplyToEach
-qsharp.summary: Applies an operation to each element in a register.
+qsharp.summary: "Applies an operation to each element in a register."
 ---
 
 # ApplyToEach operation
 
-Namespace: Microsoft.Quantum.Canon
+Fully qualified name: Std.Canon.ApplyToEach
 
 ```qsharp
 operation ApplyToEach<'T>(singleElementOperation : ('T => Unit), register : 'T[]) : Unit

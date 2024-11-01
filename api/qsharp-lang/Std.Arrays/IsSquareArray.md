@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.IsSquareArray
+uid: Qdk.Std.Arrays.IsSquareArray
 title: IsSquareArray function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: IsSquareArray
-qsharp.summary: Returns whether a 2-dimensional array has a square shape
+qsharp.summary: "Returns whether a 2-dimensional array has a square shape"
 ---
 
 # IsSquareArray function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.IsSquareArray
 
 ```qsharp
 function IsSquareArray<'T>(array : 'T[][]) : Bool

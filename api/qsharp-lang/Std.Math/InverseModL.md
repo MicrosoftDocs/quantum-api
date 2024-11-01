@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.InverseModL
+uid: Qdk.Std.Math.InverseModL
 title: InverseModL function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: InverseModL
-qsharp.summary: Returns the multiplicative inverse of a modular integer.
+qsharp.summary: "Returns the multiplicative inverse of a modular integer."
 ---
 
 # InverseModL function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.InverseModL
 
 ```qsharp
 function InverseModL(a : BigInt, modulus : BigInt) : BigInt

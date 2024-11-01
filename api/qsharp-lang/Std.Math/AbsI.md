@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.AbsI
+uid: Qdk.Std.Math.AbsI
 title: AbsI function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: AbsI
-qsharp.summary: Returns the absolute value of an integer.
+qsharp.summary: "Returns the absolute value of an integer."
 ---
 
 # AbsI function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.AbsI
 
 ```qsharp
 function AbsI(a : Int) : Int

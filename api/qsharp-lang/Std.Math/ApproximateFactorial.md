@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.ApproximateFactorial
+uid: Qdk.Std.Math.ApproximateFactorial
 title: ApproximateFactorial function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: ApproximateFactorial
-qsharp.summary: Returns an approximate factorial of a given number.
+qsharp.summary: "Returns an approximate factorial of a given number."
 ---
 
 # ApproximateFactorial function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.ApproximateFactorial
 
 ```qsharp
 function ApproximateFactorial(n : Int) : Double

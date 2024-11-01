@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Head
+uid: Qdk.Std.Arrays.Head
 title: Head function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Head
-qsharp.summary: Returns the first element of the array.
+qsharp.summary: "Returns the first element of the array."
 ---
 
 # Head function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Head
 
 ```qsharp
 function Head<'A>(array : 'A[]) : 'A

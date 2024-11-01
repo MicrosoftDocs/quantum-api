@@ -1,25 +1,35 @@
 ---
-uid: Qdk.Microsoft.Quantum.Canon.ApplyControlledOnBitString
+uid: Qdk.Std.Canon.ApplyControlledOnBitString
 title: ApplyControlledOnBitString operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Canon
+qsharp.package: __Std__
+qsharp.namespace: Std.Canon
 qsharp.name: ApplyControlledOnBitString
-qsharp.summary: Applies a unitary operation on the target, controlled on a state specified by a given bit mask.
+qsharp.summary: "Applies `oracle` on `target` when `controlRegister` is in the state specified by `bits`."
 ---
 
 # ApplyControlledOnBitString operation
 
-Namespace: Microsoft.Quantum.Canon
+Fully qualified name: Std.Canon.ApplyControlledOnBitString
 
 ```qsharp
 operation ApplyControlledOnBitString<'T>(bits : Bool[], oracle : ('T => Unit is Adj + Ctl), controlRegister : Qubit[], target : 'T) : Unit is Adj + Ctl
 ```
 
 ## Summary
-Applies a unitary operation on the target,
-controlled on a state specified by a given bit mask.
+Applies `oracle` on `target` when `controlRegister`
+is in the state specified by `bits`.
+
+## Description
+Applies a unitary operation `oracle` on the `target`, controlled
+on a state specified by a given bit mask `bits`.
+The bit at `bits[i]` corresponds to qubit at `controlRegister[i]`.
+The pattern given by `bits` may be shorter than `controlRegister`,
+in which case additional control qubits are ignored (that is, neither
+controlled on |0⟩ nor |1⟩).
+If `bits` is longer than `controlRegister`, an error is raised.
 
 ## Input
 ### bits
@@ -31,11 +41,13 @@ The target to be passed to `oracle` as an input.
 ### controlRegister
 A quantum register that controls application of `oracle`.
 
-## Remarks
-The pattern given by `bits` may be shorter than `controlRegister`,
-in which case additional control qubits are ignored (that is, neither
-controlled on $\ket{0}$ nor $\ket{1}$).
-If `bits` is longer than `controlRegister`, an error is raised.
-
-For example, `bits = [0,1,0,0,1]` means that `oracle` is applied if and only if `controlRegister`
-is in the state $\ket{0}\ket{1}\ket{0}\ket{0}\ket{1}$.
+## Example
+```qsharp
+// When bits = [1,0,0] oracle is applied if and only if controlRegister
+// is in the state |100⟩.
+use t = Qubit();
+use c = Qubit[3];
+X(c[0]);
+ApplyControlledOnBitString([true, false, false], X, c, t);
+Message($"{M(t)}"); // Prints `One` since oracle `X` was applied.
+```

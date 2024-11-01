@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Convert.BigIntAsBoolArray
+uid: Qdk.Std.Convert.BigIntAsBoolArray
 title: BigIntAsBoolArray function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Convert
+qsharp.package: __Std__
+qsharp.namespace: Std.Convert
 qsharp.name: BigIntAsBoolArray
-qsharp.summary: Produces a binary representation of a non-negative BigInt, using the little-endian representation for the returned array.
+qsharp.summary: "Produces a binary representation of a non-negative BigInt, using the little-endian representation for the returned array."
 ---
 
 # BigIntAsBoolArray function
 
-Namespace: Microsoft.Quantum.Convert
+Fully qualified name: Std.Convert.BigIntAsBoolArray
 
 ```qsharp
 function BigIntAsBoolArray(number : BigInt, bits : Int) : Bool[]

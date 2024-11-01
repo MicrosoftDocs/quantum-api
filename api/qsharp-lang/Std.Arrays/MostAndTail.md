@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.MostAndTail
+uid: Qdk.Std.Arrays.MostAndTail
 title: MostAndTail function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: MostAndTail
-qsharp.summary: Returns a tuple of all but one and the last element of the array.
+qsharp.summary: "Returns a tuple of all but one and the last element of the array."
 ---
 
 # MostAndTail function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.MostAndTail
 
 ```qsharp
 function MostAndTail<'A>(array : 'A[]) : ('A[], 'A)

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.SmallestFixedPoint
+uid: Qdk.Std.Math.SmallestFixedPoint
 title: SmallestFixedPoint function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: SmallestFixedPoint
-qsharp.summary: Returns the smallest representable number for specific fixed point dimensions.
+qsharp.summary: "Returns the smallest representable number for specific fixed point dimensions."
 ---
 
 # SmallestFixedPoint function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.SmallestFixedPoint
 
 ```qsharp
 function SmallestFixedPoint(integerBits : Int, fractionalBits : Int) : Double

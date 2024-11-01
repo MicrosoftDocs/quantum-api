@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Unzipped
+uid: Qdk.Std.Arrays.Unzipped
 title: Unzipped function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Unzipped
-qsharp.summary: Given an array of 2-tuples, returns a tuple of two arrays, each containing the elements of the tuples of the input array.
+qsharp.summary: "Given an array of 2-tuples, returns a tuple of two arrays, each containing the elements of the tuples of the input array."
 ---
 
 # Unzipped function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Unzipped
 
 ```qsharp
 function Unzipped<'T, 'U>(array : ('T, 'U)[]) : ('T[], 'U[])

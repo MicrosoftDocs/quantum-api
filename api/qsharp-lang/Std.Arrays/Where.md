@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Where
+uid: Qdk.Std.Arrays.Where
 title: Where function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Where
-qsharp.summary: Given a predicate and an array, returns the indices of that array where the predicate is true.
+qsharp.summary: "Given a predicate and an array, returns the indices of that array where the predicate is true."
 ---
 
 # Where function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Where
 
 ```qsharp
 function Where<'T>(predicate : ('T -> Bool), array : 'T[]) : Int[]

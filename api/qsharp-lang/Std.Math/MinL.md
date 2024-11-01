@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.MinL
+uid: Qdk.Std.Math.MinL
 title: MinL function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: MinL
-qsharp.summary: Returns the smaller of two specified numbers.
+qsharp.summary: "Returns the smaller of two specified numbers."
 ---
 
 # MinL function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.MinL
 
 ```qsharp
 function MinL(a : BigInt, b : BigInt) : BigInt

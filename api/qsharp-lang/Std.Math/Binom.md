@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Binom
+uid: Qdk.Std.Math.Binom
 title: Binom function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Binom
-qsharp.summary: Returns the approximate binomial coefficient of two integers.
+qsharp.summary: "Returns the approximate binomial coefficient of two integers."
 ---
 
 # Binom function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Binom
 
 ```qsharp
 function Binom(n : Int, k : Int) : Int

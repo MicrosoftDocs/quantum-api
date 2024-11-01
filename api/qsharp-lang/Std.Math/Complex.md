@@ -1,20 +1,21 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Complex
+uid: Qdk.Std.Math.Complex
 title: Complex user defined type
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: udt
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Complex
-qsharp.summary: Represents a complex number by its real and imaginary components. The first element of the tuple is the real component, the second one - the imaginary component.
+qsharp.summary: "Represents a complex number by its real and imaginary components. The first element of the tuple is the real component, the second one - the imaginary component."
 ---
 
 # Complex user defined type
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Complex
 
 ```qsharp
-newtype Complex = (Real: Double, Imag: Double)
+struct Complex { Real : Double, Imag : Double }
 ```
 
 ## Summary

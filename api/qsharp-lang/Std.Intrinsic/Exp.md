@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Exp
+uid: Qdk.Std.Intrinsic.Exp
 title: Exp operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Exp
-qsharp.summary: Applies the exponential of a multi-qubit Pauli operator.
+qsharp.summary: "Applies the exponential of a multi-qubit Pauli operator."
 ---
 
 # Exp operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Exp
 
 ```qsharp
 operation Exp(paulis : Pauli[], theta : Double, qubits : Qubit[]) : Unit is Adj + Ctl
@@ -36,5 +37,5 @@ $$
     e^{i \theta [P_0 \otimes P_1 \cdots P_{N-1}]},
 \end{align}
 $$
-where $P_i$ is the $i$th element of `paulis`, and where
+where $P_i$ is the $i$-th element of `paulis`, and where
 $N = $`Length(paulis)`.

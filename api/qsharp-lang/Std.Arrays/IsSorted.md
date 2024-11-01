@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.IsSorted
+uid: Qdk.Std.Arrays.IsSorted
 title: IsSorted function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: IsSorted
-qsharp.summary: Given an array, returns whether that array is sorted as defined by a given comparison function.
+qsharp.summary: "Given an array, returns whether that array is sorted as defined by a given comparison function."
 ---
 
 # IsSorted function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.IsSorted
 
 ```qsharp
 function IsSorted<'T>(comparison : (('T, 'T) -> Bool), array : 'T[]) : Bool

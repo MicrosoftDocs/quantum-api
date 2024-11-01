@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Mapped
+uid: Qdk.Std.Arrays.Mapped
 title: Mapped function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Mapped
-qsharp.summary: Given an array and a function that is defined for the elements of the array, returns a new array that consists of the images of the original array under the function.
+qsharp.summary: "Given an array and a function that is defined for the elements of the array, returns a new array that consists of the images of the original array under the function."
 ---
 
 # Mapped function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Mapped
 
 ```qsharp
 function Mapped<'T, 'U>(mapper : ('T -> 'U), array : 'T[]) : 'U[]

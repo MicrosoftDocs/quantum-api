@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Convert.BoolAsResult
+uid: Qdk.Std.Convert.BoolAsResult
 title: BoolAsResult function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Convert
+qsharp.package: __Std__
+qsharp.namespace: Std.Convert
 qsharp.name: BoolAsResult
-qsharp.summary: Converts a `Bool` type to a `Result` type, where `true` is mapped to `One` and `false` is mapped to `Zero`.
+qsharp.summary: "Converts a `Bool` type to a `Result` type, where `true` is mapped to `One` and `false` is mapped to `Zero`."
 ---
 
 # BoolAsResult function
 
-Namespace: Microsoft.Quantum.Convert
+Fully qualified name: Std.Convert.BoolAsResult
 
 ```qsharp
 function BoolAsResult(input : Bool) : Result

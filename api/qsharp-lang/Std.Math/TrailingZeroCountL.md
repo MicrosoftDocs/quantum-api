@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.TrailingZeroCountL
+uid: Qdk.Std.Math.TrailingZeroCountL
 title: TrailingZeroCountL function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: TrailingZeroCountL
-qsharp.summary: For a non-zero integer `a`, returns the number of trailing zero bits in the binary representation of `a`.
+qsharp.summary: "For a non-zero integer `a`, returns the number of trailing zero bits in the binary representation of `a`."
 ---
 
 # TrailingZeroCountL function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.TrailingZeroCountL
 
 ```qsharp
 function TrailingZeroCountL(a : BigInt) : Int

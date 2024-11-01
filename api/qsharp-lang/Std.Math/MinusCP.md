@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.MinusCP
+uid: Qdk.Std.Math.MinusCP
 title: MinusCP function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: MinusCP
-qsharp.summary: Returns the difference between two inputs of type `ComplexPolar`.
+qsharp.summary: "Returns the difference between two inputs of type `ComplexPolar`."
 ---
 
 # MinusCP function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.MinusCP
 
 ```qsharp
 function MinusCP(a : ComplexPolar, b : ComplexPolar) : ComplexPolar

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorL
+uid: Qdk.Std.Math.ExtendedGreatestCommonDivisorL
 title: ExtendedGreatestCommonDivisorL function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: ExtendedGreatestCommonDivisorL
 qsharp.summary: "Returns a tuple (u,v) such that u*a+v*b=GCD(a,b) Note: GCD is always positive except that GCD(0,0)=0."
 ---
 
 # ExtendedGreatestCommonDivisorL function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.ExtendedGreatestCommonDivisorL
 
 ```qsharp
 function ExtendedGreatestCommonDivisorL(a : BigInt, b : BigInt) : (BigInt, BigInt)

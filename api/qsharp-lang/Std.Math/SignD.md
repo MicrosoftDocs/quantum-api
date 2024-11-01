@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.SignD
+uid: Qdk.Std.Math.SignD
 title: SignD function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: SignD
-qsharp.summary: Returns -1, 0 or +1 that indicates the sign of a number.
+qsharp.summary: "Returns -1, 0 or +1 that indicates the sign of a number."
 ---
 
 # SignD function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.SignD
 
 ```qsharp
 function SignD(a : Double) : Int

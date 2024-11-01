@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.RealMod
+uid: Qdk.Std.Math.RealMod
 title: RealMod function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: RealMod
-qsharp.summary: Computes the modulus between two real numbers.
+qsharp.summary: "Computes the modulus between two real numbers."
 ---
 
 # RealMod function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.RealMod
 
 ```qsharp
 function RealMod(value : Double, modulo : Double, minValue : Double) : Double

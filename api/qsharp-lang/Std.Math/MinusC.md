@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.MinusC
+uid: Qdk.Std.Math.MinusC
 title: MinusC function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: MinusC
-qsharp.summary: Returns the difference between two inputs of type `Complex`.
+qsharp.summary: "Returns the difference between two inputs of type `Complex`."
 ---
 
 # MinusC function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.MinusC
 
 ```qsharp
 function MinusC(a : Complex, b : Complex) : Complex

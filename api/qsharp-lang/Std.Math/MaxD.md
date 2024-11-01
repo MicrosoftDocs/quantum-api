@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.MaxD
+uid: Qdk.Std.Math.MaxD
 title: MaxD function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: MaxD
-qsharp.summary: Returns the larger of two specified numbers.
+qsharp.summary: "Returns the larger of two specified numbers."
 ---
 
 # MaxD function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.MaxD
 
 ```qsharp
 function MaxD(a : Double, b : Double) : Double

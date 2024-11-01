@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Rz
+uid: Qdk.Std.Intrinsic.Rz
 title: Rz operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Rz
-qsharp.summary: Applies a rotation about the _z_-axis by a given angle.
+qsharp.summary: "Applies a rotation about the _z_-axis by a given angle."
 ---
 
 # Rz operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Rz
 
 ```qsharp
 operation Rz(theta : Double, qubit : Qubit) : Unit is Adj + Ctl

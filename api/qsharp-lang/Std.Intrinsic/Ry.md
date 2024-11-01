@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Ry
+uid: Qdk.Std.Intrinsic.Ry
 title: Ry operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Ry
-qsharp.summary: Applies a rotation about the _y_-axis by a given angle.
+qsharp.summary: "Applies a rotation about the _y_-axis by a given angle."
 ---
 
 # Ry operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Ry
 
 ```qsharp
 operation Ry(theta : Double, qubit : Qubit) : Unit is Adj + Ctl

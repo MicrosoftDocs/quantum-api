@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.NegationC
+uid: Qdk.Std.Math.NegationC
 title: NegationC function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: NegationC
-qsharp.summary: Returns the unary negation of an input of type `Complex`.
+qsharp.summary: "Returns the unary negation of an input of type `Complex`."
 ---
 
 # NegationC function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.NegationC
 
 ```qsharp
 function NegationC(input : Complex) : Complex

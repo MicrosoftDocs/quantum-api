@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Log10
+uid: Qdk.Std.Math.Log10
 title: Log10 function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Log10
-qsharp.summary: Returns the base-10 logarithm of a specified number.
+qsharp.summary: "Returns the base-10 logarithm of a specified number."
 ---
 
 # Log10 function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Log10
 
 ```qsharp
 function Log10(input : Double) : Double

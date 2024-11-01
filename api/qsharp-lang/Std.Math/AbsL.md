@@ -1,20 +1,19 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.AbsL
+uid: Qdk.Std.Math.AbsL
 title: AbsL function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: AbsL
-qsharp.summary: 
+qsharp.summary: ""
 ---
 
 # AbsL function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.AbsL
 
 ```qsharp
 function AbsL(a : BigInt) : BigInt
 ```
-
-## Summary

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Ryy
+uid: Qdk.Std.Intrinsic.Ryy
 title: Ryy operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Ryy
-qsharp.summary: Applies the two qubit Ising _YY_ rotation gate.
+qsharp.summary: "Applies the two qubit Ising _YY_ rotation gate."
 ---
 
 # Ryy operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Ryy
 
 ```qsharp
 operation Ryy(theta : Double, qubit0 : Qubit, qubit1 : Qubit) : Unit is Adj + Ctl

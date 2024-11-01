@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Cosh
+uid: Qdk.Std.Math.Cosh
 title: Cosh function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Cosh
-qsharp.summary: Returns the hyperbolic cosine of the specified angle.
+qsharp.summary: "Returns the hyperbolic cosine of the specified angle."
 ---
 
 # Cosh function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Cosh
 
 ```qsharp
 function Cosh(d : Double) : Double

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.AbsD
+uid: Qdk.Std.Math.AbsD
 title: AbsD function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: AbsD
-qsharp.summary: Returns the absolute value of a double-precision floating-point number.
+qsharp.summary: "Returns the absolute value of a double-precision floating-point number."
 ---
 
 # AbsD function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.AbsD
 
 ```qsharp
 function AbsD(a : Double) : Double

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Core.RangeReverse
+uid: Qdk.Std.Range.RangeReverse
 title: RangeReverse function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Core
+qsharp.package: __Std__
+qsharp.namespace: Std.Range
 qsharp.name: RangeReverse
-qsharp.summary: Returns a new range which is the reverse of the input range.
+qsharp.summary: "Returns a new range which is the reverse of the input range."
 ---
 
 # RangeReverse function
 
-Namespace: Microsoft.Quantum.Core
+Fully qualified name: Std.Range.RangeReverse
 
 ```qsharp
 function RangeReverse(r : Range) : Range

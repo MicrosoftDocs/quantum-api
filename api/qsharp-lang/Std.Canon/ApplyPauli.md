@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Canon.ApplyPauli
+uid: Qdk.Std.Canon.ApplyPauli
 title: ApplyPauli operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Canon
+qsharp.package: __Std__
+qsharp.namespace: Std.Canon
 qsharp.name: ApplyPauli
-qsharp.summary: Given a multi-qubit Pauli operator, applies the corresponding operation to a quantum register.
+qsharp.summary: "Given a multi-qubit Pauli operator, applies the corresponding operation to a quantum register."
 ---
 
 # ApplyPauli operation
 
-Namespace: Microsoft.Quantum.Canon
+Fully qualified name: Std.Canon.ApplyPauli
 
 ```qsharp
 operation ApplyPauli(pauli : Pauli[], target : Qubit[]) : Unit is Adj + Ctl

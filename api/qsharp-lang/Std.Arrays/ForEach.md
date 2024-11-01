@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.ForEach
+uid: Qdk.Std.Arrays.ForEach
 title: ForEach operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: ForEach
-qsharp.summary: Given an array and an operation that is defined for the elements of the array, returns a new array that consists of the images of the original array under the operation.
+qsharp.summary: "Given an array and an operation that is defined for the elements of the array, returns a new array that consists of the images of the original array under the operation."
 ---
 
 # ForEach operation
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.ForEach
 
 ```qsharp
 operation ForEach<'T, 'U>(action : ('T => 'U), array : 'T[]) : 'U[]

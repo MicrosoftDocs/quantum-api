@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Diagonal
+uid: Qdk.Std.Arrays.Diagonal
 title: Diagonal function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Diagonal
-qsharp.summary: Returns an array of diagonal elements of a 2-dimensional array
+qsharp.summary: "Returns an array of diagonal elements of a 2-dimensional array"
 ---
 
 # Diagonal function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Diagonal
 
 ```qsharp
 function Diagonal<'T>(matrix : 'T[][]) : 'T[]

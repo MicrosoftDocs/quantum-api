@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.Chunks
+uid: Qdk.Std.Arrays.Chunks
 title: Chunks function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: Chunks
-qsharp.summary: Splits an array into multiple parts of equal length.
+qsharp.summary: "Splits an array into multiple parts of equal length."
 ---
 
 # Chunks function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.Chunks
 
 ```qsharp
 function Chunks<'T>(chunkSize : Int, array : 'T[]) : 'T[][]

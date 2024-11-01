@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.MappedByIndex
+uid: Qdk.Std.Arrays.MappedByIndex
 title: MappedByIndex function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: MappedByIndex
-qsharp.summary: Given an array and a function that is defined for the indexed elements of the array, returns a new array that consists of the images of the original array under the function.
+qsharp.summary: "Given an array and a function that is defined for the indexed elements of the array, returns a new array that consists of the images of the original array under the function."
 ---
 
 # MappedByIndex function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.MappedByIndex
 
 ```qsharp
 function MappedByIndex<'T, 'U>(mapper : ((Int, 'T) -> 'U), array : 'T[]) : 'U[]

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.Rx
+uid: Qdk.Std.Intrinsic.Rx
 title: Rx operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: Rx
-qsharp.summary: Applies a rotation about the _x_-axis by a given angle.
+qsharp.summary: "Applies a rotation about the _x_-axis by a given angle."
 ---
 
 # Rx operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.Rx
 
 ```qsharp
 operation Rx(theta : Double, qubit : Qubit) : Unit is Adj + Ctl

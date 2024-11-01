@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Lg
+uid: Qdk.Std.Math.Lg
 title: Lg function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Lg
-qsharp.summary: Computes the base-2 logarithm of a number.
+qsharp.summary: "Computes the base-2 logarithm of a number."
 ---
 
 # Lg function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Lg
 
 ```qsharp
 function Lg(input : Double) : Double

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.ResourceEstimation.EndEstimateCaching
+uid: Qdk.Std.ResourceEstimation.EndEstimateCaching
 title: EndEstimateCaching function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.ResourceEstimation
+qsharp.package: __Std__
+qsharp.namespace: Std.ResourceEstimation
 qsharp.name: EndEstimateCaching
-qsharp.summary: Instructs the resource estimator to stop estimates caching because the code fragment in consideration is over. This function is only available when using resource estimator execution target.
+qsharp.summary: "Instructs the resource estimator to stop estimates caching because the code fragment in consideration is over. This function is only available when using resource estimator execution target."
 ---
 
 # EndEstimateCaching function
 
-Namespace: Microsoft.Quantum.ResourceEstimation
+Fully qualified name: Std.ResourceEstimation.EndEstimateCaching
 
 ```qsharp
 function EndEstimateCaching() : Unit

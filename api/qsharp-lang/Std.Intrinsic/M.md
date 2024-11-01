@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Intrinsic.M
+uid: Qdk.Std.Intrinsic.M
 title: M operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Intrinsic
+qsharp.package: __Std__
+qsharp.namespace: Std.Intrinsic
 qsharp.name: M
-qsharp.summary: Performs a measurement of a single qubit in the Pauli _Z_ basis.
+qsharp.summary: "Performs a measurement of a single qubit in the Pauli _Z_ basis."
 ---
 
 # M operation
 
-Namespace: Microsoft.Quantum.Intrinsic
+Fully qualified name: Std.Intrinsic.M
 
 ```qsharp
 operation M(qubit : Qubit) : Result

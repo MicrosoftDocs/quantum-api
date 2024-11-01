@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Math.Log
+uid: Qdk.Std.Math.Log
 title: Log function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Math
+qsharp.package: __Std__
+qsharp.namespace: Std.Math
 qsharp.name: Log
-qsharp.summary: Returns the natural (base _e_) logarithm of a specified number.
+qsharp.summary: "Returns the natural (base _e_) logarithm of a specified number."
 ---
 
 # Log function
 
-Namespace: Microsoft.Quantum.Math
+Fully qualified name: Std.Math.Log
 
 ```qsharp
 function Log(input : Double) : Double

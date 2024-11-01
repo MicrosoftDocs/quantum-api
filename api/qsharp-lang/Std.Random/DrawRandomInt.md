@@ -1,24 +1,26 @@
 ---
-uid: Qdk.Microsoft.Quantum.Random.DrawRandomInt
+uid: Qdk.Std.Random.DrawRandomInt
 title: DrawRandomInt operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
-qsharp.namespace: Microsoft.Quantum.Random
+qsharp.package: __Std__
+qsharp.namespace: Std.Random
 qsharp.name: DrawRandomInt
-qsharp.summary: Draws a random integer in a given inclusive range.
+qsharp.summary: "Draws a random integer from a uniform distribution in a given inclusive range. Fails if `max < min`."
 ---
 
 # DrawRandomInt operation
 
-Namespace: Microsoft.Quantum.Random
+Fully qualified name: Std.Random.DrawRandomInt
 
 ```qsharp
 operation DrawRandomInt(min : Int, max : Int) : Int
 ```
 
 ## Summary
-Draws a random integer in a given inclusive range.
+Draws a random integer from a uniform distribution
+in a given inclusive range. Fails if `max < min`.
 
 ## Input
 ### min
@@ -29,9 +31,6 @@ The largest integer to be drawn.
 ## Output
 An integer in the inclusive range from `min` to `max` with uniform
 probability.
-
-## Remarks
-Fails if `max < min`.
 
 ## Example
 The following Q# snippet randomly rolls a six-sided die:

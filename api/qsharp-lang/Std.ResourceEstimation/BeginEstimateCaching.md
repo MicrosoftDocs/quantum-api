@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.ResourceEstimation.BeginEstimateCaching
+uid: Qdk.Std.ResourceEstimation.BeginEstimateCaching
 title: BeginEstimateCaching function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.ResourceEstimation
+qsharp.package: __Std__
+qsharp.namespace: Std.ResourceEstimation
 qsharp.name: BeginEstimateCaching
-qsharp.summary: Informs the resource estimator of the start of the code fragment for which estimates caching can be done. This function is only available when using resource estimator execution target.
+qsharp.summary: "Informs the resource estimator of the start of the code fragment for which estimates caching can be done. This function is only available when using resource estimator execution target."
 ---
 
 # BeginEstimateCaching function
 
-Namespace: Microsoft.Quantum.ResourceEstimation
+Fully qualified name: Std.ResourceEstimation.BeginEstimateCaching
 
 ```qsharp
 function BeginEstimateCaching(name : String, variant : Int) : Bool

@@ -1,17 +1,18 @@
 ---
-uid: Qdk.Microsoft.Quantum.Arrays.IndexOf
+uid: Qdk.Std.Arrays.IndexOf
 title: IndexOf function
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: function
-qsharp.namespace: Microsoft.Quantum.Arrays
+qsharp.package: __Std__
+qsharp.namespace: Std.Arrays
 qsharp.name: IndexOf
-qsharp.summary: Returns the first index of the first element in an array that satisfies a given predicate. If no such element exists, returns -1.
+qsharp.summary: "Returns the first index of the first element in an array that satisfies a given predicate. If no such element exists, returns -1."
 ---
 
 # IndexOf function
 
-Namespace: Microsoft.Quantum.Arrays
+Fully qualified name: Std.Arrays.IndexOf
 
 ```qsharp
 function IndexOf<'T>(predicate : ('T -> Bool), array : 'T[]) : Int
