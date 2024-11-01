@@ -1,17 +1,18 @@
 ---
 uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.IncByI
 title: IncByI operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: IncByI
-qsharp.summary: Increments a little-endian register ys by an integer number c
+qsharp.summary: "Increments a little-endian register ys by an integer number c"
 ---
 
 # IncByI operation
 
-Namespace: Microsoft.Quantum.Unstable.Arithmetic
+Fully qualified name: Microsoft.Quantum.Unstable.Arithmetic.IncByI
 
 ```qsharp
 operation IncByI(c : Int, ys : Qubit[]) : Unit is Adj + Ctl

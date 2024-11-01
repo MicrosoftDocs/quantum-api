@@ -1,17 +1,18 @@
 ---
 uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.RippleCarryCGAddLE
 title: RippleCarryCGAddLE operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024 12:00:00 AM
 ms.topic: managed-reference
 qsharp.kind: operation
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: RippleCarryCGAddLE
-qsharp.summary: Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys using the ripple-carry algorithm.
+qsharp.summary: "Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys using the ripple-carry algorithm."
 ---
 
 # RippleCarryCGAddLE operation
 
-Namespace: Microsoft.Quantum.Unstable.Arithmetic
+Fully qualified name: Microsoft.Quantum.Unstable.Arithmetic.RippleCarryCGAddLE
 
 ```qsharp
 operation RippleCarryCGAddLE(xs : Qubit[], ys : Qubit[], zs : Qubit[]) : Unit is Adj
@@ -29,5 +30,5 @@ This operation uses the ripple-carry algorithm.
 NOTE: `zs[Length(xs)]` can be used as carry-out, if `zs` is longer than `xs`.
 
 ## Reference
-    - [arXiv:1709.06648](https://arxiv.org/pdf/1709.06648.pdf)
-      "Halving the cost of quantum addition" by Craig Gidney.
+- [arXiv:1709.06648](https://arxiv.org/pdf/1709.06648.pdf)
+  "Halving the cost of quantum addition", Craig Gidney.

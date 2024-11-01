@@ -14,4 +14,4 @@ qsharp.summary: ""
 
 Fully qualified name: Microsoft.Quantum.Core.Repeated
 
-This is an exported item. The actual definition is found here: [Repeated](xref:Std.Core.Repeated)
+This is an exported item. The actual definition is found here: [Repeated](xref:Qdk.Std.Core.Repeated)

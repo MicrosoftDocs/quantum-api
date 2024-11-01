@@ -14,4 +14,4 @@ qsharp.summary: ""
 
 Fully qualified name: Microsoft.Quantum.Core.Length
 
-This is an exported item. The actual definition is found here: [Length](xref:Std.Core.Length)
+This is an exported item. The actual definition is found here: [Length](xref:Qdk.Std.Core.Length)
