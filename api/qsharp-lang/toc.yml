@@ -5,11 +5,16 @@
 # Please do not modify this file manually, or your changes will be lost when
 # documentation is rebuilt.
 - items:
+  name: Overview
+  uid: microsoft.quantum.apiref-toc
+- items:
+  - {name: Overview, uid: qdk.microsoft.quantum.core-toc}
   - {name: Length, uid: Qdk.Microsoft.Quantum.Core.Length}
   - {name: Repeated, uid: Qdk.Microsoft.Quantum.Core.Repeated}
   name: Microsoft.Quantum.Core
   uid: Qdk.Microsoft.Quantum.Core
 - items:
+  - {name: Overview, uid: qdk.std.arrays-toc}
   - {name: All, uid: Qdk.Std.Arrays.All}
   - {name: Any, uid: Qdk.Std.Arrays.Any}
   - {name: Chunks, uid: Qdk.Std.Arrays.Chunks}
@@ -57,6 +62,7 @@
   name: Std.Arrays
   uid: Qdk.Std.Arrays
 - items:
+  - {name: Overview, uid: qdk.std.canon-toc}
   - {name: ApplyCNOTChain, uid: Qdk.Std.Canon.ApplyCNOTChain}
   - {name: ApplyControlledOnBitString, uid: Qdk.Std.Canon.ApplyControlledOnBitString}
   - {name: ApplyControlledOnInt, uid: Qdk.Std.Canon.ApplyControlledOnInt}
@@ -81,6 +87,7 @@
   name: Std.Canon
   uid: Qdk.Std.Canon
 - items:
+  - {name: Overview, uid: qdk.std.convert-toc}
   - {name: BigIntAsBoolArray, uid: Qdk.Std.Convert.BigIntAsBoolArray}
   - {name: BoolArrayAsBigInt, uid: Qdk.Std.Convert.BoolArrayAsBigInt}
   - {name: BoolArrayAsInt, uid: Qdk.Std.Convert.BoolArrayAsInt}
@@ -98,11 +105,13 @@
   name: Std.Convert
   uid: Qdk.Std.Convert
 - items:
+  - {name: Overview, uid: qdk.std.core-toc}
   - {name: Length, uid: Qdk.Std.Core.Length}
   - {name: Repeated, uid: Qdk.Std.Core.Repeated}
   name: Std.Core
   uid: Qdk.Std.Core
 - items:
+  - {name: Overview, uid: qdk.std.diagnostics-toc}
   - {name: CheckAllZero, uid: Qdk.Std.Diagnostics.CheckAllZero}
   - {name: CheckOperationsAreEqual, uid: Qdk.Std.Diagnostics.CheckOperationsAreEqual}
   - {name: CheckZero, uid: Qdk.Std.Diagnostics.CheckZero}
@@ -119,6 +128,7 @@
   name: Std.Diagnostics
   uid: Qdk.Std.Diagnostics
 - items:
+  - {name: Overview, uid: qdk.std.intrinsic-toc}
   - {name: AND, uid: Qdk.Std.Intrinsic.AND}
   - {name: CCNOT, uid: Qdk.Std.Intrinsic.CCNOT}
   - {name: CNOT, uid: Qdk.Std.Intrinsic.CNOT}
@@ -149,10 +159,12 @@
   name: Std.Intrinsic
   uid: Qdk.Std.Intrinsic
 - items:
+  - {name: Overview, uid: qdk.std.logical-toc}
   - {name: Xor, uid: Qdk.Std.Logical.Xor}
   name: Std.Logical
   uid: Qdk.Std.Logical
 - items:
+  - {name: Overview, uid: qdk.std.math-toc}
   - {name: AbsComplex, uid: Qdk.Std.Math.AbsComplex}
   - {name: AbsComplexPolar, uid: Qdk.Std.Math.AbsComplexPolar}
   - {name: AbsD, uid: Qdk.Std.Math.AbsD}
@@ -249,6 +261,7 @@
   name: Std.Math
   uid: Qdk.Std.Math
 - items:
+  - {name: Overview, uid: qdk.std.measurement-toc}
   - {name: MResetEachZ, uid: Qdk.Std.Measurement.MResetEachZ}
   - {name: MResetX, uid: Qdk.Std.Measurement.MResetX}
   - {name: MResetY, uid: Qdk.Std.Measurement.MResetY}
@@ -259,12 +272,14 @@
   name: Std.Measurement
   uid: Qdk.Std.Measurement
 - items:
+  - {name: Overview, uid: qdk.std.random-toc}
   - {name: DrawRandomBool, uid: Qdk.Std.Random.DrawRandomBool}
   - {name: DrawRandomDouble, uid: Qdk.Std.Random.DrawRandomDouble}
   - {name: DrawRandomInt, uid: Qdk.Std.Random.DrawRandomInt}
   name: Std.Random
   uid: Qdk.Std.Random
 - items:
+  - {name: Overview, uid: qdk.std.range-toc}
   - {name: IsRangeEmpty, uid: Qdk.Std.Range.IsRangeEmpty}
   - {name: RangeEnd, uid: Qdk.Std.Range.RangeEnd}
   - {name: RangeReverse, uid: Qdk.Std.Range.RangeReverse}
@@ -273,6 +288,7 @@
   name: Std.Range
   uid: Qdk.Std.Range
 - items:
+  - {name: Overview, uid: qdk.std.resourceestimation-toc}
   - {name: AccountForEstimates, uid: Qdk.Std.ResourceEstimation.AccountForEstimates}
   - {name: AuxQubitCount, uid: Qdk.Std.ResourceEstimation.AuxQubitCount}
   - {name: BeginEstimateCaching, uid: Qdk.Std.ResourceEstimation.BeginEstimateCaching}
@@ -290,6 +306,7 @@
   name: Std.ResourceEstimation
   uid: Qdk.Std.ResourceEstimation
 - items:
+  - {name: Overview, uid: qdk.microsoft.quantum.unstable.arithmetic-toc}
   - {name: AddLE, uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.AddLE}
   - {name: ApplyIfEqualL, uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.ApplyIfEqualL}
   - {name: ApplyIfEqualLE, uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.ApplyIfEqualLE}
@@ -317,11 +334,13 @@
   name: Microsoft.Quantum.Unstable.Arithmetic
   uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic
 - items:
+  - {name: Overview, uid: qdk.microsoft.quantum.unstable.statepreparation-toc}
   - {name: ApproximatelyPreparePureStateCP, uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP}
   - {name: PreparePureStateD, uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD}
   name: Microsoft.Quantum.Unstable.StatePreparation
   uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation
 - items:
+  - {name: Overview, uid: qdk.microsoft.quantum.unstable.tablelookup-toc}
   - {name: Select, uid: Qdk.Microsoft.Quantum.Unstable.TableLookup.Select}
   name: Microsoft.Quantum.Unstable.TableLookup
   uid: Qdk.Microsoft.Quantum.Unstable.TableLookup

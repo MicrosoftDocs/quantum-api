@@ -1,11 +1,6 @@
 {
     "redirections": [
         {
-            "source_path": "api/qsharp/index.md",
-            "redirect_url": "/qsharp/api/qsharp-lang/",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "api/qsharp/microsoft.quantum.amplitudeamplification.ampampbyoracle.md",
             "redirect_url": "/qsharp/api/qsharp-lang/",
             "redirect_document_id": false
@@ -5492,11 +5487,6 @@
         },
         {
             "source_path": "api/dot-net-libraries.md",
-            "redirect_url": "/qsharp/api/index/",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "api/qsharp-lang/index.md",
             "redirect_url": "/qsharp/api/index/",
             "redirect_document_id": false
         },
