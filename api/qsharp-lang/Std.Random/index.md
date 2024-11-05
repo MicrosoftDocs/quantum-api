@@ -14,6 +14,6 @@ The Std.Random namespace contains the following functions and operations:
 
 | Name | Description |
 |------|-------------|
-| [DrawRandomBool](xref:Qdk.Std.Random.DrawRandomBool) | Given a success probability, returns a single Bernoulli trial |
-| [DrawRandomDouble](xref:Qdk.Std.Random.DrawRandomDouble) | Draws a random real number from a uniform distribution |
-| [DrawRandomInt](xref:Qdk.Std.Random.DrawRandomInt) | Draws a random integer from a uniform distribution |
+| [DrawRandomBool](xref:Qdk.Std.Random.DrawRandomBool) | Given a success probability, returns a single Bernoulli trial that is true with the given probability.  |
+| [DrawRandomDouble](xref:Qdk.Std.Random.DrawRandomDouble) | Draws a random real number from a uniform distribution in a given inclusive interval. Fails if `max < min`.  |
+| [DrawRandomInt](xref:Qdk.Std.Random.DrawRandomInt) | Draws a random integer from a uniform distribution in a given inclusive range. Fails if `max < min`.  |

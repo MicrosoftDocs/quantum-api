@@ -15,4 +15,4 @@ The Std.Logical namespace contains the following functions and operations:
 
 | Name | Description |
 |------|-------------|
-| [Xor](xref:Qdk.Std.Logical.Xor) | Returns the boolean exclusive disjunction (eXclusive OR, XOR) |
+| [Xor](xref:Qdk.Std.Logical.Xor) | Returns the boolean exclusive disjunction (eXclusive OR, XOR) of two input boolean values.  |

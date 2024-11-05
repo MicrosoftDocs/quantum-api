@@ -15,5 +15,5 @@ The Microsoft.Quantum.Unstable.StatePreparation namespace contains the following
 
 | Name | Description |
 |------|-------------|
-| [ApproximatelyPreparePureStateCP](xref:Qdk.Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP) | Given a set of coefficients and a big-endian quantum register, |
-| [PreparePureStateD](xref:Qdk.Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD) | Given a set of coefficients and a big-endian quantum register, |
+| [ApproximatelyPreparePureStateCP](xref:Qdk.Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP) | Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients, up to a given approximation tolerance.  |
+| [PreparePureStateD](xref:Qdk.Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD) | Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients.  |

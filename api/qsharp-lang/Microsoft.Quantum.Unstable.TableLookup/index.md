@@ -16,4 +16,4 @@ The Microsoft.Quantum.Unstable.TableLookup namespace contains the following func
 
 | Name | Description |
 |------|-------------|
-| [Select](xref:Qdk.Microsoft.Quantum.Unstable.TableLookup.Select) | Performs table lookup using a SELECT network |
+| [Select](xref:Qdk.Microsoft.Quantum.Unstable.TableLookup.Select) | Performs table lookup using a SELECT network  |

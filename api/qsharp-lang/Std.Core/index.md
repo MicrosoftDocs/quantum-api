@@ -15,5 +15,5 @@ The Std.Core namespace contains the following functions and operations:
 
 | Name | Description |
 |------|-------------|
-| [Length](xref:Qdk.Std.Core.Length) | Returns the number of elements in the input array `a`. |
-| [Repeated](xref:Qdk.Std.Core.Repeated) | Creates an array of given `length` with all elements equal to given |
+| [Length](xref:Qdk.Std.Core.Length) | Returns the number of elements in the input array `a`.  |
+| [Repeated](xref:Qdk.Std.Core.Repeated) | Creates an array of given `length` with all elements equal to given `value`. `length` must be a non-negative integer.  |
