@@ -1,7 +1,7 @@
 ---
 uid: qdk.std.resourceestimation-toc
 title: Std.ResourceEstimation namespace
-description: Table of contents for the Q# Arrays namespace
+description: Table of contents for the Q# ResourceEstimation namespace
 author: bradben
 ms.author: brbenefield
 ms.date: 11/04/2024

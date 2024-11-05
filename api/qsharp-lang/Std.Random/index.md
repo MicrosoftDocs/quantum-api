@@ -1,7 +1,7 @@
 ---
 uid: qdk.std.random-toc
 title: Std.Random namespace
-description: Table of contents for the Q# Arrays namespace
+description: Table of contents for the Q# Random namespace
 author: bradben
 ms.author: brbenefield
 ms.date: 11/04/2024

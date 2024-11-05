@@ -1,7 +1,7 @@
 ---
 uid: qdk.std.math-toc
 title: Std.Math namespace
-description: Table of contents for the Q# Arrays namespace
+description: Table of contents for the Q# Math namespace
 author: bradben
 ms.author: brbenefield
 ms.date: 11/04/2024

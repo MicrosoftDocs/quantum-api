@@ -1,7 +1,7 @@
 ---
 uid: qdk.std.measurement-toc
 title: Std.Measurement namespace
-description: Table of contents for the Q# Arrays namespace
+description: Table of contents for the Q# Measurement namespace
 author: bradben
 ms.author: brbenefield
 ms.date: 11/04/2024

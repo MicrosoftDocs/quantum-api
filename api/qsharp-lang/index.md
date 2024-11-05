@@ -27,9 +27,9 @@ The Q# standard library contains the following namespaces:
 | [`Std.Random`](xref:qdk.std.random-toc) | Functions for creating random values. |
 | [`Std.Range`](xref:qdk.std.range-toc) | Functions for working with ranges. |
 | [`Std.ResourceEstimation`](xref:qdk.std.resourceestimation-toc) | Functions for working with the Azure Quantum Resource Estimator. |
-| [`Microsoft.Quantum.Unstable.Arithmetic`](xref:qdk.microsoft.quantum.unstablearithmetic-toc) | Functions for working with arithmetic comparisons. |
-| [`Microsoft.Quantum.Unstable.StatePreparation`](xref:qdk.microsoft.quantum.standard/unstablestatepreparation-toc) | Functions for preparing a quantum state. |
-| [`Microsoft.Quantum.Unstable.TableLookup`](xref:qdk.microsoft.quantum.unstabletablelookup-toc) | Functions for performing table lookups. |
+| [`Microsoft.Quantum.Unstable.Arithmetic`](xref:qdk.microsoft.quantum.unstable.arithmetic-toc) | Functions for working with arithmetic comparisons. |
+| [`Microsoft.Quantum.Unstable.StatePreparation`](xref:qdk.microsoft.quantum.unstable.statepreparation-toc) | Functions for preparing a quantum state. |
+| [`Microsoft.Quantum.Unstable.TableLookup`](xref:qdk.microsoft.quantum.unstable.tablelookup-toc) | Functions for performing table lookups. |
 
 
 

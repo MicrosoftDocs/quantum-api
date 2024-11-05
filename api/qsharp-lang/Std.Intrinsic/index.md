@@ -12,7 +12,6 @@ ms.topic: landing-page
 
 The Std.Intrinsic namespace contains the following functions and operations:
 
-
 | Name | Description |
 |------|-------------|
 | [AND](xref:Qdk.Std.Intrinsic.AND) | Applies the AND gate that is more efficient for use with decomposition of multi-controlled operations. Note that target qubit must be in $\|0⟩$ state.  |
@@ -28,7 +27,7 @@ The Std.Intrinsic namespace contains the following functions and operations:
 | [R1](xref:Qdk.Std.Intrinsic.R1) | Applies a rotation about the $\|1⟩$ state by a given angle.  |
 | [R1Frac](xref:Qdk.Std.Intrinsic.R1Frac) | Applies a rotation about the $\|1⟩$ state by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Microsoft.Quantum.Intrinsic.R.  |
 | [Reset](xref:Qdk.Std.Intrinsic.Reset) | Given a single qubit, measures it and ensures it is in the $\|0⟩$ state such that it can be safely released.  |
-| [ResetAll](xref:Qdk.Std.Intrinsic.ResetAll) | Given an array of qubits, measure them and ensure they are in the $\|0⟩$ state such that they can be safely released.  |state such that they can be safely released.  |
+| [ResetAll](xref:Qdk.Std.Intrinsic.ResetAll) | Given an array of qubits, measure them and ensure they are in the $\|0⟩$ state such that they can be safely released. |
 | [RFrac](xref:Qdk.Std.Intrinsic.RFrac) | Applies a rotation about the given Pauli axis by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Microsoft.Quantum.Intrinsic.R.  |
 | [Rx](xref:Qdk.Std.Intrinsic.Rx) | Applies a rotation about the _x_-axis by a given angle.  |
 | [Rxx](xref:Qdk.Std.Intrinsic.Rxx) | Applies the two qubit Ising _XX_ rotation gate.  |

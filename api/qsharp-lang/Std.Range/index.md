@@ -1,7 +1,7 @@
 ---
 uid: qdk.std.range-toc
 title: Std.Range namespace
-description: Table of contents for the Q# Arrays namespace
+description: Table of contents for the Q# Range namespace
 author: bradben
 ms.author: brbenefield
 ms.date: 11/04/2024

@@ -1,7 +1,7 @@
 ---
 uid: Qdk.Std.Math.ComplexPolar
 title: ComplexPolar user defined type
-ms.date: 11/01/2024 12:00:00 AM
+ms.date: 11/01/2024
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.package: __Std__

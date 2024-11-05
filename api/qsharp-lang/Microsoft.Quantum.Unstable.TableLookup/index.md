@@ -1,7 +1,7 @@
 ---
 uid: qdk.microsoft.quantum.unstable.tablelookup-toc
 title: Microsoft.Quantum.Unstable.TableLookup namespace
-description: Table of contents for the Q# Arrays namespace
+description: Table of contents for the Q# TableLookup namespace
 author: bradben
 ms.author: brbenefield
 ms.date: 11/04/2024
