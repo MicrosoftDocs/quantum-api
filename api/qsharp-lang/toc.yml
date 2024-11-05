@@ -5,271 +5,308 @@
 # Please do not modify this file manually, or your changes will be lost when
 # documentation is rebuilt.
 - items:
-  - {name: All, uid: Qdk.Microsoft.Quantum.Arrays.All}
-  - {name: Any, uid: Qdk.Microsoft.Quantum.Arrays.Any}
-  - {name: Chunks, uid: Qdk.Microsoft.Quantum.Arrays.Chunks}
-  - {name: CircularlyShifted, uid: Qdk.Microsoft.Quantum.Arrays.CircularlyShifted}
-  - {name: ColumnAt, uid: Qdk.Microsoft.Quantum.Arrays.ColumnAt}
-  - {name: Count, uid: Qdk.Microsoft.Quantum.Arrays.Count}
-  - {name: Diagonal, uid: Qdk.Microsoft.Quantum.Arrays.Diagonal}
-  - {name: DrawMany, uid: Qdk.Microsoft.Quantum.Arrays.DrawMany}
-  - {name: Enumerated, uid: Qdk.Microsoft.Quantum.Arrays.Enumerated}
-  - {name: Excluding, uid: Qdk.Microsoft.Quantum.Arrays.Excluding}
-  - {name: Filtered, uid: Qdk.Microsoft.Quantum.Arrays.Filtered}
-  - {name: FlatMapped, uid: Qdk.Microsoft.Quantum.Arrays.FlatMapped}
-  - {name: Flattened, uid: Qdk.Microsoft.Quantum.Arrays.Flattened}
-  - {name: Fold, uid: Qdk.Microsoft.Quantum.Arrays.Fold}
-  - {name: ForEach, uid: Qdk.Microsoft.Quantum.Arrays.ForEach}
-  - {name: Head, uid: Qdk.Microsoft.Quantum.Arrays.Head}
-  - {name: HeadAndRest, uid: Qdk.Microsoft.Quantum.Arrays.HeadAndRest}
-  - {name: IndexOf, uid: Qdk.Microsoft.Quantum.Arrays.IndexOf}
-  - {name: IndexRange, uid: Qdk.Microsoft.Quantum.Arrays.IndexRange}
-  - {name: Interleaved, uid: Qdk.Microsoft.Quantum.Arrays.Interleaved}
-  - {name: IsEmpty, uid: Qdk.Microsoft.Quantum.Arrays.IsEmpty}
-  - {name: IsRectangularArray, uid: Qdk.Microsoft.Quantum.Arrays.IsRectangularArray}
-  - {name: IsSorted, uid: Qdk.Microsoft.Quantum.Arrays.IsSorted}
-  - {name: IsSquareArray, uid: Qdk.Microsoft.Quantum.Arrays.IsSquareArray}
-  - {name: Mapped, uid: Qdk.Microsoft.Quantum.Arrays.Mapped}
-  - {name: MappedByIndex, uid: Qdk.Microsoft.Quantum.Arrays.MappedByIndex}
-  - {name: MappedOverRange, uid: Qdk.Microsoft.Quantum.Arrays.MappedOverRange}
-  - {name: Most, uid: Qdk.Microsoft.Quantum.Arrays.Most}
-  - {name: MostAndTail, uid: Qdk.Microsoft.Quantum.Arrays.MostAndTail}
-  - {name: Padded, uid: Qdk.Microsoft.Quantum.Arrays.Padded}
-  - {name: Partitioned, uid: Qdk.Microsoft.Quantum.Arrays.Partitioned}
-  - {name: Rest, uid: Qdk.Microsoft.Quantum.Arrays.Rest}
-  - {name: Reversed, uid: Qdk.Microsoft.Quantum.Arrays.Reversed}
-  - {name: SequenceI, uid: Qdk.Microsoft.Quantum.Arrays.SequenceI}
-  - {name: SequenceL, uid: Qdk.Microsoft.Quantum.Arrays.SequenceL}
-  - {name: Sorted, uid: Qdk.Microsoft.Quantum.Arrays.Sorted}
-  - {name: Subarray, uid: Qdk.Microsoft.Quantum.Arrays.Subarray}
-  - {name: Swapped, uid: Qdk.Microsoft.Quantum.Arrays.Swapped}
-  - {name: Tail, uid: Qdk.Microsoft.Quantum.Arrays.Tail}
-  - {name: Transposed, uid: Qdk.Microsoft.Quantum.Arrays.Transposed}
-  - {name: Unzipped, uid: Qdk.Microsoft.Quantum.Arrays.Unzipped}
-  - {name: Where, uid: Qdk.Microsoft.Quantum.Arrays.Where}
-  - {name: Windows, uid: Qdk.Microsoft.Quantum.Arrays.Windows}
-  - {name: Zipped, uid: Qdk.Microsoft.Quantum.Arrays.Zipped}
-  name: Microsoft.Quantum.Arrays
-  uid: Qdk.Microsoft.Quantum.Arrays
+  name: Overview
+  uid: microsoft.quantum.apiref-toc
 - items:
-  - {name: ApplyCNOTChain, uid: Qdk.Microsoft.Quantum.Canon.ApplyCNOTChain}
-  - {name: ApplyControlledOnBitString, uid: Qdk.Microsoft.Quantum.Canon.ApplyControlledOnBitString}
-  - {name: ApplyControlledOnInt, uid: Qdk.Microsoft.Quantum.Canon.ApplyControlledOnInt}
-  - {name: ApplyP, uid: Qdk.Microsoft.Quantum.Canon.ApplyP}
-  - {name: ApplyPauli, uid: Qdk.Microsoft.Quantum.Canon.ApplyPauli}
-  - {name: ApplyPauliFromBitString, uid: Qdk.Microsoft.Quantum.Canon.ApplyPauliFromBitString}
-  - {name: ApplyPauliFromInt, uid: Qdk.Microsoft.Quantum.Canon.ApplyPauliFromInt}
-  - {name: ApplyQFT, uid: Qdk.Microsoft.Quantum.Canon.ApplyQFT}
-  - {name: ApplyToEach, uid: Qdk.Microsoft.Quantum.Canon.ApplyToEach}
-  - {name: ApplyToEachA, uid: Qdk.Microsoft.Quantum.Canon.ApplyToEachA}
-  - {name: ApplyToEachC, uid: Qdk.Microsoft.Quantum.Canon.ApplyToEachC}
-  - {name: ApplyToEachCA, uid: Qdk.Microsoft.Quantum.Canon.ApplyToEachCA}
-  - {name: ApplyXorInPlace, uid: Qdk.Microsoft.Quantum.Canon.ApplyXorInPlace}
-  - {name: ApplyXorInPlaceL, uid: Qdk.Microsoft.Quantum.Canon.ApplyXorInPlaceL}
-  - {name: CX, uid: Qdk.Microsoft.Quantum.Canon.CX}
-  - {name: CY, uid: Qdk.Microsoft.Quantum.Canon.CY}
-  - {name: CZ, uid: Qdk.Microsoft.Quantum.Canon.CZ}
-  - {name: Fst, uid: Qdk.Microsoft.Quantum.Canon.Fst}
-  - {name: Snd, uid: Qdk.Microsoft.Quantum.Canon.Snd}
-  - {name: SwapReverseRegister, uid: Qdk.Microsoft.Quantum.Canon.SwapReverseRegister}
-  name: Microsoft.Quantum.Canon
-  uid: Qdk.Microsoft.Quantum.Canon
-- items:
-  - {name: BigIntAsBoolArray, uid: Qdk.Microsoft.Quantum.Convert.BigIntAsBoolArray}
-  - {name: BoolArrayAsBigInt, uid: Qdk.Microsoft.Quantum.Convert.BoolArrayAsBigInt}
-  - {name: BoolArrayAsInt, uid: Qdk.Microsoft.Quantum.Convert.BoolArrayAsInt}
-  - {name: BoolArrayAsResultArray, uid: Qdk.Microsoft.Quantum.Convert.BoolArrayAsResultArray}
-  - {name: BoolAsResult, uid: Qdk.Microsoft.Quantum.Convert.BoolAsResult}
-  - {name: ComplexAsComplexPolar, uid: Qdk.Microsoft.Quantum.Convert.ComplexAsComplexPolar}
-  - {name: ComplexPolarAsComplex, uid: Qdk.Microsoft.Quantum.Convert.ComplexPolarAsComplex}
-  - {name: IntAsBigInt, uid: Qdk.Microsoft.Quantum.Convert.IntAsBigInt}
-  - {name: IntAsBoolArray, uid: Qdk.Microsoft.Quantum.Convert.IntAsBoolArray}
-  - {name: IntAsDouble, uid: Qdk.Microsoft.Quantum.Convert.IntAsDouble}
-  - {name: ResultArrayAsBoolArray, uid: Qdk.Microsoft.Quantum.Convert.ResultArrayAsBoolArray}
-  - {name: ResultArrayAsInt, uid: Qdk.Microsoft.Quantum.Convert.ResultArrayAsInt}
-  - {name: ResultAsBool, uid: Qdk.Microsoft.Quantum.Convert.ResultAsBool}
-  name: Microsoft.Quantum.Convert
-  uid: Qdk.Microsoft.Quantum.Convert
-- items:
-  - {name: IsRangeEmpty, uid: Qdk.Microsoft.Quantum.Core.IsRangeEmpty}
+  - {name: Overview, uid: qdk.microsoft.quantum.core-toc}
   - {name: Length, uid: Qdk.Microsoft.Quantum.Core.Length}
-  - {name: RangeEnd, uid: Qdk.Microsoft.Quantum.Core.RangeEnd}
-  - {name: RangeReverse, uid: Qdk.Microsoft.Quantum.Core.RangeReverse}
-  - {name: RangeStart, uid: Qdk.Microsoft.Quantum.Core.RangeStart}
-  - {name: RangeStep, uid: Qdk.Microsoft.Quantum.Core.RangeStep}
   - {name: Repeated, uid: Qdk.Microsoft.Quantum.Core.Repeated}
   name: Microsoft.Quantum.Core
   uid: Qdk.Microsoft.Quantum.Core
 - items:
-  - {name: CheckAllZero, uid: Qdk.Microsoft.Quantum.Diagnostics.CheckAllZero}
-  - {name: CheckOperationsAreEqual, uid: Qdk.Microsoft.Quantum.Diagnostics.CheckOperationsAreEqual}
-  - {name: CheckZero, uid: Qdk.Microsoft.Quantum.Diagnostics.CheckZero}
-  - {name: DumpMachine, uid: Qdk.Microsoft.Quantum.Diagnostics.DumpMachine}
-  - {name: Fact, uid: Qdk.Microsoft.Quantum.Diagnostics.Fact}
-  name: Microsoft.Quantum.Diagnostics
-  uid: Qdk.Microsoft.Quantum.Diagnostics
+  - {name: Overview, uid: qdk.std.arrays-toc}
+  - {name: All, uid: Qdk.Std.Arrays.All}
+  - {name: Any, uid: Qdk.Std.Arrays.Any}
+  - {name: Chunks, uid: Qdk.Std.Arrays.Chunks}
+  - {name: CircularlyShifted, uid: Qdk.Std.Arrays.CircularlyShifted}
+  - {name: ColumnAt, uid: Qdk.Std.Arrays.ColumnAt}
+  - {name: Count, uid: Qdk.Std.Arrays.Count}
+  - {name: Diagonal, uid: Qdk.Std.Arrays.Diagonal}
+  - {name: DrawMany, uid: Qdk.Std.Arrays.DrawMany}
+  - {name: Enumerated, uid: Qdk.Std.Arrays.Enumerated}
+  - {name: Excluding, uid: Qdk.Std.Arrays.Excluding}
+  - {name: Filtered, uid: Qdk.Std.Arrays.Filtered}
+  - {name: FlatMapped, uid: Qdk.Std.Arrays.FlatMapped}
+  - {name: Flattened, uid: Qdk.Std.Arrays.Flattened}
+  - {name: Fold, uid: Qdk.Std.Arrays.Fold}
+  - {name: ForEach, uid: Qdk.Std.Arrays.ForEach}
+  - {name: Head, uid: Qdk.Std.Arrays.Head}
+  - {name: HeadAndRest, uid: Qdk.Std.Arrays.HeadAndRest}
+  - {name: IndexOf, uid: Qdk.Std.Arrays.IndexOf}
+  - {name: IndexRange, uid: Qdk.Std.Arrays.IndexRange}
+  - {name: Interleaved, uid: Qdk.Std.Arrays.Interleaved}
+  - {name: IsEmpty, uid: Qdk.Std.Arrays.IsEmpty}
+  - {name: IsRectangularArray, uid: Qdk.Std.Arrays.IsRectangularArray}
+  - {name: IsSorted, uid: Qdk.Std.Arrays.IsSorted}
+  - {name: IsSquareArray, uid: Qdk.Std.Arrays.IsSquareArray}
+  - {name: Mapped, uid: Qdk.Std.Arrays.Mapped}
+  - {name: MappedByIndex, uid: Qdk.Std.Arrays.MappedByIndex}
+  - {name: MappedOverRange, uid: Qdk.Std.Arrays.MappedOverRange}
+  - {name: Most, uid: Qdk.Std.Arrays.Most}
+  - {name: MostAndTail, uid: Qdk.Std.Arrays.MostAndTail}
+  - {name: Padded, uid: Qdk.Std.Arrays.Padded}
+  - {name: Partitioned, uid: Qdk.Std.Arrays.Partitioned}
+  - {name: Rest, uid: Qdk.Std.Arrays.Rest}
+  - {name: Reversed, uid: Qdk.Std.Arrays.Reversed}
+  - {name: SequenceI, uid: Qdk.Std.Arrays.SequenceI}
+  - {name: SequenceL, uid: Qdk.Std.Arrays.SequenceL}
+  - {name: Sorted, uid: Qdk.Std.Arrays.Sorted}
+  - {name: Subarray, uid: Qdk.Std.Arrays.Subarray}
+  - {name: Swapped, uid: Qdk.Std.Arrays.Swapped}
+  - {name: Tail, uid: Qdk.Std.Arrays.Tail}
+  - {name: Transposed, uid: Qdk.Std.Arrays.Transposed}
+  - {name: Unzipped, uid: Qdk.Std.Arrays.Unzipped}
+  - {name: Where, uid: Qdk.Std.Arrays.Where}
+  - {name: Windows, uid: Qdk.Std.Arrays.Windows}
+  - {name: Zipped, uid: Qdk.Std.Arrays.Zipped}
+  name: Std.Arrays
+  uid: Qdk.Std.Arrays
 - items:
-  - {name: CCNOT, uid: Qdk.Microsoft.Quantum.Intrinsic.CCNOT}
-  - {name: CNOT, uid: Qdk.Microsoft.Quantum.Intrinsic.CNOT}
-  - {name: Exp, uid: Qdk.Microsoft.Quantum.Intrinsic.Exp}
-  - {name: H, uid: Qdk.Microsoft.Quantum.Intrinsic.H}
-  - {name: I, uid: Qdk.Microsoft.Quantum.Intrinsic.I}
-  - {name: M, uid: Qdk.Microsoft.Quantum.Intrinsic.M}
-  - {name: Measure, uid: Qdk.Microsoft.Quantum.Intrinsic.Measure}
-  - {name: Message, uid: Qdk.Microsoft.Quantum.Intrinsic.Message}
-  - {name: R, uid: Qdk.Microsoft.Quantum.Intrinsic.R}
-  - {name: R1, uid: Qdk.Microsoft.Quantum.Intrinsic.R1}
-  - {name: R1Frac, uid: Qdk.Microsoft.Quantum.Intrinsic.R1Frac}
-  - {name: RFrac, uid: Qdk.Microsoft.Quantum.Intrinsic.RFrac}
-  - {name: Reset, uid: Qdk.Microsoft.Quantum.Intrinsic.Reset}
-  - {name: ResetAll, uid: Qdk.Microsoft.Quantum.Intrinsic.ResetAll}
-  - {name: Rx, uid: Qdk.Microsoft.Quantum.Intrinsic.Rx}
-  - {name: Rxx, uid: Qdk.Microsoft.Quantum.Intrinsic.Rxx}
-  - {name: Ry, uid: Qdk.Microsoft.Quantum.Intrinsic.Ry}
-  - {name: Ryy, uid: Qdk.Microsoft.Quantum.Intrinsic.Ryy}
-  - {name: Rz, uid: Qdk.Microsoft.Quantum.Intrinsic.Rz}
-  - {name: Rzz, uid: Qdk.Microsoft.Quantum.Intrinsic.Rzz}
-  - {name: S, uid: Qdk.Microsoft.Quantum.Intrinsic.S}
-  - {name: SWAP, uid: Qdk.Microsoft.Quantum.Intrinsic.SWAP}
-  - {name: T, uid: Qdk.Microsoft.Quantum.Intrinsic.T}
-  - {name: X, uid: Qdk.Microsoft.Quantum.Intrinsic.X}
-  - {name: Y, uid: Qdk.Microsoft.Quantum.Intrinsic.Y}
-  - {name: Z, uid: Qdk.Microsoft.Quantum.Intrinsic.Z}
-  name: Microsoft.Quantum.Intrinsic
-  uid: Qdk.Microsoft.Quantum.Intrinsic
+  - {name: Overview, uid: qdk.std.canon-toc}
+  - {name: ApplyCNOTChain, uid: Qdk.Std.Canon.ApplyCNOTChain}
+  - {name: ApplyControlledOnBitString, uid: Qdk.Std.Canon.ApplyControlledOnBitString}
+  - {name: ApplyControlledOnInt, uid: Qdk.Std.Canon.ApplyControlledOnInt}
+  - {name: ApplyP, uid: Qdk.Std.Canon.ApplyP}
+  - {name: ApplyPauli, uid: Qdk.Std.Canon.ApplyPauli}
+  - {name: ApplyPauliFromBitString, uid: Qdk.Std.Canon.ApplyPauliFromBitString}
+  - {name: ApplyPauliFromInt, uid: Qdk.Std.Canon.ApplyPauliFromInt}
+  - {name: ApplyQFT, uid: Qdk.Std.Canon.ApplyQFT}
+  - {name: ApplyToEach, uid: Qdk.Std.Canon.ApplyToEach}
+  - {name: ApplyToEachA, uid: Qdk.Std.Canon.ApplyToEachA}
+  - {name: ApplyToEachC, uid: Qdk.Std.Canon.ApplyToEachC}
+  - {name: ApplyToEachCA, uid: Qdk.Std.Canon.ApplyToEachCA}
+  - {name: ApplyXorInPlace, uid: Qdk.Std.Canon.ApplyXorInPlace}
+  - {name: ApplyXorInPlaceL, uid: Qdk.Std.Canon.ApplyXorInPlaceL}
+  - {name: CX, uid: Qdk.Std.Canon.CX}
+  - {name: CY, uid: Qdk.Std.Canon.CY}
+  - {name: CZ, uid: Qdk.Std.Canon.CZ}
+  - {name: Fst, uid: Qdk.Std.Canon.Fst}
+  - {name: Relabel, uid: Qdk.Std.Canon.Relabel}
+  - {name: Snd, uid: Qdk.Std.Canon.Snd}
+  - {name: SwapReverseRegister, uid: Qdk.Std.Canon.SwapReverseRegister}
+  name: Std.Canon
+  uid: Qdk.Std.Canon
 - items:
-  - {name: Xor, uid: Qdk.Microsoft.Quantum.Logical.Xor}
-  name: Microsoft.Quantum.Logical
-  uid: Qdk.Microsoft.Quantum.Logical
+  - {name: Overview, uid: qdk.std.convert-toc}
+  - {name: BigIntAsBoolArray, uid: Qdk.Std.Convert.BigIntAsBoolArray}
+  - {name: BoolArrayAsBigInt, uid: Qdk.Std.Convert.BoolArrayAsBigInt}
+  - {name: BoolArrayAsInt, uid: Qdk.Std.Convert.BoolArrayAsInt}
+  - {name: BoolArrayAsResultArray, uid: Qdk.Std.Convert.BoolArrayAsResultArray}
+  - {name: BoolAsResult, uid: Qdk.Std.Convert.BoolAsResult}
+  - {name: ComplexAsComplexPolar, uid: Qdk.Std.Convert.ComplexAsComplexPolar}
+  - {name: ComplexPolarAsComplex, uid: Qdk.Std.Convert.ComplexPolarAsComplex}
+  - {name: DoubleAsStringWithPrecision, uid: Qdk.Std.Convert.DoubleAsStringWithPrecision}
+  - {name: IntAsBigInt, uid: Qdk.Std.Convert.IntAsBigInt}
+  - {name: IntAsBoolArray, uid: Qdk.Std.Convert.IntAsBoolArray}
+  - {name: IntAsDouble, uid: Qdk.Std.Convert.IntAsDouble}
+  - {name: ResultArrayAsBoolArray, uid: Qdk.Std.Convert.ResultArrayAsBoolArray}
+  - {name: ResultArrayAsInt, uid: Qdk.Std.Convert.ResultArrayAsInt}
+  - {name: ResultAsBool, uid: Qdk.Std.Convert.ResultAsBool}
+  name: Std.Convert
+  uid: Qdk.Std.Convert
 - items:
-  - {name: AbsComplex, uid: Qdk.Microsoft.Quantum.Math.AbsComplex}
-  - {name: AbsComplexPolar, uid: Qdk.Microsoft.Quantum.Math.AbsComplexPolar}
-  - {name: AbsD, uid: Qdk.Microsoft.Quantum.Math.AbsD}
-  - {name: AbsI, uid: Qdk.Microsoft.Quantum.Math.AbsI}
-  - {name: AbsL, uid: Qdk.Microsoft.Quantum.Math.AbsL}
-  - {name: AbsSquaredComplex, uid: Qdk.Microsoft.Quantum.Math.AbsSquaredComplex}
-  - {name: AbsSquaredComplexPolar, uid: Qdk.Microsoft.Quantum.Math.AbsSquaredComplexPolar}
-  - {name: ApproximateFactorial, uid: Qdk.Microsoft.Quantum.Math.ApproximateFactorial}
-  - {name: ArcCos, uid: Qdk.Microsoft.Quantum.Math.ArcCos}
-  - {name: ArcCosh, uid: Qdk.Microsoft.Quantum.Math.ArcCosh}
-  - {name: ArcSin, uid: Qdk.Microsoft.Quantum.Math.ArcSin}
-  - {name: ArcSinh, uid: Qdk.Microsoft.Quantum.Math.ArcSinh}
-  - {name: ArcTan, uid: Qdk.Microsoft.Quantum.Math.ArcTan}
-  - {name: ArcTan2, uid: Qdk.Microsoft.Quantum.Math.ArcTan2}
-  - {name: ArcTanh, uid: Qdk.Microsoft.Quantum.Math.ArcTanh}
-  - {name: ArgComplex, uid: Qdk.Microsoft.Quantum.Math.ArgComplex}
-  - {name: ArgComplexPolar, uid: Qdk.Microsoft.Quantum.Math.ArgComplexPolar}
-  - {name: Binom, uid: Qdk.Microsoft.Quantum.Math.Binom}
-  - {name: BitSizeI, uid: Qdk.Microsoft.Quantum.Math.BitSizeI}
-  - {name: BitSizeL, uid: Qdk.Microsoft.Quantum.Math.BitSizeL}
-  - {name: Ceiling, uid: Qdk.Microsoft.Quantum.Math.Ceiling}
-  - {name: Complex, uid: Qdk.Microsoft.Quantum.Math.Complex}
-  - {name: ComplexPolar, uid: Qdk.Microsoft.Quantum.Math.ComplexPolar}
-  - {name: ContinuedFractionConvergentI, uid: Qdk.Microsoft.Quantum.Math.ContinuedFractionConvergentI}
-  - {name: ContinuedFractionConvergentL, uid: Qdk.Microsoft.Quantum.Math.ContinuedFractionConvergentL}
-  - {name: Cos, uid: Qdk.Microsoft.Quantum.Math.Cos}
-  - {name: Cosh, uid: Qdk.Microsoft.Quantum.Math.Cosh}
-  - {name: DivRemI, uid: Qdk.Microsoft.Quantum.Math.DivRemI}
-  - {name: DivRemL, uid: Qdk.Microsoft.Quantum.Math.DivRemL}
-  - {name: DividedByC, uid: Qdk.Microsoft.Quantum.Math.DividedByC}
-  - {name: DividedByCP, uid: Qdk.Microsoft.Quantum.Math.DividedByCP}
-  - {name: E, uid: Qdk.Microsoft.Quantum.Math.E}
-  - {name: ExpModI, uid: Qdk.Microsoft.Quantum.Math.ExpModI}
-  - {name: ExpModL, uid: Qdk.Microsoft.Quantum.Math.ExpModL}
-  - {name: ExtendedGreatestCommonDivisorI, uid: Qdk.Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorI}
-  - {name: ExtendedGreatestCommonDivisorL, uid: Qdk.Microsoft.Quantum.Math.ExtendedGreatestCommonDivisorL}
-  - {name: FactorialI, uid: Qdk.Microsoft.Quantum.Math.FactorialI}
-  - {name: FactorialL, uid: Qdk.Microsoft.Quantum.Math.FactorialL}
-  - {name: Floor, uid: Qdk.Microsoft.Quantum.Math.Floor}
-  - {name: GreatestCommonDivisorI, uid: Qdk.Microsoft.Quantum.Math.GreatestCommonDivisorI}
-  - {name: GreatestCommonDivisorL, uid: Qdk.Microsoft.Quantum.Math.GreatestCommonDivisorL}
-  - {name: HammingWeightI, uid: Qdk.Microsoft.Quantum.Math.HammingWeightI}
-  - {name: InverseModI, uid: Qdk.Microsoft.Quantum.Math.InverseModI}
-  - {name: InverseModL, uid: Qdk.Microsoft.Quantum.Math.InverseModL}
-  - {name: IsCoprimeI, uid: Qdk.Microsoft.Quantum.Math.IsCoprimeI}
-  - {name: IsCoprimeL, uid: Qdk.Microsoft.Quantum.Math.IsCoprimeL}
-  - {name: IsInfinite, uid: Qdk.Microsoft.Quantum.Math.IsInfinite}
-  - {name: IsNaN, uid: Qdk.Microsoft.Quantum.Math.IsNaN}
-  - {name: LargestFixedPoint, uid: Qdk.Microsoft.Quantum.Math.LargestFixedPoint}
-  - {name: Lg, uid: Qdk.Microsoft.Quantum.Math.Lg}
-  - {name: Log, uid: Qdk.Microsoft.Quantum.Math.Log}
-  - {name: Log10, uid: Qdk.Microsoft.Quantum.Math.Log10}
-  - {name: LogFactorialD, uid: Qdk.Microsoft.Quantum.Math.LogFactorialD}
-  - {name: LogGammaD, uid: Qdk.Microsoft.Quantum.Math.LogGammaD}
-  - {name: LogOf2, uid: Qdk.Microsoft.Quantum.Math.LogOf2}
-  - {name: Max, uid: Qdk.Microsoft.Quantum.Math.Max}
-  - {name: MaxD, uid: Qdk.Microsoft.Quantum.Math.MaxD}
-  - {name: MaxI, uid: Qdk.Microsoft.Quantum.Math.MaxI}
-  - {name: MaxL, uid: Qdk.Microsoft.Quantum.Math.MaxL}
-  - {name: Min, uid: Qdk.Microsoft.Quantum.Math.Min}
-  - {name: MinD, uid: Qdk.Microsoft.Quantum.Math.MinD}
-  - {name: MinI, uid: Qdk.Microsoft.Quantum.Math.MinI}
-  - {name: MinL, uid: Qdk.Microsoft.Quantum.Math.MinL}
-  - {name: MinusC, uid: Qdk.Microsoft.Quantum.Math.MinusC}
-  - {name: MinusCP, uid: Qdk.Microsoft.Quantum.Math.MinusCP}
-  - {name: ModulusI, uid: Qdk.Microsoft.Quantum.Math.ModulusI}
-  - {name: ModulusL, uid: Qdk.Microsoft.Quantum.Math.ModulusL}
-  - {name: NegationC, uid: Qdk.Microsoft.Quantum.Math.NegationC}
-  - {name: NegationCP, uid: Qdk.Microsoft.Quantum.Math.NegationCP}
-  - {name: PI, uid: Qdk.Microsoft.Quantum.Math.PI}
-  - {name: PNorm, uid: Qdk.Microsoft.Quantum.Math.PNorm}
-  - {name: PNormalized, uid: Qdk.Microsoft.Quantum.Math.PNormalized}
-  - {name: PlusC, uid: Qdk.Microsoft.Quantum.Math.PlusC}
-  - {name: PlusCP, uid: Qdk.Microsoft.Quantum.Math.PlusCP}
-  - {name: PowC, uid: Qdk.Microsoft.Quantum.Math.PowC}
-  - {name: PowCP, uid: Qdk.Microsoft.Quantum.Math.PowCP}
-  - {name: RealMod, uid: Qdk.Microsoft.Quantum.Math.RealMod}
-  - {name: Round, uid: Qdk.Microsoft.Quantum.Math.Round}
-  - {name: SignD, uid: Qdk.Microsoft.Quantum.Math.SignD}
-  - {name: SignI, uid: Qdk.Microsoft.Quantum.Math.SignI}
-  - {name: SignL, uid: Qdk.Microsoft.Quantum.Math.SignL}
-  - {name: Sin, uid: Qdk.Microsoft.Quantum.Math.Sin}
-  - {name: Sinh, uid: Qdk.Microsoft.Quantum.Math.Sinh}
-  - {name: SmallestFixedPoint, uid: Qdk.Microsoft.Quantum.Math.SmallestFixedPoint}
-  - {name: Sqrt, uid: Qdk.Microsoft.Quantum.Math.Sqrt}
-  - {name: SquaredNorm, uid: Qdk.Microsoft.Quantum.Math.SquaredNorm}
-  - {name: Tan, uid: Qdk.Microsoft.Quantum.Math.Tan}
-  - {name: Tanh, uid: Qdk.Microsoft.Quantum.Math.Tanh}
-  - {name: TimesC, uid: Qdk.Microsoft.Quantum.Math.TimesC}
-  - {name: TimesCP, uid: Qdk.Microsoft.Quantum.Math.TimesCP}
-  - {name: TrailingZeroCountI, uid: Qdk.Microsoft.Quantum.Math.TrailingZeroCountI}
-  - {name: TrailingZeroCountL, uid: Qdk.Microsoft.Quantum.Math.TrailingZeroCountL}
-  - {name: Truncate, uid: Qdk.Microsoft.Quantum.Math.Truncate}
-  name: Microsoft.Quantum.Math
-  uid: Qdk.Microsoft.Quantum.Math
+  - {name: Overview, uid: qdk.std.core-toc}
+  - {name: Length, uid: Qdk.Std.Core.Length}
+  - {name: Repeated, uid: Qdk.Std.Core.Repeated}
+  name: Std.Core
+  uid: Qdk.Std.Core
 - items:
-  - {name: MResetEachZ, uid: Qdk.Microsoft.Quantum.Measurement.MResetEachZ}
-  - {name: MResetX, uid: Qdk.Microsoft.Quantum.Measurement.MResetX}
-  - {name: MResetY, uid: Qdk.Microsoft.Quantum.Measurement.MResetY}
-  - {name: MResetZ, uid: Qdk.Microsoft.Quantum.Measurement.MResetZ}
-  - {name: MeasureAllZ, uid: Qdk.Microsoft.Quantum.Measurement.MeasureAllZ}
-  - {name: MeasureEachZ, uid: Qdk.Microsoft.Quantum.Measurement.MeasureEachZ}
-  - {name: MeasureInteger, uid: Qdk.Microsoft.Quantum.Measurement.MeasureInteger}
-  name: Microsoft.Quantum.Measurement
-  uid: Qdk.Microsoft.Quantum.Measurement
+  - {name: Overview, uid: qdk.std.diagnostics-toc}
+  - {name: CheckAllZero, uid: Qdk.Std.Diagnostics.CheckAllZero}
+  - {name: CheckOperationsAreEqual, uid: Qdk.Std.Diagnostics.CheckOperationsAreEqual}
+  - {name: CheckZero, uid: Qdk.Std.Diagnostics.CheckZero}
+  - {name: DumpMachine, uid: Qdk.Std.Diagnostics.DumpMachine}
+  - {name: DumpOperation, uid: Qdk.Std.Diagnostics.DumpOperation}
+  - {name: DumpRegister, uid: Qdk.Std.Diagnostics.DumpRegister}
+  - {name: Fact, uid: Qdk.Std.Diagnostics.Fact}
+  - {name: StartCountingFunction, uid: Qdk.Std.Diagnostics.StartCountingFunction}
+  - {name: StartCountingOperation, uid: Qdk.Std.Diagnostics.StartCountingOperation}
+  - {name: StartCountingQubits, uid: Qdk.Std.Diagnostics.StartCountingQubits}
+  - {name: StopCountingFunction, uid: Qdk.Std.Diagnostics.StopCountingFunction}
+  - {name: StopCountingOperation, uid: Qdk.Std.Diagnostics.StopCountingOperation}
+  - {name: StopCountingQubits, uid: Qdk.Std.Diagnostics.StopCountingQubits}
+  name: Std.Diagnostics
+  uid: Qdk.Std.Diagnostics
 - items:
-  - {name: DrawRandomDouble, uid: Qdk.Microsoft.Quantum.Random.DrawRandomDouble}
-  - {name: DrawRandomInt, uid: Qdk.Microsoft.Quantum.Random.DrawRandomInt}
-  name: Microsoft.Quantum.Random
-  uid: Qdk.Microsoft.Quantum.Random
+  - {name: Overview, uid: qdk.std.intrinsic-toc}
+  - {name: AND, uid: Qdk.Std.Intrinsic.AND}
+  - {name: CCNOT, uid: Qdk.Std.Intrinsic.CCNOT}
+  - {name: CNOT, uid: Qdk.Std.Intrinsic.CNOT}
+  - {name: Exp, uid: Qdk.Std.Intrinsic.Exp}
+  - {name: H, uid: Qdk.Std.Intrinsic.H}
+  - {name: I, uid: Qdk.Std.Intrinsic.I}
+  - {name: M, uid: Qdk.Std.Intrinsic.M}
+  - {name: Measure, uid: Qdk.Std.Intrinsic.Measure}
+  - {name: Message, uid: Qdk.Std.Intrinsic.Message}
+  - {name: R, uid: Qdk.Std.Intrinsic.R}
+  - {name: R1, uid: Qdk.Std.Intrinsic.R1}
+  - {name: R1Frac, uid: Qdk.Std.Intrinsic.R1Frac}
+  - {name: RFrac, uid: Qdk.Std.Intrinsic.RFrac}
+  - {name: Reset, uid: Qdk.Std.Intrinsic.Reset}
+  - {name: ResetAll, uid: Qdk.Std.Intrinsic.ResetAll}
+  - {name: Rx, uid: Qdk.Std.Intrinsic.Rx}
+  - {name: Rxx, uid: Qdk.Std.Intrinsic.Rxx}
+  - {name: Ry, uid: Qdk.Std.Intrinsic.Ry}
+  - {name: Ryy, uid: Qdk.Std.Intrinsic.Ryy}
+  - {name: Rz, uid: Qdk.Std.Intrinsic.Rz}
+  - {name: Rzz, uid: Qdk.Std.Intrinsic.Rzz}
+  - {name: S, uid: Qdk.Std.Intrinsic.S}
+  - {name: SWAP, uid: Qdk.Std.Intrinsic.SWAP}
+  - {name: T, uid: Qdk.Std.Intrinsic.T}
+  - {name: X, uid: Qdk.Std.Intrinsic.X}
+  - {name: Y, uid: Qdk.Std.Intrinsic.Y}
+  - {name: Z, uid: Qdk.Std.Intrinsic.Z}
+  name: Std.Intrinsic
+  uid: Qdk.Std.Intrinsic
 - items:
-  - {name: AccountForEstimates, uid: Qdk.Microsoft.Quantum.ResourceEstimation.AccountForEstimates}
-  - {name: AuxQubitCount, uid: Qdk.Microsoft.Quantum.ResourceEstimation.AuxQubitCount}
-  - {name: BeginEstimateCaching, uid: Qdk.Microsoft.Quantum.ResourceEstimation.BeginEstimateCaching}
-  - {name: BeginRepeatEstimates, uid: Qdk.Microsoft.Quantum.ResourceEstimation.BeginRepeatEstimates}
-  - {name: CczCount, uid: Qdk.Microsoft.Quantum.ResourceEstimation.CczCount}
-  - {name: EndEstimateCaching, uid: Qdk.Microsoft.Quantum.ResourceEstimation.EndEstimateCaching}
-  - {name: EndRepeatEstimates, uid: Qdk.Microsoft.Quantum.ResourceEstimation.EndRepeatEstimates}
-  - {name: MeasurementCount, uid: Qdk.Microsoft.Quantum.ResourceEstimation.MeasurementCount}
-  - {name: PSSPCLayout, uid: Qdk.Microsoft.Quantum.ResourceEstimation.PSSPCLayout}
-  - {name: RepeatEstimates, uid: Qdk.Microsoft.Quantum.ResourceEstimation.RepeatEstimates}
-  - {name: RotationCount, uid: Qdk.Microsoft.Quantum.ResourceEstimation.RotationCount}
-  - {name: RotationDepth, uid: Qdk.Microsoft.Quantum.ResourceEstimation.RotationDepth}
-  - {name: SingleVariant, uid: Qdk.Microsoft.Quantum.ResourceEstimation.SingleVariant}
-  - {name: TCount, uid: Qdk.Microsoft.Quantum.ResourceEstimation.TCount}
-  name: Microsoft.Quantum.ResourceEstimation
-  uid: Qdk.Microsoft.Quantum.ResourceEstimation
+  - {name: Overview, uid: qdk.std.logical-toc}
+  - {name: Xor, uid: Qdk.Std.Logical.Xor}
+  name: Std.Logical
+  uid: Qdk.Std.Logical
 - items:
+  - {name: Overview, uid: qdk.std.math-toc}
+  - {name: AbsComplex, uid: Qdk.Std.Math.AbsComplex}
+  - {name: AbsComplexPolar, uid: Qdk.Std.Math.AbsComplexPolar}
+  - {name: AbsD, uid: Qdk.Std.Math.AbsD}
+  - {name: AbsI, uid: Qdk.Std.Math.AbsI}
+  - {name: AbsL, uid: Qdk.Std.Math.AbsL}
+  - {name: AbsSquaredComplex, uid: Qdk.Std.Math.AbsSquaredComplex}
+  - {name: AbsSquaredComplexPolar, uid: Qdk.Std.Math.AbsSquaredComplexPolar}
+  - {name: ApproximateFactorial, uid: Qdk.Std.Math.ApproximateFactorial}
+  - {name: ArcCos, uid: Qdk.Std.Math.ArcCos}
+  - {name: ArcCosh, uid: Qdk.Std.Math.ArcCosh}
+  - {name: ArcSin, uid: Qdk.Std.Math.ArcSin}
+  - {name: ArcSinh, uid: Qdk.Std.Math.ArcSinh}
+  - {name: ArcTan, uid: Qdk.Std.Math.ArcTan}
+  - {name: ArcTan2, uid: Qdk.Std.Math.ArcTan2}
+  - {name: ArcTanh, uid: Qdk.Std.Math.ArcTanh}
+  - {name: ArgComplex, uid: Qdk.Std.Math.ArgComplex}
+  - {name: ArgComplexPolar, uid: Qdk.Std.Math.ArgComplexPolar}
+  - {name: Binom, uid: Qdk.Std.Math.Binom}
+  - {name: BitSizeI, uid: Qdk.Std.Math.BitSizeI}
+  - {name: BitSizeL, uid: Qdk.Std.Math.BitSizeL}
+  - {name: Ceiling, uid: Qdk.Std.Math.Ceiling}
+  - {name: Complex, uid: Qdk.Std.Math.Complex}
+  - {name: ComplexPolar, uid: Qdk.Std.Math.ComplexPolar}
+  - {name: ContinuedFractionConvergentI, uid: Qdk.Std.Math.ContinuedFractionConvergentI}
+  - {name: ContinuedFractionConvergentL, uid: Qdk.Std.Math.ContinuedFractionConvergentL}
+  - {name: Cos, uid: Qdk.Std.Math.Cos}
+  - {name: Cosh, uid: Qdk.Std.Math.Cosh}
+  - {name: DivRemI, uid: Qdk.Std.Math.DivRemI}
+  - {name: DivRemL, uid: Qdk.Std.Math.DivRemL}
+  - {name: DividedByC, uid: Qdk.Std.Math.DividedByC}
+  - {name: DividedByCP, uid: Qdk.Std.Math.DividedByCP}
+  - {name: E, uid: Qdk.Std.Math.E}
+  - {name: ExpModI, uid: Qdk.Std.Math.ExpModI}
+  - {name: ExpModL, uid: Qdk.Std.Math.ExpModL}
+  - {name: ExtendedGreatestCommonDivisorI, uid: Qdk.Std.Math.ExtendedGreatestCommonDivisorI}
+  - {name: ExtendedGreatestCommonDivisorL, uid: Qdk.Std.Math.ExtendedGreatestCommonDivisorL}
+  - {name: FactorialI, uid: Qdk.Std.Math.FactorialI}
+  - {name: FactorialL, uid: Qdk.Std.Math.FactorialL}
+  - {name: Floor, uid: Qdk.Std.Math.Floor}
+  - {name: GreatestCommonDivisorI, uid: Qdk.Std.Math.GreatestCommonDivisorI}
+  - {name: GreatestCommonDivisorL, uid: Qdk.Std.Math.GreatestCommonDivisorL}
+  - {name: HammingWeightI, uid: Qdk.Std.Math.HammingWeightI}
+  - {name: InverseModI, uid: Qdk.Std.Math.InverseModI}
+  - {name: InverseModL, uid: Qdk.Std.Math.InverseModL}
+  - {name: IsCoprimeI, uid: Qdk.Std.Math.IsCoprimeI}
+  - {name: IsCoprimeL, uid: Qdk.Std.Math.IsCoprimeL}
+  - {name: IsInfinite, uid: Qdk.Std.Math.IsInfinite}
+  - {name: IsNaN, uid: Qdk.Std.Math.IsNaN}
+  - {name: LargestFixedPoint, uid: Qdk.Std.Math.LargestFixedPoint}
+  - {name: Lg, uid: Qdk.Std.Math.Lg}
+  - {name: Log, uid: Qdk.Std.Math.Log}
+  - {name: Log10, uid: Qdk.Std.Math.Log10}
+  - {name: LogFactorialD, uid: Qdk.Std.Math.LogFactorialD}
+  - {name: LogGammaD, uid: Qdk.Std.Math.LogGammaD}
+  - {name: LogOf2, uid: Qdk.Std.Math.LogOf2}
+  - {name: Max, uid: Qdk.Std.Math.Max}
+  - {name: MaxD, uid: Qdk.Std.Math.MaxD}
+  - {name: MaxI, uid: Qdk.Std.Math.MaxI}
+  - {name: MaxL, uid: Qdk.Std.Math.MaxL}
+  - {name: Min, uid: Qdk.Std.Math.Min}
+  - {name: MinD, uid: Qdk.Std.Math.MinD}
+  - {name: MinI, uid: Qdk.Std.Math.MinI}
+  - {name: MinL, uid: Qdk.Std.Math.MinL}
+  - {name: MinusC, uid: Qdk.Std.Math.MinusC}
+  - {name: MinusCP, uid: Qdk.Std.Math.MinusCP}
+  - {name: ModulusI, uid: Qdk.Std.Math.ModulusI}
+  - {name: ModulusL, uid: Qdk.Std.Math.ModulusL}
+  - {name: NegationC, uid: Qdk.Std.Math.NegationC}
+  - {name: NegationCP, uid: Qdk.Std.Math.NegationCP}
+  - {name: PI, uid: Qdk.Std.Math.PI}
+  - {name: PNorm, uid: Qdk.Std.Math.PNorm}
+  - {name: PNormalized, uid: Qdk.Std.Math.PNormalized}
+  - {name: PlusC, uid: Qdk.Std.Math.PlusC}
+  - {name: PlusCP, uid: Qdk.Std.Math.PlusCP}
+  - {name: PowC, uid: Qdk.Std.Math.PowC}
+  - {name: PowCP, uid: Qdk.Std.Math.PowCP}
+  - {name: RealMod, uid: Qdk.Std.Math.RealMod}
+  - {name: Round, uid: Qdk.Std.Math.Round}
+  - {name: SignD, uid: Qdk.Std.Math.SignD}
+  - {name: SignI, uid: Qdk.Std.Math.SignI}
+  - {name: SignL, uid: Qdk.Std.Math.SignL}
+  - {name: Sin, uid: Qdk.Std.Math.Sin}
+  - {name: Sinh, uid: Qdk.Std.Math.Sinh}
+  - {name: SmallestFixedPoint, uid: Qdk.Std.Math.SmallestFixedPoint}
+  - {name: Sqrt, uid: Qdk.Std.Math.Sqrt}
+  - {name: SquaredNorm, uid: Qdk.Std.Math.SquaredNorm}
+  - {name: Tan, uid: Qdk.Std.Math.Tan}
+  - {name: Tanh, uid: Qdk.Std.Math.Tanh}
+  - {name: TimesC, uid: Qdk.Std.Math.TimesC}
+  - {name: TimesCP, uid: Qdk.Std.Math.TimesCP}
+  - {name: TrailingZeroCountI, uid: Qdk.Std.Math.TrailingZeroCountI}
+  - {name: TrailingZeroCountL, uid: Qdk.Std.Math.TrailingZeroCountL}
+  - {name: Truncate, uid: Qdk.Std.Math.Truncate}
+  name: Std.Math
+  uid: Qdk.Std.Math
+- items:
+  - {name: Overview, uid: qdk.std.measurement-toc}
+  - {name: MResetEachZ, uid: Qdk.Std.Measurement.MResetEachZ}
+  - {name: MResetX, uid: Qdk.Std.Measurement.MResetX}
+  - {name: MResetY, uid: Qdk.Std.Measurement.MResetY}
+  - {name: MResetZ, uid: Qdk.Std.Measurement.MResetZ}
+  - {name: MeasureAllZ, uid: Qdk.Std.Measurement.MeasureAllZ}
+  - {name: MeasureEachZ, uid: Qdk.Std.Measurement.MeasureEachZ}
+  - {name: MeasureInteger, uid: Qdk.Std.Measurement.MeasureInteger}
+  name: Std.Measurement
+  uid: Qdk.Std.Measurement
+- items:
+  - {name: Overview, uid: qdk.std.random-toc}
+  - {name: DrawRandomBool, uid: Qdk.Std.Random.DrawRandomBool}
+  - {name: DrawRandomDouble, uid: Qdk.Std.Random.DrawRandomDouble}
+  - {name: DrawRandomInt, uid: Qdk.Std.Random.DrawRandomInt}
+  name: Std.Random
+  uid: Qdk.Std.Random
+- items:
+  - {name: Overview, uid: qdk.std.range-toc}
+  - {name: IsRangeEmpty, uid: Qdk.Std.Range.IsRangeEmpty}
+  - {name: RangeEnd, uid: Qdk.Std.Range.RangeEnd}
+  - {name: RangeReverse, uid: Qdk.Std.Range.RangeReverse}
+  - {name: RangeStart, uid: Qdk.Std.Range.RangeStart}
+  - {name: RangeStep, uid: Qdk.Std.Range.RangeStep}
+  name: Std.Range
+  uid: Qdk.Std.Range
+- items:
+  - {name: Overview, uid: qdk.std.resourceestimation-toc}
+  - {name: AccountForEstimates, uid: Qdk.Std.ResourceEstimation.AccountForEstimates}
+  - {name: AuxQubitCount, uid: Qdk.Std.ResourceEstimation.AuxQubitCount}
+  - {name: BeginEstimateCaching, uid: Qdk.Std.ResourceEstimation.BeginEstimateCaching}
+  - {name: BeginRepeatEstimates, uid: Qdk.Std.ResourceEstimation.BeginRepeatEstimates}
+  - {name: CczCount, uid: Qdk.Std.ResourceEstimation.CczCount}
+  - {name: EndEstimateCaching, uid: Qdk.Std.ResourceEstimation.EndEstimateCaching}
+  - {name: EndRepeatEstimates, uid: Qdk.Std.ResourceEstimation.EndRepeatEstimates}
+  - {name: MeasurementCount, uid: Qdk.Std.ResourceEstimation.MeasurementCount}
+  - {name: PSSPCLayout, uid: Qdk.Std.ResourceEstimation.PSSPCLayout}
+  - {name: RepeatEstimates, uid: Qdk.Std.ResourceEstimation.RepeatEstimates}
+  - {name: RotationCount, uid: Qdk.Std.ResourceEstimation.RotationCount}
+  - {name: RotationDepth, uid: Qdk.Std.ResourceEstimation.RotationDepth}
+  - {name: SingleVariant, uid: Qdk.Std.ResourceEstimation.SingleVariant}
+  - {name: TCount, uid: Qdk.Std.ResourceEstimation.TCount}
+  name: Std.ResourceEstimation
+  uid: Qdk.Std.ResourceEstimation
+- items:
+  - {name: Overview, uid: qdk.microsoft.quantum.unstable.arithmetic-toc}
   - {name: AddLE, uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.AddLE}
   - {name: ApplyIfEqualL, uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.ApplyIfEqualL}
   - {name: ApplyIfEqualLE, uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.ApplyIfEqualLE}
@@ -297,11 +334,13 @@
   name: Microsoft.Quantum.Unstable.Arithmetic
   uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic
 - items:
+  - {name: Overview, uid: qdk.microsoft.quantum.unstable.statepreparation-toc}
   - {name: ApproximatelyPreparePureStateCP, uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.ApproximatelyPreparePureStateCP}
   - {name: PreparePureStateD, uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation.PreparePureStateD}
   name: Microsoft.Quantum.Unstable.StatePreparation
   uid: Qdk.Microsoft.Quantum.Unstable.StatePreparation
 - items:
+  - {name: Overview, uid: qdk.microsoft.quantum.unstable.tablelookup-toc}
   - {name: Select, uid: Qdk.Microsoft.Quantum.Unstable.TableLookup.Select}
   name: Microsoft.Quantum.Unstable.TableLookup
   uid: Qdk.Microsoft.Quantum.Unstable.TableLookup
