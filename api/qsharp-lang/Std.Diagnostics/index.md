@@ -14,9 +14,9 @@ The Std.Diagnostics namespace contains the following functions and operations:
 
 | Name | Description |
 |------|-------------|
-| [CheckAllZero](xref:Qdk.Std.Diagnostics.CheckAllZero) | Checks whether all qubits in the provided array are in the |0⟩ state. Returns true if they are. |
+| [CheckAllZero](xref:Qdk.Std.Diagnostics.CheckAllZero) | Checks whether all qubits in the provided array are in the \|0⟩ state. Returns true if they are. |
 | [CheckOperationsAreEqual](xref:Qdk.Std.Diagnostics.CheckOperationsAreEqual) | Given two operations, checks that they act identically for all input states. |
-| [CheckZero](xref:Qdk.Std.Diagnostics.CheckZero) | Checks whether a qubit is in the |0⟩ state, returning true if it is. |
+| [CheckZero](xref:Qdk.Std.Diagnostics.CheckZero) | Checks whether a qubit is in the \|0⟩ state, returning true if it is. |
 | [DumpMachine](xref:Qdk.Std.Diagnostics.DumpMachine) | Dumps the current target machine's status. |
 | [DumpOperation](xref:Qdk.Std.Diagnostics.DumpOperation) | Given an operation, dumps the matrix representation of the operation action on the given |
 | [DumpRegister](xref:Qdk.Std.Diagnostics.DumpRegister) | Dumps the current target machine's status associated with the given qubits. |
