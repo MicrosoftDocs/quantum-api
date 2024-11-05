@@ -1,11 +1,6 @@
 {
     "redirections": [
         {
-            "source_path": "api/qsharp/index.md",
-            "redirect_url": "/qsharp/api/qsharp-lang/",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "api/qsharp/microsoft.quantum.amplitudeamplification.ampampbyoracle.md",
             "redirect_url": "/qsharp/api/qsharp-lang/",
             "redirect_document_id": false
@@ -5496,8 +5491,1153 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "api/qsharp-lang/index.md",
-            "redirect_url": "/qsharp/api/index/",
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/All.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/all",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Any.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/any",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Chunks.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/chunks",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/CircularlyShifted.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/circularlyshifted",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/ColumnAt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/columnat",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Count.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/count",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Diagonal.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/diagonal",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/DrawMany.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/drawmany",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Enumerated.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/enumerated",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Excluding.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/excluding",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Filtered.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/filtered",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/FlatMapped.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/flatmapped",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Flattened.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/flattened",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Fold.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/fold",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/ForEach.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/foreach",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Head.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/head",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/HeadAndRest.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/headandrest",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/IndexOf.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/indexof",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/IndexRange.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/indexrange",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Interleaved.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/interleaved",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/IsEmpty.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/isempty",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/IsRectangularArray.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/isrectangulararray",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/IsSorted.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/issorted",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/IsSquareArray.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/issquarearray",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Mapped.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/mapped",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/MappedByIndex.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/mappedbyindex",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/MappedOverRange.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/mappedoverrange",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Most.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/most",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/MostAndTail.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/mostandtail",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Padded.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/padded",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Partitioned.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/partitioned",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Rest.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/rest",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Reversed.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/reversed",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/SequenceI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/sequencei",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/SequenceL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/sequencel",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Sorted.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/sorted",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Subarray.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/subarray",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Swapped.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/swapped",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Tail.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/tail",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Transposed.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/transposed",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Unzipped.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/unzipped",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Where.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/where",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Windows.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/windows",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Arrays/Zipped.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.arrays/zipped",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyCNOTChain.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applycnotchain",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyControlledOnBitString.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applycontrolledonbitstring",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyControlledOnInt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applycontrolledonint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applyp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyPauli.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applypauli",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyPauliFromBitString.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applypaulifrombitstring",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyPauliFromInt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applypaulifromint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyQFT.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applyqft",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyToEach.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applytoeach",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyToEachA.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applytoeacha",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyToEachC.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applytoeachc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyToEachCA.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applytoeachca",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyXorInPlace.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applyxorinplace",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/ApplyXorInPlaceL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/applyxorinplacel",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/CX.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/cx",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/CY.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/cy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/CZ.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/cz",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/Fst.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/fst",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/Snd.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/snd",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Canon/SwapReverseRegister.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.canon/swapreverseregister",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/BigIntAsBoolArray.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/bigintasboolarray",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/BoolArrayAsBigInt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/boolarrayasbigint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/BoolArrayAsInt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/boolarrayasint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/BoolArrayAsResultArray.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/boolarrayasresultarray",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/BoolAsResult.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/boolasresult",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/ComplexAsComplexPolar.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/complexascomplexpolar",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/ComplexPolarAsComplex.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/complexpolarascomplex",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/IntAsBigInt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/intasbigint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/IntAsBoolArray.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/intasboolarray",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/IntAsDouble.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/intasdouble",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/ResultArrayAsBoolArray.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/resultarrayasboolarray",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/ResultArrayAsInt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/resultarrayasint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Convert/ResultAsBool.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.convert/resultasbool",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Core/IsRangeEmpty.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.range/israngeempty",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Core/RangeEnd.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.range/rangeend",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Core/RangeReverse.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.range/rangereverse",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Core/RangeStart.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.range/rangestart",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Core/RangeStep.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.range/rangestep",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Diagnostics/CheckAllZero.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.diagnostics/checkallzero",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Diagnostics/CheckOperationsAreEqual.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.diagnostics/checkoperationsareequal",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Diagnostics/CheckZero.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.diagnostics/checkzero",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Diagnostics/DumpMachine.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.diagnostics/dumpmachine",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Diagnostics/Fact.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.diagnostics/fact",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/CCNOT.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/ccnot",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/CNOT.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/cnot",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Exp.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/exp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/H.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/h",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/I.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/i",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/M.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/m",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Measure.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/measure",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Message.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/message",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/R.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/r",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/R1.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/r1",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/R1Frac.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/r1frac",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Reset.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/reset",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/ResetAll.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/resetall",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/RFrac.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/rfrac",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Rx.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/rx",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Rxx.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/rxx",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Ry.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/ry",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Ryy.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/ryy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Rz.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/rz",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Rzz.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/rzz",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/S.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/s",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/SWAP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/swap",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/T.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/t",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/X.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/x",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Y.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/y",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Intrinsic/Z.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.intrinsic/z",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Logical/Xor.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.logical/xor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/AbsComplex.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/abscomplex",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/AbsComplexPolar.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/abscomplexpolar",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/AbsD.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/absd",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/AbsI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/absi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/AbsL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/absl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/AbsSquaredComplex.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/abssquaredcomplex",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/AbsSquaredComplexPolar.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/abssquaredcomplexpolar",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ApproximateFactorial.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/approximatefactorial",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArcCos.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/arccos",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArcCosh.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/arccosh",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArcSin.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/arcsin",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArcSinh.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/arcsinh",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArcTan.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/arctan",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArcTan2.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/arctan2",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArcTanh.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/arctanh",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArgComplex.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/argcomplex",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ArgComplexPolar.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/argcomplexpolar",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Binom.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/binom",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/BitSizeI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/bitsizei",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/BitSizeL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/bitsizel",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Ceiling.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/ceiling",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Complex.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/complex",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ComplexPolar.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/complexpolar",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ContinuedFractionConvergentI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/continuedfractionconvergenti",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ContinuedFractionConvergentL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/continuedfractionconvergentl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Cos.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/cos",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Cosh.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/cosh",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/DividedByC.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/dividedbyc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/DividedByCP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/dividedbycp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/DivRemI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/divremi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/DivRemL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/divreml",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/E.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/e",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ExpModI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/expmodi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ExpModL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/expmodl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ExtendedGreatestCommonDivisorI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/extendedgreatestcommondivisori",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ExtendedGreatestCommonDivisorL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/extendedgreatestcommondivisorl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/FactorialI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/factoriali",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/FactorialL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/factoriall",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Floor.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/floor",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/GreatestCommonDivisorI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/greatestcommondivisori",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/GreatestCommonDivisorL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/greatestcommondivisorl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/HammingWeightI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/hammingweighti",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/InverseModI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/inversemodi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/InverseModL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/inversemodl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/IsCoprimeI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/iscoprimei",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/IsCoprimeL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/iscoprimel",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/IsInfinite.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/isinfinite",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/IsNaN.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/isnan",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/LargestFixedPoint.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/largestfixedpoint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Lg.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/lg",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Log.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/log",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Log10.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/log10",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/LogFactorialD.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/logfactoriald",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/LogGammaD.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/loggammad",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/LogOf2.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/logof2",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Max.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/max",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MaxD.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/maxd",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MaxI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/maxi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MaxL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/maxl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Min.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/min",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MinD.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/mind",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MinI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/mini",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MinL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/minl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MinusC.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/minusc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/MinusCP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/minuscp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ModulusI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/modulusi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/ModulusL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/modulusl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/NegationC.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/negationc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/NegationCP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/negationcp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/PI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/pi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/PlusC.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/plusc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/PlusCP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/pluscp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/PNorm.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/pnorm",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/PNormalized.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/pnormalized",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/PowC.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/powc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/PowCP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/powcp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/RealMod.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/realmod",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Round.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/round",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/SignD.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/signd",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/SignI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/signi",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/SignL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/signl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Sin.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/sin",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Sinh.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/sinh",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/SmallestFixedPoint.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/smallestfixedpoint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Sqrt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/sqrt",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/SquaredNorm.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/squarednorm",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Tan.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/tan",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Tanh.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/tanh",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/TimesC.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/timesc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/TimesCP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/timescp",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/TrailingZeroCountI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/trailingzerocounti",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/TrailingZeroCountL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/trailingzerocountl",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Math/Truncate.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.math/truncate",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Measurement/MeasureAllZ.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.measurement/measureallz",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Measurement/MeasureEachZ.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.measurement/measureeachz",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Measurement/MeasureInteger.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.measurement/measureinteger",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Measurement/MResetEachZ.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.measurement/mreseteachz",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Measurement/MResetX.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.measurement/mresetx",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Measurement/MResetY.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.measurement/mresety",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Measurement/MResetZ.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.measurement/mresetz",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Random/DrawRandomDouble.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.random/drawrandomdouble",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Random/DrawRandomInt.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.random/drawrandomint",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/AccountForEstimates.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/accountforestimates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/AuxQubitCount.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/auxqubitcount",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/BeginEstimateCaching.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/beginestimatecaching",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/BeginRepeatEstimates.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/beginrepeatestimates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/CczCount.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/cczcount",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/EndEstimateCaching.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/endestimatecaching",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/EndRepeatEstimates.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/endrepeatestimates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/MeasurementCount.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/measurementcount",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/PSSPCLayout.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/psspclayout",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/RepeatEstimates.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/repeatestimates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/RotationCount.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/rotationcount",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/RotationDepth.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/rotationdepth",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/SingleVariant.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/singlevariant",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/TCount.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/tcount",
             "redirect_document_id": false
         }
     ]
