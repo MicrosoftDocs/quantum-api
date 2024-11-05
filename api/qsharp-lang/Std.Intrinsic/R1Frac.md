@@ -19,7 +19,7 @@ operation R1Frac(numerator : Int, power : Int, qubit : Qubit) : Unit is Adj + Ct
 ```
 
 ## Summary
-Applies a rotation about the |1⟩ state by an angle specified
+Applies a rotation about the $|1⟩$ state by an angle specified
 as a dyadic fraction.
 
 WARNING:

@@ -22,7 +22,7 @@ function PNormalized(p : Double, array : Double[]) : Double[]
 Normalizes a vector of `Double`s in the `L(p)` norm.
 
 That is, given an array x of type `Double[]`, this returns an array where
-all elements are divided by the p-norm |x̄|ₚ.
+all elements are divided by the p-norm $|x̄|ₚ$.
 Function leaves array with norm 0 unchanged.
 
 ## Input
@@ -30,7 +30,7 @@ Function leaves array with norm 0 unchanged.
 The exponent p in the p-norm.
 
 ## Output
-The array x normalized by the p-norm |x̄|ₚ.
+The array x normalized by the p-norm $|x̄|ₚ$.
 
 ## See Also
-- PNorm
+[PNorm](xref:Qdk.Std.Math.PNorm)
