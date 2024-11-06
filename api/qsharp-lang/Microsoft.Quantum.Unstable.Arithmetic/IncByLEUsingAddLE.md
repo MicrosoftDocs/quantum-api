@@ -1,17 +1,18 @@
 ---
 uid: Qdk.Microsoft.Quantum.Unstable.Arithmetic.IncByLEUsingAddLE
 title: IncByLEUsingAddLE operation
-ms.date: 02/23/2024 12:00:00 AM
+ms.date: 11/01/2024
 ms.topic: managed-reference
 qsharp.kind: operation
+qsharp.package: __Std__
 qsharp.namespace: Microsoft.Quantum.Unstable.Arithmetic
 qsharp.name: IncByLEUsingAddLE
-qsharp.summary: Generic operation to turn two out-place adders into one in-place adder
+qsharp.summary: "Generic operation to turn two out-place adders into one in-place adder"
 ---
 
 # IncByLEUsingAddLE operation
 
-Namespace: Microsoft.Quantum.Unstable.Arithmetic
+Fully qualified name: Microsoft.Quantum.Unstable.Arithmetic.IncByLEUsingAddLE
 
 ```qsharp
 operation IncByLEUsingAddLE(forwardAdder : ((Qubit[], Qubit[], Qubit[]) => Unit is Adj), backwardAdder : ((Qubit[], Qubit[], Qubit[]) => Unit is Adj), xs : Qubit[], ys : Qubit[]) : Unit is Adj + Ctl
@@ -31,6 +32,6 @@ The controlled variant is also optimized in a way that everything but
 the adders is controlled,
 
 ## Reference
-    - [arXiv:2012.01624](https://arxiv.org/abs/2012.01624)
-      "Quantum block lookahead adders and the wait for magic states"
-      by by Craig Gidney.
+- [arXiv:2012.01624](https://arxiv.org/abs/2012.01624)
+  "Quantum block lookahead adders and the wait for magic states",
+  Craig Gidney.
