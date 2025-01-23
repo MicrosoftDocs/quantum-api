@@ -1,13 +1,14 @@
 ---
 uid: Qdk.Std.Intrinsic.RFrac
 title: RFrac operation
-ms.date: 11/01/2024
+description: "Q# RFrac operation: Applies a rotation about the given Pauli axis by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Std.Intrinsic.R."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic
 qsharp.name: RFrac
-qsharp.summary: "Applies a rotation about the given Pauli axis by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Microsoft.Quantum.Intrinsic.R."
+qsharp.summary: "Applies a rotation about the given Pauli axis by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Std.Intrinsic.R."
 ---
 
 # RFrac operation
@@ -24,7 +25,7 @@ as a dyadic fraction.
 
 WARNING:
 This operation uses the **opposite** sign convention from
-Microsoft.Quantum.Intrinsic.R.
+Std.Intrinsic.R.
 
 ## Input
 ### pauli

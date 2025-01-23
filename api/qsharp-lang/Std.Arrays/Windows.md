@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Windows
 title: Windows function
-ms.date: 11/01/2024
+description: "Q# Windows function: Returns all consecutive subarrays of length `size`."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

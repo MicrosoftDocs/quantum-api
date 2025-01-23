@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.AbsI
 title: AbsI function
-ms.date: 11/01/2024
+description: "Q# AbsI function: Returns the absolute value of an integer."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

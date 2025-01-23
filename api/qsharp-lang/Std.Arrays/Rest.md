@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Rest
 title: Rest function
-ms.date: 11/01/2024
+description: "Q# Rest function: Creates an array that is equal to an input array except that the first array element is dropped."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

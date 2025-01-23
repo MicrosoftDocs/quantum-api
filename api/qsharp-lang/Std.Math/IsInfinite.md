@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.IsInfinite
 title: IsInfinite function
-ms.date: 11/01/2024
+description: "Q# IsInfinite function: Returns whether a given floating-point value is either positive or negative infinity."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -46,4 +47,4 @@ Message($"{IsInfinite(-1.0 / 0.0}"); // true
 ```
 
 ## See Also
-- Microsoft.Quantum.Math.IsNaN
+- [Std.Math.IsNaN](xref:Qdk.Std.Math.IsNaN)

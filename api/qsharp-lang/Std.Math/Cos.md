@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.Cos
 title: Cos function
-ms.date: 11/01/2024
+description: "Q# Cos function: Returns the cosine of the specified angle."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

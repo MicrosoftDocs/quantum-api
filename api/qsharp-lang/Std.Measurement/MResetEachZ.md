@@ -1,13 +1,14 @@
 ---
 uid: Qdk.Std.Measurement.MResetEachZ
 title: MResetEachZ operation
-ms.date: 11/01/2024
+description: "Q# MResetEachZ operation: Measures each qubit in a given array in the Pauli Z basis and resets them to \|0⟩ state."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Measurement
 qsharp.name: MResetEachZ
-qsharp.summary: "Measures each qubit in a given array in the Z basis and resets them to a fixed initial state."
+qsharp.summary: "Measures each qubit in a given array in the Pauli Z basis and resets them to \|0⟩ state."
 ---
 
 # MResetEachZ operation
@@ -19,8 +20,8 @@ operation MResetEachZ(register : Qubit[]) : Result[]
 ```
 
 ## Summary
-Measures each qubit in a given array in the Z basis
-and resets them to a fixed initial state.
+Measures each qubit in a given array in the Pauli Z basis
+and resets them to |0⟩ state.
 
 ## Input
 ### targets
@@ -30,4 +31,4 @@ An array of qubits to be measured.
 An array of measurement results.
 
 ## See also
-- Microsoft.Quantum.Measurement.MeasureEachZ
+- [Std.Measurement.MeasureEachZ](xref:Qdk.Std.Measurement.MeasureEachZ)

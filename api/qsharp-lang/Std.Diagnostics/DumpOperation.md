@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Diagnostics.DumpOperation
 title: DumpOperation operation
-ms.date: 11/01/2024
+description: "Q# DumpOperation operation: Given an operation, dumps the matrix representation of the operation action on the given number of qubits."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
@@ -31,7 +32,7 @@ The operation that is to be diagnosed.
 ## Remarks
 When run on the sparse-state simulator, the following snippet
 will output the matrix
-$\left(\begin{matrix} 0.0 & 0.707 \\\\ 0.707 & 0.0\end{matrix}\right)$:
+$\left(\begin{matrix} 0.707 & 0.707 \\\\ 0.707 & -0.707\end{matrix}\right)$:
 
 ```qsharp
 operation DumpH() : Unit {

@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.E
 title: E function
-ms.date: 11/01/2024
+description: "Q# E function: Returns a double-precision approximation of the mathematical constant 𝒆 ≈ 2.7182818284590452354"
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -30,4 +31,4 @@ also known as the Euler's number
 [Wikipedia article - e](https://en.wikipedia.org/wiki/E_(mathematical_constant))
 
 ## See Also
-- Microsoft.Quantum.Math.PI
+- [Std.Math.PI](xref:Qdk.Std.Math.PI)

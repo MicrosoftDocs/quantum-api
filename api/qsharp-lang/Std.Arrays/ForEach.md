@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.ForEach
 title: ForEach operation
-ms.date: 11/01/2024
+description: "Q# ForEach operation: Given an array and an operation that is defined for the elements of the array, returns a new array that consists of the images of the original array under the operation."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
@@ -39,4 +40,4 @@ An array of elements over `'T`.
 An array `'U[]` of elements that are mapped by the `action` operation.
 
 ## See Also
-- Microsoft.Quantum.Arrays.Mapped
+- [Std.Arrays.Mapped](xref:Qdk.Std.Arrays.Mapped)

@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.MinusC
 title: MinusC function
-ms.date: 11/01/2024
+description: "Q# MinusC function: Returns the difference between two inputs of type `Complex`."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

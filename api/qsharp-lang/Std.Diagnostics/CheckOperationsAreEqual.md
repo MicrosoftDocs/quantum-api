@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Diagnostics.CheckOperationsAreEqual
 title: CheckOperationsAreEqual operation
-ms.date: 11/01/2024
+description: "Q# CheckOperationsAreEqual operation: Given two operations, checks that they act identically for all input states."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

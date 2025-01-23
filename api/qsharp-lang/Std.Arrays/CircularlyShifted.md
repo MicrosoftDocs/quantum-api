@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.CircularlyShifted
 title: CircularlyShifted function
-ms.date: 11/01/2024
+description: "Q# CircularlyShifted function: Shift an array circularly left or right by a specific step size."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

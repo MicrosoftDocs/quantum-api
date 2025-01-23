@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Canon.Relabel
 title: Relabel operation
-ms.date: 11/01/2024
+description: "Q# Relabel operation: Relabels the qubits in the `current` array with the qubits in the `updated` array. The `updated` array must be a valid permutation of the `current` array."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

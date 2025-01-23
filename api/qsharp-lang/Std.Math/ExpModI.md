@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ExpModI
 title: ExpModI function
-ms.date: 11/01/2024
+description: "Q# ExpModI function: Returns an integer raised to a given power, with respect to a given modulus. I.e. (expBase^power) % modulus."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

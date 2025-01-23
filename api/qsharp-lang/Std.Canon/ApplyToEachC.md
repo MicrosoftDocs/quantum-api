@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Canon.ApplyToEachC
 title: ApplyToEachC operation
-ms.date: 11/01/2024
+description: "Q# ApplyToEachC operation: Applies an operation to each element in a register. The modifier `C` indicates that the single-element operation is controllable."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
@@ -40,4 +41,4 @@ ApplyToEach(H, register);
 ```
 
 ## See Also
-- Microsoft.Quantum.Canon.ApplyToEach
+- [Std.Canon.ApplyToEach](xref:Qdk.Std.Canon.ApplyToEach)

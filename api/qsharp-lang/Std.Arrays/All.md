@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.All
 title: All function
-ms.date: 11/01/2024
+description: "Q# All function: Given an array and a predicate that is defined for the elements of the array, and checks if all elements of the array satisfy the predicate."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

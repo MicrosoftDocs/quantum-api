@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Sorted
 title: Sorted function
-ms.date: 11/01/2024
+description: "Q# Sorted function: Given an array, returns the elements of that array sorted by a given comparison function."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

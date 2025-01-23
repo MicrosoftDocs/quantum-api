@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Count
 title: Count function
-ms.date: 11/01/2024
+description: "Q# Count function: Given an array and a predicate that is defined for the elements of the array, returns the number of elements an array that consists of those elements that satisfy the predicate."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Fold
 title: Fold function
-ms.date: 11/01/2024
+description: "Q# Fold function: Iterates a function `f` through an array `array`, returning `f(...f(f(initialState, array[0]), array[1]), ...)`."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

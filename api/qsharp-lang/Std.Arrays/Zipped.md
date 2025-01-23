@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Zipped
 title: Zipped function
-ms.date: 11/01/2024
+description: "Q# Zipped function: Given two arrays, returns a new array of pairs such that each pair contains an element from each original array."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -47,4 +48,4 @@ let pairs = Zipped(left, right); // [(1, false), (3, true)]
 ```
 
 ## See Also
-- Microsoft.Quantum.Arrays.Unzipped
+- [Std.Arrays.Unzipped](xref:Qdk.Std.Arrays.Unzipped)

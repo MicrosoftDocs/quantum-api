@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.ResourceEstimation.EndEstimateCaching
 title: EndEstimateCaching function
-ms.date: 11/01/2024
+description: "Q# EndEstimateCaching function: Instructs the resource estimator to stop estimates caching because the code fragment in consideration is over. This function is only available when using resource estimator execution target."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
