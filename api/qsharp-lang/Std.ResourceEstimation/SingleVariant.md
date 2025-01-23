@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.ResourceEstimation.SingleVariant
 title: SingleVariant function
-ms.date: 11/01/2024
+description: "Q# SingleVariant function: Used to specify that there's only one execution variant in `BeginEstimateCaching` function"
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.TrailingZeroCountI
 title: TrailingZeroCountI function
-ms.date: 11/01/2024
+description: "Q# TrailingZeroCountI function: For a non-zero integer `a`, returns the number of trailing zero bits in the binary representation of `a`."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

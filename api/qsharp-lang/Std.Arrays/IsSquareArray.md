@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.IsSquareArray
 title: IsSquareArray function
-ms.date: 11/01/2024
+description: "Q# IsSquareArray function: Returns whether a 2-dimensional array has a square shape"
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -40,4 +41,4 @@ IsSquareArray([[1, 2], [3, 4], [5, 6]]); // false
 `true` if the array is square, `false` otherwise.
 
 ## See Also
-- Microsoft.Quantum.Arrays.IsRectangularArray
+- [Std.Arrays.IsRectangularArray](xref:Qdk.Std.Arrays.IsRectangularArray)

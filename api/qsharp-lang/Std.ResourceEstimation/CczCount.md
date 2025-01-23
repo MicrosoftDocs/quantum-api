@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.ResourceEstimation.CczCount
 title: CczCount function
-ms.date: 11/01/2024
+description: "Q# CczCount function: Returns a tuple that can be passed to the `AccountForEstimates` operation to specify that the number of the CCZ gates is equal to the `amount`."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

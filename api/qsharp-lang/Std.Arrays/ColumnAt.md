@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.ColumnAt
 title: ColumnAt function
-ms.date: 11/01/2024
+description: "Q# ColumnAt function: Extracts a column from a matrix."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -44,5 +45,5 @@ let column = ColumnAt(0, matrix);
 ```
 
 ## See Also
-- Microsoft.Quantum.Arrays.Transposed
-- Microsoft.Quantum.Arrays.Diagonal
+- [Std.Arrays.Transposed](xref:Qdk.Std.Arrays.Transposed)
+- [Std.Arrays.Diagonal](xref:Qdk.Std.Arrays.Diagonal)

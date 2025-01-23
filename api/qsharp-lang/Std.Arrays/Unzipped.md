@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Unzipped
 title: Unzipped function
-ms.date: 11/01/2024
+description: "Q# Unzipped function: Given an array of 2-tuples, returns a tuple of two arrays, each containing the elements of the tuples of the input array."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -43,4 +44,4 @@ let split = Unzipped([(5, true), (4, false), (3, true), (2, true), (1, false)]);
 ```
 
 ## See Also
-- Microsoft.Quantum.Arrays.Zipped
+- [Std.Arrays.Zipped](xref:Qdk.Std.Arrays.Zipped)

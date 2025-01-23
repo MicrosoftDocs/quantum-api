@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ComplexPolar
 title: ComplexPolar user defined type
-ms.date: 11/01/2024
+description: "Q# ComplexPolar user defined type: Represents a complex number in polar form. The polar representation of a complex number is c = r⋅𝑒^(t𝑖)."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: udt
 qsharp.package: __Std__

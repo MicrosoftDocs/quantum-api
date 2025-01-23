@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.PI
 title: PI function
-ms.date: 11/01/2024
+description: "Q# PI function: Returns a double-precision approximation of the matematical constant 𝝅 ≈ 3.14159265358979323846"
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -31,4 +32,4 @@ such as rotations and complex arithmetic.
 [Wikipedia article - Pi](https://en.wikipedia.org/wiki/Pi)
 
 ## See Also
-- Microsoft.Quantum.Math.E
+- [Std.Math.E](xref:Qdk.Std.Math.E)

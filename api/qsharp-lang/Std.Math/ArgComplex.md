@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ArgComplex
 title: ArgComplex function
-ms.date: 11/01/2024
+description: "Q# ArgComplex function: Returns the phase of a complex number of type `Complex`."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

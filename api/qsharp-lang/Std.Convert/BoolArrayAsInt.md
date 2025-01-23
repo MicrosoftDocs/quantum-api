@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Convert.BoolArrayAsInt
 title: BoolArrayAsInt function
-ms.date: 11/01/2024
+description: "Q# BoolArrayAsInt function: Produces a non-negative integer from a string of bits in little-endian format. `bits[0]` represents the least significant bit."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.SequenceL
 title: SequenceL function
-ms.date: 11/01/2024
+description: "Q# SequenceL function: Get an array of integers in a given interval."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

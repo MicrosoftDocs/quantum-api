@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Intrinsic.Rz
 title: Rz operation
-ms.date: 11/01/2024
+description: "Q# Rz operation: Applies a rotation about the _z_-axis by a given angle."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

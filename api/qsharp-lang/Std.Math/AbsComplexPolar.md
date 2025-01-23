@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.AbsComplexPolar
 title: AbsComplexPolar function
-ms.date: 11/01/2024
+description: "Q# AbsComplexPolar function: Returns the absolute value of a complex number of type `ComplexPolar`."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

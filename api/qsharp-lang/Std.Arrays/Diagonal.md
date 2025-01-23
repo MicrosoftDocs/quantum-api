@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Diagonal
 title: Diagonal function
-ms.date: 11/01/2024
+description: "Q# Diagonal function: Returns an array of diagonal elements of a 2-dimensional array"
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -41,4 +42,4 @@ let diagonal = Diagonal(matrix);
 ```
 
 ## See Also
-- Microsoft.Quantum.Arrays.Transposed
+- [Std.Arrays.Transposed](xref:Qdk.Std.Arrays.Transposed)

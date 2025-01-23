@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.InverseModL
 title: InverseModL function
-ms.date: 11/01/2024
+description: "Q# InverseModL function: Returns the multiplicative inverse of a modular integer."
+ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
