@@ -1,14 +1,14 @@
 ---
 uid: Qdk.Std.Measurement.MResetY
 title: MResetY operation
-description: "Q# MResetY operation: Performs a single-qubit measurement in the Pauli Y basis, and resets `target` to the \|0⟩ state after the measurement."
+description: "Q# MResetY operation: Performs a single-qubit measurement in the Pauli Y basis, and resets `target` to the |0⟩ state after the measurement."
 ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Measurement
 qsharp.name: MResetY
-qsharp.summary: "Performs a single-qubit measurement in the Pauli Y basis, and resets `target` to the \|0⟩ state after the measurement."
+qsharp.summary: "Performs a single-qubit measurement in the Pauli Y basis, and resets `target` to the |0⟩ state after the measurement."
 ---
 
 # MResetY operation

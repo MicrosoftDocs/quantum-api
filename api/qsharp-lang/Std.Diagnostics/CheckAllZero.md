@@ -1,14 +1,14 @@
 ---
 uid: Qdk.Std.Diagnostics.CheckAllZero
 title: CheckAllZero operation
-description: "Q# CheckAllZero operation: Checks whether all qubits in the provided array are in the \|0⟩ state. Returns true if they are."
+description: "Q# CheckAllZero operation: Checks whether all qubits in the provided array are in the |0⟩ state. Returns true if they are."
 ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics
 qsharp.name: CheckAllZero
-qsharp.summary: "Checks whether all qubits in the provided array are in the \|0⟩ state. Returns true if they are."
+qsharp.summary: "Checks whether all qubits in the provided array are in the |0⟩ state. Returns true if they are."
 ---
 
 # CheckAllZero operation

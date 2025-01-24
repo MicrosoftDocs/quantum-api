@@ -1,14 +1,14 @@
 ---
 uid: Qdk.Std.Intrinsic.AND
 title: AND operation
-description: "Q# AND operation: Applies the AND gate that is more efficient for use with decomposition of multi-controlled operations. Note that target qubit must be in \|0⟩ state."
+description: "Q# AND operation: Applies the AND gate that is more efficient for use with decomposition of multi-controlled operations. Note that target qubit must be in |0⟩ state."
 ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic
 qsharp.name: AND
-qsharp.summary: "Applies the AND gate that is more efficient for use with decomposition of multi-controlled operations. Note that target qubit must be in \|0⟩ state."
+qsharp.summary: "Applies the AND gate that is more efficient for use with decomposition of multi-controlled operations. Note that target qubit must be in |0⟩ state."
 ---
 
 # AND operation
