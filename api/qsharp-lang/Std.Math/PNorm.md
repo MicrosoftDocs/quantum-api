@@ -1,14 +1,14 @@
 ---
 uid: Qdk.Std.Math.PNorm
 title: PNorm function
-description: "Q# PNorm function: Returns the `L(p)` norm of a vector of `Double`s.  That is, given an array x of type `Double[]`, this returns the p-norm |x̄\|ₚ= (∑(xᵢ)ᵖ)¹ᐟᵖ."
+description: "Q# PNorm function: Returns the `L(p)` norm of a vector of `Double`s.  That is, given an array x of type `Double[]`, this returns the p-norm."
 ms.date: 01/22/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math
 qsharp.name: PNorm
-qsharp.summary: "Returns the `L(p)` norm of a vector of `Double`s.  That is, given an array x of type `Double[]`, this returns the p-norm |x̄\|ₚ= (∑(xᵢ)ᵖ)¹ᐟᵖ."
+qsharp.summary: "Returns the `L(p)` norm of a vector of `Double`s.  That is, given an array x of type `Double[]`, this returns the p-norm."
 ---
 
 # PNorm function
