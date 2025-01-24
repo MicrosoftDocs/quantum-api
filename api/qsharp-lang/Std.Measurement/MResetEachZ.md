@@ -2,7 +2,7 @@
 uid: Qdk.Std.Measurement.MResetEachZ
 title: MResetEachZ operation
 description: "Q# MResetEachZ operation: Measures each qubit in a given array in the Pauli Z basis and resets them to |0⟩ state."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

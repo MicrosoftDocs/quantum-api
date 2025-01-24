@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.ModulusI
 title: ModulusI function
 description: "Q# ModulusI function: Computes the canonical residue of `value` modulo `modulus`. The result is always in the range 0..modulus-1 even for negative numbers."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

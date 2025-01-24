@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.Any
 title: Any function
 description: "Q# Any function: Given an array and a predicate that is defined for the elements of the array, checks if at least one element of the array satisfies the predicate."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

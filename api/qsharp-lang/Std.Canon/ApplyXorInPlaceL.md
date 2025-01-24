@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.ApplyXorInPlaceL
 title: ApplyXorInPlaceL operation
 description: "Q# ApplyXorInPlaceL operation: Applies a bitwise-XOR operation between a classical integer and an integer represented by a register of qubits."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

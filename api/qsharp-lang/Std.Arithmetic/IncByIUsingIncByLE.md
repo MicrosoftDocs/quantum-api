@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.IncByIUsingIncByLE
 title: IncByIUsingIncByLE operation
 description: "Q# IncByIUsingIncByLE operation: Increments a little-endian register ys by an Int number c using provided adder."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

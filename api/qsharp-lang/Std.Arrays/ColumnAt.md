@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.ColumnAt
 title: ColumnAt function
 description: "Q# ColumnAt function: Extracts a column from a matrix."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

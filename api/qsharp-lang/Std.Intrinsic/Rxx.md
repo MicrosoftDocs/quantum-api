@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.Rxx
 title: Rxx operation
 description: "Q# Rxx operation: Applies the two qubit Ising _XX_ rotation gate."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

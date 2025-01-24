@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.RippleCarryCGAddLE
 title: RippleCarryCGAddLE operation
 description: "Q# RippleCarryCGAddLE operation: Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys using the ripple-carry algorithm."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

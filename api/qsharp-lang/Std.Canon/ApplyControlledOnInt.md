@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.ApplyControlledOnInt
 title: ApplyControlledOnInt operation
 description: "Q# ApplyControlledOnInt operation: Applies a unitary operation on the target if the control register state corresponds to a specified nonnegative integer."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

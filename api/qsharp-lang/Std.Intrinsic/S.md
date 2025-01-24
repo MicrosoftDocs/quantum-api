@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.S
 title: S operation
 description: "Q# S operation: Applies the π/4 phase gate to a single qubit."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

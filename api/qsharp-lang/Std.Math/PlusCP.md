@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.PlusCP
 title: PlusCP function
 description: "Q# PlusCP function: Returns the sum of two inputs of type `ComplexPolar`."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

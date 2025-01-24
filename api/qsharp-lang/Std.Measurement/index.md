@@ -4,7 +4,7 @@ title: Std.Measurement namespace
 description: Table of contents for the Q# Measurement namespace
 author: bradben
 ms.author: brbenefield
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: landing-page
 ---
 

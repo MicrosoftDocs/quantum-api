@@ -2,7 +2,7 @@
 uid: Qdk.Std.ResourceEstimation.EndRepeatEstimates
 title: EndRepeatEstimates operation
 description: "Q# EndRepeatEstimates operation: Companion operation to `BeginRepeatEstimates`."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

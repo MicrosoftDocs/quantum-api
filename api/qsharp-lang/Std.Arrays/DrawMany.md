@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.DrawMany
 title: DrawMany operation
 description: "Q# DrawMany operation: Repeats an operation for a given number of samples, collecting its outputs in an array."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

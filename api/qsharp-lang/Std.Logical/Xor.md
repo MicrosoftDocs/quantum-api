@@ -2,7 +2,7 @@
 uid: Qdk.Std.Logical.Xor
 title: Xor function
 description: "Q# Xor function: Returns the boolean exclusive disjunction (eXclusive OR, XOR) of two input boolean values."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

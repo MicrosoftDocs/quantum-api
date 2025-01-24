@@ -2,7 +2,7 @@
 uid: Qdk.Microsoft.Quantum.Core.Length
 title: Length exported item
 description: "Q# Length exported item: This is an exported item. The actual definition is found here: [Std.Core.Length](xref:Qdk.Std.Core.Length)"
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: export
 qsharp.package: __Std__

@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.RippleCarryTTKIncByLE
 title: RippleCarryTTKIncByLE operation
 description: "Q# RippleCarryTTKIncByLE operation: Reversible, in-place ripple-carry addition of two integers."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.Rzz
 title: Rzz operation
 description: "Q# Rzz operation: Applies the two qubit Ising _ZZ_ rotation gate."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

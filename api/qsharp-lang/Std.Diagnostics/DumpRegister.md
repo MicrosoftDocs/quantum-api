@@ -2,7 +2,7 @@
 uid: Qdk.Std.Diagnostics.DumpRegister
 title: DumpRegister function
 description: "Q# DumpRegister function: Dumps the current target machine's status associated with the given qubits."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

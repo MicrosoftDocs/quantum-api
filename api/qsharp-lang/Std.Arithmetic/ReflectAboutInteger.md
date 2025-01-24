@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.ReflectAboutInteger
 title: ReflectAboutInteger operation
 description: "Q# ReflectAboutInteger operation: Reflects a quantum register about a given classical integer."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

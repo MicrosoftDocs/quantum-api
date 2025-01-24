@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.Cosh
 title: Cosh function
 description: "Q# Cosh function: Returns the hyperbolic cosine of the specified angle."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

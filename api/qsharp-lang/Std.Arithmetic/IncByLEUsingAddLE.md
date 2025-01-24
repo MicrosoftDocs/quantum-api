@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.IncByLEUsingAddLE
 title: IncByLEUsingAddLE operation
 description: "Q# IncByLEUsingAddLE operation: Generic operation to turn two out-place adders into one in-place adder"
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

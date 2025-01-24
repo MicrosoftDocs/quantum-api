@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.TimesCP
 title: TimesCP function
 description: "Q# TimesCP function: Returns the product of two inputs of type `ComplexPolar`."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

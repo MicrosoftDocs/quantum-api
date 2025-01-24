@@ -4,7 +4,7 @@ title: Std.Math namespace
 description: Table of contents for the Q# Math namespace
 author: bradben
 ms.author: brbenefield
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: landing-page
 ---
 
@@ -83,7 +83,7 @@ The Std.Math namespace contains the following items:
 | [ModulusL](xref:Qdk.Std.Math.ModulusL) | Computes the canonical residue of `value` modulo `modulus`. The result is always in the range 0..modulus-1 even for negative numbers. |
 | [NegationC](xref:Qdk.Std.Math.NegationC) | Returns the unary negation of an input of type `Complex`. |
 | [NegationCP](xref:Qdk.Std.Math.NegationCP) | Returns the unary negation of an input of type `ComplexPolar` |
-| [PI](xref:Qdk.Std.Math.PI) | Returns a double-precision approximation of the matematical constant 𝝅 ≈ 3.14159265358979323846 |
+| [PI](xref:Qdk.Std.Math.PI) | Returns a double-precision approximation of the mathematical constant 𝝅 ≈ 3.14159265358979323846 |
 | [PNorm](xref:Qdk.Std.Math.PNorm) | Returns the `L(p)` norm of a vector of `Double`s.  That is, given an array x of type `Double[]`, this returns the p-norm \|x̄\|ₚ= (∑(xᵢ)ᵖ)¹ᐟᵖ. |
 | [PNormalized](xref:Qdk.Std.Math.PNormalized) | Normalizes a vector of `Double`s in the `L(p)` norm.  That is, given an array x of type `Double[]`, this returns an array where all elements are divided by the p-norm \|x̄\|ₚ. Function leaves array with norm 0 unchanged. |
 | [PlusC](xref:Qdk.Std.Math.PlusC) | Returns the sum of two inputs of type `Complex`. |

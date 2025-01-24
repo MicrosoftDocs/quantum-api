@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.ForEach
 title: ForEach operation
 description: "Q# ForEach operation: Given an array and an operation that is defined for the elements of the array, returns a new array that consists of the images of the original array under the operation."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

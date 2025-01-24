@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.AddLE
 title: AddLE operation
 description: "Q# AddLE operation: Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys"
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

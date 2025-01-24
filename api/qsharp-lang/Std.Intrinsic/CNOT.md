@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.CNOT
 title: CNOT operation
 description: "Q# CNOT operation: Applies the controlled-NOT (CNOT) gate to a pair of qubits."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

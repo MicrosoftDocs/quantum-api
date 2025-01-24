@@ -2,7 +2,7 @@
 uid: Qdk.Std.Core.Repeated
 title: Repeated function
 description: "Q# Repeated function: Creates an array of given `length` with all elements equal to given `value`. `length` must be a non-negative integer."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Core__

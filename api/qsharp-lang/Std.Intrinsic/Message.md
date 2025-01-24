@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.Message
 title: Message function
 description: "Q# Message function: Logs a message."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -29,3 +29,4 @@ The message to be reported.
 ## Remarks
 The specific behavior of this function is simulator-dependent,
 but in most cases the given message will be written to the console.
+```

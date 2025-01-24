@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.T
 title: T operation
 description: "Q# T operation: Applies the π/8 gate to a single qubit."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

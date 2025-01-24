@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.LogGammaD
 title: LogGammaD function
 description: "Q# LogGammaD function: Returns the natural logarithm of the gamma function (aka the log-gamma function)."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.SwapReverseRegister
 title: SwapReverseRegister operation
 description: "Q# SwapReverseRegister operation: Uses SWAP gates to reverse the order of the qubits in a register."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.InverseModL
 title: InverseModL function
 description: "Q# InverseModL function: Returns the multiplicative inverse of a modular integer."
-ms.date: 01/22/2025
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
