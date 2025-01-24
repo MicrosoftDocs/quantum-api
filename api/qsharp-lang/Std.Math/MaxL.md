@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.MaxL
 title: MaxL function
-ms.date: 11/01/2024
+description: "Q# MaxL function: Returns the larger of two specified numbers."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

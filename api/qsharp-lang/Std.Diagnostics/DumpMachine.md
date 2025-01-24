@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Diagnostics.DumpMachine
 title: DumpMachine function
-ms.date: 11/01/2024
+description: "Q# DumpMachine function: Dumps the current target machine's status."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

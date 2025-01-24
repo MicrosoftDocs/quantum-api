@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.PowCP
 title: PowCP function
-ms.date: 11/01/2024
+description: "Q# PowCP function: Returns a number raised to a given power of type `ComplexPolar`. Note that this is a multi-valued function, but only one value is returned."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

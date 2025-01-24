@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.AbsD
 title: AbsD function
-ms.date: 11/01/2024
+description: "Q# AbsD function: Returns the absolute value of a double-precision floating-point number."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

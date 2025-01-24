@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.DrawMany
 title: DrawMany operation
-ms.date: 11/01/2024
+description: "Q# DrawMany operation: Repeats an operation for a given number of samples, collecting its outputs in an array."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
@@ -40,5 +41,5 @@ The type of output returned by `op`.
 The following samples an alternating array of results.
 ```qsharp
 use qubit = Qubit();
-let results = Microsoft.Quantum.Arrays.DrawMany(q => {X(q); M(q)}, 3, qubit);
+let results = Std.Arrays.DrawMany(q => {X(q); M(q)}, 3, qubit);
 ```

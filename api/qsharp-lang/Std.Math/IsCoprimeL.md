@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.IsCoprimeL
 title: IsCoprimeL function
-ms.date: 11/01/2024
+description: "Q# IsCoprimeL function: Returns if two integers are co-prime."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

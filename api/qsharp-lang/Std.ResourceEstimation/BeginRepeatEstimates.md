@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.ResourceEstimation.BeginRepeatEstimates
 title: BeginRepeatEstimates operation
-ms.date: 11/01/2024
+description: "Q# BeginRepeatEstimates operation: Instructs the resource estimator to assume that the resources from the call of this operation until a call to `EndRepeatEstimates` are accounted for `count` times, without the need to execute the code that many times. Calls to `BeginRepeatEstimates` and `EndRepeatEstimates` can be nested. A helper operation `RepeatEstimates` allows to call the two functions in a `within` block."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

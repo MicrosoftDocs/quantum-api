@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Diagnostics.StartCountingOperation
 title: StartCountingOperation operation
-ms.date: 11/01/2024
+description: "Q# StartCountingOperation operation: Starts counting the number of times the given operation is called. Fails if the operation is already being counted."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

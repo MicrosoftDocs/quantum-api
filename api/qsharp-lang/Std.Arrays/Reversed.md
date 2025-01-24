@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Reversed
 title: Reversed function
-ms.date: 11/01/2024
+description: "Q# Reversed function: Create an array that contains the same elements as an input array but in reversed order."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

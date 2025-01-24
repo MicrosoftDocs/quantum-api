@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Diagnostics.Fact
 title: Fact function
-ms.date: 11/01/2024
+description: "Q# Fact function: Checks whether a given condition is true, failing with a message if it is not."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

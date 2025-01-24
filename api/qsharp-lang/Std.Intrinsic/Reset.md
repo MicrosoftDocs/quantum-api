@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Intrinsic.Reset
 title: Reset operation
-ms.date: 11/01/2024
+description: "Q# Reset operation: Given a single qubit, measures it and ensures it is in the |0⟩ state such that it can be safely released."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
@@ -19,9 +20,9 @@ operation Reset(qubit : Qubit) : Unit
 ```
 
 ## Summary
-Given a single qubit, measures it and ensures it is in the $|0⟩$ state
+Given a single qubit, measures it and ensures it is in the |0⟩ state
 such that it can be safely released.
 
 ## Input
 ### qubit
-The qubit whose state is to be reset to $|0⟩$.
+The qubit whose state is to be reset to |0⟩.

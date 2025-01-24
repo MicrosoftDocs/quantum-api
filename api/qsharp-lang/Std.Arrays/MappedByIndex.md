@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.MappedByIndex
 title: MappedByIndex function
-ms.date: 11/01/2024
+description: "Q# MappedByIndex function: Given an array and a function that is defined for the indexed elements of the array, returns a new array that consists of the images of the original array under the function."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -50,4 +51,4 @@ let array = [f(0, x0), f(1, x1), f(2, x2)];
 ```
 
 ## See Also
-- Microsoft.Quantum.Arrays.Mapped
+- [Std.Arrays.Mapped](xref:Qdk.Std.Arrays.Mapped)

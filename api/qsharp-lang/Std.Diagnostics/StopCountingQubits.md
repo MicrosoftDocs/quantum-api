@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Diagnostics.StopCountingQubits
 title: StopCountingQubits operation
-ms.date: 11/01/2024
+description: "Q# StopCountingQubits operation: Stops counting the number of qubits allocated and returns the count. Fails if the qubits were not being counted."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

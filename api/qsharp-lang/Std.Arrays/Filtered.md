@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Arrays.Filtered
 title: Filtered function
-ms.date: 11/01/2024
+description: "Q# Filtered function: Given an array and a predicate that is defined for the elements of the array, returns an array that consists of those elements that satisfy the predicate."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

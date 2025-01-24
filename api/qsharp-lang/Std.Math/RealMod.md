@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.RealMod
 title: RealMod function
-ms.date: 11/01/2024
+description: "Q# RealMod function: Computes the modulus between two real numbers."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

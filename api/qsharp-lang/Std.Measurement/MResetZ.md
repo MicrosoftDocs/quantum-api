@@ -1,13 +1,14 @@
 ---
 uid: Qdk.Std.Measurement.MResetZ
 title: MResetZ operation
-ms.date: 11/01/2024
+description: "Q# MResetZ operation: Performs a single-qubit measurement in the Pauli Z basis, and resets `target` to the |0⟩ state after the measurement."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Measurement
 qsharp.name: MResetZ
-qsharp.summary: "Measures a single qubit in the Z basis, and resets it to a fixed initial state following the measurement."
+qsharp.summary: "Performs a single-qubit measurement in the Pauli Z basis, and resets `target` to the |0⟩ state after the measurement."
 ---
 
 # MResetZ operation
@@ -19,14 +20,8 @@ operation MResetZ(target : Qubit) : Result
 ```
 
 ## Summary
-Measures a single qubit in the Z basis,
-and resets it to a fixed initial state
-following the measurement.
-
-## Description
-Performs a single-qubit measurement in the Z-basis,
-and ensures that the qubit is returned to |0⟩
-following the measurement.
+Performs a single-qubit measurement in the Pauli Z basis,
+and resets `target` to the |0⟩ state after the measurement.
 
 ## Input
 ### target

@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.FactorialI
 title: FactorialI function
-ms.date: 11/01/2024
+description: "Q# FactorialI function: Returns the factorial of a given number."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -32,8 +33,8 @@ The number to take the factorial of.
 The factorial of `n`.
 
 ## Remarks
-For inputs greater than 20, please use `Microsoft.Quantum.Math.FactorialL`.
+For inputs greater than 20, please use `Std.Math.FactorialL`.
 
 ## See Also
-- Microsoft.Quantum.Math.FactorialL
-- Microsoft.Quantum.Math.ApproximateFactorial
+- [Std.Math.FactorialL](xref:Qdk.Std.Math.FactorialL)
+- [Std.Math.ApproximateFactorial](xref:Qdk.Std.Math.ApproximateFactorial)

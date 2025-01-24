@@ -1,13 +1,14 @@
 ---
 uid: Qdk.Std.Intrinsic.R1Frac
 title: R1Frac operation
-ms.date: 11/01/2024
+description: "Q# R1Frac operation: Applies a rotation about the |1⟩ state by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Std.Intrinsic.R."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic
 qsharp.name: R1Frac
-qsharp.summary: "Applies a rotation about the |1⟩ state by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Microsoft.Quantum.Intrinsic.R."
+qsharp.summary: "Applies a rotation about the |1⟩ state by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Std.Intrinsic.R."
 ---
 
 # R1Frac operation
@@ -19,12 +20,12 @@ operation R1Frac(numerator : Int, power : Int, qubit : Qubit) : Unit is Adj + Ct
 ```
 
 ## Summary
-Applies a rotation about the $|1⟩$ state by an angle specified
+Applies a rotation about the |1⟩ state by an angle specified
 as a dyadic fraction.
 
 WARNING:
 This operation uses the **opposite** sign convention from
-Microsoft.Quantum.Intrinsic.R.
+Std.Intrinsic.R.
 
 ## Input
 ### numerator

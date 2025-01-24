@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Random.DrawRandomBool
 title: DrawRandomBool operation
-ms.date: 11/01/2024
+description: "Q# DrawRandomBool operation: Given a success probability, returns a single Bernoulli trial that is true with the given probability."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

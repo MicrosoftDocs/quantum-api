@@ -6639,6 +6639,156 @@
             "source_path": "api/qsharp-lang/Microsoft.Quantum.ResourceEstimation/TCount.md",
             "redirect_url": "/qsharp/api/qsharp-lang/std.resourceestimation/tcount",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/AddLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfEqualL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfEqualLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfGreaterL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfGreaterLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfGreaterOrEqualL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfGreaterOrEqualLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfLessL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfLessLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfLessOrEqualL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ApplyIfLessOrEqualLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/FourierTDIncByLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/IncByI.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/IncByIUsingIncByLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/IncByL.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/IncByLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/IncByLEUsingAddLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/IncByLUsingIncByLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/index.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/LookAheadDKRSAddLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/MAJ.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/ReflectAboutInteger.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/RippleCarryCGAddLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/RippleCarryCGIncByLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.Arithmetic/RippleCarryTTKIncByLE.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.StatePreparation/ApproximatelyPreparePureStateCP.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.StatePreparation/index.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.StatePreparation/PreparePureStateD.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.TableLookup/index.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "api/qsharp-lang/Microsoft.Quantum.Unstable.TableLookup/Select.md",
+            "redirect_url": "/qsharp/api/qsharp-lang/",
+            "redirect_document_id": false
         }
     ]
 }
