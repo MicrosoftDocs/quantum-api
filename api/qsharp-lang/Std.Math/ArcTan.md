@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ArcTan
 title: ArcTan function
-ms.date: 11/01/2024
+description: "Q# ArcTan function: Returns the angle whose tangent is the specified number."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

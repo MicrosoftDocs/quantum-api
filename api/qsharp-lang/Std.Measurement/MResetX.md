@@ -1,13 +1,14 @@
 ---
 uid: Qdk.Std.Measurement.MResetX
 title: MResetX operation
-ms.date: 11/01/2024
+description: "Q# MResetX operation: Performs a single-qubit measurement in the Pauli X basis, and resets `target` to the |0⟩ state after the measurement."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Measurement
 qsharp.name: MResetX
-qsharp.summary: "Measures a single qubit in the X basis, and resets it to a fixed initial state following the measurement."
+qsharp.summary: "Performs a single-qubit measurement in the Pauli X basis, and resets `target` to the |0⟩ state after the measurement."
 ---
 
 # MResetX operation
@@ -19,14 +20,8 @@ operation MResetX(target : Qubit) : Result
 ```
 
 ## Summary
-Measures a single qubit in the X basis,
-and resets it to a fixed initial state
-following the measurement.
-
-## Description
-Performs a single-qubit measurement in the X-basis,
-and ensures that the qubit is returned to |0⟩
-following the measurement.
+Performs a single-qubit measurement in the Pauli X basis,
+and resets `target` to the |0⟩ state after the measurement.
 
 ## Input
 ### target

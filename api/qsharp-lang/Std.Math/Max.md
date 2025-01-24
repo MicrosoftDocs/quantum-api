@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.Max
 title: Max function
-ms.date: 11/01/2024
+description: "Q# Max function: Given an array of integers, returns the largest element."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

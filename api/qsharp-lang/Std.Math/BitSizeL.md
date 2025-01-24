@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.BitSizeL
 title: BitSizeL function
-ms.date: 11/01/2024
+description: "Q# BitSizeL function: For a non-negative integer `a`, returns the number of bits required to represent `a`. NOTE: This function returns the smallest n such that a < 2^n."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

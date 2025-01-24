@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ApproximateFactorial
 title: ApproximateFactorial function
-ms.date: 11/01/2024
+description: "Q# ApproximateFactorial function: Returns an approximate factorial of a given number."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -37,5 +38,5 @@ The number to take the approximate factorial of. Must not be negative.
 The approximate factorial of `n`.
 
 ## See Also
-- Microsoft.Quantum.Math.FactorialI
-- Microsoft.Quantum.Math.FactorialL
+- [Std.Math.FactorialI](xref:Qdk.Std.Math.FactorialI)
+- [Std.Math.FactorialL](xref:Qdk.Std.Math.FactorialL)

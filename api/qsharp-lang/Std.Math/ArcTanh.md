@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ArcTanh
 title: ArcTanh function
-ms.date: 11/01/2024
+description: "Q# ArcTanh function: Computes the inverse hyperbolic tangent of a number."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

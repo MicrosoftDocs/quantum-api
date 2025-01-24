@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ExtendedGreatestCommonDivisorI
 title: ExtendedGreatestCommonDivisorI function
-ms.date: 11/01/2024
+description: "Q# ExtendedGreatestCommonDivisorI function: Returns a tuple (u,v) such that u*a+v*b=GCD(a,b) Note: GCD is always positive except that GCD(0,0)=0."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

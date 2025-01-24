@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Intrinsic.CCNOT
 title: CCNOT operation
-ms.date: 11/01/2024
+description: "Q# CCNOT operation: Applies the doubly controlled–NOT (CCNOT) gate to three qubits."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

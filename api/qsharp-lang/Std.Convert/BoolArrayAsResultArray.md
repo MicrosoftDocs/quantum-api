@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Convert.BoolArrayAsResultArray
 title: BoolArrayAsResultArray function
-ms.date: 11/01/2024
+description: "Q# BoolArrayAsResultArray function: Converts a `Bool[]` type to a `Result[]` type, where `true` is mapped to `One` and `false` is mapped to `Zero`."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

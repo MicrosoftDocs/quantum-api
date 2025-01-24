@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Intrinsic.Rx
 title: Rx operation
-ms.date: 11/01/2024
+description: "Q# Rx operation: Applies a rotation about the _x_-axis by a given angle."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__

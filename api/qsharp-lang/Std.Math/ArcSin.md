@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.ArcSin
 title: ArcSin function
-ms.date: 11/01/2024
+description: "Q# ArcSin function: Returns the angle whose sine is the specified number."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

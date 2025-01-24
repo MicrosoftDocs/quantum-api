@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.LogFactorialD
 title: LogFactorialD function
-ms.date: 11/01/2024
+description: "Q# LogFactorialD function: Returns the approximate natural logarithm of the factorial of a given integer."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
@@ -30,6 +31,6 @@ The number to take the log-factorial of.
 The natural logarithm of the factorial of the provided input.
 
 ## See Also
-- Microsoft.Quantum.Math.ApproximateFactorial
-- Microsoft.Quantum.Math.FactorialI
-- Microsoft.Quantum.Math.FactorialL
+- [Std.Math.ApproximateFactorial](xref:Qdk.Std.Math.ApproximateFactorial)
+- [Std.Math.FactorialI](xref:Qdk.Std.Math.FactorialI)
+- [Std.Math.FactorialL](xref:Qdk.Std.Math.FactorialL)

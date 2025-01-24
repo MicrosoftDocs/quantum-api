@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.TimesC
 title: TimesC function
-ms.date: 11/01/2024
+description: "Q# TimesC function: Returns the product of two inputs of type `Complex`."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__

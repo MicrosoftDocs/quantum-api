@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Intrinsic.ResetAll
 title: ResetAll operation
-ms.date: 11/01/2024
+description: "Q# ResetAll operation: Given an array of qubits, measure them and ensure they are in the |0⟩ state such that they can be safely released."
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: operation
 qsharp.package: __Std__
@@ -19,9 +20,9 @@ operation ResetAll(qubits : Qubit[]) : Unit
 ```
 
 ## Summary
-Given an array of qubits, measure them and ensure they are in the $|0⟩$ state
+Given an array of qubits, measure them and ensure they are in the |0⟩ state
 such that they can be safely released.
 
 ## Input
 ### qubits
-An array of qubits whose states are to be reset to $|0⟩$.
+An array of qubits whose states are to be reset to |0⟩.

@@ -1,7 +1,8 @@
 ---
 uid: Qdk.Std.Math.Truncate
 title: Truncate function
-ms.date: 11/01/2024
+description: "Q# Truncate function: Returns the integral part of a number. For example: Truncate(3.7) = 3; Truncate(-3.7) = -3"
+ms.date: 01/24/2025
 ms.topic: managed-reference
 qsharp.kind: function
 qsharp.package: __Std__
