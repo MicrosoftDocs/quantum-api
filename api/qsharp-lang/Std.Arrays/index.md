@@ -2,8 +2,8 @@
 uid: Qdk.Std.Arrays-toc
 title: Std.Arrays namespace
 description: Table of contents for the Q# Arrays namespace
-author: bradben
-ms.author: brbenefield
+author: azure-quantum-content
+ms.author: quantumdocwriters
 ms.date: 01/24/2025
 ms.topic: landing-page
 ---

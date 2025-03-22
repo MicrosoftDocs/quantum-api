@@ -41,8 +41,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "ms.author": "brbenefield",
-      "author": "bradben",
+      "ms.author": "quantumdocwriters",
+      "author": "azure-quantum-content",
       "ms.service": "qsharp",
       "show_latex": true,
       "ms.topic": "managed-reference",

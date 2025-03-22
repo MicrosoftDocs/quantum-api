@@ -2,8 +2,8 @@
 uid: microsoft.quantum.apiref-intro
 title: Q# libraries for Microsoft Quantum
 description: Reference documentation for the Q# libraries for Microsoft Quantum
-author: bradben
-ms.author: brbenefield
+author: azure-quantum-content
+ms.author: quantumdocwriters
 ms.date: 11/04/2024
 ms.topic: landing-page
 ---
