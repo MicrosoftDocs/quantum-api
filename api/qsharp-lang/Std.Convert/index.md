@@ -2,8 +2,8 @@
 uid: Qdk.Std.Convert-toc
 title: Std.Convert namespace
 description: Table of contents for the Q# Convert namespace
-author: bradben
-ms.author: brbenefield
+author: azure-quantum-content
+ms.author: quantumdocwriters
 ms.date: 01/24/2025
 ms.topic: landing-page
 ---

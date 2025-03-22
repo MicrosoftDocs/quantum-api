@@ -2,8 +2,8 @@
 uid: Microsoft.Quantum.apiref-toc
 title: Q# standard libraries for the Azure Quantum Development Kit
 description: Table of contents for the Q# standard libraries for Azure Quantum Development Kit
-author: bradben
-ms.author: brbenefield
+author: azure-quantum-content
+ms.author: quantumdocwriters
 ms.date: 01/24/2025
 ms.topic: landing-page
 ---
