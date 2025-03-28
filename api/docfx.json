@@ -45,7 +45,7 @@
       "author": "azure-quantum-content",
       "ms.service": "qsharp",
       "show_latex": true,
-      "ms.topic": "managed-reference",
+      "ms.topic": "generated-reference",
       "ms.devlang":"qsharp",
       "uhfHeaderId": "Azure",
       "searchScope": ["quantum", "q#", "qsharp"],
