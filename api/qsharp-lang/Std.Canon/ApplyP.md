@@ -3,7 +3,7 @@ uid: Qdk.Std.Canon.ApplyP
 title: ApplyP operation
 description: "Q# ApplyP operation: Given a single-qubit Pauli operator, applies the corresponding operation to a single qubit."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

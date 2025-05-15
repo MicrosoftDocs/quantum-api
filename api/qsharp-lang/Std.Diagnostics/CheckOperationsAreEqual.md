@@ -3,7 +3,7 @@ uid: Qdk.Std.Diagnostics.CheckOperationsAreEqual
 title: CheckOperationsAreEqual operation
 description: "Q# CheckOperationsAreEqual operation: Given two operations, checks that they act identically for all input states."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

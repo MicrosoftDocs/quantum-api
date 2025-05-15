@@ -3,7 +3,7 @@ uid: Qdk.Std.Measurement.MeasureEachZ
 title: MeasureEachZ operation
 description: "Q# MeasureEachZ operation: Measures each qubit in a given array in the Pauli Z basis."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Measurement

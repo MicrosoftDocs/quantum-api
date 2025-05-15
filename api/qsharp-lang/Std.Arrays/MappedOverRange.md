@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.MappedOverRange
 title: MappedOverRange function
 description: "Q# MappedOverRange function: Given a range and a function that takes an integer as input, returns a new array that consists of the images of the range values under the function."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

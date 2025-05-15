@@ -3,7 +3,7 @@ uid: Qdk.Std.Arithmetic.ApplyIfLessL
 title: ApplyIfLessL operation
 description: "Q# ApplyIfLessL operation: Computes `if (c < x) { action(target) }`, that is, applies `action` to `target` if a BigInt value `c` is less than the little-endian qubit register `x`"
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

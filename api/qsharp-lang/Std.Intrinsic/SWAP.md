@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.SWAP
 title: SWAP operation
 description: "Q# SWAP operation: Applies the SWAP gate to a pair of qubits."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

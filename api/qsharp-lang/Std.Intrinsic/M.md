@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.M
 title: M operation
 description: "Q# M operation: Performs a measurement of a single qubit in the Pauli _Z_ basis."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.R
 title: R operation
 description: "Q# R operation: Applies a rotation about the given Pauli axis."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

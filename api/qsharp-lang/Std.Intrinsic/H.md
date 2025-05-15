@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.H
 title: H operation
 description: "Q# H operation: Applies the Hadamard transformation to a single qubit."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

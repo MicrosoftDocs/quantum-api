@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.Mapped
 title: Mapped function
 description: "Q# Mapped function: Given an array and a function that is defined for the elements of the array, returns a new array that consists of the images of the original array under the function."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

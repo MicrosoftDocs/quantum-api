@@ -3,7 +3,7 @@ uid: Qdk.Std.Range.RangeReverse
 title: RangeReverse function
 description: "Q# RangeReverse function: Returns a new range which is the reverse of the input range."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Range

@@ -3,7 +3,7 @@ uid: Qdk.Std.Diagnostics.ApplyIdleNoise
 title: ApplyIdleNoise operation
 description: "Q# ApplyIdleNoise operation: Applies configured noise to a qubit."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

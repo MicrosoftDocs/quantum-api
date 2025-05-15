@@ -3,7 +3,7 @@ uid: Qdk.Std.Math.LogOf2
 title: LogOf2 function
 description: "Q# LogOf2 function: Returns a double-precision approximation of the constant ㏑2 ≈ 0.6931471805599453"
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

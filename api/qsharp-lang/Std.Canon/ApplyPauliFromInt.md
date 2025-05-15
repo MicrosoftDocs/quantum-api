@@ -3,7 +3,7 @@ uid: Qdk.Std.Canon.ApplyPauliFromInt
 title: ApplyPauliFromInt operation
 description: "Q# ApplyPauliFromInt operation: Applies a Pauli operator on each qubit in an array if the corresponding bit of a Little-endian integer matches a given input."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

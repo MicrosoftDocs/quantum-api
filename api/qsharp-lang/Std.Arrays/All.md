@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.All
 title: All function
 description: "Q# All function: Given an array and a predicate that is defined for the elements of the array, and checks if all elements of the array satisfy the predicate."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

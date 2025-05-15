@@ -3,7 +3,7 @@ uid: Qdk.Std.TableLookup.Select
 title: Select operation
 description: "Q# Select operation: Performs table lookup using a SELECT network"
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.TableLookup
