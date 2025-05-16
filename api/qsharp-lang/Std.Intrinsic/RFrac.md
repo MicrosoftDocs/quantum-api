@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.RFrac
 title: RFrac operation
 description: "Q# RFrac operation: Applies a rotation about the given Pauli axis by an angle specified as a dyadic fraction.  WARNING: This operation uses the **opposite** sign convention from Std.Intrinsic.R."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

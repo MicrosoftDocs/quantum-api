@@ -3,7 +3,7 @@ uid: Qdk.Std.Arithmetic.IncByI
 title: IncByI operation
 description: "Q# IncByI operation: Increments a little-endian register ys by an integer number c"
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

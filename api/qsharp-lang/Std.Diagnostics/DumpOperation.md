@@ -3,7 +3,7 @@ uid: Qdk.Std.Diagnostics.DumpOperation
 title: DumpOperation operation
 description: "Q# DumpOperation operation: Given an operation, dumps the matrix representation of the operation action on the given number of qubits."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.Flattened
 title: Flattened function
 description: "Q# Flattened function: Given an array of arrays, returns the concatenation of all arrays."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

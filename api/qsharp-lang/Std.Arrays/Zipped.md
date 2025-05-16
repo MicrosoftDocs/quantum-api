@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.Zipped
 title: Zipped function
 description: "Q# Zipped function: Given two arrays, returns a new array of pairs such that each pair contains an element from each original array."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

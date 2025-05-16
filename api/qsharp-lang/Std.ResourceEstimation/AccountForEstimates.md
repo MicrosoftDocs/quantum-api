@@ -3,7 +3,7 @@ uid: Qdk.Std.ResourceEstimation.AccountForEstimates
 title: AccountForEstimates operation
 description: "Q# AccountForEstimates operation: Account for the resource estimates of an unimplemented operation, which were obtained separately. This operation is only available when using resource estimator execution target."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.ResourceEstimation

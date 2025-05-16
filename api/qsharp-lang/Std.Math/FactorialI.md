@@ -3,7 +3,7 @@ uid: Qdk.Std.Math.FactorialI
 title: FactorialI function
 description: "Q# FactorialI function: Returns the factorial of a given number."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

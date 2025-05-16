@@ -3,7 +3,7 @@ uid: Qdk.Std.Math.Floor
 title: Floor function
 description: "Q# Floor function: Returns the largest integer less than or equal to the specified number. For example: Floor(3.7) = 3; Floor(-3.1) = -4"
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

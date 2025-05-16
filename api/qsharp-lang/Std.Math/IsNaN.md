@@ -3,7 +3,7 @@ uid: Qdk.Std.Math.IsNaN
 title: IsNaN function
 description: "Q# IsNaN function: Returns whether a given floating-point value is not a number (i.e. is NaN)."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

@@ -3,7 +3,7 @@ uid: Qdk.Std.Canon.ApplyToEach
 title: ApplyToEach operation
 description: "Q# ApplyToEach operation: Applies an operation to each element in a register."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

@@ -3,7 +3,7 @@ uid: Qdk.Std.Math.Lg
 title: Lg function
 description: "Q# Lg function: Computes the base-2 logarithm of a number."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math
