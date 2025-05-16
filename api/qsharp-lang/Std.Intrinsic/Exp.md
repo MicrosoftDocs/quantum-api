@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.Exp
 title: Exp operation
 description: "Q# Exp operation: Applies the exponential of a multi-qubit Pauli operator."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

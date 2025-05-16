@@ -3,7 +3,7 @@ uid: Qdk.Std.Canon.ApplyToEachA
 title: ApplyToEachA operation
 description: "Q# ApplyToEachA operation: Applies an operation to each element in a register. The modifier `A` indicates that the single-element operation is adjointable."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

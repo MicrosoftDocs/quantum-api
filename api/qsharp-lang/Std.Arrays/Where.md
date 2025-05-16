@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.Where
 title: Where function
 description: "Q# Where function: Given a predicate and an array, returns the indices of that array where the predicate is true."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

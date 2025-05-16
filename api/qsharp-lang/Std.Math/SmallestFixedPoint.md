@@ -3,7 +3,7 @@ uid: Qdk.Std.Math.SmallestFixedPoint
 title: SmallestFixedPoint function
 description: "Q# SmallestFixedPoint function: Returns the smallest representable number for specific fixed point dimensions."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.Ryy
 title: Ryy operation
 description: "Q# Ryy operation: Applies the two qubit Ising _YY_ rotation gate."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

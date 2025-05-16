@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.Rx
 title: Rx operation
 description: "Q# Rx operation: Applies a rotation about the _x_-axis by a given angle."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

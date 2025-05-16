@@ -3,7 +3,7 @@ uid: Qdk.Std.Math.SignI
 title: SignI function
 description: "Q# SignI function: Returns -1, 0 or +1 that indicates the sign of a number."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

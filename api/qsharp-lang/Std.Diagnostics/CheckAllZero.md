@@ -3,7 +3,7 @@ uid: Qdk.Std.Diagnostics.CheckAllZero
 title: CheckAllZero operation
 description: "Q# CheckAllZero operation: Checks whether all qubits in the provided array are in the |0⟩ state. Returns true if they are."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

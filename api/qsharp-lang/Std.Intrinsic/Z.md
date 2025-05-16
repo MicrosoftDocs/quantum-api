@@ -3,7 +3,7 @@ uid: Qdk.Std.Intrinsic.Z
 title: Z operation
 description: "Q# Z operation: Applies the Pauli _Z_ gate."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

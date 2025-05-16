@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.Partitioned
 title: Partitioned function
 description: "Q# Partitioned function: Splits an array into multiple parts."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

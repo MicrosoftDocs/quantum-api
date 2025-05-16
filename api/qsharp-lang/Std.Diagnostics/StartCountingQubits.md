@@ -3,7 +3,7 @@ uid: Qdk.Std.Diagnostics.StartCountingQubits
 title: StartCountingQubits operation
 description: "Q# StartCountingQubits operation: Starts counting the number of qubits allocated. Fails if qubits are already being counted."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

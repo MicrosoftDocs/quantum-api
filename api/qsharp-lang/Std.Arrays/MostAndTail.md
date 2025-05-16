@@ -3,7 +3,7 @@ uid: Qdk.Std.Arrays.MostAndTail
 title: MostAndTail function
 description: "Q# MostAndTail function: Returns a tuple of all but one and the last element of the array."
 ms.date: 01/24/2025
-ms.topic: managed-reference
+ms.topic: generated-reference
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays
