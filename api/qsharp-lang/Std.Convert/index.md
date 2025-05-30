@@ -2,9 +2,9 @@
 uid: Qdk.Std.Convert-toc
 title: Std.Convert namespace
 description: Table of contents for the Q# Convert namespace
-author: azure-quantum-content
-ms.author: quantumdocwriters
-ms.date: 01/24/2025
+author: {AUTHOR}
+ms.author: {MS_AUTHOR}
+ms.date: 05/29/2025
 ms.topic: landing-page
 ---
 
@@ -15,6 +15,7 @@ The Std.Convert namespace contains the following items:
 | Name | Description |
 |------|-------------|
 | [BigIntAsBoolArray](xref:Qdk.Std.Convert.BigIntAsBoolArray) | Produces a binary representation of a non-negative BigInt, using the little-endian representation for the returned array. |
+| [BigIntAsInt](xref:Qdk.Std.Convert.BigIntAsInt) | Converts a BigInt number into Int. Raises an error if the number is too large to fit. |
 | [BoolArrayAsBigInt](xref:Qdk.Std.Convert.BoolArrayAsBigInt) | Converts an array of Boolean values into a non-negative BigInt, interpreting the array as a binary representation in little-endian format. |
 | [BoolArrayAsInt](xref:Qdk.Std.Convert.BoolArrayAsInt) | Produces a non-negative integer from a string of bits in little-endian format. `bits[0]` represents the least significant bit. |
 | [BoolArrayAsResultArray](xref:Qdk.Std.Convert.BoolArrayAsResultArray) | Converts a `Bool[]` type to a `Result[]` type, where `true` is mapped to `One` and `false` is mapped to `Zero`. |

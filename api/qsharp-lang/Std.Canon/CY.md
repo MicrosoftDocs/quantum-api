@@ -2,8 +2,7 @@
 uid: Qdk.Std.Canon.CY
 title: CY operation
 description: "Q# CY operation: Applies the controlled-Y (CY) gate to a pair of qubits."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

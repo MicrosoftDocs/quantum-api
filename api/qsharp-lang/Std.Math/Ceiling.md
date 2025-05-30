@@ -2,8 +2,7 @@
 uid: Qdk.Std.Math.Ceiling
 title: Ceiling function
 description: "Q# Ceiling function: Returns the smallest integer greater than or equal to the specified number. For example: Ceiling(3.1) = 4; Ceiling(-3.7) = -3"
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arithmetic.ApplyIfGreaterL
 title: ApplyIfGreaterL operation
 description: "Q# ApplyIfGreaterL operation: Computes `if (c > x) { action(target) }`, that is, applies `action` to `target` if a BigInt value `c` is greater than the little-endian qubit register `x`"
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

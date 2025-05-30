@@ -2,9 +2,9 @@
 uid: Qdk.Microsoft.Quantum.Core-toc
 title: Microsoft.Quantum.Core namespace
 description: Table of contents for the Q# Microsoft.Quantum.Core namespace
-author: azure-quantum-content
-ms.author: quantumdocwriters
-ms.date: 01/24/2025
+author: {AUTHOR}
+ms.author: {MS_AUTHOR}
+ms.date: 05/29/2025
 ms.topic: landing-page
 ---
 

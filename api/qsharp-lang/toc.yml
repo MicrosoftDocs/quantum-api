@@ -92,6 +92,7 @@
   - {name: ApplyCNOTChain, uid: Qdk.Std.Canon.ApplyCNOTChain}
   - {name: ApplyControlledOnBitString, uid: Qdk.Std.Canon.ApplyControlledOnBitString}
   - {name: ApplyControlledOnInt, uid: Qdk.Std.Canon.ApplyControlledOnInt}
+  - {name: ApplyOperationPowerA, uid: Qdk.Std.Canon.ApplyOperationPowerA}
   - {name: ApplyP, uid: Qdk.Std.Canon.ApplyP}
   - {name: ApplyPauli, uid: Qdk.Std.Canon.ApplyPauli}
   - {name: ApplyPauliFromBitString, uid: Qdk.Std.Canon.ApplyPauliFromBitString}
@@ -115,6 +116,7 @@
 - items:
   - {name: Overview, uid: Qdk.Std.Convert-toc}
   - {name: BigIntAsBoolArray, uid: Qdk.Std.Convert.BigIntAsBoolArray}
+  - {name: BigIntAsInt, uid: Qdk.Std.Convert.BigIntAsInt}
   - {name: BoolArrayAsBigInt, uid: Qdk.Std.Convert.BoolArrayAsBigInt}
   - {name: BoolArrayAsInt, uid: Qdk.Std.Convert.BoolArrayAsInt}
   - {name: BoolArrayAsResultArray, uid: Qdk.Std.Convert.BoolArrayAsResultArray}
@@ -185,6 +187,7 @@
   - {name: Rzz, uid: Qdk.Std.Intrinsic.Rzz}
   - {name: S, uid: Qdk.Std.Intrinsic.S}
   - {name: SWAP, uid: Qdk.Std.Intrinsic.SWAP}
+  - {name: SX, uid: Qdk.Std.Intrinsic.SX}
   - {name: T, uid: Qdk.Std.Intrinsic.T}
   - {name: X, uid: Qdk.Std.Intrinsic.X}
   - {name: Y, uid: Qdk.Std.Intrinsic.Y}
@@ -276,6 +279,7 @@
   - {name: PowCP, uid: Qdk.Std.Math.PowCP}
   - {name: RealMod, uid: Qdk.Std.Math.RealMod}
   - {name: Round, uid: Qdk.Std.Math.Round}
+  - {name: RoundHalfAwayFromZero, uid: Qdk.Std.Math.RoundHalfAwayFromZero}
   - {name: SignD, uid: Qdk.Std.Math.SignD}
   - {name: SignI, uid: Qdk.Std.Math.SignI}
   - {name: SignL, uid: Qdk.Std.Math.SignL}
@@ -342,6 +346,7 @@
   - {name: Overview, uid: Qdk.Std.StatePreparation-toc}
   - {name: ApproximatelyPreparePureStateCP, uid: Qdk.Std.StatePreparation.ApproximatelyPreparePureStateCP}
   - {name: PreparePureStateD, uid: Qdk.Std.StatePreparation.PreparePureStateD}
+  - {name: PrepareUniformSuperposition, uid: Qdk.Std.StatePreparation.PrepareUniformSuperposition}
   name: Std.StatePreparation
   uid: Qdk.Std.StatePreparation
 - items:

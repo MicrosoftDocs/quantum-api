@@ -2,8 +2,7 @@
 uid: Qdk.Std.Convert.ComplexAsComplexPolar
 title: ComplexAsComplexPolar function
 description: "Q# ComplexAsComplexPolar function: Converts a complex number of type `Complex` to a complex number of type `ComplexPolar`."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

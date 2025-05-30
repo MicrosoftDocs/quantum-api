@@ -2,8 +2,7 @@
 uid: Qdk.Std.Diagnostics.DepolarizingNoise
 title: DepolarizingNoise function
 description: "Q# DepolarizingNoise function: The depolarizing noise with probability `p`."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

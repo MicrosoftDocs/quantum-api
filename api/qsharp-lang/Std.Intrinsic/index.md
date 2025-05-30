@@ -2,9 +2,9 @@
 uid: Qdk.Std.Intrinsic-toc
 title: Std.Intrinsic namespace
 description: Table of contents for the Q# Intrinsic namespace
-author: azure-quantum-content
-ms.author: quantumdocwriters
-ms.date: 01/24/2025
+author: {AUTHOR}
+ms.author: {MS_AUTHOR}
+ms.date: 05/29/2025
 ms.topic: landing-page
 ---
 
@@ -38,6 +38,7 @@ The Std.Intrinsic namespace contains the following items:
 | [Rzz](xref:Qdk.Std.Intrinsic.Rzz) | Applies the two qubit Ising _ZZ_ rotation gate. |
 | [S](xref:Qdk.Std.Intrinsic.S) | Applies the π/4 phase gate to a single qubit. |
 | [SWAP](xref:Qdk.Std.Intrinsic.SWAP) | Applies the SWAP gate to a pair of qubits. |
+| [SX](xref:Qdk.Std.Intrinsic.SX) | Applies the square root of X gate to a single qubit. |
 | [T](xref:Qdk.Std.Intrinsic.T) | Applies the π/8 gate to a single qubit. |
 | [X](xref:Qdk.Std.Intrinsic.X) | Applies the Pauli _X_ gate. |
 | [Y](xref:Qdk.Std.Intrinsic.Y) | Applies the Pauli _Y_ gate. |
