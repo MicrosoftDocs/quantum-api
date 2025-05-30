@@ -2,8 +2,7 @@
 uid: Qdk.Std.Intrinsic.X
 title: X operation
 description: "Q# X operation: Applies the Pauli _X_ gate."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

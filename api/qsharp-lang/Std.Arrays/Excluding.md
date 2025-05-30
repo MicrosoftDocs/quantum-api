@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arrays.Excluding
 title: Excluding function
 description: "Q# Excluding function: Returns an array containing the elements of another array, excluding elements at a given list of indices."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

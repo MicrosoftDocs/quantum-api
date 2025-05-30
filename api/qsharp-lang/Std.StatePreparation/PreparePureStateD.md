@@ -2,8 +2,7 @@
 uid: Qdk.Std.StatePreparation.PreparePureStateD
 title: PreparePureStateD operation
 description: "Q# PreparePureStateD operation: Given a set of coefficients and a big-endian quantum register, prepares a state on that register described by the given coefficients."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.StatePreparation

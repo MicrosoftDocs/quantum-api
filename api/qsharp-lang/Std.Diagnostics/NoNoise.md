@@ -2,8 +2,7 @@
 uid: Qdk.Std.Diagnostics.NoNoise
 title: NoNoise function
 description: "Q# NoNoise function: No noise for noiseless operation."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

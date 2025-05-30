@@ -2,8 +2,7 @@
 uid: Qdk.Std.Math.ApproximateFactorial
 title: ApproximateFactorial function
 description: "Q# ApproximateFactorial function: Returns an approximate factorial of a given number."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

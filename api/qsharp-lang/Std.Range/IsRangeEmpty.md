@@ -2,8 +2,7 @@
 uid: Qdk.Std.Range.IsRangeEmpty
 title: IsRangeEmpty function
 description: "Q# IsRangeEmpty function: Returns true if and only if the input range is empty."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Range

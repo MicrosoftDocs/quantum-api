@@ -1,14 +1,13 @@
 ---
 uid: Qdk.Std.Math.Round
 title: Round function
-description: "Q# Round function: Returns the nearest integer to the specified number. For example: Round(3.7) = 4; Round(-3.7) = -4"
-ms.date: 01/24/2025
-ms.topic: generated-reference
+description: "Q# Round function: Returns the nearest integer to the specified number. Half is rounded towards zero. For example: Round(3.7) = 4; Round(-3.7) = -4; Round(3.5) = 3;"
+ms.date: 05/29/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math
 qsharp.name: Round
-qsharp.summary: "Returns the nearest integer to the specified number. For example: Round(3.7) = 4; Round(-3.7) = -4"
+qsharp.summary: "Returns the nearest integer to the specified number. Half is rounded towards zero. For example: Round(3.7) = 4; Round(-3.7) = -4; Round(3.5) = 3;"
 ---
 
 # Round function
@@ -20,5 +19,8 @@ function Round(value : Double) : Int
 ```
 
 ## Summary
-Returns the nearest integer to the specified number.
-For example: Round(3.7) = 4; Round(-3.7) = -4
+Returns the nearest integer to the specified number. Half is rounded towards zero.
+For example: Round(3.7) = 4; Round(-3.7) = -4; Round(3.5) = 3;
+
+## References
+[Wikipedia article - Rounding](https://en.wikipedia.org/wiki/Rounding#Rounding_half_toward_zero)

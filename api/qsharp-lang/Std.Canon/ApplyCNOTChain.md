@@ -2,8 +2,7 @@
 uid: Qdk.Std.Canon.ApplyCNOTChain
 title: ApplyCNOTChain operation
 description: "Q# ApplyCNOTChain operation: Computes the parity of a register of qubits in-place."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

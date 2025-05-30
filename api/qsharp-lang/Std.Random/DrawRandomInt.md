@@ -2,8 +2,7 @@
 uid: Qdk.Std.Random.DrawRandomInt
 title: DrawRandomInt operation
 description: "Q# DrawRandomInt operation: Draws a random integer from a uniform distribution in a given inclusive range. Fails if `max < min`."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 05/29/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Random
