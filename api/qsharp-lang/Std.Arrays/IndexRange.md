@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arrays.IndexRange
 title: IndexRange function
 description: "Q# IndexRange function: Given an array, returns a range over the indices of that array, suitable for use in a for loop."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

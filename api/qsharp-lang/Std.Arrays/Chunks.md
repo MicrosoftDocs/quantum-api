@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arrays.Chunks
 title: Chunks function
 description: "Q# Chunks function: Splits an array into multiple parts of equal length."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

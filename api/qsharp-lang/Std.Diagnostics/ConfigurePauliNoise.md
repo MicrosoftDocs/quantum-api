@@ -2,8 +2,7 @@
 uid: Qdk.Std.Diagnostics.ConfigurePauliNoise
 title: ConfigurePauliNoise function
 description: "Q# ConfigurePauliNoise function: Configures Pauli noise for simulation."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

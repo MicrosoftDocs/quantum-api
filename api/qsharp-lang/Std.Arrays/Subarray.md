@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arrays.Subarray
 title: Subarray function
 description: "Q# Subarray function: Takes an array and a list of locations and produces a new array formed from the elements of the original array that match the given locations."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

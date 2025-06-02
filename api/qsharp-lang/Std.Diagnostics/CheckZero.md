@@ -2,8 +2,7 @@
 uid: Qdk.Std.Diagnostics.CheckZero
 title: CheckZero operation
 description: "Q# CheckZero operation: Checks whether a qubit is in the |0⟩ state, returning true if it is."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

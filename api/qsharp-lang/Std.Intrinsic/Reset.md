@@ -2,8 +2,7 @@
 uid: Qdk.Std.Intrinsic.Reset
 title: Reset operation
 description: "Q# Reset operation: Given a single qubit, measures it and ensures it is in the |0⟩ state such that it can be safely released."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

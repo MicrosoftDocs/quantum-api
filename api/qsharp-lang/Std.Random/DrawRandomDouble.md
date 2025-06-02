@@ -2,8 +2,7 @@
 uid: Qdk.Std.Random.DrawRandomDouble
 title: DrawRandomDouble operation
 description: "Q# DrawRandomDouble operation: Draws a random real number from a uniform distribution in a given inclusive interval. Fails if `max < min`."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Random

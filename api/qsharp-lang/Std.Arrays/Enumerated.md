@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arrays.Enumerated
 title: Enumerated function
 description: "Q# Enumerated function: Given an array, returns a new array containing elements of the original array along with the indices of each element."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

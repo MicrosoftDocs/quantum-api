@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arithmetic.IncByLE
 title: IncByLE operation
 description: "Q# IncByLE operation: Increments a little-endian register ys by a little-endian register xs"
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

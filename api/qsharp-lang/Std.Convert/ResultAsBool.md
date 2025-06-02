@@ -2,8 +2,7 @@
 uid: Qdk.Std.Convert.ResultAsBool
 title: ResultAsBool function
 description: "Q# ResultAsBool function: Converts a `Result` type to a `Bool` type, where `One` is mapped to `true` and `Zero` is mapped to `false`."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

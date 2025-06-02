@@ -2,8 +2,7 @@
 uid: Qdk.Std.Diagnostics.StopCountingFunction
 title: StopCountingFunction operation
 description: "Q# StopCountingFunction operation: Stops counting the number of times the given function is called and returns the count. Fails if the function was not being counted."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

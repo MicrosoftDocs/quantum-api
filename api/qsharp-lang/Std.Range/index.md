@@ -2,9 +2,7 @@
 uid: Qdk.Std.Range-toc
 title: Std.Range namespace
 description: Table of contents for the Q# Range namespace
-author: azure-quantum-content
-ms.author: quantumdocwriters
-ms.date: 01/24/2025
+ms.date: 06/02/2025
 ms.topic: landing-page
 ---
 
