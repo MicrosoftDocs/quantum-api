@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.IndexOf
 title: IndexOf function
 description: "Q# IndexOf function: Returns the first index of the first element in an array that satisfies a given predicate. If no such element exists, returns -1."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

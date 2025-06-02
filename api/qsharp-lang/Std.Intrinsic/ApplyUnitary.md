@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.ApplyUnitary
 title: ApplyUnitary operation
 description: "Q# ApplyUnitary operation: Applies the given unitary matrix to the given qubits. The matrix is checked at runtime to ensure it's shape is square and that the matrix dimensions are `2 ^ Length(qubits)`. This operation is simulator-only and is not supported on hardware."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

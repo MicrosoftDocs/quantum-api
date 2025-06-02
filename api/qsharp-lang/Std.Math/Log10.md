@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.Log10
 title: Log10 function
 description: "Q# Log10 function: Returns the base-10 logarithm of a specified number."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

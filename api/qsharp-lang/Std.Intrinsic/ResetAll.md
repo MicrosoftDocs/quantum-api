@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.ResetAll
 title: ResetAll operation
 description: "Q# ResetAll operation: Given an array of qubits, measure them and ensure they are in the |0⟩ state such that they can be safely released."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

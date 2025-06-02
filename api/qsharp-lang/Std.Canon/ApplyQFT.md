@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.ApplyQFT
 title: ApplyQFT operation
 description: "Q# ApplyQFT operation: Applies the rotations of Quantum Fourier Transform (QFT) to a little-endian quantum register."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

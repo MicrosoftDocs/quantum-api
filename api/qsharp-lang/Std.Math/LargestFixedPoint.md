@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.LargestFixedPoint
 title: LargestFixedPoint function
 description: "Q# LargestFixedPoint function: Returns the largest representable number for specific fixed point dimensions."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

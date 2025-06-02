@@ -2,7 +2,7 @@
 uid: Qdk.Std.Range.RangeStep
 title: RangeStep function
 description: "Q# RangeStep function: Returns the integer that specifies how the next value of a range is calculated."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Range

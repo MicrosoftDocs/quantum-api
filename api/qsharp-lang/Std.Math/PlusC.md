@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.PlusC
 title: PlusC function
 description: "Q# PlusC function: Returns the sum of two inputs of type `Complex`."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

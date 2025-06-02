@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.Complex
 title: Complex user defined type
 description: "Q# Complex user defined type: Represents a complex number by its real and imaginary components. The first element of the tuple is the real component, the second one - the imaginary component."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: udt
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

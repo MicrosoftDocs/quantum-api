@@ -2,7 +2,7 @@
 uid: Qdk.Std.Core.Length
 title: Length function
 description: "Q# Length function: Returns the number of elements in the input array `a`."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Core__
 qsharp.namespace: Std.Core

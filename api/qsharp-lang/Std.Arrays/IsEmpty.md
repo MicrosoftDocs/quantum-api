@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.IsEmpty
 title: IsEmpty function
 description: "Q# IsEmpty function: Returns true if and only if an array is empty."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

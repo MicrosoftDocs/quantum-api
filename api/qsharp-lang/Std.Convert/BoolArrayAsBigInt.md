@@ -2,7 +2,7 @@
 uid: Qdk.Std.Convert.BoolArrayAsBigInt
 title: BoolArrayAsBigInt function
 description: "Q# BoolArrayAsBigInt function: Converts an array of Boolean values into a non-negative BigInt, interpreting the array as a binary representation in little-endian format."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

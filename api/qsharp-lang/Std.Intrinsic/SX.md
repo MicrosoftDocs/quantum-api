@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.SX
 title: SX operation
 description: "Q# SX operation: Applies the square root of X gate to a single qubit."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

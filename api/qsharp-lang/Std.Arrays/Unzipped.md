@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.Unzipped
 title: Unzipped function
 description: "Q# Unzipped function: Given an array of 2-tuples, returns a tuple of two arrays, each containing the elements of the tuples of the input array."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

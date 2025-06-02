@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.IsInfinite
 title: IsInfinite function
 description: "Q# IsInfinite function: Returns whether a given floating-point value is either positive or negative infinity."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

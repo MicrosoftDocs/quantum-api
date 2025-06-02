@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.I
 title: I operation
 description: "Q# I operation: Performs the identity operation (no-op) on a single qubit."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

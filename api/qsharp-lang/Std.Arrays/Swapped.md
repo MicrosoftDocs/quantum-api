@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.Swapped
 title: Swapped function
 description: "Q# Swapped function: Applies a swap of two elements in an array."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

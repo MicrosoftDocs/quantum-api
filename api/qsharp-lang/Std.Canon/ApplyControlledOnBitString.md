@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.ApplyControlledOnBitString
 title: ApplyControlledOnBitString operation
 description: "Q# ApplyControlledOnBitString operation: Applies `oracle` on `target` when `controlRegister` is in the state specified by `bits`."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.Sinh
 title: Sinh function
 description: "Q# Sinh function: Returns the hyperbolic sine of the specified angle."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

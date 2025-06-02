@@ -2,7 +2,7 @@
 uid: Qdk.Std.StatePreparation.PrepareUniformSuperposition
 title: PrepareUniformSuperposition operation
 description: "Q# PrepareUniformSuperposition operation: Prepares a uniform superposition of states that represent integers 0 through `nStates - 1` in a little-endian `qubits` register."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.StatePreparation

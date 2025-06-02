@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.CX
 title: CX operation
 description: "Q# CX operation: Applies the controlled-X (CX) gate to a pair of qubits."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

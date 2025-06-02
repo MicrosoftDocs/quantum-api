@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.RippleCarryCGIncByLE
 title: RippleCarryCGIncByLE operation
 description: "Q# RippleCarryCGIncByLE operation: Increments a little-endian register ys by a little-endian register xs using the ripple-carry algorithm."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

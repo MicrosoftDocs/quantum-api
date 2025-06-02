@@ -2,7 +2,7 @@
 uid: Qdk.Std.Convert.ResultArrayAsInt
 title: ResultArrayAsInt function
 description: "Q# ResultArrayAsInt function: Produces a non-negative integer from a string of Results in little-endian format."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

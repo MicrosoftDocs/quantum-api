@@ -2,7 +2,7 @@
 uid: Qdk.Std.Diagnostics.PhaseFlipNoise
 title: PhaseFlipNoise function
 description: "Q# PhaseFlipNoise function: The phase flip noise with probability `p`."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.ApplyPauli
 title: ApplyPauli operation
 description: "Q# ApplyPauli operation: Given a multi-qubit Pauli operator, applies the corresponding operation to a quantum register."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

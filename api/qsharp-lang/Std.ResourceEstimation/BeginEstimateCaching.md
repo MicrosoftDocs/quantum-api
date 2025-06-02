@@ -2,7 +2,7 @@
 uid: Qdk.Std.ResourceEstimation.BeginEstimateCaching
 title: BeginEstimateCaching function
 description: "Q# BeginEstimateCaching function: Informs the resource estimator of the start of the code fragment for which estimates caching can be done. This function is only available when using resource estimator execution target."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.ResourceEstimation

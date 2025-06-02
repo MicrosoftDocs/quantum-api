@@ -2,7 +2,7 @@
 uid: Qdk.Std.Convert.IntAsBigInt
 title: IntAsBigInt function
 description: "Q# IntAsBigInt function: Converts a given integer `number` to an equivalent big integer."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

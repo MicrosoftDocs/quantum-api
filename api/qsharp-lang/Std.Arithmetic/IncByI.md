@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.IncByI
 title: IncByI operation
 description: "Q# IncByI operation: Increments a little-endian register ys by an integer number c"
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

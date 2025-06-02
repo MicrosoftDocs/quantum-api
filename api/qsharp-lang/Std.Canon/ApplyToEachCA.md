@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.ApplyToEachCA
 title: ApplyToEachCA operation
 description: "Q# ApplyToEachCA operation: Applies an operation to each element in a register. The modifier `CA` indicates that the single-element operation is controllable and adjointable."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.Round
 title: Round function
 description: "Q# Round function: Returns the nearest integer to the specified number. Half is rounded towards zero. For example: Round(3.7) = 4; Round(-3.7) = -4; Round(3.5) = 3;"
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

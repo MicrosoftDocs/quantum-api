@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.Sin
 title: Sin function
 description: "Q# Sin function: Returns the sine of the specified angle."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

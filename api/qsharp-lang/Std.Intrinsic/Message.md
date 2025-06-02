@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.Message
 title: Message function
 description: "Q# Message function: Logs a message."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

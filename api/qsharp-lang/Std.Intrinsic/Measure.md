@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.Measure
 title: Measure operation
 description: "Q# Measure operation: Performs a joint measurement of one or more qubits in the specified Pauli bases.  If the basis array and qubit array are different lengths, then the operation will fail."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

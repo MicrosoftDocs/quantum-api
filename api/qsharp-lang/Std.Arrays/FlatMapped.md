@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.FlatMapped
 title: FlatMapped function
 description: "Q# FlatMapped function: Given an array and a function that maps an array element to some output array, returns the concatenated output arrays for each array element."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

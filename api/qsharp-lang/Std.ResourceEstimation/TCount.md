@@ -2,7 +2,7 @@
 uid: Qdk.Std.ResourceEstimation.TCount
 title: TCount function
 description: "Q# TCount function: Returns a tuple that can be passed to the `AccountForEstimates` operation to specify that the number of the T gates is equal to the `amount`."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.ResourceEstimation

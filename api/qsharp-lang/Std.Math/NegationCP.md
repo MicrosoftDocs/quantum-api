@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.NegationCP
 title: NegationCP function
 description: "Q# NegationCP function: Returns the unary negation of an input of type `ComplexPolar`"
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

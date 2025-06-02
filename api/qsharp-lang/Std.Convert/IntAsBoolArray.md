@@ -2,7 +2,7 @@
 uid: Qdk.Std.Convert.IntAsBoolArray
 title: IntAsBoolArray function
 description: "Q# IntAsBoolArray function: Produces a binary representation of a non-negative integer, using the little-endian representation for the returned array."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

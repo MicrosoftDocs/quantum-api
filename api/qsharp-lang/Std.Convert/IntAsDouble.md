@@ -2,7 +2,7 @@
 uid: Qdk.Std.Convert.IntAsDouble
 title: IntAsDouble function
 description: "Q# IntAsDouble function: Converts a given integer `number` to an equivalent double-precision floating-point number."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

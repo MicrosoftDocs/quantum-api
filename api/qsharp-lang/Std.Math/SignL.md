@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.SignL
 title: SignL function
 description: "Q# SignL function: Returns -1, 0 or +1 that indicates the sign of a number."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

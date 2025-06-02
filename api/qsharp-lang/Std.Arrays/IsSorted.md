@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.IsSorted
 title: IsSorted function
 description: "Q# IsSorted function: Given an array, returns whether that array is sorted as defined by a given comparison function."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

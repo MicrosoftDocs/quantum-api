@@ -2,7 +2,7 @@
 uid: Qdk.Std.Canon.CZ
 title: CZ operation
 description: "Q# CZ operation: Applies the controlled-Z (CZ) gate to a pair of qubits."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Canon

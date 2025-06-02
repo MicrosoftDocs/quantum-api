@@ -2,9 +2,7 @@
 uid: Qdk.Std.Diagnostics-toc
 title: Std.Diagnostics namespace
 description: Table of contents for the Q# Diagnostics namespace
-author: {AUTHOR}
-ms.author: {MS_AUTHOR}
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 ms.topic: landing-page
 ---
 

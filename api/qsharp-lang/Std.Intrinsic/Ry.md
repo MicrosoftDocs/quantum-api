@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.Ry
 title: Ry operation
 description: "Q# Ry operation: Applies a rotation about the _y_-axis by a given angle."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

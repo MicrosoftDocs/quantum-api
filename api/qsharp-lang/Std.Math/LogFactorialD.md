@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.LogFactorialD
 title: LogFactorialD function
 description: "Q# LogFactorialD function: Returns the approximate natural logarithm of the factorial of a given integer."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

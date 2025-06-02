@@ -2,7 +2,7 @@
 uid: Qdk.Std.Intrinsic.Y
 title: Y operation
 description: "Q# Y operation: Applies the Pauli _Y_ gate."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Intrinsic

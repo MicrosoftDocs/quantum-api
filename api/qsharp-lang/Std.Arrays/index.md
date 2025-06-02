@@ -2,9 +2,7 @@
 uid: Qdk.Std.Arrays-toc
 title: Std.Arrays namespace
 description: Table of contents for the Q# Arrays namespace
-author: {AUTHOR}
-ms.author: {MS_AUTHOR}
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 ms.topic: landing-page
 ---
 

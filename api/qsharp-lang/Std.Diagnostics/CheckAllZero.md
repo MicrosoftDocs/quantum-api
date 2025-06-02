@@ -2,7 +2,7 @@
 uid: Qdk.Std.Diagnostics.CheckAllZero
 title: CheckAllZero operation
 description: "Q# CheckAllZero operation: Checks whether all qubits in the provided array are in the |0⟩ state. Returns true if they are."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

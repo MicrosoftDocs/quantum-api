@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.GreatestCommonDivisorL
 title: GreatestCommonDivisorL function
 description: "Q# GreatestCommonDivisorL function: Computes the greatest common divisor of two integers. Note: GCD is always positive except that GCD(0,0)=0."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

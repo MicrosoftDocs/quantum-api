@@ -2,7 +2,7 @@
 uid: Qdk.Std.ResourceEstimation.RepeatEstimates
 title: RepeatEstimates operation
 description: "Q# RepeatEstimates operation: Instructs the resource estimator to assume that the resources from the call of this operation until a call to `Adjoint RepeatEstimates` are accounted for `count` times, without the need to execute the code that many times."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.ResourceEstimation

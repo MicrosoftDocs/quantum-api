@@ -2,7 +2,7 @@
 uid: Qdk.Std.Range.RangeStart
 title: RangeStart function
 description: "Q# RangeStart function: Returns the defined start value of the given range."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Range

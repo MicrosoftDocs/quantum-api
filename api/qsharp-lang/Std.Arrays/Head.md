@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arrays.Head
 title: Head function
 description: "Q# Head function: Returns the first element of the array."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

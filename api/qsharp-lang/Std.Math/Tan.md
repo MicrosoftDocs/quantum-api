@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.Tan
 title: Tan function
 description: "Q# Tan function: Returns the tangent of the specified angle."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math

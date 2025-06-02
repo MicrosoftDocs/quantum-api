@@ -2,7 +2,7 @@
 uid: Qdk.Std.Convert.BigIntAsInt
 title: BigIntAsInt function
 description: "Q# BigIntAsInt function: Converts a BigInt number into Int. Raises an error if the number is too large to fit."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Convert

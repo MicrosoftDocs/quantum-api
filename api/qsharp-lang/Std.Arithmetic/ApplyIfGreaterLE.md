@@ -2,7 +2,7 @@
 uid: Qdk.Std.Arithmetic.ApplyIfGreaterLE
 title: ApplyIfGreaterLE operation
 description: "Q# ApplyIfGreaterLE operation: Computes `if x > y { action(target) }`, that is, applies `action` to `target` if register `x` is greater than the register `y`. Both qubit registers should be in a little-endian format."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

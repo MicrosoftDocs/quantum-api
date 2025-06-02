@@ -2,7 +2,7 @@
 uid: Qdk.Std.Math.AbsSquaredComplex
 title: AbsSquaredComplex function
 description: "Q# AbsSquaredComplex function: Returns the squared absolute value of a complex number of type `Complex`."
-ms.date: 05/29/2025
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math
