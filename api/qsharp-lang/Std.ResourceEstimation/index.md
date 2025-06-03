@@ -2,9 +2,7 @@
 uid: Qdk.Std.ResourceEstimation-toc
 title: Std.ResourceEstimation namespace
 description: Table of contents for the Q# ResourceEstimation namespace
-author: azure-quantum-content
-ms.author: quantumdocwriters
-ms.date: 01/24/2025
+ms.date: 06/02/2025
 ms.topic: landing-page
 ---
 

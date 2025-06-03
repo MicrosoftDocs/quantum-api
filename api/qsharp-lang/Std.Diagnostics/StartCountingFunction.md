@@ -2,8 +2,7 @@
 uid: Qdk.Std.Diagnostics.StartCountingFunction
 title: StartCountingFunction operation
 description: "Q# StartCountingFunction operation: Starts counting the number of times the given function is called. Fails if the function is already being counted."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics

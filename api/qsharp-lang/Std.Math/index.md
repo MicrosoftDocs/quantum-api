@@ -2,9 +2,7 @@
 uid: Qdk.Std.Math-toc
 title: Std.Math namespace
 description: Table of contents for the Q# Math namespace
-author: azure-quantum-content
-ms.author: quantumdocwriters
-ms.date: 01/24/2025
+ms.date: 06/02/2025
 ms.topic: landing-page
 ---
 
@@ -91,7 +89,8 @@ The Std.Math namespace contains the following items:
 | [PowC](xref:Qdk.Std.Math.PowC) | Returns a number raised to a given power of type `Complex`. Note that this is a multi-valued function, but only one value is returned. |
 | [PowCP](xref:Qdk.Std.Math.PowCP) | Returns a number raised to a given power of type `ComplexPolar`. Note that this is a multi-valued function, but only one value is returned. |
 | [RealMod](xref:Qdk.Std.Math.RealMod) | Computes the modulus between two real numbers. |
-| [Round](xref:Qdk.Std.Math.Round) | Returns the nearest integer to the specified number. For example: Round(3.7) = 4; Round(-3.7) = -4 |
+| [Round](xref:Qdk.Std.Math.Round) | Returns the nearest integer to the specified number. Half is rounded towards zero. For example: Round(3.7) = 4; Round(-3.7) = -4; Round(3.5) = 3; |
+| [RoundHalfAwayFromZero](xref:Qdk.Std.Math.RoundHalfAwayFromZero) | Returns the nearest integer to the specified number. Half is rounded away from zero. For example: RoundHalfAwayFromZero(-3.7) = -4, RoundHalfAwayFromZero(3.5) = 4; |
 | [SignD](xref:Qdk.Std.Math.SignD) | Returns -1, 0 or +1 that indicates the sign of a number. |
 | [SignI](xref:Qdk.Std.Math.SignI) | Returns -1, 0 or +1 that indicates the sign of a number. |
 | [SignL](xref:Qdk.Std.Math.SignL) | Returns -1, 0 or +1 that indicates the sign of a number. |

@@ -2,8 +2,7 @@
 uid: Qdk.Std.Measurement.MeasureAllZ
 title: MeasureAllZ operation
 description: "Q# MeasureAllZ operation: Jointly measures a register of qubits in the Pauli Z basis."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Measurement

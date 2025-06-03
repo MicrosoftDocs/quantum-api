@@ -2,8 +2,7 @@
 uid: Qdk.Std.Diagnostics.DumpOperation
 title: DumpOperation operation
 description: "Q# DumpOperation operation: Given an operation, dumps the matrix representation of the operation action on the given number of qubits."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Diagnostics
@@ -16,7 +15,7 @@ qsharp.summary: "Given an operation, dumps the matrix representation of the oper
 Fully qualified name: Std.Diagnostics.DumpOperation
 
 ```qsharp
-operation DumpOperation(nQubits : Int, op : (Qubit[] => Unit is Adj)) : Unit
+operation DumpOperation(nQubits : Int, op : (Qubit[] => Unit)) : Unit
 ```
 
 ## Summary

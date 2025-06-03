@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arrays.HeadAndRest
 title: HeadAndRest function
 description: "Q# HeadAndRest function: Returns a tuple of first and all remaining elements of the array."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

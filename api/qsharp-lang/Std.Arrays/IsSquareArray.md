@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arrays.IsSquareArray
 title: IsSquareArray function
 description: "Q# IsSquareArray function: Returns whether a 2-dimensional array has a square shape"
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Arrays

@@ -2,9 +2,7 @@
 uid: Qdk.Std.Canon-toc
 title: Std.Canon namespace
 description: Table of contents for the Q# Canon namespace
-author: azure-quantum-content
-ms.author: quantumdocwriters
-ms.date: 01/24/2025
+ms.date: 06/02/2025
 ms.topic: landing-page
 ---
 
@@ -17,6 +15,7 @@ The Std.Canon namespace contains the following items:
 | [ApplyCNOTChain](xref:Qdk.Std.Canon.ApplyCNOTChain) | Computes the parity of a register of qubits in-place. |
 | [ApplyControlledOnBitString](xref:Qdk.Std.Canon.ApplyControlledOnBitString) | Applies `oracle` on `target` when `controlRegister` is in the state specified by `bits`. |
 | [ApplyControlledOnInt](xref:Qdk.Std.Canon.ApplyControlledOnInt) | Applies a unitary operation on the target if the control register state corresponds to a specified nonnegative integer. |
+| [ApplyOperationPowerA](xref:Qdk.Std.Canon.ApplyOperationPowerA) | Applies operation `op` to the `target` `power` times. If `power` is negative, the adjoint of `op` is used. If `power` is 0, the operation `op` is not applied. |
 | [ApplyP](xref:Qdk.Std.Canon.ApplyP) | Given a single-qubit Pauli operator, applies the corresponding operation to a single qubit. |
 | [ApplyPauli](xref:Qdk.Std.Canon.ApplyPauli) | Given a multi-qubit Pauli operator, applies the corresponding operation to a quantum register. |
 | [ApplyPauliFromBitString](xref:Qdk.Std.Canon.ApplyPauliFromBitString) | Applies a Pauli operator on each qubit in an array if the corresponding bit of a Boolean array matches a given input. |

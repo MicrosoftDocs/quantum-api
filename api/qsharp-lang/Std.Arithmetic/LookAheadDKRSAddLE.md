@@ -2,8 +2,7 @@
 uid: Qdk.Std.Arithmetic.LookAheadDKRSAddLE
 title: LookAheadDKRSAddLE operation
 description: "Q# LookAheadDKRSAddLE operation: Sets a zero-initialized little-endian register zs to the sum of little-endian registers xs and ys using the carry-lookahead algorithm."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: operation
 qsharp.package: __Std__
 qsharp.namespace: Std.Arithmetic

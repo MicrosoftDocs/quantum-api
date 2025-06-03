@@ -2,8 +2,7 @@
 uid: Qdk.Std.Math.PNormalized
 title: PNormalized function
 description: "Q# PNormalized function: Normalizes a vector of `Double`s in the `L(p)` norm.  That is, given an array x of type `Double[]`, this returns an array where all elements are divided by the p-norm |x̄|ₚ. Function leaves array with norm 0 unchanged."
-ms.date: 01/24/2025
-ms.topic: generated-reference
+ms.date: 06/02/2025
 qsharp.kind: function
 qsharp.package: __Std__
 qsharp.namespace: Std.Math
