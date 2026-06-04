@@ -6,7 +6,7 @@
     expanded: true
     href: qsharp-lang/toc.yml
   - name: Python libraries
-    href: /python/qsharp/qsharp
+    href: /python/qdk/qdk
   - name: REST APIs
     href: /rest/api/azurequantum/
   - name: ARM templates
